@@ -1,0 +1,102 @@
+# ReelBot settings. Edit this file to change what the bot makes and posts.
+
+brand:
+  name: iLoveDocuments
+  url: ilovedocuments.ai
+  tagline: Every PDF and image tool you need, free and private
+  background: "#0D121E"      # dark navy from the site
+  background2: "#16233F"
+  accent: "#FFC233"          # highlight colour for key words
+  text: "#FFFFFF"
+
+content:
+  style: story3d             # story3d = low-poly 3D story reels | cards = text and upload cards
+  # One reel per language per day. Each language learns from its own results.
+  languages:
+    - id: english
+      write_in: Simple Indian English
+      voicemaker_voice: ai3-en-IN-Prabhas  # set provider: voicemaker here to use it
+      azure_voice: en-IN-PrabhatNeural   # or en-IN-NeerjaNeural (female)
+      kokoro_voice: am_michael     # others: af_heart, bf_emma, am_fenrir
+      kokoro_lang: en-us
+      piper_voice: en_US-lessac-medium
+      elevenlabs_voice_id: ""
+    - id: hinglish
+      write_in: >
+        Hinglish, the everyday mix of Hindi and common English words that young
+        Indians speak. On-screen text and captions in Roman letters.
+      tts_script: Devanagari    # the voice engine reads Hindi script
+      provider: piper                      # voice 6 from the samples; change to voicemaker once that account has credit
+      voicemaker_voice: ai3-hi-IN-Madhur
+      azure_voice: hi-IN-MadhurNeural    # or hi-IN-SwaraNeural (female)
+      kokoro_voice: hm_omega       # others: hf_alpha, hf_beta, hm_psi
+      kokoro_lang: hi
+      piper_voice: hi_IN-pratham-medium
+      elevenlabs_voice_id: ""
+  audience: >
+    People in India filling online forms (exam, government, job, passport)
+    who need a PDF, photo or signature to meet a size or format rule.
+  voice_and_tone: Plain, friendly, fast. Short sentences. No hype words.
+  facts:                      # the only product claims a script may make
+    - Free to use, no sign-up, no watermark
+    - Files are processed in the browser on your device and are not uploaded
+    - Works on mobile and desktop
+  cta: "Free. No sign-up. No watermark."
+  hashtags: ["#pdf", "#onlineform", "#studenthacks", "#govtexam", "#techtips"]
+  max_hashtags: 5
+  target_seconds: [15, 21]   # first reels: people watched 8-9s of 24-33s, so shorter
+  # Each topic is one "arm" the bot tests and learns from.
+  topics:
+    - id: compress_pdf_kb
+      title: Compress a PDF to 100 KB or 200 KB for form uploads
+    - id: resize_photo_kb
+      title: Resize a photo to 20-50 KB for exam and job forms
+    - id: resize_signature_kb
+      title: Resize a signature to 10-20 KB
+    - id: passport_photo
+      title: Make a passport size photo at home
+    - id: unlock_aadhaar
+      title: Open a password-protected e-Aadhaar PDF and remove the password
+    - id: jpg_to_pdf
+      title: Turn phone photos of documents into one PDF
+    - id: merge_pdf
+      title: Merge several PDFs into one file
+    - id: bank_statement_excel
+      title: Convert a bank statement PDF to Excel
+    - id: sign_pdf
+      title: Sign a PDF on your phone without printing
+    - id: remove_background
+      title: Remove a photo background for ID photos
+    - id: ocr_hindi
+      title: Copy text out of a scanned PDF in Hindi, Gujarati or English
+    - id: privacy
+      title: Why you should not upload ID documents to random websites
+  hook_styles: [question, problem, bold_claim, number, how_to]
+  formats: [what_if, deadline_story, two_friends, explainer]          # story3d formats
+  card_formats: [problem_fix, three_mistakes, before_after, myth_buster]
+
+research:
+  refresh_days: 3
+  hashtags: [pdf, onlineform, sscexam, govtjobs, studytips]   # max 30 different per week (Meta limit)
+  competitors: []            # Instagram usernames of business/creator accounts to watch
+  keep_top: 25
+
+voice:
+  provider: azure            # azure (free tier, Indian voices; falls back to kokoro without a key) | kokoro | piper | elevenlabs | none
+  speed: 1.05
+  sound_effects: true        # whoosh, pop, error buzz, success ding
+
+posting:
+  enabled: true              # master switch. false = bot does nothing
+  dry_run: false             # true = make videos but never post
+  per_language_per_day: 1
+  share_to_feed: true
+  label_ai_generated: true
+
+learning:
+  check_hours: [24, 72, 168] # when to read each reel's results
+  explore_rate: 0.25         # share of posts that try something not yet proven
+  min_posts_for_playbook: 4
+
+claude:
+  model: claude-sonnet-5-5   # used only with an API key; the subscription token uses your plan's default

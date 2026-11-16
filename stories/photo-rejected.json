@@ -1,0 +1,184 @@
+{
+ "title": "Form rejected your photo",
+ "scenes": [
+  {
+   "kind": "hook",
+   "set": "bedroom",
+   "camera": "wide",
+   "screen": "Form rejected your photo?",
+   "emphasis": [
+    "rejected"
+   ],
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "panic"
+    }
+   ],
+   "props": [
+    {
+     "type": "panel",
+     "show": "error",
+     "file": "photo.jpg",
+     "size": "2.4 MB",
+     "message": "Max size 50 KB"
+    }
+   ],
+   "voice": "Form rejected your photo again?",
+   "say": "Form rejected your photo again?",
+   "voice_hi": "फॉर्म ने फोटो फिर रिजेक्ट कर दी?",
+   "say_hi": "Form ne photo phir reject kar di?"
+  },
+  {
+   "kind": "point",
+   "set": "bedroom",
+   "camera": "push_in",
+   "label": "THE PROBLEM",
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "sad"
+    }
+   ],
+   "props": [
+    {
+     "type": "panel",
+     "show": "text",
+     "text": "MAX 50 KB"
+    }
+   ],
+   "voice": "It wants fifty K B. Yours is two point four M B.",
+   "say": "It wants 50 KB. Yours is 2.4 MB.",
+   "voice_hi": "उसे चाहिए पचास के बी। आपकी है दो पॉइंट चार एम बी।",
+   "say_hi": "Use chahiye 50 KB. Aapki hai 2.4 MB."
+  },
+  {
+   "kind": "point",
+   "set": "bedroom",
+   "camera": "close",
+   "label": "10 SECOND FIX",
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "phone"
+    }
+   ],
+   "props": [],
+   "voice": "Open I love documents dot A I.",
+   "say": "Open ilovedocuments.ai",
+   "voice_hi": "आई लव डॉक्यूमेंट्स डॉट ए आई खोलो।",
+   "say_hi": "ilovedocuments.ai kholo."
+  },
+  {
+   "kind": "point",
+   "set": "bedroom",
+   "camera": "wide",
+   "label": "10 SECOND FIX",
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "phone"
+    }
+   ],
+   "props": [
+    {
+     "type": "panel",
+     "show": "size_drop",
+     "file": "photo.jpg",
+     "from": "2.4 MB",
+     "to": "48 KB"
+    }
+   ],
+   "voice": "Pick fifty K B. Done.",
+   "say": "Pick 50 KB. Done.",
+   "voice_hi": "पचास के बी चुनो। बस।",
+   "say_hi": "50 KB chuno. Bas."
+  },
+  {
+   "kind": "point",
+   "set": "bedroom",
+   "camera": "orbit",
+   "label": "ACCEPTED",
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "cheer"
+    }
+   ],
+   "props": [
+    {
+     "type": "panel",
+     "show": "success",
+     "file": "photo.jpg",
+     "size": "48 KB",
+     "message": "Uploaded"
+    }
+   ],
+   "voice": "Upload again. Accepted.",
+   "say": "Upload again. Accepted.",
+   "voice_hi": "फिर से अपलोड करो। हो गया।",
+   "say_hi": "Phir se upload karo. Ho gaya."
+  },
+  {
+   "kind": "point",
+   "set": "park",
+   "camera": "low",
+   "label": "FREE",
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "wave",
+     "x": -0.6
+    },
+    {
+     "color": "blue",
+     "pose": "sad",
+     "x": 0.8,
+     "float": {
+      "text": "2.4 MB",
+      "color": "#ff5a66"
+     }
+    }
+   ],
+   "props": [],
+   "voice": "No app. No sign up. Free.",
+   "say": "No app. No sign-up. Free.",
+   "voice_hi": "ना ऐप। ना साइन अप। बिल्कुल फ्री।",
+   "say_hi": "Na app. Na sign-up. Bilkul free."
+  },
+  {
+   "kind": "cta",
+   "set": "sunset",
+   "camera": "orbit",
+   "screen": "Save this for your next form",
+   "emphasis": [
+    "Save"
+   ],
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "point",
+     "x": -0.5
+    },
+    {
+     "color": "blue",
+     "pose": "cheer",
+     "x": 0.7
+    }
+   ],
+   "props": [],
+   "voice": "Save this. Your next form will thank you.",
+   "say": "Save this. Your next form will thank you.",
+   "voice_hi": "इसे सेव कर लो। अगले फॉर्म में काम आएगा।",
+   "say_hi": "Ise save kar lo. Agle form mein kaam aayega."
+  }
+ ],
+ "caption": "Form ne photo reject kar di? 10 second ka fix.\nSave this for your next form. Comment FORM for the link.\nilovedocuments.ai",
+ "hashtags": [
+  "#onlineform",
+  "#govtexam",
+  "#studenthacks",
+  "#sscexam",
+  "#techtips"
+ ]
+}

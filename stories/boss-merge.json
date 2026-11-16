@@ -1,0 +1,263 @@
+{
+ "title": "My boss thought I was lying",
+ "scenes": [
+  {
+   "kind": "hook",
+   "set": "office",
+   "camera": "push_in",
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "stand",
+     "x": -0.8,
+     "look": "right"
+    },
+    {
+     "color": "grey",
+     "pose": "talk",
+     "x": 0.8,
+     "look": "left",
+     "tie": true
+    }
+   ],
+   "props": [],
+   "screen": "My boss thought I was lying",
+   "emphasis": [
+    "lying"
+   ],
+   "kokoro_voice": "bm_george",
+   "voice": "Nobody merges forty P D Fs in ten seconds.",
+   "say": "Nobody merges 40 PDFs in 10 seconds."
+  },
+  {
+   "kind": "point",
+   "set": "office",
+   "camera": "close",
+   "label": "INTERN",
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "talk",
+     "x": -0.8,
+     "look": "right"
+    },
+    {
+     "color": "grey",
+     "pose": "stand",
+     "x": 0.8,
+     "look": "left",
+     "tie": true
+    }
+   ],
+   "props": [],
+   "kokoro_voice": "am_puck",
+   "voice": "I just did, sir.",
+   "say": "I just did, sir."
+  },
+  {
+   "kind": "point",
+   "set": "office",
+   "camera": "low",
+   "label": "BOSS",
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "stand",
+     "x": -0.8,
+     "look": "right"
+    },
+    {
+     "color": "grey",
+     "pose": "talk",
+     "x": 0.8,
+     "look": "left",
+     "tie": true
+    }
+   ],
+   "props": [],
+   "kokoro_voice": "bm_george",
+   "voice": "It took Sharma three hours last year.",
+   "say": "It took Sharma 3 hours last year."
+  },
+  {
+   "kind": "point",
+   "set": "office",
+   "camera": "wide",
+   "label": "WATCH THIS",
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "point",
+     "x": -0.8,
+     "look": "right"
+    },
+    {
+     "color": "grey",
+     "pose": "stand",
+     "x": 0.8,
+     "look": "left",
+     "tie": true
+    }
+   ],
+   "props": [
+    {
+     "type": "panel",
+     "show": "text",
+     "text": "40 PDFs"
+    }
+   ],
+   "kokoro_voice": "am_puck",
+   "voice": "Want to see how? Forty files.",
+   "say": "Want to see how? 40 files."
+  },
+  {
+   "kind": "point",
+   "set": "office",
+   "camera": "push_in",
+   "label": "ILOVEDOCUMENTS.AI",
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "phone",
+     "x": -0.8,
+     "look": "right"
+    },
+    {
+     "color": "grey",
+     "pose": "stand",
+     "x": 0.8,
+     "look": "left",
+     "tie": true
+    }
+   ],
+   "props": [],
+   "kokoro_voice": "am_puck",
+   "voice": "I love documents dot A I. Drop them in. Tap merge.",
+   "say": "ilovedocuments.ai. Drop them in. Tap merge."
+  },
+  {
+   "kind": "point",
+   "set": "office",
+   "camera": "wide",
+   "label": "10 SECONDS",
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "cheer",
+     "x": -0.8,
+     "look": "right"
+    },
+    {
+     "color": "grey",
+     "pose": "panic",
+     "x": 0.8,
+     "look": "left",
+     "tie": true
+    }
+   ],
+   "props": [
+    {
+     "type": "panel",
+     "show": "success",
+     "file": "report.pdf",
+     "message": "40 files merged"
+    }
+   ],
+   "kokoro_voice": "am_puck",
+   "voice": "One file. Ten seconds.",
+   "say": "One file. 10 seconds."
+  },
+  {
+   "kind": "point",
+   "set": "office",
+   "camera": "low",
+   "label": "BOSS",
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "stand",
+     "x": -0.8,
+     "look": "right"
+    },
+    {
+     "color": "grey",
+     "pose": "talk",
+     "x": 0.8,
+     "look": "left",
+     "tie": true
+    }
+   ],
+   "props": [],
+   "kokoro_voice": "bm_george",
+   "voice": "And how much does this cost us?",
+   "say": "And how much does this cost us?"
+  },
+  {
+   "kind": "point",
+   "set": "office",
+   "camera": "wide",
+   "label": "INTERN",
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "talk",
+     "x": -0.8,
+     "look": "right"
+    },
+    {
+     "color": "grey",
+     "pose": "stand",
+     "x": 0.8,
+     "look": "left",
+     "tie": true
+    }
+   ],
+   "props": [
+    {
+     "type": "panel",
+     "show": "text",
+     "text": "FREE"
+    }
+   ],
+   "kokoro_voice": "am_puck",
+   "voice": "Nothing. It is free. No sign up.",
+   "say": "Nothing. It's free. No sign-up."
+  },
+  {
+   "kind": "cta",
+   "set": "office",
+   "camera": "orbit",
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "cheer",
+     "x": -0.8,
+     "look": "right"
+    },
+    {
+     "color": "grey",
+     "pose": "point",
+     "x": 0.8,
+     "look": "left",
+     "tie": true
+    }
+   ],
+   "props": [],
+   "screen": "Send this to your Sharma",
+   "emphasis": [
+    "Sharma"
+   ],
+   "kokoro_voice": "bm_george",
+   "voice": "Send this to Sharma. Immediately.",
+   "say": "Send this to Sharma. Immediately."
+  }
+ ],
+ "caption": "My boss thought I was lying about merging 40 PDFs in 10 seconds. 👀\n\nEvery office has one Sharma. Send this to yours.\n📌 Save it for your next report.\n💬 What takes forever at your office? Comment below.\n\nilovedocuments.ai",
+ "hashtags": [
+  "#officelife",
+  "#pdf",
+  "#worktips",
+  "#techtips",
+  "#productivity"
+ ]
+}

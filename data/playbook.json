@@ -1,0 +1,38 @@
+{
+  "hinglish": {
+    "measured": 0,
+    "updated": "2026-11-16",
+    "source": "first two reels posted by hand, read from Instagram insights after 5-6 hours",
+    "keep": [
+      "Question hook with a deadline: skip rate 37-39%, which Instagram marked better than typical",
+      "Useful how-to content: the Hinglish reel's save rate (0.7%) was above typical"
+    ],
+    "avoid": [
+      "Reels longer than about 20 seconds: average watch was 8-9s and only 5-8% reached the end",
+      "Slow build-up before the fix: 60% of viewers were gone by second 8"
+    ],
+    "next_tests": [
+      "15-20 second reels with the result on screen by second 8",
+      "Error panel visible in the very first shot",
+      "Ending on 'save this for your next form'"
+    ]
+  },
+  "english": {
+    "measured": 0,
+    "updated": "2026-11-16",
+    "source": "first two reels posted by hand, read from Instagram insights after 5-6 hours",
+    "keep": [
+      "Question hook with a deadline: skip rate 37-39%, which Instagram marked better than typical",
+      "Useful how-to content: the Hinglish reel's save rate (0.7%) was above typical"
+    ],
+    "avoid": [
+      "Reels longer than about 20 seconds: average watch was 8-9s and only 5-8% reached the end",
+      "Slow build-up before the fix: 60% of viewers were gone by second 8"
+    ],
+    "next_tests": [
+      "15-20 second reels with the result on screen by second 8",
+      "Error panel visible in the very first shot",
+      "Ending on 'save this for your next form'"
+    ]
+  }
+}

@@ -1,0 +1,287 @@
+{
+ "title": "My boss yelled at me",
+ "scenes": [
+  {
+   "kind": "hook",
+   "set": "office",
+   "camera": "push_in",
+   "shake": true,
+   "actors": [
+    {
+     "color": "blue",
+     "pose": "panic",
+     "x": -0.8,
+     "look": "right"
+    },
+    {
+     "color": "grey",
+     "pose": "yell",
+     "x": 0.8,
+     "look": "left",
+     "tie": true
+    }
+   ],
+   "props": [],
+   "speaker": "boss",
+   "style": "angry",
+   "screen": "My boss yelled at me. 10 seconds later...",
+   "emphasis": [
+    "yelled",
+    "10"
+   ],
+   "voice": "Jake! The client wanted that file an hour ago!",
+   "say": "JAKE! The client wanted that file an hour ago!"
+  },
+  {
+   "kind": "point",
+   "set": "office",
+   "camera": "wide",
+   "label": "JAKE",
+   "actors": [
+    {
+     "color": "blue",
+     "pose": "panic",
+     "x": -0.8,
+     "look": "right"
+    },
+    {
+     "color": "grey",
+     "pose": "stand",
+     "x": 0.8,
+     "look": "left",
+     "tie": true
+    }
+   ],
+   "speaker": "jake",
+   "style": "panic",
+   "props": [
+    {
+     "type": "panel",
+     "show": "error",
+     "file": "contract.pdf",
+     "size": "38 MB",
+     "message": "Too big. Limit 25 MB"
+    }
+   ],
+   "voice": "It won't send! The file's too big!",
+   "say": "It won't send! The file's too big!"
+  },
+  {
+   "kind": "point",
+   "set": "office",
+   "camera": "low",
+   "shake": true,
+   "label": "BOSS",
+   "actors": [
+    {
+     "color": "blue",
+     "pose": "sad",
+     "x": -0.8,
+     "look": "right"
+    },
+    {
+     "color": "grey",
+     "pose": "yell",
+     "x": 0.8,
+     "look": "left",
+     "tie": true
+    }
+   ],
+   "props": [],
+   "speaker": "boss",
+   "style": "angry",
+   "voice": "I don't care! Fix it! Now!",
+   "say": "I don't care! Fix it! NOW!"
+  },
+  {
+   "kind": "point",
+   "set": "office",
+   "camera": "close",
+   "label": "10 SECONDS LATER",
+   "actors": [
+    {
+     "color": "blue",
+     "pose": "phone",
+     "x": -0.8,
+     "look": "right"
+    },
+    {
+     "color": "grey",
+     "pose": "stand",
+     "x": 0.8,
+     "look": "left",
+     "tie": true
+    }
+   ],
+   "props": [],
+   "speaker": "jake",
+   "style": "calm",
+   "voice": "Okay, okay. Give me ten seconds.",
+   "say": "Okay, okay. Give me 10 seconds."
+  },
+  {
+   "kind": "point",
+   "set": "office",
+   "camera": "wide",
+   "label": "10 SECONDS LATER",
+   "actors": [
+    {
+     "color": "blue",
+     "pose": "phone",
+     "x": -0.8,
+     "look": "right"
+    },
+    {
+     "color": "grey",
+     "pose": "stand",
+     "x": 0.8,
+     "look": "left",
+     "tie": true
+    }
+   ],
+   "speaker": "jake",
+   "style": "calm",
+   "props": [
+    {
+     "type": "panel",
+     "show": "size_drop",
+     "file": "contract.pdf",
+     "from": "38 MB",
+     "to": "9 MB"
+    }
+   ],
+   "voice": "Thirty eight megabytes... down to nine.",
+   "say": "38 MB... down to 9."
+  },
+  {
+   "kind": "point",
+   "set": "office",
+   "camera": "orbit",
+   "label": "SENT",
+   "actors": [
+    {
+     "color": "blue",
+     "pose": "cheer",
+     "x": -0.8,
+     "look": "right"
+    },
+    {
+     "color": "grey",
+     "pose": "panic",
+     "x": 0.8,
+     "look": "left",
+     "tie": true
+    }
+   ],
+   "speaker": "jake",
+   "style": "happy",
+   "props": [
+    {
+     "type": "panel",
+     "show": "success",
+     "file": "contract.pdf",
+     "size": "9 MB",
+     "message": "Email sent"
+    }
+   ],
+   "voice": "And... sent!",
+   "say": "And... sent!"
+  },
+  {
+   "kind": "point",
+   "set": "office",
+   "camera": "low",
+   "label": "BOSS",
+   "actors": [
+    {
+     "color": "blue",
+     "pose": "stand",
+     "x": -0.8,
+     "look": "right"
+    },
+    {
+     "color": "grey",
+     "pose": "talk",
+     "x": 0.8,
+     "look": "left",
+     "tie": true
+    }
+   ],
+   "props": [],
+   "speaker": "boss",
+   "style": "quiet",
+   "voice": "Wait. How did you do that?",
+   "say": "Wait. How did you do that?"
+  },
+  {
+   "kind": "point",
+   "set": "office",
+   "camera": "close",
+   "label": "JAKE",
+   "actors": [
+    {
+     "color": "blue",
+     "pose": "talk",
+     "x": -0.8,
+     "look": "right"
+    },
+    {
+     "color": "grey",
+     "pose": "stand",
+     "x": 0.8,
+     "look": "left",
+     "tie": true
+    }
+   ],
+   "speaker": "jake",
+   "style": "calm",
+   "props": [
+    {
+     "type": "panel",
+     "show": "text",
+     "text": "FREE"
+    }
+   ],
+   "voice": "I love documents dot A I. It's free.",
+   "say": "ilovedocuments.ai. It's free."
+  },
+  {
+   "kind": "cta",
+   "set": "office",
+   "camera": "wide",
+   "shake": true,
+   "actors": [
+    {
+     "color": "blue",
+     "pose": "cheer",
+     "x": -0.8,
+     "look": "right"
+    },
+    {
+     "color": "grey",
+     "pose": "yell",
+     "x": 0.8,
+     "look": "left",
+     "tie": true
+    }
+   ],
+   "props": [],
+   "speaker": "boss",
+   "style": "angry",
+   "screen": "Send this to your boss",
+   "emphasis": [
+    "boss"
+   ],
+   "voice": "Emma! Why are we paying for P D F software?!",
+   "say": "EMMA! Why are we paying for PDF software?!"
+  }
+ ],
+ "caption": "My boss yelled at me over one email. 10 seconds later he asked me how I did it. 👀\n\n📩 Send this to your boss (or your Jake).\n📌 Save it for the next \"file too large\" email.\n💬 What's the worst thing your boss has yelled about? Comment below.\n\nilovedocuments.ai",
+ "hashtags": [
+  "#officelife",
+  "#bosslife",
+  "#worktips",
+  "#pdf",
+  "#techtips"
+ ]
+}

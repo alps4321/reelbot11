@@ -1,0 +1,174 @@
+{
+ "title": "Rejected at 11:59",
+ "scenes": [
+  {
+   "kind": "hook",
+   "set": "night",
+   "camera": "push_in",
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "type",
+     "screen": "error"
+    }
+   ],
+   "props": [],
+   "screen": "Rejected at 11:59. Submitted by 12. How?",
+   "screen_hi": "11:59 par reject. 12 baje submit. Kaise?",
+   "emphasis": [
+    "How?",
+    "Kaise?"
+   ],
+   "voice": "Rejected at eleven fifty nine. Submitted by midnight. How?",
+   "say": "Rejected at 11:59. Submitted by midnight. How?",
+   "voice_hi": "ग्यारह उनसठ पर फॉर्म रिजेक्ट। बारह बजे से पहले सबमिट। कैसे?",
+   "say_hi": "11:59 par form reject. 12 baje se pehle submit. Kaise?"
+  },
+  {
+   "kind": "point",
+   "set": "bedroom",
+   "camera": "wide",
+   "label": "11:59 PM",
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "panic"
+    }
+   ],
+   "props": [
+    {
+     "type": "panel",
+     "show": "error",
+     "file": "photo.jpg",
+     "size": "2.4 MB",
+     "message": "Max size 50 KB"
+    }
+   ],
+   "voice": "One minute left. Photo too big.",
+   "say": "One minute left. Photo too big.",
+   "voice_hi": "एक मिनट बचा है। फोटो बहुत बड़ी है।",
+   "say_hi": "Ek minute bacha hai. Photo bahut badi hai."
+  },
+  {
+   "kind": "point",
+   "set": "night",
+   "camera": "low",
+   "label": "CYBER CAFE CLOSED",
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "sad"
+    }
+   ],
+   "props": [],
+   "voice": "Cyber cafe? Closed.",
+   "say": "Cyber cafe? Closed.",
+   "voice_hi": "साइबर कैफे? बंद।",
+   "say_hi": "Cyber cafe? Band."
+  },
+  {
+   "kind": "point",
+   "set": "bedroom",
+   "camera": "close",
+   "label": "30 SECONDS LEFT",
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "phone"
+    }
+   ],
+   "props": [],
+   "voice": "Thirty seconds left. He tries one last thing.",
+   "say": "30 seconds left. He tries one last thing.",
+   "voice_hi": "तीस सेकंड बचे। उसने एक आखिरी चीज़ ट्राई की।",
+   "say_hi": "30 second bache. Usne ek aakhri cheez try ki."
+  },
+  {
+   "kind": "point",
+   "set": "bedroom",
+   "camera": "wide",
+   "label": "THE ANSWER",
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "phone"
+    }
+   ],
+   "props": [
+    {
+     "type": "panel",
+     "show": "size_drop",
+     "file": "photo.jpg",
+     "from": "2.4 MB",
+     "to": "48 KB"
+    }
+   ],
+   "voice": "I love documents dot A I. Two point four M B became forty eight K B.",
+   "say": "ilovedocuments.ai. 2.4 MB became 48 KB.",
+   "voice_hi": "आई लव डॉक्यूमेंट्स डॉट ए आई। दो पॉइंट चार एम बी से अड़तालीस के बी।",
+   "say_hi": "ilovedocuments.ai. 2.4 MB se 48 KB."
+  },
+  {
+   "kind": "point",
+   "set": "bedroom",
+   "camera": "orbit",
+   "label": "11:59:58",
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "cheer"
+    }
+   ],
+   "props": [
+    {
+     "type": "panel",
+     "show": "success",
+     "file": "photo.jpg",
+     "size": "48 KB",
+     "message": "Submitted"
+    }
+   ],
+   "voice": "Submitted. Two seconds to spare.",
+   "say": "Submitted. 2 seconds to spare.",
+   "voice_hi": "सबमिट। दो सेकंड पहले।",
+   "say_hi": "Submit. 2 second pehle."
+  },
+  {
+   "kind": "cta",
+   "set": "sunset",
+   "camera": "orbit",
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "wave",
+     "x": -0.5
+    },
+    {
+     "color": "blue",
+     "pose": "cheer",
+     "x": 0.7
+    }
+   ],
+   "props": [],
+   "screen": "Save it before your next form",
+   "screen_hi": "Agle form se pehle save kar lo",
+   "emphasis": [
+    "Save",
+    "save"
+   ],
+   "voice": "It is free. Save it before your next form.",
+   "say": "It is free. Save it before your next form.",
+   "voice_hi": "फ्री है। अगले फॉर्म से पहले सेव कर लो।",
+   "say_hi": "Free hai. Agle form se pehle save kar lo."
+  }
+ ],
+ "caption": "11:59 par form reject. 12 baje se pehle submit. Kaise? 👀\n\nAnswer end mein hai.\n📌 Save kar lo, agle form mein kaam aayega.\n💬 Comment \"FORM\" aur link le lo.\n\nilovedocuments.ai",
+ "caption_en": "Rejected at 11:59. Submitted before midnight. How? 👀\n\nThe answer is at the end.\n📌 Save this for your next form.\n💬 Comment \"FORM\" and I'll send the link.\n\nilovedocuments.ai",
+ "hashtags": [
+  "#onlineform",
+  "#govtexam",
+  "#sscexam",
+  "#studenthacks",
+  "#photoresize"
+ ]
+}

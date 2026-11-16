@@ -37,8 +37,9 @@ def load():
         "graph_version": os.environ.get("GRAPH_VERSION", "v25.0"),
     }
     sec = cfg["secrets"]
+    os.environ["CLAUDE_TOKEN_RAW_LEN"] = str(len(sec["claude_oauth"]))
     for k in ("anthropic", "claude_oauth", "ig_token"):
-        sec[k] = sec[k].strip()
+        sec[k] = "".join(sec[k].split())   # copying from a terminal can leave line breaks inside a key
     if sec["claude_oauth"].startswith("sk-ant-api"):       # an API key pasted into the token slot still works
         sec["anthropic"], sec["claude_oauth"] = sec["anthropic"] or sec["claude_oauth"], ""
     os.environ["CLAUDE_CODE_OAUTH_TOKEN"] = sec["claude_oauth"]

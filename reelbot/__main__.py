@@ -1,4 +1,5 @@
 """Command line:  python -m reelbot <run|make|check|research|analyze|report>"""
+import os
 import sys
 
 from . import analyze, config, learn, pipeline, research
@@ -22,7 +23,8 @@ def main():
         sec = cfg["secrets"]
         kind = ("API key" if sec["anthropic"] else "subscription token" if sec["claude_oauth"].startswith("sk-ant-oat")
                 else f"unrecognised value ({len(sec['claude_oauth'])} characters)" if sec["claude_oauth"] else "MISSING")
-        print("Claude credential:", kind)
+        raw = os.environ.get("CLAUDE_TOKEN_RAW_LEN", "")
+        print("Claude credential:", kind, f"| {len(sec['claude_oauth'])} characters after cleaning, {raw} as pasted")
         if claude.available(cfg):
             try:
                 print("Claude test call:", claude.ask_json(cfg, "You are a test.", 'Return {"ok": true}', max_tokens=50))

@@ -88,7 +88,7 @@ voice:
 
 posting:
   enabled: true              # master switch. false = bot does nothing
-  dry_run: false             # true = make videos but never post
+  dry_run: true              # SAFETY: stays true until one Claude-written reel has been checked. Then set false to post.
   per_language_per_day: 1
   share_to_feed: true
   label_ai_generated: true

@@ -36,6 +36,12 @@ def load():
         "elevenlabs": os.environ.get("ELEVENLABS_API_KEY", ""),
         "graph_version": os.environ.get("GRAPH_VERSION", "v25.0"),
     }
+    sec = cfg["secrets"]
+    for k in ("anthropic", "claude_oauth", "ig_token"):
+        sec[k] = sec[k].strip()
+    if sec["claude_oauth"].startswith("sk-ant-api"):       # an API key pasted into the token slot still works
+        sec["anthropic"], sec["claude_oauth"] = sec["anthropic"] or sec["claude_oauth"], ""
+    os.environ["CLAUDE_CODE_OAUTH_TOKEN"] = sec["claude_oauth"]
     if os.environ.get("DRY_RUN", "").lower() in ("1", "true", "yes"):
         cfg["posting"]["dry_run"] = True
     DATA.mkdir(exist_ok=True)

@@ -19,7 +19,15 @@ def main():
             print(f"out/{post['video']}  {post['seconds']}s  hook: {post['hook']}")
     elif cmd == "check":        # confirm the Instagram and Claude keys work
         from . import claude
-        print("Claude:", "set" if claude.available(cfg) else "MISSING")
+        sec = cfg["secrets"]
+        kind = ("API key" if sec["anthropic"] else "subscription token" if sec["claude_oauth"].startswith("sk-ant-oat")
+                else f"unrecognised value ({len(sec['claude_oauth'])} characters)" if sec["claude_oauth"] else "MISSING")
+        print("Claude credential:", kind)
+        if claude.available(cfg):
+            try:
+                print("Claude test call:", claude.ask_json(cfg, "You are a test.", 'Return {"ok": true}', max_tokens=50))
+            except Exception as e:
+                print("Claude test call: FAILED", str(e)[:300])
         if not ig.ready:
             print("Instagram: IG_USER_ID / IG_ACCESS_TOKEN MISSING")
         else:

@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-16T19:04:30+00:00
+Updated 2026-11-16T19:28:23+00:00
 
-Reels made: 2. Posted: 0. Measured: 0.
+Reels made: 4. Posted: 0. Measured: 0.
 
 ## english: what the bot has learned
 
@@ -44,5 +44,7 @@ Reels made: 2. Posted: 0. Measured: 0.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-11-16 | hinglish | remove_background | two_friends | 2 dost. 1 photo. 50 KB. |  |  |  |  |  |  |  | dry run |
+| 2026-11-16 | english | jpg_to_pdf | two_friends | Form closes at 11:58 PM. Which friend wins? |  |  |  |  |  |  |  | dry run |
 | 2026-11-16 | hinglish | unlock_aadhaar | what_if | What if your form closed in 2 minutes? |  |  |  |  |  |  |  | dry run |
 | 2026-11-16 | english | resize_photo_kb | what_if | What if your form closed in 2 minutes? |  |  |  |  |  |  |  | dry run |

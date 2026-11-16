@@ -464,5 +464,515 @@
     "caption": "Tag the friend who fills forms at 11:58 PM.\nComment FORM and I will send the link.\nilovedocuments.ai\n\n#pdf #onlineform #studenthacks #govtexam #techtips",
     "video": "20261116-181213-hinglish.mp4",
     "dry_run": true
+  },
+  {
+    "id": "20261116-191224-english",
+    "created_at": "2026-11-16T19:19:28+00:00",
+    "language": "english",
+    "topic": "jpg_to_pdf",
+    "hook_style": "question",
+    "format": "two_friends",
+    "plan_reason": "topic: new test; hook: new test; format: new test",
+    "title": "Two friends, 40 photos, one PDF",
+    "hook": "Form closes at 11:58 PM. Which friend wins?",
+    "seconds": 21.0,
+    "script": {
+      "title": "Two friends, 40 photos, one PDF",
+      "scenes": [
+        {
+          "kind": "hook",
+          "screen": "Form closes at 11:58 PM. Which friend wins?",
+          "emphasis": [
+            "11:58 PM"
+          ],
+          "voice": "Which friend uploads the form first?",
+          "say": "Which friend uploads the form first?",
+          "label": "11:58 PM",
+          "set": "night",
+          "camera": "push_in",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "panic",
+              "x": -0.8,
+              "look": "camera"
+            },
+            {
+              "color": "blue",
+              "pose": "phone",
+              "x": 0.8,
+              "look": "camera"
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "error",
+              "file": "documents.pdf",
+              "size": "12 MB",
+              "message": "Upload one PDF only"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Rohan sends 5 photos one by one.",
+          "emphasis": [
+            "5 photos"
+          ],
+          "voice": "Rohan tries sending five photos.",
+          "say": "Rohan tries sending 5 photos.",
+          "label": null,
+          "set": "night",
+          "camera": "close",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "type",
+              "x": -0.6,
+              "look": "right",
+              "float": {
+                "text": "5 photos",
+                "color": "#ff5a66"
+              }
+            }
+          ],
+          "props": [
+            {
+              "type": "clock",
+              "text": "11:58 PM"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Form says: one PDF only.",
+          "emphasis": [
+            "one PDF"
+          ],
+          "voice": "The form wants one PDF.",
+          "say": "The form wants one PDF.",
+          "label": "11:59 PM",
+          "set": "night",
+          "camera": "high",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "sad",
+              "x": -0.5,
+              "look": "camera"
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "error",
+              "file": "photo5.jpg",
+              "size": "2.4 MB",
+              "message": "Upload one PDF only"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Meera opens ilovedocuments.ai.",
+          "emphasis": [
+            "ilovedocuments.ai"
+          ],
+          "voice": "Meera opens I love documents dot A I.",
+          "say": "Meera opens ilovedocuments.ai.",
+          "label": null,
+          "set": "night",
+          "camera": "orbit",
+          "actors": [
+            {
+              "color": "blue",
+              "pose": "phone",
+              "x": 0.6,
+              "look": "camera"
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "text",
+              "text": "JPG to PDF"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "5 photos. One PDF.",
+          "emphasis": [
+            "One PDF"
+          ],
+          "voice": "She picks five photos. One PDF.",
+          "say": "She picks 5 photos. One PDF.",
+          "label": null,
+          "set": "night",
+          "camera": "close",
+          "actors": [
+            {
+              "color": "blue",
+              "pose": "point",
+              "x": 0.5,
+              "look": "camera"
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "size_drop",
+              "file": "documents.pdf",
+              "from": "12 MB",
+              "to": "900 KB",
+              "message": ""
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Done. Uploaded in seconds.",
+          "emphasis": [
+            "Uploaded"
+          ],
+          "voice": "Done in seconds. Uploaded.",
+          "say": "Done in seconds. Uploaded.",
+          "label": "11:59 PM",
+          "set": "night",
+          "camera": "low",
+          "actors": [
+            {
+              "color": "blue",
+              "pose": "cheer",
+              "x": 0.7,
+              "look": "camera"
+            },
+            {
+              "color": "orange",
+              "pose": "sad",
+              "x": -0.8,
+              "look": "right"
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "success",
+              "file": "documents.pdf",
+              "size": "900 KB",
+              "message": "Uploaded"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Files stay on your device.",
+          "emphasis": [
+            "on your device"
+          ],
+          "voice": "Files stay on your device. Nothing uploads.",
+          "say": "Files stay on your device. Nothing uploads.",
+          "label": null,
+          "set": "night",
+          "camera": "wide",
+          "actors": [
+            {
+              "color": "blue",
+              "pose": "wave",
+              "x": 0.4,
+              "look": "camera"
+            },
+            {
+              "color": "orange",
+              "pose": "cheer",
+              "x": -0.6,
+              "look": "camera"
+            }
+          ],
+          "props": [],
+          "visual": null
+        },
+        {
+          "kind": "cta",
+          "screen": "Free. No sign-up. No watermark.",
+          "emphasis": [
+            "Free"
+          ],
+          "voice": "Save this for your next form.",
+          "say": "Save this for your next form.",
+          "label": null,
+          "set": "night",
+          "camera": "push_in",
+          "actors": [
+            {
+              "color": "blue",
+              "pose": "cheer",
+              "x": 0.7,
+              "look": "camera"
+            },
+            {
+              "color": "orange",
+              "pose": "cheer",
+              "x": -0.7,
+              "look": "camera"
+            }
+          ],
+          "props": [],
+          "visual": null
+        }
+      ],
+      "caption": "Rohan sent photos one by one. Meera made one PDF in seconds.\nFree, no sign-up, no watermark. Works on phone and desktop.\nWhich form needed one PDF for you? Comment below. Save this for your next form.\nilovedocuments.ai",
+      "hashtags": [
+        "#jpgtopdf",
+        "#onlineform",
+        "#pdftools",
+        "#examform",
+        "#india"
+      ]
+    },
+    "caption": "Rohan sent photos one by one. Meera made one PDF in seconds.\nFree, no sign-up, no watermark. Works on phone and desktop.\nWhich form needed one PDF for you? Comment below. Save this for your next form.\nilovedocuments.ai\n\n#jpgtopdf #onlineform #pdftools #examform #india",
+    "video": "20261116-191224-english.mp4",
+    "dry_run": true
+  },
+  {
+    "id": "20261116-191939-hinglish",
+    "created_at": "2026-11-16T19:28:23+00:00",
+    "language": "hinglish",
+    "topic": "remove_background",
+    "hook_style": "number",
+    "format": "two_friends",
+    "plan_reason": "topic: new test; hook: new test; format: new test",
+    "title": "2 Friends, 1 Photo, 50 KB",
+    "hook": "2 dost. 1 photo. 50 KB.",
+    "seconds": 19.0,
+    "script": {
+      "title": "2 Friends, 1 Photo, 50 KB",
+      "scenes": [
+        {
+          "kind": "hook",
+          "screen": "2 dost. 1 photo. 50 KB.",
+          "emphasis": [
+            "50 KB"
+          ],
+          "voice": "दो दोस्त, एक फोटो, पचास केबी।",
+          "say": "2 dost, 1 photo, 50 KB.",
+          "label": "11:40 PM",
+          "set": "bedroom",
+          "camera": "close",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "panic",
+              "x": -0.7,
+              "look": "camera",
+              "float": {
+                "text": "2.4 MB",
+                "color": "#ff5a66"
+              }
+            },
+            {
+              "color": "blue",
+              "pose": "sit",
+              "x": 0.8,
+              "look": "left"
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "error",
+              "file": "photo.jpg",
+              "size": "2.4 MB",
+              "message": "Max size 50 KB"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "ROHAN",
+          "emphasis": [],
+          "voice": "रोहन ने बैकग्राउंड हाथ से हटाया।",
+          "say": "Rohan ne background haath se hataya.",
+          "label": "ROHAN",
+          "set": "bedroom",
+          "camera": "push_in",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "type",
+              "x": -0.5,
+              "look": "right"
+            }
+          ],
+          "props": [
+            {
+              "type": "paper"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "11:58 PM",
+          "emphasis": [],
+          "voice": "चालीस मिनट गए, फोटो टेढ़ी।",
+          "say": "40 minute gaye, photo tedhi.",
+          "label": "11:58 PM",
+          "set": "bedroom",
+          "camera": "high",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "sad",
+              "x": -0.5,
+              "look": "camera"
+            }
+          ],
+          "props": [
+            {
+              "type": "clock",
+              "text": "11:58 PM"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "AARAV",
+          "emphasis": [],
+          "voice": "आरव बोला, मैंने साइट खोली।",
+          "say": "Aarav bola, maine site kholi.",
+          "label": "AARAV",
+          "set": "bedroom",
+          "camera": "low",
+          "actors": [
+            {
+              "color": "blue",
+              "pose": "phone",
+              "x": 0.6,
+              "look": "camera"
+            },
+            {
+              "color": "orange",
+              "pose": "sad",
+              "x": -0.9,
+              "look": "right"
+            }
+          ],
+          "props": [],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "",
+          "emphasis": [],
+          "voice": "आई लव डॉक्यूमेंट्स डॉट ए आई, बैकग्राउंड गायब।",
+          "say": "ilovedocuments.ai, background gayab.",
+          "label": null,
+          "set": "bedroom",
+          "camera": "close",
+          "actors": [
+            {
+              "color": "blue",
+              "pose": "point",
+              "x": 0.5,
+              "look": "left"
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "size_drop",
+              "file": "photo.jpg",
+              "from": "2.4 MB",
+              "to": "48 KB",
+              "message": ""
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "",
+          "emphasis": [],
+          "voice": "अड़तालीस केबी। फॉर्म में अपलोड हो गया।",
+          "say": "48 KB. Form mein upload ho gaya.",
+          "label": null,
+          "set": "bedroom",
+          "camera": "orbit",
+          "actors": [
+            {
+              "color": "blue",
+              "pose": "cheer",
+              "x": 0.7,
+              "look": "camera"
+            },
+            {
+              "color": "orange",
+              "pose": "cheer",
+              "x": -0.7,
+              "look": "camera"
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "success",
+              "file": "photo.jpg",
+              "size": "48 KB",
+              "message": "Uploaded"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "cta",
+          "screen": "Free. No sign-up. No watermark.",
+          "emphasis": [
+            "Free"
+          ],
+          "voice": "अगले फॉर्म के लिए सेव कर लो।",
+          "say": "Agle form ke liye save kar lo.",
+          "label": null,
+          "set": "bedroom",
+          "camera": "wide",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "wave",
+              "x": -0.7,
+              "look": "camera"
+            },
+            {
+              "color": "blue",
+              "pose": "wave",
+              "x": 0.7,
+              "look": "camera"
+            }
+          ],
+          "props": [],
+          "visual": null
+        }
+      ],
+      "caption": "Rohan ne 40 minute lagaye, Aarav ne 1 minute. Aap kaunse dost ho? Comment mein batao. Next form ke liye save kar lo.\nilovedocuments.ai",
+      "hashtags": [
+        "#idphoto",
+        "#passportphoto",
+        "#onlineform",
+        "#pdftools",
+        "#india"
+      ]
+    },
+    "caption": "Rohan ne 40 minute lagaye, Aarav ne 1 minute. Aap kaunse dost ho? Comment mein batao. Next form ke liye save kar lo.\nilovedocuments.ai\n\n#idphoto #passportphoto #onlineform #pdftools #india",
+    "video": "20261116-191939-hinglish.mp4",
+    "dry_run": true
   }
 ]

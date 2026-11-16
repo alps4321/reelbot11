@@ -1,0 +1,468 @@
+[
+  {
+    "id": "20261116-180425-english",
+    "created_at": "2026-11-16T18:12:13+00:00",
+    "language": "english",
+    "topic": "resize_photo_kb",
+    "hook_style": "bold_claim",
+    "format": "what_if",
+    "plan_reason": "topic: new test; hook: new test; format: new test",
+    "title": "Resize a photo to 20-50 KB for exam and job forms",
+    "hook": "What if your form closed in 2 minutes?",
+    "seconds": 28.0,
+    "script": {
+      "title": "Resize a photo to 20-50 KB for exam and job forms",
+      "scenes": [
+        {
+          "kind": "hook",
+          "set": "night",
+          "camera": "push_in",
+          "label": null,
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "type",
+              "x": 0.0,
+              "screen": "error"
+            }
+          ],
+          "props": [],
+          "screen": "What if your form closed in 2 minutes?",
+          "emphasis": [
+            "2",
+            "minutes?"
+          ],
+          "voice": "What if your exam form closed in two minutes?",
+          "say": "What if your exam form closed in two minutes?",
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "set": "bedroom",
+          "camera": "wide",
+          "label": "11:58 PM",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "type",
+              "x": 0.0,
+              "screen": "error"
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "error",
+              "file": "photo.jpg",
+              "size": "2.4 MB",
+              "message": "Max size 50 KB"
+            }
+          ],
+          "screen": "Rejected",
+          "emphasis": [],
+          "voice": "Rohan uploads his photo. Rejected.",
+          "say": "Rohan uploads his photo. Rejected.",
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "set": "bedroom",
+          "camera": "close",
+          "label": "11:58 PM",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "panic",
+              "x": 0.0
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "text",
+              "text": "MAX 50 KB"
+            }
+          ],
+          "screen": "Max 50 KB",
+          "emphasis": [],
+          "voice": "File too large. The form wants fifty K B.",
+          "say": "File too large. The form wants 50 KB.",
+          "visual": null
+        },
+        {
+          "kind": "step",
+          "set": "bedroom",
+          "camera": "push_in",
+          "label": "11:59 PM",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "phone",
+              "x": 0.0
+            }
+          ],
+          "props": [],
+          "screen": "Opens ilovedocuments.ai",
+          "emphasis": [],
+          "voice": "No app. No sign up. He opens I love documents dot A I.",
+          "say": "No app. No sign-up. He opens ilovedocuments.ai",
+          "visual": null
+        },
+        {
+          "kind": "step",
+          "set": "bedroom",
+          "camera": "wide",
+          "label": "11:59 PM",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "phone",
+              "x": 0.0
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "size_drop",
+              "file": "photo.jpg",
+              "from": "2.4 MB",
+              "to": "48 KB",
+              "message": ""
+            }
+          ],
+          "screen": "2.4 MB to 48 KB",
+          "emphasis": [],
+          "voice": "Two point four M B becomes forty eight K B. In seconds.",
+          "say": "2.4 MB becomes 48 KB. In seconds.",
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "set": "bedroom",
+          "camera": "low",
+          "label": "12:00 AM",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "cheer",
+              "x": 0.0
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "success",
+              "file": "photo.jpg",
+              "size": "48 KB",
+              "message": "Uploaded"
+            }
+          ],
+          "screen": "Uploaded",
+          "emphasis": [],
+          "voice": "Uploaded. With one second left.",
+          "say": "Uploaded. With one second left.",
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "set": "park",
+          "camera": "wide",
+          "label": "NEXT MORNING",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "walk",
+              "x": -1.3,
+              "look": "right"
+            },
+            {
+              "color": "blue",
+              "pose": "sad",
+              "x": 1.0,
+              "float": {
+                "text": "2.4 MB",
+                "color": "#ff5a66"
+              }
+            }
+          ],
+          "props": [],
+          "screen": "Only Kevin struggled",
+          "emphasis": [],
+          "voice": "Rohan slept fine. Only Kevin is still stuck.",
+          "say": "Rohan slept fine. Only Kevin is still stuck.",
+          "visual": null
+        },
+        {
+          "kind": "cta",
+          "set": "sunset",
+          "camera": "orbit",
+          "label": null,
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "wave",
+              "x": -0.6
+            },
+            {
+              "color": "blue",
+              "pose": "cheer",
+              "x": 0.7
+            }
+          ],
+          "props": [],
+          "screen": "Send this to your Kevin",
+          "emphasis": [
+            "Kevin"
+          ],
+          "voice": "It is free. Send this to the friend who waits till the last day.",
+          "say": "It is free. Send this to the friend who waits till the last day.",
+          "visual": null
+        }
+      ],
+      "caption": "Tag the friend who fills forms at 11:58 PM.\nComment FORM and I will send the link.\nilovedocuments.ai",
+      "hashtags": [
+        "#pdf",
+        "#onlineform",
+        "#studenthacks",
+        "#govtexam",
+        "#techtips"
+      ]
+    },
+    "caption": "Tag the friend who fills forms at 11:58 PM.\nComment FORM and I will send the link.\nilovedocuments.ai\n\n#pdf #onlineform #studenthacks #govtexam #techtips",
+    "video": "20261116-180425-english.mp4",
+    "dry_run": true
+  },
+  {
+    "id": "20261116-181213-hinglish",
+    "created_at": "2026-11-16T18:19:54+00:00",
+    "language": "hinglish",
+    "topic": "unlock_aadhaar",
+    "hook_style": "problem",
+    "format": "what_if",
+    "plan_reason": "topic: new test; hook: new test; format: new test",
+    "title": "Open a password-protected e-Aadhaar PDF and remove the password",
+    "hook": "What if your form closed in 2 minutes?",
+    "seconds": 29.4,
+    "script": {
+      "title": "Open a password-protected e-Aadhaar PDF and remove the password",
+      "scenes": [
+        {
+          "kind": "hook",
+          "set": "night",
+          "camera": "push_in",
+          "label": null,
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "type",
+              "x": 0.0,
+              "screen": "error"
+            }
+          ],
+          "props": [],
+          "screen": "What if your form closed in 2 minutes?",
+          "emphasis": [
+            "2",
+            "minutes?"
+          ],
+          "voice": "क्या हो अगर आपका एग्ज़ाम फॉर्म दो मिनट में बंद हो जाए?",
+          "say": "Kya ho agar aapka exam form do minute mein band ho jaye?",
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "set": "bedroom",
+          "camera": "wide",
+          "label": "11:58 PM",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "type",
+              "x": 0.0,
+              "screen": "error"
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "error",
+              "file": "photo.jpg",
+              "size": "2.4 MB",
+              "message": "Max size 50 KB"
+            }
+          ],
+          "screen": "Rejected",
+          "emphasis": [],
+          "voice": "रोहन ने फोटो अपलोड की। रिजेक्ट।",
+          "say": "Rohan ne photo upload ki. Reject.",
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "set": "bedroom",
+          "camera": "close",
+          "label": "11:58 PM",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "panic",
+              "x": 0.0
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "text",
+              "text": "MAX 50 KB"
+            }
+          ],
+          "screen": "Max 50 KB",
+          "emphasis": [],
+          "voice": "फाइल बहुत बड़ी है। फॉर्म को पचास के बी चाहिए।",
+          "say": "File bahut badi hai. Form ko pachaas KB chahiye.",
+          "visual": null
+        },
+        {
+          "kind": "step",
+          "set": "bedroom",
+          "camera": "push_in",
+          "label": "11:59 PM",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "phone",
+              "x": 0.0
+            }
+          ],
+          "props": [],
+          "screen": "Opens ilovedocuments.ai",
+          "emphasis": [],
+          "voice": "ना ऐप, ना साइन अप। उसने आई लव डॉक्यूमेंट्स डॉट ए आई खोला।",
+          "say": "Na app, na sign up. Usne I love documents dot A I khola.",
+          "visual": null
+        },
+        {
+          "kind": "step",
+          "set": "bedroom",
+          "camera": "wide",
+          "label": "11:59 PM",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "phone",
+              "x": 0.0
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "size_drop",
+              "file": "photo.jpg",
+              "from": "2.4 MB",
+              "to": "48 KB",
+              "message": ""
+            }
+          ],
+          "screen": "2.4 MB to 48 KB",
+          "emphasis": [],
+          "voice": "दो पॉइंट चार एम बी बन गया अड़तालीस के बी। कुछ ही सेकंड में।",
+          "say": "2.4 MB ban gaya 48 KB. Kuch hi second mein.",
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "set": "bedroom",
+          "camera": "low",
+          "label": "12:00 AM",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "cheer",
+              "x": 0.0
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "success",
+              "file": "photo.jpg",
+              "size": "48 KB",
+              "message": "Uploaded"
+            }
+          ],
+          "screen": "Uploaded",
+          "emphasis": [],
+          "voice": "अपलोड हो गया। सिर्फ एक सेकंड बाकी था।",
+          "say": "Upload ho gaya. Sirf ek second baaki tha.",
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "set": "park",
+          "camera": "wide",
+          "label": "NEXT MORNING",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "walk",
+              "x": -1.3,
+              "look": "right"
+            },
+            {
+              "color": "blue",
+              "pose": "sad",
+              "x": 1.0,
+              "float": {
+                "text": "2.4 MB",
+                "color": "#ff5a66"
+              }
+            }
+          ],
+          "props": [],
+          "screen": "Only Kevin struggled",
+          "emphasis": [],
+          "voice": "रोहन आराम से सोया। बस केविन अभी भी अटका है।",
+          "say": "Rohan aaram se soya. Bas Kevin abhi bhi atka hai.",
+          "visual": null
+        },
+        {
+          "kind": "cta",
+          "set": "sunset",
+          "camera": "orbit",
+          "label": null,
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "wave",
+              "x": -0.6
+            },
+            {
+              "color": "blue",
+              "pose": "cheer",
+              "x": 0.7
+            }
+          ],
+          "props": [],
+          "screen": "Send this to your Kevin",
+          "emphasis": [
+            "Kevin"
+          ],
+          "voice": "बिल्कुल फ्री है। उस दोस्त को भेजो जो आखिरी दिन तक रुकता है।",
+          "say": "Bilkul free hai. Us dost ko bhejo jo aakhri din tak rukta hai.",
+          "visual": null
+        }
+      ],
+      "caption": "Tag the friend who fills forms at 11:58 PM.\nComment FORM and I will send the link.\nilovedocuments.ai",
+      "hashtags": [
+        "#pdf",
+        "#onlineform",
+        "#studenthacks",
+        "#govtexam",
+        "#techtips"
+      ]
+    },
+    "caption": "Tag the friend who fills forms at 11:58 PM.\nComment FORM and I will send the link.\nilovedocuments.ai\n\n#pdf #onlineform #studenthacks #govtexam #techtips",
+    "video": "20261116-181213-hinglish.mp4",
+    "dry_run": true
+  }
+]

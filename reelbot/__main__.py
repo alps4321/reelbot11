@@ -24,8 +24,16 @@ def main():
             print("Instagram: IG_USER_ID / IG_ACCESS_TOKEN MISSING")
         else:
             me = ig.me()
-            print(f"Instagram: @{me.get('username')} followers {me.get('followers_count')}")
-            print("Publish quota:", ig.publish_quota())
+            print(f"Instagram: @{me.get('username')} followers {me.get('followers_count')} via {ig.base.split('/')[2]}")
+            for name, call in (("publish quota", ig.publish_quota),
+                               ("recent media", lambda: ig._call("GET", f"{ig.uid}/media", fields="id,media_product_type,timestamp", limit=3)),):
+                try:
+                    out = call()
+                    print(f"{name}: OK", out if name == "publish quota" else [m.get("id") for m in out.get("data", [])])
+                    if name == "recent media" and out.get("data"):
+                        print("insights on newest post:", ig.insights(out["data"][0]["id"]) or "NOT AVAILABLE (permission missing?)")
+                except Exception as e:
+                    print(f"{name}: FAILED {e}")
     elif cmd == "research":
         research.refresh(cfg, ig)
         print(research.digest())

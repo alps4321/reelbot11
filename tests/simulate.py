@@ -19,6 +19,8 @@ cfg = config.load()
 cfg["secrets"].update(anthropic="fake", ig_user_id="1", ig_token="t")
 cfg["posting"].update(dry_run=False, per_language_per_day=1)
 cfg["voice"]["provider"] = "none"
+for _lang in cfg["content"]["languages"]:
+    _lang.pop("provider", None)   # no real voices in the simulation
 random.seed(7)
 
 GOOD_TOPIC = "resize_photo_kb"   # the fake audience loves this topic

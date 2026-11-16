@@ -19,7 +19,28 @@ class Instagram:
         s = cfg["secrets"]
         self.uid = s["ig_user_id"]
         self.token = s["ig_token"]
-        self.base = f"https://graph.facebook.com/{s['graph_version']}"
+        self.version = s["graph_version"]
+        self._base = None
+
+    @property
+    def base(self):
+        """Meta issues tokens for one of two hosts; find out once which one this token works on."""
+        if self._base is None:
+            errors = []
+            for host in ("graph.facebook.com", "graph.instagram.com"):
+                url = f"https://{host}/{self.version}/{self.uid}"
+                try:
+                    r = requests.get(url, params={"fields": "username", "access_token": self.token}, timeout=30).json()
+                except (requests.RequestException, ValueError) as e:
+                    errors.append(f"{host}: {e}")
+                    continue
+                if "username" in r:
+                    self._base = f"https://{host}/{self.version}"
+                    break
+                errors.append(f"{host}: {r.get('error', {}).get('message', r)}")
+            else:
+                raise IGError("token rejected on both hosts: " + " | ".join(errors))
+        return self._base
 
     @property
     def ready(self):
@@ -78,7 +99,7 @@ class Instagram:
                 raise
             box = self._call("POST", f"{self.uid}/media", **args)
         cid = box["id"]
-        uri = box.get("uri") or f"https://rupload.facebook.com/ig-api-upload/{self.base.rsplit('/', 1)[1]}/{cid}"
+        uri = box.get("uri") or f"https://rupload.facebook.com/ig-api-upload/{self.version}/{cid}"
 
         size = os.path.getsize(video_path)
         with open(video_path, "rb") as f:

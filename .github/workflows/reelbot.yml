@@ -9,6 +9,10 @@ on:
         description: "Make the reel but do not post it"
         type: boolean
         default: false
+      check_only:
+        description: "Only test the Instagram and Claude connections"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -43,12 +47,12 @@ jobs:
           VOICEMAKER_API_KEY: ${{ secrets.VOICEMAKER_API_KEY }}
           AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
           AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
-          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID || '17841416319314274' }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           # Posts only when the Instagram token is set and dry_run is not ticked
           DRY_RUN: ${{ inputs.dry_run || secrets.IG_ACCESS_TOKEN == '' }}
-        run: python -m reelbot run
+        run: python -m reelbot ${{ inputs.check_only && 'check' || 'run' }}
       - name: Save results and report
         if: always()
         run: |

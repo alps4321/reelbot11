@@ -17,6 +17,10 @@ on:  # schedules run because the repo is public (free plans do not run them in p
         description: "Only test the Instagram and Claude connections"
         type: boolean
         default: false
+      slot:
+        description: "Which reel this run is for, e.g. 11:00 (skips it if already live). Empty = next reel, now"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -70,6 +74,8 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TG_CHAT_FILE: .tgchat/tg_chat
+          REELBOT_SCHEDULE: ${{ github.event.schedule }}
+          REELBOT_SLOT: ${{ inputs.slot }}
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           PYTHONUNBUFFERED: "1"
           # Posts only when the Instagram token is set and dry_run is not ticked

@@ -52,6 +52,23 @@ def go_live_time(cfg, started):
     return None
 
 
+def intended_start(started):
+    """When this run was meant to start: a timed run's cron time (GitHub often starts them late), or the
+    slot a backup trigger asked for (REELBOT_SLOT=11:00 means 'the reel that goes live at 11:00')."""
+    import os
+    from datetime import timedelta
+    slot = os.environ.get("REELBOT_SLOT", "").strip()
+    if slot:
+        h, m = map(int, slot.split(":"))
+        at = started.astimezone(store.IST).replace(hour=h, minute=m, second=0, microsecond=0)
+        return at - timedelta(minutes=70)
+    cron = os.environ.get("REELBOT_SCHEDULE", "").split()
+    if len(cron) == 5 and cron[0].isdigit() and cron[1].isdigit():
+        at = started.replace(hour=int(cron[1]), minute=int(cron[0]), second=0, microsecond=0)
+        return at if at <= started else at - timedelta(days=1)
+    return started
+
+
 def post_queued(cfg, ig, item_path, go_live_at=None):
     """Post a reel that was made outside the daily generator (queue/<name>.json + its video)."""
     import json
@@ -78,6 +95,9 @@ def run(cfg):
         print("posting.enabled is false: nothing to do")
         return
     started = store.now()
+    target = go_live_time(cfg, intended_start(started))
+    if target:
+        print(f"this run is for the {target:%H:%M} reel")
     ig = Instagram(cfg)
     dry = cfg["posting"]["dry_run"]
     if not dry and not ig.ready:
@@ -94,7 +114,7 @@ def run(cfg):
         return
     ready = sorted(queue.glob("*.json")) if queue.exists() else []
     if ready and not dry:                              # a finished reel was dropped in the queue: post it first
-        post_queued(cfg, ig, ready[0], go_live_time(cfg, started))
+        post_queued(cfg, ig, ready[0], target)
         analyze.report(cfg)
         return
 
@@ -102,6 +122,11 @@ def run(cfg):
     done = posted_today()
     if not dry and done >= len(slots):
         print(f"all {len(slots)} reels for today are posted")
+        analyze.report(cfg)
+        return
+    times = cfg["posting"].get("times", [])
+    if not dry and target and f"{target:%H:%M}" in times and done > times.index(f"{target:%H:%M}"):
+        print(f"the {target:%H:%M} reel is already live ({done} posted today): nothing to do")   # e.g. a backup run
         analyze.report(cfg)
         return
     slot = min(done, len(slots) - 1)
@@ -119,7 +144,7 @@ def run(cfg):
             media_id, link = ig.publish_reel(
                 OUT / post["video"], post["caption"],
                 share_to_feed=cfg["posting"]["share_to_feed"],
-                ai_label=cfg["posting"]["label_ai_generated"], go_live_at=go_live_time(cfg, started))
+                ai_label=cfg["posting"]["label_ai_generated"], go_live_at=target)
             post.update(media_id=media_id, permalink=link, posted_at=store.iso(), checked=[])
             print(f"[{lang}] posted: {link}")
             learn.mark_idea_used(plan.get("idea"))

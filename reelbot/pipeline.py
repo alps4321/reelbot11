@@ -6,10 +6,9 @@ from .config import OUT
 from .instagram import Instagram
 
 
-def posted_today(lang):
-    today = store.now().date()
-    return sum(1 for p in learn.of_language(lang)
-               if p.get("media_id") and store.parse(p["posted_at"]).date() == today)
+def posted_today():
+    today = store.today()
+    return sum(1 for p in learn.live(store.posts()) if store.local_date(p["posted_at"]) == today)
 
 
 def make(cfg, plan, playbook=None):
@@ -28,6 +27,8 @@ def make(cfg, plan, playbook=None):
     video = engine.render(cfg, s, audio, speech, starts, total, OUT / f"{rid}.mp4")
     shutil.rmtree(work, ignore_errors=True)
     s["scenes"][0].pop("broll_path", None)
+    for sc in s["scenes"]:
+        sc.pop("_phrases", None)
     return {
         "id": rid, "created_at": store.iso(), "language": lang["id"], "topic": plan["topic"],
         "hook_style": plan["hook_style"], "format": plan["format"], "plan_reason": plan["reason"],
@@ -50,32 +51,36 @@ def run(cfg):
     if research.stale(cfg):                  # 2. refresh what works in the niche
         research.refresh(cfg, ig)
 
+    slots = cfg["posting"]["slots"]
+    done = posted_today()
+    if not dry and done >= len(slots):
+        print(f"all {len(slots)} reels for today are posted")
+        analyze.report(cfg)
+        return
+    slot = min(done, len(slots) - 1)
+    lang = slots[slot]
     failures = []
-    for lang in [l["id"] for l in cfg["content"]["languages"]]:
-        try:
-            playbook = learn.update_playbook(cfg, lang)   # 3. turn results into rules
-            if not dry and posted_today(lang) >= cfg["posting"]["per_language_per_day"]:
-                print(f"[{lang}] daily limit reached")
-                continue
-            plan = learn.next_plan(cfg, lang)             # 4. pick topic, hook, format
-            print("plan:", plan)
-            post = make(cfg, plan, playbook)              # 5-7. script, voice, video
-            print(f"[{lang}] made {post['video']} ({post['seconds']}s): {post['hook']}")
-            if dry:
-                post["dry_run"] = True
-            else:                                         # 8. publish
-                media_id, link = ig.publish_reel(
-                    OUT / post["video"], post["caption"],
-                    share_to_feed=cfg["posting"]["share_to_feed"],
-                    ai_label=cfg["posting"]["label_ai_generated"])
-                post.update(media_id=media_id, permalink=link, posted_at=store.iso(), checked=[])
-                print(f"[{lang}] posted: {link}")
-            posts = store.posts()
-            posts.append(post)
-            store.save_posts(posts)
-        except Exception as e:  # one language failing must not block the other
-            failures.append(f"{lang}: {e}")
-            print(f"[{lang}] FAILED: {e}")
+    try:
+        playbook = learn.update_playbook(cfg, lang)       # 3. turn results into rules
+        plan = learn.next_plan(cfg, lang, slot)           # 4. pick tool, hook, format
+        print("plan:", plan)
+        post = make(cfg, plan, playbook)                  # 5-7. script, voice, video
+        print(f"[{lang}] made {post['video']} ({post['seconds']}s): {post['hook']}")
+        if dry:
+            post["dry_run"] = True
+        else:                                             # 8. publish
+            media_id, link = ig.publish_reel(
+                OUT / post["video"], post["caption"],
+                share_to_feed=cfg["posting"]["share_to_feed"],
+                ai_label=cfg["posting"]["label_ai_generated"])
+            post.update(media_id=media_id, permalink=link, posted_at=store.iso(), checked=[])
+            print(f"[{lang}] posted: {link}")
+        posts = store.posts()
+        posts.append(post)
+        store.save_posts(posts)
+    except Exception as e:
+        failures.append(f"{lang}: {e}")
+        print(f"[{lang}] FAILED: {e}")
     analyze.report(cfg)
     if failures:
         raise SystemExit("; ".join(failures))

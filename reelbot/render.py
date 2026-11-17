@@ -129,6 +129,27 @@ def word_times(words, start, speech):
     return out
 
 
+def scene_word_times(sc, words, start, speech):
+    """Word timings for one scene that respect the pauses between phrases.
+
+    Words are spread over the voiced parts only, so a caption never runs on through a pause.
+    """
+    marks = sc.get("_phrases")
+    if not marks:
+        return word_times(words, start, speech)
+    voiced = sum(length for _, length in marks)
+    flat = word_times(words, 0.0, voiced)
+
+    def real(t, begin):                # voiced time -> scene time; a word that starts at a phrase end
+        for offset, length in marks:   # belongs to the next phrase, after the pause
+            if t < length - 1e-6 or (not begin and t <= length + 1e-6):
+                return start + offset + t
+            t -= length
+        return start + marks[-1][0] + marks[-1][1]
+
+    return [(real(a, True), real(z, False)) for a, z in flat]
+
+
 class Clip:
     """Reads a stock video as 1080x1920 frames, looping if it is short."""
 

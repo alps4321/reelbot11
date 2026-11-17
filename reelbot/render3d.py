@@ -16,7 +16,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw
 
 from .config import ASSETS, ROOT
-from .render import FPS, H, W, caption_chunks, font, norm, rgb, word_times, wrap
+from .render import FPS, H, W, caption_chunks, font, norm, rgb, scene_word_times, wrap
 
 CYAN = (120, 235, 255)
 
@@ -55,7 +55,7 @@ def render(cfg, script, audio, speech, starts, total, out_path):
     for i, sc in enumerate(script["scenes"]):
         words = [w.upper() for w in sc["say"].split()]
         scenes.append({**sc, "start": starts[i], "end": starts[i + 1] if i + 1 < len(starts) else total,
-                       "words": words, "times": word_times(words, starts[i], speech[i]),
+                       "words": words, "times": scene_word_times(sc, words, starts[i], speech[i]),
                        "chunks": caption_chunks(words, max_words=3, max_chars=18)})
     storyboard = [{k: sc.get(k) for k in ("set", "actors", "props", "camera", "shake")} for sc in script["scenes"]]
 

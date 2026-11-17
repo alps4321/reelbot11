@@ -1,5 +1,6 @@
 """Text to speech (one clip per scene, so visuals stay in sync) plus sound effects."""
 import math
+import re
 import random
 import subprocess
 import sys
@@ -119,6 +120,62 @@ def _chatterbox_batch(cfg, lang, scenes, workdir):
         _to_wav(workdir / f"cb{i}.wav", workdir / f"scene{i}.wav")
 
 
+PAUSE = {"?": 0.50, "!": 0.34, ".": 0.34, "।": 0.34, "…": 0.48}   # seconds of silence after a phrase
+
+
+def phrases(text):
+    """Split a spoken line where a good speaker would breathe: sentence ends and '...' beats."""
+    text = text.replace("...", "…")
+    parts = [p.strip() for p in re.split(r"(?<=[।.?!…])\s+", text.strip()) if p.strip(" ।.?!…")]
+    return parts or [text]
+
+
+def _trim(src, dst):
+    """Cut the silence the voice model leaves at both ends, so pauses are exactly the ones we choose."""
+    cut = "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.03"
+    _run(["ffmpeg", "-y", "-i", str(src), "-af", f"{cut},areverse,{cut},areverse",
+          "-ar", str(RATE), "-ac", "1", "-c:a", "pcm_s16le", str(dst)])
+
+
+def _omnivoice_batch(cfg, lang, scenes, workdir):
+    """OmniVoice (open source): every phrase is spoken in the voice of one reference clip.
+
+    Pacing is done the way a trained speaker does it: one phrase per breath, a real pause
+    after each sentence, a longer one after a question or before the answer.
+    """
+    import json
+    import os
+
+    v = cfg["voice"]
+    ref = ROOT / lang.get("omnivoice_ref", v["omnivoice_ref"])
+    jobs, plan = [], []
+    for i, sc in enumerate(scenes):
+        parts = phrases(sc["voice"])
+        plan.append(parts)
+        for k, part in enumerate(parts):
+            jobs.append({"text": part.rstrip("…").strip() or part, "out": str(workdir / f"ov{i}_{k}.wav"),
+                         "ref": str(ref), "ref_text": v["omnivoice_ref_text"], "speed": float(v.get("speed", 1.0))})
+    job_file = workdir / "ov_jobs.json"
+    job_file.write_text(json.dumps(jobs, ensure_ascii=False))
+    py = os.environ.get("OMNIVOICE_PYTHON", sys.executable)
+    subprocess.run([py, str(Path(__file__).with_name("ov_tts.py")), str(job_file)], check=True,
+                   stdout=subprocess.DEVNULL)
+    for i, parts in enumerate(plan):
+        track, marks = array("h"), []
+        for k, part in enumerate(parts):
+            clean = workdir / f"ov{i}_{k}_t.wav"
+            _trim(workdir / f"ov{i}_{k}.wav", clean)
+            samples = _read(clean)
+            marks.append((len(track) / RATE, len(samples) / RATE))
+            track.extend(samples)
+            if k < len(parts) - 1:
+                track.extend(array("h", bytes(2 * int(RATE * PAUSE.get(part[-1], 0.3)))))
+        with wave.open(str(workdir / f"scene{i}.wav"), "wb") as out:
+            out.setnchannels(1), out.setsampwidth(2), out.setframerate(RATE)
+            out.writeframes(track.tobytes())
+        scenes[i]["_phrases"] = marks           # (offset, length) of each phrase, for caption timing
+
+
 def _azure(cfg, lang, text, dst):
     """Microsoft Azure Speech neural voices (free tier: 0.5M characters a month)."""
     from xml.sax.saxutils import escape
@@ -195,7 +252,7 @@ def _mix(track, clip, at):
         track[j] = max(-32768, min(32767, track[j] + v))
 
 
-def synthesize(cfg, lang, scenes, workdir, gap=0.12, tail=1.0):
+def synthesize(cfg, lang, scenes, workdir, gap=0.30, tail=1.0):
     """Returns (audio_path, [speech seconds per scene], [scene start times], total seconds)."""
     workdir = Path(workdir)
     workdir.mkdir(parents=True, exist_ok=True)
@@ -211,11 +268,19 @@ def synthesize(cfg, lang, scenes, workdir, gap=0.12, tail=1.0):
 
     if provider == "chatterbox":
         _chatterbox_batch(cfg, lang, scenes, workdir)
+    if provider == "omnivoice":
+        try:
+            _omnivoice_batch(cfg, lang, scenes, workdir)
+        except Exception as e:          # never lose a day's post over the voice engine
+            provider = "kokoro" if lang["id"] == "english" else "piper"
+            print(f"voice: OmniVoice failed ({e}); falling back to {provider}")
+            for sc in scenes:
+                sc.pop("_phrases", None)
 
     track, speech, starts, t = array("h"), [], [], 0.0
     for i, sc in enumerate(scenes):
         clip = workdir / f"scene{i}.wav"
-        if provider == "chatterbox":
+        if provider in ("chatterbox", "omnivoice"):
             pass
         elif provider == "elevenlabs":
             _elevenlabs(cfg, lang, sc["voice"], clip)
@@ -230,7 +295,8 @@ def synthesize(cfg, lang, scenes, workdir, gap=0.12, tail=1.0):
         samples = _read(clip) if provider != "none" else array(
             "h", bytes(2 * int(RATE * max(1.4, len(sc["say"].split()) / 2.8))))
         dur = len(samples) / RATE
-        pad = tail if i == len(scenes) - 1 else gap
+        ends = sc["voice"].rstrip()[-1:]
+        pad = tail if i == len(scenes) - 1 else (gap + 0.18 if ends in "?…" else gap)
         starts.append(t)
         speech.append(dur)
         track.extend(samples)

@@ -1,38 +1,44 @@
 {
   "hinglish": {
     "measured": 0,
-    "updated": "2026-11-16",
-    "source": "first two reels posted by hand, read from Instagram insights after 5-6 hours",
+    "updated": "2026-11-17",
+    "source": "the first six reels posted by hand, read from Instagram insights",
     "keep": [
-      "Question hook with a deadline: skip rate 37-39%, which Instagram marked better than typical",
-      "Useful how-to content: the Hinglish reel's save rate (0.7%) was above typical"
+      "A question nearly everyone has asked themselves, with the answer held back: the Aadhaar PDF password reel got 1,900 views, 22 saves, 8 shares and 3 follows in a few hours, more than all other reels together",
+      "Opening on a character in a situation (night desk scene) with a curiosity question: skip rate 37-39%, better than typical",
+      "Everyday documents every Indian adult handles (Aadhaar, PAN, passport photo, bank statement) travel further than narrow exam-form problems",
+      "Useful how-to content people want to keep: save rates above typical"
     ],
     "avoid": [
-      "Reels longer than about 20 seconds: average watch was 8-9s and only 5-8% reached the end",
-      "Slow build-up before the fix: 60% of viewers were gone by second 8"
+      "Opening on an error card or a product-style headline: skip rate jumped to 57%",
+      "Reels over about 25 seconds: average watch time is only 8-9 seconds",
+      "Flat, rushed narration with no pauses"
     ],
     "next_tests": [
-      "15-20 second reels with the result on screen by second 8",
-      "Error panel visible in the very first shot",
-      "Ending on 'save this for your next form'"
+      "A different tool every post in week 1",
+      "Answer revealed in the last third",
+      "Ending on a line worth sending to a friend, to lift shares"
     ]
   },
   "english": {
     "measured": 0,
-    "updated": "2026-11-16",
-    "source": "first two reels posted by hand, read from Instagram insights after 5-6 hours",
+    "updated": "2026-11-17",
+    "source": "the first six reels posted by hand, read from Instagram insights",
     "keep": [
-      "Question hook with a deadline: skip rate 37-39%, which Instagram marked better than typical",
-      "Useful how-to content: the Hinglish reel's save rate (0.7%) was above typical"
+      "A question nearly everyone has asked themselves, with the answer held back: the Aadhaar PDF password reel got 1,900 views, 22 saves, 8 shares and 3 follows in a few hours, more than all other reels together",
+      "Opening on a character in a situation (night desk scene) with a curiosity question: skip rate 37-39%, better than typical",
+      "Everyday documents every Indian adult handles (Aadhaar, PAN, passport photo, bank statement) travel further than narrow exam-form problems",
+      "Useful how-to content people want to keep: save rates above typical"
     ],
     "avoid": [
-      "Reels longer than about 20 seconds: average watch was 8-9s and only 5-8% reached the end",
-      "Slow build-up before the fix: 60% of viewers were gone by second 8"
+      "Opening on an error card or a product-style headline: skip rate jumped to 57%",
+      "Reels over about 25 seconds: average watch time is only 8-9 seconds",
+      "Flat, rushed narration with no pauses"
     ],
     "next_tests": [
-      "15-20 second reels with the result on screen by second 8",
-      "Error panel visible in the very first shot",
-      "Ending on 'save this for your next form'"
+      "A different tool every post in week 1",
+      "Answer revealed in the last third",
+      "Ending on a line worth sending to a friend, to lift shares"
     ]
   }
 }

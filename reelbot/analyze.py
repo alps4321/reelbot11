@@ -4,9 +4,43 @@ from .config import DATA
 from .instagram import IGError
 
 
+GUESS = [("aadhaar", "password", "unlock_aadhaar"), ("aadhaar", "print", "id_card_print"), ("too large", "", "resize_photo_kb"),
+         ("50 kb", "", "resize_photo_kb"), ("passport", "", "passport_photo"), ("merge", "", "merge_pdf")]
+HINDI = ("kya", "hai", "ka ", "ke ", "ki ", "kar", "mein", "nahi", "lo", "karo")
+
+
+def import_existing(cfg, ig):
+    """Add reels that are on the account but not in our records (posted by hand), so they are tracked too."""
+    posts = store.posts()
+    known = {p.get("media_id") for p in posts}
+    try:
+        media = ig._call("GET", f"{ig.uid}/media", fields="id,caption,media_product_type,timestamp,permalink",
+                         limit=50).get("data", [])
+    except Exception as e:
+        print("import: skipped,", e)
+        return
+    added = 0
+    for m in media:
+        if m["id"] in known or m.get("media_product_type") != "REELS":
+            continue
+        cap = (m.get("caption") or "").lower()
+        topic = next((t for a, b, t in GUESS if a in cap and b in cap), "general")
+        posts.append({"id": f"manual-{m['id']}", "created_at": m["timestamp"], "posted_at": m["timestamp"],
+                      "media_id": m["id"], "permalink": m.get("permalink", ""), "manual": True,
+                      "language": "hinglish" if sum(w in cap for w in HINDI) >= 2 else "english",
+                      "topic": topic, "hook_style": "manual", "format": "manual", "seconds": 0,
+                      "hook": (m.get("caption") or "").split("\n")[0][:60], "caption": m.get("caption", ""), "checked": []})
+        added += 1
+    if added:
+        posts.sort(key=lambda p: p.get("posted_at") or p["created_at"])
+        store.save_posts(posts)
+        print(f"import: added {added} reels posted outside the bot")
+
+
 def collect(cfg, ig):
     if not ig.ready:
         return 0
+    import_existing(cfg, ig)
     posts, done = store.posts(), 0
     for p in posts:
         if not p.get("media_id"):

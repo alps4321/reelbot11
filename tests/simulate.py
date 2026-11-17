@@ -1,12 +1,14 @@
-"""Simulates 30 days of the loop with a fake Instagram and fake Claude (no network).
+"""Simulates three weeks of the bot (3 reels a day) with a fake Instagram, fake Claude and a fake clock.
 
-Checks that results are read, scores change the next plan, and the report is written.
+Checks: week 1 tests a different tool every post; from week 2 the winner days go to the best tool and
+other days mix proven and new tools; results are read and the report is written. No network, no keys.
 Run:  python tests/simulate.py
 """
 import random
 import sys
 import tempfile
-from datetime import timedelta
+from collections import Counter
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
@@ -17,81 +19,79 @@ store.DATA = analyze.DATA = tmp
 pipeline.OUT = tmp
 cfg = config.load()
 cfg["secrets"].update(anthropic="fake", ig_user_id="1", ig_token="t")
-cfg["posting"].update(dry_run=False, per_language_per_day=1)
+cfg["posting"]["dry_run"] = False
 cfg["voice"]["provider"] = "none"
-for _lang in cfg["content"]["languages"]:
-    _lang.pop("provider", None)   # no real voices in the simulation
 random.seed(7)
 
-GOOD_TOPIC = "resize_photo_kb"   # the fake audience loves this topic
-published = {}
-current_topic = [None]
+GOOD = "pdf_to_word"                     # the fake audience loves this tool
+clock = [datetime(2026, 11, 16, 7, 0, tzinfo=timezone.utc)]   # a Monday
+store.now = lambda: clock[0]
+published, current = {}, [None]
 
 
 class FakeIG(instagram.Instagram):
+    base = "https://graph.facebook.com/v25.0"
+
+    def _call(self, method, path, **params):
+        return {"data": []}
+
     def hashtag_top(self, tag, limit=25):
-        return [{"media_product_type": "REELS", "caption": f"viral {tag} tip", "like_count": 900,
-                 "comments_count": 40, "permalink": f"https://ig/{tag}", "timestamp": "2026-11-01"}]
+        return []
 
     def publish_reel(self, video_path, caption, **kw):
         mid = f"m{len(published) + 1}"
-        published[mid] = current_topic[0]
+        published[mid] = current[0]
         return mid, f"https://instagram.com/reel/{mid}"
 
     def insights(self, media_id):
-        base = 9000 if published[media_id] == GOOD_TOPIC else 800
-        v = int(base * random.uniform(0.7, 1.3))
+        v = int((9000 if published[media_id] == GOOD else 800) * random.uniform(0.7, 1.3))
         return {"views": v, "reach": int(v * .8), "likes": v // 20, "comments": v // 200,
                 "shares": v // 100, "saved": v // 80, "ig_reels_avg_watch_time": 7400}
 
 
 def fake_claude(cfg, system, prompt, max_tokens=2000):
     if "Results of our" in prompt:
-        return {"keep": ["photo size topics"], "avoid": ["vague hooks"], "next_tests": ["shorter hooks"]}
+        return {"keep": ["x"], "avoid": ["y"], "next_tests": ["z"]}
     lang = cfg["content"]["languages"][1 if "Devanagari" in prompt else 0]
-    s = script._offline_story(cfg, "t", lang)
-    s["scenes"][0]["screen"] = f"Hook {random.randint(1000, 9999)}?"
-    return s
-
-
-def fake_render(cfg, s, audio, speech, starts, total, out):
-    Path(out).write_bytes(b"x")
-    return Path(out)
+    return script._offline_story(cfg, "t", lang)
 
 
 real_plan = learn.next_plan
 
 
-def plan(cfg, lang):
-    p = real_plan(cfg, lang)
-    current_topic[0] = p["topic"]
+def plan(cfg, lang, slot=0, today=None):
+    p = real_plan(cfg, lang, slot, today)
+    current[0] = p["topic"]
     return p
 
 
 claude.ask_json = fake_claude
-render.render = render3d.render = fake_render
+render.render = render3d.render = lambda cfg, s, a, sp, st, total, out: (Path(out).write_bytes(b"x"), Path(out))[1]
 pipeline.Instagram = FakeIG
 learn.next_plan = plan
 
-for day in range(30):
-    pipeline.run(cfg)
-    posts = store.posts()          # move the clock: age every post by one day
-    for p in posts:
-        for k in ("posted_at", "created_at"):
-            p[k] = store.iso(store.parse(p[k]) - timedelta(days=1))
-    store.save_posts(posts)
+for day in range(21):
+    for hour in (7, 13, 15):             # the three scheduled runs (UTC)
+        clock[0] = datetime(2026, 11, 16, hour, 30, tzinfo=timezone.utc) + timedelta(days=day)
+        pipeline.run(cfg)
 
-posts = store.posts()
-assert len(posts) == 60 and all(p["media_id"] for p in posts)
-measured = [p for p in posts if p.get("metrics")]
-assert len(measured) >= 56, len(measured)
-assert {p["language"] for p in posts} == {"english", "hinglish"}
-assert all(p["metrics"]["avg_watch_s"] == 7.4 for p in measured)
-assert store.read("playbook", {})["hinglish"]["keep"] == ["photo size topics"]
-early = sum(p["topic"] == GOOD_TOPIC for p in posts[:24])
-late = sum(p["topic"] == GOOD_TOPIC for p in posts[36:])
-print(f"good topic used {early}x in first 24 posts, {late}x in last 24 posts")
-assert late > early, "bot did not shift toward the winning topic"
+posts = [p for p in store.posts() if p.get("media_id")]
+by_day = {}
+for p in posts:
+    by_day.setdefault(store.local_date(p["posted_at"]), []).append(p["topic"])
+assert len(posts) == 63, len(posts)
+assert all(len(v) == 3 for v in by_day.values()), "three reels every day"
+start = min(by_day)
+winner_days = [d for d in by_day if d.weekday() in cfg["posting"]["winner_days"] and d >= start + timedelta(days=7)]
+assert all(len(set(v)) == 3 for d, v in by_day.items() if d not in winner_days), "no tool twice on a normal day"
+week1 = [p["topic"] for p in posts[:21]]
+assert len(set(week1)) == 21, "week 1 tests 21 different tools"
+assert sum(1 for p in posts if p.get("metrics")) >= 55
+assert winner_days and all(set(by_day[d]) == {GOOD} for d in winner_days), "winner days go to the best tool"
+later = Counter(p["topic"] for p in posts[21:])
+print("week 1 tools:", len(set(week1)), "| weeks 2-3 most used:", later.most_common(4))
+print("winner days:", [(str(d), by_day[d]) for d in winner_days])
+assert later[GOOD] == max(later.values()), "the winning tool gets the most posts after week 1"
+assert len(later) >= 12, "new tools keep being tested after week 1"
 assert (tmp / "report.md").exists()
-print((tmp / "report.md").read_text()[:1300])
 print("SIMULATION OK")

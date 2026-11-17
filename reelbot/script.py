@@ -69,6 +69,10 @@ STORY_FORMATS = {
                       "the fix, success with seconds left.",
     "two_friends": "Two friends with the same task: one does it the hard way, one the easy way. Light humour.",
     "explainer": 'Answer one "Why does ...?" question about this task in plain steps, then show the fix.',
+    "secret_answer": "Open on a question almost everyone has already asked themselves about this task. "
+                     "Rule out two wrong guesses, then reveal the answer in the last third. Our best reel used this.",
+    "boss_junior": "A boss loses his temper at a junior over a file problem; the junior fixes it in seconds; "
+                   "the boss goes quiet and asks how. End on a punchline. English or Indian first names.",
 }
 
 STORY_PROMPT = """Write one reel as a low-poly 3D animated short story (like the viral "What if" 3D story reels):
@@ -90,10 +94,14 @@ test next: {tests}
 Hooks we used recently (do not repeat them): {recent}
 
 Story rules:
-- 6 to 8 shots, each ONE very short spoken sentence (3 to 7 words, under 2.5 seconds). First shot kind "hook",
-  last shot kind "cta", the rest "point". No scene-setting shots: every shot must change something.
-- Our data: most viewers leave between second 3 and second 9. So the hook shot must already SHOW the problem
-  (an error panel in shot 1), and the fix with its result (size_drop, then success) must be on screen by second 8.
+- 7 to 9 shots, each ONE short spoken sentence (3 to 8 words). First shot kind "hook", last shot kind "cta",
+  the rest "point". No scene-setting shots: every shot must change something.
+- What our own reels have shown: a curiosity question over a character scene keeps people (skip rate under 40%);
+  opening on an error card or anything that looks like an advert loses them (skip rate 57%). So shot 1 is a
+  character in a situation with NO panel, and the hook line is a question or claim that cannot be answered
+  without watching on. Most viewers leave between second 3 and 9, so by shot 3 raise the stakes or add a
+  second hook ("but that is not the problem", "wait for the last step").
+- Hold the real answer back until the last third, then show it clearly (size_drop, success or text panel).
 - The hook is a question or a claim the viewer must see answered. It is spoken AND shown as "screen" text.
 - Give the main character an Indian first name. Concrete details beat general statements
   (a time on the clock, a real file size, a specific form).
@@ -104,6 +112,9 @@ Story rules:
 Each shot has:
 - "kind", "screen" (hook and cta only need it; at most 8 words; cta screen is "{cta}"), "emphasis" (1-2 words of screen)
 - "voice": the narration as it is pronounced. {voice_rule}
+  Write it the way a good storyteller SPEAKS, not the way text is read: short sentences, one idea each.
+  Put "..." where the speaker would pause for effect: after the hook question, and right before the answer.
+  At most one "..." per shot. Use contractions and everyday words. Never a list of features in one breath.
 - "say": the same line as it should be written in the captions (Roman letters, numbers as digits, ilovedocuments.ai).
 - "label": optional short time/place tag shown at the top, like "11:58 PM", "DAY 3", "NEXT MORNING".
 - "set": one of park, sunset, night, bedroom, office, exam.
@@ -225,7 +236,7 @@ def validate(cfg, s, lang):
             raise ScriptError(f"screen text too long: {sc['screen']}")
         if lang.get("tts_script") and not sc.get("say"):
             raise ScriptError('every scene needs "say" (the spoken line in Roman letters)')
-        sc["say"] = sc.get("say") or sc["voice"]
+        sc["say"] = " ".join((sc.get("say") or sc["voice"]).replace("...", " ").replace("…", " ").split())
         sc.setdefault("emphasis", [])
         sc["visual"] = None if story else _clean_visual(sc.get("visual"))
     words = sum(len(sc["say"].split()) for sc in scenes)
@@ -336,7 +347,8 @@ def _offline_story(cfg, topic_title, lang):
 def write(cfg, plan, playbook):
     c, b = cfg["content"], cfg["brand"]
     lang = next(l for l in c["languages"] if l["id"] == plan["language"])
-    topic_title = next(t["title"] for t in c["topics"] if t["id"] == plan["topic"])
+    topic = next(t for t in c["topics"] if t["id"] == plan["topic"])
+    topic_title = f"{topic['title']} (the site's tool for this is called \"{topic.get('tool', topic['title'])}\")"
     story = c.get("style") == "story3d"
     if not claude.available(cfg):
         if not cfg["posting"]["dry_run"]:

@@ -16,7 +16,7 @@ def main():
         cfg["posting"]["dry_run"] = True
         wanted = sys.argv[2:] or [l["id"] for l in cfg["content"]["languages"]]
         for lang in wanted:
-            post = pipeline.make(cfg, learn.next_plan(cfg, lang))
+            post = pipeline.make(cfg, learn.next_plan(cfg, lang, 0))
             print(f"out/{post['video']}  {post['seconds']}s  hook: {post['hook']}")
     elif cmd == "check":        # confirm the Instagram and Claude keys work
         from . import claude

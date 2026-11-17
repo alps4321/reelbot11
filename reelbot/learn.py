@@ -13,7 +13,8 @@ ARMS = ("topic", "hook_style", "format")
 
 
 def score(post):
-    m = post.get("metrics")
+    at48 = [h for h in post.get("history", []) if h.get("hours") == 48]
+    m = at48[0] if at48 else post.get("metrics")
     if not m:
         return None
     base = (m.get("views", 0) + 8 * m.get("shares", 0) + 6 * m.get("saved", 0)
@@ -41,21 +42,67 @@ def choose(options, stats, explore_rate, avoid=()):
     pool = [o for o in options if o not in avoid] or list(options)
     untried = [o for o in pool if o not in stats]
     if untried and (random.random() < max(explore_rate, 0.5) or len(untried) == len(pool)):
-        return random.choice(untried), "new test"
+        return untried[0], "new test"                    # untried options are tested in config order
     if random.random() < explore_rate or not any(o in stats for o in pool):
         return random.choice(pool), "explore"
     best = max((o for o in pool if o in stats), key=lambda o: stats[o]["avg"])
     return best, "best so far"
 
 
-def next_plan(cfg, lang):
-    posts, rate, c = of_language(lang), cfg["learning"]["explore_rate"], cfg["content"]
-    recent = [p["topic"] for p in store.posts()[-4:]]  # across languages, so the feed varies
-    topic, why_t = choose([t["id"] for t in c["topics"]], arm_stats(posts, "topic"), rate, avoid=recent)
-    hook, why_h = choose(c["hook_styles"], arm_stats(posts, "hook_style"), rate)
-    fmt, why_f = choose(c["formats"], arm_stats(posts, "format"), rate)
+def live(posts):
+    return [p for p in posts if p.get("media_id")]
+
+
+def next_plan(cfg, lang, slot=0, today=None):
+    """Pick the tool, hook and format for the next reel.
+
+    Week 1: a different tool every post, so each one gets a first result.
+    From week 2: on the two "winner days" every post is about the best-scoring tool; on the other days
+    one post goes to a proven tool (top 5, rotating) and one tests a tool that has had the fewest posts.
+    """
+    c, rate = cfg["content"], cfg["learning"]["explore_rate"]
+    today = today or store.today()
+    posts = live(store.posts())
+    topics = [t["id"] for t in c["topics"]]
+    counts = {t: 0 for t in topics}
+    last_used = {}
+    for p in posts:
+        if p["topic"] in counts:
+            counts[p["topic"]] += 1
+            last_used[p["topic"]] = p["posted_at"]
+    today_topics = {p["topic"] for p in posts if store.local_date(p["posted_at"]) == today}
+    stats = arm_stats(posts, "topic")
+    first = min((store.local_date(p["posted_at"]) for p in posts), default=today)
+    week = (today - first).days // 7
+
+    def fresh(pool):
+        return [t for t in pool if t not in today_topics] or list(pool)
+
+    def test_pick():
+        pool = fresh(topics)
+        return min(pool, key=lambda t: (counts[t], topics.index(t)))   # fewest posts first, then list order
+
+    if week == 0 or not stats:
+        topic, mode = test_pick(), "week 1: every tool gets a first try"
+    else:
+        ranked = sorted(stats, key=lambda t: -stats[t]["avg"])
+        winner = ranked[0]
+        if today.weekday() in cfg["posting"].get("winner_days", []):
+            topic, mode = winner, f"winner day: {winner} has the best average score"
+        else:
+            want = ("engaging", "test", "engaging" if today.toordinal() % 2 == 0 else "test")[min(slot, 2)]
+            proven = fresh([t for t in ranked[1:6]] or ranked[:1])
+            if want == "engaging":
+                topic = min(proven, key=lambda t: last_used.get(t, ""))    # the one not shown for longest
+                mode = "proven tool (top 5, rotating)"
+            else:
+                topic, mode = test_pick(), "testing a less-tried tool"
+
+    mine = of_language(lang)
+    hook, why_h = choose(c["hook_styles"], arm_stats(mine, "hook_style"), rate)
+    fmt, why_f = choose(c["formats"], arm_stats(mine, "format"), rate)
     return {"language": lang, "topic": topic, "hook_style": hook, "format": fmt,
-            "reason": f"topic: {why_t}; hook: {why_h}; format: {why_f}"}
+            "reason": f"{mode}; hook: {why_h}; format: {why_f}"}
 
 
 def update_playbook(cfg, lang):

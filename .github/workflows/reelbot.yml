@@ -1,8 +1,10 @@
 name: ReelBot
 
 on:
-  schedule:
-    - cron: "30 13 * * *"   # every day 7:00 pm India time (13:30 UTC)
+  schedule:                  # three reels a day; each run also reads the results of earlier reels
+    - cron: "7 7 * * *"      # 12:37 pm India time
+    - cron: "7 13 * * *"     # 6:37 pm India time
+    - cron: "37 15 * * *"    # 9:07 pm India time
   workflow_dispatch:
     inputs:
       dry_run:
@@ -22,7 +24,7 @@ concurrency: reelbot
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 80
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -35,10 +37,16 @@ jobs:
           pip install -r requirements.txt
           npm install -g @anthropic-ai/claude-code
           playwright install --with-deps chromium
+          pip install torch==2.8.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+          pip install omnivoice soundfile
       - uses: actions/cache@v4
         with:
           path: voices
           key: voices-${{ hashFiles('config.yaml') }}
+      - uses: actions/cache@v4        # the voice model (about 3 GB) is downloaded once, then reused
+        with:
+          path: ~/.cache/huggingface
+          key: hf-omnivoice-v1
       - name: Run one cycle
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}

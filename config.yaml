@@ -26,7 +26,6 @@ content:
         Hinglish, the everyday mix of Hindi and common English words that young
         Indians speak. On-screen text and captions in Roman letters.
       tts_script: Devanagari    # the voice engine reads Hindi script
-      provider: piper                      # voice 6 from the samples; change to voicemaker once that account has credit
       voicemaker_voice: ai3-hi-IN-Madhur
       azure_voice: hi-IN-MadhurNeural    # or hi-IN-SwaraNeural (female)
       kokoro_voice: hm_omega       # others: hf_alpha, hf_beta, hm_psi
@@ -44,35 +43,58 @@ content:
   cta: "Free. No sign-up. No watermark."
   hashtags: ["#pdf", "#onlineform", "#studenthacks", "#govtexam", "#techtips"]
   max_hashtags: 5
-  target_seconds: [15, 21]   # first reels: people watched 8-9s of 24-33s, so shorter
+  target_seconds: [17, 24]
   # Each topic is one "arm" the bot tests and learns from.
+  # All 45 tools on ilovedocuments.ai, in the order they get their first test.
+  # searches = monthly Google searches in India (OpenSEO, Nov 2026); used only to choose the test order.
   topics:
-    - id: compress_pdf_kb
-      title: Compress a PDF to 100 KB or 200 KB for form uploads
-    - id: resize_photo_kb
-      title: Resize a photo to 20-50 KB for exam and job forms
-    - id: resize_signature_kb
-      title: Resize a signature to 10-20 KB
-    - id: passport_photo
-      title: Make a passport size photo at home
-    - id: unlock_aadhaar
-      title: Open a password-protected e-Aadhaar PDF and remove the password
-    - id: jpg_to_pdf
-      title: Turn phone photos of documents into one PDF
-    - id: merge_pdf
-      title: Merge several PDFs into one file
-    - id: bank_statement_excel
-      title: Convert a bank statement PDF to Excel
-    - id: sign_pdf
-      title: Sign a PDF on your phone without printing
-    - id: remove_background
-      title: Remove a photo background for ID photos
-    - id: ocr_hindi
-      title: Copy text out of a scanned PDF in Hindi, Gujarati or English
-    - id: privacy
-      title: Why you should not upload ID documents to random websites
+    - {id: jpg_to_pdf, tool: "JPG to PDF", title: "Turn phone photos of documents into one PDF", searches: 7480000}
+    - {id: passport_photo, tool: "Passport Photo Maker", title: "Make a passport or visa size photo at home", searches: 301000}
+    - {id: pdf_to_word, tool: "PDF to Word", title: "Make a PDF editable as a Word file", searches: 6120000}
+    - {id: remove_background, tool: "Remove Background", title: "Remove a photo background for ID photos", searches: 6120000}
+    - {id: compress_pdf_kb, tool: "Compress PDF", title: "Shrink a PDF to an exact size like 100 KB or 200 KB", searches: 135000}
+    - {id: merge_pdf, tool: "Merge PDF", title: "Combine several PDFs and photos into one file", searches: 3350000}
+    - {id: resize_image_kb, tool: "Resize Image in KB", title: "Hit an exact KB limit for an online form", searches: 301000}
+    - {id: pdf_to_jpg, tool: "PDF to JPG", title: "Save PDF pages as images", searches: 4090000}
+    - {id: word_to_pdf, tool: "Word to PDF", title: "Convert a Word file to PDF", searches: 3350000}
+    - {id: unlock_pdf, tool: "Unlock PDF", title: "Remove the password from a PDF you can open", searches: 450000}
+    - {id: image_to_pdf, tool: "Image to PDF", title: "Convert images of any format into one PDF", searches: 2740000}
+    - {id: pdf_to_excel, tool: "PDF to Excel", title: "Pull tables out of a PDF into Excel", searches: 1220000}
+    - {id: bank_statement_excel, tool: "Bank Statement Converter", title: "Turn a bank statement PDF into one Excel sheet", searches: 5400}
+    - {id: compress_image, tool: "Compress Image", title: "Shrink a photo without it looking bad", searches: 673000}
+    - {id: convert_image, tool: "Convert Image", title: "Convert iPhone HEIC photos to JPG in bulk", searches: 201000}
+    - {id: split_pdf, tool: "Split PDF", title: "Break a big PDF into separate files", searches: 673000}
+    - {id: sign_pdf, tool: "Sign PDF", title: "Sign a PDF on the phone without printing it", searches: 27100}
+    - {id: delete_pages, tool: "Delete PDF Pages", title: "Remove unwanted pages from a PDF", searches: 550000}
+    - {id: edit_pdf, tool: "Edit PDF", title: "Add text, images and highlights to a PDF", searches: 550000}
+    - {id: id_card_print, tool: "ID Card Print", title: "Print an ID card front and back on one A4 page"}
+    - {id: resize_signature_kb, tool: "Resize Signature to 10-20 KB", title: "Get a signature under 20 KB for exam forms", searches: 1600}
+    - {id: resize_image, tool: "Resize Image", title: "Change a photo's size in pixels, cm or inches", searches: 1500000}
+    - {id: excel_to_pdf, tool: "Excel to PDF", title: "Turn a spreadsheet into a clean PDF", searches: 1000000}
+    - {id: crop_pdf, tool: "Crop PDF", title: "Trim the margins of a PDF", searches: 368000}
+    - {id: ppt_to_pdf, tool: "PowerPoint to PDF", title: "Convert slides to PDF", searches: 246000}
+    - {id: pdf_to_ppt, tool: "PDF to PowerPoint", title: "Turn a PDF into editable slides", searches: 201000}
+    - {id: png_to_pdf, tool: "PNG to PDF", title: "Convert screenshots to PDF", searches: 165000}
+    - {id: rotate_pdf, tool: "Rotate PDF", title: "Fix sideways or upside-down scanned pages", searches: 90500}
+    - {id: crop_image, tool: "Crop Image", title: "Crop a photo to a set ratio", searches: 90500}
+    - {id: extract_pages, tool: "Extract PDF Pages", title: "Save only the pages you need as a new PDF", searches: 74000}
+    - {id: pdf_to_png, tool: "PDF to PNG", title: "Save PDF pages as PNG images", searches: 74000}
+    - {id: unlock_aadhaar, tool: "Unlock Aadhaar PDF", title: "Open the e-Aadhaar PDF and remove its password", searches: 22200}
+    - {id: watermark_pdf, tool: "Watermark PDF", title: "Add a name or logo across PDF pages", searches: 18100}
+    - {id: pdf_to_text, tool: "PDF to Text", title: "Extract all the text from a PDF", searches: 18100}
+    - {id: repair_pdf, tool: "Repair PDF", title: "Recover a PDF that will not open", searches: 14800}
+    - {id: protect_pdf, tool: "Protect PDF", title: "Lock a PDF with a password before sending it", searches: 12100}
+    - {id: add_page_numbers, tool: "Add Page Numbers", title: "Number the pages of a PDF", searches: 12100}
+    - {id: extract_images, tool: "Extract Images from PDF", title: "Save the pictures embedded in a PDF", searches: 12100}
+    - {id: rotate_image, tool: "Rotate Image", title: "Rotate or flip a photo", searches: 12100}
+    - {id: signature_bg_remover, tool: "Signature Background Remover", title: "Clean up a photographed signature", searches: 6600}
+    - {id: edit_image, tool: "Edit Image", title: "Change DPI, go black and white, remove hidden photo data", searches: 6600}
+    - {id: organize_pdf, tool: "Organize PDF", title: "Reorder and rotate PDF pages visually", searches: 5400}
+    - {id: redact_pdf, tool: "Redact PDF", title: "Permanently black out private details before sharing a document", searches: 3600}
+    - {id: resize_photo_kb, tool: "Resize Photo to 20-50 KB", title: "Resize an exam or passport photo to 20-50 KB", searches: 590}
+    - {id: ocr_pdf, tool: "OCR PDF", title: "Copy text out of a scanned PDF in Hindi, Gujarati or English", searches: 20}
   hook_styles: [question, problem, bold_claim, number, how_to]
-  formats: [what_if, deadline_story, two_friends, explainer]          # story3d formats
+  formats: [secret_answer, what_if, deadline_story, two_friends, boss_junior, explainer]   # story3d formats
   card_formats: [problem_fix, three_mistakes, before_after, myth_buster]
 
 research:
@@ -82,19 +104,22 @@ research:
   keep_top: 25
 
 voice:
-  provider: azure            # azure (free tier, Indian voices; falls back to kokoro without a key) | kokoro | piper | elevenlabs | none
-  speed: 1.05
+  provider: omnivoice        # omnivoice (free, one consistent voice) | kokoro | piper | azure | elevenlabs | none
+  omnivoice_ref: assets/voices/hi_male_ref.wav      # the male voice you picked; every line copies it
+  omnivoice_ref_text: "ग्यारह उनसठ पर फॉर्म रिजेक्ट।"
+  speed: 0.94                # slightly slower than the model's default
   sound_effects: true        # whoosh, pop, error buzz, success ding
 
 posting:
   enabled: true              # master switch. false = bot does nothing
-  dry_run: true              # SAFETY: stays true until one Claude-written reel has been checked. Then set false to post.
-  per_language_per_day: 1
+  dry_run: false             # true = make videos but never post
+  slots: [hinglish, english, hinglish]   # three reels a day, in this order
+  winner_days: [1, 4]        # from week 2: Tuesday and Friday go to the best-scoring tool (Monday = 0)
   share_to_feed: true
   label_ai_generated: true
 
 learning:
-  check_hours: [24, 72, 168] # when to read each reel's results
+  check_hours: [6, 24, 48, 72, 120, 168]   # hours after posting when each reel's results are read
   explore_rate: 0.25         # share of posts that try something not yet proven
   min_posts_for_playbook: 4
 

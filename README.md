@@ -1,5 +1,18 @@
 # ReelBot for iLoveDocuments
 
+## Daily plan (current)
+
+- Runs on GitHub three times a day (12:37 pm, 6:37 pm, 9:07 pm India time). Each run reads the results of
+  earlier reels, then makes and posts one reel: Hinglish, English, Hinglish.
+- Week 1: a different tool from ilovedocuments.ai in every post (45 tools, ordered by how often Indians search
+  for them).
+- From week 2: Tuesday and Friday all go to the best-scoring tool. Other days: one proven tool (top 5,
+  rotating) and one tool that has had the fewest posts; the third post alternates.
+- Reels are compared at the same age (48 hours). Score weighs shares and saves most, and rewards watch time.
+- Voice: one consistent male narrator (OmniVoice, copied from `assets/voices/hi_male_ref.wav`), spoken one
+  phrase per breath with real pauses after sentences and longer pauses after questions and before the answer.
+- Results: `data/report.md`. Reels posted by hand are picked up and tracked too.
+
 Makes two faceless Instagram Reels a day about ilovedocuments.ai (one English, one
 Hinglish), posts them, reads the results, and uses them to decide the next reel. No server needed: it runs on a free
 GitHub Actions schedule.

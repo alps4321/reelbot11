@@ -100,7 +100,9 @@ content:
 research:
   refresh_days: 3
   hashtags: [pdf, onlineform, sscexam, govtjobs, studytips]   # max 30 different per week (Meta limit)
-  competitors: []            # Instagram usernames of business/creator accounts the daily scout studies
+  # Business/creator accounts the daily scout studies (all checked readable on 17 Nov 2026)
+  competitors: [iamchrischung, smallpdf, adobeacrobat, canva, trakintech, manojsaru, beebomco, techburner,
+                technicalguruji, gadgetstouse, techwiser, sharmajitechnical, testbookdotcom, unacademy, physicswallah]
   # Accounts to try once with `python -m reelbot scout --probe`; the readable ones move to competitors.
   candidates: [iamchrischung, ilovepdf, smallpdf, adobeacrobat, canva, trakintech, manojsaru, beebomco, techburner,
                technicalguruji, geekyranjit, techno_ruhez, gadgetstouse, techwiser, sharmajitechnical, adda247,

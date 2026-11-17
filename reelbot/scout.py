@@ -59,16 +59,29 @@ def collect(cfg, ig, names, with_video=True):
             age_d = (store.now() - store.parse(m["timestamp"])).total_seconds() / 86400
             if age_d > 30:
                 continue
-            eng = (m.get("like_count") or 0) + 3 * (m.get("comments_count") or 0)
+            # likes + 3 x comments (+ views counted like 1 like per 20 views), per 1,000 followers
+            eng = (m.get("like_count") or 0) + 3 * (m.get("comments_count") or 0) + (m.get("view_count") or 0) / 20
             per_k = 1000 * eng / max(followers, 1000)
-            if m.get("view_count"):
-                per_k = max(per_k, 50 * m["view_count"] / max(followers, 1000))
             reels.append({"account": name, "followers": followers, "permalink": m.get("permalink", ""),
                           "caption": (m.get("caption") or "")[:600], "likes": m.get("like_count") or 0,
                           "comments": m.get("comments_count") or 0, "views": m.get("view_count") or 0,
                           "timestamp": m["timestamp"], "media_url": m.get("media_url"), "per_k": round(per_k, 1)})
     store.write("scout", state)
     return reels, ok
+
+
+NICHE = re.compile(r"pdf|document|form|aadhaar|aadhar|pan card|resume|\bcv\b|photo|\bkb\b|signature|scan|passport|"
+                   r"certificate|exam|admit card|govt|sarkari|upload|marksheet|bank statement|excel|word file|compress")
+USEFUL = re.compile(r"website|tool|\bapp\b|free|\bai\b|trick|hack|tips?\b|students?|useful|secret|nobody|stop")
+
+
+def rank(r):
+    """Reels about our kind of problem count three times, useful-tool reels one and a half; gadget launches less.
+    Engagement is compared on a log scale so one viral video does not crowd out everything else."""
+    import math
+    cap = r["caption"].lower()
+    weight = 3.0 if NICHE.search(cap) else 1.5 if USEFUL.search(cap) else 0.6
+    return weight * math.log1p(r["per_k"])
 
 
 def _listen(path, model):
@@ -204,7 +217,11 @@ def run(cfg, ig, probe=False):
         return
     state = store.read("scout", {})
     seen = set(state.get("seen", []))
-    fresh = sorted((r for r in reels if r["permalink"] not in seen), key=lambda r: -r["per_k"])[:PER_DAY]
+    fresh, per_account = [], {}
+    for r in sorted((r for r in reels if r["permalink"] not in seen), key=rank, reverse=True):
+        if per_account.get(r["account"], 0) < 2 and len(fresh) < PER_DAY:     # spread over creators
+            fresh.append(r)
+            per_account[r["account"]] = per_account.get(r["account"], 0) + 1
     if not fresh:
         print("scout: nothing new to study")
         return

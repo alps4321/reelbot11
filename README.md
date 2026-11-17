@@ -19,9 +19,15 @@
 
 | job | when | what it does |
 |---|---|---|
-| ReelBot (`reelbot.yml`) | 3 times a day | measure, learn, write, voice, render and post one reel |
+| ReelBot (`reelbot.yml`) | 9:47 am, 11:47 am, 5:47 pm | measure, learn, write, voice and render one reel, then hold it until 11:00 am, 1:00 pm or 7:00 pm (`posting.times`) and post it |
+| Telegram summary (`notify.yml`) | 8 am to 11 pm, every 3 hours | how each recent reel is doing, views in the last 3 hours, the next reel, and anything that needs you. Instant messages also come when a reel goes live or a run fails |
 | Stats watch (`watch.yml`) | every 5 minutes | reads every reel's numbers (new reels every run, then hourly, then daily) and keeps a timeline per reel on the `stats` branch; its front page is a live table |
 | Reel scout (`scout.yml`) | daily, 9:11 am | studies the best new reels of creators in the niche: listens to them, looks at their frames, and saves new ideas (`data/ideas.json`), learned story formats (`data/formats.json`), notes (`data/insights.json`) and the niche's speaking pace (`data/voice_style.json`) |
+
+Telegram setup (free, 2 minutes): in Telegram open @BotFather, send `/newbot`, pick a name and a username
+ending in `bot`, and copy the token it gives you. Open your new bot and press Start. In GitHub add the token as
+the repository secret `TELEGRAM_BOT_TOKEN`. The bot finds your chat from that first message and remembers it in
+the Actions cache, so your chat number never appears in this public repo.
 
 The scout reads creator accounts through Instagram's official Business Discovery API (hashtag search needs a
 Meta app review). Add accounts to `research.competitors` in `config.yaml`; creators tagged in the best captions

@@ -1,14 +1,13 @@
 """One full cycle: measure -> learn -> research -> then, per language: write -> voice -> render -> post."""
 import shutil
 
-from . import analyze, broll, learn, render, render3d, research, script, store, voice
+from . import analyze, broll, learn, notify, render, render3d, research, script, store, voice
 from .config import OUT, ROOT
 from .instagram import Instagram
 
 
 def posted_today():
-    today = store.today()
-    return sum(1 for p in learn.live(store.posts()) if store.local_date(p["posted_at"]) == today)
+    return learn.posted_today()
 
 
 def make(cfg, plan, playbook=None):
@@ -39,13 +38,27 @@ def make(cfg, plan, playbook=None):
     }
 
 
-def post_queued(cfg, ig, item_path):
+def go_live_time(cfg, started):
+    """The posting time this run is for: the first one in posting.times after the run started, if it is
+    within 90 minutes (runs start about 70 minutes early so the reel is ready in time). A run started at any
+    other time, or very late, posts as soon as its reel is ready."""
+    from datetime import timedelta
+    day = started.astimezone(store.IST)
+    for t in cfg["posting"].get("times", []):
+        h, m = map(int, t.split(":"))
+        at = day.replace(hour=h, minute=m, second=0, microsecond=0)
+        if at > day:
+            return at if at - day <= timedelta(minutes=90) else None
+    return None
+
+
+def post_queued(cfg, ig, item_path, go_live_at=None):
     """Post a reel that was made outside the daily generator (queue/<name>.json + its video)."""
     import json
     item = json.loads(item_path.read_text())
     video = ROOT / item["video"]
     media_id, link = ig.publish_reel(video, item["caption"], share_to_feed=cfg["posting"]["share_to_feed"],
-                                     ai_label=cfg["posting"]["label_ai_generated"])
+                                     ai_label=cfg["posting"]["label_ai_generated"], go_live_at=go_live_at)
     post = {"id": item_path.stem, "created_at": store.iso(), "posted_at": store.iso(), "media_id": media_id,
             "permalink": link, "checked": [], "language": item.get("language", "english"),
             "topic": item.get("topic", "general"), "hook_style": item.get("hook_style", "manual"),
@@ -57,12 +70,14 @@ def post_queued(cfg, ig, item_path):
     video.unlink()
     item_path.unlink()
     print(f"[queue] posted {item_path.stem}: {link}")
+    notify.posted(cfg, post)
 
 
 def run(cfg):
     if not cfg["posting"]["enabled"]:
         print("posting.enabled is false: nothing to do")
         return
+    started = store.now()
     ig = Instagram(cfg)
     dry = cfg["posting"]["dry_run"]
     if not dry and not ig.ready:
@@ -79,7 +94,7 @@ def run(cfg):
         return
     ready = sorted(queue.glob("*.json")) if queue.exists() else []
     if ready and not dry:                              # a finished reel was dropped in the queue: post it first
-        post_queued(cfg, ig, ready[0])
+        post_queued(cfg, ig, ready[0], go_live_time(cfg, started))
         analyze.report(cfg)
         return
 
@@ -104,10 +119,11 @@ def run(cfg):
             media_id, link = ig.publish_reel(
                 OUT / post["video"], post["caption"],
                 share_to_feed=cfg["posting"]["share_to_feed"],
-                ai_label=cfg["posting"]["label_ai_generated"])
+                ai_label=cfg["posting"]["label_ai_generated"], go_live_at=go_live_time(cfg, started))
             post.update(media_id=media_id, permalink=link, posted_at=store.iso(), checked=[])
             print(f"[{lang}] posted: {link}")
             learn.mark_idea_used(plan.get("idea"))
+            notify.posted(cfg, post)
         posts = store.posts()
         posts.append(post)
         store.save_posts(posts)

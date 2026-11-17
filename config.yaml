@@ -121,9 +121,15 @@ posting:
   enabled: true              # master switch. false = bot does nothing
   dry_run: false             # true = make videos but never post
   slots: [hinglish, english, hinglish]   # three reels a day, in this order
+  times: ["11:00", "13:00", "19:00"]     # India time each reel goes live; the reel is made earlier and held until then
   winner_days: [1, 4]        # from week 2: Tuesday and Friday go to the best-scoring tool (Monday = 0)
   share_to_feed: true
   label_ai_generated: true
+
+notify:                      # Telegram updates (free). Needs the TELEGRAM_BOT_TOKEN secret; see README
+  digest_hours: [8, 11, 14, 17, 20, 23]  # India time of the every-3-hours summary (quiet at night)
+  on_post: true              # message when a reel goes live
+  on_failure: true           # message when a run fails
 
 learning:
   check_hours: [6, 24, 48, 72, 120, 168]   # hours after posting when each reel's results are read

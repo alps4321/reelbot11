@@ -1,0 +1,52 @@
+name: Telegram summary
+
+on:
+  schedule:
+    - cron: "33 2,5,8,11,14,17 * * *"   # 8:03 am, 11:03 am, 2:03 pm, 5:03 pm, 8:03 pm, 11:03 pm India time
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: notify
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: |
+          pip install -q requests pyyaml
+          npm install -g @anthropic-ai/claude-code
+      - name: Open the stats branch
+        run: git fetch -q --depth 1 origin stats && git worktree add -q --detach stats-data FETCH_HEAD || echo "no stats yet"
+      - name: Remember the Telegram chat
+        id: tgc
+        uses: actions/cache/restore@v4
+        with:
+          path: .tgchat/tg_chat
+          key: tg-chat-v1
+      - name: Send the summary
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TG_CHAT_FILE: .tgchat/tg_chat
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+          PYTHONUNBUFFERED: "1"
+        run: python -m reelbot digest
+      - name: Save the Telegram chat
+        if: always() && steps.tgc.outputs.cache-hit != 'true' && hashFiles('.tgchat/tg_chat') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: .tgchat/tg_chat
+          key: tg-chat-v1

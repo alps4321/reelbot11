@@ -2,9 +2,11 @@ name: ReelBot
 
 on:  # schedules run because the repo is public (free plans do not run them in private repos)
   schedule:                  # three reels a day; each run also reads the results of earlier reels
-    - cron: "7 7 * * *"      # 12:37 pm India time
-    - cron: "7 13 * * *"     # 6:37 pm India time
-    - cron: "37 15 * * *"    # 9:07 pm India time
+    # Each run starts about 70 minutes early and holds the finished reel until its time in posting.times
+    # (11:00, 1:00 pm, 7:00 pm India time), because GitHub often starts timed runs late.
+    - cron: "17 4 * * *"     # 9:47 am India time  -> goes live 11:00 am
+    - cron: "17 6 * * *"     # 11:47 am India time -> goes live 1:00 pm
+    - cron: "17 12 * * *"    # 5:47 pm India time  -> goes live 7:00 pm
   workflow_dispatch:
     inputs:
       dry_run:
@@ -24,7 +26,7 @@ concurrency: reelbot
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 80
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -49,6 +51,12 @@ jobs:
           key: hf-omnivoice-v1
       - name: Get the 5-minute stats
         run: git fetch -q --depth 1 origin stats && git worktree add -q --detach stats-data FETCH_HEAD || echo "no stats branch yet"
+      - name: Remember the Telegram chat
+        id: tgc
+        uses: actions/cache/restore@v4
+        with:
+          path: .tgchat/tg_chat
+          key: tg-chat-v1
       - name: Run one cycle
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -59,6 +67,9 @@ jobs:
           AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
           IG_USER_ID: ${{ secrets.IG_USER_ID || '17841416319314274' }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TG_CHAT_FILE: .tgchat/tg_chat
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           PYTHONUNBUFFERED: "1"
           # Posts only when the Instagram token is set and dry_run is not ticked
@@ -81,3 +92,16 @@ jobs:
           path: out/*.mp4
           retention-days: 7
           if-no-files-found: ignore
+      - name: Tell me on Telegram if it failed
+        if: failure() && !inputs.check_only
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TG_CHAT_FILE: .tgchat/tg_chat
+        run: python -m reelbot alert "Reel run" "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+      - name: Save the Telegram chat
+        if: always() && steps.tgc.outputs.cache-hit != 'true' && hashFiles('.tgchat/tg_chat') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: .tgchat/tg_chat
+          key: tg-chat-v1

@@ -36,10 +36,12 @@ def load():
         "ig_token": os.environ.get("IG_ACCESS_TOKEN", ""),
         "elevenlabs": os.environ.get("ELEVENLABS_API_KEY", ""),
         "graph_version": os.environ.get("GRAPH_VERSION", "v25.0"),
+        "telegram": os.environ.get("TELEGRAM_BOT_TOKEN", ""),
+        "telegram_chat": os.environ.get("TELEGRAM_CHAT_ID", ""),
     }
     sec = cfg["secrets"]
     os.environ["CLAUDE_TOKEN_RAW_LEN"] = str(len(sec["claude_oauth"]))
-    for k in ("anthropic", "claude_oauth", "ig_token"):
+    for k in ("anthropic", "claude_oauth", "ig_token", "telegram", "telegram_chat"):
         sec[k] = "".join(sec[k].split())   # copying from a terminal can leave line breaks inside a key
     if sec["claude_oauth"].startswith("sk-ant-api"):       # an API key pasted into the token slot still works
         sec["anthropic"], sec["claude_oauth"] = sec["anthropic"] or sec["claude_oauth"], ""

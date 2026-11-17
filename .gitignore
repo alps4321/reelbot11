@@ -3,3 +3,5 @@ out/
 voices/
 __pycache__/
 *.pyc
+stats-data/
+.tgchat/

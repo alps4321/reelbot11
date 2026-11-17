@@ -192,3 +192,9 @@ def update_playbook(cfg, lang):
     store.write("playbook", books)
     print(f"playbook[{lang}]: updated from {len(posts)} measured reels")
     return book
+
+
+def posted_today():
+    """Reels live today (India date), including ones posted by hand."""
+    today = store.today()
+    return sum(1 for p in live(store.posts()) if store.local_date(p["posted_at"]) == today)

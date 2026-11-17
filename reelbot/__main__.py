@@ -1,4 +1,4 @@
-"""Command line:  python -m reelbot <run|make|check|watch|scout|research|analyze|report>"""
+"""Command line:  python -m reelbot <run|make|check|watch|scout|digest|alert|research|analyze|report>"""
 import os
 import sys
 
@@ -10,13 +10,20 @@ def main():
     cmd = sys.argv[1] if len(sys.argv) > 1 else "run"
     cfg = config.load()
     ig = Instagram(cfg)
-    if cmd in ("watch", "scout"):  # light jobs: they do not load the video tools
+    if cmd in ("watch", "scout", "digest", "alert"):  # light jobs: they do not load the video tools
         if cmd == "watch":
             from . import watch
             watch.run(cfg, ig)
-        else:
+        elif cmd == "scout":
             from . import scout
             scout.run(cfg, ig, probe="--probe" in sys.argv)
+        elif cmd == "digest":       # every 3 hours: Telegram summary
+            from . import notify
+            notify.digest(cfg)
+        else:                       # python -m reelbot alert "<what failed>" "<link>"
+            from . import notify
+            notify.failed(cfg, sys.argv[2] if len(sys.argv) > 2 else "A run",
+                          sys.argv[3] if len(sys.argv) > 3 else "")
         return
     from . import analyze, learn, pipeline, research
     if cmd == "run":            # the full loop; this is what the schedule calls

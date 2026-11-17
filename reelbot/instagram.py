@@ -5,6 +5,7 @@ to a Facebook Page, and a token with: instagram_basic, instagram_content_publish
 instagram_manage_insights, pages_show_list, pages_read_engagement.
 """
 import os
+from datetime import datetime, timezone
 import time
 
 import requests
@@ -99,7 +100,8 @@ class Instagram:
         return d.get("followers_count", 0), d.get("media", {}).get("data", [])
 
     # ---- publishing ----------------------------------------------------
-    def publish_reel(self, video_path, caption, share_to_feed=True, ai_label=True, thumb_ms=1200):
+    def publish_reel(self, video_path, caption, share_to_feed=True, ai_label=True, thumb_ms=1200, go_live_at=None):
+        """Upload, wait for Instagram to process it, then publish (at go_live_at, if that is still ahead)."""
         args = dict(media_type="REELS", upload_type="resumable", caption=caption,
                     share_to_feed="true" if share_to_feed else "false", thumb_offset=thumb_ms)
         try:
@@ -129,6 +131,12 @@ class Instagram:
         else:
             raise IGError("processing timed out")
 
+        if go_live_at:
+            wait = (go_live_at - datetime.now(timezone.utc)).total_seconds()
+            if wait > 0:
+                print(f"instagram: reel uploaded and processed; holding it until {go_live_at:%H:%M} ({wait / 60:.0f} min)",
+                      flush=True)
+                time.sleep(wait)
         media_id = self._call("POST", f"{self.uid}/media_publish", creation_id=cid)["id"]
         link = self._call("GET", media_id, fields="permalink").get("permalink", "")
         return media_id, link

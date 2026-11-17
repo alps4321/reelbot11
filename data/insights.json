@@ -1,0 +1,58 @@
+[
+  {
+    "at": "2026-11-17T15:19:02+00:00",
+    "permalink": "https://www.instagram.com/reel/De1WWNAR9Bf/",
+    "why": "It promises a 'secret' free tool for a boring everyday need (PDF and image editing) and gates the link behind a one-word comment. That turns viewers into commenters (44k comments), and each comment tells the algorithm the reel is worth pushing.",
+    "hook_pattern": "Secret [everyday task] app nobody tells you about, comment '[WORD]' and I'll DM the link",
+    "structure": [
+      "Bold 'secret app' claim with an emoji-style shock",
+      "Fast demo of the tool doing a painful task in seconds",
+      "Show before and after result",
+      "Comment-keyword CTA for the link",
+      "Follow reminder"
+    ],
+    "visual": "Screen recording of the app on a phone, with big title text and a comment-keyword overlay.",
+    "speaking": "Fast, excited, short sentences. The CTA is repeated and the keyword is stressed."
+  },
+  {
+    "at": "2026-11-17T15:19:02+00:00",
+    "permalink": "https://www.instagram.com/reel/DfUV1DCyH8x/",
+    "why": "It offers something people want free (ad-free music) and gives one very easy action, commenting a single word. The short claim is clear at once, and the huge comment count shows the keyword gate drives reach.",
+    "hook_pattern": "Free [thing that normally costs money or has ads], comment '[WORD]' for the link",
+    "structure": [
+      "Two-word promise of a free, ad-free thing",
+      "Quick proof of the app in use",
+      "Keyword CTA",
+      "Follow nudge"
+    ],
+    "visual": "App screen capture with a short bold title and a keyword prompt.",
+    "speaking": "Very short and punchy, with almost no pauses. The CTA is the loudest line."
+  },
+  {
+    "at": "2026-11-17T15:19:02+00:00",
+    "permalink": "https://www.instagram.com/reel/DfKC673hkqS/",
+    "why": "The headline puts a surprising constraint into one line (no ink, 300 pages, one charge). Then it shows the simple steps (open app, select document, tap print), which makes it feel real and easy.",
+    "hook_pattern": "This [gadget or tool] does [impossible-sounding thing] without [usual requirement]",
+    "structure": [
+      "Shock headline with a number",
+      "Show the simple 3-step flow",
+      "Reveal the key spec",
+      "Why it matters"
+    ],
+    "visual": "Clean product close-ups with step-by-step text overlays.",
+    "speaking": "Calm and explanatory, with a rising tone on the surprising spec."
+  },
+  {
+    "at": "2026-11-17T15:19:02+00:00",
+    "permalink": "https://www.instagram.com/reel/DfMA961Plsh/",
+    "why": "A numbered promise ('5 new features') sets a clear length and makes people watch to the end. It also ties into a trending update, so it matches what they are already searching for.",
+    "hook_pattern": "N new [things] in [trending update] you need to know",
+    "structure": [
+      "Numbered headline",
+      "Feature 1 to 5, each with a one-line benefit",
+      "Wrap-up"
+    ],
+    "visual": "Phone UI captures with number captions.",
+    "speaking": "Steady, listy, one beat per item."
+  }
+]

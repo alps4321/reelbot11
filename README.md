@@ -9,7 +9,7 @@
 - From week 2: Tuesday and Friday all go to the best-scoring tool. Other days: one proven tool (top 5,
   rotating) and one tool that has had the fewest posts; the third post alternates.
 - Reels are compared at the same age (48 hours). Score weighs shares and saves most, and rewards watch time.
-- Voice: one consistent male narrator (OmniVoice, copied from `assets/voices/hi_male_ref.wav`), spoken one
+- Voice: one consistent male narrator (OmniVoice, copied from `assets/narrator/hi_male_ref.wav`), spoken one
   phrase per breath with real pauses after sentences and longer pauses after questions and before the answer.
 - Results: `data/report.md`. Reels posted by hand are picked up and tracked too.
 

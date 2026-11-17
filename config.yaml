@@ -105,7 +105,7 @@ research:
 
 voice:
   provider: omnivoice        # omnivoice (free, one consistent voice) | kokoro | piper | azure | elevenlabs | none
-  omnivoice_ref: assets/voices/hi_male_ref.wav      # the male voice you picked; every line copies it
+  omnivoice_ref: assets/narrator/hi_male_ref.wav      # the male voice you picked; every line copies it
   omnivoice_ref_text: "ग्यारह उनसठ पर फॉर्म रिजेक्ट।"
   speed: 0.94                # slightly slower than the model's default
   sound_effects: true        # whoosh, pop, error buzz, success ding

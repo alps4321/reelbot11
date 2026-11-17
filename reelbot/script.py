@@ -1,7 +1,7 @@
 """Writes the reel script (scenes, narration, visuals, caption) with Claude, then checks it."""
 import re
 
-from . import claude, research, store
+from . import claude, research, scout, store
 
 SYSTEM = """You write scripts for faceless Instagram Reels (9:16) for {name} ({url}): {tagline}.
 Each reel is fast: a new visual every 2-3 seconds, big on-screen text, animated file/upload
@@ -28,7 +28,8 @@ Format: {format} - {format_help}
 Hook style: {hook_style}  (question | problem | bold_claim | number | how_to)
 Spoken length: {lo}-{hi} seconds, about {wlo}-{whi} spoken words in total.
 
-What is getting attention in this niche right now (captions and counts of top reels):
+What is working for other creators in this niche right now (studied by our scout; learn the pattern,
+never copy their words):
 {research}
 
 What our own results have taught us so far:
@@ -81,9 +82,10 @@ simple 3D characters act out a tiny story while a narrator tells it, with big ca
 Topic: {topic}
 Story format: {format} - {format_help}
 Hook style: {hook_style}
-Spoken length: {lo}-{hi} seconds, about {wlo}-{whi} spoken words in total.
+{idea}Spoken length: {lo}-{hi} seconds, about {wlo}-{whi} spoken words in total.
 
-What is getting attention in this niche right now (captions and counts of top reels):
+What is working for other creators in this niche right now (studied by our scout; learn the pattern,
+never copy their words):
 {research}
 
 What our own results have taught us so far:
@@ -344,6 +346,21 @@ def _offline_story(cfg, topic_title, lang):
                        + cfg["brand"]["url"], "hashtags": cfg["content"]["hashtags"]}
 
 
+def format_help(name):
+    learned = {k: v["description"] + (f' A hook that worked in this format: "{v["hook_pattern"]}".' if v.get("hook_pattern") else "")
+               for k, v in store.read("formats", {}).get("learned", {}).items()}
+    return {**FORMATS, **STORY_FORMATS, **learned}.get(name, "")
+
+
+def idea_text(idea, lang):
+    """A fresh angle the scout found for this tool. A starting point, not a script."""
+    if not idea:
+        return ""
+    hook = idea.get("hook_hinglish") if lang.get("tts_script") and idea.get("hook_hinglish") else idea.get("hook_en")
+    return (f"Idea to build on (from studying a top reel in the niche; make it fit the story format, improve it if you can): "
+            f'hook "{hook}"; story: {idea.get("angle", "")}\n')
+
+
 def write(cfg, plan, playbook):
     c, b = cfg["content"], cfg["brand"]
     lang = next(l for l in c["languages"] if l["id"] == plan["language"])
@@ -369,9 +386,9 @@ def write(cfg, plan, playbook):
                            facts="; ".join(c["facts"]), write_in=lang["write_in"].strip())
     prompt = (STORY_PROMPT if story else PROMPT).format(
         topic=topic_title, format=plan["format"],
-        format_help={**FORMATS, **STORY_FORMATS}.get(plan["format"], ""),
+        format_help=format_help(plan["format"]), idea=idea_text(plan.get("idea"), lang),
         hook_style=plan["hook_style"], lo=lo, hi=hi, wlo=int(lo * 2.0), whi=int(hi * 2.0),   # the narrator pauses, so fewer words fit
-        research=research.digest() or "(no research data yet)",
+        research="\n".join(x for x in (scout.digest(), research.digest()) if x) or "(no research data yet)",
         keep=playbook.get("keep") or "nothing proven yet",
         avoid=playbook.get("avoid") or "nothing proven yet",
         tests=playbook.get("next_tests") or "none",

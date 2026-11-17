@@ -2,7 +2,7 @@
 import os
 import sys
 
-from . import analyze, config, learn, pipeline, research
+from . import config
 from .instagram import Instagram
 
 
@@ -10,6 +10,15 @@ def main():
     cmd = sys.argv[1] if len(sys.argv) > 1 else "run"
     cfg = config.load()
     ig = Instagram(cfg)
+    if cmd in ("watch", "scout"):  # light jobs: they do not load the video tools
+        if cmd == "watch":
+            from . import watch
+            watch.run(cfg, ig)
+        else:
+            from . import scout
+            scout.run(cfg, ig, probe="--probe" in sys.argv)
+        return
+    from . import analyze, learn, pipeline, research
     if cmd == "run":            # the full loop; this is what the schedule calls
         pipeline.run(cfg)
     elif cmd == "make":         # build one reel into out/ without posting
@@ -44,12 +53,6 @@ def main():
                         print("insights on newest post:", ig.insights(out["data"][0]["id"]) or "NOT AVAILABLE (permission missing?)")
                 except Exception as e:
                     print(f"{name}: FAILED {e}")
-    elif cmd == "watch":        # every 5 minutes: latest numbers of every reel
-        from . import watch
-        watch.run(cfg, ig)
-    elif cmd == "scout":        # daily: study top reels in the niche, learn ideas, formats and speaking pace
-        from . import scout
-        scout.run(cfg, ig, probe="--probe" in sys.argv)
     elif cmd == "research":
         research.refresh(cfg, ig)
         print(research.digest())

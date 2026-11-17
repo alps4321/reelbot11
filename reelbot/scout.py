@@ -255,3 +255,14 @@ def run(cfg, ig, probe=False):
         f.unlink()
     print(f"scout: studied {len(studied)} reels; {len(result.get('ideas', []))} new ideas; "
           f"{len(fm['learned'])} learned formats; niche pace {vs.get('words_per_second')} words/s, pauses {vs.get('pause_s')} s")
+
+
+def digest(limit=6):
+    """Short notes on what works in the niche, for the script prompt."""
+    notes = store.read("insights", [])[-limit:]
+    lines = [f"- {n['why']} Hook pattern: \"{n['hook_pattern']}\". Beats: {' > '.join(n['structure'][:6])}."
+             for n in reversed(notes) if n.get("why")]
+    vs = store.read("voice_style", {})
+    if vs.get("notes"):
+        lines.append(f"- How the best ones speak: {vs['notes']}")
+    return "\n".join(lines)

@@ -122,6 +122,16 @@ def _chatterbox_batch(cfg, lang, scenes, workdir):
 
 PAUSE = {"?": 0.50, "!": 0.34, ".": 0.34, "।": 0.34, "…": 0.48}   # seconds of silence after a phrase
 
+# Speaking paces the bot tests and learns from, like hooks and formats.
+#   pause: share of the pauses above that is kept; gap: silence between shots;
+#   tempo: how far toward the niche's speaking speed (learned by the scout) the voice is sped up.
+PACES = {
+    "calm":    {"pause": 1.00, "gap": 0.30, "tempo": 0.0},
+    "natural": {"pause": 0.80, "gap": 0.24, "tempo": 0.5},
+    "brisk":   {"pause": 0.62, "gap": 0.18, "tempo": 1.0},
+}
+DEFAULT_NICHE_WPS = 3.2         # words per second of a typical explainer reel until the scout measures the niche
+
 
 def phrases(text):
     """Split a spoken line where a good speaker would breathe: sentence ends and '...' beats."""
@@ -137,7 +147,7 @@ def _trim(src, dst):
           "-ar", str(RATE), "-ac", "1", "-c:a", "pcm_s16le", str(dst)])
 
 
-def _omnivoice_batch(cfg, lang, scenes, workdir):
+def _omnivoice_batch(cfg, lang, scenes, workdir, pause_scale=1.0):
     """OmniVoice (open source): every phrase is spoken in the voice of one reference clip.
 
     Pacing is done the way a trained speaker does it: one phrase per breath, a real pause
@@ -170,7 +180,7 @@ def _omnivoice_batch(cfg, lang, scenes, workdir):
             marks.append((len(track) / RATE, len(samples) / RATE))
             track.extend(samples)
             if k < len(parts) - 1:
-                track.extend(array("h", bytes(2 * int(RATE * PAUSE.get(part[-1], 0.3)))))
+                track.extend(array("h", bytes(2 * int(RATE * pause_scale * PAUSE.get(part[-1], 0.3)))))
         with wave.open(str(workdir / f"scene{i}.wav"), "wb") as out:
             out.setnchannels(1), out.setsampwidth(2), out.setframerate(RATE)
             out.writeframes(track.tobytes())
@@ -253,8 +263,10 @@ def _mix(track, clip, at):
         track[j] = max(-32768, min(32767, track[j] + v))
 
 
-def synthesize(cfg, lang, scenes, workdir, gap=0.30, tail=1.0):
+def synthesize(cfg, lang, scenes, workdir, gap=None, tail=1.0, pace="calm"):
     """Returns (audio_path, [speech seconds per scene], [scene start times], total seconds)."""
+    p = PACES.get(pace or "calm", PACES["calm"])
+    gap = p["gap"] if gap is None else gap
     workdir = Path(workdir)
     workdir.mkdir(parents=True, exist_ok=True)
     provider = lang.get("provider") or cfg["voice"]["provider"]   # a language can pick its own engine
@@ -271,7 +283,7 @@ def synthesize(cfg, lang, scenes, workdir, gap=0.30, tail=1.0):
         _chatterbox_batch(cfg, lang, scenes, workdir)
     if provider == "omnivoice":
         try:
-            _omnivoice_batch(cfg, lang, scenes, workdir)
+            _omnivoice_batch(cfg, lang, scenes, workdir, pause_scale=p["pause"])
         except Exception as e:          # never lose a day's post over the voice engine
             provider = "kokoro" if lang["id"] == "english" else "piper"
             print(f"voice: OmniVoice failed ({e}); falling back to {provider}")
@@ -324,4 +336,29 @@ def synthesize(cfg, lang, scenes, workdir, gap=0.30, tail=1.0):
     with wave.open(str(full), "wb") as out:
         out.setnchannels(1), out.setsampwidth(2), out.setframerate(RATE)
         out.writeframes(track.tobytes())
-    return full, speech, starts, len(track) / RATE
+    total = len(track) / RATE
+
+    tempo = _tempo(scenes, speech, p["tempo"])
+    if tempo > 1.01:                 # speed up without changing the pitch, then move every timing with it
+        fast = workdir / "voice_fast.wav"
+        _run(["ffmpeg", "-y", "-i", str(full), "-af", f"atempo={tempo:.3f}", "-ar", str(RATE), "-ac", "1",
+              "-c:a", "pcm_s16le", str(fast)])
+        speech, starts, total = [x / tempo for x in speech], [x / tempo for x in starts], total / tempo
+        for sc in scenes:
+            if sc.get("_phrases"):
+                sc["_phrases"] = [(o / tempo, l / tempo) for o, l in sc["_phrases"]]
+        full = fast
+    print(f"voice: pace {pace}, tempo {tempo:.2f}, {total:.1f} s")
+    return full, speech, starts, total
+
+
+def _tempo(scenes, speech, share):
+    """How much to speed up: `share` of the way from our speed to the niche's (learned by the scout)."""
+    if share <= 0:
+        return 1.0
+    from . import store
+    target = store.read("voice_style", {}).get("words_per_second") or DEFAULT_NICHE_WPS
+    words = sum(len((sc.get("say") or sc.get("voice") or "").split()) for sc in scenes)
+    ours = words / max(sum(speech), 1)
+    want = ours + share * (target - ours)
+    return max(1.0, min(1.18, want / max(ours, 0.5)))      # never slower than recorded, never chipmunk

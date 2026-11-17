@@ -22,7 +22,7 @@ def make(cfg, plan, playbook=None):
     clip = None if story else broll.fetch(cfg, s["scenes"][0].get("broll"), work / "broll.mp4")
     if clip:
         s["scenes"][0]["broll_path"] = str(clip)
-    audio, speech, starts, total = voice.synthesize(cfg, lang, s["scenes"], work)
+    audio, speech, starts, total = voice.synthesize(cfg, lang, s["scenes"], work, pace=plan.get("pace", "calm"))
     engine = render3d if story else render
     video = engine.render(cfg, s, audio, speech, starts, total, OUT / f"{rid}.mp4")
     shutil.rmtree(work, ignore_errors=True)
@@ -31,7 +31,8 @@ def make(cfg, plan, playbook=None):
         sc.pop("_phrases", None)
     return {
         "id": rid, "created_at": store.iso(), "language": lang["id"], "topic": plan["topic"],
-        "hook_style": plan["hook_style"], "format": plan["format"], "plan_reason": plan["reason"],
+        "hook_style": plan["hook_style"], "format": plan["format"], "pace": plan.get("pace", "calm"),
+        "idea": (plan.get("idea") or {}).get("hook_en", ""), "plan_reason": plan["reason"],
         "title": s.get("title", ""), "hook": s["scenes"][0]["screen"], "seconds": round(total, 1),
         "script": s, "caption": s["caption"].strip() + "\n\n" + " ".join(s["hashtags"]),
         "video": video.name,
@@ -106,6 +107,7 @@ def run(cfg):
                 ai_label=cfg["posting"]["label_ai_generated"])
             post.update(media_id=media_id, permalink=link, posted_at=store.iso(), checked=[])
             print(f"[{lang}] posted: {link}")
+            learn.mark_idea_used(plan.get("idea"))
         posts = store.posts()
         posts.append(post)
         store.save_posts(posts)

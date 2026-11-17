@@ -9,19 +9,42 @@ from collections import defaultdict
 
 from . import claude, store
 
-ARMS = ("topic", "hook_style", "format")
+ARMS = ("topic", "hook_style", "format", "pace")
+PACES = ["natural", "brisk", "calm"]          # tested in this order; see voice.PACES
+
+
+def _reading(post, hours):
+    return next((h for h in sorted(post.get("history", []), key=lambda h: h.get("hours", 0))
+                 if h.get("hours", 0) >= hours), None)
+
+
+_RATIO = {}
+
+
+def growth_ratio():
+    """How much a reel usually grows from its 24-hour reading to its 48-hour one, learned from our own reels."""
+    posts = store.posts()
+    if len(posts) not in _RATIO:
+        pairs = [(_reading(p, 48), _reading(p, 24)) for p in posts]
+        rs = sorted(a["views"] / b["views"] for a, b in pairs if a and b and a is not b and b.get("views"))
+        _RATIO.clear()
+        _RATIO[len(posts)] = max(1.0, min(2.5, rs[len(rs) // 2])) if len(rs) >= 3 else 1.3
+    return next(iter(_RATIO.values()))
 
 
 def score(post):
-    at48 = [h for h in post.get("history", []) if h.get("hours") == 48]
-    m = at48[0] if at48 else post.get("metrics")
+    """Comparable score: the 48-hour reading, or the 24-hour one scaled by our usual growth. Younger reels
+    have no score yet, so a reel that is 3 hours old is never compared with one that is 2 days old."""
+    m, scale = _reading(post, 48), 1.0
+    if not m:
+        m, scale = _reading(post, 24), growth_ratio()
     if not m:
         return None
     base = (m.get("views", 0) + 8 * m.get("shares", 0) + 6 * m.get("saved", 0)
             + 3 * m.get("comments", 0) + m.get("likes", 0))
     if m.get("avg_watch_s") and post.get("seconds"):  # reward reels people watch, not skip
         base *= 0.5 + min(1.0, m["avg_watch_s"] / post["seconds"])
-    return round(base)
+    return round(base * scale)
 
 
 def of_language(lang):
@@ -38,9 +61,14 @@ def arm_stats(posts, key):
     return {k: {"n": counts[k], "avg": round(sums[k] / counts[k], 1)} for k in counts}
 
 
-def choose(options, stats, explore_rate, avoid=()):
+def pending(posts, key):
+    """Options already posted whose results are not in yet: not "untried", so they are not re-tested meanwhile."""
+    return {p[key] for p in posts if p.get(key) and score(p) is None}
+
+
+def choose(options, stats, explore_rate, avoid=(), waiting=()):
     pool = [o for o in options if o not in avoid] or list(options)
-    untried = [o for o in pool if o not in stats]
+    untried = [o for o in pool if o not in stats and o not in waiting]
     if untried and (random.random() < max(explore_rate, 0.5) or len(untried) == len(pool)):
         return untried[0], "new test"                    # untried options are tested in config order
     if random.random() < explore_rate or not any(o in stats for o in pool):
@@ -80,7 +108,8 @@ def next_plan(cfg, lang, slot=0, today=None):
 
     def test_pick():
         pool = fresh(topics)
-        return min(pool, key=lambda t: (counts[t], topics.index(t)))   # fewest posts first, then list order
+        # fewest posts first; from week 2, among those, tools the scout has a fresh idea for; then list order
+        return min(pool, key=lambda t: (counts[t], 0 if week and pick_idea(t) else 1, topics.index(t)))
 
     if week == 0 or not stats:
         topic, mode = test_pick(), "week 1: every tool gets a first try"
@@ -98,11 +127,36 @@ def next_plan(cfg, lang, slot=0, today=None):
             else:
                 topic, mode = test_pick(), "testing a less-tried tool"
 
-    mine = of_language(lang)
-    hook, why_h = choose(c["hook_styles"], arm_stats(mine, "hook_style"), rate)
-    fmt, why_f = choose(c["formats"], arm_stats(mine, "format"), rate)
-    return {"language": lang, "topic": topic, "hook_style": hook, "format": fmt,
-            "reason": f"{mode}; hook: {why_h}; format: {why_f}"}
+    mine = live(of_language(lang))
+    picks, why = {}, []
+    for key, options in (("hook_style", c["hook_styles"]), ("format", formats(cfg)), ("pace", PACES)):
+        picks[key], w = choose(options, arm_stats(mine, key), rate, waiting=pending(mine, key))
+        why.append(f"{key.replace('_', ' ')}: {w}")
+    idea = pick_idea(topic)
+    return {"language": lang, "topic": topic, **picks, "idea": idea,
+            "reason": f"{mode}; " + "; ".join(why) + ("; idea from the niche scout" if idea else "")}
+
+
+def formats(cfg):
+    """Our story formats plus the ones the scout learned from other creators' reels."""
+    learned = list(store.read("formats", {}).get("learned", {}))
+    return list(dict.fromkeys(cfg["content"]["formats"] + learned))
+
+
+def pick_idea(topic):
+    """The newest unused idea the scout found for this tool, if any."""
+    ideas = [i for i in store.read("ideas", []) if i.get("tool") == topic and not i.get("used")]
+    return ideas[-1] if ideas else None
+
+
+def mark_idea_used(idea):
+    if not idea:
+        return
+    ideas = store.read("ideas", [])
+    for i in ideas:
+        if i.get("hook_en") == idea.get("hook_en") and i.get("tool") == idea.get("tool"):
+            i["used"] = i.get("used", 0) + 1
+    store.write("ideas", ideas)
 
 
 def update_playbook(cfg, lang):

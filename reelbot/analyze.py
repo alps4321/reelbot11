@@ -44,6 +44,10 @@ def _from_watch(p, due):
         return False
     s = tl["samples"]
     latest = s[-1]
+    age_h = (store.now() - store.parse(p["posted_at"])).total_seconds() / 3600
+    stale = (store.now() - store.parse(latest["t"])).total_seconds() > 90 * 60
+    if stale and age_h < 24 * 7:          # the watcher has not run lately: read Instagram directly instead
+        return False
     p["metrics"] = {k: latest[k] for k in ("views", "reach", "likes", "comments", "shares", "saved")}
     p["metrics"]["avg_watch_s"] = latest["watch_s"]
     p["metrics"]["views_last_hour"] = watch.growth(tl)

@@ -36,6 +36,8 @@ jobs:
           key: tg-chat-v1
       - name: Send the summary
         env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID || '17841416319314274' }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TG_CHAT_FILE: .tgchat/tg_chat
@@ -43,7 +45,9 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GITHUB_TOKEN: ${{ github.token }}
           PYTHONUNBUFFERED: "1"
-        run: python -m reelbot digest
+        run: |
+          python -m reelbot watch      # fresh numbers for the summary, even if the 5-minute watcher is late
+          python -m reelbot digest
       - name: Save the Telegram chat
         if: always() && steps.tgc.outputs.cache-hit != 'true' && hashFiles('.tgchat/tg_chat') != ''
         uses: actions/cache/save@v4

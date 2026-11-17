@@ -8,13 +8,28 @@
   for them).
 - From week 2: Tuesday and Friday all go to the best-scoring tool. Other days: one proven tool (top 5,
   rotating) and one tool that has had the fewest posts; the third post alternates.
-- Reels are compared at the same age (48 hours). Score weighs shares and saves most, and rewards watch time.
+- Reels are compared at the same age: the 48-hour reading, or the 24-hour one scaled by how much our reels
+  usually grow by 48 hours. Score weighs shares and saves most, and rewards watch time.
 - Voice: one consistent male narrator (OmniVoice, copied from `assets/narrator/hi_male_ref.wav`), spoken one
-  phrase per breath with real pauses after sentences and longer pauses after questions and before the answer.
+  phrase per breath with real pauses. Three speaking paces (natural, brisk, calm) are tested and scored like
+  hooks and formats; brisk moves toward the speaking speed the scout measures in the niche.
 - Results: `data/report.md`. Reels posted by hand are picked up and tracked too.
 
-Makes two faceless Instagram Reels a day about ilovedocuments.ai (one English, one
-Hinglish), posts them, reads the results, and uses them to decide the next reel. No server needed: it runs on a free
+## Always-on jobs
+
+| job | when | what it does |
+|---|---|---|
+| ReelBot (`reelbot.yml`) | 3 times a day | measure, learn, write, voice, render and post one reel |
+| Stats watch (`watch.yml`) | every 5 minutes | reads every reel's numbers (new reels every run, then hourly, then daily) and keeps a timeline per reel on the `stats` branch; its front page is a live table |
+| Reel scout (`scout.yml`) | daily, 9:11 am | studies the best new reels of creators in the niche: listens to them, looks at their frames, and saves new ideas (`data/ideas.json`), learned story formats (`data/formats.json`), notes (`data/insights.json`) and the niche's speaking pace (`data/voice_style.json`) |
+
+The scout reads creator accounts through Instagram's official Business Discovery API (hashtag search needs a
+Meta app review). Add accounts to `research.competitors` in `config.yaml`; creators tagged in the best captions
+are tried automatically. Their videos and transcripts are only used during the run and never saved. It never
+learns "comment a word and I'll DM you the link" mechanics, because this account cannot send links by DM.
+
+Makes three faceless Instagram Reels a day about ilovedocuments.ai (Hinglish and English),
+posts them, reads the results, and uses them to decide the next reel. No server needed: it runs on a free
 GitHub Actions schedule.
 
 ## What happens on every run

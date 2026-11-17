@@ -2,7 +2,7 @@
 import shutil
 
 from . import analyze, broll, learn, render, render3d, research, script, store, voice
-from .config import OUT
+from .config import OUT, ROOT
 from .instagram import Instagram
 
 
@@ -38,6 +38,26 @@ def make(cfg, plan, playbook=None):
     }
 
 
+def post_queued(cfg, ig, item_path):
+    """Post a reel that was made outside the daily generator (queue/<name>.json + its video)."""
+    import json
+    item = json.loads(item_path.read_text())
+    video = ROOT / item["video"]
+    media_id, link = ig.publish_reel(video, item["caption"], share_to_feed=cfg["posting"]["share_to_feed"],
+                                     ai_label=cfg["posting"]["label_ai_generated"])
+    post = {"id": item_path.stem, "created_at": store.iso(), "posted_at": store.iso(), "media_id": media_id,
+            "permalink": link, "checked": [], "language": item.get("language", "english"),
+            "topic": item.get("topic", "general"), "hook_style": item.get("hook_style", "manual"),
+            "format": item.get("format", "manual"), "hook": item.get("hook", ""), "seconds": item.get("seconds", 0),
+            "caption": item["caption"], "queued": True}
+    posts = store.posts()
+    posts.append(post)
+    store.save_posts(posts)
+    video.unlink()
+    item_path.unlink()
+    print(f"[queue] posted {item_path.stem}: {link}")
+
+
 def run(cfg):
     if not cfg["posting"]["enabled"]:
         print("posting.enabled is false: nothing to do")
@@ -50,6 +70,17 @@ def run(cfg):
     analyze.collect(cfg, ig)                 # 1. read results of earlier reels
     if research.stale(cfg):                  # 2. refresh what works in the niche
         research.refresh(cfg, ig)
+
+    queue = ROOT / "queue"
+    if (queue / "HOLD").exists():                      # a reel is being made by hand; do not post another
+        print("queue/HOLD is set: not posting this run")
+        analyze.report(cfg)
+        return
+    ready = sorted(queue.glob("*.json")) if queue.exists() else []
+    if ready and not dry:                              # a finished reel was dropped in the queue: post it first
+        post_queued(cfg, ig, ready[0])
+        analyze.report(cfg)
+        return
 
     slots = cfg["posting"]["slots"]
     done = posted_today()

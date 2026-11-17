@@ -21,6 +21,7 @@ class Instagram:
         self.token = s["ig_token"]
         self.version = s["graph_version"]
         self._base = None
+        self.last_usage = 0          # highest % of any Meta rate limit, from the last response's headers
 
     @property
     def base(self):
@@ -51,6 +52,7 @@ class Instagram:
         url = path if path.startswith("http") else f"{self.base}/{path}"
         kw = {"params": params} if method == "GET" else {"data": params}
         r = requests.request(method, url, timeout=60, **kw)
+        self.last_usage = _usage(r.headers)
         try:
             body = r.json()
         except ValueError:
@@ -78,13 +80,22 @@ class Instagram:
         )
         return d.get("data", [])
 
-    def discover(self, username, limit=25):
+    def discover(self, username, limit=25, with_video=False):
+        """Public reels of another business/creator account (official Business Discovery endpoint)."""
+        extra = ",media_url" if with_video else ""
         fields = (
             f"business_discovery.username({username}){{followers_count,"
             f"media.limit({limit}){{caption,media_type,media_product_type,like_count,"
-            f"comments_count,view_count,permalink,timestamp}}}}"
+            f"comments_count,view_count,permalink,timestamp{extra}}}}}"
         )
-        d = self._call("GET", self.uid, fields=fields)["business_discovery"]
+        try:
+            d = self._call("GET", self.uid, fields=fields)["business_discovery"]
+        except IGError as e:
+            if not (with_video or "view_count" in str(e)):
+                raise
+            # some accounts refuse a field; ask again with the basic set
+            fields = fields.replace(",view_count", "").replace(extra, "")
+            d = self._call("GET", self.uid, fields=fields)["business_discovery"]
         return d.get("followers_count", 0), d.get("media", {}).get("data", [])
 
     # ---- publishing ----------------------------------------------------
@@ -141,3 +152,22 @@ class Instagram:
                 except IGError:
                     pass
             return out
+
+
+def _usage(headers):
+    """Meta reports rate-limit use in two headers as percentages; return the highest one."""
+    import json
+    top = 0
+    for h in ("x-app-usage", "x-business-use-case-usage"):
+        raw = headers.get(h)
+        if not raw:
+            continue
+        try:
+            data = json.loads(raw)
+        except ValueError:
+            continue
+        rows = [data] if h == "x-app-usage" else [r for v in data.values() for r in v]
+        for row in rows:
+            top = max([top] + [v for k, v in row.items() if k in ("call_count", "total_cputime", "total_time")
+                               and isinstance(v, (int, float))])
+    return top

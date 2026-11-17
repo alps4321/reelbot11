@@ -44,11 +44,11 @@ def _api(cfg, system, prompt, max_tokens):
     return "".join(b.get("text", "") for b in r.json().get("content", []))
 
 
-def _cli(system, prompt):
+def _cli(system, prompt, read_files=False):
+    cmd = ["claude", "-p", "--output-format", "text"] + (["--allowedTools", "Read"] if read_files else [])
     try:
-        r = subprocess.run(["claude", "-p", "--output-format", "text"],
-                           input=f"{system}{JSON_ONLY}\n\n{prompt}",
-                           capture_output=True, text=True, timeout=300)
+        r = subprocess.run(cmd, input=f"{system}{JSON_ONLY}\n\n{prompt}",
+                           capture_output=True, text=True, timeout=600 if read_files else 300)
     except (OSError, subprocess.TimeoutExpired) as e:
         raise ClaudeError(f"Claude Code CLI failed: {e}")
     if r.returncode != 0:
@@ -56,7 +56,8 @@ def _cli(system, prompt):
     return r.stdout
 
 
-def ask_json(cfg, system, prompt, max_tokens=2500):
+def ask_json(cfg, system, prompt, max_tokens=2500, read_files=False):
+    """read_files lets Claude open files named in the prompt (images, for the scout); CLI only."""
     if cfg["secrets"]["anthropic"]:
         return _parse(_api(cfg, system, prompt, max_tokens))
-    return _parse(_cli(system, prompt))
+    return _parse(_cli(system, prompt, read_files))

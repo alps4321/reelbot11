@@ -1,4 +1,4 @@
-"""Command line:  python -m reelbot <run|make|check|research|analyze|report>"""
+"""Command line:  python -m reelbot <run|make|check|watch|scout|research|analyze|report>"""
 import os
 import sys
 
@@ -44,6 +44,12 @@ def main():
                         print("insights on newest post:", ig.insights(out["data"][0]["id"]) or "NOT AVAILABLE (permission missing?)")
                 except Exception as e:
                     print(f"{name}: FAILED {e}")
+    elif cmd == "watch":        # every 5 minutes: latest numbers of every reel
+        from . import watch
+        watch.run(cfg, ig)
+    elif cmd == "scout":        # daily: study top reels in the niche, learn ideas, formats and speaking pace
+        from . import scout
+        scout.run(cfg, ig, probe="--probe" in sys.argv)
     elif cmd == "research":
         research.refresh(cfg, ig)
         print(research.digest())

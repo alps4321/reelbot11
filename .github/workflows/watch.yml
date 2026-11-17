@@ -1,0 +1,47 @@
+name: Stats watch
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"    # every 5 minutes (GitHub may start it a few minutes late when busy)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    # Public repos run Actions for free. While the repo is private this would use up the monthly minutes,
+    # so the timed runs only happen once it is public (a manual run always works).
+    if: ${{ github.event.repository.private == false || github.event_name == 'workflow_dispatch' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -q requests pyyaml
+      - name: Open the stats branch
+        run: |
+          git fetch -q --depth 1 origin stats
+          git worktree add -q -B stats stats-data FETCH_HEAD
+      - name: Read the latest numbers
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID || '17841416319314274' }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          PYTHONUNBUFFERED: "1"
+        run: python -m reelbot watch
+      - name: Save
+        working-directory: stats-data
+        run: |
+          git config user.name "reelbot"
+          git config user.email "reelbot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Stats $(date -u +%H:%M)"
+          git push -q origin stats

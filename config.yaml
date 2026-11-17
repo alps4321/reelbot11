@@ -100,7 +100,11 @@ content:
 research:
   refresh_days: 3
   hashtags: [pdf, onlineform, sscexam, govtjobs, studytips]   # max 30 different per week (Meta limit)
-  competitors: []            # Instagram usernames of business/creator accounts to watch
+  competitors: []            # Instagram usernames of business/creator accounts the daily scout studies
+  # Accounts to try once with `python -m reelbot scout --probe`; the readable ones move to competitors.
+  candidates: [iamchrischung, ilovepdf, smallpdf, adobeacrobat, canva, trakintech, manojsaru, beebomco, techburner,
+               technicalguruji, geekyranjit, techno_ruhez, gadgetstouse, techwiser, sharmajitechnical, adda247,
+               testbookdotcom, unacademy, careerwill, physicswallah, studyiq_education, careers360_official]
   keep_top: 25
 
 voice:

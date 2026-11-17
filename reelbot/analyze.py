@@ -1,5 +1,5 @@
 """Reads each posted reel's results at 24h, 72h and 7 days, and writes the report."""
-from . import learn, store
+from . import learn, store, watch
 from .config import DATA
 from .instagram import IGError
 
@@ -37,6 +37,24 @@ def import_existing(cfg, ig):
         print(f"import: added {added} reels posted outside the bot")
 
 
+def _from_watch(p, due):
+    """Use the 5-minute timeline when there is one: each checkpoint gets the reading taken closest after it."""
+    tl = watch.timeline(p["media_id"])
+    if not tl or not tl["samples"]:
+        return False
+    s = tl["samples"]
+    latest = s[-1]
+    p["metrics"] = {k: latest[k] for k in ("views", "reach", "likes", "comments", "shares", "saved")}
+    p["metrics"]["avg_watch_s"] = latest["watch_s"]
+    p["metrics"]["views_last_hour"] = watch.growth(tl)
+    for h in due:
+        at = next((x for x in s if x["h"] >= h), latest)
+        m = {k: at[k] for k in ("views", "reach", "likes", "comments", "shares", "saved")}
+        p.setdefault("history", []).append({"at": at["t"], "hours": h, **m, "avg_watch_s": at["watch_s"]})
+    p["checked"] = sorted(set(p.get("checked", [])) | set(due))
+    return True
+
+
 def collect(cfg, ig):
     if not ig.ready:
         return 0
@@ -47,6 +65,9 @@ def collect(cfg, ig):
             continue
         age_h = (store.now() - store.parse(p["posted_at"])).total_seconds() / 3600
         due = [h for h in cfg["learning"]["check_hours"] if age_h >= h and h not in p.get("checked", [])]
+        if _from_watch(p, due):
+            done += 1
+            continue
         if not due:
             continue
         try:

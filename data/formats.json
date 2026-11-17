@@ -1,28 +1,16 @@
 {
-  "learned": {
-    "comment_keyword_secret_tool": {
-      "description": "Tell a tiny story where a character is stuck on a file problem and finds a 'secret' free fix. End on a big caption asking viewers to comment one keyword to get the link.",
-      "from": "https://www.instagram.com/reel/De1WWNAR9Bf/",
-      "hook_pattern": "Secret [everyday task] app nobody tells you about, comment '[WORD]' and I'll DM the link",
-      "added": "2026-11-17T15:19:02+00:00"
-    },
-    "free_thing_keyword_gate": {
-      "description": "Open with a character who is about to pay or struggle for something, then reveal that a free tool does it. Close with a caption telling viewers to comment a keyword.",
-      "from": "https://www.instagram.com/reel/DfUV1DCyH8x/",
-      "hook_pattern": "Free [thing that normally costs money or has ads], comment '[WORD]' for the link",
-      "added": "2026-11-17T15:19:02+00:00"
-    },
-    "impossible_without_reveal": {
-      "description": "Show a character facing a problem that needs a pain (such as an upload limit or a locked file). Reveal the tool solving it without that pain, in three short steps on a panel.",
-      "from": "https://www.instagram.com/reel/DfKC673hkqS/",
-      "hook_pattern": "This [gadget or tool] does [impossible-sounding thing] without [usual requirement]",
-      "added": "2026-11-17T15:19:02+00:00"
-    },
-    "numbered_list_explainer": {
-      "description": "Use a narrator and a counter caption to run through N quick file-fixes, each one a tiny 3D scene with a before and after size panel.",
-      "from": "https://www.instagram.com/reel/DfMA961Plsh/",
-      "hook_pattern": "N new [things] in [trending update] you need to know",
-      "added": "2026-11-17T15:19:02+00:00"
-    }
+ "learned": {
+  "impossible_without_reveal": {
+   "description": "Show a character facing a problem that needs a pain (such as an upload limit or a locked file). Reveal the tool solving it without that pain, in three short steps on a panel.",
+   "from": "https://www.instagram.com/reel/DfKC673hkqS/",
+   "hook_pattern": "This [gadget or tool] does [impossible-sounding thing] without [usual requirement]",
+   "added": "2026-11-17T15:19:02+00:00"
+  },
+  "numbered_list_explainer": {
+   "description": "Use a narrator and a counter caption to run through N quick file-fixes, each one a tiny 3D scene with a before and after size panel.",
+   "from": "https://www.instagram.com/reel/DfMA961Plsh/",
+   "hook_pattern": "N new [things] in [trending update] you need to know",
+   "added": "2026-11-17T15:19:02+00:00"
   }
+ }
 }

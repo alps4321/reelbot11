@@ -70,8 +70,9 @@ def collect(cfg, ig, names, with_video=True):
     return reels, ok
 
 
-NICHE = re.compile(r"pdf|document|form|aadhaar|aadhar|pan card|resume|\bcv\b|photo|\bkb\b|signature|scan|passport|"
-                   r"certificate|exam|admit card|govt|sarkari|upload|marksheet|bank statement|excel|word file|compress")
+NICHE = re.compile(r"pdf|document|\bforms?\b|aadhaa?r|pan card|resume|\bcv\b|passport|photo size|photo resize|"
+                   r"signature|\bscan|certificate|\bexams?\b|admit card|govt|sarkari|\bupload|marksheet|"
+                   r"bank statement|excel|word file|compress|\bkb\b|cyber cafe|xerox|print")
 USEFUL = re.compile(r"website|tool|\bapp\b|free|\bai\b|trick|hack|tips?\b|students?|useful|secret|nobody|stop")
 
 
@@ -88,7 +89,11 @@ def _listen(path, model):
     """Words with timings -> transcript, hook (first ~3 s) and how the speaker paces it."""
     wav = path.with_suffix(".wav")
     subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(path), "-ar", "16000", "-ac", "1", str(wav)], check=True)
-    segs, info = model.transcribe(str(wav), word_timestamps=True, vad_filter=True)
+    import wave
+    import numpy as np
+    with wave.open(str(wav), "rb") as w:
+        audio = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float32) / 32768
+    segs, info = model.transcribe(audio, word_timestamps=True, vad_filter=True)
     words = [w for s in segs for w in (s.words or [])]
     if len(words) < 8:
         return None
@@ -97,10 +102,10 @@ def _listen(path, model):
     spoken = (words[-1].end - words[0].start) - sum(g for g in gaps if g >= 0.6)
     return {"language": info.language, "transcript": " ".join(w.word.strip() for w in words),
             "hook": " ".join(w.word.strip() for w in words if w.start < words[0].start + 3.0),
-            "first_word_at": round(words[0].start, 2), "seconds": round(words[-1].end, 1),
-            "words_per_second": round(len(words) / max(spoken, 1), 2),
-            "pause_s": round(statistics.median(pauses), 2) if pauses else 0.0,
-            "pauses_per_10s": round(10 * len(pauses) / max(words[-1].end, 1), 1)}
+            "first_word_at": round(float(words[0].start), 2), "seconds": round(float(words[-1].end), 1),
+            "words_per_second": round(float(len(words) / max(spoken, 1)), 2),
+            "pause_s": round(float(statistics.median(pauses)), 2) if pauses else 0.0,
+            "pauses_per_10s": round(float(10 * len(pauses) / max(words[-1].end, 1)), 1)}
 
 
 def _frames(path, out):
@@ -133,7 +138,10 @@ Return:
    "hook_hinglish": "the same hook in casual Hinglish, Roman letters", "angle": "one line: the story", "from": "permalink that inspired it"}}],
  "voice_notes": "what the best speakers here do with pace, pauses and emphasis, in two sentences"}}
 
-Give 4 to 8 ideas, spread over different tools, most promising first. A format_name that is really one of ours should use our name."""
+Give 4 to 8 ideas, spread over different tools, most promising first. A format_name that is really one of ours should use our name.
+Our account cannot send DMs or links in replies, so never build an idea or format on "comment a word and I'll send
+the link" or any other promise we cannot keep. Our call to action is: save this for your next form, the site name is on screen.
+A format is a way of telling the story, not a call to action."""
 
 
 def _study(cfg, studied, frames):
@@ -218,7 +226,8 @@ def run(cfg, ig, probe=False):
     state = store.read("scout", {})
     seen = set(state.get("seen", []))
     fresh, per_account = [], {}
-    for r in sorted((r for r in reels if r["permalink"] not in seen), key=rank, reverse=True):
+    for r in sorted((r for r in reels if r["permalink"] not in seen), key=lambda r: (bool(r["media_url"]), rank(r)),
+                    reverse=True):
         if per_account.get(r["account"], 0) < 2 and len(fresh) < PER_DAY:     # spread over creators
             fresh.append(r)
             per_account[r["account"]] = per_account.get(r["account"], 0) + 1

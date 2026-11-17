@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-17T14:20:40+00:00
+Updated 2026-11-17T14:41:31+00:00
 
-Reels made: 12. Posted: 8. Measured: 6.
+Reels made: 13. Posted: 9. Measured: 6.
 
 ## english: results by topic
 
@@ -89,6 +89,7 @@ Reels made: 12. Posted: 8. Measured: 6.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-11-17 | english | cheat_sheet_5_tools | cheat_sheet | Stop paying the cyber cafe for these 5 things |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/Df2KxDjjwSe/) |
 | 2026-11-17 | english | jpg_to_pdf | secret_answer | How do you send 4 photos as one PDF? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/Df2IYAIAR7x/) |
 | 2026-11-17 | english | general | manual | #ilovedocuments | 229 | 8.2 | 3 | 0 | 0 | 0 | 232 | [open](https://www.instagram.com/reel/Df1OFyStuBw/) |
 | 2026-11-16 | hinglish | remove_background | two_friends | 2 dost. 1 photo. 50 KB. |  |  |  |  |  |  |  | dry run |

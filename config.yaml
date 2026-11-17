@@ -108,6 +108,7 @@ voice:
   omnivoice_ref: assets/narrator/hi_male_ref.wav      # the male voice you picked; every line copies it
   omnivoice_ref_text: "ग्यारह उनसठ पर फॉर्म रिजेक्ट।"
   speed: 0.94                # slightly slower than the model's default
+  omnivoice_steps: 16        # 16 sounds the same as 32 in tests and takes half the time
   sound_effects: true        # whoosh, pop, error buzz, success ding
 
 posting:

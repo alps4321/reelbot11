@@ -154,7 +154,8 @@ def _omnivoice_batch(cfg, lang, scenes, workdir):
         plan.append(parts)
         for k, part in enumerate(parts):
             jobs.append({"text": part.rstrip("…").strip() or part, "out": str(workdir / f"ov{i}_{k}.wav"),
-                         "ref": str(ref), "ref_text": v["omnivoice_ref_text"], "speed": float(v.get("speed", 1.0))})
+                         "ref": str(ref), "ref_text": v["omnivoice_ref_text"], "speed": float(v.get("speed", 1.0)),
+                         "steps": int(v.get("omnivoice_steps", 32))})
     job_file = workdir / "ov_jobs.json"
     job_file.write_text(json.dumps(jobs, ensure_ascii=False))
     py = os.environ.get("OMNIVOICE_PYTHON", sys.executable)

@@ -94,7 +94,7 @@ test next: {tests}
 Hooks we used recently (do not repeat them): {recent}
 
 Story rules:
-- 7 to 9 shots, each ONE short spoken sentence (3 to 8 words). First shot kind "hook", last shot kind "cta",
+- 6 to 8 shots, each ONE short spoken sentence (3 to 7 words). Keep the whole reel under 24 seconds. First shot kind "hook", last shot kind "cta",
   the rest "point". No scene-setting shots: every shot must change something.
 - What our own reels have shown: a curiosity question over a character scene keeps people (skip rate under 40%);
   opening on an error card or anything that looks like an advert loses them (skip rate 57%). So shot 1 is a
@@ -370,7 +370,7 @@ def write(cfg, plan, playbook):
     prompt = (STORY_PROMPT if story else PROMPT).format(
         topic=topic_title, format=plan["format"],
         format_help={**FORMATS, **STORY_FORMATS}.get(plan["format"], ""),
-        hook_style=plan["hook_style"], lo=lo, hi=hi, wlo=int(lo * 2.5), whi=int(hi * 2.5),
+        hook_style=plan["hook_style"], lo=lo, hi=hi, wlo=int(lo * 2.0), whi=int(hi * 2.0),   # the narrator pauses, so fewer words fit
         research=research.digest() or "(no research data yet)",
         keep=playbook.get("keep") or "nothing proven yet",
         avoid=playbook.get("avoid") or "nothing proven yet",

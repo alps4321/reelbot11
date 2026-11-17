@@ -54,5 +54,95 @@
     ],
     "visual": "Phone UI captures with number captions.",
     "speaking": "Steady, listy, one beat per item."
+  },
+  {
+    "at": "2026-11-17T15:24:16+00:00",
+    "permalink": "https://www.instagram.com/reel/De_UI6HRvno/",
+    "why": "It opens on a bold promise (free, unlimited, high speed) and then proves it right away with a before and after speed comparison. The big result number (379 Mbps) makes the payoff easy to see.",
+    "hook_pattern": "This one [free thing] gives you [big benefit], and I'll prove it with a before/after",
+    "structure": [
+      "Bold promise as an on-screen banner while the first word is already being spoken",
+      "Show the slow normal result (the pain)",
+      "Add the tool and run the same task again",
+      "Show the big number or result",
+      "Push it further with a bonus (a second phone makes it even faster)",
+      "Say who it works for, and that it's easy"
+    ],
+    "visual": "Vertical split of creator face and screen recording. A white banner with a red keyword stays up for the first seconds. Highlighted word-by-word captions in blue boxes. Close-ups of a speed dial and a ",
+    "speaking": "Fast and confident at about 3.3 words/s. The first word comes at 0.18 s. Short pauses, with stress on 'slow' versus 'now see'."
+  },
+  {
+    "at": "2026-11-17T15:24:16+00:00",
+    "permalink": "https://www.instagram.com/reel/DfuWR1hx5cb/",
+    "why": "It promises a count and a price in the first line ('3 gadgets, about Rs 1000'), so people stay to see all three. Each item turns into something unexpected (a mouse that holds earbuds), and the hands-on shots keep the pace moving.",
+    "hook_pattern": "For around Rs [small amount], I've got [N] super useful [things]",
+    "structure": [
+      "Hook states the count and the low price",
+      "Item 1: the surprise reveal (it's actually two things)",
+      "List its features quickly",
+      "Item 2 with another 'but open this and...' twist",
+      "Item 3 with a practical bonus",
+      "Close with a call to action"
+    ],
+    "visual": "Top-down desk shots with hands. A price banner at the start. Highlighted captions. A quick cut every 2 to 3 seconds. Colourful lit background.",
+    "speaking": "Steady at about 3 words/s, with a clear pause before each new item. Stress falls on 'not only... but', and the tone is upbeat."
+  },
+  {
+    "at": "2026-11-17T15:24:16+00:00",
+    "permalink": "https://www.instagram.com/reel/DezRZM5SXGo/",
+    "why": "It uses curiosity about a new, hyped object ('features Apple didn't tell you'), then keeps up a steady flow of small surprising reveals. Every claim is shown on screen straight away.",
+    "hook_pattern": "[Big new thing] features [authority] didn't tell you",
+    "structure": [
+      "Superlative claim about the object",
+      "Rapid sequence of hidden features",
+      "Each feature has a quick visual demo",
+      "Save the favourite feature for last"
+    ],
+    "visual": "Close-ups of the product. Detailed demo shots in short cuts. Captions are minimal.",
+    "speaking": "Fast at about 4 words/s, with energy that climbs. It starts with a long 7 s pre-roll, so the opening is carried by the visuals."
+  },
+  {
+    "at": "2026-11-17T15:24:16+00:00",
+    "permalink": "https://www.instagram.com/reel/Dfj47owytz3/",
+    "why": "It is a single-purpose story with no waiting: the problem, the solution and the payoff all fit in 28 seconds. The step-by-step action ('place it, connect it, press') is easy to follow, and the safety detail adds trust.",
+    "hook_pattern": "This is the most useful [thing] you will ever have",
+    "structure": [
+      "Superlative hook with the object already in shot",
+      "Three-step 'just do this' action",
+      "Automatic result happens on its own",
+      "Safety or reliability detail",
+      "Specs in one line",
+      "Share-this closer"
+    ],
+    "visual": "Outdoor real-world demo with a clear before and after of the car going up. Captions with a purple highlight on each word. The first image is the object itself.",
+    "speaking": "Very quick at 4.4 words/s with no pauses. It's flat and direct, with emphasis on 'automatically' and 'on its own'."
+  },
+  {
+    "at": "2026-11-17T15:24:16+00:00",
+    "permalink": "https://www.instagram.com/reel/DfUXHLftcCo/",
+    "why": "It leads with a big question about connecting separate things, which holds an informed audience. It is low on the engagement rate, though, because it is long and corporate with no personal payoff.",
+    "hook_pattern": "What happens when [separate tools] stop working alone and start connecting?",
+    "structure": [
+      "Question hook",
+      "Announcement and the partners involved",
+      "Concrete applications",
+      "Caveat about human control",
+      "Advice for young people"
+    ],
+    "visual": "Event footage with a presenter on location.",
+    "speaking": "Slow and measured at 2.35 words/s, in a presenter tone. It works for news, but it is too slow for us."
+  },
+  {
+    "at": "2026-11-17T15:24:16+00:00",
+    "permalink": "https://www.instagram.com/reel/DezXZcqxE3V/",
+    "why": "It uses a witty, playful caption tied to a pop-culture moment, and a visual that explains itself without any speech. It's a visual-first reel.",
+    "hook_pattern": "When the [thing] matches the [fantasy/mood] ...",
+    "structure": [
+      "Single strong visual idea",
+      "Witty caption carries the message",
+      "Tag or reference to a known brand"
+    ],
+    "visual": "Polished designed visuals, strong colour and a themed look.",
+    "speaking": "No speech. The caption does the work."
   }
 ]

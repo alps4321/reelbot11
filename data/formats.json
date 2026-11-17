@@ -1,16 +1,40 @@
 {
- "learned": {
-  "impossible_without_reveal": {
-   "description": "Show a character facing a problem that needs a pain (such as an upload limit or a locked file). Reveal the tool solving it without that pain, in three short steps on a panel.",
-   "from": "https://www.instagram.com/reel/DfKC673hkqS/",
-   "hook_pattern": "This [gadget or tool] does [impossible-sounding thing] without [usual requirement]",
-   "added": "2026-11-17T15:19:02+00:00"
-  },
-  "numbered_list_explainer": {
-   "description": "Use a narrator and a counter caption to run through N quick file-fixes, each one a tiny 3D scene with a before and after size panel.",
-   "from": "https://www.instagram.com/reel/DfMA961Plsh/",
-   "hook_pattern": "N new [things] in [trending update] you need to know",
-   "added": "2026-11-17T15:19:02+00:00"
+  "learned": {
+    "impossible_without_reveal": {
+      "description": "Show a character facing a problem that needs a pain (such as an upload limit or a locked file). Reveal the tool solving it without that pain, in three short steps on a panel.",
+      "from": "https://www.instagram.com/reel/DfKC673hkqS/",
+      "hook_pattern": "This [gadget or tool] does [impossible-sounding thing] without [usual requirement]",
+      "added": "2026-11-17T15:19:02+00:00"
+    },
+    "numbered_list_explainer": {
+      "description": "Use a narrator and a counter caption to run through N quick file-fixes, each one a tiny 3D scene with a before and after size panel.",
+      "from": "https://www.instagram.com/reel/DfMA961Plsh/",
+      "hook_pattern": "N new [things] in [trending update] you need to know",
+      "added": "2026-11-17T15:19:02+00:00"
+    },
+    "same_task_before_after": {
+      "description": "Tell the story with one character doing the exact same task twice: first the slow, failing way, then with our tool. End on a big success panel with the number (size, KB, seconds) so the improvement is visible.",
+      "from": "https://www.instagram.com/reel/De_UI6HRvno/",
+      "hook_pattern": "This one [free thing] gives you [big benefit], and I'll prove it with a before/after",
+      "added": "2026-11-17T15:24:16+00:00"
+    },
+    "hidden_features_reveal": {
+      "description": "Our character discovers a tool has a feature nobody told them about, and each hidden feature saves them from a different form disaster. Finish on the best one.",
+      "from": "https://www.instagram.com/reel/DezRZM5SXGo/",
+      "hook_pattern": "[Big new thing] features [authority] didn't tell you",
+      "added": "2026-11-17T15:24:16+00:00"
+    },
+    "three_step_just_do_this": {
+      "description": "Our characters hit a problem, then the story shows three 'just do this' steps in the tool, with the result appearing automatically in a success panel. Say the limit it handles (e.g. size in KB) in one line.",
+      "from": "https://www.instagram.com/reel/Dfj47owytz3/",
+      "hook_pattern": "This is the most useful [thing] you will ever have",
+      "added": "2026-11-17T15:24:16+00:00"
+    },
+    "visual_first_caption_joke": {
+      "description": "Tell the story with big captions and no narration needed: one 3D scene and a witty line, ending on the tool's success panel.",
+      "from": "https://www.instagram.com/reel/DezXZcqxE3V/",
+      "hook_pattern": "When the [thing] matches the [fantasy/mood] ...",
+      "added": "2026-11-17T15:24:16+00:00"
+    }
   }
- }
 }

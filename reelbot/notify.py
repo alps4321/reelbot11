@@ -189,7 +189,7 @@ def _tip(cfg, summary):
                               "From this status, give ONE short practical takeaway (max 25 words) about what is working "
                               "or what to change. If there is too little data, say what to watch next. "
                               f'Return {{"tip": "..."}}\n\n{summary}', max_tokens=200)
-        return str(out.get("tip", ""))[:220]
+        return str(out.get("tip", ""))[:320]
     except Exception as ex:
         print(f"notify: no tip ({str(ex)[:80]})")
         return ""

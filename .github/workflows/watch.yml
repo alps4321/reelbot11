@@ -2,7 +2,7 @@ name: Stats watch
 
 on:
   schedule:
-    - cron: "*/5 * * * *"    # every 5 minutes (GitHub may start it a few minutes late when busy)
+    - cron: "*/5 * * * *"    # every 5 minutes (GitHub may start it late, or skip a slot, when busy)
   workflow_dispatch:
 
 permissions:

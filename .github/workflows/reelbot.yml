@@ -1,6 +1,6 @@
 name: ReelBot
 
-on:
+on:  # schedules run because the repo is public (free plans do not run them in private repos)
   schedule:                  # three reels a day; each run also reads the results of earlier reels
     - cron: "7 7 * * *"      # 12:37 pm India time
     - cron: "7 13 * * *"     # 6:37 pm India time

@@ -141,7 +141,8 @@ Return:
 Give 4 to 8 ideas, spread over different tools, most promising first. A format_name that is really one of ours should use our name.
 Our account cannot send DMs or links in replies, so never build an idea or format on "comment a word and I'll send
 the link" or any other promise we cannot keep. Our call to action is: save this for your next form, the site name is on screen.
-A format is a way of telling the story, not a call to action."""
+A format is a way of telling the story, not a call to action. Every one of our reels has a narrator speaking
+all the way through, so a format must work with narration."""
 
 
 def _study(cfg, studied, frames):

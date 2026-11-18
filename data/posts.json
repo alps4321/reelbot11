@@ -2972,5 +2972,234 @@
     "caption": "Form ki photo 200 KB chahiye aur phone ki 4 MB? Quality thodi kam karke size girta hai, bas exact limit pe rukna hai. Aapko kaunsi limit sabse tang karti hai? Free tool: ilovedocuments.ai (Resize Image in KB). Save kar lo.\n\n#onlineform #photoresize #examform #hinglish #ilovedocuments",
     "video": "20261118-185423-hinglish.mp4",
     "dry_run": true
+  },
+  {
+    "id": "20261118-190524-english",
+    "created_at": "2026-11-18T19:12:05+00:00",
+    "language": "english",
+    "topic": "resize_image_kb",
+    "hook_style": "question",
+    "format": "discovery",
+    "pace": "brisk",
+    "distance": "far",
+    "idea": "",
+    "plan_reason": "week 1: every tool gets a first try; hook style: best so far; format: new test; pace: explore; distance: new test",
+    "title": "The secret number inside your phone",
+    "hook": "Do you know your phone's secret number?",
+    "seconds": 20.0,
+    "script": {
+      "title": "The secret number inside your phone",
+      "scenes": [
+        {
+          "say": "Do you know your phone's secret number?",
+          "voice": "Do you know your phone's secret number?",
+          "accent": [
+            "secret"
+          ],
+          "tag": "phone trick",
+          "meter": null,
+          "scene": {
+            "type": "search",
+            "query": "my phone's secret number",
+            "results": [
+              "Every phone has one",
+              "Takes 3 seconds to find"
+            ]
+          },
+          "kind": "hook",
+          "screen": "Do you know your phone's secret number?",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Open the dialer.",
+          "voice": "Open the dialer.",
+          "accent": [
+            "dialer"
+          ],
+          "tag": "phone trick",
+          "meter": null,
+          "scene": {
+            "type": "steps",
+            "items": [
+              "Open",
+              "Dialer"
+            ]
+          },
+          "kind": "point",
+          "screen": "Open the dialer.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Type *#06#.",
+          "voice": "Type... star, hash, zero, six, hash.",
+          "accent": [
+            "*#06#"
+          ],
+          "tag": "phone trick",
+          "meter": null,
+          "scene": {
+            "type": "big_text",
+            "text": "*#06#",
+            "sub": "no call needed"
+          },
+          "kind": "point",
+          "screen": "Type *#06#.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Your phone shows its IMEI.",
+          "voice": "Your phone shows its I M E I.",
+          "accent": [
+            "IMEI"
+          ],
+          "tag": "phone trick",
+          "meter": null,
+          "scene": {
+            "type": "id_card",
+            "title": "IMEI",
+            "name": "Your phone",
+            "sub": "its own ID number"
+          },
+          "kind": "point",
+          "screen": "Your phone shows its IMEI.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "It is a 15 digit number.",
+          "voice": "It is a fifteen digit number.",
+          "accent": [
+            "15 digit"
+          ],
+          "tag": "phone trick",
+          "meter": {
+            "label": "DIGITS",
+            "value": "15"
+          },
+          "scene": {
+            "type": "counter",
+            "value": 15,
+            "label": "digits",
+            "badge": "IMEI"
+          },
+          "kind": "point",
+          "screen": "It is a 15 digit number.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Save it somewhere safe.",
+          "voice": "Save it somewhere safe.",
+          "accent": [
+            "safe"
+          ],
+          "tag": "phone trick",
+          "meter": null,
+          "scene": {
+            "type": "checklist",
+            "title": "Keep a note",
+            "items": [
+              "Take a screenshot",
+              "Write it down"
+            ]
+          },
+          "kind": "point",
+          "screen": "Save it somewhere safe.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "If your phone is lost, police ask for it.",
+          "voice": "If your phone is lost... police ask for it.",
+          "accent": [
+            "lost"
+          ],
+          "tag": "phone trick",
+          "meter": null,
+          "scene": {
+            "type": "warning",
+            "text": "Phone lost? Keep the IMEI ready"
+          },
+          "kind": "point",
+          "screen": "If your phone is lost, police ask for it.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Forms ask for exact numbers too, like 50 KB.",
+          "voice": "Forms ask for exact numbers too, like fifty K B.",
+          "accent": [
+            "50 KB"
+          ],
+          "tag": "exact limits",
+          "meter": {
+            "label": "LIMIT",
+            "value": "50 KB"
+          },
+          "scene": {
+            "type": "phone_upload",
+            "state": "error",
+            "file": "photo.jpg",
+            "size": "180 KB",
+            "text": "Max 50 KB",
+            "title": "Upload failed"
+          },
+          "kind": "point",
+          "screen": "Forms ask for exact numbers too, like 50 KB.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "ilovedocuments.ai has Resize Image in KB, free.",
+          "voice": "I love documents dot A I has Resize Image in K B... free.",
+          "accent": [
+            "Resize Image in KB"
+          ],
+          "tag": "free tool",
+          "meter": null,
+          "scene": {
+            "type": "browser",
+            "url": "ilovedocuments.ai",
+            "button": "Resize Image in KB"
+          },
+          "kind": "point",
+          "screen": "ilovedocuments.ai has Resize Image in KB, free.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Save this reel.",
+          "voice": "Save this reel.",
+          "accent": [
+            "Save"
+          ],
+          "tag": "save it",
+          "meter": null,
+          "scene": {
+            "type": "cta",
+            "keyword": "SAVE",
+            "line": "// star hash 06 hash"
+          },
+          "kind": "cta",
+          "screen": "Save this reel.",
+          "emphasis": [],
+          "visual": null
+        }
+      ],
+      "caption": "Your phone has a 15 digit ID that most people never check. Dial *#06# and note it down today.\nDid you already know this trick? Tell us below.\nNeed an exact KB size for a form photo? ilovedocuments.ai",
+      "hashtags": [
+        "#phonetricks",
+        "#techtips",
+        "#india",
+        "#students",
+        "#ilovedocuments"
+      ]
+    },
+    "caption": "Your phone has a 15 digit ID that most people never check. Dial *#06# and note it down today.\nDid you already know this trick? Tell us below.\nNeed an exact KB size for a form photo? ilovedocuments.ai\n\n#phonetricks #techtips #india #students #ilovedocuments",
+    "video": "20261118-190524-english.mp4",
+    "dry_run": true
   }
 ]

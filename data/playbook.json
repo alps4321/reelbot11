@@ -21,24 +21,25 @@
     ]
   },
   "english": {
-    "measured": 0,
-    "updated": "2026-11-17",
-    "source": "the first six reels posted by hand, read from Instagram insights",
+    "measured": 5,
+    "updated": "2026-11-18T19:05:09+00:00",
     "keep": [
-      "A question nearly everyone has asked themselves, with the answer held back: the Aadhaar PDF password reel got 1,900 views, 22 saves, 8 shares and 3 follows in a few hours, more than all other reels together",
-      "Opening on a character in a situation (night desk scene) with a curiosity question: skip rate 37-39%, better than typical",
-      "Everyday documents every Indian adult handles (Aadhaar, PAN, passport photo, bank statement) travel further than narrow exam-form problems",
-      "Useful how-to content people want to keep: save rates above typical"
+      "Hooks that tell the viewer what they get for free or on the site (the two top reels average 8-9s watched, versus 1.7-7s for the others). This is based on only two reels and is not proven.",
+      "Keep reels very short or simple. The top two had the longest average watch time (8.1s and 9.4s) even though they have no real hook style.",
+      "Use a hashtag or community-style opener (#ilovedocuments). It earned 18 shares from 198 reach, the most shares of any reel.",
+      "Point viewers to the website or to multiple tools. The 'check our website' reel had the highest reach (298) and the only like and save combination among the top reels.",
+      "Show a concrete problem a viewer might have (4 photos into one PDF). It held attention better (7.0s) than the cheat sheet (4.0s), though it got no engagement."
     ],
     "avoid": [
-      "Opening on an error card or a product-style headline: skip rate jumped to 57%",
-      "Reels over about 25 seconds: average watch time is only 8-9 seconds",
-      "Flat, rushed narration with no pauses"
+      "Broad promise hooks with emoji and no specific problem ('Any PDF or photo job – one free website 👇'). It had the lowest average watch time (1.7s) and almost no engagement.",
+      "Long reels (31-32s) with scripted formats (secret_answer, cheat_sheet). Both had low average watch (4-7s, a small fraction of the length) and zero likes or comments on the question reel.",
+      "Bold or negative claims about paying a cyber cafe. It got 146 views, 1 like and 2 saves, and viewers watched only 4s on average.",
+      "Anything that gets zero shares and zero comments. Three of the five reels had no shares and no comments, so none of the formats are producing conversation yet."
     ],
     "next_tests": [
-      "A different tool every post in week 1",
-      "Answer revealed in the last third",
-      "Ending on a line worth sending to a friend, to lift shares"
+      "Make the same 'How do you send 4 photos as one PDF?' question reel at about 10-15s instead of 31s, and compare average watch time with the 31s version (7.0s).",
+      "Re-post the 'check our website, multiple tools' message with a specific tool named in the first 2 seconds (for example merge PDF). Check whether reach stays near 300 and whether average watch stays above 8s.",
+      "Test a hashtag or community opener (like #ilovedocuments) on a specific-problem reel such as jpg_to_pdf. The goal is to see whether the shares (18) come from the opener or from the topic."
     ]
   }
 }

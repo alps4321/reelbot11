@@ -95,6 +95,10 @@ content:
     - {id: resize_photo_kb, tool: "Resize Photo to 20-50 KB", title: "Resize an exam or passport photo to 20-50 KB", searches: 590}
     - {id: ocr_pdf, tool: "OCR PDF", title: "Copy text out of a scanned PDF in Hindi, Gujarati or English", searches: 20}
   hook_styles: [question, bold_claim, story_open, contrarian, number, problem, how_to]
+  # How far an explainer reel may wander from its tool before the plug at the end. Tested like hooks.
+  distances:
+    far: "The main story is NOT about files, PDFs or photos at all: pick something this audience cares about (a phone trick, an exam or interview habit, a scam to avoid, a money or career lesson, a surprising fact about something they use every day). Only the last one or two sentences bridge to the tool, with a natural link (\"and when the form asks for...\")."
+    near: "The story stays in the tool's world (forms, documents, photos, uploads), but it is a fact, a story or a lesson worth watching on its own, not a demo of the tool."
   # Story structures for explainer reels. Tested and scored like hooks; never the same one twice in a day.
   explainer_formats:
     discovery: "A find: a free trick, setting or way of doing something most people don't know. What it does, why it matters, then the plug."

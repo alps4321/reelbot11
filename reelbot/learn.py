@@ -9,7 +9,7 @@ from collections import defaultdict
 
 from . import claude, store
 
-ARMS = ("topic", "hook_style", "format", "pace")
+ARMS = ("topic", "hook_style", "format", "pace", "distance")
 PACES = ["natural", "brisk", "calm"]          # tested in this order; see voice.PACES
 
 
@@ -129,7 +129,10 @@ def next_plan(cfg, lang, slot=0, today=None):
 
     mine = live(of_language(lang))
     picks, why = {}, []
-    for key, options in (("hook_style", c["hook_styles"]), ("format", formats(cfg)), ("pace", PACES)):
+    arms = [("hook_style", c["hook_styles"]), ("format", formats(cfg)), ("pace", PACES)]
+    if c.get("style") == "explainer" and c.get("distances"):
+        arms.append(("distance", list(c["distances"])))
+    for key, options in arms:
         avoid = used_today(key) if key in ("hook_style", "format") else ()
         picks[key], w = choose(options, arm_stats(mine, key), rate, avoid=avoid, waiting=pending(mine, key))
         why.append(f"{key.replace('_', ' ')}: {w}")

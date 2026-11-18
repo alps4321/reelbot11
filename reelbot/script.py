@@ -149,9 +149,10 @@ phones and everyday digital life. It does NOT have to be about the tool: go off 
 Only the LAST one or two sentences bring in ilovedocuments.ai, as the natural next step from the story.
 
 The tool to plug at the very end: {topic}
+How far to wander: {distance}
 Story structure for this reel: {format} - {format_help}
 Hook style: {hook_style}
-{idea}Length: 20-28 seconds spoken, about 60-80 words, 7 to 10 sentences.
+{idea}Length: 20-27 seconds spoken: 55 to 75 words in total, 7 to 10 sentences. Short beats long.
 
 Make it feel nothing like our recent reels. These are their openings, structures and drawings; do not reuse their
 hooks, their order of ideas or their set of drawings:
@@ -357,6 +358,9 @@ def validate(cfg, s, lang):
         long = [sc["say"] for sc in scenes if len(sc["say"].split()) > 16]
         if long:
             raise ScriptError(f"sentences too long for the headline (max 12 words): {long[0]}")
+        n_words = sum(len(sc["say"].split()) for sc in scenes)
+        if n_words > 82:
+            raise ScriptError(f"{n_words} words is too long: keep it to 55-75 words (about 25 seconds)")
         early = [sc["say"] for sc in scenes[:-2] if "ilovedocuments" in sc["say"].lower().replace(" ", "")]
         if early:
             raise ScriptError(f"the site may only come in the last two sentences, not: {early[0]}")
@@ -522,6 +526,7 @@ def write(cfg, plan, playbook):
         topic=topic_title, format=plan["format"],
         format_help=format_help(plan["format"], cfg), idea=idea_text(plan.get("idea"), lang),
         recent_reels=recent_reels(),
+        distance=c.get("distances", {}).get(plan.get("distance"), "either, whichever makes the better story"),
         hook_style=plan["hook_style"], lo=lo, hi=hi, wlo=int(lo * 2.0), whi=int(hi * 2.0),   # the narrator pauses, so fewer words fit
         research="\n".join(x for x in (scout.digest(), research.digest()) if x) or "(no research data yet)",
         keep=playbook.get("keep") or "nothing proven yet",

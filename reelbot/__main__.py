@@ -12,8 +12,12 @@ def main():
     ig = Instagram(cfg)
     if cmd in ("watch", "scout", "digest", "alert"):  # light jobs: they do not load the video tools
         if cmd == "watch":
-            from . import watch
-            watch.run(cfg, ig)
+            from . import due, watch
+            try:
+                watch.run(cfg, ig)
+            finally:                # then start anything GitHub's timer failed to start
+                if "--no-due" not in sys.argv and os.environ.get("GITHUB_ACTIONS") == "true":
+                    due.run(cfg)
         elif cmd == "scout":
             from . import scout
             scout.run(cfg, ig, probe="--probe" in sys.argv)

@@ -130,7 +130,8 @@ def next_plan(cfg, lang, slot=0, today=None):
     mine = live(of_language(lang))
     picks, why = {}, []
     for key, options in (("hook_style", c["hook_styles"]), ("format", formats(cfg)), ("pace", PACES)):
-        picks[key], w = choose(options, arm_stats(mine, key), rate, waiting=pending(mine, key))
+        avoid = used_today(key) if key in ("hook_style", "format") else ()
+        picks[key], w = choose(options, arm_stats(mine, key), rate, avoid=avoid, waiting=pending(mine, key))
         why.append(f"{key.replace('_', ' ')}: {w}")
     idea = pick_idea(topic)
     return {"language": lang, "topic": topic, **picks, "idea": idea,
@@ -138,9 +139,19 @@ def next_plan(cfg, lang, slot=0, today=None):
 
 
 def formats(cfg):
-    """Our story formats plus the ones the scout learned from other creators' reels."""
+    """The story structures to test: for explainer reels their own list, otherwise our story formats;
+    plus the ones the scout learned from other creators' reels."""
+    c = cfg["content"]
+    if c.get("style") == "explainer":      # its own eight structures (the scout's ideas still reach the writer)
+        return list(c.get("explainer_formats", {}))
     learned = list(store.read("formats", {}).get("learned", {}))
-    return list(dict.fromkeys(cfg["content"]["formats"] + learned))
+    return list(dict.fromkeys(c["formats"] + learned))
+
+
+def used_today(key):
+    """Values of `key` (format, hook_style) already used today in any language, so the day's reels differ."""
+    today = store.today()
+    return {p.get(key) for p in live(store.posts()) if store.local_date(p["posted_at"]) == today and p.get(key)}
 
 
 def pick_idea(topic):

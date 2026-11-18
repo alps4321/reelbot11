@@ -14,8 +14,6 @@ def make(cfg, plan, playbook=None):
     """Build one reel on disk. Returns the post record (not yet published)."""
     lang = next(l for l in cfg["content"]["languages"] if l["id"] == plan["language"])
     style = cfg["content"].get("style")
-    if style == "explainer":       # the explainer has its own structure; record it as its own format
-        plan = {**plan, "format": "explainer"}
     s = script.write(cfg, plan, playbook or {})
     rid = f"{store.now().strftime('%Y%m%d-%H%M%S')}-{lang['id']}"
     work = OUT / f"{rid}-work"
@@ -132,7 +130,9 @@ def run(cfg):
         print(f"the {target:%H:%M} reel is already live ({done} posted today): nothing to do")   # e.g. a backup run
         analyze.report(cfg)
         return
-    slot = min(done, len(slots) - 1)
+    at = f"{target:%H:%M}" if target else ""
+    # each time keeps its language (11:00 Hinglish, 1:00 pm English, 7:00 pm Hinglish), even after a missed slot
+    slot = times.index(at) if at in times and times.index(at) < len(slots) else min(done, len(slots) - 1)
     lang = slots[slot]
     failures = []
     try:

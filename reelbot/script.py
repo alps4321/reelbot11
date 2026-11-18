@@ -140,77 +140,89 @@ Return:
   "label": null, "set": "night", "camera": "push_in", "actors": [{{"color": "orange", "pose": "type"}}], "props": []}}],
  "caption": "...", "hashtags": ["#..."]}}"""
 
-EXPLAINER_PROMPT = """Write one reel as a flat, hand-drawn animated explainer (cream paper, coral and black drawings).
-Every sentence is one shot: the sentence builds on screen word by word as a big headline while a drawing
-animates under it. It must feel like a smart friend telling you about a find: confident, quick, concrete.
+EXPLAINER_PROMPT = """Write one reel in our flat, hand-drawn animated explainer style: every sentence builds on screen word
+by word as a big headline while a drawing animates under it.
 
-Topic: {topic}
+THE MOST IMPORTANT RULE: the reel must be worth watching even if our website did not exist. It is about something
+genuinely interesting, useful or surprising for young people in India who deal with exams, jobs, forms, documents,
+phones and everyday digital life. It does NOT have to be about the tool: go off track if the story is better there.
+Only the LAST one or two sentences bring in ilovedocuments.ai, as the natural next step from the story.
+
+The tool to plug at the very end: {topic}
+Story structure for this reel: {format} - {format_help}
 Hook style: {hook_style}
-{idea}Spoken length: 22-28 seconds, about 65-85 spoken words in total, 8 or 9 shots.
+{idea}Length: 20-28 seconds spoken, about 60-80 words, 7 to 10 sentences.
 
-What is working for other creators in this niche right now (studied by our scout; learn the pattern,
-never copy their words):
+Make it feel nothing like our recent reels. These are their openings, structures and drawings; do not reuse their
+hooks, their order of ideas or their set of drawings:
+{recent_reels}
+
+What is working for other creators in this niche right now (learn the pattern, never copy their words):
 {research}
 
 What our own results have taught us so far:
 keep: {keep}
 avoid: {avoid}
 
-Hooks we used recently (do not repeat them): {recent}
-
-The structure (it comes from a reel that performed very well; follow it):
-1. HOOK (shot 1, kind "hook"): one bold, specific line that makes the viewer stay. A surprising claim or the exact
-   pain ("Your form just rejected a 2 MB PDF?"). No greeting, no brand name yet.
-2. REVEAL (shot 2): name the fix: the site ilovedocuments.ai and the tool.
-3. PROOF NUMBER (shot 3): one concrete true number ("45 free tools. No sign-up.").
-4. BREAKDOWN (2-3 shots): exactly what happens for THIS topic, with real-looking details (file names, sizes, steps).
-5. TRUST (1 shot): why it is safe or easy (it runs in your browser, files are not uploaded, works on the phone).
-6. PAYOFF (1 shot, the second-to-last): an identity line that makes the viewer feel powerful
-   ("You just became your own cyber cafe."). Use the "spotlight" scene.
-7. CTA (last shot, kind "cta"): tell them to save it for their next form. Never ask them to comment for a link or a DM:
-   we cannot send links. Use the "cta" scene.
-
-Writing rules:
-- Each "say" is one spoken sentence of 4 to 12 words. Short words. Contractions. Speak like a person, not an ad.
-- Numbers as digits in "say". Never state another business's price as a fact.
-- "accent": 1 or 2 words copied exactly from "say" (with their punctuation) that carry the meaning; they are shown in
-  coral italic. Numbers are highlighted automatically.
-- "tag": a 1-3 word lowercase section label shown at the top left (like "upload error", "the fix", "how").
-- "meter": optional small counter shown at the top right, e.g. {{"label": "SIZE", "value": "180 KB"}} or {{"label": "PRICE", "value": "Rs 0"}}.
+How to write it:
+- Sentence 1 is the hook: a line someone would stop scrolling for. Specific, a little surprising, never an advert,
+  never "Your form got rejected?" again. No brand name in the first sentences.
+- Then give real value: the fact, the story, the tips, the comparison. Concrete details beat general claims.
+- Vary the rhythm: some very short sentences ("Three seconds."), some longer. Each "say" is 2 to 12 words.
+- The plug (last one or two sentences) mentions ilovedocuments.ai and the tool in one natural line, then asks
+  them to save the reel. Never ask for a comment to get a link or a DM: we cannot send links.
+- Honesty: only true, widely known facts. Never invent statistics, news events, quotes, government rules, dates,
+  deadlines or prices. If you are not sure something is true, do not say it. A story about a person is fine when
+  it is clearly a story (a first name, everyday detail), never presented as news.
+- Numbers as digits in "say".
+- "accent": 1 or 2 words copied exactly from "say" that carry the meaning (shown in coral italic).
+- "tag": a 1-3 word lowercase label shown at the top left. "meter": optional small counter at the top right,
+  e.g. {{"label": "SIZE", "value": "48 KB"}}.
 - "voice": the narration as it is pronounced. {voice_rule} Put "..." where the speaker pauses for effect (at most
-  one per shot; use it after the hook and right before the payoff). The voice engine stumbles on some words: write
-  "water mark" and "sign up" as two words, and keep brand and tool names simple.
+  one per sentence). The voice engine stumbles on some words: write "water mark" and "sign up" as two words.
 - "say": the same line in Roman letters for the headline (ilovedocuments.ai written like that).
-- "scene": one drawing per shot, from this list (use at least 6 different ones; params in brackets):
-  phone_upload {{"state": "error"|"success", "file": "marksheet.pdf", "size": "2.4 MB", "text": "File too large. Max 200 KB", "title": "Exam form"}}
-  file_shrink {{"file": "resume.pdf", "from": "2.4 MB", "to": "180 KB"}}
-  stamp {{"word": "FREE", "on": "big text on the card", "label": "small label", "sub": "optional line"}}
-  counter {{"value": 45, "label": "free tools", "badge": "NO SIGN-UP"}}
-  tool_grid {{"highlight": "the tool name", "count": 45}}
-  steps {{"items": ["Upload", "Pick 200 KB", "Download"]}}   (2 or 3 items, 1-2 words each)
-  browser {{"url": "ilovedocuments.ai", "button": "the tool name"}}
-  before_after {{"before": "2.4 MB", "after": "180 KB", "before_label": "REJECTED", "after_label": "ACCEPTED"}}
-  cyber_cafe {{"price": "Paid", "text": "per page", "free": "FREE"}}
-  privacy {{"text": "Never uploaded"}}
-  deadline {{"time": "11:59 PM", "text": "TODAY"}}
-  id_card {{"title": "Exam form", "name": "Riya Sharma", "sub": "photo 35 x 45 mm"}}
-  split_flap {{"word": "ILOVEDOCS", "sub": "ilovedocuments.ai"}}   (word max 12 letters)
-  convert {{"from": "PDF", "to": "WORD", "text": "Fully editable"}}
-  photo_cutout {{"text": "Background removed"}}
-  spotlight {{"title": "2-12 letters, the identity, e.g. CYBER CAFE"}}
-  cta {{"keyword": "SAVE", "line": "// free · no sign-up · no watermark"}}
+- "scene": one drawing per sentence that SHOWS what is being said. Use at least 5 different ones, and pick the ones
+  that fit this story, not the usual set. Params in brackets:
+  General: news {{"source": "short masthead", "headline": "a general truth as a headline, never a made-up event", "tag": "TRUE"}}
+    chat {{"name": "Rahul", "messages": [{{"from": "them"|"me", "text": "short"}}]}} (2-4 messages)
+    search {{"query": "what people type", "results": ["result 1", "result 2"]}}
+    chart {{"label": "what is measured", "direction": "up"|"down", "value": "short label"}}
+    checklist {{"title": "short", "items": ["2-4 short items"]}}
+    versus {{"left": "Option A", "right": "Option B", "left_sub": "short", "right_sub": "short", "winner": "left"|"right"}}
+    big_text {{"text": "2-3 WORDS", "sub": "short line"}}
+    person {{"name": "Priya", "role": "short", "quote": "short line she says"}}
+    timeline {{"items": [{{"time": "1993", "text": "short"}}]}} (2-4 items, true dates only)
+    bulb {{"text": "the idea in a few words"}}
+    money {{"amount": "Rs 0", "crossed": true|false, "text": "short"}}
+    notification {{"time": "11:58", "day": "short", "app": "short", "title": "short", "text": "short"}}
+    warning {{"text": "short"}}
+    stamp {{"word": "FREE", "on": "big text on the card", "label": "small label"}}
+    counter {{"value": 3, "label": "short", "badge": "SHORT"}}
+    deadline {{"time": "11:59 PM", "text": "TODAY"}}
+    steps {{"items": ["2-3 one-word steps"]}}
+    spotlight {{"title": "2-12 letters"}} (a dark, dramatic moment; only when the story has one)
+  Documents: phone_upload {{"state": "error"|"success", "file": "photo.jpg", "size": "1.8 MB", "text": "short", "title": "short"}}
+    file_shrink {{"file": "resume.pdf", "from": "2.4 MB", "to": "180 KB"}}
+    before_after {{"before": "2.4 MB", "after": "180 KB", "before_label": "REJECTED", "after_label": "ACCEPTED"}}
+    convert {{"from": "PDF", "to": "WORD", "text": "short"}}   photo_cutout {{"text": "short"}}
+    id_card {{"title": "short", "name": "Riya Sharma", "sub": "short"}}   privacy {{"text": "short"}}
+    cyber_cafe {{"price": "Paid", "text": "short", "free": "FREE"}}
+  The plug: browser {{"url": "ilovedocuments.ai", "button": "the tool name"}}   tool_grid {{"highlight": "the tool name", "count": 45}}
+    split_flap {{"word": "ILOVEDOCS", "sub": "ilovedocuments.ai"}}
+  Last sentence always: cta {{"keyword": "SAVE", "line": "// short line"}}
 
-Caption: 2-3 short lines in the same language as the reel, a question that invites a comment, then the site.
-At most {max_tags} hashtags.
+Caption: 2-3 short lines in the same language as the reel that continue the story (not an advert), a question that
+invites a comment, then the site. At most {max_tags} hashtags.
 
 Return:
-{{"title": "...", "scenes": [{{"kind": "hook", "say": "...", "voice": "...", "accent": ["..."], "tag": "...",
-  "meter": {{"label": "...", "value": "..."}}, "scene": {{"type": "phone_upload", "state": "error", "file": "...", "size": "...", "text": "..."}}}}],
+{{"title": "...", "scenes": [{{"say": "...", "voice": "...", "accent": ["..."], "tag": "...",
+  "meter": null, "scene": {{"type": "...", "...": "..."}}}}],
  "caption": "...", "hashtags": ["#..."]}}"""
 
 EXPLAINER_SCENES = {"phone_upload", "file_shrink", "stamp", "counter", "tool_grid", "steps", "browser", "before_after",
                     "cyber_cafe", "privacy", "deadline", "id_card", "split_flap", "convert", "photo_cutout",
-                    "spotlight", "cta"}
+                    "spotlight", "cta", "news", "chat", "search", "chart", "checklist", "versus", "big_text",
+                    "person", "timeline", "bulb", "money", "notification", "warning"}
 
 
 def _clean_explainer(sc, last):
@@ -341,10 +353,15 @@ def validate(cfg, s, lang):
     if explainer:
         kinds = {sc["scene"]["type"] for sc in scenes}
         if len(kinds) < 5:
-            raise ScriptError(f"use at least 6 different scenes, got {sorted(kinds)}")
+            raise ScriptError(f"use at least 5 different scenes, got {sorted(kinds)}")
         long = [sc["say"] for sc in scenes if len(sc["say"].split()) > 16]
         if long:
             raise ScriptError(f"sentences too long for the headline (max 12 words): {long[0]}")
+        early = [sc["say"] for sc in scenes[:-2] if "ilovedocuments" in sc["say"].lower().replace(" ", "")]
+        if early:
+            raise ScriptError(f"the site may only come in the last two sentences, not: {early[0]}")
+        if not any("ilovedocuments" in sc["say"].lower().replace(" ", "") for sc in scenes[-2:]):
+            raise ScriptError("the last two sentences must name ilovedocuments.ai")
     words = sum(len(sc["say"].split()) for sc in scenes)
     if not 30 <= words <= 150:
         raise ScriptError(f"voiceover is {words} words, outside 30-150")
@@ -450,10 +467,22 @@ def _offline_story(cfg, topic_title, lang):
                        + cfg["brand"]["url"], "hashtags": cfg["content"]["hashtags"]}
 
 
-def format_help(name):
+def format_help(name, cfg=None):
     learned = {k: v["description"] + (f' A hook that worked in this format: "{v["hook_pattern"]}".' if v.get("hook_pattern") else "")
                for k, v in store.read("formats", {}).get("learned", {}).items()}
-    return {**FORMATS, **STORY_FORMATS, **learned}.get(name, "")
+    ours = (cfg or {}).get("content", {}).get("explainer_formats", {})
+    return {**FORMATS, **STORY_FORMATS, **learned, **ours}.get(name, "")
+
+
+def recent_reels(n=6):
+    """Openings, structures and drawings of our latest reels, so the next one can be different."""
+    out = []
+    from .learn import live
+    for p in live(store.posts())[-n:]:
+        scenes = (p.get("script") or {}).get("scenes") or []
+        kinds = [(sc.get("scene") or {}).get("type", "") for sc in scenes]
+        out.append(f'- "{p.get("hook", "")}" ({p.get("format", "")}; drawings: {", ".join(k for k in kinds if k) or "3D story"})')
+    return "\n".join(out) or "(none yet)"
 
 
 def idea_text(idea, lang):
@@ -491,7 +520,8 @@ def write(cfg, plan, playbook):
                            facts="; ".join(c["facts"]), write_in=lang["write_in"].strip())
     prompt = (EXPLAINER_PROMPT if explainer else STORY_PROMPT if story else PROMPT).format(
         topic=topic_title, format=plan["format"],
-        format_help=format_help(plan["format"]), idea=idea_text(plan.get("idea"), lang),
+        format_help=format_help(plan["format"], cfg), idea=idea_text(plan.get("idea"), lang),
+        recent_reels=recent_reels(),
         hook_style=plan["hook_style"], lo=lo, hi=hi, wlo=int(lo * 2.0), whi=int(hi * 2.0),   # the narrator pauses, so fewer words fit
         research="\n".join(x for x in (scout.digest(), research.digest()) if x) or "(no research data yet)",
         keep=playbook.get("keep") or "nothing proven yet",

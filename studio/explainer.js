@@ -550,6 +550,246 @@ S.photo_cutout = {
     at(540, 1520, pop(t, 1.2), -0.03, () => pill(0, 0, p.text || "Background removed", { fill: C.ink, size: 40 }));
   },
 };
+// ---------- general scenes, for stories that are not about a document ----------
+function wrapLines(s, maxW, size, weight = 600, family = SANS) {
+  font(size, weight, family); const out = []; let cur = "";
+  for (const w of String(s).split(/\s+/)) { const t = cur ? cur + " " + w : w; if (ctx.measureText(t).width > maxW && cur) { out.push(cur); cur = w; } else cur = t; }
+  if (cur) out.push(cur); return out;
+}
+function para(s, x, y, maxW, size, o = {}) {
+  const lines = wrapLines(s, maxW, size, o.weight || 600, o.family || SANS).slice(0, o.max || 4);
+  lines.forEach((l, i) => txt(l, x, y + i * size * 1.22, { size, weight: o.weight || 600, family: o.family || SANS, color: o.color || C.ink, align: o.align || "left", style: o.style || "" }));
+  return lines.length;
+}
+S.news = {
+  hits: p => [0.5],
+  draw(t, p) {
+    at(540, 1060, pop(t, 0), -0.03, () => {
+      card(-420, -360, 840, 720, { r: 18 });
+      rr(-420, -360, 840, 110, [18, 18, 0, 0]); ctx.fillStyle = C.ink; ctx.fill();
+      txt((p.source || "THE DAILY NEWS").toUpperCase(), 0, -300, { size: fitSize((p.source || "THE DAILY NEWS").toUpperCase(), 700, 46, 700, SERIF), family: SERIF, weight: 400, color: C.white, align: "center", base: "middle" });
+      mono(p.date || "today", -370, -200, { size: 24 });
+      const h = p.headline || "A free tool everyone should know about";
+      para(h, -370, -120, 740, 56, { weight: 700, max: 4 });
+      for (let k = 0; k < 4; k++) line(-370, 170 + k * 42, 370 - (k % 2) * 160, 170 + k * 42, 9, C.light);
+    });
+    at(760, 650, pop(t, 0.5), 0.12, () => pill(0, 0, (p.tag || "NEW").toUpperCase(), { fill: C.coral, size: 44 }));
+  },
+};
+S.chat = {
+  hits: p => (p.messages || []).slice(0, 4).map((_, i) => 0.25 + i * 0.55),
+  draw(t, p) {
+    const msgs = (p.messages || [{ from: "them", text: "Bro, form reject ho gaya" }, { from: "me", text: "Size kitna hai?" }]).slice(0, 4);
+    at(540, 1110, pop(t, 0), 0, () => phone(500, 900, (sw, sh) => {
+      rr(0, 0, sw, 130, 0); ctx.fillStyle = C.light; ctx.fill(); line(0, 130, sw, 130, 4);
+      avatar(80, 80, 34, p.look || 2);
+      txt(p.name || "Rahul", 135, 92, { size: 34, weight: 700 });
+      let y = 190;
+      msgs.forEach((m, i) => {
+        const a = 0.25 + i * 0.55; if (t < a) return;
+        const me = m.from === "me", lines = wrapLines(m.text, sw * 0.62, 32, 500).slice(0, 3);
+        font(32, 500); const bw = Math.max(...lines.map(l => ctx.measureText(l).width)) + 50, bh = lines.length * 40 + 34;
+        const x = me ? sw - 30 - bw : 30, s = pop(t, a, 0.25);
+        at(x + bw / 2, y + bh / 2, s, 0, () => {
+          card(-bw / 2, -bh / 2, bw, bh, { r: 24, fill: me ? C.coral : C.white, shadow: 5, lw: 4 });
+          lines.forEach((l, k) => txt(l, -bw / 2 + 25, -bh / 2 + 44 + k * 40, { size: 32, weight: 500, color: me ? C.white : C.ink }));
+        });
+        y += bh + 26;
+      });
+    }));
+  },
+};
+S.search = {
+  hits: p => [1.0],
+  draw(t, p) {
+    const q = p.query || "how to resize photo to 50 kb";
+    at(540, 760, pop(t, 0), 0, () => {
+      card(-450, -70, 900, 140, { r: 70 });
+      circle(-370, -6, 26, null, C.ink, 7); line(-352, 14, -330, 36, 8);
+      const n = Math.floor(q.length * prog(t, 0.15, 0.75)), s = q.slice(0, n) + (n < q.length && Math.floor(t * 5) % 2 ? "|" : "");
+      txt(s, -310, 12, { size: fitSize(q, 720, 44, 500), weight: 500 });
+    });
+    const res = (p.results || [p.result || "Top result"]).slice(0, 3);
+    res.forEach((r, i) => at(540, 1010 + i * 210, pop(t, 1.0 + i * 0.15), 0, () => {
+      card(-450, -85, 900, 170, { r: 22, fill: i === 0 ? C.white : C.cream, shadow: i === 0 ? 10 : 6 });
+      mono(i === 0 ? "// top result" : "// result", -400, -30, { size: 22, color: i === 0 ? C.coral : C.gray, weight: 700 });
+      txt(r, -400, 30, { size: fitSize(r, 800, 40, 700), weight: 700 });
+    }));
+  },
+};
+C.cream = "#FBF8F4";
+S.chart = {
+  hits: p => [1.2],
+  draw(t, p) {
+    const up = p.direction !== "down", u = eOut(prog(t, 0.2, 1.0));
+    at(540, 1080, pop(t, 0), 0, () => {
+      card(-430, -380, 860, 760, { r: 26 });
+      mono("// " + (p.label || "trend"), -370, -310, { size: 26 });
+      for (let k = 0; k < 4; k++) line(-370, -200 + k * 130, 370, -200 + k * 130, 3, C.light);
+      const pts = up ? [[-370, 250], [-250, 200], [-130, 220], [-10, 120], [110, 140], [230, 10], [370, -200]] : [[-370, -200], [-250, -120], [-130, -150], [-10, 0], [110, -20], [230, 120], [370, 250]];
+      ctx.beginPath(); let last = pts[0];
+      ctx.moveTo(...pts[0]);
+      const total = pts.length - 1, reach = u * total;
+      for (let i = 1; i <= total; i++) { const f = clamp(reach - (i - 1)); if (f <= 0) break; const [x0, y0] = pts[i - 1], [x1, y1] = pts[i]; last = [x0 + (x1 - x0) * f, y0 + (y1 - y0) * f]; ctx.lineTo(...last); }
+      ctx.lineWidth = 12; ctx.strokeStyle = C.coral; ctx.lineJoin = "round"; ctx.lineCap = "round"; ctx.stroke();
+      circle(last[0], last[1], 18, C.white, C.ink, 6);
+    });
+    if (p.value) at(800, 640, pop(t, 1.2), 0.08, () => pill(0, 0, p.value, { fill: C.ink, size: 54 }));
+  },
+};
+S.checklist = {
+  hits: p => (p.items || []).slice(0, 4).map((_, i) => 0.35 + i * 0.45),
+  draw(t, p) {
+    const items = (p.items || ["Photo under 50 KB", "Signature under 20 KB", "PDF under 200 KB"]).slice(0, 4);
+    at(540, 1080, pop(t, 0), -0.02, () => {
+      const h = 160 + items.length * 150;
+      card(-420, -h / 2, 840, h, { r: 26 });
+      mono("// " + (p.title || "checklist"), -360, -h / 2 + 70, { size: 26 });
+      items.forEach((it, i) => {
+        const y = -h / 2 + 170 + i * 150, a = 0.35 + i * 0.45, done = t > a;
+        rr(-360, y - 40, 80, 80, 14); ctx.fillStyle = done ? C.coral : C.white; ctx.fill(); ctx.lineWidth = 5; ctx.strokeStyle = C.ink; ctx.stroke();
+        if (done) { const k = eOut(prog(t, a, 0.2)); ctx.beginPath(); ctx.moveTo(-342, y); ctx.lineTo(-324, y + 20 * k); ctx.lineTo(-324 + 44 * k, y - 22 * k); ctx.lineWidth = 9; ctx.strokeStyle = C.white; ctx.lineCap = "round"; ctx.stroke(); }
+        txt(it, -240, y + 14, { size: fitSize(it, 580, 46, 600), weight: 600, color: done ? C.ink : C.gray });
+      });
+    });
+  },
+};
+S.versus = {
+  hits: p => [0.9],
+  draw(t, p) {
+    const right = p.winner !== "left";
+    [["left", 285, -0.05, 0], ["right", 795, 0.05, 0.3]].forEach(([k, x, rot, a]) => {
+      const win = (k === "right") === right;
+      at(x, 1080, pop(t, a), rot, () => {
+        card(-220, -300, 440, 600, { r: 26, fill: win && t > 0.9 ? C.white : C.cream });
+        mono("// " + (p[k + "_label"] || (k === "left" ? "the old way" : "the smart way")), 0, -220, { size: 24, align: "center" });
+        const v = p[k] || (k === "left" ? "Cyber cafe" : "Your phone");
+        para(v, 0, -80, 380, fitSize(v, 380, 64), { weight: 700, align: "center", max: 3 });
+        if (p[k + "_sub"]) mono(p[k + "_sub"], 0, 200, { size: 26, align: "center", color: win ? C.coral : C.gray, weight: 700 });
+      });
+    });
+    at(540, 1080, pop(t, 0.6), 0, () => { circle(0, 0, 66, C.ink, C.ink, 4); txt("VS", 0, 4, { size: 54, weight: 700, color: C.white, align: "center", base: "middle" }); });
+    if (t > 0.9) at(right ? 795 : 285, 735, pop(t, 0.9), 0, () => {
+      ctx.beginPath(); ctx.moveTo(-90, 40); ctx.lineTo(-100, -40); ctx.lineTo(-45, 0); ctx.lineTo(0, -60); ctx.lineTo(45, 0); ctx.lineTo(100, -40); ctx.lineTo(90, 40); ctx.closePath();
+      ctx.fillStyle = C.gold; ctx.fill(); ctx.lineWidth = 6; ctx.strokeStyle = C.ink; ctx.stroke();
+    });
+  },
+};
+S.big_text = {
+  hits: p => [0.35],
+  draw(t, p) {
+    const s = String(p.text || "3 SECONDS").toUpperCase();
+    at(540, 1040, pop(t, 0.05, 0.4), -0.04, () => {
+      const size = fitSize(s, 900, 220);
+      txt(s, 0, 0, { size, weight: 700, color: C.coral, align: "center", base: "middle" });
+      font(size, 700); const w = ctx.measureText(s).width, u = eOut(prog(t, 0.35, 0.35));
+      ctx.beginPath(); for (let x = 0; x <= w * u; x += 20) ctx.lineTo(-w / 2 + x, size * 0.62 + Math.sin(x / 26) * 10); ctx.lineWidth = 10; ctx.strokeStyle = C.ink; ctx.lineCap = "round"; ctx.stroke();
+    });
+    if (p.sub) at(540, 1330, pop(t, 0.6), 0, () => mono(String(p.sub).toUpperCase(), 0, 0, { size: 36, color: C.ink, align: "center", weight: 700, ls: 4 }));
+  },
+};
+S.person = {
+  hits: p => [0.55],
+  draw(t, p) {
+    at(330, 1150, pop(t, 0), -0.03, () => {
+      card(-200, -260, 400, 520, { r: 26 });
+      avatar(0, -60, 130, p.look || 3);
+      txt(p.name || "Priya", 0, 140, { size: fitSize(p.name || "Priya", 340, 52), weight: 700, align: "center" });
+      mono("// " + (p.role || "student"), 0, 190, { size: 24, align: "center" });
+    });
+    if (p.quote) at(700, 760, pop(t, 0.55), 0.04, () => {
+      const lines = wrapLines(p.quote, 420, 40, 600).slice(0, 4), h = lines.length * 50 + 70;
+      card(-250, -h / 2, 500, h, { r: 30, fill: C.white });
+      ctx.beginPath(); ctx.moveTo(-160, h / 2 - 3); ctx.lineTo(-210, h / 2 + 70); ctx.lineTo(-100, h / 2 - 3); ctx.closePath(); ctx.fillStyle = C.white; ctx.fill(); ctx.lineWidth = 5; ctx.strokeStyle = C.ink; ctx.stroke();
+      rr(-163, h / 2 - 8, 60, 14, 0); ctx.fillStyle = C.white; ctx.fill();
+      lines.forEach((l, i) => txt(l, -210, -h / 2 + 62 + i * 50, { size: 40, weight: 600 }));
+    });
+  },
+};
+S.timeline = {
+  hits: p => (p.items || []).slice(0, 4).map((_, i) => 0.25 + i * 0.45),
+  draw(t, p) {
+    const items = (p.items || [{ time: "1993", text: "PDF is born" }, { time: "2008", text: "Free for everyone" }, { time: "Today", text: "Every form wants one" }]).slice(0, 4);
+    const top = 620, gap = Math.min(250, 900 / items.length);
+    line(230, top, 230, top + gap * (items.length - 1) * eOut(prog(t, 0.1, 0.4 + items.length * 0.45)), 7);
+    items.forEach((it, i) => {
+      const a = 0.25 + i * 0.45, y = top + i * gap, s = pop(t, a);
+      at(230, y, s, 0, () => circle(0, 0, 26, i === items.length - 1 ? C.coral : C.white, C.ink, 6));
+      at(300, y, s, 0, () => {
+        txt(String(it.time || ""), 0, -8, { size: 56, weight: 700, color: C.coral, family: SERIF, style: "italic" });
+        txt(String(it.text || ""), 0, 52, { size: fitSize(String(it.text || ""), 640, 44), weight: 600 });
+      });
+    });
+  },
+};
+S.bulb = {
+  hits: p => [0.5],
+  draw(t, p) {
+    const on = t > 0.5, u = eOut(prog(t, 0.5, 0.4));
+    if (on) for (let i = 0; i < 10; i++) { const a = -Math.PI / 2 + (i - 4.5) * 0.32, r1 = 250, r2 = 250 + 90 * u; line(540 + Math.cos(a) * r1, 980 + Math.sin(a) * r1, 540 + Math.cos(a) * r2, 980 + Math.sin(a) * r2, 9, C.coral); }
+    at(540, 1000, pop(t, 0), 0, () => {
+      if (on) { const g = ctx.createRadialGradient(0, -20, 20, 0, -20, 300); g.addColorStop(0, `rgba(232,182,76,${0.5 * u})`); g.addColorStop(1, "rgba(232,182,76,0)"); ctx.fillStyle = g; ctx.fillRect(-320, -340, 640, 640); }
+      ctx.beginPath(); ctx.arc(0, -40, 170, Math.PI * 0.78, Math.PI * 2.22); ctx.lineTo(70, 190); ctx.lineTo(-70, 190); ctx.closePath();
+      ctx.fillStyle = on ? "#FFE7A6" : C.white; ctx.fill(); ctx.lineWidth = 7; ctx.strokeStyle = C.ink; ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(-40, 160); ctx.lineTo(-40, 40); ctx.quadraticCurveTo(0, -10, 40, 40); ctx.lineTo(40, 160); ctx.lineWidth = 6; ctx.strokeStyle = on ? C.coral : C.gray; ctx.stroke();
+      for (let k = 0; k < 3; k++) { rr(-80, 195 + k * 36, 160, 30, 10); ctx.fillStyle = k % 2 ? C.gray : C.ink; ctx.fill(); }
+    });
+    if (p.text) at(540, 1480, pop(t, 0.8), -0.02, () => pill(0, 0, p.text, { fill: C.ink, size: 44 }));
+  },
+};
+S.money = {
+  hits: p => [0.8],
+  draw(t, p) {
+    const r = rng(5);
+    for (let i = 0; i < 6; i++) at(380 + i * 18, 1240 - i * 46, pop(t, 0.05 * i, 0.25), 0, () => {
+      ctx.beginPath(); ctx.ellipse(0, 0, 150, 46, 0, 0, Math.PI * 2); ctx.fillStyle = C.gold; ctx.fill(); ctx.lineWidth = 5; ctx.strokeStyle = C.ink; ctx.stroke();
+      ctx.beginPath(); ctx.ellipse(0, -6, 110, 28, 0, 0, Math.PI * 2); ctx.lineWidth = 3; ctx.stroke();
+    });
+    at(720, 900, pop(t, 0.3), 0.1, () => {
+      card(-200, -110, 400, 220, { r: 14, fill: "#CFE6C9" });
+      circle(0, 0, 62, null, C.ink, 4);
+      txt(p.symbol || "₹", 0, 6, { size: 70, weight: 700, align: "center", base: "middle" });
+    });
+    const amt = p.amount || "₹0";
+    at(540, 1480, pop(t, 0.8), -0.03, () => pill(0, 0, amt, { fill: p.crossed ? C.ink : C.coral, size: 70 }));
+    if (p.crossed && t > 0.95) { font(70, 700); const w = ctx.measureText(amt).width; line(540 - w / 2 - 20, 1480, 540 - w / 2 - 20 + (w + 40) * eOut(prog(t, 0.95, 0.2)), 1480, 10, C.coral); }
+    if (p.text) mono(p.text, 540, 1590, { size: 28, align: "center" });
+  },
+};
+S.notification = {
+  hits: p => [0.45],
+  draw(t, p) {
+    at(540, 1110, pop(t, 0), 0, () => phone(480, 880, (sw, sh) => {
+      ctx.fillStyle = "#2A2427"; ctx.fillRect(0, 0, sw, sh);
+      txt(p.time || "9:41", sw / 2, 230, { size: 120, weight: 600, color: "#F3EEE7", align: "center" });
+      mono(p.day || "Monday", sw / 2, 290, { size: 26, color: "#bdb3b6", align: "center" });
+      const y = 380 + (1 - eOut(prog(t, 0.45, 0.3))) * -200;
+      if (t > 0.45) {
+        ctx.globalAlpha = eOut(prog(t, 0.45, 0.2));
+        card(24, y, sw - 48, 200, { r: 30, fill: C.white, shadow: 0 });
+        rr(50, y + 30, 64, 64, 16); ctx.fillStyle = C.coral; ctx.fill();
+        mono((p.app || "MESSAGES").toUpperCase(), 130, y + 70, { size: 22, color: C.gray, weight: 700 });
+        txt(p.title || "Form update", 50, y + 135, { size: fitSize(p.title || "Form update", sw - 120, 36), weight: 700 });
+        txt(p.text || "Your application was rejected", 50, y + 178, { size: fitSize(p.text || "", sw - 120, 30, 500), weight: 500, color: C.gray });
+        ctx.globalAlpha = 1;
+      }
+    }));
+  },
+};
+S.warning = {
+  hits: p => [0.3],
+  draw(t, p) {
+    const sh = t > 0.3 && t < 0.7 ? Math.sin(t * 60) * 0.04 : 0;
+    at(540, 1000, pop(t, 0), sh, () => {
+      ctx.beginPath(); ctx.moveTo(0, -260); ctx.lineTo(280, 220); ctx.lineTo(-280, 220); ctx.closePath();
+      ctx.save(); ctx.translate(12, 12); ctx.fillStyle = DOTS; ctx.fill(); ctx.restore();
+      ctx.beginPath(); ctx.moveTo(0, -260); ctx.lineTo(280, 220); ctx.lineTo(-280, 220); ctx.closePath();
+      ctx.fillStyle = C.coral; ctx.fill(); ctx.lineWidth = 8; ctx.strokeStyle = C.ink; ctx.lineJoin = "round"; ctx.stroke();
+      rr(-22, -120, 44, 200, 22); ctx.fillStyle = C.white; ctx.fill(); circle(0, 150, 26, C.white, null);
+    });
+    if (p.text) at(540, 1380, pop(t, 0.5), -0.03, () => pill(0, 0, p.text, { fill: C.ink, size: 46 }));
+  },
+};
 S.fallback = S.stamp;
 
 // ---------- frame ----------

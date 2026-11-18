@@ -55,8 +55,9 @@ def fake_claude(cfg, system, prompt, max_tokens=2000):
     lang = cfg["content"]["languages"][1 if "Devanagari" in prompt else 0]
     s = script._offline_story(cfg, "t", lang)
     kinds = ["phone_upload", "split_flap", "counter", "file_shrink", "steps", "privacy", "spotlight", "browser"]
-    for i, sc in enumerate(s["scenes"]):       # explainer reels: one drawing per shot
+    for i, sc in enumerate(s["scenes"]):       # explainer reels: one drawing per shot, the site only at the end
         sc["scene"] = {"type": kinds[i % len(kinds)]}
+        sc["say"] = sc["voice"] = f"A useful thing number {i}" if i < len(s["scenes"]) - 1 else "Save this, ilovedocuments.ai"
     return s
 
 

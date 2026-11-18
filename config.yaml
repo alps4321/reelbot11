@@ -94,7 +94,17 @@ content:
     - {id: redact_pdf, tool: "Redact PDF", title: "Permanently black out private details before sharing a document", searches: 3600}
     - {id: resize_photo_kb, tool: "Resize Photo to 20-50 KB", title: "Resize an exam or passport photo to 20-50 KB", searches: 590}
     - {id: ocr_pdf, tool: "OCR PDF", title: "Copy text out of a scanned PDF in Hindi, Gujarati or English", searches: 20}
-  hook_styles: [question, problem, bold_claim, number, how_to]
+  hook_styles: [question, bold_claim, story_open, contrarian, number, problem, how_to]
+  # Story structures for explainer reels. Tested and scored like hooks; never the same one twice in a day.
+  explainer_formats:
+    discovery: "A find: a free trick, setting or way of doing something most people don't know. What it does, why it matters, then the plug."
+    myth_buster: "Open with something most people believe. Show with one concrete example why it is wrong. Give the right way. Then the plug."
+    story: "A tiny story about one person (Indian first name) with a turn in the middle and a lesson at the end. The plug is the lesson's tool."
+    did_you_know: "One surprising, true fact. Then two or three sentences on why it matters to the viewer. Then the plug."
+    three_things: "Three quick tips or rules, numbered, one drawing each, building to the best one. The plug comes after the third."
+    versus: "Two ways of doing the same thing. Build the comparison, then reveal the clear winner. Then the plug."
+    mistake: "Start with 'Stop doing X.' The common mistake, what it costs people, the fix. Then the plug."
+    behind_the_scenes: "Explain how something everyday really works (why forms set KB limits, what a PDF actually is, why phone photos are so big). Then the plug."
   formats: [secret_answer, what_if, deadline_story, two_friends, boss_junior, explainer]   # story3d formats
   card_formats: [problem_fix, three_mistakes, before_after, myth_buster]
 

@@ -272,6 +272,12 @@ def explainer_sfx(scene):
         "convert": [("pop", 0.85)], "photo_cutout": [("ding", 1.15)],
         "steps": [("pop", 0.15 + i * 0.5) for i in range(min(3, len(p.get("items") or [1, 2, 3])))],
         "split_flap": [("ding", 0.2 + min(12, len(str(p.get("word", "ILOVEDOCS")))) * 0.07)],
+        "news": [("pop", 0.5)], "search": [("pop", 1.0)], "chart": [("ding", 1.2)],
+        "versus": [("thud", 0.6), ("ding", 0.9)], "big_text": [("thud", 0.3)], "person": [("pop", 0.55)],
+        "bulb": [("ding", 0.5)], "money": [("pop", 0.8)], "notification": [("ding", 0.45)], "warning": [("buzz", 0.3)],
+        "chat": [("pop", 0.25 + i * 0.55) for i in range(min(4, len(p.get("messages") or [1, 2])))],
+        "checklist": [("pop", 0.35 + i * 0.45) for i in range(min(4, len(p.get("items") or [1, 2, 3])))],
+        "timeline": [("pop", 0.25 + i * 0.45) for i in range(min(4, len(p.get("items") or [1, 2, 3])))],
     }
     return table.get(kind, [])
 

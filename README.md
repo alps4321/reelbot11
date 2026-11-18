@@ -15,6 +15,15 @@
   hooks and formats; brisk moves toward the speaking speed the scout measures in the niche.
 - Results: `data/report.md`. Reels posted by hand are picked up and tracked too.
 
+## Reel style
+
+`content.style: explainer` (since 19 Nov 2026): a flat, hand-drawn animated explainer learned from a reference reel.
+Cream dotted paper, coral and black drawings with dotted shadows, a headline that builds word by word with key
+words in coral serif italics, one animated scene per sentence (`studio/explainer.js`, 17 scenes for document
+tools), a dark spotlight payoff and a save ending, a soft music bed (`tools/make_music.py`) about 12 dB under the
+voice, and sounds on each animation beat. Script structure: hook, reveal, proof number, breakdown, trust, payoff,
+save. `story3d` (low-poly 3D stories) is still available.
+
 ## Always-on jobs
 
 | job | when | what it does |

@@ -169,7 +169,8 @@ function background(t, dark) {
 const SANS_SIZE = 70, SERIF_SIZE = 86, LINE = 88, LEFT = 72, MAXW = 936, TOP = 230;
 function layoutShot(i) {
   if (LAYOUT[i]) return LAYOUT[i];
-  const sh = REEL.shots[i], acc = new Set((sh.accent || []).map(w => w.toLowerCase().replace(/[^\p{L}\p{N}]/gu, "")));
+  const sh = REEL.shots[i];
+  const acc = new Set((sh.accent || []).flatMap(a => String(a).split(/\s+/)).map(w => w.toLowerCase().replace(/[^\p{L}\p{N}]/gu, "")).filter(Boolean));
   const words = sh.words.map(w => {
     const key = w.w.toLowerCase().replace(/[^\p{L}\p{N}]/gu, "");
     const isAcc = acc.has(key) || /^\d/.test(key);

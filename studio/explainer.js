@@ -19,6 +19,7 @@ const eBack = x => { x = clamp(x); const c1 = 1.9, c3 = c1 + 1; return 1 + c3 * 
 const prog = (t, a, d) => clamp((t - a) / d);
 const pop = (t, a, d = 0.32) => (t < a ? 0 : eBack(prog(t, a, d)));
 function rng(seed) { let s = (seed >>> 0) || 7; return () => { s ^= s << 13; s ^= s >>> 17; s ^= s << 5; return ((s >>> 0) % 100000) / 100000; }; }
+const seq = (d, n, first, base) => Math.min(base, Math.max(0.12, ((d || 9) - first - 0.3) / Math.max(1, n)));
 function swing(t, a, amp = 0.22) { const u = t - a; return u < 0 ? amp : amp * Math.exp(-3.2 * u) * Math.cos(9 * u); }
 
 // ---------- drawing helpers ----------
@@ -299,11 +300,11 @@ S.tool_grid = {
   },
 };
 S.steps = {
-  hits: p => (p.items || []).slice(0, 3).map((_, i) => 0.15 + i * 0.5),
-  draw(t, p) {
-    const items = (p.items || ["Upload", "Choose size", "Download"]).slice(0, 3), xs = [210, 540, 870];
+  hits: (p, d) => (p.items || [1, 2, 3]).slice(0, 3).map((_, i, a) => 0.15 + i * seq(d, a.length, 0.15, 0.5)),
+  draw(t, p, d) {
+    const items = (p.items || ["Upload", "Choose size", "Download"]).slice(0, 3), xs = [210, 540, 870], gap = seq(d, items.length, 0.15, 0.5);
     items.forEach((it, i) => {
-      const a = 0.15 + i * 0.5, x = xs[i], top = 470;
+      const a = 0.15 + i * gap, x = xs[i], top = 470;
       if (t < a) { ctx.setLineDash([14, 12]); rr(x - 135, 760, 270, 440, 22); ctx.lineWidth = 4; ctx.strokeStyle = "rgba(30,26,26,0.25)"; ctx.stroke(); ctx.setLineDash([]); txt("0" + (i + 1), x, 1000, { size: 90, weight: 700, color: "rgba(30,26,26,0.12)", align: "center", base: "middle" }); return; }
       const drop = (1 - eOut(prog(t, a, 0.35))) * -420, ang = swing(t, a + 0.2, 0.18);
       ctx.save(); ctx.translate(x, top + drop); ctx.rotate(ang);
@@ -577,16 +578,16 @@ S.news = {
   },
 };
 S.chat = {
-  hits: p => (p.messages || []).slice(0, 4).map((_, i) => 0.25 + i * 0.55),
-  draw(t, p) {
-    const msgs = (p.messages || [{ from: "them", text: "Bro, form reject ho gaya" }, { from: "me", text: "Size kitna hai?" }]).slice(0, 4);
+  hits: (p, d) => (p.messages || [1, 2]).slice(0, 4).map((_, i, a) => 0.25 + i * seq(d, a.length, 0.25, 0.55)),
+  draw(t, p, d) {
+    const msgs = (p.messages || [{ from: "them", text: "Bro, form reject ho gaya" }, { from: "me", text: "Size kitna hai?" }]).slice(0, 4), gap = seq(d, msgs.length, 0.25, 0.55);
     at(540, 1110, pop(t, 0), 0, () => phone(500, 900, (sw, sh) => {
       rr(0, 0, sw, 130, 0); ctx.fillStyle = C.light; ctx.fill(); line(0, 130, sw, 130, 4);
       avatar(80, 80, 34, p.look || 2);
       txt(p.name || "Rahul", 135, 92, { size: 34, weight: 700 });
       let y = 190;
       msgs.forEach((m, i) => {
-        const a = 0.25 + i * 0.55; if (t < a) return;
+        const a = 0.25 + i * gap; if (t < a) return;
         const me = m.from === "me", lines = wrapLines(m.text, sw * 0.62, 32, 500).slice(0, 3);
         font(32, 500); const bw = Math.max(...lines.map(l => ctx.measureText(l).width)) + 50, bh = lines.length * 40 + 34;
         const x = me ? sw - 30 - bw : 30, s = pop(t, a, 0.25);
@@ -638,15 +639,15 @@ S.chart = {
   },
 };
 S.checklist = {
-  hits: p => (p.items || []).slice(0, 4).map((_, i) => 0.35 + i * 0.45),
-  draw(t, p) {
-    const items = (p.items || ["Photo under 50 KB", "Signature under 20 KB", "PDF under 200 KB"]).slice(0, 4);
+  hits: (p, d) => (p.items || [1, 2, 3]).slice(0, 4).map((_, i, a) => 0.35 + i * seq(d, a.length, 0.35, 0.45)),
+  draw(t, p, d) {
+    const items = (p.items || ["Photo under 50 KB", "Signature under 20 KB", "PDF under 200 KB"]).slice(0, 4), gap = seq(d, items.length, 0.35, 0.45);
     at(540, 1080, pop(t, 0), -0.02, () => {
       const h = 160 + items.length * 150;
       card(-420, -h / 2, 840, h, { r: 26 });
       mono("// " + (p.title || "checklist"), -360, -h / 2 + 70, { size: 26 });
       items.forEach((it, i) => {
-        const y = -h / 2 + 170 + i * 150, a = 0.35 + i * 0.45, done = t > a;
+        const y = -h / 2 + 170 + i * 150, a = 0.35 + i * gap, done = t > a;
         rr(-360, y - 40, 80, 80, 14); ctx.fillStyle = done ? C.coral : C.white; ctx.fill(); ctx.lineWidth = 5; ctx.strokeStyle = C.ink; ctx.stroke();
         if (done) { const k = eOut(prog(t, a, 0.2)); ctx.beginPath(); ctx.moveTo(-342, y); ctx.lineTo(-324, y + 20 * k); ctx.lineTo(-324 + 44 * k, y - 22 * k); ctx.lineWidth = 9; ctx.strokeStyle = C.white; ctx.lineCap = "round"; ctx.stroke(); }
         txt(it, -240, y + 14, { size: fitSize(it, 580, 46, 600), weight: 600, color: done ? C.ink : C.gray });
@@ -707,13 +708,13 @@ S.person = {
   },
 };
 S.timeline = {
-  hits: p => (p.items || []).slice(0, 4).map((_, i) => 0.25 + i * 0.45),
-  draw(t, p) {
+  hits: (p, d) => (p.items || [1, 2, 3]).slice(0, 4).map((_, i, a) => 0.25 + i * seq(d, a.length, 0.25, 0.45)),
+  draw(t, p, d) {
     const items = (p.items || [{ time: "1993", text: "PDF is born" }, { time: "2008", text: "Free for everyone" }, { time: "Today", text: "Every form wants one" }]).slice(0, 4);
-    const top = 620, gap = Math.min(250, 900 / items.length);
-    line(230, top, 230, top + gap * (items.length - 1) * eOut(prog(t, 0.1, 0.4 + items.length * 0.45)), 7);
+    const top = 620, gap = Math.min(250, 900 / items.length), step = seq(d, items.length, 0.25, 0.45);
+    line(230, top, 230, top + gap * (items.length - 1) * eOut(prog(t, 0.1, 0.4 + items.length * step)), 7);
     items.forEach((it, i) => {
-      const a = 0.25 + i * 0.45, y = top + i * gap, s = pop(t, a);
+      const a = 0.25 + i * step, y = top + i * gap, s = pop(t, a);
       at(230, y, s, 0, () => circle(0, 0, 26, i === items.length - 1 ? C.coral : C.white, C.ink, 6));
       at(300, y, s, 0, () => {
         txt(String(it.time || ""), 0, -8, { size: 56, weight: 700, color: C.coral, family: SERIF, style: "italic" });
@@ -808,7 +809,7 @@ window.frame = function (t) {
   const dark = !!sc.dark;
   background(t, dark);
   header(sh, t, dark);
-  const hits = sc.hits ? sc.hits(sh.scene) : [];
+  const hits = sc.hits ? sc.hits(sh.scene, sh.end - sh.start) : [];
   let dx = 0, dy = 0;
   for (const h of hits) if (lt > h && lt < h + 0.22) { const k = 1 - (lt - h) / 0.22; dx += Math.sin(lt * 90) * 10 * k; dy += Math.cos(lt * 75) * 8 * k; }
   ctx.save(); ctx.translate(dx, dy);

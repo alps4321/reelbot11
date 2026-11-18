@@ -261,8 +261,11 @@ def _sfx(name):
 
 
 # Explainer reels: sounds placed on the animation's own beats (seconds after the shot starts; studio/explainer.js).
-def explainer_sfx(scene):
+def explainer_sfx(scene, dur=9.0):
     p, kind = scene or {}, (scene or {}).get("type")
+
+    def seq(n, first, base):          # same timing rule as seq() in studio/explainer.js
+        return min(base, max(0.12, (dur - first - 0.3) / max(1, n)))
     table = {
         "phone_upload": [("buzz" if p.get("state") != "success" else "ding", 0.6)],
         "file_shrink": [("ding", 1.45)], "stamp": [("thud", 0.52)], "counter": [("ding", 1.0)],
@@ -270,14 +273,14 @@ def explainer_sfx(scene):
         "cyber_cafe": [("pop", 1.0)], "privacy": [("ding", 0.8)], "deadline": [("buzz", 0.55)],
         "id_card": [("thud", 0.35)], "spotlight": [("ding", 0.6)], "cta": [("pop", 0.85)],
         "convert": [("pop", 0.85)], "photo_cutout": [("ding", 1.15)],
-        "steps": [("pop", 0.15 + i * 0.5) for i in range(min(3, len(p.get("items") or [1, 2, 3])))],
+        "steps": [("pop", 0.15 + i * seq(n, 0.15, 0.5)) for n in [min(3, len(p.get("items") or [1, 2, 3]))] for i in range(n)],
         "split_flap": [("ding", 0.2 + min(12, len(str(p.get("word", "ILOVEDOCS")))) * 0.07)],
         "news": [("pop", 0.5)], "search": [("pop", 1.0)], "chart": [("ding", 1.2)],
         "versus": [("thud", 0.6), ("ding", 0.9)], "big_text": [("thud", 0.3)], "person": [("pop", 0.55)],
         "bulb": [("ding", 0.5)], "money": [("pop", 0.8)], "notification": [("ding", 0.45)], "warning": [("buzz", 0.3)],
-        "chat": [("pop", 0.25 + i * 0.55) for i in range(min(4, len(p.get("messages") or [1, 2])))],
-        "checklist": [("pop", 0.35 + i * 0.45) for i in range(min(4, len(p.get("items") or [1, 2, 3])))],
-        "timeline": [("pop", 0.25 + i * 0.45) for i in range(min(4, len(p.get("items") or [1, 2, 3])))],
+        "chat": [("pop", 0.25 + i * seq(n, 0.25, 0.55)) for n in [min(4, len(p.get("messages") or [1, 2]))] for i in range(n)],
+        "checklist": [("pop", 0.35 + i * seq(n, 0.35, 0.45)) for n in [min(4, len(p.get("items") or [1, 2, 3]))] for i in range(n)],
+        "timeline": [("pop", 0.25 + i * seq(n, 0.25, 0.45)) for n in [min(4, len(p.get("items") or [1, 2, 3]))] for i in range(n)],
     }
     return table.get(kind, [])
 
@@ -350,8 +353,9 @@ def synthesize(cfg, lang, scenes, workdir, gap=None, tail=1.0, pace="calm"):
             if i:
                 _mix(track, bank["whoosh"], starts[i] - 0.12)
             if sc.get("scene"):
-                for name, offset in explainer_sfx(sc["scene"]):
-                    if offset < (starts[i + 1] - starts[i] if i + 1 < len(starts) else 9):
+                dur = starts[i + 1] - starts[i] if i + 1 < len(starts) else 9.0
+                for name, offset in explainer_sfx(sc["scene"], dur):
+                    if offset < dur:
                         _mix(track, bank[name], starts[i] + offset)
                 continue
             panel = next((p for p in sc.get("props") or [] if p.get("type") == "panel"), {})

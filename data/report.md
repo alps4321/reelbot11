@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-18T19:12:05+00:00
+Updated 2026-11-18T20:41:26+00:00
 
-Reels made: 19. Posted: 12. Measured: 11.
+Reels made: 20. Posted: 13. Measured: 11.
 
 ## english: results by topic
 
@@ -97,10 +97,11 @@ Reels made: 19. Posted: 12. Measured: 11.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-11-18 | hinglish | resize_image_kb | discovery | Charging 100% tak mat karo. |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/Df5Yvw8Eckp/) |
 | 2026-11-18 | english | resize_image_kb | discovery | Do you know your phone's secret number? |  |  |  |  |  |  |  | dry run |
 | 2026-11-18 | hinglish | resize_image_kb | discovery | Photo ka size 200 KB kaise hota hai? |  |  |  |  |  |  |  | dry run |
 | 2026-11-18 | hinglish | resize_image_kb | explainer | Form bola 100 KB. Photo hai 1.8 MB. |  |  |  |  |  |  |  | dry run |
-| 2026-11-18 | hinglish | compress_pdf_kb | what_if | What if your PDF is too big? | 172 | 7.1 | 5 | 1 | 0 | 0 |  | [open](https://www.instagram.com/reel/Df4hglbgBie/) |
+| 2026-11-18 | hinglish | compress_pdf_kb | what_if | What if your PDF is too big? | 184 | 7.1 | 5 | 1 | 0 | 0 |  | [open](https://www.instagram.com/reel/Df4hglbgBie/) |
 | 2026-11-18 | english | remove_background | same_task_before_after | Can one selfie become an ID photo? | 442 | 6.2 | 3 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/Df34jo3pcP6/) |
 | 2026-11-18 | hinglish | pdf_to_word | secret_answer | PDF ko edit kaise karein? | 1022 | 9.3 | 6 | 2 | 0 | 7 |  | [open](https://www.instagram.com/reel/Df3sRygisaf/) |
 | 2026-11-17 | english | cheat_sheet_5_tools | cheat_sheet | Stop paying the cyber cafe for these 5 things | 146 | 4.0 | 1 | 0 | 0 | 2 | 99 | [open](https://www.instagram.com/reel/Df2KxDjjwSe/) |

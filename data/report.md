@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-18T18:29:03+00:00
+Updated 2026-11-18T19:01:05+00:00
 
-Reels made: 17. Posted: 12. Measured: 11.
+Reels made: 18. Posted: 12. Measured: 11.
 
 ## english: results by topic
 
@@ -95,6 +95,7 @@ Reels made: 17. Posted: 12. Measured: 11.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-11-18 | hinglish | resize_image_kb | discovery | Photo ka size 200 KB kaise hota hai? |  |  |  |  |  |  |  | dry run |
 | 2026-11-18 | hinglish | resize_image_kb | explainer | Form bola 100 KB. Photo hai 1.8 MB. |  |  |  |  |  |  |  | dry run |
 | 2026-11-18 | hinglish | compress_pdf_kb | what_if | What if your PDF is too big? | 172 | 7.1 | 5 | 1 | 0 | 0 |  | [open](https://www.instagram.com/reel/Df4hglbgBie/) |
 | 2026-11-18 | english | remove_background | same_task_before_after | Can one selfie become an ID photo? | 442 | 6.2 | 3 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/Df34jo3pcP6/) |

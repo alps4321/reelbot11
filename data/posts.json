@@ -2767,5 +2767,210 @@
     "caption": "Form ne photo reject kar di kyunki KB limit zyada thi? Ab bas limit type karo aur ho gaya. Aapko kaunsi limit sabse tricky lagti hai?\nilovedocuments.ai\n\n#ilovedocuments #resizeimage #onlineform #examform #india",
     "video": "20261118-182443-hinglish.mp4",
     "dry_run": true
+  },
+  {
+    "id": "20261118-185423-hinglish",
+    "created_at": "2026-11-18T19:01:05+00:00",
+    "language": "hinglish",
+    "topic": "resize_image_kb",
+    "hook_style": "question",
+    "format": "discovery",
+    "pace": "calm",
+    "idea": "",
+    "plan_reason": "week 1: every tool gets a first try; hook style: explore; format: new test; pace: explore",
+    "title": "Phone ka gallery photo KB mein kaise naapein",
+    "hook": "Photo ka size 200 KB kaise hota hai?",
+    "seconds": 31.8,
+    "script": {
+      "title": "Phone ka gallery photo KB mein kaise naapein",
+      "scenes": [
+        {
+          "say": "Photo ka size 200 KB kaise hota hai?",
+          "voice": "फोटो का साइज़ 200 KB कैसे होता है?",
+          "accent": [
+            "200 KB"
+          ],
+          "tag": "sawaal",
+          "meter": null,
+          "scene": {
+            "type": "search",
+            "query": "photo 200 KB kaise banaye",
+            "results": [
+              "Form: max 200 KB",
+              "Phone photo: 4000 KB"
+            ]
+          },
+          "kind": "hook",
+          "screen": "Photo ka size 200 KB kaise hota hai?",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Phone ki photo aksar 3 se 5 MB ki hoti hai.",
+          "voice": "फोन की फोटो अक्सर 3 से 5 MB की होती है.",
+          "accent": [
+            "3 se 5 MB"
+          ],
+          "tag": "sach",
+          "meter": {
+            "label": "PHONE PHOTO",
+            "value": "4 MB"
+          },
+          "scene": {
+            "type": "chart",
+            "label": "Typical phone photo size",
+            "direction": "up",
+            "value": "4 MB"
+          },
+          "kind": "point",
+          "screen": "Phone ki photo aksar 3 se 5 MB ki hoti hai.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Form ko chahiye sirf 200 KB.",
+          "voice": "फॉर्म को चाहिए... सिर्फ़ 200 KB.",
+          "accent": [
+            "200 KB"
+          ],
+          "tag": "limit",
+          "meter": {
+            "label": "LIMIT",
+            "value": "200 KB"
+          },
+          "scene": {
+            "type": "versus",
+            "left": "Your photo",
+            "right": "Form limit",
+            "left_sub": "4000 KB",
+            "right_sub": "200 KB",
+            "winner": "right"
+          },
+          "kind": "point",
+          "screen": "Form ko chahiye sirf 200 KB.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Matlab 20 guna chhoti karni hai.",
+          "voice": "मतलब 20 गुना छोटी करनी है.",
+          "accent": [
+            "20 guna"
+          ],
+          "tag": "maths",
+          "meter": null,
+          "scene": {
+            "type": "counter",
+            "value": 20,
+            "label": "times smaller",
+            "badge": "MATH"
+          },
+          "kind": "point",
+          "screen": "Matlab 20 guna chhoti karni hai.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Trick: quality thodi kam karo, photo ka size girta hai.",
+          "voice": "ट्रिक ये है... क्वालिटी थोड़ी कम करो, फोटो का साइज़ गिर जाता है.",
+          "accent": [
+            "quality thodi kam"
+          ],
+          "tag": "trick",
+          "meter": null,
+          "scene": {
+            "type": "bulb",
+            "text": "Thodi quality kam = size kam"
+          },
+          "kind": "point",
+          "screen": "Trick: quality thodi kam karo, photo ka size girta hai.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Aankh ko fark nahi dikhta, par file halki ho jaati hai.",
+          "voice": "आँख को फ़र्क नहीं दिखता... पर फाइल हल्की हो जाती है.",
+          "accent": [
+            "file halki"
+          ],
+          "tag": "magic",
+          "meter": null,
+          "scene": {
+            "type": "file_shrink",
+            "file": "photo.jpg",
+            "from": "4 MB",
+            "to": "180 KB"
+          },
+          "kind": "point",
+          "screen": "Aankh ko fark nahi dikhta, par file halki ho jaati hai.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Par andaaze se kam karoge, to ya 300 KB bachegi ya photo dhundhli.",
+          "voice": "पर अंदाज़े से कम करोगे... तो या 300 KB बचेगी या फोटो धुंधली.",
+          "accent": [
+            "andaaze se"
+          ],
+          "tag": "dikkat",
+          "meter": null,
+          "scene": {
+            "type": "warning",
+            "text": "Andaaza = blur ya limit se upar"
+          },
+          "kind": "point",
+          "screen": "Par andaaze se kam karoge, to ya 300 KB bachegi ya photo dhu",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Isliye exact KB chahiye? ilovedocuments.ai ka Resize Image in KB.",
+          "voice": "इसलिए exact KB चाहिए? आई लव डॉक्यूमेंट्स डॉट ए आई का Resize Image in KB.",
+          "accent": [
+            "Resize Image in KB"
+          ],
+          "tag": "tool",
+          "meter": null,
+          "scene": {
+            "type": "browser",
+            "url": "ilovedocuments.ai",
+            "button": "Resize Image in KB"
+          },
+          "kind": "point",
+          "screen": "Isliye exact KB chahiye? ilovedocuments.ai ka Resize Image i",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Free hai, aur photo upload nahi hoti. Save kar lo.",
+          "voice": "फ्री है... और फोटो अपलोड नहीं होती. सेव कर लो.",
+          "accent": [
+            "Save"
+          ],
+          "tag": "save",
+          "meter": null,
+          "scene": {
+            "type": "cta",
+            "keyword": "SAVE",
+            "line": "// form se pehle kaam aayega"
+          },
+          "kind": "cta",
+          "screen": "Free hai, aur photo upload nahi hoti. Save kar lo.",
+          "emphasis": [],
+          "visual": null
+        }
+      ],
+      "caption": "Form ki photo 200 KB chahiye aur phone ki 4 MB? Quality thodi kam karke size girta hai, bas exact limit pe rukna hai. Aapko kaunsi limit sabse tang karti hai? Free tool: ilovedocuments.ai (Resize Image in KB). Save kar lo.",
+      "hashtags": [
+        "#onlineform",
+        "#photoresize",
+        "#examform",
+        "#hinglish",
+        "#ilovedocuments"
+      ]
+    },
+    "caption": "Form ki photo 200 KB chahiye aur phone ki 4 MB? Quality thodi kam karke size girta hai, bas exact limit pe rukna hai. Aapko kaunsi limit sabse tang karti hai? Free tool: ilovedocuments.ai (Resize Image in KB). Save kar lo.\n\n#onlineform #photoresize #examform #hinglish #ilovedocuments",
+    "video": "20261118-185423-hinglish.mp4",
+    "dry_run": true
   }
 ]

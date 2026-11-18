@@ -41,8 +41,8 @@
       "comments": 0,
       "shares": 1,
       "saved": 0,
-      "total_interactions": 5,
-      "avg_watch_s": 1.7
+      "avg_watch_s": 1.7,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -90,14 +90,14 @@
       24
     ],
     "metrics": {
-      "views": 915,
+      "views": 919,
       "reach": 769,
       "likes": 9,
       "comments": 1,
       "shares": 2,
       "saved": 4,
-      "total_interactions": 17,
-      "avg_watch_s": 8.7
+      "avg_watch_s": 8.7,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -139,8 +139,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "total_interactions": 8,
-      "avg_watch_s": 9.4
+      "avg_watch_s": 9.4,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -176,14 +176,14 @@
       24
     ],
     "metrics": {
-      "views": 232,
-      "reach": 190,
+      "views": 243,
+      "reach": 200,
       "likes": 2,
       "comments": 0,
-      "shares": 0,
-      "saved": 3,
-      "total_interactions": 5,
-      "avg_watch_s": 6.4
+      "shares": 7,
+      "saved": 4,
+      "avg_watch_s": 6.3,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -215,17 +215,18 @@
     "hook": "Aadhaar PDF ka password kya hota hai? 🔐",
     "caption": "Aadhaar PDF ka password kya hota hai? 🔐\n\nAnswer: naam ke pehle 4 letter CAPITAL mein + janm ka saal.\nRahul, 1998 → RAHU1998\n\n📌 Save kar lo, har baar kaam aayega.\n💬 Kis document mein sabse zyada dikkat aati hai? Comment karo.\n\nPassword hatana ho to: ilovedocuments.ai\n\n#aadhaar #aadhaarcard #onlineform #studenthacks #techtips",
     "checked": [
-      6
+      6,
+      24
     ],
     "metrics": {
-      "views": 1959,
-      "reach": 1685,
+      "views": 1963,
+      "reach": 1688,
       "likes": 22,
       "comments": 4,
-      "shares": 8,
-      "saved": 22,
-      "total_interactions": 56,
-      "avg_watch_s": 8.2
+      "shares": 18,
+      "saved": 23,
+      "avg_watch_s": 8.2,
+      "views_last_hour": 2
     },
     "history": [
       {
@@ -238,6 +239,17 @@
         "shares": 8,
         "saved": 22,
         "total_interactions": 56,
+        "avg_watch_s": 8.2
+      },
+      {
+        "at": "2026-11-17T15:15:00+00:00",
+        "hours": 24,
+        "views": 1959,
+        "reach": 1687,
+        "likes": 22,
+        "comments": 4,
+        "shares": 18,
+        "saved": 22,
         "avg_watch_s": 8.2
       }
     ]
@@ -1236,14 +1248,14 @@
       6
     ],
     "metrics": {
-      "views": 229,
-      "reach": 181,
+      "views": 249,
+      "reach": 193,
       "likes": 3,
       "comments": 0,
-      "shares": 0,
+      "shares": 18,
       "saved": 0,
-      "total_interactions": 3,
-      "avg_watch_s": 8.2
+      "avg_watch_s": 8.1,
+      "views_last_hour": 4
     },
     "history": [
       {
@@ -1535,7 +1547,32 @@
     "media_id": "18130117984891210",
     "permalink": "https://www.instagram.com/reel/Df2IYAIAR7x/",
     "posted_at": "2026-11-17T14:20:40+00:00",
-    "checked": []
+    "checked": [
+      6
+    ],
+    "metrics": {
+      "views": 132,
+      "reach": 113,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "avg_watch_s": 7.1,
+      "views_last_hour": 1
+    },
+    "history": [
+      {
+        "at": "2026-11-18T01:44:46+00:00",
+        "hours": 6,
+        "views": 131,
+        "reach": 112,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "avg_watch_s": 7.1
+      }
+    ]
   },
   {
     "id": "20261117-cheat-sheet",
@@ -1543,7 +1580,9 @@
     "posted_at": "2026-11-17T14:41:31+00:00",
     "media_id": "17924534454244942",
     "permalink": "https://www.instagram.com/reel/Df2KxDjjwSe/",
-    "checked": [],
+    "checked": [
+      6
+    ],
     "language": "english",
     "topic": "cheat_sheet_5_tools",
     "hook_style": "bold_claim",
@@ -1551,6 +1590,304 @@
     "hook": "Stop paying the cyber cafe for these 5 things",
     "seconds": 31.9,
     "caption": "Stop paying the cyber cafe for these 5 things 👇\n\n1. PDF too big for the form → Compress PDF\n2. Photos, but the form wants one PDF → JPG to PDF\n3. Aadhaar PDF password → first 4 letters of your name in CAPITALS + your birth year\n4. Need to sign a form → Sign PDF, no printing\n5. Bank statement into Excel → Bank Statement Converter\n\nAll free. No sign-up. Your files never leave your phone.\n\n📌 Save this for your next form.\n💬 Which one didn't you know? Comment the number.\n\nilovedocuments.ai\n\n#onlineform #pdf #aadhaar #studenthacks #techtips",
-    "queued": true
+    "queued": true,
+    "metrics": {
+      "views": 141,
+      "reach": 116,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 2,
+      "avg_watch_s": 4.1,
+      "views_last_hour": 3
+    },
+    "history": [
+      {
+        "at": "2026-11-18T01:44:45+00:00",
+        "hours": 6,
+        "views": 138,
+        "reach": 113,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 2,
+        "avg_watch_s": 4.2
+      }
+    ]
+  },
+  {
+    "id": "20261118-044545-hinglish",
+    "created_at": "2026-11-18T04:52:54+00:00",
+    "language": "hinglish",
+    "topic": "pdf_to_word",
+    "hook_style": "question",
+    "format": "secret_answer",
+    "pace": "natural",
+    "idea": "Everyone retypes a PDF in 2 hours. Here's how it takes 2 minutes.",
+    "plan_reason": "week 1: every tool gets a first try; hook style: new test; format: new test; pace: new test; idea from the niche scout",
+    "title": "PDF ko Word mein kaise badlein",
+    "hook": "PDF ko edit kaise karein?",
+    "seconds": 24.3,
+    "script": {
+      "title": "PDF ko Word mein kaise badlein",
+      "scenes": [
+        {
+          "kind": "hook",
+          "screen": "PDF ko edit kaise karein?",
+          "emphasis": [
+            "edit"
+          ],
+          "voice": "PDF में एक लाइन बदलनी है... तो क्या करें?",
+          "say": "PDF mein ek line badalni hai toh kya karein?",
+          "label": "11:40 PM",
+          "set": "night",
+          "camera": "push_in",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "sad",
+              "x": 0.0,
+              "look": "camera"
+            }
+          ],
+          "props": [],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Dobara type karein?",
+          "emphasis": [
+            "type"
+          ],
+          "voice": "रिज़्यूमे दोबारा टाइप करूँ? दो घंटे लगेंगे।",
+          "say": "Resume dobara type karun? Do ghante lagenge.",
+          "label": null,
+          "set": "night",
+          "camera": "close",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "type",
+              "x": -0.6,
+              "look": "right",
+              "float": {
+                "text": "2 hours",
+                "color": "#ff5a66"
+              }
+            }
+          ],
+          "props": [
+            {
+              "type": "clock",
+              "text": "11:42 PM"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Screenshot? Nahi chalega",
+          "emphasis": [
+            "Screenshot"
+          ],
+          "voice": "स्क्रीनशॉट लूँ? वो तो एडिट ही नहीं होता।",
+          "say": "Screenshot loon? Woh toh edit hi nahi hota.",
+          "label": null,
+          "set": "night",
+          "camera": "wide",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "panic",
+              "x": -0.7,
+              "look": "right"
+            },
+            {
+              "color": "blue",
+              "pose": "stand",
+              "x": 0.8,
+              "look": "left"
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "error",
+              "file": "resume.pdf",
+              "size": "310 KB",
+              "message": "Can't edit"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Dono galat. Dekho...",
+          "emphasis": [
+            "galat"
+          ],
+          "voice": "दोनों गलत। दोस्त बोला... रुक, ये देख।",
+          "say": "Dono galat. Dost bola ruk, ye dekh.",
+          "label": null,
+          "set": "night",
+          "camera": "orbit",
+          "actors": [
+            {
+              "color": "blue",
+              "pose": "point",
+              "x": 0.7,
+              "look": "camera"
+            },
+            {
+              "color": "orange",
+              "pose": "sad",
+              "x": -0.7,
+              "look": "right"
+            }
+          ],
+          "props": [],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "PDF to Word",
+          "emphasis": [
+            "PDF to Word"
+          ],
+          "voice": "आई लव डॉक्यूमेंट्स डॉट ए आई पर, PDF टू वर्ड।",
+          "say": "ilovedocuments.ai par, PDF to Word.",
+          "label": null,
+          "set": "night",
+          "camera": "push_in",
+          "actors": [
+            {
+              "color": "blue",
+              "pose": "phone",
+              "x": 0.6,
+              "look": "left"
+            },
+            {
+              "color": "orange",
+              "pose": "wave",
+              "x": -0.7,
+              "look": "right"
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "text",
+              "text": "PDF to Word"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "2 ghante → 2 minute",
+          "emphasis": [
+            "2 minute"
+          ],
+          "voice": "बस फ़ाइल डालो... और Word में एडिट करो।",
+          "say": "Bas file daalo aur Word mein edit karo.",
+          "label": "11:44 PM",
+          "set": "night",
+          "camera": "close",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "cheer",
+              "x": 0.0,
+              "look": "camera"
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "success",
+              "file": "resume.docx",
+              "size": "310 KB",
+              "message": "Ready to edit"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Free. Browser mein. Upload nahi.",
+          "emphasis": [
+            "Free"
+          ],
+          "voice": "फ्री है, साइन-अप नहीं, और फ़ाइल अपलोड भी नहीं होती।",
+          "say": "Free hai, sign-up nahi, aur file upload bhi nahi hoti.",
+          "label": null,
+          "set": "night",
+          "camera": "high",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "type",
+              "x": -0.5,
+              "look": "right"
+            },
+            {
+              "color": "blue",
+              "pose": "cheer",
+              "x": 0.7,
+              "look": "left"
+            }
+          ],
+          "props": [
+            {
+              "type": "clock",
+              "text": "11:44 PM"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "cta",
+          "screen": "Free. No sign-up. No watermark.",
+          "emphasis": [
+            "Free"
+          ],
+          "voice": "अगले फ़ॉर्म के लिए ये सेव कर लो।",
+          "say": "Agle form ke liye ye save kar lo.",
+          "label": null,
+          "set": "night",
+          "camera": "wide",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "cheer",
+              "x": -0.6,
+              "look": "camera"
+            },
+            {
+              "color": "blue",
+              "pose": "wave",
+              "x": 0.6,
+              "look": "camera"
+            }
+          ],
+          "props": [],
+          "visual": null
+        }
+      ],
+      "caption": "PDF mein ek line badalni thi, aur Rohan resume dobara type karne baith gaya. 😅 Dost ne 2 minute mein Word file bana di. Save kar lo next form ke liye. Aap PDF edit karne ke liye kya karte ho? Comment karo. ilovedocuments.ai",
+      "hashtags": [
+        "#PDFtoWord",
+        "#ilovedocuments",
+        "#resume",
+        "#onlineform",
+        "#hinglish"
+      ]
+    },
+    "caption": "PDF mein ek line badalni thi, aur Rohan resume dobara type karne baith gaya. 😅 Dost ne 2 minute mein Word file bana di. Save kar lo next form ke liye. Aap PDF edit karne ke liye kya karte ho? Comment karo. ilovedocuments.ai\n\n#PDFtoWord #ilovedocuments #resume #onlineform #hinglish",
+    "video": "20261118-044545-hinglish.mp4",
+    "media_id": "18485319535117892",
+    "permalink": "https://www.instagram.com/reel/Df3sRygisaf/",
+    "posted_at": "2026-11-18T05:30:10+00:00",
+    "checked": []
   }
 ]

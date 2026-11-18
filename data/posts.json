@@ -32,7 +32,8 @@
     "checked": [
       6,
       24,
-      48
+      48,
+      72
     ],
     "metrics": {
       "views": 133,
@@ -41,8 +42,8 @@
       "comments": 0,
       "shares": 1,
       "saved": 0,
-      "avg_watch_s": 1.7,
-      "views_last_hour": 0
+      "total_interactions": 5,
+      "avg_watch_s": 1.7
     },
     "history": [
       {
@@ -60,6 +61,18 @@
       {
         "at": "2026-11-17T14:40:52+00:00",
         "hours": 48,
+        "views": 133,
+        "reach": 111,
+        "likes": 4,
+        "comments": 0,
+        "shares": 1,
+        "saved": 0,
+        "total_interactions": 5,
+        "avg_watch_s": 1.7
+      },
+      {
+        "at": "2026-11-18T15:43:42+00:00",
+        "hours": 72,
         "views": 133,
         "reach": 111,
         "likes": 4,
@@ -199,7 +212,8 @@
     "caption": "Form ne phir bola \"File too large\"? 😤\n\n2.4 MB ki photo → 48 KB, sirf 10 second mein.\nNa app, na sign-up, bilkul free.\n\n📌 Save kar lo, agle form mein kaam aayega.\n💬 Comment \"FORM\" aur link le lo.\n\nilovedocuments.ai\n\n#onlineform #govtexam #sscexam #studenthacks #photoresize",
     "checked": [
       6,
-      24
+      24,
+      48
     ],
     "metrics": {
       "views": 243,
@@ -208,8 +222,8 @@
       "comments": 0,
       "shares": 7,
       "saved": 4,
-      "avg_watch_s": 6.3,
-      "views_last_hour": 0
+      "total_interactions": 13,
+      "avg_watch_s": 6.3
     },
     "history": [
       {
@@ -223,6 +237,18 @@
         "saved": 3,
         "total_interactions": 5,
         "avg_watch_s": 6.4
+      },
+      {
+        "at": "2026-11-18T15:43:43+00:00",
+        "hours": 48,
+        "views": 243,
+        "reach": 200,
+        "likes": 2,
+        "comments": 0,
+        "shares": 7,
+        "saved": 4,
+        "total_interactions": 13,
+        "avg_watch_s": 6.3
       }
     ]
   },
@@ -242,17 +268,18 @@
     "caption": "Aadhaar PDF ka password kya hota hai? 🔐\n\nAnswer: naam ke pehle 4 letter CAPITAL mein + janm ka saal.\nRahul, 1998 → RAHU1998\n\n📌 Save kar lo, har baar kaam aayega.\n💬 Kis document mein sabse zyada dikkat aati hai? Comment karo.\n\nPassword hatana ho to: ilovedocuments.ai\n\n#aadhaar #aadhaarcard #onlineform #studenthacks #techtips",
     "checked": [
       6,
-      24
+      24,
+      48
     ],
     "metrics": {
-      "views": 1963,
-      "reach": 1688,
-      "likes": 22,
+      "views": 1965,
+      "reach": 1691,
+      "likes": 21,
       "comments": 4,
       "shares": 18,
-      "saved": 23,
-      "avg_watch_s": 8.2,
-      "views_last_hour": 2
+      "saved": 24,
+      "total_interactions": 67,
+      "avg_watch_s": 8.2
     },
     "history": [
       {
@@ -276,6 +303,18 @@
         "comments": 4,
         "shares": 18,
         "saved": 22,
+        "avg_watch_s": 8.2
+      },
+      {
+        "at": "2026-11-18T15:43:44+00:00",
+        "hours": 48,
+        "views": 1965,
+        "reach": 1691,
+        "likes": 21,
+        "comments": 4,
+        "shares": 18,
+        "saved": 24,
+        "total_interactions": 67,
         "avg_watch_s": 8.2
       }
     ]
@@ -1587,17 +1626,18 @@
     "permalink": "https://www.instagram.com/reel/Df2IYAIAR7x/",
     "posted_at": "2026-11-17T14:20:40+00:00",
     "checked": [
-      6
+      6,
+      24
     ],
     "metrics": {
-      "views": 132,
-      "reach": 113,
+      "views": 138,
+      "reach": 118,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "avg_watch_s": 7.1,
-      "views_last_hour": 1
+      "total_interactions": 0,
+      "avg_watch_s": 7.0
     },
     "history": [
       {
@@ -1610,6 +1650,18 @@
         "shares": 0,
         "saved": 0,
         "avg_watch_s": 7.1
+      },
+      {
+        "at": "2026-11-18T15:43:45+00:00",
+        "hours": 24,
+        "views": 138,
+        "reach": 118,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 0,
+        "avg_watch_s": 7.0
       }
     ]
   },
@@ -1620,7 +1672,8 @@
     "media_id": "17924534454244942",
     "permalink": "https://www.instagram.com/reel/Df2KxDjjwSe/",
     "checked": [
-      6
+      6,
+      24
     ],
     "language": "english",
     "topic": "cheat_sheet_5_tools",
@@ -1631,14 +1684,14 @@
     "caption": "Stop paying the cyber cafe for these 5 things 👇\n\n1. PDF too big for the form → Compress PDF\n2. Photos, but the form wants one PDF → JPG to PDF\n3. Aadhaar PDF password → first 4 letters of your name in CAPITALS + your birth year\n4. Need to sign a form → Sign PDF, no printing\n5. Bank statement into Excel → Bank Statement Converter\n\nAll free. No sign-up. Your files never leave your phone.\n\n📌 Save this for your next form.\n💬 Which one didn't you know? Comment the number.\n\nilovedocuments.ai\n\n#onlineform #pdf #aadhaar #studenthacks #techtips",
     "queued": true,
     "metrics": {
-      "views": 141,
-      "reach": 116,
+      "views": 144,
+      "reach": 118,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 2,
-      "avg_watch_s": 4.1,
-      "views_last_hour": 3
+      "total_interactions": 3,
+      "avg_watch_s": 4.1
     },
     "history": [
       {
@@ -1651,6 +1704,18 @@
         "shares": 0,
         "saved": 2,
         "avg_watch_s": 4.2
+      },
+      {
+        "at": "2026-11-18T15:43:46+00:00",
+        "hours": 24,
+        "views": 144,
+        "reach": 118,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 2,
+        "total_interactions": 3,
+        "avg_watch_s": 4.1
       }
     ]
   },
@@ -2185,7 +2250,33 @@
     "media_id": "18166106116431797",
     "permalink": "https://www.instagram.com/reel/Df34jo3pcP6/",
     "posted_at": "2026-11-18T07:30:11+00:00",
-    "checked": []
+    "checked": [
+      6
+    ],
+    "metrics": {
+      "views": 441,
+      "reach": 392,
+      "likes": 3,
+      "comments": 0,
+      "shares": 0,
+      "saved": 1,
+      "total_interactions": 4,
+      "avg_watch_s": 6.2
+    },
+    "history": [
+      {
+        "at": "2026-11-18T15:43:47+00:00",
+        "hours": 6,
+        "views": 441,
+        "reach": 392,
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
+        "total_interactions": 4,
+        "avg_watch_s": 6.2
+      }
+    ]
   },
   {
     "id": "20261118-122923-hinglish",

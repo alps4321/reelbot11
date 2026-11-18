@@ -29,10 +29,46 @@
       "pause_s": 0.34,
       "lang": "en",
       "per_k": 14.1
+    },
+    {
+      "wps": 2.91,
+      "pause_s": 0.32,
+      "lang": "en",
+      "per_k": 38.6
+    },
+    {
+      "wps": 3.9,
+      "pause_s": 0.0,
+      "lang": "en",
+      "per_k": 31.3
+    },
+    {
+      "wps": 4.44,
+      "pause_s": 0.26,
+      "lang": "en",
+      "per_k": 28.7
+    },
+    {
+      "wps": 3.21,
+      "pause_s": 0.35,
+      "lang": "en",
+      "per_k": 11.9
+    },
+    {
+      "wps": 2.54,
+      "pause_s": 3.78,
+      "lang": "hi",
+      "per_k": 165.1
+    },
+    {
+      "wps": 3.42,
+      "pause_s": 0.35,
+      "lang": "hi",
+      "per_k": 4.6
     }
   ],
-  "notes": "The best speakers here start talking in the first half second, run at roughly 3 to 4.4 words per second, and use short pauses right before a reveal or a result. They stress the contrast words ('slow' versus 'now see', 'not only... but') and keep the tone upbeat and direct.",
-  "updated": "2026-11-17T15:24:16+00:00",
-  "words_per_second": 3.27,
-  "pause_s": 0.31
+  "notes": "The best speakers here talk fast (3 to 4.4 words/s) with almost no pauses and punch the key word or number in each line. The one slow, long-pause speaker is the emotional street conversation, which suggests a calm, quiet voice for regret stories and a quick, energetic one for demos.",
+  "updated": "2026-11-18T03:53:02+00:00",
+  "words_per_second": 3.01,
+  "pause_s": 0.32
 }

@@ -144,5 +144,100 @@
     ],
     "visual": "Polished designed visuals, strong colour and a themed look.",
     "speaking": "No speech. The caption does the work."
+  },
+  {
+    "at": "2026-11-18T03:53:02+00:00",
+    "permalink": "https://www.instagram.com/reel/DfUqT2FzWU4/",
+    "why": "It opens on a festival pain point (Diwali cleaning) and shows one object doing many jobs, so each new use feels like fresh value. The price anchor at the end (10,000 and up vs under 4,000) turns the demo into a deal.",
+    "hook_pattern": "This one [small thing] is perfect for [seasonal chore]",
+    "structure": [
+      "Seasonal hook with a bold on-screen label that stays up",
+      "Show the object in hand and press the button",
+      "Run through the uses fast, one real surface per beat",
+      "Add 'bonus' extras: a second attachment, then a new place to use it",
+      "Price anchor: others cost X, this costs under Y",
+      "Call to action"
+    ],
+    "visual": "Close handheld shots of the product working on real mess (confetti, dust, window tracks). A white-on-black label with one red word stays on screen the whole time.",
+    "speaking": "Fast and steady at about 2.9 words/s, with short pauses between uses. Upbeat and demo-led, and the 'Bonus' and 'Plus' words keep stacking value."
+  },
+  {
+    "at": "2026-11-18T03:53:02+00:00",
+    "permalink": "https://www.instagram.com/reel/DfmZpjDy8P0/",
+    "why": "It opens with big news that affects the viewer directly, then confirms the headline with a close-up of the number on a screen. The 'no limit' claim is tested in plain examples (movies, calls, games).",
+    "hook_pattern": "Big news for [group]: [specific number] and no [annoying limit]",
+    "structure": [
+      "Breaking-news hook aimed at a named group",
+      "Show the key number on screen",
+      "Remove the usual limit or objection",
+      "Test it with relatable uses (movies, calls, games)",
+      "Add a bonus offer with a condition",
+      "Share this with someone who [relatable habit]"
+    ],
+    "visual": "Host holding a phone with a big headline label. Then zoomed-in screen details and word-by-word highlighted captions.",
+    "speaking": "Quick, 3.9 words/s with almost no pauses. Excited, and key words are punched."
+  },
+  {
+    "at": "2026-11-18T03:53:02+00:00",
+    "permalink": "https://www.instagram.com/reel/DetQBp8y6Vf/",
+    "why": "It sells one gadget as a safety fix for a danger the viewer already knows from Indian roads. A top-down view shows the danger zone, so the claim is easy to believe.",
+    "hook_pattern": "The most useful [thing] ever, because [danger or loss it prevents]",
+    "structure": [
+      "'Most useful X ever' label",
+      "Say how simple setup is in three steps",
+      "Show the warning in action from above",
+      "Explain the two signals (orange vs red)",
+      "Say what mirrors can't do",
+      "India-specific closer and share prompt"
+    ],
+    "visual": "Presenter on the bike, close-ups of the parts, and a drone view of the car in the blind spot. Captions highlight one word at a time.",
+    "speaking": "Fast at 4.4 words/s with no pauses, confident, and one clear benefit per sentence."
+  },
+  {
+    "at": "2026-11-18T03:53:02+00:00",
+    "permalink": "https://www.instagram.com/reel/Dfq8C5WxXUd/",
+    "why": "The 'twist number one, twist number two' structure promises a payoff and delivers escalating surprises. It also names a daily annoyance (the microwave queue) and ends with a price check.",
+    "hook_pattern": "Throw away your boring [object], this one has [N] twists",
+    "structure": [
+      "Challenge the boring version",
+      "Show that it looks ordinary",
+      "Twist one: the first surprise, shown working",
+      "Twist two: a bigger surprise",
+      "Extra uses for different people (diet, cheat day)",
+      "Price justification",
+      "Call to action"
+    ],
+    "visual": "Clean tabletop product shots, a thermometer gun for proof, and word-by-word highlighted captions.",
+    "speaking": "Medium pace of 3.2 words/s, with a pause before each twist. Conversational and gently excited."
+  },
+  {
+    "at": "2026-11-18T03:53:02+00:00",
+    "permalink": "https://www.instagram.com/reel/DfKfvaTP0Ka/",
+    "why": "It's a real, unscripted, emotional street conversation. Line-by-line Hinglish captions let viewers follow a regret story, and the caption 'Please Study' gives it a simple moral. Engagement far above the rest of the group.",
+    "hook_pattern": "A stranger's regret in one sentence, with big plain captions",
+    "structure": [
+      "Two people sit and talk face to face",
+      "One confesses a regret, one short line at a time",
+      "Caption each line in large plain text",
+      "Emotional turn",
+      "Moral in the caption"
+    ],
+    "visual": "One fixed shot at ground level, two people talking, and plain white captions at the bottom, one line per beat.",
+    "speaking": "Slow and low, with long pauses (3.8 s total). Quiet, human, no music hype."
+  },
+  {
+    "at": "2026-11-18T03:53:02+00:00",
+    "permalink": "https://www.instagram.com/reel/DfcGb42tV3r/",
+    "why": "It's sponsored, long and mostly talk, so it has weak reach for the following. It does show a clear 'three at once' claim, but it only works with a very visible screen.",
+    "hook_pattern": "Everyone does [two things], but you can do [three] at once",
+    "structure": [
+      "Claim the next level",
+      "Compare with 2 vs 3",
+      "Show the screen",
+      "Add the backstory of generations",
+      "Wrap with the service benefit"
+    ],
+    "visual": "Presenter at a desk with the phone, and cutaways to the screen. Moderate cuts.",
+    "speaking": "Slow Hinglish at 3.4 words/s with an English mix. Product-brochure tone, so it's less gripping."
   }
 ]

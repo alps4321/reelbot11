@@ -1,34 +1,64 @@
 {
- "learned": {
-  "impossible_without_reveal": {
-   "description": "Show a character facing a problem that needs a pain (such as an upload limit or a locked file). Reveal the tool solving it without that pain, in three short steps on a panel.",
-   "from": "https://www.instagram.com/reel/DfKC673hkqS/",
-   "hook_pattern": "This [gadget or tool] does [impossible-sounding thing] without [usual requirement]",
-   "added": "2026-11-17T15:19:02+00:00"
-  },
-  "numbered_list_explainer": {
-   "description": "Use a narrator and a counter caption to run through N quick file-fixes, each one a tiny 3D scene with a before and after size panel.",
-   "from": "https://www.instagram.com/reel/DfMA961Plsh/",
-   "hook_pattern": "N new [things] in [trending update] you need to know",
-   "added": "2026-11-17T15:19:02+00:00"
-  },
-  "same_task_before_after": {
-   "description": "Tell the story with one character doing the exact same task twice: first the slow, failing way, then with our tool. End on a big success panel with the number (size, KB, seconds) so the improvement is visible.",
-   "from": "https://www.instagram.com/reel/De_UI6HRvno/",
-   "hook_pattern": "This one [free thing] gives you [big benefit], and I'll prove it with a before/after",
-   "added": "2026-11-17T15:24:16+00:00"
-  },
-  "hidden_features_reveal": {
-   "description": "Our character discovers a tool has a feature nobody told them about, and each hidden feature saves them from a different form disaster. Finish on the best one.",
-   "from": "https://www.instagram.com/reel/DezRZM5SXGo/",
-   "hook_pattern": "[Big new thing] features [authority] didn't tell you",
-   "added": "2026-11-17T15:24:16+00:00"
-  },
-  "three_step_just_do_this": {
-   "description": "Our characters hit a problem, then the story shows three 'just do this' steps in the tool, with the result appearing automatically in a success panel. Say the limit it handles (e.g. size in KB) in one line.",
-   "from": "https://www.instagram.com/reel/Dfj47owytz3/",
-   "hook_pattern": "This is the most useful [thing] you will ever have",
-   "added": "2026-11-17T15:24:16+00:00"
+  "learned": {
+    "numbered_list_explainer": {
+      "description": "Use a narrator and a counter caption to run through N quick file-fixes, each one a tiny 3D scene with a before and after size panel.",
+      "from": "https://www.instagram.com/reel/DfMA961Plsh/",
+      "hook_pattern": "N new [things] in [trending update] you need to know",
+      "added": "2026-11-17T15:19:02+00:00"
+    },
+    "same_task_before_after": {
+      "description": "Tell the story with one character doing the exact same task twice: first the slow, failing way, then with our tool. End on a big success panel with the number (size, KB, seconds) so the improvement is visible.",
+      "from": "https://www.instagram.com/reel/De_UI6HRvno/",
+      "hook_pattern": "This one [free thing] gives you [big benefit], and I'll prove it with a before/after",
+      "added": "2026-11-17T15:24:16+00:00"
+    },
+    "hidden_features_reveal": {
+      "description": "Our character discovers a tool has a feature nobody told them about, and each hidden feature saves them from a different form disaster. Finish on the best one.",
+      "from": "https://www.instagram.com/reel/DezRZM5SXGo/",
+      "hook_pattern": "[Big new thing] features [authority] didn't tell you",
+      "added": "2026-11-17T15:24:16+00:00"
+    },
+    "three_step_just_do_this": {
+      "description": "Our characters hit a problem, then the story shows three 'just do this' steps in the tool, with the result appearing automatically in a success panel. Say the limit it handles (e.g. size in KB) in one line.",
+      "from": "https://www.instagram.com/reel/Dfj47owytz3/",
+      "hook_pattern": "This is the most useful [thing] you will ever have",
+      "added": "2026-11-17T15:24:16+00:00"
+    },
+    "one_tool_many_jobs": {
+      "description": "Show one of our tools solving a chain of different small problems for one character, each beat adding a new use ('plus', 'bonus'). End with a before/after cost or time anchor.",
+      "from": "https://www.instagram.com/reel/DfUqT2FzWU4/",
+      "hook_pattern": "This one [small thing] is perfect for [seasonal chore]",
+      "added": "2026-11-18T03:53:02+00:00"
+    },
+    "big_news_number": {
+      "description": "Open with a news-style announcement of one number or limit in a tool (for example a size in KB) on screen. Let the narrator show it removing the old problem for a character.",
+      "from": "https://www.instagram.com/reel/DfmZpjDy8P0/",
+      "hook_pattern": "Big news for [group]: [specific number] and no [annoying limit]",
+      "added": "2026-11-18T03:53:02+00:00"
+    },
+    "danger_zone_demo": {
+      "description": "Show the 'danger zone' of a task in 3D, such as a form being rejected, and then let the tool clear it. Narrate the two or three signals the character should watch for.",
+      "from": "https://www.instagram.com/reel/DetQBp8y6Vf/",
+      "hook_pattern": "The most useful [thing] ever, because [danger or loss it prevents]",
+      "added": "2026-11-18T03:53:02+00:00"
+    },
+    "twist_one_twist_two": {
+      "description": "Show an ordinary-looking file or task. Narrate 'twist number one' and 'twist number two' as the tool's surprising abilities are revealed in turn.",
+      "from": "https://www.instagram.com/reel/Dfq8C5WxXUd/",
+      "hook_pattern": "Throw away your boring [object], this one has [N] twists",
+      "added": "2026-11-18T03:53:02+00:00"
+    },
+    "regret_conversation": {
+      "description": "Have two 3D characters talk, where one says what they wish they had known about a document tool before a deadline. Narrate the regret line by line, then give the simple lesson.",
+      "from": "https://www.instagram.com/reel/DfKfvaTP0Ka/",
+      "hook_pattern": "A stranger's regret in one sentence, with big plain captions",
+      "added": "2026-11-18T03:53:02+00:00"
+    },
+    "two_vs_three_upgrade": {
+      "description": "Show that everyone does the job in two steps, but the tool does it in one. Use a counter on screen, and cut it before the story gets too long.",
+      "from": "https://www.instagram.com/reel/DfcGb42tV3r/",
+      "hook_pattern": "Everyone does [two things], but you can do [three] at once",
+      "added": "2026-11-18T03:53:02+00:00"
+    }
   }
- }
 }

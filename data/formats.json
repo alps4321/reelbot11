@@ -1,29 +1,5 @@
 {
   "learned": {
-    "numbered_list_explainer": {
-      "description": "Use a narrator and a counter caption to run through N quick file-fixes, each one a tiny 3D scene with a before and after size panel.",
-      "from": "https://www.instagram.com/reel/DfMA961Plsh/",
-      "hook_pattern": "N new [things] in [trending update] you need to know",
-      "added": "2026-11-17T15:19:02+00:00"
-    },
-    "same_task_before_after": {
-      "description": "Tell the story with one character doing the exact same task twice: first the slow, failing way, then with our tool. End on a big success panel with the number (size, KB, seconds) so the improvement is visible.",
-      "from": "https://www.instagram.com/reel/De_UI6HRvno/",
-      "hook_pattern": "This one [free thing] gives you [big benefit], and I'll prove it with a before/after",
-      "added": "2026-11-17T15:24:16+00:00"
-    },
-    "hidden_features_reveal": {
-      "description": "Our character discovers a tool has a feature nobody told them about, and each hidden feature saves them from a different form disaster. Finish on the best one.",
-      "from": "https://www.instagram.com/reel/DezRZM5SXGo/",
-      "hook_pattern": "[Big new thing] features [authority] didn't tell you",
-      "added": "2026-11-17T15:24:16+00:00"
-    },
-    "three_step_just_do_this": {
-      "description": "Our characters hit a problem, then the story shows three 'just do this' steps in the tool, with the result appearing automatically in a success panel. Say the limit it handles (e.g. size in KB) in one line.",
-      "from": "https://www.instagram.com/reel/Dfj47owytz3/",
-      "hook_pattern": "This is the most useful [thing] you will ever have",
-      "added": "2026-11-17T15:24:16+00:00"
-    },
     "one_tool_many_jobs": {
       "description": "Show one of our tools solving a chain of different small problems for one character, each beat adding a new use ('plus', 'bonus'). End with a before/after cost or time anchor.",
       "from": "https://www.instagram.com/reel/DfUqT2FzWU4/",
@@ -59,6 +35,30 @@
       "from": "https://www.instagram.com/reel/DfcGb42tV3r/",
       "hook_pattern": "Everyone does [two things], but you can do [three] at once",
       "added": "2026-11-18T03:53:02+00:00"
+    },
+    "smallest_in_the_world_proof": {
+      "description": "Open by calling the file or tool the lightest, smallest or fastest of its kind. Have the narrator back it with two concrete numbers (KB, seconds or pages) shown on a panel, then close on a relatable payoff.",
+      "from": "https://www.instagram.com/reel/DfZdQCqgstN/",
+      "hook_pattern": "This is the smallest/most [adjective] [thing] in the world, and here is the proof in numbers",
+      "added": "2026-11-18T12:17:18+00:00"
+    },
+    "i_tested_n_so_you_dont_have_to": {
+      "description": "A narrator says they tried several ways of doing a document task, such as common apps or screenshots. A results panel shows most of them failing with errors or bad sizes, and the final panel shows one that works.",
+      "from": "https://www.instagram.com/reel/Dfd1nyvxTnV/",
+      "hook_pattern": "I tested [N] [things] so you don't have to, and surprisingly none of them worked",
+      "added": "2026-11-18T12:17:18+00:00"
+    },
+    "poor_thing_mishap": {
+      "description": "A short, funny story where a file suffers a common mistake and the narrator pities it. A quick fix ends the scene.",
+      "from": "https://www.instagram.com/reel/DfHwgTBPRfq/",
+      "hook_pattern": "Poor [thing], look what people did to it",
+      "added": "2026-11-18T12:17:18+00:00"
+    },
+    "custom_unboxing_walkthrough": {
+      "description": "Narrator proudly shows a personalised result, such as a finished passport photo or a signed form, and walks through its details.",
+      "from": "https://www.instagram.com/reel/DfeSBk9NUzA/",
+      "hook_pattern": "This video is extra special because I have my own custom [thing]",
+      "added": "2026-11-18T12:17:18+00:00"
     }
   }
 }

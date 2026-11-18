@@ -188,5 +188,75 @@
     "from": "https://www.instagram.com/reel/DfmZpjDy8P0/",
     "added": "2026-11-18T03:53:02+00:00",
     "used": 0
+  },
+  {
+    "tool": "compress_pdf_kb",
+    "format": "smallest_in_the_world_proof",
+    "hook_en": "This is the smallest your PDF can get, and it still reads perfectly.",
+    "hook_hinglish": "Aapki PDF itni choti ho sakti hai, aur phir bhi ekdum saaf padhi jaati hai.",
+    "angle": "A 6 MB PDF is rejected by a job portal. It gets squeezed down to under 200 KB, the upload goes through, and the narrator calls out both sizes.",
+    "from": "https://www.instagram.com/reel/DfZdQCqgstN/",
+    "added": "2026-11-18T12:17:18+00:00",
+    "used": 0
+  },
+  {
+    "tool": "resize_signature_kb",
+    "format": "hidden_features_reveal",
+    "hook_en": "This is not just a signature photo. Look what it can do on a form.",
+    "hook_hinglish": "Ye sirf signature ki photo nahi hai. Dekho form pe ye kya kar sakti hai.",
+    "angle": "A student's signature is rejected for being too big. The scene reveals three hidden things the tool does: resize to 10-20 KB, remove the background and keep it sharp.",
+    "from": "https://www.instagram.com/reel/De5vN3nRdPn/",
+    "added": "2026-11-18T12:17:18+00:00",
+    "used": 0
+  },
+  {
+    "tool": "merge_pdf",
+    "format": "one_tool_many_jobs",
+    "hook_en": "One tool replaces five apps when your documents are scattered.",
+    "hook_hinglish": "Ek hi tool, jo aapke paanch apps ka kaam kar deta hai.",
+    "angle": "A job seeker has an Aadhaar, a marksheet, a resume and a photo in different files. The tool merges them into one PDF, and the narrator shows each job.",
+    "from": "https://www.instagram.com/reel/Df10_TFBzDZ/",
+    "added": "2026-11-18T12:17:18+00:00",
+    "used": 0
+  },
+  {
+    "tool": "unlock_aadhaar",
+    "format": "i_tested_n_so_you_dont_have_to",
+    "hook_en": "I tried 4 ways to open a locked Aadhaar PDF, and only one worked.",
+    "hook_hinglish": "Maine locked Aadhaar PDF kholne ke 4 tareeke try kiye, sirf ek chala.",
+    "angle": "Four attempts fail with red error panels. The last one opens the file, and the narrator ends with a save-for-later line.",
+    "from": "https://www.instagram.com/reel/Dfd1nyvxTnV/",
+    "added": "2026-11-18T12:17:18+00:00",
+    "used": 0
+  },
+  {
+    "tool": "passport_photo",
+    "format": "hidden_features_reveal",
+    "hook_en": "This is not a normal photo. It looks like any selfie, but it passes a passport check.",
+    "hook_hinglish": "Ye normal photo nahi hai. Selfie jaisi dikhti hai, par passport check pass kar leti hai.",
+    "angle": "A selfie is turned into a correctly sized passport photo. Three hidden steps are shown on screen: background, size and print layout.",
+    "from": "https://www.instagram.com/reel/De5vN3nRdPn/",
+    "added": "2026-11-18T12:17:18+00:00",
+    "used": 0
+  },
+  {
+    "tool": "resize_photo_kb",
+    "format": "poor_thing_mishap",
+    "hook_en": "Poor photo. It was 4 MB and the form only wanted 50 KB.",
+    "hook_hinglish": "Bechari photo. 4 MB thi aur form ko sirf 50 KB chahiye tha.",
+    "angle": "A 3D photo file is crushed by a rejection error and the narrator feels sorry for it. It is resized to 20-50 KB and accepted.",
+    "from": "https://www.instagram.com/reel/DfHwgTBPRfq/",
+    "added": "2026-11-18T12:17:18+00:00",
+    "used": 0
+  },
+  {
+    "tool": "bank_statement_excel",
+    "format": "big_news_number",
+    "hook_en": "Three hundred rows of bank statement turned into Excel in one go.",
+    "hook_hinglish": "Teen sau rows ka bank statement, ek baar mein Excel ban gaya.",
+    "angle": "A tired intern is about to retype a statement by hand. The big number 300 appears, the file converts, and the narrator is relieved.",
+    "from": "https://www.instagram.com/reel/DfZdQCqgstN/",
+    "added": "2026-11-18T12:17:18+00:00",
+    "used": 0
   }
 ]

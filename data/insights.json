@@ -239,5 +239,96 @@
     ],
     "visual": "Presenter at a desk with the phone, and cutaways to the screen. Moderate cuts.",
     "speaking": "Slow Hinglish at 3.4 words/s with an English mix. Product-brochure tone, so it's less gripping."
+  },
+  {
+    "at": "2026-11-18T12:17:18+00:00",
+    "permalink": "https://www.instagram.com/reel/DfZdQCqgstN/",
+    "why": "One superlative claim (smallest, lightest) is proven by a hand-held demo in 31 seconds. Every sentence adds a new proof, and the caption and spoken line state the claim in the same words. The playful closing line gives people a reason to share it.",
+    "hook_pattern": "This is the smallest/most [adjective] [thing] in the world, and here is the proof in numbers",
+    "structure": [
+      "Superlative claim with a bold on-screen title",
+      "Hard size and weight numbers",
+      "Dead-simple use: plug in and go",
+      "Surprise feature that removes a worry",
+      "Fold-flat or pack-away payoff",
+      "Playful share line"
+    ],
+    "visual": "Close-up hands holding the object against a purple or plain backdrop. Bold white captions with the key word highlighted in a colour box. A title card sits in the first frame.",
+    "speaking": "Fast, about 4.3 words per second, with no pauses. Upbeat and a little cheeky. The key numbers get the stress."
+  },
+  {
+    "at": "2026-11-18T12:17:18+00:00",
+    "permalink": "https://www.instagram.com/reel/Df10_TFBzDZ/",
+    "why": "One product is shown replacing many, and each mode brings a fresh visual reward such as pizza, cake or dry fruits. The pace stays steady while the viewer's list of benefits keeps growing. Because the reel runs 68 seconds, it earns less engagement per follower.",
+    "hook_pattern": "This one [thing] can replace [N] things you use now, and it does [big promise]",
+    "structure": [
+      "Replace-many promise",
+      "Core feature explained against the old way",
+      "Rapid list of modes, each with a visual",
+      "Size or capacity benefit",
+      "Convenience features such as cleanup and a window",
+      "Closing share line"
+    ],
+    "visual": "Product demo with food cuts and on-screen spec callouts. The captions are small.",
+    "speaking": "Steady, about 4 words per second. Enthusiastic and list-like, with the benefits stacked one after another."
+  },
+  {
+    "at": "2026-11-18T12:17:18+00:00",
+    "permalink": "https://www.instagram.com/reel/De5vN3nRdPn/",
+    "why": "The opening line says the shoe looks normal, then the hidden surprise follows straight away. Each feature is acted out on screen, and the reel ends on a rhetorical challenge. The 'not your regular X' framing creates a curiosity gap that one line can close.",
+    "hook_pattern": "This is not your normal [thing], it looks regular but it has a hidden feature",
+    "structure": [
+      "Looks normal, then 'not your regular X' title",
+      "Reveal the hidden part, here the charging port",
+      "Feature 1 acted out",
+      "Feature 2 with a surprising reward",
+      "Feature 3 as a bonus gesture",
+      "Closing challenge: have you ever seen this before?"
+    ],
+    "visual": "Product shown from every angle, with an animated glow over the shoe, phone app screens and real-life use. A bold title card sits in the first frame. Captions are small and centred, with the key words ",
+    "speaking": "Slower, about 3 words per second, with short pauses before each reveal. Wondering and curious in tone."
+  },
+  {
+    "at": "2026-11-18T12:17:18+00:00",
+    "permalink": "https://www.instagram.com/reel/Dfd1nyvxTnV/",
+    "why": "The creator spends a lot and tests many products, then reports a surprising failure. That earns trust. A three-point checklist and a results table finish the reel, so viewers have something to save.",
+    "hook_pattern": "I tested [N] [things] so you don't have to, and surprisingly none of them worked",
+    "structure": [
+      "Cost and effort of the test",
+      "Test method",
+      "Shock result: none worked",
+      "Why the cheap option fails",
+      "Three-point checklist for a better choice",
+      "Final recommendation"
+    ],
+    "visual": "Creator on camera with products, then test footage with a measuring device and arrows. The last frame is a clean results table with red numbers.",
+    "speaking": "Measured, about 2.9 words per second, with a firm tone and a pause before each result."
+  },
+  {
+    "at": "2026-11-18T12:17:18+00:00",
+    "permalink": "https://www.instagram.com/reel/DfHwgTBPRfq/",
+    "why": "A 10-second reel built on a funny, relatable mishap, with a pitying caption. The very short length makes people watch it again. Its emotional hook is a pity-and-laugh reaction.",
+    "hook_pattern": "Poor [thing], look what people did to it",
+    "structure": [
+      "Funny pitying line",
+      "The mishap",
+      "Quick punchline"
+    ],
+    "visual": "Short raw clip with little editing.",
+    "speaking": "Fast, about 4 words per second, casual and joking, with no pauses."
+  },
+  {
+    "at": "2026-11-18T12:17:18+00:00",
+    "permalink": "https://www.instagram.com/reel/DfeSBk9NUzA/",
+    "why": "A one-of-a-kind custom object is unboxed with personal pride and detail. It gets millions of views from a huge following, but the format depends on the creator's face and on having a rare physical item, so it is hard to reuse.",
+    "hook_pattern": "This video is extra special because I have my own custom [thing]",
+    "structure": [
+      "Special announcement",
+      "Who made it",
+      "Close-up walkthrough",
+      "Emotional meaning"
+    ],
+    "visual": "Long close-up unboxing.",
+    "speaking": "Slow, 2.6 words per second, warm and proud, mixing Hindi and English."
   }
 ]

@@ -87,17 +87,18 @@
     "caption": "PDF ya photo ka koi bhi kaam ho – ek hi website kaafi hai 👇\n\nilovedocuments.in pe 45 free tools:\n📄 PDF compress, merge, split, PDF se Word ya Excel\n✍️ Sign karo, password lagao ya hatao\n📸 Photo KB mein resize, background hatao, passport photo\n🪪 ID card print, signature clean\n\nKaise? Tool kholo → file select karo → download. Bas.\n\n🔒 File aapke phone se bahar nahi jaati – sab kuch aapke device pe hi hota hai.\nFree. No sign-up. No watermark.\n\n📌 Save kar lo – agli baar form ya document ke time dhoondhna nahi padega\n📤 Us dost ko bhejo jise ye roz chahiye\n➕ Aise aur document hacks ke liye follow karo\n\n#pdf #pdftools #onlineform #examform #documents studenthacks usefulwebsites lifehacksindia freetools ilovedocuments",
     "checked": [
       6,
-      24
+      24,
+      48
     ],
     "metrics": {
       "views": 919,
-      "reach": 769,
+      "reach": 770,
       "likes": 9,
       "comments": 1,
       "shares": 2,
       "saved": 4,
-      "avg_watch_s": 8.7,
-      "views_last_hour": 0
+      "total_interactions": 17,
+      "avg_watch_s": 8.7
     },
     "history": [
       {
@@ -105,6 +106,18 @@
         "hours": 24,
         "views": 915,
         "reach": 769,
+        "likes": 9,
+        "comments": 1,
+        "shares": 2,
+        "saved": 4,
+        "total_interactions": 17,
+        "avg_watch_s": 8.7
+      },
+      {
+        "at": "2026-11-18T06:28:09+00:00",
+        "hours": 48,
+        "views": 919,
+        "reach": 770,
         "likes": 9,
         "comments": 1,
         "shares": 2,
@@ -1245,17 +1258,18 @@
     "hook": "#ilovedocuments",
     "caption": "#ilovedocuments",
     "checked": [
-      6
+      6,
+      24
     ],
     "metrics": {
       "views": 249,
-      "reach": 193,
+      "reach": 195,
       "likes": 3,
       "comments": 0,
       "shares": 18,
       "saved": 0,
-      "avg_watch_s": 8.1,
-      "views_last_hour": 4
+      "total_interactions": 21,
+      "avg_watch_s": 8.2
     },
     "history": [
       {
@@ -1268,6 +1282,18 @@
         "shares": 0,
         "saved": 0,
         "total_interactions": 3,
+        "avg_watch_s": 8.2
+      },
+      {
+        "at": "2026-11-18T06:28:10+00:00",
+        "hours": 24,
+        "views": 249,
+        "reach": 195,
+        "likes": 3,
+        "comments": 0,
+        "shares": 18,
+        "saved": 0,
+        "total_interactions": 21,
         "avg_watch_s": 8.2
       }
     ]
@@ -1888,6 +1914,238 @@
     "media_id": "18485319535117892",
     "permalink": "https://www.instagram.com/reel/Df3sRygisaf/",
     "posted_at": "2026-11-18T05:30:10+00:00",
+    "checked": []
+  },
+  {
+    "id": "20261118-062821-english",
+    "created_at": "2026-11-18T06:40:16+00:00",
+    "language": "english",
+    "topic": "remove_background",
+    "hook_style": "how_to",
+    "format": "same_task_before_after",
+    "pace": "natural",
+    "idea": "3 things you can do with one photo and no editing skills.",
+    "plan_reason": "week 1: every tool gets a first try; hook style: explore; format: explore; pace: new test; idea from the niche scout",
+    "title": "Rahul's ID photo in 10 seconds",
+    "hook": "Can one selfie become an ID photo?",
+    "seconds": 21.4,
+    "script": {
+      "title": "Rahul's ID photo in 10 seconds",
+      "scenes": [
+        {
+          "kind": "hook",
+          "screen": "Can one selfie become an ID photo?",
+          "emphasis": [
+            "ID photo"
+          ],
+          "voice": "Can a selfie become an ID photo? ... Let's see.",
+          "say": "Can a selfie become an ID photo? Let's see.",
+          "label": "DAY 1",
+          "set": "bedroom",
+          "camera": "push_in",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "phone",
+              "x": 0.0,
+              "look": "camera"
+            }
+          ],
+          "props": [],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "THE OLD WAY",
+          "emphasis": [],
+          "voice": "Rahul tries the old way first.",
+          "say": "Rahul tries the old way first.",
+          "label": "THE OLD WAY",
+          "set": "bedroom",
+          "camera": "wide",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "type",
+              "x": -0.4,
+              "look": "right"
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "text",
+              "text": "Erase by hand"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "1 HOUR LATER",
+          "emphasis": [],
+          "voice": "One hour gone. Edges still messy.",
+          "say": "One hour gone. Edges still messy.",
+          "label": "1 HOUR LATER",
+          "set": "night",
+          "camera": "close",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "sad",
+              "x": 0.0,
+              "look": "camera",
+              "float": {
+                "text": "Messy edge",
+                "color": "#ff5a66"
+              }
+            }
+          ],
+          "props": [
+            {
+              "type": "clock",
+              "text": "1:10 AM"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "NEXT MORNING",
+          "emphasis": [],
+          "voice": "Then his sister shows him one thing.",
+          "say": "Then his sister shows him one thing.",
+          "label": "NEXT MORNING",
+          "set": "office",
+          "camera": "orbit",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "sit",
+              "x": -0.7,
+              "look": "right"
+            },
+            {
+              "color": "pink",
+              "pose": "point",
+              "x": 0.7,
+              "look": "left"
+            }
+          ],
+          "props": [],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "THE NEW WAY",
+          "emphasis": [],
+          "voice": "Same selfie. I love documents dot A I.",
+          "say": "Same selfie. ilovedocuments.ai",
+          "label": "THE NEW WAY",
+          "set": "office",
+          "camera": "push_in",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "phone",
+              "x": 0.0,
+              "look": "camera"
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "text",
+              "text": "Remove Background"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "",
+          "emphasis": [],
+          "voice": "One tap. The background is gone.",
+          "say": "One tap. The background is gone.",
+          "label": null,
+          "set": "office",
+          "camera": "close",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "cheer",
+              "x": 0.0,
+              "look": "camera"
+            }
+          ],
+          "props": [],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "10 SECONDS",
+          "emphasis": [],
+          "voice": "Ten seconds. Clean white background.",
+          "say": "10 seconds. Clean white background.",
+          "label": "10 SECONDS",
+          "set": "office",
+          "camera": "high",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "cheer",
+              "x": 0.0,
+              "look": "camera"
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "success",
+              "file": "id-photo.jpg",
+              "size": "45 KB",
+              "message": "White background"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "cta",
+          "screen": "Free. No sign-up. No watermark.",
+          "emphasis": [
+            "Free"
+          ],
+          "voice": "Free, and it stays on your phone. Save this for your next form.",
+          "say": "Free, and it stays on your phone. Save this for your next form.",
+          "label": null,
+          "set": "park",
+          "camera": "wide",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "wave",
+              "x": 0.0,
+              "look": "camera"
+            }
+          ],
+          "props": [],
+          "visual": null
+        }
+      ],
+      "caption": "One hour of erasing vs 10 seconds. Same selfie, clean white ID photo. Works on your phone, free, files stay on your device.\nWhich form needs your photo next? Comment below.\nilovedocuments.ai",
+      "hashtags": [
+        "#idphoto",
+        "#removebackground",
+        "#passportphoto",
+        "#onlineform",
+        "#ilovedocuments"
+      ]
+    },
+    "caption": "One hour of erasing vs 10 seconds. Same selfie, clean white ID photo. Works on your phone, free, files stay on your device.\nWhich form needs your photo next? Comment below.\nilovedocuments.ai\n\n#idphoto #removebackground #passportphoto #onlineform #ilovedocuments",
+    "video": "20261118-062821-english.mp4",
+    "media_id": "18166106116431797",
+    "permalink": "https://www.instagram.com/reel/Df34jo3pcP6/",
+    "posted_at": "2026-11-18T07:30:11+00:00",
     "checked": []
   }
 ]

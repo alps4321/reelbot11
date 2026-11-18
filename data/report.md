@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-18T15:43:47+00:00
+Updated 2026-11-18T18:29:03+00:00
 
-Reels made: 16. Posted: 12. Measured: 10.
+Reels made: 17. Posted: 12. Measured: 11.
 
 ## english: results by topic
 
@@ -95,12 +95,13 @@ Reels made: 16. Posted: 12. Measured: 10.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-18 | hinglish | compress_pdf_kb | what_if | What if your PDF is too big? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/Df4hglbgBie/) |
-| 2026-11-18 | english | remove_background | same_task_before_after | Can one selfie become an ID photo? | 441 | 6.2 | 3 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/Df34jo3pcP6/) |
-| 2026-11-18 | hinglish | pdf_to_word | secret_answer | PDF ko edit kaise karein? | 870 | 9.2 | 5 | 2 | 0 | 6 |  | [open](https://www.instagram.com/reel/Df3sRygisaf/) |
-| 2026-11-17 | english | cheat_sheet_5_tools | cheat_sheet | Stop paying the cyber cafe for these 5 things | 144 | 4.1 | 1 | 0 | 0 | 2 | 99 | [open](https://www.instagram.com/reel/Df2KxDjjwSe/) |
+| 2026-11-18 | hinglish | resize_image_kb | explainer | Form bola 100 KB. Photo hai 1.8 MB. |  |  |  |  |  |  |  | dry run |
+| 2026-11-18 | hinglish | compress_pdf_kb | what_if | What if your PDF is too big? | 172 | 7.1 | 5 | 1 | 0 | 0 |  | [open](https://www.instagram.com/reel/Df4hglbgBie/) |
+| 2026-11-18 | english | remove_background | same_task_before_after | Can one selfie become an ID photo? | 442 | 6.2 | 3 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/Df34jo3pcP6/) |
+| 2026-11-18 | hinglish | pdf_to_word | secret_answer | PDF ko edit kaise karein? | 1022 | 9.3 | 6 | 2 | 0 | 7 |  | [open](https://www.instagram.com/reel/Df3sRygisaf/) |
+| 2026-11-17 | english | cheat_sheet_5_tools | cheat_sheet | Stop paying the cyber cafe for these 5 things | 146 | 4.0 | 1 | 0 | 0 | 2 | 99 | [open](https://www.instagram.com/reel/Df2KxDjjwSe/) |
 | 2026-11-17 | english | jpg_to_pdf | secret_answer | How do you send 4 photos as one PDF? | 138 | 7.0 | 0 | 0 | 0 | 0 | 100 | [open](https://www.instagram.com/reel/Df2IYAIAR7x/) |
-| 2026-11-17 | english | general | manual | #ilovedocuments | 249 | 8.2 | 3 | 0 | 18 | 0 | 397 | [open](https://www.instagram.com/reel/Df1OFyStuBw/) |
+| 2026-11-17 | english | general | manual | #ilovedocuments | 253 | 8.1 | 3 | 0 | 18 | 0 | 397 | [open](https://www.instagram.com/reel/Df1OFyStuBw/) |
 | 2026-11-16 | hinglish | remove_background | two_friends | 2 dost. 1 photo. 50 KB. |  |  |  |  |  |  |  | dry run |
 | 2026-11-16 | english | jpg_to_pdf | two_friends | Form closes at 11:58 PM. Which friend wins? |  |  |  |  |  |  |  | dry run |
 | 2026-11-16 | hinglish | unlock_aadhaar | what_if | What if your form closed in 2 minutes? |  |  |  |  |  |  |  | dry run |

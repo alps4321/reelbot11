@@ -42,8 +42,8 @@
       "comments": 0,
       "shares": 1,
       "saved": 0,
-      "total_interactions": 5,
-      "avg_watch_s": 1.7
+      "avg_watch_s": 1.7,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -105,13 +105,13 @@
     ],
     "metrics": {
       "views": 919,
-      "reach": 770,
+      "reach": 772,
       "likes": 9,
       "comments": 1,
       "shares": 2,
       "saved": 4,
-      "total_interactions": 17,
-      "avg_watch_s": 8.7
+      "avg_watch_s": 8.7,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -166,8 +166,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "total_interactions": 8,
-      "avg_watch_s": 9.4
+      "avg_watch_s": 9.4,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -222,8 +222,8 @@
       "comments": 0,
       "shares": 7,
       "saved": 4,
-      "total_interactions": 13,
-      "avg_watch_s": 6.3
+      "avg_watch_s": 6.3,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -278,8 +278,8 @@
       "comments": 4,
       "shares": 18,
       "saved": 24,
-      "total_interactions": 67,
-      "avg_watch_s": 8.2
+      "avg_watch_s": 8.2,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -1314,14 +1314,14 @@
       24
     ],
     "metrics": {
-      "views": 249,
-      "reach": 195,
+      "views": 253,
+      "reach": 198,
       "likes": 3,
       "comments": 0,
       "shares": 18,
       "saved": 0,
-      "total_interactions": 21,
-      "avg_watch_s": 8.2
+      "avg_watch_s": 8.1,
+      "views_last_hour": 3
     },
     "history": [
       {
@@ -1636,8 +1636,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "total_interactions": 0,
-      "avg_watch_s": 7.0
+      "avg_watch_s": 7.0,
+      "views_last_hour": 4
     },
     "history": [
       {
@@ -1684,14 +1684,14 @@
     "caption": "Stop paying the cyber cafe for these 5 things 👇\n\n1. PDF too big for the form → Compress PDF\n2. Photos, but the form wants one PDF → JPG to PDF\n3. Aadhaar PDF password → first 4 letters of your name in CAPITALS + your birth year\n4. Need to sign a form → Sign PDF, no printing\n5. Bank statement into Excel → Bank Statement Converter\n\nAll free. No sign-up. Your files never leave your phone.\n\n📌 Save this for your next form.\n💬 Which one didn't you know? Comment the number.\n\nilovedocuments.ai\n\n#onlineform #pdf #aadhaar #studenthacks #techtips",
     "queued": true,
     "metrics": {
-      "views": 144,
-      "reach": 118,
+      "views": 146,
+      "reach": 120,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 2,
-      "total_interactions": 3,
-      "avg_watch_s": 4.1
+      "avg_watch_s": 4.0,
+      "views_last_hour": 3
     },
     "history": [
       {
@@ -1996,14 +1996,14 @@
       6
     ],
     "metrics": {
-      "views": 870,
-      "reach": 713,
-      "likes": 5,
+      "views": 1022,
+      "reach": 846,
+      "likes": 6,
       "comments": 2,
       "shares": 0,
-      "saved": 6,
-      "total_interactions": 13,
-      "avg_watch_s": 9.2
+      "saved": 7,
+      "avg_watch_s": 9.3,
+      "views_last_hour": 379
     },
     "history": [
       {
@@ -2254,14 +2254,14 @@
       6
     ],
     "metrics": {
-      "views": 441,
-      "reach": 392,
+      "views": 442,
+      "reach": 393,
       "likes": 3,
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "total_interactions": 4,
-      "avg_watch_s": 6.2
+      "avg_watch_s": 6.2,
+      "views_last_hour": 87
     },
     "history": [
       {
@@ -2550,6 +2550,222 @@
     "media_id": "18126328261926379",
     "permalink": "https://www.instagram.com/reel/Df4hglbgBie/",
     "posted_at": "2026-11-18T13:30:09+00:00",
-    "checked": []
+    "checked": [],
+    "metrics": {
+      "views": 172,
+      "reach": 142,
+      "likes": 5,
+      "comments": 1,
+      "shares": 0,
+      "saved": 0,
+      "avg_watch_s": 7.1,
+      "views_last_hour": 0
+    }
+  },
+  {
+    "id": "20261118-182443-hinglish",
+    "created_at": "2026-11-18T18:29:03+00:00",
+    "language": "hinglish",
+    "topic": "resize_image_kb",
+    "hook_style": "bold_claim",
+    "format": "explainer",
+    "pace": "natural",
+    "idea": "",
+    "plan_reason": "week 1: every tool gets a first try; hook style: explore; format: explore; pace: explore",
+    "title": "Form ka KB limit? Exact kar do",
+    "hook": "Form bola 100 KB. Photo hai 1.8 MB.",
+    "seconds": 25.2,
+    "script": {
+      "title": "Form ka KB limit? Exact kar do",
+      "scenes": [
+        {
+          "kind": "hook",
+          "say": "Form bola 100 KB. Photo hai 1.8 MB.",
+          "voice": "फॉर्म बोला 100 केबी... फोटो है 1.8 एमबी।",
+          "accent": [
+            "100 KB."
+          ],
+          "tag": "upload error",
+          "meter": {
+            "label": "SIZE",
+            "value": "1.8 MB"
+          },
+          "scene": {
+            "type": "phone_upload",
+            "state": "error",
+            "file": "photo.jpg",
+            "size": "1.8 MB",
+            "text": "File too large. Max 100 KB",
+            "title": "Exam form"
+          },
+          "screen": "Form bola 100 KB. Photo hai 1.8 MB.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "say": "Fix hai ilovedocuments.ai ka Resize Image in KB.",
+          "voice": "फ़िक्स है आई लव डॉक्यूमेंट्स डॉट ए आई का रीसाइज़ इमेज इन केबी।",
+          "accent": [
+            "Resize Image in KB."
+          ],
+          "tag": "the fix",
+          "scene": {
+            "type": "browser",
+            "url": "ilovedocuments.ai",
+            "button": "Resize Image in KB"
+          },
+          "meter": null,
+          "screen": "Fix hai ilovedocuments.ai ka Resize Image in KB.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "say": "45 free tools. No sign up. No water mark.",
+          "voice": "45 फ्री टूल्स। नो साइन अप। नो वाटर मार्क।",
+          "accent": [
+            "No sign up."
+          ],
+          "tag": "free",
+          "scene": {
+            "type": "counter",
+            "value": 45,
+            "label": "free tools",
+            "badge": "NO SIGN-UP"
+          },
+          "meter": null,
+          "screen": "45 free tools. No sign up. No water mark.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "say": "Photo upload karo, aur apni KB limit daalo.",
+          "voice": "फोटो अपलोड करो, और अपनी केबी लिमिट डालो।",
+          "accent": [
+            "KB limit"
+          ],
+          "tag": "how",
+          "scene": {
+            "type": "steps",
+            "items": [
+              "Upload",
+              "Type 100 KB",
+              "Download"
+            ]
+          },
+          "meter": null,
+          "screen": "Photo upload karo, aur apni KB limit daalo.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "say": "Tool photo ko exact us size tak chhota karta hai.",
+          "voice": "टूल फोटो को एग्ज़ैक्ट उस साइज़ तक छोटा करता है।",
+          "accent": [
+            "exact"
+          ],
+          "tag": "resize",
+          "meter": {
+            "label": "SIZE",
+            "value": "98 KB"
+          },
+          "scene": {
+            "type": "file_shrink",
+            "file": "photo.jpg",
+            "from": "1.8 MB",
+            "to": "98 KB"
+          },
+          "screen": "Tool photo ko exact us size tak chhota karta hai.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "say": "Ab form ne photo le li. Done.",
+          "voice": "अब फॉर्म ने फोटो ले ली। डन।",
+          "accent": [
+            "Done."
+          ],
+          "tag": "result",
+          "scene": {
+            "type": "before_after",
+            "before": "1.8 MB",
+            "after": "98 KB",
+            "before_label": "REJECTED",
+            "after_label": "ACCEPTED"
+          },
+          "meter": null,
+          "screen": "Ab form ne photo le li. Done.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "say": "Sab kuch tumhare phone ke browser mein hota hai.",
+          "voice": "सब कुछ तुम्हारे फ़ोन के ब्राउज़र में होता है।",
+          "accent": [
+            "browser"
+          ],
+          "tag": "safe",
+          "scene": {
+            "type": "privacy",
+            "text": "Never uploaded"
+          },
+          "meter": null,
+          "screen": "Sab kuch tumhare phone ke browser mein hota hai.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "say": "Tum ab apne khud ke cyber cafe ho.",
+          "voice": "... तुम अब अपने खुद के साइबर कैफ़े हो।",
+          "accent": [
+            "cyber cafe"
+          ],
+          "tag": "you",
+          "scene": {
+            "type": "spotlight",
+            "title": "CYBER CAFE"
+          },
+          "meter": null,
+          "screen": "Tum ab apne khud ke cyber cafe ho.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "kind": "cta",
+          "say": "Save karo, agle form ke liye.",
+          "voice": "सेव करो, अगले फॉर्म के लिए।",
+          "accent": [
+            "Save"
+          ],
+          "tag": "save it",
+          "scene": {
+            "type": "cta",
+            "keyword": "SAVE",
+            "line": "// free · no sign-up · no watermark"
+          },
+          "meter": null,
+          "screen": "Save karo, agle form ke liye.",
+          "emphasis": [],
+          "visual": null
+        }
+      ],
+      "caption": "Form ne photo reject kar di kyunki KB limit zyada thi? Ab bas limit type karo aur ho gaya. Aapko kaunsi limit sabse tricky lagti hai?\nilovedocuments.ai",
+      "hashtags": [
+        "#ilovedocuments",
+        "#resizeimage",
+        "#onlineform",
+        "#examform",
+        "#india"
+      ]
+    },
+    "caption": "Form ne photo reject kar di kyunki KB limit zyada thi? Ab bas limit type karo aur ho gaya. Aapko kaunsi limit sabse tricky lagti hai?\nilovedocuments.ai\n\n#ilovedocuments #resizeimage #onlineform #examform #india",
+    "video": "20261118-182443-hinglish.mp4",
+    "dry_run": true
   }
 ]

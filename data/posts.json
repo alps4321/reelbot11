@@ -143,7 +143,8 @@
     "caption": "Please check our website too there are multiple tools that can help u last minute\n\n#ilovedocuments",
     "checked": [
       6,
-      24
+      24,
+      48
     ],
     "metrics": {
       "views": 351,
@@ -152,13 +153,25 @@
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "avg_watch_s": 9.4,
-      "views_last_hour": 0
+      "total_interactions": 8,
+      "avg_watch_s": 9.4
     },
     "history": [
       {
         "at": "2026-11-17T13:31:15+00:00",
         "hours": 24,
+        "views": 351,
+        "reach": 298,
+        "likes": 6,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
+        "total_interactions": 8,
+        "avg_watch_s": 9.4
+      },
+      {
+        "at": "2026-11-18T12:29:09+00:00",
+        "hours": 48,
         "views": 351,
         "reach": 298,
         "likes": 6,
@@ -1914,7 +1927,33 @@
     "media_id": "18485319535117892",
     "permalink": "https://www.instagram.com/reel/Df3sRygisaf/",
     "posted_at": "2026-11-18T05:30:10+00:00",
-    "checked": []
+    "checked": [
+      6
+    ],
+    "metrics": {
+      "views": 870,
+      "reach": 713,
+      "likes": 5,
+      "comments": 2,
+      "shares": 0,
+      "saved": 6,
+      "total_interactions": 13,
+      "avg_watch_s": 9.2
+    },
+    "history": [
+      {
+        "at": "2026-11-18T12:29:10+00:00",
+        "hours": 6,
+        "views": 870,
+        "reach": 713,
+        "likes": 5,
+        "comments": 2,
+        "shares": 0,
+        "saved": 6,
+        "total_interactions": 13,
+        "avg_watch_s": 9.2
+      }
+    ]
   },
   {
     "id": "20261118-062821-english",
@@ -2146,6 +2185,280 @@
     "media_id": "18166106116431797",
     "permalink": "https://www.instagram.com/reel/Df34jo3pcP6/",
     "posted_at": "2026-11-18T07:30:11+00:00",
+    "checked": []
+  },
+  {
+    "id": "20261118-122923-hinglish",
+    "created_at": "2026-11-18T12:38:08+00:00",
+    "language": "hinglish",
+    "topic": "compress_pdf_kb",
+    "hook_style": "problem",
+    "format": "what_if",
+    "pace": "brisk",
+    "idea": "This is the smallest your PDF can get, and it still reads perfectly.",
+    "plan_reason": "week 1: every tool gets a first try; hook style: new test; format: new test; pace: new test; idea from the niche scout",
+    "title": "What if Rohan's 6 MB PDF got rejected?",
+    "hook": "What if your PDF is too big?",
+    "seconds": 19.5,
+    "script": {
+      "title": "What if Rohan's 6 MB PDF got rejected?",
+      "scenes": [
+        {
+          "kind": "hook",
+          "screen": "What if your PDF is too big?",
+          "emphasis": [
+            "too big"
+          ],
+          "voice": "व्हाट इफ... रोहन की PDF बहुत बड़ी निकली तो?",
+          "say": "What if Rohan ki PDF bahut badi nikli to?",
+          "label": "11:40 PM",
+          "set": "night",
+          "camera": "push_in",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "panic",
+              "x": 0.0,
+              "look": "camera",
+              "float": {
+                "text": "6 MB",
+                "color": "#ff5a66"
+              }
+            }
+          ],
+          "props": [
+            {
+              "type": "clock",
+              "text": "11:40 PM"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Job form. Last date today.",
+          "emphasis": [
+            "Last date"
+          ],
+          "voice": "जॉब फॉर्म की लास्ट डेट आज थी।",
+          "say": "Job form ki last date aaj thi.",
+          "label": "TODAY",
+          "set": "bedroom",
+          "camera": "close",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "type",
+              "x": -0.5,
+              "look": "right"
+            }
+          ],
+          "props": [
+            {
+              "type": "paper"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Upload failed",
+          "emphasis": [
+            "failed"
+          ],
+          "voice": "पोर्टल बोला, बस दो सौ केबी।",
+          "say": "Portal bola, bas 200 KB.",
+          "label": "ATTEMPT 1",
+          "set": "office",
+          "camera": "high",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "sad",
+              "x": -0.6,
+              "look": "right",
+              "float": {
+                "text": "6 MB",
+                "color": "#ff5a66"
+              }
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "error",
+              "file": "resume.pdf",
+              "size": "6 MB",
+              "message": "Max size 200 KB"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "But that's not the worst",
+          "emphasis": [
+            "not the worst"
+          ],
+          "voice": "और रोहन के पास सिर्फ दस मिनट थे।",
+          "say": "Aur Rohan ke paas sirf 10 minute the.",
+          "label": "11:50 PM",
+          "set": "night",
+          "camera": "low",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "panic",
+              "x": 0.4,
+              "look": "camera"
+            }
+          ],
+          "props": [
+            {
+              "type": "clock",
+              "text": "11:50 PM"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Compress PDF",
+          "emphasis": [
+            "Compress PDF"
+          ],
+          "voice": "फिर दोस्त बोला... आई लव डॉक्यूमेंट्स पर कम्प्रेस PDF लगा।",
+          "say": "Phir dost bola ilovedocuments.ai par Compress PDF laga.",
+          "label": null,
+          "set": "night",
+          "camera": "orbit",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "phone",
+              "x": -0.6,
+              "look": "right"
+            },
+            {
+              "color": "teal",
+              "pose": "point",
+              "x": 0.7,
+              "look": "left"
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "text",
+              "text": "Compress PDF"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "6 MB → 180 KB",
+          "emphasis": [
+            "180 KB"
+          ],
+          "voice": "छह MB... सीधा एक सौ अस्सी केबी।",
+          "say": "6 MB seedha 180 KB.",
+          "label": "11:52 PM",
+          "set": "night",
+          "camera": "push_in",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "cheer",
+              "x": 0.0,
+              "look": "camera"
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "size_drop",
+              "file": "resume.pdf",
+              "from": "6 MB",
+              "to": "180 KB",
+              "message": ""
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Uploaded. Still clear.",
+          "emphasis": [
+            "Uploaded"
+          ],
+          "voice": "अपलोड हो गया, और सब साफ पढ़ रहा था।",
+          "say": "Upload ho gaya, aur sab saaf padh raha tha.",
+          "label": "11:53 PM",
+          "set": "night",
+          "camera": "wide",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "cheer",
+              "x": -0.4,
+              "look": "camera"
+            },
+            {
+              "color": "teal",
+              "pose": "wave",
+              "x": 0.7,
+              "look": "left"
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "success",
+              "file": "resume.pdf",
+              "size": "180 KB",
+              "message": "Uploaded"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "cta",
+          "screen": "Free. No sign-up. No watermark.",
+          "emphasis": [
+            "Free"
+          ],
+          "voice": "अगले फॉर्म के लिए सेव कर लो।",
+          "say": "Agle form ke liye save kar lo.",
+          "label": null,
+          "set": "night",
+          "camera": "close",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "point",
+              "x": 0.0,
+              "look": "camera"
+            }
+          ],
+          "props": [],
+          "visual": null
+        }
+      ],
+      "caption": "Rohan ki 6 MB PDF 180 KB ban gayi, aur form time pe submit hua. 😅\nFile browser mein hi compress hoti hai, upload nahi hoti.\nAapki PDF kitne MB ki thi? Comment mein batao. Save kar lo agle form ke liye.\nilovedocuments.ai",
+      "hashtags": [
+        "#CompressPDF",
+        "#PDF",
+        "#OnlineForm",
+        "#GovtJob",
+        "#ilovedocuments"
+      ]
+    },
+    "caption": "Rohan ki 6 MB PDF 180 KB ban gayi, aur form time pe submit hua. 😅\nFile browser mein hi compress hoti hai, upload nahi hoti.\nAapki PDF kitne MB ki thi? Comment mein batao. Save kar lo agle form ke liye.\nilovedocuments.ai\n\n#CompressPDF #PDF #OnlineForm #GovtJob #ilovedocuments",
+    "video": "20261118-122923-hinglish.mp4",
+    "media_id": "18126328261926379",
+    "permalink": "https://www.instagram.com/reel/Df4hglbgBie/",
+    "posted_at": "2026-11-18T13:30:09+00:00",
     "checked": []
   }
 ]

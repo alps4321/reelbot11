@@ -197,7 +197,7 @@
     "angle": "A 6 MB PDF is rejected by a job portal. It gets squeezed down to under 200 KB, the upload goes through, and the narrator calls out both sizes.",
     "from": "https://www.instagram.com/reel/DfZdQCqgstN/",
     "added": "2026-11-18T12:17:18+00:00",
-    "used": 0
+    "used": 1
   },
   {
     "tool": "resize_signature_kb",

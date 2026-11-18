@@ -140,6 +140,94 @@ Return:
   "label": null, "set": "night", "camera": "push_in", "actors": [{{"color": "orange", "pose": "type"}}], "props": []}}],
  "caption": "...", "hashtags": ["#..."]}}"""
 
+EXPLAINER_PROMPT = """Write one reel as a flat, hand-drawn animated explainer (cream paper, coral and black drawings).
+Every sentence is one shot: the sentence builds on screen word by word as a big headline while a drawing
+animates under it. It must feel like a smart friend telling you about a find: confident, quick, concrete.
+
+Topic: {topic}
+Hook style: {hook_style}
+{idea}Spoken length: 22-28 seconds, about 65-85 spoken words in total, 8 or 9 shots.
+
+What is working for other creators in this niche right now (studied by our scout; learn the pattern,
+never copy their words):
+{research}
+
+What our own results have taught us so far:
+keep: {keep}
+avoid: {avoid}
+
+Hooks we used recently (do not repeat them): {recent}
+
+The structure (it comes from a reel that performed very well; follow it):
+1. HOOK (shot 1, kind "hook"): one bold, specific line that makes the viewer stay. A surprising claim or the exact
+   pain ("Your form just rejected a 2 MB PDF?"). No greeting, no brand name yet.
+2. REVEAL (shot 2): name the fix: the site ilovedocuments.ai and the tool.
+3. PROOF NUMBER (shot 3): one concrete true number ("45 free tools. No sign-up.").
+4. BREAKDOWN (2-3 shots): exactly what happens for THIS topic, with real-looking details (file names, sizes, steps).
+5. TRUST (1 shot): why it is safe or easy (it runs in your browser, files are not uploaded, works on the phone).
+6. PAYOFF (1 shot, the second-to-last): an identity line that makes the viewer feel powerful
+   ("You just became your own cyber cafe."). Use the "spotlight" scene.
+7. CTA (last shot, kind "cta"): tell them to save it for their next form. Never ask them to comment for a link or a DM:
+   we cannot send links. Use the "cta" scene.
+
+Writing rules:
+- Each "say" is one spoken sentence of 4 to 12 words. Short words. Contractions. Speak like a person, not an ad.
+- Numbers as digits in "say". Never state another business's price as a fact.
+- "accent": 1 or 2 words copied exactly from "say" (with their punctuation) that carry the meaning; they are shown in
+  coral italic. Numbers are highlighted automatically.
+- "tag": a 1-3 word lowercase section label shown at the top left (like "upload error", "the fix", "how").
+- "meter": optional small counter shown at the top right, e.g. {{"label": "SIZE", "value": "180 KB"}} or {{"label": "PRICE", "value": "Rs 0"}}.
+- "voice": the narration as it is pronounced. {voice_rule} Put "..." where the speaker pauses for effect (at most
+  one per shot; use it after the hook and right before the payoff). The voice engine stumbles on some words: write
+  "water mark" and "sign up" as two words, and keep brand and tool names simple.
+- "say": the same line in Roman letters for the headline (ilovedocuments.ai written like that).
+- "scene": one drawing per shot, from this list (use at least 6 different ones; params in brackets):
+  phone_upload {{"state": "error"|"success", "file": "marksheet.pdf", "size": "2.4 MB", "text": "File too large. Max 200 KB", "title": "Exam form"}}
+  file_shrink {{"file": "resume.pdf", "from": "2.4 MB", "to": "180 KB"}}
+  stamp {{"word": "FREE", "on": "big text on the card", "label": "small label", "sub": "optional line"}}
+  counter {{"value": 45, "label": "free tools", "badge": "NO SIGN-UP"}}
+  tool_grid {{"highlight": "the tool name", "count": 45}}
+  steps {{"items": ["Upload", "Pick 200 KB", "Download"]}}   (2 or 3 items, 1-2 words each)
+  browser {{"url": "ilovedocuments.ai", "button": "the tool name"}}
+  before_after {{"before": "2.4 MB", "after": "180 KB", "before_label": "REJECTED", "after_label": "ACCEPTED"}}
+  cyber_cafe {{"price": "Paid", "text": "per page", "free": "FREE"}}
+  privacy {{"text": "Never uploaded"}}
+  deadline {{"time": "11:59 PM", "text": "TODAY"}}
+  id_card {{"title": "Exam form", "name": "Riya Sharma", "sub": "photo 35 x 45 mm"}}
+  split_flap {{"word": "ILOVEDOCS", "sub": "ilovedocuments.ai"}}   (word max 12 letters)
+  convert {{"from": "PDF", "to": "WORD", "text": "Fully editable"}}
+  photo_cutout {{"text": "Background removed"}}
+  spotlight {{"title": "2-12 letters, the identity, e.g. CYBER CAFE"}}
+  cta {{"keyword": "SAVE", "line": "// free · no sign-up · no watermark"}}
+
+Caption: 2-3 short lines in the same language as the reel, a question that invites a comment, then the site.
+At most {max_tags} hashtags.
+
+Return:
+{{"title": "...", "scenes": [{{"kind": "hook", "say": "...", "voice": "...", "accent": ["..."], "tag": "...",
+  "meter": {{"label": "...", "value": "..."}}, "scene": {{"type": "phone_upload", "state": "error", "file": "...", "size": "...", "text": "..."}}}}],
+ "caption": "...", "hashtags": ["#..."]}}"""
+
+EXPLAINER_SCENES = {"phone_upload", "file_shrink", "stamp", "counter", "tool_grid", "steps", "browser", "before_after",
+                    "cyber_cafe", "privacy", "deadline", "id_card", "split_flap", "convert", "photo_cutout",
+                    "spotlight", "cta"}
+
+
+def _clean_explainer(sc, last):
+    scene = sc.get("scene") if isinstance(sc.get("scene"), dict) else {}
+    kind = scene.get("type")
+    if last:
+        scene = {**scene, "type": "cta"} if kind != "cta" else scene
+    elif kind not in EXPLAINER_SCENES or kind == "cta":
+        scene = {"type": "stamp", "word": "FREE", "on": (sc.get("say") or "")[:24]}
+    sc["scene"] = {k: (v[:3] if isinstance(v, list) else v) for k, v in scene.items() if v is not None}
+    sc["accent"] = [str(a) for a in (sc.get("accent") or [])][:2]
+    sc["tag"] = str(sc.get("tag") or "").lower()[:24]
+    m = sc.get("meter")
+    sc["meter"] = {"label": str(m.get("label", ""))[:12].upper(), "value": str(m.get("value", ""))[:10]} if isinstance(m, dict) else None
+    sc["screen"] = (sc.get("say") or sc.get("voice") or "").replace("...", " ")[:60]
+
+
 SETS = {"park", "sunset", "night", "bedroom", "office", "exam"}
 CAMERAS = {"wide", "close", "push_in", "orbit", "low", "high"}
 POSES = {"yell", "talk", "stand", "walk", "sit", "type", "sad", "cheer", "phone", "point", "panic", "wave"}
@@ -221,26 +309,42 @@ def _clean_visual(v):
 
 def validate(cfg, s, lang):
     story = cfg["content"].get("style") == "story3d"
+    explainer = cfg["content"].get("style") == "explainer"
     scenes = s.get("scenes") or []
     if not 4 <= len(scenes) <= 12:
         raise ScriptError(f"needs 4-12 scenes, got {len(scenes)}")
+    if explainer:
+        scenes[0]["kind"], scenes[-1]["kind"] = "hook", "cta"
+        for sc in scenes[1:-1]:
+            sc["kind"] = "point"
     if scenes[0].get("kind") != "hook" or scenes[-1].get("kind") != "cta":
         raise ScriptError("must start with a hook and end with a cta")
-    for sc in scenes:
-        if story:
+    for i, sc in enumerate(scenes):
+        if explainer:
+            _clean_explainer(sc, i == len(scenes) - 1)
+            if len(sc["screen"]) > 60:
+                sc["screen"] = sc["screen"][:60]
+        elif story:
             _clean_shot(sc)
             sc["screen"] = sc.get("screen") or sc.get("label") or ""
             if sc["kind"] in ("hook", "cta") and not sc["screen"]:
                 raise ScriptError("hook and cta need screen text")
-        if not sc.get("voice") or (not story and not sc.get("screen")):
+        if not sc.get("voice") or (not story and not explainer and not sc.get("screen")):
             raise ScriptError("every scene needs screen text and voice")
-        if len(sc["screen"]) > 60:
+        if len(sc["screen"]) > 60 and not explainer:
             raise ScriptError(f"screen text too long: {sc['screen']}")
         if lang.get("tts_script") and not sc.get("say"):
             raise ScriptError('every scene needs "say" (the spoken line in Roman letters)')
         sc["say"] = " ".join((sc.get("say") or sc["voice"]).replace("...", " ").replace("…", " ").split())
         sc.setdefault("emphasis", [])
-        sc["visual"] = None if story else _clean_visual(sc.get("visual"))
+        sc["visual"] = None if (story or explainer) else _clean_visual(sc.get("visual"))
+    if explainer:
+        kinds = {sc["scene"]["type"] for sc in scenes}
+        if len(kinds) < 5:
+            raise ScriptError(f"use at least 6 different scenes, got {sorted(kinds)}")
+        long = [sc["say"] for sc in scenes if len(sc["say"].split()) > 16]
+        if long:
+            raise ScriptError(f"sentences too long for the headline (max 12 words): {long[0]}")
     words = sum(len(sc["say"].split()) for sc in scenes)
     if not 30 <= words <= 150:
         raise ScriptError(f"voiceover is {words} words, outside 30-150")
@@ -367,6 +471,7 @@ def write(cfg, plan, playbook):
     topic = next(t for t in c["topics"] if t["id"] == plan["topic"])
     topic_title = f"{topic['title']} (the site's tool for this is called \"{topic.get('tool', topic['title'])}\")"
     story = c.get("style") == "story3d"
+    explainer = c.get("style") == "explainer"
     if not claude.available(cfg):
         if not cfg["posting"]["dry_run"]:
             raise ScriptError("No Claude credentials: refusing to post a template script")
@@ -384,7 +489,7 @@ def write(cfg, plan, playbook):
     system = SYSTEM.format(name=b["name"], url=b["url"], tagline=b["tagline"],
                            audience=c["audience"].strip(), tone=c["voice_and_tone"],
                            facts="; ".join(c["facts"]), write_in=lang["write_in"].strip())
-    prompt = (STORY_PROMPT if story else PROMPT).format(
+    prompt = (EXPLAINER_PROMPT if explainer else STORY_PROMPT if story else PROMPT).format(
         topic=topic_title, format=plan["format"],
         format_help=format_help(plan["format"]), idea=idea_text(plan.get("idea"), lang),
         hook_style=plan["hook_style"], lo=lo, hi=hi, wlo=int(lo * 2.0), whi=int(hi * 2.0),   # the narrator pauses, so fewer words fit

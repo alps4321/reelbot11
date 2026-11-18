@@ -12,7 +12,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from reelbot import analyze, claude, config, instagram, learn, pipeline, render, render3d, script, store
+from reelbot import analyze, claude, config, instagram, learn, pipeline, render, render2d, render3d, script, store
 
 tmp = Path(tempfile.mkdtemp())
 store.DATA = analyze.DATA = tmp
@@ -53,7 +53,11 @@ def fake_claude(cfg, system, prompt, max_tokens=2000):
     if "Results of our" in prompt:
         return {"keep": ["x"], "avoid": ["y"], "next_tests": ["z"]}
     lang = cfg["content"]["languages"][1 if "Devanagari" in prompt else 0]
-    return script._offline_story(cfg, "t", lang)
+    s = script._offline_story(cfg, "t", lang)
+    kinds = ["phone_upload", "split_flap", "counter", "file_shrink", "steps", "privacy", "spotlight", "browser"]
+    for i, sc in enumerate(s["scenes"]):       # explainer reels: one drawing per shot
+        sc["scene"] = {"type": kinds[i % len(kinds)]}
+    return s
 
 
 real_plan = learn.next_plan
@@ -66,7 +70,7 @@ def plan(cfg, lang, slot=0, today=None):
 
 
 claude.ask_json = fake_claude
-render.render = render3d.render = lambda cfg, s, a, sp, st, total, out: (Path(out).write_bytes(b"x"), Path(out))[1]
+render.render = render2d.render = render3d.render = lambda cfg, s, a, sp, st, total, out: (Path(out).write_bytes(b"x"), Path(out))[1]
 pipeline.Instagram = FakeIG
 learn.next_plan = plan
 

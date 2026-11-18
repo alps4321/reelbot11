@@ -251,7 +251,29 @@ def _sfx(name):
             t = i / RATE
             sq = 1 if math.sin(2 * math.pi * 140 * t) > 0 else -1
             out.append(int(3800 * sq * (1 if (t % 0.13) < 0.1 else 0)))
+    elif name == "thud":              # a stamp landing
+        n = int(RATE * 0.22)
+        for i in range(n):
+            t = i / RATE
+            out.append(int(11000 * math.sin(2 * math.pi * (70 + 90 * math.exp(-t * 40)) * t) * math.exp(-t * 18)
+                           + 2500 * rnd.uniform(-1, 1) * math.exp(-t * 90)))
     return out
+
+
+# Explainer reels: sounds placed on the animation's own beats (seconds after the shot starts; studio/explainer.js).
+def explainer_sfx(scene):
+    p, kind = scene or {}, (scene or {}).get("type")
+    table = {
+        "phone_upload": [("buzz" if p.get("state") != "success" else "ding", 0.6)],
+        "file_shrink": [("ding", 1.45)], "stamp": [("thud", 0.52)], "counter": [("ding", 1.0)],
+        "tool_grid": [("pop", 0.95)], "browser": [("pop", 1.3)], "before_after": [("buzz", 0.35), ("ding", 0.95)],
+        "cyber_cafe": [("pop", 1.0)], "privacy": [("ding", 0.8)], "deadline": [("buzz", 0.55)],
+        "id_card": [("thud", 0.35)], "spotlight": [("ding", 0.6)], "cta": [("pop", 0.85)],
+        "convert": [("pop", 0.85)], "photo_cutout": [("ding", 1.15)],
+        "steps": [("pop", 0.15 + i * 0.5) for i in range(min(3, len(p.get("items") or [1, 2, 3])))],
+        "split_flap": [("ding", 0.2 + min(12, len(str(p.get("word", "ILOVEDOCS")))) * 0.07)],
+    }
+    return table.get(kind, [])
 
 
 def _mix(track, clip, at):
@@ -317,10 +339,15 @@ def synthesize(cfg, lang, scenes, workdir, gap=None, tail=1.0, pace="calm"):
         t += dur + pad
 
     if cfg["voice"].get("sound_effects"):
-        bank = {n: _sfx(n) for n in ("whoosh", "pop", "ding", "buzz")}
+        bank = {n: _sfx(n) for n in ("whoosh", "pop", "ding", "buzz", "thud")}
         for i, sc in enumerate(scenes):
             if i:
                 _mix(track, bank["whoosh"], starts[i] - 0.12)
+            if sc.get("scene"):
+                for name, offset in explainer_sfx(sc["scene"]):
+                    if offset < (starts[i + 1] - starts[i] if i + 1 < len(starts) else 9):
+                        _mix(track, bank[name], starts[i] + offset)
+                continue
             panel = next((p for p in sc.get("props") or [] if p.get("type") == "panel"), {})
             kind = (sc.get("visual") or {}).get("type") or panel.get("show")
             if kind == "error":

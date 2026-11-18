@@ -10,7 +10,7 @@ brand:
   text: "#FFFFFF"
 
 content:
-  style: story3d             # story3d = low-poly 3D story reels | cards = text and upload cards
+  style: explainer           # explainer (flat hand-drawn explainer, from 19 Nov 2026) | story3d | cards
   # One reel per language per day. Each language learns from its own results.
   languages:
     - id: english
@@ -40,6 +40,7 @@ content:
     - Free to use, no sign-up, no watermark
     - Files are processed in the browser on your device and are not uploaded
     - Works on mobile and desktop
+    - 45 PDF and image tools on one site
   cta: "Free. No sign-up. No watermark."
   hashtags: ["#pdf", "#onlineform", "#studenthacks", "#govtexam", "#techtips"]
   max_hashtags: 5

@@ -1,7 +1,7 @@
 """One full cycle: measure -> learn -> research -> then, per language: write -> voice -> render -> post."""
 import shutil
 
-from . import analyze, broll, learn, notify, render, render3d, research, script, store, voice
+from . import analyze, broll, learn, notify, render, render2d, render3d, research, script, store, voice
 from .config import OUT, ROOT
 from .instagram import Instagram
 
@@ -13,16 +13,19 @@ def posted_today():
 def make(cfg, plan, playbook=None):
     """Build one reel on disk. Returns the post record (not yet published)."""
     lang = next(l for l in cfg["content"]["languages"] if l["id"] == plan["language"])
+    style = cfg["content"].get("style")
+    if style == "explainer":       # the explainer has its own structure; record it as its own format
+        plan = {**plan, "format": "explainer"}
     s = script.write(cfg, plan, playbook or {})
     rid = f"{store.now().strftime('%Y%m%d-%H%M%S')}-{lang['id']}"
     work = OUT / f"{rid}-work"
     work.mkdir(parents=True, exist_ok=True)
-    story = cfg["content"].get("style") == "story3d"
+    story = style in ("story3d", "explainer")
     clip = None if story else broll.fetch(cfg, s["scenes"][0].get("broll"), work / "broll.mp4")
     if clip:
         s["scenes"][0]["broll_path"] = str(clip)
     audio, speech, starts, total = voice.synthesize(cfg, lang, s["scenes"], work, pace=plan.get("pace", "calm"))
-    engine = render3d if story else render
+    engine = render2d if style == "explainer" else render3d if style == "story3d" else render
     video = engine.render(cfg, s, audio, speech, starts, total, OUT / f"{rid}.mp4")
     shutil.rmtree(work, ignore_errors=True)
     s["scenes"][0].pop("broll_path", None)

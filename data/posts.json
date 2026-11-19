@@ -3459,6 +3459,245 @@
     "media_id": "18122064719062058",
     "permalink": "https://www.instagram.com/reel/Df5Yvw8Eckp/",
     "posted_at": "2026-11-18T20:41:25+00:00",
-    "checked": []
+    "checked": [
+      6
+    ],
+    "metrics": {
+      "views": 261,
+      "reach": 218,
+      "likes": 1,
+      "comments": 0,
+      "shares": 1,
+      "saved": 2,
+      "total_interactions": 4,
+      "avg_watch_s": 7.3
+    },
+    "history": [
+      {
+        "at": "2026-11-19T04:29:28+00:00",
+        "hours": 6,
+        "views": 261,
+        "reach": 218,
+        "likes": 1,
+        "comments": 0,
+        "shares": 1,
+        "saved": 2,
+        "total_interactions": 4,
+        "avg_watch_s": 7.3
+      }
+    ]
+  },
+  {
+    "id": "20261119-042941-hinglish",
+    "created_at": "2026-11-19T04:35:14+00:00",
+    "language": "hinglish",
+    "topic": "pdf_to_jpg",
+    "hook_style": "bold_claim",
+    "format": "myth_buster",
+    "pace": "brisk",
+    "distance": "near",
+    "idea": "",
+    "plan_reason": "week 1: every tool gets a first try; hook style: new test; format: new test; pace: explore; distance: explore",
+    "title": "Do PDF ke har page ko photo banana mushkil hai",
+    "hook": "Most people think a PDF page can't become a photo.",
+    "seconds": 27.3,
+    "script": {
+      "title": "Do PDF ke har page ko photo banana mushkil hai",
+      "scenes": [
+        {
+          "say": "Most people think a PDF page can't become a photo.",
+          "voice": "ज़्यादातर लोग सोचते हैं कि PDF का पेज फोटो नहीं बन सकता।",
+          "accent": [
+            "can't become"
+          ],
+          "tag": "myth",
+          "meter": null,
+          "scene": {
+            "type": "big_text",
+            "text": "PDF ≠ PHOTO?",
+            "sub": "Sach mein?"
+          },
+          "kind": "hook",
+          "screen": "Most people think a PDF page can't become a photo.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "So they take a screenshot.",
+          "voice": "तो वो स्क्रीनशॉट ले लेते हैं।",
+          "accent": [
+            "screenshot"
+          ],
+          "tag": "myth",
+          "meter": null,
+          "scene": {
+            "type": "phone_upload",
+            "state": "success",
+            "file": "screenshot.png",
+            "size": "0.4 MB",
+            "text": "Half page cut",
+            "title": "Screenshot"
+          },
+          "kind": "point",
+          "screen": "So they take a screenshot.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Meet Aman. Form needs marksheet as JPG.",
+          "voice": "मिलिए अमन से... फॉर्म को मार्कशीट JPG में चाहिए।",
+          "accent": [
+            "JPG"
+          ],
+          "tag": "story",
+          "meter": null,
+          "scene": {
+            "type": "person",
+            "name": "Aman",
+            "role": "Student",
+            "quote": "Marksheet JPG mein chahiye!"
+          },
+          "kind": "point",
+          "screen": "Meet Aman. Form needs marksheet as JPG.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "His screenshot came out blurry and cropped.",
+          "voice": "उसका स्क्रीनशॉट धुंधला और कटा हुआ आया।",
+          "accent": [
+            "blurry",
+            "cropped"
+          ],
+          "tag": "story",
+          "meter": null,
+          "scene": {
+            "type": "phone_upload",
+            "state": "error",
+            "file": "marksheet.png",
+            "size": "0.4 MB",
+            "text": "Text not readable",
+            "title": "Blurry"
+          },
+          "kind": "point",
+          "screen": "His screenshot came out blurry and cropped.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Screenshot copies what your screen shows. Nothing more.",
+          "voice": "स्क्रीनशॉट वही कॉपी करता है जो स्क्रीन पर दिखता है... बस।",
+          "accent": [
+            "Nothing more"
+          ],
+          "tag": "truth",
+          "meter": null,
+          "scene": {
+            "type": "versus",
+            "left": "Screenshot",
+            "right": "Real page",
+            "left_sub": "Screen only",
+            "right_sub": "Full page",
+            "winner": "right"
+          },
+          "kind": "point",
+          "screen": "Screenshot copies what your screen shows. Nothing more.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "The right way: convert each page into its own image.",
+          "voice": "सही तरीका... हर पेज को अलग इमेज में बदलो।",
+          "accent": [
+            "each page"
+          ],
+          "tag": "fix",
+          "meter": null,
+          "scene": {
+            "type": "convert",
+            "from": "PDF",
+            "to": "JPG",
+            "text": "1 page = 1 image"
+          },
+          "kind": "point",
+          "screen": "The right way: convert each page into its own image.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Sharp text. Full page. One file per page.",
+          "voice": "साफ़ टेक्स्ट। पूरा पेज। हर पेज की एक फाइल।",
+          "accent": [
+            "Sharp text"
+          ],
+          "tag": "fix",
+          "meter": null,
+          "scene": {
+            "type": "checklist",
+            "title": "PDF to JPG",
+            "items": [
+              "Sharp text",
+              "Full page",
+              "1 file per page"
+            ]
+          },
+          "kind": "point",
+          "screen": "Sharp text. Full page. One file per page.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "On ilovedocuments.ai, PDF to JPG does it free. No sign up.",
+          "voice": "आई लव डॉक्यूमेंट्स डॉट ए आई पर PDF to JPG ये फ्री में करता है... नो sign up।",
+          "accent": [
+            "free"
+          ],
+          "tag": "tool",
+          "meter": null,
+          "scene": {
+            "type": "browser",
+            "url": "ilovedocuments.ai",
+            "button": "PDF to JPG"
+          },
+          "kind": "point",
+          "screen": "On ilovedocuments.ai, PDF to JPG does it free. No sign up.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Files stay on your device. Save this reel.",
+          "voice": "फाइलें आपके डिवाइस पर ही रहती हैं। ये रील सेव कर लो।",
+          "accent": [
+            "Save"
+          ],
+          "tag": "save",
+          "meter": null,
+          "scene": {
+            "type": "cta",
+            "keyword": "SAVE",
+            "line": "// screenshot nahi, convert karo"
+          },
+          "kind": "cta",
+          "screen": "Files stay on your device. Save this reel.",
+          "emphasis": [],
+          "visual": null
+        }
+      ],
+      "caption": "Screenshot lena shortcut lagta hai, par form mein quality chahiye. Aapne kabhi blurry screenshot upload kiya hai? Batao comments mein. PDF to JPG: ilovedocuments.ai",
+      "hashtags": [
+        "#pdftojpg",
+        "#onlineform",
+        "#studentlife",
+        "#documents",
+        "#india"
+      ]
+    },
+    "caption": "Screenshot lena shortcut lagta hai, par form mein quality chahiye. Aapne kabhi blurry screenshot upload kiya hai? Batao comments mein. PDF to JPG: ilovedocuments.ai\n\n#pdftojpg #onlineform #studentlife #documents #india",
+    "video": "20261119-042941-hinglish.mp4",
+    "media_id": "18042907439842233",
+    "permalink": "https://www.instagram.com/reel/Df6PCtYDKsH/",
+    "posted_at": "2026-11-19T05:30:12+00:00",
+    "checked": [],
+    "slot": "11:00"
   }
 ]

@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-18T20:41:26+00:00
+Updated 2026-11-19T05:30:13+00:00
 
-Reels made: 20. Posted: 13. Measured: 11.
+Reels made: 21. Posted: 14. Measured: 12.
 
 ## english: results by topic
 
@@ -97,7 +97,8 @@ Reels made: 20. Posted: 13. Measured: 11.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-18 | hinglish | resize_image_kb | discovery | Charging 100% tak mat karo. |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/Df5Yvw8Eckp/) |
+| 2026-11-19 | hinglish | pdf_to_jpg | myth_buster | Most people think a PDF page can't become a photo. |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/Df6PCtYDKsH/) |
+| 2026-11-18 | hinglish | resize_image_kb | discovery | Charging 100% tak mat karo. | 261 | 7.3 | 1 | 0 | 1 | 2 |  | [open](https://www.instagram.com/reel/Df5Yvw8Eckp/) |
 | 2026-11-18 | english | resize_image_kb | discovery | Do you know your phone's secret number? |  |  |  |  |  |  |  | dry run |
 | 2026-11-18 | hinglish | resize_image_kb | discovery | Photo ka size 200 KB kaise hota hai? |  |  |  |  |  |  |  | dry run |
 | 2026-11-18 | hinglish | resize_image_kb | explainer | Form bola 100 KB. Photo hai 1.8 MB. |  |  |  |  |  |  |  | dry run |

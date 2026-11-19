@@ -1,14 +1,14 @@
 # ReelBot report
 
-Updated 2026-11-19T05:30:13+00:00
+Updated 2026-11-19T07:30:10+00:00
 
-Reels made: 21. Posted: 14. Measured: 12.
+Reels made: 22. Posted: 15. Measured: 13.
 
 ## english: results by topic
 
 | topic | reels | avg score |
 |---|---|---|
-| general | 2 | 380.0 |
+| general | 2 | 381.5 |
 | merge_pdf | 1 | 145.0 |
 | jpg_to_pdf | 1 | 100.0 |
 | cheat_sheet_5_tools | 1 | 99.0 |
@@ -17,7 +17,7 @@ Reels made: 21. Posted: 14. Measured: 12.
 
 | hook_style | reels | avg score |
 |---|---|---|
-| manual | 3 | 301.7 |
+| manual | 3 | 302.7 |
 | question | 1 | 100.0 |
 | bold_claim | 1 | 99.0 |
 
@@ -25,7 +25,7 @@ Reels made: 21. Posted: 14. Measured: 12.
 
 | format | reels | avg score |
 |---|---|---|
-| manual | 3 | 301.7 |
+| manual | 3 | 302.7 |
 | secret_answer | 1 | 100.0 |
 | cheat_sheet | 1 | 99.0 |
 
@@ -57,6 +57,7 @@ Reels made: 21. Posted: 14. Measured: 12.
 | topic | reels | avg score |
 |---|---|---|
 | unlock_aadhaar | 1 | 2286.0 |
+| pdf_to_word | 1 | 1200.0 |
 | passport_photo | 1 | 971.0 |
 | resize_photo_kb | 1 | 325.0 |
 
@@ -64,13 +65,21 @@ Reels made: 21. Posted: 14. Measured: 12.
 
 | hook_style | reels | avg score |
 |---|---|---|
+| question | 1 | 1200.0 |
 | manual | 3 | 1194.0 |
 
 ## hinglish: results by format
 
 | format | reels | avg score |
 |---|---|---|
+| secret_answer | 1 | 1200.0 |
 | manual | 3 | 1194.0 |
+
+## hinglish: results by pace
+
+| pace | reels | avg score |
+|---|---|---|
+| natural | 1 | 1200.0 |
 
 ## hinglish: what the bot has learned
 
@@ -97,17 +106,18 @@ Reels made: 21. Posted: 14. Measured: 12.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-19 | hinglish | pdf_to_jpg | myth_buster | Most people think a PDF page can't become a photo. |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/Df6PCtYDKsH/) |
-| 2026-11-18 | hinglish | resize_image_kb | discovery | Charging 100% tak mat karo. | 261 | 7.3 | 1 | 0 | 1 | 2 |  | [open](https://www.instagram.com/reel/Df5Yvw8Eckp/) |
+| 2026-11-19 | english | word_to_pdf | story | Why did Rohan miss his own interview? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/Df6etz3jcm7/) |
+| 2026-11-19 | hinglish | pdf_to_jpg | myth_buster | Most people think a PDF page can't become a photo. | 82 | 9.3 | 0 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/Df6PCtYDKsH/) |
+| 2026-11-18 | hinglish | resize_image_kb | discovery | Charging 100% tak mat karo. | 293 | 7.1 | 2 | 0 | 1 | 2 |  | [open](https://www.instagram.com/reel/Df5Yvw8Eckp/) |
 | 2026-11-18 | english | resize_image_kb | discovery | Do you know your phone's secret number? |  |  |  |  |  |  |  | dry run |
 | 2026-11-18 | hinglish | resize_image_kb | discovery | Photo ka size 200 KB kaise hota hai? |  |  |  |  |  |  |  | dry run |
 | 2026-11-18 | hinglish | resize_image_kb | explainer | Form bola 100 KB. Photo hai 1.8 MB. |  |  |  |  |  |  |  | dry run |
-| 2026-11-18 | hinglish | compress_pdf_kb | what_if | What if your PDF is too big? | 184 | 7.1 | 5 | 1 | 0 | 0 |  | [open](https://www.instagram.com/reel/Df4hglbgBie/) |
-| 2026-11-18 | english | remove_background | same_task_before_after | Can one selfie become an ID photo? | 442 | 6.2 | 3 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/Df34jo3pcP6/) |
-| 2026-11-18 | hinglish | pdf_to_word | secret_answer | PDF ko edit kaise karein? | 1022 | 9.3 | 6 | 2 | 0 | 7 |  | [open](https://www.instagram.com/reel/Df3sRygisaf/) |
+| 2026-11-18 | hinglish | compress_pdf_kb | what_if | What if your PDF is too big? | 283 | 7.7 | 6 | 1 | 0 | 0 |  | [open](https://www.instagram.com/reel/Df4hglbgBie/) |
+| 2026-11-18 | english | remove_background | same_task_before_after | Can one selfie become an ID photo? | 444 | 6.2 | 3 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/Df34jo3pcP6/) |
+| 2026-11-18 | hinglish | pdf_to_word | secret_answer | PDF ko edit kaise karein? | 1281 | 9.2 | 7 | 2 | 0 | 11 | 1200 | [open](https://www.instagram.com/reel/Df3sRygisaf/) |
 | 2026-11-17 | english | cheat_sheet_5_tools | cheat_sheet | Stop paying the cyber cafe for these 5 things | 146 | 4.0 | 1 | 0 | 0 | 2 | 99 | [open](https://www.instagram.com/reel/Df2KxDjjwSe/) |
-| 2026-11-17 | english | jpg_to_pdf | secret_answer | How do you send 4 photos as one PDF? | 138 | 7.0 | 0 | 0 | 0 | 0 | 100 | [open](https://www.instagram.com/reel/Df2IYAIAR7x/) |
-| 2026-11-17 | english | general | manual | #ilovedocuments | 253 | 8.1 | 3 | 0 | 18 | 0 | 397 | [open](https://www.instagram.com/reel/Df1OFyStuBw/) |
+| 2026-11-17 | english | jpg_to_pdf | secret_answer | How do you send 4 photos as one PDF? | 139 | 7.0 | 0 | 0 | 0 | 0 | 100 | [open](https://www.instagram.com/reel/Df2IYAIAR7x/) |
+| 2026-11-17 | english | general | manual | #ilovedocuments | 253 | 8.1 | 3 | 0 | 18 | 0 | 400 | [open](https://www.instagram.com/reel/Df1OFyStuBw/) |
 | 2026-11-16 | hinglish | remove_background | two_friends | 2 dost. 1 photo. 50 KB. |  |  |  |  |  |  |  | dry run |
 | 2026-11-16 | english | jpg_to_pdf | two_friends | Form closes at 11:58 PM. Which friend wins? |  |  |  |  |  |  |  | dry run |
 | 2026-11-16 | hinglish | unlock_aadhaar | what_if | What if your form closed in 2 minutes? |  |  |  |  |  |  |  | dry run |

@@ -57,7 +57,9 @@ def fake_claude(cfg, system, prompt, max_tokens=2000):
     kinds = ["phone_upload", "split_flap", "counter", "file_shrink", "steps", "privacy", "spotlight", "browser"]
     for i, sc in enumerate(s["scenes"]):       # explainer reels: one drawing per shot, the site only at the end
         sc["scene"] = {"type": kinds[i % len(kinds)]}
-        sc["say"] = sc["voice"] = f"A useful thing number {i}" if i < len(s["scenes"]) - 1 else "Save this, ilovedocuments.ai"
+        hi = "Devanagari" in prompt
+        line = f"Yeh kaam ki baat hai number {i}" if hi else f"A useful thing number {i}"
+        sc["say"] = sc["voice"] = line if i < len(s["scenes"]) - 1 else "Save this, ilovedocuments.ai"
     return s
 
 

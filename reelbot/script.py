@@ -143,6 +143,8 @@ Return:
 EXPLAINER_PROMPT = """Write one reel in our flat, hand-drawn animated explainer style: every sentence builds on screen word
 by word as a big headline while a drawing animates under it.
 
+LANGUAGE: every "say", the caption and all text inside the drawings are in {write_in}
+
 THE MOST IMPORTANT RULE: the reel must be worth watching even if our website did not exist. It is about something
 genuinely interesting, useful or surprising for young people in India who deal with exams, jobs, forms, documents,
 phones and everyday digital life. It does NOT have to be about the tool: go off track if the story is better there.
@@ -219,6 +221,11 @@ Return:
 {{"title": "...", "scenes": [{{"say": "...", "voice": "...", "accent": ["..."], "tag": "...",
   "meter": null, "scene": {{"type": "...", "...": "..."}}}}],
  "caption": "...", "hashtags": ["#..."]}}"""
+
+HINDI = {"hai", "hain", "ho", "ka", "ki", "ke", "ko", "se", "mein", "me", "nahi", "na", "kar", "karo", "karein", "kya",
+         "kyun", "aur", "bhi", "toh", "to", "yeh", "ye", "woh", "wo", "ek", "apna", "apni", "apne", "aap", "tum", "hum",
+         "jab", "par", "pe", "bas", "sirf", "abhi", "kaise", "kaun", "kitna", "wala", "wali", "gaya", "gayi", "hota",
+         "hoti", "chahiye", "lo", "do", "dekho", "bolo", "matlab", "yaar", "bhai", "ab", "phir", "agar", "lekin"}
 
 EXPLAINER_SCENES = {"phone_upload", "file_shrink", "stamp", "counter", "tool_grid", "steps", "browser", "before_after",
                     "cyber_cafe", "privacy", "deadline", "id_card", "split_flap", "convert", "photo_cutout",
@@ -361,6 +368,11 @@ def validate(cfg, s, lang):
         n_words = sum(len(sc["say"].split()) for sc in scenes)
         if n_words > 82:
             raise ScriptError(f"{n_words} words is too long: keep it to 55-75 words (about 25 seconds)")
+        if lang.get("tts_script"):    # Hinglish: the headline must read as Hinglish, not English
+            words = " ".join(sc["say"] for sc in scenes).lower().split()
+            hindi = sum(w.strip(".,?!") in HINDI for w in words)
+            if hindi < max(4, len(words) * 0.12):
+                raise ScriptError("write every 'say' line in Hinglish (Roman letters), not English")
         early = [sc["say"] for sc in scenes[:-2] if "ilovedocuments" in sc["say"].lower().replace(" ", "")]
         if early:
             raise ScriptError(f"the site may only come in the last two sentences, not: {early[0]}")
@@ -525,7 +537,7 @@ def write(cfg, plan, playbook):
     prompt = (EXPLAINER_PROMPT if explainer else STORY_PROMPT if story else PROMPT).format(
         topic=topic_title, format=plan["format"],
         format_help=format_help(plan["format"], cfg), idea=idea_text(plan.get("idea"), lang),
-        recent_reels=recent_reels(),
+        recent_reels=recent_reels(), write_in=lang["write_in"].strip(),
         distance=c.get("distances", {}).get(plan.get("distance"), "either, whichever makes the better story"),
         hook_style=plan["hook_style"], lo=lo, hi=hi, wlo=int(lo * 2.0), whi=int(hi * 2.0),   # the narrator pauses, so fewer words fit
         research="\n".join(x for x in (scout.digest(), research.digest()) if x) or "(no research data yet)",

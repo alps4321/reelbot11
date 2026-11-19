@@ -137,10 +137,46 @@
       "pause_s": 0.4,
       "lang": "en",
       "per_k": 32.4
+    },
+    {
+      "wps": 4.33,
+      "pause_s": 0.0,
+      "lang": "en",
+      "per_k": 2.5
+    },
+    {
+      "wps": 3.59,
+      "pause_s": 0.35,
+      "lang": "en",
+      "per_k": 52.8
+    },
+    {
+      "wps": 2.38,
+      "pause_s": 1.17,
+      "lang": "hi",
+      "per_k": 38.1
+    },
+    {
+      "wps": 3.88,
+      "pause_s": 15.74,
+      "lang": "hi",
+      "per_k": 36.4
+    },
+    {
+      "wps": 3.22,
+      "pause_s": 0.32,
+      "lang": "en",
+      "per_k": 27.9
+    },
+    {
+      "wps": 1.01,
+      "pause_s": 0.78,
+      "lang": "hi",
+      "per_k": 27.4
     }
   ],
-  "notes": "The best speakers here keep a fast pace (about 3 to 4 words per second) with almost no pauses, and start talking at 0.0 s with no warm-up. They save the longer pause or emphasis for one turn, like the reveal of the killer feature, and always end on a short, shareable line.",
-  "updated": "2026-11-19T04:36:05+00:00",
-  "words_per_second": 3.27,
-  "pause_s": 0.5
+  "notes": "The fastest speakers keep a steady pace of about 3.5 to 4.3 words per second with almost no dead air, and they save a short pause for just before the big number or reveal. They start with a claim or number in the very first second and lean on the key figure (rupees, KB, grams) with a stress and a slightly slower delivery.",
+  "updated": "2026-11-19T12:13:46+00:00",
+  "words_per_second": 3.17,
+  "pause_s": 0.33
 }

@@ -328,5 +328,75 @@
     "from": "https://www.instagram.com/reel/DfJPwjExay4/",
     "added": "2026-11-19T04:36:05+00:00",
     "used": 0
+  },
+  {
+    "tool": "compress_pdf_kb",
+    "format": "too_good_to_be_legal_reveal",
+    "hook_en": "This free site should not exist. Watch a 4 MB PDF drop under 200 KB.",
+    "hook_hinglish": "Ye free site toh exist hi nahi karni chahiye. 4 MB ka PDF 200 KB se neeche aa gaya.",
+    "angle": "A student fails the upload at the portal's 200 KB limit. The narrator reveals a tool that compresses it and shows the size panel, then adds that the quality still looks sharp.",
+    "from": "https://www.instagram.com/reel/Df6-BE8hk3q/",
+    "added": "2026-11-19T12:13:46+00:00",
+    "used": 0
+  },
+  {
+    "tool": "resize_photo_kb",
+    "format": "two_vs_three_upgrade",
+    "hook_en": "Photo upload: your phone's 3 MB photo versus a 30 KB one. Which gets accepted?",
+    "hook_hinglish": "Photo upload: phone ki 3 MB photo vs 30 KB wali. Kaunsi accept hogi?",
+    "angle": "Round 1 is size, round 2 is the error message, round 3 is the portal's acceptance. The resized 20-50 KB photo wins every round.",
+    "from": "https://www.instagram.com/reel/DfAGcfCS0mv/",
+    "added": "2026-11-19T12:13:46+00:00",
+    "used": 0
+  },
+  {
+    "tool": "unlock_aadhaar",
+    "format": "big_news_number",
+    "hook_en": "Good news for everyone stuck at the Aadhaar password: it takes 10 seconds.",
+    "hook_hinglish": "Aadhaar PDF ke password se pareshaan logon ke liye good news: sirf 10 second lagte hain.",
+    "angle": "A character is locked out of the Aadhaar PDF before a form deadline. The narrator gives the 10-second number, shows the unlocked file, and says to save it for the next form.",
+    "from": "https://www.instagram.com/reel/DfPZAo5TDed/",
+    "added": "2026-11-19T12:13:46+00:00",
+    "used": 0
+  },
+  {
+    "tool": "merge_pdf",
+    "format": "playful_rivalry_roast",
+    "hook_en": "Sending 7 separate PDFs is basically a crime. Merge them into one.",
+    "hook_hinglish": "7 alag PDF bhejna toh crime hai yaar. Ek mein merge karo.",
+    "angle": "An HR character scolds a candidate for sending 7 scattered files. The candidate merges them in the right order and the HR character smiles.",
+    "from": "https://www.instagram.com/reel/Df2VxPsMPst/",
+    "added": "2026-11-19T12:13:46+00:00",
+    "used": 0
+  },
+  {
+    "tool": "signature_bg_remover",
+    "format": "live_disbelief_walkthrough",
+    "hook_en": "I can't believe a signature photo can become this clean in seconds.",
+    "hook_hinglish": "Yakeen nahi hota, signature ki photo seconds mein itni clean ho gayi.",
+    "angle": "A character shows a signature photo with a shadowed paper background. The narrator walks through the removal and points out the details that matter for forms.",
+    "from": "https://www.instagram.com/reel/Df4dNNBSw3m/",
+    "added": "2026-11-19T12:13:46+00:00",
+    "used": 0
+  },
+  {
+    "tool": "bank_statement_excel",
+    "format": "too_good_to_be_legal_reveal",
+    "hook_en": "This should be illegal: your bank statement PDF becomes an Excel sheet.",
+    "hook_hinglish": "Ye illegal hona chahiye: bank statement PDF seedha Excel sheet ban jaati hai.",
+    "angle": "A job seeker has to re-type 80 rows by hand, then the narrator reveals the converter. Tricks stack up: rows, columns, dates all neat.",
+    "from": "https://www.instagram.com/reel/Df6-BE8hk3q/",
+    "added": "2026-11-19T12:13:46+00:00",
+    "used": 0
+  },
+  {
+    "tool": "pdf_to_word",
+    "format": "festive_refrain_moment",
+    "hook_en": "Before the form deadline tonight, one edit and you're done.",
+    "hook_hinglish": "Aaj raat deadline se pehle, bas ek edit aur kaam khatam.",
+    "angle": "A character races the clock, converts the PDF to Word, fixes a typo, and the narrator repeats a calm refrain as the success panel shows.",
+    "from": "https://www.instagram.com/reel/DfeF-kOIwkr/",
+    "added": "2026-11-19T12:13:46+00:00",
+    "used": 0
   }
 ]

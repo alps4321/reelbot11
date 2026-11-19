@@ -1,29 +1,5 @@
 {
   "learned": {
-    "one_tool_many_jobs": {
-      "description": "Show one of our tools solving a chain of different small problems for one character, each beat adding a new use ('plus', 'bonus'). End with a before/after cost or time anchor.",
-      "from": "https://www.instagram.com/reel/DfUqT2FzWU4/",
-      "hook_pattern": "This one [small thing] is perfect for [seasonal chore]",
-      "added": "2026-11-18T03:53:02+00:00"
-    },
-    "big_news_number": {
-      "description": "Open with a news-style announcement of one number or limit in a tool (for example a size in KB) on screen. Let the narrator show it removing the old problem for a character.",
-      "from": "https://www.instagram.com/reel/DfmZpjDy8P0/",
-      "hook_pattern": "Big news for [group]: [specific number] and no [annoying limit]",
-      "added": "2026-11-18T03:53:02+00:00"
-    },
-    "danger_zone_demo": {
-      "description": "Show the 'danger zone' of a task in 3D, such as a form being rejected, and then let the tool clear it. Narrate the two or three signals the character should watch for.",
-      "from": "https://www.instagram.com/reel/DetQBp8y6Vf/",
-      "hook_pattern": "The most useful [thing] ever, because [danger or loss it prevents]",
-      "added": "2026-11-18T03:53:02+00:00"
-    },
-    "twist_one_twist_two": {
-      "description": "Show an ordinary-looking file or task. Narrate 'twist number one' and 'twist number two' as the tool's surprising abilities are revealed in turn.",
-      "from": "https://www.instagram.com/reel/Dfq8C5WxXUd/",
-      "hook_pattern": "Throw away your boring [object], this one has [N] twists",
-      "added": "2026-11-18T03:53:02+00:00"
-    },
     "regret_conversation": {
       "description": "Have two 3D characters talk, where one says what they wish they had known about a document tool before a deadline. Narrate the regret line by line, then give the simple lesson.",
       "from": "https://www.instagram.com/reel/DfKfvaTP0Ka/",
@@ -59,6 +35,30 @@
       "from": "https://www.instagram.com/reel/DfeSBk9NUzA/",
       "hook_pattern": "This video is extra special because I have my own custom [thing]",
       "added": "2026-11-18T12:17:18+00:00"
+    },
+    "too_good_to_be_legal_reveal": {
+      "description": "Open with a narrator who says an ordinary-looking tool feels almost illegal. Have a 3D character try it, then stack 3 or 4 quick surprising abilities, each shown in its own panel with a file size or result.",
+      "from": "https://www.instagram.com/reel/Df6-BE8hk3q/",
+      "hook_pattern": "This [ordinary thing] should be illegal, they should not be selling this",
+      "added": "2026-11-19T12:13:46+00:00"
+    },
+    "live_disbelief_walkthrough": {
+      "description": "Start with a character who cannot believe something works, then walk through it step by step. The narrator points out small details a viewer would miss, shown on panels.",
+      "from": "https://www.instagram.com/reel/Df4dNNBSw3m/",
+      "hook_pattern": "[Hot topic] I just can't believe it, bhai!",
+      "added": "2026-11-19T12:13:46+00:00"
+    },
+    "playful_rivalry_roast": {
+      "description": "Narrate two tools or habits as friendly rivals, with a cheeky accusation at the start. The 3D characters tease each other and the better tool wins at the end.",
+      "from": "https://www.instagram.com/reel/Df2VxPsMPst/",
+      "hook_pattern": "[Brand A] is being naughty again",
+      "added": "2026-11-19T12:13:46+00:00"
+    },
+    "festive_refrain_moment": {
+      "description": "Tie one tool to a festive or seasonal deadline moment. The narrator repeats one short line as a refrain while the character finishes the task, then ends on a calm success panel.",
+      "from": "https://www.instagram.com/reel/DfeF-kOIwkr/",
+      "hook_pattern": "[Festival/emotion line repeated] with a feeling of arrival",
+      "added": "2026-11-19T12:13:46+00:00"
     }
   }
 }

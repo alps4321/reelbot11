@@ -421,5 +421,94 @@
     ],
     "visual": "Moody, warm product shots, a presenter's reaction, and the same highlighted bottom subtitles.",
     "speaking": "Measured (about 3.2 words per second), with a clear 'but here's the killer feature' turn in the middle."
+  },
+  {
+    "at": "2026-11-19T12:13:46+00:00",
+    "permalink": "https://www.instagram.com/reel/Df6-BE8hk3q/",
+    "why": "The first line is a bold 'this should be illegal' claim that creates curiosity. Each following sentence then reveals one more surprising ability (answers, offline translation, camera, handwritten calculator) in a fast, steady run. The viewer keeps waiting for the next trick.",
+    "hook_pattern": "This [ordinary thing] should be illegal, they should not be selling this",
+    "structure": [
+      "Forbidden-feeling claim about an ordinary-looking object",
+      "Show the disguise: it looks like a normal pen",
+      "Trick 1: the core action gives an instant answer",
+      "Trick 2: works offline and translates",
+      "Trick 3: camera and gallery",
+      "Trick 4: the final surprise, a handwritten calculator"
+    ],
+    "visual": "A close-up demo of the gadget in hand, with the screen result shown right after each action.",
+    "speaking": "Fast, almost 4.3 words per second, with no pauses. Excited and conspiratorial, with a 'crazy part is' escalation mid-way."
+  },
+  {
+    "at": "2026-11-19T12:13:46+00:00",
+    "permalink": "https://www.instagram.com/reel/DfAGcfCS0mv/",
+    "why": "A head-to-head comparison where each round has one clear winner and a concrete number (grams, rupees, repair cost). The price gap lands last, and the viewer has the whole video to anticipate it. Humour ('righties, lefties, swifties') keeps the 80 seconds light.",
+    "hook_pattern": "Time for [A] versus [B]. Let's go. First, the [metric].",
+    "structure": [
+      "Announce the matchup",
+      "Round 1: weight",
+      "Round 2: multitasking",
+      "Round 3: app compatibility, with a joke",
+      "Round 4: inclusivity",
+      "Final round: price gap, then the surprise repair cost"
+    ],
+    "visual": "Side-by-side shots of both products with a number overlay for each round.",
+    "speaking": "Brisk, around 3.6 words per second, with short pauses before the numbers. Playful, and the biggest number comes last."
+  },
+  {
+    "at": "2026-11-19T12:13:46+00:00",
+    "permalink": "https://www.instagram.com/reel/DfPZAo5TDed/",
+    "why": "It opens with 'good news' and names the audience groups. It gives a concrete saving (40%) and prices up front, then two relatable reasons (dual SIM, grandparents). A share-with-family CTA closes it.",
+    "hook_pattern": "Good news for [group A, B, C] users, you can now save [X%] on [thing]",
+    "structure": [
+      "Good news aimed at named groups",
+      "Headline saving figure",
+      "Concrete prices for each option",
+      "Reason 1: a personal use case",
+      "Reason 2: family or relatable use",
+      "CTA: share it"
+    ],
+    "visual": "A talking presenter with price figures overlaid.",
+    "speaking": "Clear and steady, about 3.2 words per second, with frequent short pauses and a friendly news-anchor tone."
+  },
+  {
+    "at": "2026-11-19T12:13:46+00:00",
+    "permalink": "https://www.instagram.com/reel/Df4dNNBSw3m/",
+    "why": "It rests on disbelief about a long-awaited thing ('I can't believe it'). Real-time reactions while noticing details make the viewer feel they are there.",
+    "hook_pattern": "[Hot topic] I just can't believe it, bhai!",
+    "structure": [
+      "Disbelief headline",
+      "Live demonstration while narrating details",
+      "Pointing out small things the viewer would miss",
+      "Closing prediction"
+    ],
+    "visual": "First-person footage with the creator reacting on the spot.",
+    "speaking": "A conversational, slower pace of about 2.4 words per second, with spoken asides and exclamations."
+  },
+  {
+    "at": "2026-11-19T12:13:46+00:00",
+    "permalink": "https://www.instagram.com/reel/Df2VxPsMPst/",
+    "why": "Teasing one brand at another, with the title 'Samsung is naughty', gives the viewer a side to take. The casual, opinionated commentary feels like a friend talking.",
+    "hook_pattern": "[Brand A] is being naughty again",
+    "structure": [
+      "Playful accusation",
+      "What they copied or changed",
+      "Personal experience with it",
+      "Opinion and a wink"
+    ],
+    "visual": "A talking-head creator with the product in hand.",
+    "speaking": "A relaxed, chatty pace of about 3.9 words per second, with a long pause before the opinion and a teasing tone."
+  },
+  {
+    "at": "2026-11-19T12:13:46+00:00",
+    "permalink": "https://www.instagram.com/reel/DfeF-kOIwkr/",
+    "why": "A short, repeated emotional line tied to a festival, so the viewer feels the mood and replays it. It spreads through shares during the festival season.",
+    "hook_pattern": "[Festival/emotion line repeated] with a feeling of arrival",
+    "structure": [
+      "Emotional line",
+      "Repetition of the refrain",
+      "Closing chant"
+    ],
+    "visual": "A devotional, festive visual with a music-led feel.",
+    "speaking": "A slow, melodic pace of about 1 word per second, almost sung."
   }
 ]

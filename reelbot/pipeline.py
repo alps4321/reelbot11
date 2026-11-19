@@ -1,5 +1,6 @@
 """One full cycle: measure -> learn -> research -> then, per language: write -> voice -> render -> post."""
 import shutil
+from datetime import timedelta
 
 from . import analyze, broll, learn, notify, render, render2d, render3d, research, script, store, voice
 from .config import OUT, ROOT
@@ -121,16 +122,23 @@ def run(cfg):
 
     slots = cfg["posting"]["slots"]
     done = posted_today()
-    if not dry and done >= len(slots):
-        print(f"all {len(slots)} reels for today are posted")
-        analyze.report(cfg)
-        return
     times = cfg["posting"].get("times", [])
-    if not dry and target and f"{target:%H:%M}" in times and done > times.index(f"{target:%H:%M}"):
-        print(f"the {target:%H:%M} reel is already live ({done} posted today): nothing to do")   # e.g. a backup run
-        analyze.report(cfg)
-        return
+    taken = learn.slots_taken()
     at = f"{target:%H:%M}" if target else ""
+    if not dry:
+        why = None
+        if target and store.now() > target + timedelta(hours=2):
+            why = f"the {target:%Y-%m-%d %H:%M} slot was missed by more than 2 hours (GitHub started this run late)"
+        elif at and at in taken:
+            why = f"the {at} reel is already live"
+        elif not at and times and all(t in taken for t in times):
+            why = f"all {len(times)} reels for today are posted"
+        elif done >= len(slots) + 1:
+            why = f"{done} reels are already live today, the daily maximum"
+        if why:
+            print(f"{why}: nothing to post")
+            analyze.report(cfg)
+            return
     # each time keeps its language (11:00 Hinglish, 1:00 pm English, 7:00 pm Hinglish), even after a missed slot
     slot = times.index(at) if at in times and times.index(at) < len(slots) else min(done, len(slots) - 1)
     lang = slots[slot]
@@ -148,7 +156,7 @@ def run(cfg):
                 OUT / post["video"], post["caption"],
                 share_to_feed=cfg["posting"]["share_to_feed"],
                 ai_label=cfg["posting"]["label_ai_generated"], go_live_at=target)
-            post.update(media_id=media_id, permalink=link, posted_at=store.iso(), checked=[])
+            post.update(media_id=media_id, permalink=link, posted_at=store.iso(), checked=[], slot=at or None)
             print(f"[{lang}] posted: {link}")
             learn.mark_idea_used(plan.get("idea"))
             notify.posted(cfg, post)

@@ -37,8 +37,8 @@ def _at(now, hhmm):
     return now.replace(hour=h, minute=m, second=0, microsecond=0)
 
 
-def plan(cfg, now, runs, posted):
-    """What to start now. `runs`: [(name, created_at as datetime)], `posted`: reels live today."""
+def plan(cfg, now, runs, taken):
+    """What to start now. `runs`: [(name, created_at as datetime)], `taken`: posting times already live today."""
     todo = []
 
     def started_since(name, since):
@@ -47,7 +47,7 @@ def plan(cfg, now, runs, posted):
     times = cfg["posting"].get("times", [])
     for i, hhmm in enumerate(times):
         live = _at(now, hhmm)
-        if live - timedelta(minutes=70) <= now <= live + timedelta(minutes=40) and posted <= i \
+        if live - timedelta(minutes=70) <= now <= live + timedelta(minutes=40) and hhmm not in taken \
                 and not started_since(REEL, live - timedelta(minutes=80)):
             todo.append(("reelbot.yml", {"slot": hhmm}, f"the {hhmm} reel"))
             break                                   # one reel run at a time
@@ -71,7 +71,7 @@ def run(cfg):
         print(f"due: cannot read today's runs ({str(e)[:100]})")
         return
     runs = [(r["name"], store.parse(r["created_at"]).astimezone(store.IST)) for r in data.get("workflow_runs", [])]
-    for workflow, inputs, what in plan(cfg, now, runs, learn.posted_today()):
+    for workflow, inputs, what in plan(cfg, now, runs, learn.slots_taken()):
         try:
             _start(workflow, inputs)
             print(f"due: started {what} (it had not started on time)")

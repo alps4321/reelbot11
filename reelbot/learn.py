@@ -212,3 +212,10 @@ def posted_today():
     """Reels live today (India date), including ones posted by hand."""
     today = store.today()
     return sum(1 for p in live(store.posts()) if store.local_date(p["posted_at"]) == today)
+
+
+def slots_taken():
+    """Posting times (e.g. "11:00") whose reel is already live today. Reels posted by hand or at an odd time
+    carry no slot, so they never block one."""
+    today = store.today()
+    return {p.get("slot") for p in live(store.posts()) if store.local_date(p["posted_at"]) == today and p.get("slot")}

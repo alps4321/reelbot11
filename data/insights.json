@@ -330,5 +330,96 @@
     ],
     "visual": "Long close-up unboxing.",
     "speaking": "Slow, 2.6 words per second, warm and proud, mixing Hindi and English."
+  },
+  {
+    "at": "2026-11-19T04:36:05+00:00",
+    "permalink": "https://www.instagram.com/reel/De4TOynyEiV/",
+    "why": "It promises a big, specific payoff ('10x faster, forever') in the first line. Then it shows each step on screen, so the viewer feels they could do it themselves. The 'older than God' line and the 'share with someone whose TV is slow' ending give it personality and a reason to share.",
+    "hook_pattern": "Here's how you can hack your [everyday annoying thing] and make it [10x better] forever",
+    "structure": [
+      "Bold claim with a big number",
+      "Setup step shown on screen (settings toggle)",
+      "One action (copy, paste, enter)",
+      "The tool does the work automatically",
+      "Before and after reveal: clean and smooth",
+      "Bonus trick: customize it further",
+      "Share with someone who suffers from this problem"
+    ],
+    "visual": "Real footage of the TV and laptop, with a big white caption card as the title. Word-by-word highlighted subtitles in a purple box. Close-ups of hands and screens.",
+    "speaking": "Fast (about 4 words per second), almost no pauses, upbeat and confident with a joke or two. First word at 0.0 s."
+  },
+  {
+    "at": "2026-11-19T04:36:05+00:00",
+    "permalink": "https://www.instagram.com/reel/Df4m7XLSRXo/",
+    "why": "The title carries a huge ambition and a time span ('13 saal main Real Life GTA'), so it creates curiosity about whether it was really done. The spoken audio is garbled, so the pull most likely comes from the visual spectacle and the title.",
+    "hook_pattern": "[Long time span] ke baad maine [famous thing] real life mein bana diya",
+    "structure": [
+      "Impossible-sounding claim in the title",
+      "Show the finished result straight away",
+      "Show the effort behind it",
+      "Reaction and payoff"
+    ],
+    "visual": "Cinematic real-life recreation of a famous game, with emoji-heavy titles and hashtags.",
+    "speaking": "Slow, with long pauses (about 2 s) and dramatic gaps, in Hindi. The transcript is unreliable, so treat this as low confidence."
+  },
+  {
+    "at": "2026-11-19T04:36:05+00:00",
+    "permalink": "https://www.instagram.com/reel/DfcRcwUS5m2/",
+    "why": "One tiny object solves one clear problem, and the video shows the problem being solved in a single shot. It is short (23 s) with no pauses, so it is easy to watch to the end and replay.",
+    "hook_pattern": "This little [thing] is the only [category] you will ever need",
+    "structure": [
+      "Claim: the only one you need",
+      "Show the problem in use (smoke, red eyes)",
+      "Show the product fixing it",
+      "Small practical detail (battery, off switch)",
+      "Share with someone who has this habit"
+    ],
+    "visual": "Bright teal product close-ups, a creator sitting casually on a bed, and the same subtitle style with highlighted words.",
+    "speaking": "Quick (4.3 words per second), no pauses, relaxed and chatty, with casual slang."
+  },
+  {
+    "at": "2026-11-19T04:36:05+00:00",
+    "permalink": "https://www.instagram.com/reel/Df4cJbESTA1/",
+    "why": "'First Indian to...' sets up exclusivity and national pride around a hot topic (GTA 6). The reel starts with a 4.5 s silent gap, which makes viewers wait for what comes next.",
+    "hook_pattern": "First [nationality or person] to [try the hot new thing]",
+    "structure": [
+      "Exclusivity claim in the title",
+      "Visual evidence of the thing",
+      "Slow reaction",
+      "Payoff"
+    ],
+    "visual": "Real footage of the person with the game, a cheering crowd, and emoji titles.",
+    "speaking": "Slow (1.4 words per second) with a long silent start. The transcript is unreliable, so treat this as low confidence."
+  },
+  {
+    "at": "2026-11-19T04:36:05+00:00",
+    "permalink": "https://www.instagram.com/reel/Df40tzltyb6/",
+    "why": "It ties into an event everyone is talking about and shows a live progress number (58%, 200 GB, under 29 minutes). The progress bar creates a built-in 'will it finish?' tension.",
+    "hook_pattern": "Let me show you something very exciting happening right now: [live progress number]",
+    "structure": [
+      "Tease something exciting",
+      "Show the live progress and the numbers",
+      "Explain what the numbers mean",
+      "Warn about a common mistake, with a personal habit",
+      "Nostalgia or a community sign-off"
+    ],
+    "visual": "A home-cinema setting with the presenter in the shot and a download screen with big numbers.",
+    "speaking": "Conversational Hinglish at about 3.3 words per second, with a slightly breathless, excited tone."
+  },
+  {
+    "at": "2026-11-19T04:36:05+00:00",
+    "permalink": "https://www.instagram.com/reel/DfJPwjExay4/",
+    "why": "It promises exactly one killer feature up front, then holds back that feature while listing smaller perks, so viewers stay for the reveal. The unplug demo is a simple proof that is easy to remember.",
+    "hook_pattern": "The ONLY [product] with 1 unique feature",
+    "structure": [
+      "Promise one killer feature",
+      "List attractive smaller perks to build anticipation",
+      "Reveal the killer feature with a demo (unplug test)",
+      "Explain why it matters in real life",
+      "Price or value comparison",
+      "Call to action"
+    ],
+    "visual": "Moody, warm product shots, a presenter's reaction, and the same highlighted bottom subtitles.",
+    "speaking": "Measured (about 3.2 words per second), with a clear 'but here's the killer feature' turn in the middle."
   }
 ]

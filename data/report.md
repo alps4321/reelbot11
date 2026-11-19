@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-19T15:49:04+00:00
+Updated 2026-11-19T20:50:15+00:00
 
-Reels made: 23. Posted: 16. Measured: 14.
+Reels made: 23. Posted: 16. Measured: 15.
 
 ## english: results by topic
 
@@ -69,6 +69,7 @@ Reels made: 23. Posted: 16. Measured: 14.
 | compress_pdf_kb | 1 | 1211.0 |
 | pdf_to_word | 1 | 1204.0 |
 | passport_photo | 1 | 971.0 |
+| resize_image_kb | 1 | 339.0 |
 | resize_photo_kb | 1 | 325.0 |
 
 ## hinglish: results by hook style
@@ -78,6 +79,7 @@ Reels made: 23. Posted: 16. Measured: 14.
 | problem | 1 | 1211.0 |
 | question | 1 | 1204.0 |
 | manual | 3 | 1194.0 |
+| contrarian | 1 | 339.0 |
 
 ## hinglish: results by format
 
@@ -86,6 +88,7 @@ Reels made: 23. Posted: 16. Measured: 14.
 | what_if | 1 | 1211.0 |
 | secret_answer | 1 | 1204.0 |
 | manual | 3 | 1194.0 |
+| discovery | 1 | 339.0 |
 
 ## hinglish: results by pace
 
@@ -93,6 +96,13 @@ Reels made: 23. Posted: 16. Measured: 14.
 |---|---|---|
 | brisk | 1 | 1211.0 |
 | natural | 1 | 1204.0 |
+| calm | 1 | 339.0 |
+
+## hinglish: results by distance
+
+| distance | reels | avg score |
+|---|---|---|
+| far | 1 | 339.0 |
 
 ## hinglish: what the bot has learned
 
@@ -122,10 +132,10 @@ Reels made: 23. Posted: 16. Measured: 14.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-19 | hinglish | unlock_pdf | did_you_know | Egypt ke tomb mein 3000 saal purana shahad mila. |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/Df7GVN1EsuW/) |
+| 2026-11-19 | hinglish | unlock_pdf | did_you_know | Egypt ke tomb mein 3000 saal purana shahad mila. | 201 | 7.7 | 2 | 2 | 0 | 2 |  | [open](https://www.instagram.com/reel/Df7GVN1EsuW/) |
 | 2026-11-19 | english | word_to_pdf | story | Why did Rohan miss his own interview? | 141 | 8.3 | 2 | 1 | 0 | 0 |  | [open](https://www.instagram.com/reel/Df6etz3jcm7/) |
 | 2026-11-19 | hinglish | pdf_to_jpg | myth_buster | Most people think a PDF page can't become a photo. | 146 | 8.5 | 3 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/Df6PCtYDKsH/) |
-| 2026-11-18 | hinglish | resize_image_kb | discovery | Charging 100% tak mat karo. | 322 | 6.9 | 3 | 0 | 1 | 2 |  | [open](https://www.instagram.com/reel/Df5Yvw8Eckp/) |
+| 2026-11-18 | hinglish | resize_image_kb | discovery | Charging 100% tak mat karo. | 420 | 6.6 | 7 | 0 | 1 | 2 | 339 | [open](https://www.instagram.com/reel/Df5Yvw8Eckp/) |
 | 2026-11-18 | english | resize_image_kb | discovery | Do you know your phone's secret number? |  |  |  |  |  |  |  | dry run |
 | 2026-11-18 | hinglish | resize_image_kb | discovery | Photo ka size 200 KB kaise hota hai? |  |  |  |  |  |  |  | dry run |
 | 2026-11-18 | hinglish | resize_image_kb | explainer | Form bola 100 KB. Photo hai 1.8 MB. |  |  |  |  |  |  |  | dry run |

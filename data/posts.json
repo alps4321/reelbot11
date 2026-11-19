@@ -169,7 +169,8 @@
     "checked": [
       6,
       24,
-      48
+      48,
+      72
     ],
     "metrics": {
       "views": 351,
@@ -204,6 +205,17 @@
         "shares": 0,
         "saved": 1,
         "total_interactions": 8,
+        "avg_watch_s": 9.4
+      },
+      {
+        "at": "2026-11-19T07:44:28+00:00",
+        "hours": 72,
+        "views": 351,
+        "reach": 298,
+        "likes": 6,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
         "avg_watch_s": 9.4
       }
     ]
@@ -2021,14 +2033,14 @@
       24
     ],
     "metrics": {
-      "views": 1281,
-      "reach": 1066,
+      "views": 1311,
+      "reach": 1096,
       "likes": 7,
       "comments": 2,
       "shares": 0,
-      "saved": 11,
+      "saved": 12,
       "avg_watch_s": 9.2,
-      "views_last_hour": 158
+      "views_last_hour": 23
     },
     "history": [
       {
@@ -2287,17 +2299,18 @@
     "permalink": "https://www.instagram.com/reel/Df34jo3pcP6/",
     "posted_at": "2026-11-18T07:30:11+00:00",
     "checked": [
-      6
+      6,
+      24
     ],
     "metrics": {
-      "views": 444,
-      "reach": 395,
+      "views": 446,
+      "reach": 396,
       "likes": 3,
       "comments": 0,
       "shares": 0,
       "saved": 1,
       "avg_watch_s": 6.2,
-      "views_last_hour": 2
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -2310,6 +2323,17 @@
         "shares": 0,
         "saved": 1,
         "total_interactions": 4,
+        "avg_watch_s": 6.2
+      },
+      {
+        "at": "2026-11-19T07:44:22+00:00",
+        "hours": 24,
+        "views": 446,
+        "reach": 396,
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
         "avg_watch_s": 6.2
       }
     ]
@@ -2590,14 +2614,14 @@
       6
     ],
     "metrics": {
-      "views": 283,
-      "reach": 226,
-      "likes": 6,
+      "views": 1004,
+      "reach": 758,
+      "likes": 13,
       "comments": 1,
       "shares": 0,
-      "saved": 0,
-      "avg_watch_s": 7.7,
-      "views_last_hour": 94
+      "saved": 1,
+      "avg_watch_s": 8.7,
+      "views_last_hour": 701
     },
     "history": [
       {
@@ -3499,14 +3523,14 @@
       6
     ],
     "metrics": {
-      "views": 293,
-      "reach": 243,
-      "likes": 2,
+      "views": 322,
+      "reach": 281,
+      "likes": 3,
       "comments": 0,
       "shares": 1,
       "saved": 2,
-      "avg_watch_s": 7.1,
-      "views_last_hour": 127
+      "avg_watch_s": 6.9,
+      "views_last_hour": 22
     },
     "history": [
       {
@@ -3733,18 +3757,33 @@
     "media_id": "18042907439842233",
     "permalink": "https://www.instagram.com/reel/Df6PCtYDKsH/",
     "posted_at": "2026-11-19T05:30:12+00:00",
-    "checked": [],
+    "checked": [
+      6
+    ],
     "slot": "11:00",
     "metrics": {
-      "views": 82,
-      "reach": 44,
-      "likes": 0,
+      "views": 146,
+      "reach": 112,
+      "likes": 3,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "avg_watch_s": 9.3,
-      "views_last_hour": 0
-    }
+      "avg_watch_s": 8.5,
+      "views_last_hour": 13
+    },
+    "history": [
+      {
+        "at": "2026-11-19T12:26:28+00:00",
+        "hours": 6,
+        "views": 146,
+        "reach": 112,
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "avg_watch_s": 8.5
+      }
+    ]
   },
   {
     "id": "20261119-064322-english",
@@ -3977,6 +4016,226 @@
     "permalink": "https://www.instagram.com/reel/Df6etz3jcm7/",
     "posted_at": "2026-11-19T07:30:10+00:00",
     "checked": [],
-    "slot": "13:00"
+    "slot": "13:00",
+    "metrics": {
+      "views": 135,
+      "reach": 97,
+      "likes": 1,
+      "comments": 1,
+      "shares": 0,
+      "saved": 0,
+      "avg_watch_s": 8.3,
+      "views_last_hour": 131
+    }
+  },
+  {
+    "id": "20261119-123151-hinglish",
+    "created_at": "2026-11-19T12:38:22+00:00",
+    "language": "hinglish",
+    "topic": "unlock_pdf",
+    "hook_style": "story_open",
+    "format": "did_you_know",
+    "pace": "natural",
+    "distance": "far",
+    "idea": "",
+    "plan_reason": "week 1: every tool gets a first try; hook style: new test; format: new test; pace: best so far; distance: explore",
+    "title": "3000 saal purana shahad",
+    "hook": "Egypt ke tomb mein 3000 saal purana shahad mila.",
+    "seconds": 23.7,
+    "script": {
+      "title": "3000 saal purana shahad",
+      "scenes": [
+        {
+          "say": "Egypt ke tomb mein 3000 saal purana shahad mila.",
+          "voice": "इजिप्ट के टॉम्ब में 3000 साल पुराना शहद मिला।",
+          "accent": [
+            "3000 saal"
+          ],
+          "tag": "fact",
+          "meter": null,
+          "scene": {
+            "type": "news",
+            "source": "HISTORY DESK",
+            "headline": "Purane tomb mein shahad mila",
+            "tag": "TRUE"
+          },
+          "kind": "hook",
+          "screen": "Egypt ke tomb mein 3000 saal purana shahad mila.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Aur wo abhi bhi kharab nahi tha.",
+          "voice": "और वो अभी भी खराब नहीं था।",
+          "accent": [
+            "kharab nahi"
+          ],
+          "tag": "fact",
+          "meter": null,
+          "scene": {
+            "type": "counter",
+            "value": 3000,
+            "label": "saal purana",
+            "badge": "SHAHAD"
+          },
+          "kind": "point",
+          "screen": "Aur wo abhi bhi kharab nahi tha.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Shahad mein paani bahut kam hota hai.",
+          "voice": "शहद में पानी बहुत कम होता है।",
+          "accent": [
+            "paani",
+            "kam"
+          ],
+          "tag": "kyun",
+          "meter": null,
+          "scene": {
+            "type": "search",
+            "query": "shahad kharab kyun nahi hota",
+            "results": [
+              "Paani bahut kam",
+              "Bacteria ko jagah nahi"
+            ]
+          },
+          "kind": "point",
+          "screen": "Shahad mein paani bahut kam hota hai.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Isliye bacteria wahan zinda nahi reh paate.",
+          "voice": "इसलिए बैक्टीरिया वहाँ ज़िंदा नहीं रह पाते।",
+          "accent": [
+            "bacteria"
+          ],
+          "tag": "kyun",
+          "meter": null,
+          "scene": {
+            "type": "versus",
+            "left": "Bacteria",
+            "right": "Shahad",
+            "left_sub": "zinda nahi",
+            "right_sub": "safe rehta hai",
+            "winner": "right"
+          },
+          "kind": "point",
+          "screen": "Isliye bacteria wahan zinda nahi reh paate.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Matlab sahi tarike se rakho, to cheez saalon chalti hai.",
+          "voice": "मतलब सही तरीके से रखो... तो चीज़ सालों चलती है।",
+          "accent": [
+            "saalon"
+          ],
+          "tag": "lesson",
+          "meter": null,
+          "scene": {
+            "type": "bulb",
+            "text": "Sahi tarika = lamba chalna"
+          },
+          "kind": "point",
+          "screen": "Matlab sahi tarike se rakho, to cheez saalon chalti hai.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Documents ke saath bhi yahi socho.",
+          "voice": "डॉक्यूमेंट्स के साथ भी यही सोचो।",
+          "accent": [
+            "Documents"
+          ],
+          "tag": "documents",
+          "meter": null,
+          "scene": {
+            "type": "checklist",
+            "title": "Purane documents",
+            "items": [
+              "Safe rakho",
+              "Naam yaad rakho",
+              "Password yaad rakho"
+            ]
+          },
+          "kind": "point",
+          "screen": "Documents ke saath bhi yahi socho.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Purani PDF, jiska password tum jaante ho.",
+          "voice": "पुरानी पी डी एफ, जिसका पासवर्ड तुम जानते हो।",
+          "accent": [
+            "password"
+          ],
+          "tag": "pdf",
+          "meter": null,
+          "scene": {
+            "type": "convert",
+            "from": "LOCKED PDF",
+            "to": "OPEN PDF",
+            "text": "Password pata hai"
+          },
+          "kind": "point",
+          "screen": "Purani PDF, jiska password tum jaante ho.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "ilovedocuments.ai ka Unlock PDF password hata deta hai.",
+          "voice": "आई लव डॉक्यूमेंट्स डॉट ए आई का अनलॉक पी डी एफ पासवर्ड हटा देता है।",
+          "accent": [
+            "Unlock PDF"
+          ],
+          "tag": "tool",
+          "meter": null,
+          "scene": {
+            "type": "browser",
+            "url": "ilovedocuments.ai",
+            "button": "Unlock PDF"
+          },
+          "kind": "point",
+          "screen": "ilovedocuments.ai ka Unlock PDF password hata deta hai.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Reel save kar lo.",
+          "voice": "रील सेव कर लो।",
+          "accent": [
+            "save"
+          ],
+          "tag": "save",
+          "meter": null,
+          "scene": {
+            "type": "cta",
+            "keyword": "SAVE",
+            "line": "// kaam aayega"
+          },
+          "kind": "cta",
+          "screen": "Reel save kar lo.",
+          "emphasis": [],
+          "visual": null
+        }
+      ],
+      "caption": "Shahad 3000 saal baad bhi theek mil sakta hai, kyunki usmein paani bahut kam hota hai. Aap ghar mein kya sabse purani cheez abhi tak use karte ho? Free, no sign-up Unlock PDF: ilovedocuments.ai",
+      "hashtags": [
+        "#didyouknow",
+        "#shahad",
+        "#pdf",
+        "#studentlife",
+        "#india"
+      ]
+    },
+    "caption": "Shahad 3000 saal baad bhi theek mil sakta hai, kyunki usmein paani bahut kam hota hai. Aap ghar mein kya sabse purani cheez abhi tak use karte ho? Free, no sign-up Unlock PDF: ilovedocuments.ai\n\n#didyouknow #shahad #pdf #studentlife #india",
+    "video": "20261119-123151-hinglish.mp4",
+    "media_id": "18128898022903439",
+    "permalink": "https://www.instagram.com/reel/Df7GVN1EsuW/",
+    "posted_at": "2026-11-19T13:30:12+00:00",
+    "checked": [],
+    "slot": "19:00"
   }
 ]

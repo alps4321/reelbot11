@@ -1,29 +1,5 @@
 {
   "learned": {
-    "regret_conversation": {
-      "description": "Have two 3D characters talk, where one says what they wish they had known about a document tool before a deadline. Narrate the regret line by line, then give the simple lesson.",
-      "from": "https://www.instagram.com/reel/DfKfvaTP0Ka/",
-      "hook_pattern": "A stranger's regret in one sentence, with big plain captions",
-      "added": "2026-11-18T03:53:02+00:00"
-    },
-    "two_vs_three_upgrade": {
-      "description": "Show that everyone does the job in two steps, but the tool does it in one. Use a counter on screen, and cut it before the story gets too long.",
-      "from": "https://www.instagram.com/reel/DfcGb42tV3r/",
-      "hook_pattern": "Everyone does [two things], but you can do [three] at once",
-      "added": "2026-11-18T03:53:02+00:00"
-    },
-    "smallest_in_the_world_proof": {
-      "description": "Open by calling the file or tool the lightest, smallest or fastest of its kind. Have the narrator back it with two concrete numbers (KB, seconds or pages) shown on a panel, then close on a relatable payoff.",
-      "from": "https://www.instagram.com/reel/DfZdQCqgstN/",
-      "hook_pattern": "This is the smallest/most [adjective] [thing] in the world, and here is the proof in numbers",
-      "added": "2026-11-18T12:17:18+00:00"
-    },
-    "i_tested_n_so_you_dont_have_to": {
-      "description": "A narrator says they tried several ways of doing a document task, such as common apps or screenshots. A results panel shows most of them failing with errors or bad sizes, and the final panel shows one that works.",
-      "from": "https://www.instagram.com/reel/Dfd1nyvxTnV/",
-      "hook_pattern": "I tested [N] [things] so you don't have to, and surprisingly none of them worked",
-      "added": "2026-11-18T12:17:18+00:00"
-    },
     "poor_thing_mishap": {
       "description": "A short, funny story where a file suffers a common mistake and the narrator pities it. A quick fix ends the scene.",
       "from": "https://www.instagram.com/reel/DfHwgTBPRfq/",
@@ -59,6 +35,30 @@
       "from": "https://www.instagram.com/reel/DfeF-kOIwkr/",
       "hook_pattern": "[Festival/emotion line repeated] with a feeling of arrival",
       "added": "2026-11-19T12:13:46+00:00"
+    },
+    "three_things_countdown": {
+      "description": "Have the narrator promise exactly three things a tool does better than people expect. Show each as a big numbered caption on a 3D panel, with a before/after file or size change.",
+      "from": "https://www.instagram.com/reel/De1vnYRzVxQ/",
+      "hook_pattern": "[Famous product] is here, and it has N things [rivals] need to copy",
+      "added": "2026-11-20T04:10:19+00:00"
+    },
+    "survives_the_torture_test": {
+      "description": "Show a 3D character throwing everything at a file or form (wrong size, locked, corrupted, too big), and the tool still works. The narrator names each trial while the panel shows the error turning into success.",
+      "from": "https://www.instagram.com/reel/DeyeECdR9Ks/",
+      "hook_pattern": "This [thing] can survive anything, so even if you do this, this, or this, nothing happens",
+      "added": "2026-11-20T04:10:19+00:00"
+    },
+    "one_thing_replaces_many": {
+      "description": "Show a character juggling several separate apps or sites for a job, and the narrator reveals a single site that does it all, with the extra apps vanishing from the 3D scene.",
+      "from": "https://www.instagram.com/reel/DfUbxtAgozz/",
+      "hook_pattern": "One tiny [thing] replaces N annoying [things]",
+      "added": "2026-11-20T04:10:19+00:00"
+    },
+    "two_in_one_claim": {
+      "description": "Open with the first word at 0 s, state that the tool does two jobs people think need two apps, and show both outcomes side by side in two 3D panels.",
+      "from": "https://www.instagram.com/reel/Df7RgoAvbsr/",
+      "hook_pattern": "This [device] can work like a [A] and a [B]",
+      "added": "2026-11-20T04:10:19+00:00"
     }
   }
 }

@@ -398,5 +398,75 @@
     "from": "https://www.instagram.com/reel/DfeF-kOIwkr/",
     "added": "2026-11-19T12:13:46+00:00",
     "used": 0
+  },
+  {
+    "tool": "compress_pdf_kb",
+    "format": "too_good_to_be_legal_reveal",
+    "hook_en": "This free tool shrinks a 5 MB PDF to under 100 KB, and it's not even a trick.",
+    "hook_hinglish": "Ye free tool 5 MB ki PDF ko 100 KB se bhi kam kar deta hai, aur koi trick nahi hai.",
+    "angle": "A student's PDF gets rejected for being too big, and the narrator reveals the shrink with the size dropping on screen.",
+    "from": "https://www.instagram.com/reel/DfUbxtAgozz/",
+    "added": "2026-11-20T04:10:19+00:00",
+    "used": 0
+  },
+  {
+    "tool": "resize_photo_kb",
+    "format": "survives_the_torture_test",
+    "hook_en": "This photo got rejected 3 times, and one tool fixed it for good.",
+    "hook_hinglish": "Ye photo 3 baar reject hui, phir ek tool ne sab theek kar diya.",
+    "angle": "A character fights three rejections (too big, too small, wrong size) and the 20-50 KB photo finally passes.",
+    "from": "https://www.instagram.com/reel/DeyeECdR9Ks/",
+    "added": "2026-11-20T04:10:19+00:00",
+    "used": 0
+  },
+  {
+    "tool": "unlock_aadhaar",
+    "format": "three_things_countdown",
+    "hook_en": "3 things your Aadhaar PDF is hiding from you.",
+    "hook_hinglish": "Aapki Aadhaar PDF ke 3 raaz jo koi nahi batata.",
+    "angle": "Narrator counts three annoyances of a locked Aadhaar PDF (password, format, size) and fixes each on screen.",
+    "from": "https://www.instagram.com/reel/De1vnYRzVxQ/",
+    "added": "2026-11-20T04:10:19+00:00",
+    "used": 0
+  },
+  {
+    "tool": "merge_pdf",
+    "format": "one_thing_replaces_many",
+    "hook_en": "7 separate PDFs, 1 upload box. Here's how to make them one.",
+    "hook_hinglish": "7 alag PDFs aur sirf 1 upload box. Inhe ek kaise banaye, dekho.",
+    "angle": "A job seeker holds seven scattered documents, and the narrator merges them into one tidy file before the deadline.",
+    "from": "https://www.instagram.com/reel/DfUbxtAgozz/",
+    "added": "2026-11-20T04:10:19+00:00",
+    "used": 0
+  },
+  {
+    "tool": "signature_bg_remover",
+    "format": "custom_unboxing_walkthrough",
+    "hook_en": "Unboxing a signature photo, and look what's hiding behind it.",
+    "hook_hinglish": "Signature wali photo ko unbox kiya, aur dekho peeche kya chhupa tha.",
+    "angle": "A 3D box opens to a messy signature photo, and the tool peels the background away to leave a clean signature for the form.",
+    "from": "https://www.instagram.com/reel/DfryEj1yRv7/",
+    "added": "2026-11-20T04:10:19+00:00",
+    "used": 0
+  },
+  {
+    "tool": "pdf_to_word",
+    "format": "two_in_one_claim",
+    "hook_en": "Your PDF can be a Word file too, in seconds.",
+    "hook_hinglish": "Aapki PDF Word file bhi ban sakti hai, bas kuch seconds mein.",
+    "angle": "A character retyping a resume by hand learns the PDF can become editable Word in one step.",
+    "from": "https://www.instagram.com/reel/Df7RgoAvbsr/",
+    "added": "2026-11-20T04:10:19+00:00",
+    "used": 0
+  },
+  {
+    "tool": "passport_photo",
+    "format": "festive_refrain_moment",
+    "hook_en": "Form date is tonight, and your photo still isn't ready.",
+    "hook_hinglish": "Aaj raat form ki last date hai, aur photo abhi tak ready nahi.",
+    "angle": "A last-night rush where the narrator keeps repeating 'last date tonight' as a passport-size photo is made in a minute.",
+    "from": "https://www.instagram.com/reel/Df5X2HhyD9f/",
+    "added": "2026-11-20T04:10:19+00:00",
+    "used": 0
   }
 ]

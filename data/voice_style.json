@@ -173,10 +173,46 @@
       "pause_s": 0.78,
       "lang": "hi",
       "per_k": 27.4
+    },
+    {
+      "wps": 4.22,
+      "pause_s": 0.0,
+      "lang": "en",
+      "per_k": 46.9
+    },
+    {
+      "wps": 2.0,
+      "pause_s": 25.76,
+      "lang": "hi",
+      "per_k": 44.0
+    },
+    {
+      "wps": 2.08,
+      "pause_s": 3.56,
+      "lang": "en",
+      "per_k": 28.4
+    },
+    {
+      "wps": 3.05,
+      "pause_s": 0.33,
+      "lang": "en",
+      "per_k": 23.0
+    },
+    {
+      "wps": 2.77,
+      "pause_s": 15.59,
+      "lang": "hi",
+      "per_k": 2.3
+    },
+    {
+      "wps": 3.05,
+      "pause_s": 0.31,
+      "lang": "en",
+      "per_k": 17.9
     }
   ],
-  "notes": "The fastest speakers keep a steady pace of about 3.5 to 4.3 words per second with almost no dead air, and they save a short pause for just before the big number or reveal. They start with a claim or number in the very first second and lean on the key figure (rupees, KB, grams) with a stress and a slightly slower delivery.",
-  "updated": "2026-11-19T12:13:46+00:00",
-  "words_per_second": 3.17,
-  "pause_s": 0.33
+  "notes": "The best speakers here start on the first word with no lead-in and keep a quick pace of about 3 to 4 words a second, with one claim per breath. They push hard on the key word of each claim ('anything', 'crazy part') and save the longest beat for the final reveal.",
+  "updated": "2026-11-20T04:10:19+00:00",
+  "words_per_second": 3.07,
+  "pause_s": 0.42
 }

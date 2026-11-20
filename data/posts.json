@@ -4753,20 +4753,36 @@
     "seconds": 25.9,
     "hook": "PDF ka table Excel mein kaise layein?",
     "caption": "PDF ka table copy karo toh sab bikhar jaata hai. Ab seedha Excel mein lao, rows aur columns ke saath.\nAapko sabse zyada kaunsa PDF table retype karna pada? Comment mein batao.\nilovedocuments.ai\n\n#pdf #excel #pdftoexcel #studentlife #india",
-    "checked": [],
+    "checked": [
+      6
+    ],
     "metrics": {
-      "views": 0,
-      "reach": 0,
-      "likes": 0,
+      "views": 119,
+      "reach": 100,
+      "likes": 3,
       "comments": 0,
-      "shares": 0,
+      "shares": 1,
       "saved": 0,
-      "avg_watch_s": 0,
-      "views_last_hour": 0
+      "total_interactions": 4,
+      "avg_watch_s": 3.4
     },
     "slot": "19:00",
     "pace": "natural",
     "distance": "near",
-    "note": "made by the bot; its record was lost to a save clash and re-imported as manual, corrected by hand"
+    "note": "made by the bot; its record was lost to a save clash and re-imported as manual, corrected by hand",
+    "history": [
+      {
+        "at": "2026-11-20T20:24:03+00:00",
+        "hours": 6,
+        "views": 119,
+        "reach": 100,
+        "likes": 3,
+        "comments": 0,
+        "shares": 1,
+        "saved": 0,
+        "total_interactions": 4,
+        "avg_watch_s": 3.4
+      }
+    ]
   }
 ]

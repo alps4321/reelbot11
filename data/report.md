@@ -1,6 +1,6 @@
 # ReelBot report
 
-Updated 2026-11-20T15:31:59+00:00
+Updated 2026-11-20T20:24:03+00:00
 
 Reels made: 25. Posted: 18. Measured: 17.
 
@@ -147,7 +147,7 @@ Reels made: 25. Posted: 18. Measured: 17.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-20 | hinglish | pdf_to_excel | secret_answer | PDF ka table Excel mein kaise layein? | 0 | 0 | 0 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/Df9qx1VEh4p/) |
+| 2026-11-20 | hinglish | pdf_to_excel | secret_answer | PDF ka table Excel mein kaise layein? | 119 | 3.4 | 3 | 0 | 1 | 0 |  | [open](https://www.instagram.com/reel/Df9qx1VEh4p/) |
 | 2026-11-20 | hinglish | image_to_pdf | secret_answer | Photos ko ek PDF kaise banayein? | 115 | 3.6 | 0 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/Df9ImnMjua7/) |
 | 2026-11-19 | hinglish | unlock_pdf | did_you_know | Egypt ke tomb mein 3000 saal purana shahad mila. | 220 | 7.7 | 3 | 2 | 0 | 2 | 200 | [open](https://www.instagram.com/reel/Df7GVN1EsuW/) |
 | 2026-11-19 | english | word_to_pdf | story | Why did Rohan miss his own interview? | 143 | 8.2 | 2 | 1 | 0 | 0 | 115 | [open](https://www.instagram.com/reel/Df6etz3jcm7/) |

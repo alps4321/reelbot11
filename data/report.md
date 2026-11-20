@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-20T07:37:18+00:00
+Updated 2026-11-20T13:33:23+00:00
 
-Reels made: 24. Posted: 17. Measured: 15.
+Reels made: 25. Posted: 18. Measured: 17.
 
 ## english: results by topic
 
@@ -75,11 +75,12 @@ Reels made: 24. Posted: 17. Measured: 15.
 | topic | reels | avg score |
 |---|---|---|
 | unlock_aadhaar | 1 | 2286.0 |
+| compress_pdf_kb | 1 | 1293.0 |
 | pdf_to_word | 1 | 1237.0 |
-| compress_pdf_kb | 1 | 1211.0 |
 | passport_photo | 1 | 971.0 |
 | resize_image_kb | 1 | 339.0 |
 | resize_photo_kb | 1 | 325.0 |
+| unlock_pdf | 1 | 200.0 |
 | pdf_to_jpg | 1 | 157.0 |
 
 ## hinglish: results by hook style
@@ -87,9 +88,10 @@ Reels made: 24. Posted: 17. Measured: 15.
 | hook_style | reels | avg score |
 |---|---|---|
 | question | 2 | 1761.5 |
-| problem | 1 | 1211.0 |
+| problem | 1 | 1293.0 |
 | manual | 2 | 648.0 |
 | contrarian | 1 | 339.0 |
+| story_open | 1 | 200.0 |
 | bold_claim | 1 | 157.0 |
 
 ## hinglish: results by format
@@ -97,24 +99,25 @@ Reels made: 24. Posted: 17. Measured: 15.
 | format | reels | avg score |
 |---|---|---|
 | secret_answer | 2 | 1761.5 |
-| what_if | 1 | 1211.0 |
+| what_if | 1 | 1293.0 |
 | manual | 2 | 648.0 |
 | discovery | 1 | 339.0 |
+| did_you_know | 1 | 200.0 |
 | myth_buster | 1 | 157.0 |
 
 ## hinglish: results by pace
 
 | pace | reels | avg score |
 |---|---|---|
-| natural | 1 | 1237.0 |
-| brisk | 2 | 684.0 |
+| brisk | 2 | 725.0 |
+| natural | 2 | 718.5 |
 | calm | 1 | 339.0 |
 
 ## hinglish: results by distance
 
 | distance | reels | avg score |
 |---|---|---|
-| far | 1 | 339.0 |
+| far | 2 | 269.5 |
 | near | 1 | 157.0 |
 
 ## hinglish: what the bot has learned
@@ -144,17 +147,18 @@ Reels made: 24. Posted: 17. Measured: 15.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-20 | hinglish | image_to_pdf | secret_answer | Photos ko ek PDF kaise banayein? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/Df9ImnMjua7/) |
-| 2026-11-19 | hinglish | unlock_pdf | did_you_know | Egypt ke tomb mein 3000 saal purana shahad mila. | 211 | 7.7 | 2 | 2 | 0 | 2 |  | [open](https://www.instagram.com/reel/Df7GVN1EsuW/) |
+| 2026-11-20 | hinglish | general | manual | PDF ka table copy karo toh sab bikhar jaata hai. Ab seedha E | 0 | 0 | 0 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/Df9qx1VEh4p/) |
+| 2026-11-20 | hinglish | image_to_pdf | secret_answer | Photos ko ek PDF kaise banayein? | 115 | 3.6 | 0 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/Df9ImnMjua7/) |
+| 2026-11-19 | hinglish | unlock_pdf | did_you_know | Egypt ke tomb mein 3000 saal purana shahad mila. | 220 | 7.7 | 3 | 2 | 0 | 2 | 200 | [open](https://www.instagram.com/reel/Df7GVN1EsuW/) |
 | 2026-11-19 | english | word_to_pdf | story | Why did Rohan miss his own interview? | 143 | 8.2 | 2 | 1 | 0 | 0 | 115 | [open](https://www.instagram.com/reel/Df6etz3jcm7/) |
-| 2026-11-19 | hinglish | pdf_to_jpg | myth_buster | Most people think a PDF page can't become a photo. | 184 | 9.0 | 4 | 0 | 0 | 0 | 157 | [open](https://www.instagram.com/reel/Df6PCtYDKsH/) |
-| 2026-11-18 | hinglish | resize_image_kb | discovery | Charging 100% tak mat karo. | 430 | 6.7 | 7 | 0 | 1 | 2 | 339 | [open](https://www.instagram.com/reel/Df5Yvw8Eckp/) |
+| 2026-11-19 | hinglish | pdf_to_jpg | myth_buster | Most people think a PDF page can't become a photo. | 185 | 8.9 | 4 | 0 | 0 | 0 | 157 | [open](https://www.instagram.com/reel/Df6PCtYDKsH/) |
+| 2026-11-18 | hinglish | resize_image_kb | discovery | Charging 100% tak mat karo. | 433 | 6.7 | 8 | 0 | 1 | 2 | 339 | [open](https://www.instagram.com/reel/Df5Yvw8Eckp/) |
 | 2026-11-18 | english | resize_image_kb | discovery | Do you know your phone's secret number? |  |  |  |  |  |  |  | dry run |
 | 2026-11-18 | hinglish | resize_image_kb | discovery | Photo ka size 200 KB kaise hota hai? |  |  |  |  |  |  |  | dry run |
 | 2026-11-18 | hinglish | resize_image_kb | explainer | Form bola 100 KB. Photo hai 1.8 MB. |  |  |  |  |  |  |  | dry run |
-| 2026-11-18 | hinglish | compress_pdf_kb | what_if | What if your PDF is too big? | 1321 | 8.8 | 16 | 1 | 0 | 3 | 1211 | [open](https://www.instagram.com/reel/Df4hglbgBie/) |
+| 2026-11-18 | hinglish | compress_pdf_kb | what_if | What if your PDF is too big? | 1322 | 8.8 | 16 | 1 | 0 | 3 | 1293 | [open](https://www.instagram.com/reel/Df4hglbgBie/) |
 | 2026-11-18 | english | remove_background | same_task_before_after | Can one selfie become an ID photo? | 446 | 6.2 | 3 | 0 | 0 | 1 | 359 | [open](https://www.instagram.com/reel/Df34jo3pcP6/) |
-| 2026-11-18 | hinglish | pdf_to_word | secret_answer | PDF ko edit kaise karein? | 1323 | 9.2 | 7 | 2 | 0 | 12 | 1237 | [open](https://www.instagram.com/reel/Df3sRygisaf/) |
+| 2026-11-18 | hinglish | pdf_to_word | secret_answer | PDF ko edit kaise karein? | 1327 | 9.2 | 7 | 2 | 0 | 12 | 1237 | [open](https://www.instagram.com/reel/Df3sRygisaf/) |
 | 2026-11-17 | english | cheat_sheet_5_tools | cheat_sheet | Stop paying the cyber cafe for these 5 things | 146 | 4.0 | 1 | 0 | 0 | 2 | 99 | [open](https://www.instagram.com/reel/Df2KxDjjwSe/) |
 | 2026-11-17 | english | jpg_to_pdf | secret_answer | How do you send 4 photos as one PDF? | 139 | 7.0 | 0 | 0 | 0 | 0 | 101 | [open](https://www.instagram.com/reel/Df2IYAIAR7x/) |
 | 2026-11-17 | english | general | manual | #ilovedocuments | 253 | 8.1 | 3 | 0 | 18 | 0 | 400 | [open](https://www.instagram.com/reel/Df1OFyStuBw/) |

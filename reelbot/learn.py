@@ -137,6 +137,12 @@ def next_plan(cfg, lang, slot=0, today=None):
         picks[key], w = choose(options, arm_stats(mine, key), rate, avoid=avoid, waiting=pending(mine, key))
         why.append(f"{key.replace('_', ' ')}: {w}")
     idea = pick_idea(topic)
+    times = cfg["posting"].get("times", [])
+    if c.get("style") == "explainer" and slot < len(times) and times[slot] in cfg["posting"].get("proven_slots", []):
+        # the formula of our best reels: an exact searched question, the answer at the end, near the tool
+        picks.update(format="secret_answer", distance="near",
+                     hook_style="question" if "question" not in used_today("hook_style") else picks["hook_style"])
+        mode += "; proven formula slot"
     return {"language": lang, "topic": topic, **picks, "idea": idea,
             "reason": f"{mode}; " + "; ".join(why) + ("; idea from the niche scout" if idea else "")}
 

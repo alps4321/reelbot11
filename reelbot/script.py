@@ -145,10 +145,11 @@ by word as a big headline while a drawing animates under it.
 
 LANGUAGE: every "say", the caption and all text inside the drawings are in {write_in}
 
-THE MOST IMPORTANT RULE: the reel must be worth watching even if our website did not exist. It is about something
-genuinely interesting, useful or surprising for young people in India who deal with exams, jobs, forms, documents,
-phones and everyday digital life. It does NOT have to be about the tool: go off track if the story is better there.
-Only the LAST one or two sentences bring in ilovedocuments.ai, as the natural next step from the story.
+THE MOST IMPORTANT RULE: the reel must be worth watching even if our website did not exist: a real question
+people have, a fact or a lesson they will save or send to a friend. Our audience is young people in India dealing
+with forms, exams, jobs and documents. What our own page has proven: specific, searchable document questions
+answered exactly (the Aadhaar PDF password reel) get the shares and saves; off-topic stories got almost none.
+Only the LAST one or two sentences bring in ilovedocuments.ai, as the natural next step.
 
 The tool to plug at the very end: {topic}
 How far to wander: {distance}

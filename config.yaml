@@ -41,6 +41,8 @@ content:
     - Files are processed in the browser on your device and are not uploaded
     - Works on mobile and desktop
     - 45 PDF and image tools on one site
+    - "Verified answer: Aadhaar (e-Aadhaar) PDF password = first 4 letters of the name in CAPITAL letters + year of birth (YYYY), e.g. Rahul, 1998 -> RAHU1998"
+    - "Verified answer: e-PAN PDF password = date of birth as DDMMYYYY, e.g. 15 August 1990 -> 15081990"
   cta: "Free. No sign-up. No watermark."
   hashtags: ["#pdf", "#onlineform", "#studenthacks", "#govtexam", "#techtips"]
   max_hashtags: 5
@@ -97,10 +99,10 @@ content:
   hook_styles: [question, bold_claim, story_open, contrarian, number, problem, how_to]
   # How far an explainer reel may wander from its tool before the plug at the end. Tested like hooks.
   distances:
-    far: "The main story is NOT about files, PDFs or photos at all: pick something this audience cares about (a phone trick, an exam or interview habit, a scam to avoid, a money or career lesson, a surprising fact about something they use every day). Only the last one or two sentences bridge to the tool, with a natural link (\"and when the form asks for...\")."
     near: "The story stays in the tool's world (forms, documents, photos, uploads), but it is a fact, a story or a lesson worth watching on its own, not a demo of the tool."
   # Story structures for explainer reels. Tested and scored like hooks; never the same one twice in a day.
   explainer_formats:
+    secret_answer: "THE PROVEN FORMULA (our best reel: Aadhaar PDF password, 1,966 views, 18 shares, 24 saves). Sentence 1 is the exact question people search, in their words ('Aadhaar PDF ka password kya hota hai?'). Then 2-3 short sentences of tension: what people try that fails, why it matters right now. Then the exact answer with a worked example on screen (Rahul, 1998 -> RAHU1998). Then 'save kar lo' and the site for the related tool. The answer must be one of the verified answers, or a plain how-to of our own tool."
     discovery: "A find: a free trick, setting or way of doing something most people don't know. What it does, why it matters, then the plug."
     myth_buster: "Open with something most people believe. Show with one concrete example why it is wrong. Give the right way. Then the plug."
     story: "A tiny story about one person (Indian first name) with a turn in the middle and a lesson at the end. The plug is the lesson's tool."
@@ -136,7 +138,8 @@ posting:
   enabled: true              # master switch. false = bot does nothing
   dry_run: false             # true = make videos but never post
   slots: [hinglish, english, hinglish]   # three reels a day, in this order
-  times: ["11:00", "13:00", "19:00"]     # India time each reel goes live; the reel is made earlier and held until then
+  times: ["11:00", "13:00", "19:00"]
+  proven_slots: ["11:00", "19:00"]   # these use the proven formula; the other slot keeps testing new ideas     # India time each reel goes live; the reel is made earlier and held until then
   winner_days: [1, 4]        # from week 2: Tuesday and Friday go to the best-scoring tool (Monday = 0)
   share_to_feed: true
   label_ai_generated: true

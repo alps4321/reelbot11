@@ -1,16 +1,17 @@
 # ReelBot report
 
-Updated 2026-11-19T20:50:15+00:00
+Updated 2026-11-20T07:37:18+00:00
 
-Reels made: 23. Posted: 16. Measured: 15.
+Reels made: 24. Posted: 17. Measured: 15.
 
 ## english: results by topic
 
 | topic | reels | avg score |
 |---|---|---|
 | general | 2 | 381.5 |
-| remove_background | 1 | 362.0 |
+| remove_background | 1 | 359.0 |
 | merge_pdf | 1 | 145.0 |
+| word_to_pdf | 1 | 115.0 |
 | jpg_to_pdf | 1 | 101.0 |
 | cheat_sheet_5_tools | 1 | 99.0 |
 
@@ -18,17 +19,18 @@ Reels made: 23. Posted: 16. Measured: 15.
 
 | hook_style | reels | avg score |
 |---|---|---|
-| how_to | 1 | 362.0 |
+| how_to | 1 | 359.0 |
 | manual | 3 | 302.7 |
-| question | 1 | 101.0 |
+| question | 2 | 108.0 |
 | bold_claim | 1 | 99.0 |
 
 ## english: results by format
 
 | format | reels | avg score |
 |---|---|---|
-| same_task_before_after | 1 | 362.0 |
+| same_task_before_after | 1 | 359.0 |
 | manual | 3 | 302.7 |
+| story | 1 | 115.0 |
 | secret_answer | 1 | 101.0 |
 | cheat_sheet | 1 | 99.0 |
 
@@ -36,7 +38,14 @@ Reels made: 23. Posted: 16. Measured: 15.
 
 | pace | reels | avg score |
 |---|---|---|
-| natural | 1 | 362.0 |
+| natural | 1 | 359.0 |
+| calm | 1 | 115.0 |
+
+## english: results by distance
+
+| distance | reels | avg score |
+|---|---|---|
+| far | 1 | 115.0 |
 
 ## english: what the bot has learned
 
@@ -66,36 +75,39 @@ Reels made: 23. Posted: 16. Measured: 15.
 | topic | reels | avg score |
 |---|---|---|
 | unlock_aadhaar | 1 | 2286.0 |
+| pdf_to_word | 1 | 1237.0 |
 | compress_pdf_kb | 1 | 1211.0 |
-| pdf_to_word | 1 | 1204.0 |
 | passport_photo | 1 | 971.0 |
 | resize_image_kb | 1 | 339.0 |
 | resize_photo_kb | 1 | 325.0 |
+| pdf_to_jpg | 1 | 157.0 |
 
 ## hinglish: results by hook style
 
 | hook_style | reels | avg score |
 |---|---|---|
+| question | 2 | 1761.5 |
 | problem | 1 | 1211.0 |
-| question | 1 | 1204.0 |
-| manual | 3 | 1194.0 |
+| manual | 2 | 648.0 |
 | contrarian | 1 | 339.0 |
+| bold_claim | 1 | 157.0 |
 
 ## hinglish: results by format
 
 | format | reels | avg score |
 |---|---|---|
+| secret_answer | 2 | 1761.5 |
 | what_if | 1 | 1211.0 |
-| secret_answer | 1 | 1204.0 |
-| manual | 3 | 1194.0 |
+| manual | 2 | 648.0 |
 | discovery | 1 | 339.0 |
+| myth_buster | 1 | 157.0 |
 
 ## hinglish: results by pace
 
 | pace | reels | avg score |
 |---|---|---|
-| brisk | 1 | 1211.0 |
-| natural | 1 | 1204.0 |
+| natural | 1 | 1237.0 |
+| brisk | 2 | 684.0 |
 | calm | 1 | 339.0 |
 
 ## hinglish: results by distance
@@ -103,45 +115,46 @@ Reels made: 23. Posted: 16. Measured: 15.
 | distance | reels | avg score |
 |---|---|---|
 | far | 1 | 339.0 |
+| near | 1 | 157.0 |
 
 ## hinglish: what the bot has learned
 
 **Keep**
 
-- Lead with a specific, high-intent hook about a concrete pain point or secret (e.g. 'Aadhaar PDF ka password kya hota hai?'). It got the top score (2286) and the most shares (18) and saves (24).
-- Use a question hook that promises an answer (secret_answer format). 'PDF ko edit kaise karein?' got the second-best score (1200) and the only reel still gaining views (23 in the last hour).
-- Pick topics around PDF and document tasks. The top 3 reels are all PDF or document related, with 919 to 1965 views and 8.2 to 9.2s average watch.
-- Aim for saveable, utility content. The top two reels have 24 and 12 saves, which suggests viewers bookmark how-to answers.
-- Keep hooks in plain Hinglish, short and direct. All of the better reels use a single clear sentence.
+- Question-style hooks built on an exact, commonly searched query ('Aadhaar PDF ka password kya hota hai?', 'PDF ko edit kaise karein?') won on views, reach and saves. These are the top 2 of 7 reels. The 'secret_answer' format was used in both.
+- Hinglish hooks about a specific, relatable pain point ('PDF too big', 'Form ne phir bola File too large') drew decent shares and saves. The shares were 7 on 243 views for the form hook and 18 on 1,966 for the Aadhaar one.
+- PDF/document-utility topics (Aadhaar unlock, PDF to Word, compress PDF) took the top 3 places. The 'PDF' keyword in the hook is the one thing the top 4 have in common.
+- Hold average watch time at about 8.5s or more with a short, fast payoff. The top 4 reels all held 8.2–9.2s, and the 3 weakest held 6.3–6.7s, apart from pdf_to_jpg at 9.0s.
+- Keep posting a topic that has already scored. Unlock_aadhaar, pdf_to_word and compress_pdf_kb are the proven ones.
 
 **Avoid**
 
-- Don't open with a frustration or complaint line ('Form ne phir bola File too large? 😤'). That reel had the lowest views (243) and the shortest watch time (6.3s).
-- Don't pick a narrow, niche task like resizing a photo to KB. It reached only 200 people, and shares were high relative to views (7) but didn't carry it.
-- Don't use vague, broad promises ('ek hi website kaafi hai'). They lack a specific payoff and got only 4 saves.
-- Don't rely on the manual hook/format with no tested structure. 3 of the 4 reels are manual, including the best and the worst, so they show no consistent pattern.
-- Don't treat the single-hour views as a trend. Only one reel has any recent views, so there is no evidence yet of ongoing distribution.
+- Contrarian or off-topic hooks that don't mention the tool. 'Charging 100% tak mat karo.' got 430 views and 6.7s average watch, and it has nothing to do with PDFs or photos.
+- English-only, statement-style hooks. 'Most people think a PDF page can't become a photo.' got only 184 views, 0 saves and 0 shares. Its 9.0s watch time was fine, so the weak part is the hook or topic, not the content.
+- Generic 'one website does everything' hooks. The passport_photo reel scored only 971 and got just 4 saves, so it has no specific search intent.
+- Image-resize topics (resize_image_kb, resize_photo_kb) have the lowest watch times (6.3–6.7s) and low reach. Don't read this as proof that the topic is bad, because only 2 reels cover it and the hooks were weak.
 
 **Next Tests**
 
-- Test the same 'password/secret' hook pattern on another document topic, such as 'PDF ka password kaise hataye?' or 'Aadhaar download ka password'. This checks whether the Aadhaar result came from the hook or from the topic.
-- Run resize_photo_kb with a question or secret_answer hook, such as 'Photo ko 50KB mein kaise karein?'. Keeping the topic and changing only the hook style isolates the effect of the hook.
-- Test the pdf_to_word topic with a manual format against the secret_answer format. The data has only 4 reels with mixed formats, so format vs hook is still unproven.
+- Make 2–3 more exact-search-question reels in the secret_answer format on new document topics, such as 'PDF ka password kaise hataye?', 'Photo ka size KB mein kaise kam karein?' and 'PDF merge kaise karein?'. This will show whether the format drives the result or the Aadhaar topic alone did.
+- Run an A/B test on the same topic: a Hinglish question hook against an English bold-claim hook. For example, test 'PDF ko JPG kaise banayein?' against the myth_buster hook that did poorly. This will show whether the hook style or the topic caused the weak pdf_to_jpg result.
+- Redo the resize topic with a question hook ('Photo ko 50KB mein kaise karein?') and a secret_answer format. This will show whether resize is a weak topic or was held back by weak hooks.
 
 ## Reels
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-19 | hinglish | unlock_pdf | did_you_know | Egypt ke tomb mein 3000 saal purana shahad mila. | 201 | 7.7 | 2 | 2 | 0 | 2 |  | [open](https://www.instagram.com/reel/Df7GVN1EsuW/) |
-| 2026-11-19 | english | word_to_pdf | story | Why did Rohan miss his own interview? | 141 | 8.3 | 2 | 1 | 0 | 0 |  | [open](https://www.instagram.com/reel/Df6etz3jcm7/) |
-| 2026-11-19 | hinglish | pdf_to_jpg | myth_buster | Most people think a PDF page can't become a photo. | 146 | 8.5 | 3 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/Df6PCtYDKsH/) |
-| 2026-11-18 | hinglish | resize_image_kb | discovery | Charging 100% tak mat karo. | 420 | 6.6 | 7 | 0 | 1 | 2 | 339 | [open](https://www.instagram.com/reel/Df5Yvw8Eckp/) |
+| 2026-11-20 | hinglish | image_to_pdf | secret_answer | Photos ko ek PDF kaise banayein? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/Df9ImnMjua7/) |
+| 2026-11-19 | hinglish | unlock_pdf | did_you_know | Egypt ke tomb mein 3000 saal purana shahad mila. | 211 | 7.7 | 2 | 2 | 0 | 2 |  | [open](https://www.instagram.com/reel/Df7GVN1EsuW/) |
+| 2026-11-19 | english | word_to_pdf | story | Why did Rohan miss his own interview? | 143 | 8.2 | 2 | 1 | 0 | 0 | 115 | [open](https://www.instagram.com/reel/Df6etz3jcm7/) |
+| 2026-11-19 | hinglish | pdf_to_jpg | myth_buster | Most people think a PDF page can't become a photo. | 184 | 9.0 | 4 | 0 | 0 | 0 | 157 | [open](https://www.instagram.com/reel/Df6PCtYDKsH/) |
+| 2026-11-18 | hinglish | resize_image_kb | discovery | Charging 100% tak mat karo. | 430 | 6.7 | 7 | 0 | 1 | 2 | 339 | [open](https://www.instagram.com/reel/Df5Yvw8Eckp/) |
 | 2026-11-18 | english | resize_image_kb | discovery | Do you know your phone's secret number? |  |  |  |  |  |  |  | dry run |
 | 2026-11-18 | hinglish | resize_image_kb | discovery | Photo ka size 200 KB kaise hota hai? |  |  |  |  |  |  |  | dry run |
 | 2026-11-18 | hinglish | resize_image_kb | explainer | Form bola 100 KB. Photo hai 1.8 MB. |  |  |  |  |  |  |  | dry run |
-| 2026-11-18 | hinglish | compress_pdf_kb | what_if | What if your PDF is too big? | 1228 | 8.8 | 15 | 1 | 0 | 3 | 1211 | [open](https://www.instagram.com/reel/Df4hglbgBie/) |
-| 2026-11-18 | english | remove_background | same_task_before_after | Can one selfie become an ID photo? | 446 | 6.2 | 3 | 0 | 0 | 1 | 362 | [open](https://www.instagram.com/reel/Df34jo3pcP6/) |
-| 2026-11-18 | hinglish | pdf_to_word | secret_answer | PDF ko edit kaise karein? | 1311 | 9.2 | 7 | 2 | 0 | 12 | 1204 | [open](https://www.instagram.com/reel/Df3sRygisaf/) |
+| 2026-11-18 | hinglish | compress_pdf_kb | what_if | What if your PDF is too big? | 1321 | 8.8 | 16 | 1 | 0 | 3 | 1211 | [open](https://www.instagram.com/reel/Df4hglbgBie/) |
+| 2026-11-18 | english | remove_background | same_task_before_after | Can one selfie become an ID photo? | 446 | 6.2 | 3 | 0 | 0 | 1 | 359 | [open](https://www.instagram.com/reel/Df34jo3pcP6/) |
+| 2026-11-18 | hinglish | pdf_to_word | secret_answer | PDF ko edit kaise karein? | 1323 | 9.2 | 7 | 2 | 0 | 12 | 1237 | [open](https://www.instagram.com/reel/Df3sRygisaf/) |
 | 2026-11-17 | english | cheat_sheet_5_tools | cheat_sheet | Stop paying the cyber cafe for these 5 things | 146 | 4.0 | 1 | 0 | 0 | 2 | 99 | [open](https://www.instagram.com/reel/Df2KxDjjwSe/) |
 | 2026-11-17 | english | jpg_to_pdf | secret_answer | How do you send 4 photos as one PDF? | 139 | 7.0 | 0 | 0 | 0 | 0 | 101 | [open](https://www.instagram.com/reel/Df2IYAIAR7x/) |
 | 2026-11-17 | english | general | manual | #ilovedocuments | 253 | 8.1 | 3 | 0 | 18 | 0 | 400 | [open](https://www.instagram.com/reel/Df1OFyStuBw/) |
@@ -149,7 +162,7 @@ Reels made: 23. Posted: 16. Measured: 15.
 | 2026-11-16 | english | jpg_to_pdf | two_friends | Form closes at 11:58 PM. Which friend wins? |  |  |  |  |  |  |  | dry run |
 | 2026-11-16 | hinglish | unlock_aadhaar | what_if | What if your form closed in 2 minutes? |  |  |  |  |  |  |  | dry run |
 | 2026-11-16 | english | resize_photo_kb | what_if | What if your form closed in 2 minutes? |  |  |  |  |  |  |  | dry run |
-| 2026-11-16 | hinglish | unlock_aadhaar | manual | Aadhaar PDF ka password kya hota hai? 🔐 | 1966 | 8.2 | 21 | 4 | 18 | 24 | 2286 | [open](https://www.instagram.com/reel/DfzobbpNmpf/) |
+| 2026-11-16 | hinglish | unlock_aadhaar | secret_answer | Aadhaar PDF ka password kya hota hai? 🔐 | 1966 | 8.2 | 21 | 4 | 18 | 24 | 2286 | [open](https://www.instagram.com/reel/DfzobbpNmpf/) |
 | 2026-11-16 | hinglish | resize_photo_kb | manual | Form ne phir bola "File too large"? 😤 | 243 | 6.3 | 2 | 0 | 7 | 4 | 325 | [open](https://www.instagram.com/reel/DfzYzyOtsrh/) |
 | 2026-11-16 | english | general | manual | Please check our website too there are multiple tools that c | 351 | 9.4 | 6 | 0 | 0 | 1 | 363 | [open](https://www.instagram.com/reel/DfyxHBOtS5a/) |
 | 2026-11-16 | hinglish | passport_photo | manual | PDF ya photo ka koi bhi kaam ho – ek hi website kaafi hai 👇 | 919 | 8.7 | 9 | 1 | 2 | 4 | 971 | [open](https://www.instagram.com/reel/DfynYQJtJcQ/) |

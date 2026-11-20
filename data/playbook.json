@@ -1,25 +1,24 @@
 {
   "hinglish": {
-    "measured": 4,
-    "updated": "2026-11-19T12:30:51+00:00",
+    "measured": 7,
+    "updated": "2026-11-20T07:32:25+00:00",
     "keep": [
-      "Lead with a specific, high-intent hook about a concrete pain point or secret (e.g. 'Aadhaar PDF ka password kya hota hai?'). It got the top score (2286) and the most shares (18) and saves (24).",
-      "Use a question hook that promises an answer (secret_answer format). 'PDF ko edit kaise karein?' got the second-best score (1200) and the only reel still gaining views (23 in the last hour).",
-      "Pick topics around PDF and document tasks. The top 3 reels are all PDF or document related, with 919 to 1965 views and 8.2 to 9.2s average watch.",
-      "Aim for saveable, utility content. The top two reels have 24 and 12 saves, which suggests viewers bookmark how-to answers.",
-      "Keep hooks in plain Hinglish, short and direct. All of the better reels use a single clear sentence."
+      "Question-style hooks built on an exact, commonly searched query ('Aadhaar PDF ka password kya hota hai?', 'PDF ko edit kaise karein?') won on views, reach and saves. These are the top 2 of 7 reels. The 'secret_answer' format was used in both.",
+      "Hinglish hooks about a specific, relatable pain point ('PDF too big', 'Form ne phir bola File too large') drew decent shares and saves. The shares were 7 on 243 views for the form hook and 18 on 1,966 for the Aadhaar one.",
+      "PDF/document-utility topics (Aadhaar unlock, PDF to Word, compress PDF) took the top 3 places. The 'PDF' keyword in the hook is the one thing the top 4 have in common.",
+      "Hold average watch time at about 8.5s or more with a short, fast payoff. The top 4 reels all held 8.2–9.2s, and the 3 weakest held 6.3–6.7s, apart from pdf_to_jpg at 9.0s.",
+      "Keep posting a topic that has already scored. Unlock_aadhaar, pdf_to_word and compress_pdf_kb are the proven ones."
     ],
     "avoid": [
-      "Don't open with a frustration or complaint line ('Form ne phir bola File too large? 😤'). That reel had the lowest views (243) and the shortest watch time (6.3s).",
-      "Don't pick a narrow, niche task like resizing a photo to KB. It reached only 200 people, and shares were high relative to views (7) but didn't carry it.",
-      "Don't use vague, broad promises ('ek hi website kaafi hai'). They lack a specific payoff and got only 4 saves.",
-      "Don't rely on the manual hook/format with no tested structure. 3 of the 4 reels are manual, including the best and the worst, so they show no consistent pattern.",
-      "Don't treat the single-hour views as a trend. Only one reel has any recent views, so there is no evidence yet of ongoing distribution."
+      "Contrarian or off-topic hooks that don't mention the tool. 'Charging 100% tak mat karo.' got 430 views and 6.7s average watch, and it has nothing to do with PDFs or photos.",
+      "English-only, statement-style hooks. 'Most people think a PDF page can't become a photo.' got only 184 views, 0 saves and 0 shares. Its 9.0s watch time was fine, so the weak part is the hook or topic, not the content.",
+      "Generic 'one website does everything' hooks. The passport_photo reel scored only 971 and got just 4 saves, so it has no specific search intent.",
+      "Image-resize topics (resize_image_kb, resize_photo_kb) have the lowest watch times (6.3–6.7s) and low reach. Don't read this as proof that the topic is bad, because only 2 reels cover it and the hooks were weak."
     ],
     "next_tests": [
-      "Test the same 'password/secret' hook pattern on another document topic, such as 'PDF ka password kaise hataye?' or 'Aadhaar download ka password'. This checks whether the Aadhaar result came from the hook or from the topic.",
-      "Run resize_photo_kb with a question or secret_answer hook, such as 'Photo ko 50KB mein kaise karein?'. Keeping the topic and changing only the hook style isolates the effect of the hook.",
-      "Test the pdf_to_word topic with a manual format against the secret_answer format. The data has only 4 reels with mixed formats, so format vs hook is still unproven."
+      "Make 2–3 more exact-search-question reels in the secret_answer format on new document topics, such as 'PDF ka password kaise hataye?', 'Photo ka size KB mein kaise kam karein?' and 'PDF merge kaise karein?'. This will show whether the format drives the result or the Aadhaar topic alone did.",
+      "Run an A/B test on the same topic: a Hinglish question hook against an English bold-claim hook. For example, test 'PDF ko JPG kaise banayein?' against the myth_buster hook that did poorly. This will show whether the hook style or the topic caused the weak pdf_to_jpg result.",
+      "Redo the resize topic with a question hook ('Photo ko 50KB mein kaise karein?') and a secret_answer format. This will show whether resize is a weak topic or was held back by weak hooks."
     ]
   },
   "english": {

@@ -33,6 +33,7 @@ def make(cfg, plan, playbook=None):
     return {
         "id": rid, "created_at": store.iso(), "language": lang["id"], "topic": plan["topic"],
         "hook_style": plan["hook_style"], "format": plan["format"], "pace": plan.get("pace", "calm"), "distance": plan.get("distance"),
+        "answer": (plan.get("answer") or {}).get("id"),
         "idea": (plan.get("idea") or {}).get("hook_en", ""), "plan_reason": plan["reason"],
         "title": s.get("title", ""), "hook": s["scenes"][0]["screen"], "seconds": round(total, 1),
         "script": s, "caption": s["caption"].strip() + "\n\n" + " ".join(s["hashtags"]),

@@ -100,6 +100,34 @@ content:
   # How far an explainer reel may wander from its tool before the plug at the end. Tested like hooks.
   distances:
     near: "The story stays in the tool's world (forms, documents, photos, uploads), but it is a fact, a story or a lesson worth watching on its own, not a demo of the tool."
+  # Verified answers for the proven formula (the 11:00 and 7:00 pm reels). Each one is a real "secret" people search for.
+  # Add only answers checked against an official source.
+  answers:
+    - id: aadhaar_password
+      question: "Aadhaar PDF ka password kya hota hai?"
+      answer: "First 4 letters of the name in CAPITAL letters + year of birth (YYYY). SURESH KUMAR, born 1990 -> SURE1990"
+      tool: unlock_aadhaar
+      source: "UIDAI FAQ 'What is the password of e-Aadhaar', checked 20 Nov 2026"
+    - id: epan_password
+      question: "PAN card (e-PAN) PDF ka password kya hai?"
+      answer: "Your date of birth as DDMMYYYY, no spaces. Born 15 August 1990 -> 15081990"
+      tool: unlock_pdf
+      source: "Protean (NSDL) e-PAN guide, checked 20 Nov 2026"
+    - id: hdfc_statement_password
+      question: "HDFC bank statement PDF ka password kya hai?"
+      answer: "For the account statement downloaded from HDFC NetBanking or the HDFC Bank app: your numeric Customer ID (your NetBanking numeric User ID). Credit card or e-mailed statements can use other formats, so say this applies to the NetBanking/app download"
+      tool: bank_statement_excel
+      source: "HDFC Bank blog 'Download account statement via NetBanking' and 'HDFC Bank App', checked 20 Nov 2026"
+    - id: masked_aadhaar
+      question: "Masked Aadhaar kya hota hai?"
+      answer: "In a masked Aadhaar the first 8 digits of the Aadhaar number are replaced with xxxx-xxxx and only the last 4 digits are visible. You choose it when you download e-Aadhaar. Safer to share than the full number"
+      tool: id_card_print
+      source: "UIDAI FAQ 'What is Masked Aadhaar', checked 20 Nov 2026"
+    - id: aadhaar_all_forms_valid
+      question: "Kya Aadhaar ka print out (e-Aadhaar) original jitna valid hai?"
+      answer: "Yes. UIDAI: Aadhaar letter, Aadhaar PVC card, e-Aadhaar and mAadhaar are all equally valid and acceptable"
+      tool: id_card_print
+      source: "UIDAI FAQ 'What are the different forms of Aadhaar', checked 20 Nov 2026"
   # Story structures for explainer reels. Tested and scored like hooks; never the same one twice in a day.
   explainer_formats:
     secret_answer: "THE PROVEN FORMULA (our best reel: Aadhaar PDF password, 1,966 views, 18 shares, 24 saves). Sentence 1 is the exact question people search, in their words ('Aadhaar PDF ka password kya hota hai?'). Then 2-3 short sentences of tension: what people try that fails, why it matters right now. Then the exact answer with a worked example on screen (Rahul, 1998 -> RAHU1998). Then 'save kar lo' and the site for the related tool. THE ANSWER MUST BE A REAL SECRET the viewer can use even without our site (a password format, an exact rule, a number, a hidden setting) and it must be one of the verified answers. 'Use our tool' is never the answer: the tool comes after the answer, as the easy way. Put the answer by sentence 4 at the latest, and tease it in sentence 2 (\"answer end mein hai\")."

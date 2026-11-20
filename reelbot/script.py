@@ -153,6 +153,7 @@ Only the LAST one or two sentences bring in ilovedocuments.ai, as the natural ne
 
 The tool to plug at the very end: {topic}
 How far to wander: {distance}
+{answer_text}
 Story structure for this reel: {format} - {format_help}
 Hook style: {hook_style}
 {idea}Length: 20-27 seconds spoken: 55 to 75 words in total, 7 to 10 sentences. Short beats long.
@@ -539,6 +540,9 @@ def write(cfg, plan, playbook):
         topic=topic_title, format=plan["format"],
         format_help=format_help(plan["format"], cfg), idea=idea_text(plan.get("idea"), lang),
         recent_reels=recent_reels(), write_in=lang["write_in"].strip(),
+        answer_text=(f'THE VERIFIED ANSWER THIS REEL IS BUILT AROUND (use it exactly, add nothing that is not here):\n'
+                     f'  question: {plan["answer"]["question"]}\n  answer: {plan["answer"]["answer"]}\n'
+                     if plan.get("answer") else ""),
         distance=c.get("distances", {}).get(plan.get("distance"), "either, whichever makes the better story"),
         hook_style=plan["hook_style"], lo=lo, hi=hi, wlo=int(lo * 2.0), whi=int(hi * 2.0),   # the narrator pauses, so fewer words fit
         research="\n".join(x for x in (scout.digest(), research.digest()) if x) or "(no research data yet)",

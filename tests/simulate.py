@@ -8,7 +8,7 @@ import random
 import sys
 import tempfile
 from collections import Counter
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
@@ -21,6 +21,7 @@ cfg = config.load()
 cfg["secrets"].update(anthropic="fake", ig_user_id="1", ig_token="t")
 cfg["posting"]["dry_run"] = False
 cfg["voice"]["provider"] = "none"
+cfg["posting"]["proven_slots"] = []   # the weekly tool rotation is tested here; formula slots are checked below
 random.seed(7)
 
 GOOD = "pdf_to_word"                     # the fake audience loves this tool
@@ -102,3 +103,11 @@ assert later[GOOD] == max(later.values()), "the winning tool gets the most posts
 assert len(later) >= 12, "new tools keep being tested after week 1"
 assert (tmp / "report.md").exists()
 print("SIMULATION OK")
+
+# Formula slots: each builds its reel around a verified answer, rotating, never the same tool twice in a day.
+cfg2 = config.load()
+learn.store.posts = lambda: []
+p0 = learn.next_plan(cfg2, "hinglish", 0, today=date(2026, 11, 21))
+assert p0["format"] == "secret_answer" and p0.get("answer"), p0
+assert p0["topic"] == p0["answer"]["tool"], p0
+print("FORMULA SLOTS OK")

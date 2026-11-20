@@ -142,6 +142,9 @@ def next_plan(cfg, lang, slot=0, today=None):
         # the formula of our best reels: an exact searched question, the answer at the end, near the tool
         picks.update(format="secret_answer", distance="near",
                      hook_style="question" if "question" not in used_today("hook_style") else picks["hook_style"])
+        answer = pick_answer(cfg)
+        if answer:          # the reel is built around a verified secret; its tool is the plug
+            topic, picks["answer"] = answer["tool"], answer
         mode += "; proven formula slot"
     return {"language": lang, "topic": topic, **picks, "idea": idea,
             "reason": f"{mode}; " + "; ".join(why) + ("; idea from the niche scout" if idea else "")}
@@ -225,3 +228,18 @@ def slots_taken():
     carry no slot, so they never block one."""
     today = store.today()
     return {p.get("slot") for p in live(store.posts()) if store.local_date(p["posted_at"]) == today and p.get("slot")}
+
+
+def pick_answer(cfg):
+    """The verified answer used least so far (ties: the order in config), so the formula reels rotate."""
+    answers = cfg["content"].get("answers") or []
+    if not answers:
+        return None
+    used = {}
+    for p in live(store.posts()):
+        if p.get("answer"):
+            used[p["answer"]] = used.get(p["answer"], 0) + 1
+    today = store.today()
+    tools_today = {p.get("topic") for p in live(store.posts()) if store.local_date(p["posted_at"]) == today}
+    fresh = [a for a in answers if a["tool"] not in tools_today]     # never the same tool twice in a day
+    return min(fresh, key=lambda a: (used.get(a["id"], 0), answers.index(a))) if fresh else None

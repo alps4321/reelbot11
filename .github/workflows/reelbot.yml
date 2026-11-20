@@ -89,7 +89,7 @@ jobs:
           git add -A data
           if [ -d queue ]; then git add -A queue; fi
           git diff --cached --quiet || git commit -m "ReelBot: update results"
-          for i in 1 2 3; do git pull -q --rebase --autostash origin main && git push -q && break; sleep 5; done
+          for i in 1 2 3; do git pull -q --rebase -X theirs --autostash origin main && git push -q && break; git rebase --abort 2>/dev/null; sleep 5; done
       - name: Keep the video for 7 days
         if: always()
         uses: actions/upload-artifact@v4

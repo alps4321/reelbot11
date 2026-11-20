@@ -61,7 +61,7 @@ jobs:
           git add -A data
           git diff --cached --quiet && exit 0
           git commit -q -m "Scout: new ideas from the niche"
-          for i in 1 2 3; do git pull -q --rebase --autostash origin main && git push -q && break; sleep 5; done
+          for i in 1 2 3; do git pull -q --rebase -X theirs --autostash origin main && git push -q && break; git rebase --abort 2>/dev/null; sleep 5; done
       - name: Tell me on Telegram if it failed
         if: failure()
         env:

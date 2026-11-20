@@ -209,10 +209,34 @@
       "pause_s": 0.31,
       "lang": "en",
       "per_k": 17.9
+    },
+    {
+      "wps": 4.01,
+      "pause_s": 0.0,
+      "lang": "en",
+      "per_k": 23.3
+    },
+    {
+      "wps": 3.7,
+      "pause_s": 0.0,
+      "lang": "hi",
+      "per_k": 16.1
+    },
+    {
+      "wps": 4.05,
+      "pause_s": 0.26,
+      "lang": "en",
+      "per_k": 13.9
+    },
+    {
+      "wps": 2.85,
+      "pause_s": 0.45,
+      "lang": "en",
+      "per_k": 11.9
     }
   ],
-  "notes": "The best speakers here start on the first word with no lead-in and keep a quick pace of about 3 to 4 words a second, with one claim per breath. They push hard on the key word of each claim ('anything', 'crazy part') and save the longest beat for the final reveal.",
-  "updated": "2026-11-20T04:10:19+00:00",
-  "words_per_second": 3.07,
+  "notes": "The best speakers here start on the first word with no lead-in and keep up a fast pace of about 4 words per second, with almost no pauses. They push stress onto the one or two words that carry the surprise, such as 'disconnect', 'transparent' and 'crazy', and drop their tone for the closing share line.",
+  "updated": "2026-11-20T12:09:07+00:00",
+  "words_per_second": 3.27,
   "pause_s": 0.42
 }

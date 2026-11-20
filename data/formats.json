@@ -1,11 +1,5 @@
 {
   "learned": {
-    "poor_thing_mishap": {
-      "description": "A short, funny story where a file suffers a common mistake and the narrator pities it. A quick fix ends the scene.",
-      "from": "https://www.instagram.com/reel/DfHwgTBPRfq/",
-      "hook_pattern": "Poor [thing], look what people did to it",
-      "added": "2026-11-18T12:17:18+00:00"
-    },
     "custom_unboxing_walkthrough": {
       "description": "Narrator proudly shows a personalised result, such as a finished passport photo or a signed form, and walks through its details.",
       "from": "https://www.instagram.com/reel/DfeSBk9NUzA/",
@@ -59,6 +53,12 @@
       "from": "https://www.instagram.com/reel/Df7RgoAvbsr/",
       "hook_pattern": "This [device] can work like a [A] and a [B]",
       "added": "2026-11-20T04:10:19+00:00"
+    },
+    "before_after_gap": {
+      "description": "Show the same file handled the old painful way and then with our tool, in two matching panels. The narrator names the gap in one line and keeps it short.",
+      "from": "https://www.instagram.com/reel/Df4bTYBxbfY/",
+      "hook_pattern": "[Thing] in [old year] vs [Thing] in [new year]",
+      "added": "2026-11-20T12:09:07+00:00"
     }
   }
 }

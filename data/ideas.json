@@ -468,5 +468,65 @@
     "from": "https://www.instagram.com/reel/Df5X2HhyD9f/",
     "added": "2026-11-20T04:10:19+00:00",
     "used": 0
+  },
+  {
+    "tool": "resize_signature_kb",
+    "format": "deadline_story",
+    "hook_en": "Your form gets rejected tonight if the signature is 11 KB too big.",
+    "hook_hinglish": "Aaj raat form reject ho jayega, signature sirf 11 KB zyada hai.",
+    "angle": "A student is about to submit an exam form when the portal throws a red 'signature must be 10-20 KB' error. The deadline clock is ticking, and the narrator fixes it in seconds.",
+    "from": "https://www.instagram.com/reel/DfzQuPIR1-Y/",
+    "added": "2026-11-20T12:09:07+00:00",
+    "used": 0
+  },
+  {
+    "tool": "compress_pdf_kb",
+    "format": "too_good_to_be_legal_reveal",
+    "hook_en": "This free site shrinks a 6 MB PDF to 200 KB, and it feels illegal.",
+    "hook_hinglish": "Ye free site 6 MB ki PDF ko 200 KB bana deti hai, ekdum illegal lagta hai.",
+    "angle": "A character holds a huge PDF that the job portal won't accept. Each reveal is a panel: the size drops, the text stays sharp, and there is no watermark.",
+    "from": "https://www.instagram.com/reel/DfFGo0jynBz/",
+    "added": "2026-11-20T12:09:07+00:00",
+    "used": 0
+  },
+  {
+    "tool": "unlock_aadhaar",
+    "format": "live_disbelief_walkthrough",
+    "hook_en": "Wait, my Aadhaar PDF opens without me typing that password by hand?",
+    "hook_hinglish": "Ruko, Aadhaar PDF ka password ye tool khud handle kar raha hai?",
+    "angle": "A job seeker is stuck on a locked Aadhaar PDF. The narrator reacts with disbelief at each step as it unlocks, and a success panel appears.",
+    "from": "https://www.instagram.com/reel/Df7PW_avgh0/",
+    "added": "2026-11-20T12:09:07+00:00",
+    "used": 0
+  },
+  {
+    "tool": "passport_photo",
+    "format": "before_after_gap",
+    "hook_en": "Selfie in 2024 vs passport photo in 2026: same phone, one minute.",
+    "hook_hinglish": "Selfie vs passport photo: same phone, bas ek minute ka fark.",
+    "angle": "A character shows a messy selfie and then a clean, correctly sized passport photo. The gap is the whole story, and the site name stays on screen.",
+    "from": "https://www.instagram.com/reel/Df4bTYBxbfY/",
+    "added": "2026-11-20T12:09:07+00:00",
+    "used": 0
+  },
+  {
+    "tool": "merge_pdf",
+    "format": "one_thing_replaces_many",
+    "hook_en": "Seven separate PDFs, one upload: merge them before the portal says no.",
+    "hook_hinglish": "Saat alag PDFs, ek upload: portal mana kare usse pehle merge kar lo.",
+    "angle": "A student's scattered marksheets, ID and certificate pile up into a single tidy file. The portal only accepts one document.",
+    "from": "https://www.instagram.com/reel/DfFGo0jynBz/",
+    "added": "2026-11-20T12:09:07+00:00",
+    "used": 0
+  },
+  {
+    "tool": "pdf_to_word",
+    "format": "deadline_story",
+    "hook_en": "Your resume is stuck as a PDF and the recruiter wants Word by 5 pm.",
+    "hook_hinglish": "Resume PDF mein atka hai aur recruiter ko 5 baje tak Word chahiye.",
+    "angle": "A job seeker panics over a locked PDF resume, then converts it and edits it with a minute to spare.",
+    "from": "https://www.instagram.com/reel/DfzQuPIR1-Y/",
+    "added": "2026-11-20T12:09:07+00:00",
+    "used": 0
   }
 ]

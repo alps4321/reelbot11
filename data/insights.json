@@ -688,5 +688,97 @@
     ],
     "visual": "Presenter with phone close-ups.",
     "speaking": "Fast and urgent."
+  },
+  {
+    "at": "2026-11-21T04:32:28+00:00",
+    "permalink": "https://www.instagram.com/reel/Df9mir3heiW/",
+    "why": "It opens by naming the pain (the controller dies mid-game) and shows a funny awkward posture. The fix is one attach-and-press action, so it can be understood in seconds. Short, fast and dense, it ends with a clean 'share with someone who has X' line.",
+    "hook_pattern": "The most useful [thing] you can actually buy for [moment of annoyance]",
+    "structure": [
+      "Bold title card with the superlative claim",
+      "Show the painful moment (the dying controller, the awkward workaround)",
+      "One-gesture fix: attach it and press the button",
+      "Visible proof (battery icon charging)",
+      "One spec that matters (double play time, light weight)",
+      "Share-with-someone CTA"
+    ],
+    "visual": "Tight handheld close-ups of the object in use, neon-lit room, a funny physical-comedy shot, a presenter reveal at the end, and a bold two-colour title with word-highlight captions.",
+    "speaking": "Fast (about 4 words/s) with almost no pauses. Confident and upbeat, with the claim on the first word and short punchy sentences."
+  },
+  {
+    "at": "2026-11-21T04:32:28+00:00",
+    "permalink": "https://www.instagram.com/reel/DfOqu-dhx02/",
+    "why": "A deadline cue ('last chance', 'best time to buy') creates urgency, and the festive set adds context. Each item gets a price and spec proof point, then a plain call to act now.",
+    "hook_pattern": "Last chance: the best [offers] on [two things] right now, but only [in this window]",
+    "structure": [
+      "Urgency title card (Last Chance)",
+      "Two named items with product reveals",
+      "Three key specs for each",
+      "Lowest-price or offer number as the payoff",
+      "Time-limited festive close and a go-act line"
+    ],
+    "visual": "A presenter in festive decor with product boxes, then clean product close-ups with highlighted captions, ending on a festive 'Best Time To Buy Now' graphic.",
+    "speaking": "Measured, about 3.6 words/s. Numbers are stressed and sentences are complete, with a salesy but friendly tone."
+  },
+  {
+    "at": "2026-11-21T04:32:28+00:00",
+    "permalink": "https://www.instagram.com/reel/Df6fVtUvgR2/",
+    "why": "A big-name topic (GTA 6) pulls the viewer in, and the presenter's strong facial reactions plus cutaways of real gameplay make each detail feel like a surprise. The relatable comparison 'like in real life' keeps it grounded.",
+    "hook_pattern": "[Famous thing] has [surprising new detail] and it's more realistic than you think",
+    "structure": [
+      "Topic title card with a hand wave",
+      "Gameplay cutaway showing the detail",
+      "Presenter reacts with exaggerated surprise",
+      "A real-life comparison",
+      "Another detail, with the feel and sound described"
+    ],
+    "visual": "A split screen with gameplay on top and the reacting presenter below, in a bright room, with a minimal title tag.",
+    "speaking": "Conversational Hindi at about 3.4 words/s, with expressive tone shifts and rhetorical questions."
+  },
+  {
+    "at": "2026-11-21T04:32:28+00:00",
+    "permalink": "https://www.instagram.com/reel/Dfg8oy3PHtG/",
+    "why": "It sets a tempting offer against a catch, then does the maths out loud. The 'honest review' framing and a final surprise feel like inside knowledge, and a viewer who wants to avoid being cheated stays to the end.",
+    "hook_pattern": "[Company] wants [big amount] from you for [big promise]. Is it really worth it?",
+    "structure": [
+      "Offer stated with the big numbers",
+      "'Looks great, but let's calculate'",
+      "Real savings versus claimed savings",
+      "The catch",
+      "Verdict: who should take it and who should skip",
+      "Final surprise plus a question to the audience"
+    ],
+    "visual": "Talking-head or explainer visuals with price and number overlays.",
+    "speaking": "Slow and deliberate (about 2.8 words/s) with pauses before the numbers and a sceptical tone."
+  },
+  {
+    "at": "2026-11-21T04:32:28+00:00",
+    "permalink": "https://www.instagram.com/reel/DfkM0eWvLDi/",
+    "why": "The leak framing ('big compromises') promises bad news, then good news. Specs and prices are given as a list the viewer can compare, and the cost-increase maths gives a clear takeaway.",
+    "hook_pattern": "[Next product] has [N] big compromises, and one good surprise",
+    "structure": [
+      "Teaser of upcoming change",
+      "What stays the same (old specs)",
+      "What gets removed",
+      "Good news (battery)",
+      "Price rise reason and the final price estimate"
+    ],
+    "visual": "Presenter with spec overlays.",
+    "speaking": "Long, dense and fast (about 3.1 words/s), with a news-reporter tone and little pause."
+  },
+  {
+    "at": "2026-11-21T04:32:28+00:00",
+    "permalink": "https://www.instagram.com/reel/DfthcWPz_X-/",
+    "why": "Emotional nostalgia: it speaks directly to the viewer's younger self and fits Children's Day. It earns saves and shares through feeling rather than information, and its engagement is still the lowest here because there is no practical payoff.",
+    "hook_pattern": "Dear little you, remember what you wanted to be?",
+    "structure": [
+      "Address the younger self",
+      "Remember childhood dreams",
+      "The reality of effort and exams",
+      "Reaffirm the dream",
+      "Dedicate it to every child"
+    ],
+    "visual": "Soft, warm, emotional imagery with a motivational tone.",
+    "speaking": "Slow (about 2.7 words/s), gentle, with longer pauses and a soft voice."
   }
 ]

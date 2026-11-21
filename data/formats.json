@@ -1,11 +1,5 @@
 {
   "learned": {
-    "custom_unboxing_walkthrough": {
-      "description": "Narrator proudly shows a personalised result, such as a finished passport photo or a signed form, and walks through its details.",
-      "from": "https://www.instagram.com/reel/DfeSBk9NUzA/",
-      "hook_pattern": "This video is extra special because I have my own custom [thing]",
-      "added": "2026-11-18T12:17:18+00:00"
-    },
     "too_good_to_be_legal_reveal": {
       "description": "Open with a narrator who says an ordinary-looking tool feels almost illegal. Have a 3D character try it, then stack 3 or 4 quick surprising abilities, each shown in its own panel with a file size or result.",
       "from": "https://www.instagram.com/reel/Df6-BE8hk3q/",
@@ -59,6 +53,12 @@
       "from": "https://www.instagram.com/reel/Df4bTYBxbfY/",
       "hook_pattern": "[Thing] in [old year] vs [Thing] in [new year]",
       "added": "2026-11-20T12:09:07+00:00"
+    },
+    "one_gesture_fix": {
+      "description": "Open on a character stuck in a small, painful form problem, then have them fix it with one single action in the tool. End on the proof panel (size or success) and one useful number.",
+      "from": "https://www.instagram.com/reel/Df9mir3heiW/",
+      "hook_pattern": "The most useful [thing] you can actually buy for [moment of annoyance]",
+      "added": "2026-11-21T04:32:28+00:00"
     }
   }
 }

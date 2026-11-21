@@ -528,5 +528,75 @@
     "from": "https://www.instagram.com/reel/DfzQuPIR1-Y/",
     "added": "2026-11-20T12:09:07+00:00",
     "used": 0
+  },
+  {
+    "tool": "resize_photo_kb",
+    "format": "one_gesture_fix",
+    "hook_en": "The most useful form trick: your photo is 2 MB and the portal wants 20 to 50 KB.",
+    "hook_hinglish": "Sabse kaam ka trick: photo 2 MB ki hai aur portal ko 20 se 50 KB chahiye.",
+    "angle": "A student keeps getting 'file too large' on the exam form, then does one upload and sees 38 KB with a green tick.",
+    "from": "https://www.instagram.com/reel/Df9mir3heiW/",
+    "added": "2026-11-21T04:32:28+00:00",
+    "used": 0
+  },
+  {
+    "tool": "compress_pdf_kb",
+    "format": "deadline_story",
+    "hook_en": "Last date tonight and your PDF is still too big? Do this one thing.",
+    "hook_hinglish": "Aaj last date hai aur PDF abhi bhi bhaari hai? Bas ye ek kaam karo.",
+    "angle": "A job seeker has an hour left, the upload fails at 4 MB, and the compressed 190 KB PDF goes through just in time.",
+    "from": "https://www.instagram.com/reel/DfOqu-dhx02/",
+    "added": "2026-11-21T04:32:28+00:00",
+    "used": 0
+  },
+  {
+    "tool": "bank_statement_excel",
+    "format": "live_disbelief_walkthrough",
+    "hook_en": "I did not believe a bank statement PDF could turn into Excel in one click.",
+    "hook_hinglish": "Mujhe yakeen nahi tha ki bank statement PDF ek click mein Excel ban jayegi.",
+    "angle": "A character expects hours of typing, gets a clean sheet with every row, and reacts with shock at each step.",
+    "from": "https://www.instagram.com/reel/Df6fVtUvgR2/",
+    "added": "2026-11-21T04:32:28+00:00",
+    "used": 0
+  },
+  {
+    "tool": "unlock_aadhaar",
+    "format": "too_good_to_be_legal_reveal",
+    "hook_en": "A locked Aadhaar PDF that opens for free, and nobody told you why it is so easy.",
+    "hook_hinglish": "Locked Aadhaar PDF free mein khul jaati hai, aur kisi ne aasaan tareeka bataya hi nahi.",
+    "angle": "A friend is about to pay a cyber cafe to open it, then the narrator shows the free tool and the cafe bill vanishes.",
+    "from": "https://www.instagram.com/reel/Dfg8oy3PHtG/",
+    "added": "2026-11-21T04:32:28+00:00",
+    "used": 0
+  },
+  {
+    "tool": "merge_pdf",
+    "format": "three_things_countdown",
+    "hook_en": "3 ways you waste time on documents, and one tool that fixes all of them.",
+    "hook_hinglish": "Documents mein time waste karne ke 3 tareeke, aur ek tool jo sab theek kar de.",
+    "angle": "Three scattered files (Aadhaar, marksheet, resume) cause three mishaps, then one merged PDF is uploaded in one go.",
+    "from": "https://www.instagram.com/reel/DfkM0eWvLDi/",
+    "added": "2026-11-21T04:32:28+00:00",
+    "used": 0
+  },
+  {
+    "tool": "resize_signature_kb",
+    "format": "one_gesture_fix",
+    "hook_en": "Your signature must be 10 to 20 KB, and one tap does it.",
+    "hook_hinglish": "Signature 10 se 20 KB chahiye, aur ek tap mein ho jaata hai.",
+    "angle": "A student photographs a signature, the form rejects it, and one resize turns it to 14 KB and the form accepts it.",
+    "from": "https://www.instagram.com/reel/Df9mir3heiW/",
+    "added": "2026-11-21T04:32:28+00:00",
+    "used": 0
+  },
+  {
+    "tool": "passport_photo",
+    "format": "before_after_gap",
+    "hook_en": "Same selfie, one tool, and now it is a proper passport photo.",
+    "hook_hinglish": "Wahi selfie, ek tool, aur ab ek proper passport photo.",
+    "angle": "A rejected, shadowy selfie sits beside the cleaned-up photo with a white background and the right size, and the form is accepted.",
+    "from": "https://www.instagram.com/reel/DfOqu-dhx02/",
+    "added": "2026-11-21T04:32:28+00:00",
+    "used": 0
   }
 ]

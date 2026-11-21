@@ -1,36 +1,6 @@
 {
   "samples": [
     {
-      "wps": 3.27,
-      "pause_s": 0.32,
-      "lang": "en",
-      "per_k": 163.1
-    },
-    {
-      "wps": 3.01,
-      "pause_s": 0.3,
-      "lang": "en",
-      "per_k": 49.6
-    },
-    {
-      "wps": 4.04,
-      "pause_s": 0.3,
-      "lang": "en",
-      "per_k": 35.5
-    },
-    {
-      "wps": 4.39,
-      "pause_s": 0.0,
-      "lang": "en",
-      "per_k": 31.3
-    },
-    {
-      "wps": 2.35,
-      "pause_s": 0.34,
-      "lang": "en",
-      "per_k": 14.1
-    },
-    {
       "wps": 2.91,
       "pause_s": 0.32,
       "lang": "en",
@@ -233,10 +203,46 @@
       "pause_s": 0.45,
       "lang": "en",
       "per_k": 11.9
+    },
+    {
+      "wps": 3.96,
+      "pause_s": 0.28,
+      "lang": "en",
+      "per_k": 16.5
+    },
+    {
+      "wps": 3.58,
+      "pause_s": 0.27,
+      "lang": "en",
+      "per_k": 13.5
+    },
+    {
+      "wps": 3.37,
+      "pause_s": 0.83,
+      "lang": "hi",
+      "per_k": 9.7
+    },
+    {
+      "wps": 2.77,
+      "pause_s": 0.3,
+      "lang": "hi",
+      "per_k": 6.4
+    },
+    {
+      "wps": 3.1,
+      "pause_s": 0.32,
+      "lang": "hi",
+      "per_k": 6.1
+    },
+    {
+      "wps": 2.72,
+      "pause_s": 0.68,
+      "lang": "hi",
+      "per_k": 1.1
     }
   ],
-  "notes": "The best speakers here start on the first word with no lead-in and keep up a fast pace of about 4 words per second, with almost no pauses. They push stress onto the one or two words that carry the surprise, such as 'disconnect', 'transparent' and 'crazy', and drop their tone for the closing share line.",
-  "updated": "2026-11-20T12:09:07+00:00",
-  "words_per_second": 3.27,
-  "pause_s": 0.42
+  "notes": "The best speakers here keep a fast, steady pace of about 3.5 to 4 words/s with almost no pauses, and put the claim or number on the first word. They save short pauses and stress for the key figure, such as the price or the size in KB.",
+  "updated": "2026-11-21T04:32:28+00:00",
+  "words_per_second": 3.23,
+  "pause_s": 0.51
 }

@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-21T13:30:09+00:00
+Updated 2026-11-21T13:32:44+00:00
 
-Reels made: 28. Posted: 21. Measured: 18.
+Reels made: 28. Posted: 21. Measured: 19.
 
 ## english: results by topic
 
@@ -81,19 +81,20 @@ Reels made: 28. Posted: 21. Measured: 18.
 | passport_photo | 1 | 971.0 |
 | resize_image_kb | 1 | 348.0 |
 | resize_photo_kb | 1 | 325.0 |
-| unlock_pdf | 1 | 202.0 |
+| unlock_pdf | 1 | 200.0 |
 | pdf_to_jpg | 1 | 157.0 |
-| image_to_pdf | 1 | 79.0 |
+| pdf_to_excel | 1 | 85.0 |
+| image_to_pdf | 1 | 78.0 |
 
 ## hinglish: results by hook style
 
 | hook_style | reels | avg score |
 |---|---|---|
-| problem | 1 | 1293.0 |
-| question | 3 | 1200.7 |
+| question | 3 | 1200.3 |
+| problem | 2 | 689.0 |
 | manual | 2 | 648.0 |
 | contrarian | 1 | 348.0 |
-| story_open | 1 | 202.0 |
+| story_open | 1 | 200.0 |
 | bold_claim | 1 | 157.0 |
 
 ## hinglish: results by format
@@ -101,10 +102,10 @@ Reels made: 28. Posted: 21. Measured: 18.
 | format | reels | avg score |
 |---|---|---|
 | what_if | 1 | 1293.0 |
-| secret_answer | 3 | 1200.7 |
+| secret_answer | 4 | 921.5 |
 | manual | 2 | 648.0 |
 | discovery | 1 | 348.0 |
-| did_you_know | 1 | 202.0 |
+| did_you_know | 1 | 200.0 |
 | myth_buster | 1 | 157.0 |
 
 ## hinglish: results by pace
@@ -112,15 +113,15 @@ Reels made: 28. Posted: 21. Measured: 18.
 | pace | reels | avg score |
 |---|---|---|
 | brisk | 2 | 725.0 |
-| natural | 3 | 506.0 |
+| natural | 4 | 400.0 |
 | calm | 1 | 348.0 |
 
 ## hinglish: results by distance
 
 | distance | reels | avg score |
 |---|---|---|
-| far | 2 | 275.0 |
-| near | 2 | 118.0 |
+| far | 2 | 274.0 |
+| near | 3 | 106.7 |
 
 ## hinglish: what the bot has learned
 
@@ -150,12 +151,12 @@ Reels made: 28. Posted: 21. Measured: 18.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-21 | hinglish | id_card_print | secret_answer | Masked Aadhaar kya hota hai? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgAPbEXpaEb/) |
-| 2026-11-21 | english | bank_statement_excel | story | Priya had 400 rows to type by tonight. |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/Df_moeXFFfy/) |
-| 2026-11-21 | hinglish | unlock_pdf | secret_answer | e-PAN PDF ka password kya hota hai? | 239 | 6.0 | 5 | 0 | 2 | 2 |  | [open](https://www.instagram.com/reel/Df_Y1KHFdvj/) |
-| 2026-11-20 | hinglish | pdf_to_excel | secret_answer | PDF ka table Excel mein kaise layein? | 121 | 3.4 | 3 | 0 | 1 | 0 |  | [open](https://www.instagram.com/reel/Df9qx1VEh4p/) |
-| 2026-11-20 | hinglish | image_to_pdf | secret_answer | Photos ko ek PDF kaise banayein? | 116 | 3.5 | 0 | 0 | 0 | 1 | 79 | [open](https://www.instagram.com/reel/Df9ImnMjua7/) |
-| 2026-11-19 | hinglish | unlock_pdf | did_you_know | Egypt ke tomb mein 3000 saal purana shahad mila. | 221 | 7.7 | 3 | 2 | 0 | 2 | 202 | [open](https://www.instagram.com/reel/Df7GVN1EsuW/) |
+| 2026-11-21 | hinglish | general | manual | Masked Aadhaar mein sirf last 4 digits dikhte hain, baaki xx |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgAPbEXpaEb/) |
+| 2026-11-21 | english | bank_statement_excel | story | Priya had 400 rows to type by tonight. | 84 | 4.9 | 3 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/Df_moeXFFfy/) |
+| 2026-11-21 | hinglish | unlock_pdf | secret_answer | e-PAN PDF ka password kya hota hai? | 240 | 6.0 | 5 | 0 | 2 | 2 |  | [open](https://www.instagram.com/reel/Df_Y1KHFdvj/) |
+| 2026-11-20 | hinglish | pdf_to_excel | secret_answer | PDF ka table Excel mein kaise layein? | 122 | 3.4 | 3 | 0 | 1 | 0 | 85 | [open](https://www.instagram.com/reel/Df9qx1VEh4p/) |
+| 2026-11-20 | hinglish | image_to_pdf | secret_answer | Photos ko ek PDF kaise banayein? | 116 | 3.5 | 0 | 0 | 0 | 1 | 78 | [open](https://www.instagram.com/reel/Df9ImnMjua7/) |
+| 2026-11-19 | hinglish | unlock_pdf | did_you_know | Egypt ke tomb mein 3000 saal purana shahad mila. | 221 | 7.7 | 3 | 2 | 0 | 2 | 200 | [open](https://www.instagram.com/reel/Df7GVN1EsuW/) |
 | 2026-11-19 | english | word_to_pdf | story | Why did Rohan miss his own interview? | 143 | 8.2 | 2 | 1 | 0 | 0 | 114 | [open](https://www.instagram.com/reel/Df6etz3jcm7/) |
 | 2026-11-19 | hinglish | pdf_to_jpg | myth_buster | Most people think a PDF page can't become a photo. | 187 | 8.8 | 4 | 0 | 0 | 0 | 157 | [open](https://www.instagram.com/reel/Df6PCtYDKsH/) |
 | 2026-11-18 | hinglish | resize_image_kb | discovery | Charging 100% tak mat karo. | 433 | 6.7 | 8 | 0 | 1 | 2 | 348 | [open](https://www.instagram.com/reel/Df5Yvw8Eckp/) |

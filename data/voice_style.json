@@ -1,36 +1,6 @@
 {
   "samples": [
     {
-      "wps": 2.91,
-      "pause_s": 0.32,
-      "lang": "en",
-      "per_k": 38.6
-    },
-    {
-      "wps": 3.9,
-      "pause_s": 0.0,
-      "lang": "en",
-      "per_k": 31.3
-    },
-    {
-      "wps": 4.44,
-      "pause_s": 0.26,
-      "lang": "en",
-      "per_k": 28.7
-    },
-    {
-      "wps": 3.21,
-      "pause_s": 0.35,
-      "lang": "en",
-      "per_k": 11.9
-    },
-    {
-      "wps": 2.54,
-      "pause_s": 3.78,
-      "lang": "hi",
-      "per_k": 165.1
-    },
-    {
       "wps": 3.42,
       "pause_s": 0.35,
       "lang": "hi",
@@ -239,10 +209,40 @@
       "pause_s": 0.68,
       "lang": "hi",
       "per_k": 1.1
+    },
+    {
+      "wps": 2.47,
+      "pause_s": 0.51,
+      "lang": "en",
+      "per_k": 6.0
+    },
+    {
+      "wps": 2.2,
+      "pause_s": 6.5,
+      "lang": "hi",
+      "per_k": 5.3
+    },
+    {
+      "wps": 3.62,
+      "pause_s": 8.1,
+      "lang": "hi",
+      "per_k": 5.2
+    },
+    {
+      "wps": 3.98,
+      "pause_s": 0.0,
+      "lang": "hi",
+      "per_k": 3.8
+    },
+    {
+      "wps": 3.4,
+      "pause_s": 0.32,
+      "lang": "hi",
+      "per_k": 3.6
     }
   ],
-  "notes": "The best speakers here keep a fast, steady pace of about 3.5 to 4 words/s with almost no pauses, and put the claim or number on the first word. They save short pauses and stress for the key figure, such as the price or the size in KB.",
-  "updated": "2026-11-21T04:32:28+00:00",
-  "words_per_second": 3.23,
-  "pause_s": 0.51
+  "notes": "The strongest speakers talk fast (2.5 to 3.6 words/s) and use short pauses only just before a reveal or a number. They stress the key number or contrast word and repeat it in a punchy triple at the end.",
+  "updated": "2026-11-21T11:50:18+00:00",
+  "words_per_second": 3.25,
+  "pause_s": 0.52
 }

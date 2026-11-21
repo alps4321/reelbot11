@@ -598,5 +598,75 @@
     "from": "https://www.instagram.com/reel/DfOqu-dhx02/",
     "added": "2026-11-21T04:32:28+00:00",
     "used": 0
+  },
+  {
+    "tool": "compress_pdf_kb",
+    "format": "too_good_to_be_legal_reveal",
+    "hook_en": "Guys, something crazy: a 4 MB PDF that goes down to 90 KB and still looks sharp.",
+    "hook_hinglish": "Guys, kuch crazy hai: 4 MB ka PDF 90 KB ho gaya aur quality bhi same hai.",
+    "angle": "A student's scholarship form is rejected for size, and the narrator turns the size dial down mode by mode as the stat tiles update.",
+    "from": "https://www.instagram.com/reel/Df98X5MtgiR/",
+    "added": "2026-11-21T11:50:18+00:00",
+    "used": 0
+  },
+  {
+    "tool": "passport_photo",
+    "format": "three_things_countdown",
+    "hook_en": "Three photo mistakes that get your form rejected, and the fix for each.",
+    "hook_hinglish": "Teen photo galtiyan jo aapka form reject karwati hain, aur teeno ka fix.",
+    "angle": "A job seeker makes three photo errors (wrong background, wrong size, shadow), and each one is fixed in a panel with the result shown.",
+    "from": "https://www.instagram.com/reel/DfzrMLzv8n6/",
+    "added": "2026-11-21T11:50:18+00:00",
+    "used": 0
+  },
+  {
+    "tool": "bank_statement_excel",
+    "format": "explainer",
+    "hook_en": "Your bank statement is a locked PDF. Is it really impossible to turn it into Excel?",
+    "hook_hinglish": "Bank statement PDF mein lock hai. Kya sach mein Excel mein nahi ban sakta?",
+    "angle": "The narrator investigates the claim, shows why it is hard, then reveals the converter and a clean Excel sheet.",
+    "from": "https://www.instagram.com/reel/DfaLfXTvQfS/",
+    "added": "2026-11-21T11:50:18+00:00",
+    "used": 0
+  },
+  {
+    "tool": "resize_signature_kb",
+    "format": "live_disbelief_walkthrough",
+    "hook_en": "My signature was 2 MB. The form wants 20 KB. Watch this.",
+    "hook_hinglish": "Meri signature 2 MB ki thi. Form ko 20 KB chahiye. Ye dekho.",
+    "angle": "A character uploads a huge signature photo, reacts at each step, and gets a 15 KB file that the form accepts.",
+    "from": "https://www.instagram.com/reel/Df4wKC6yti-/",
+    "added": "2026-11-21T11:50:18+00:00",
+    "used": 0
+  },
+  {
+    "tool": "merge_pdf",
+    "format": "one_thing_replaces_many",
+    "hook_en": "Seven documents, one upload slot. Here is the 10-second fix.",
+    "hook_hinglish": "Saat documents, upload ka sirf ek slot. Ye hai 10 second ka fix.",
+    "angle": "A student with seven separate PDFs faces a one-file limit, and the narrator merges them into one in a single move.",
+    "from": "https://www.instagram.com/reel/Df7OrTEB_uz/",
+    "added": "2026-11-21T11:50:18+00:00",
+    "used": 0
+  },
+  {
+    "tool": "unlock_aadhaar",
+    "format": "deadline_story",
+    "hook_en": "The form closes in 10 minutes and your Aadhaar PDF will not open.",
+    "hook_hinglish": "Form 10 minute mein band hoga aur Aadhaar PDF khul hi nahi raha.",
+    "angle": "A candidate cannot open the password-locked Aadhaar PDF right before a deadline, unlocks it in seconds, and submits in time.",
+    "from": "https://www.instagram.com/reel/Df9qvehT-wo/",
+    "added": "2026-11-21T11:50:18+00:00",
+    "used": 0
+  },
+  {
+    "tool": "remove_background",
+    "format": "too_good_to_be_legal_reveal",
+    "hook_en": "Guys, this free tool removes a photo background and does not leave a single rough edge.",
+    "hook_hinglish": "Guys, ye free tool photo ka background hata deta hai, aur ek bhi edge kharab nahi hoti.",
+    "angle": "A character feeds in a messy photo and the narrator reveals a clean cutout with a before-and-after panel.",
+    "from": "https://www.instagram.com/reel/Df98X5MtgiR/",
+    "added": "2026-11-21T11:50:18+00:00",
+    "used": 0
   }
 ]

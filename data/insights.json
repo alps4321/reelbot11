@@ -780,5 +780,91 @@
     ],
     "visual": "Soft, warm, emotional imagery with a motivational tone.",
     "speaking": "Slow (about 2.7 words/s), gentle, with longer pauses and a soft voice."
+  },
+  {
+    "at": "2026-11-21T11:50:18+00:00",
+    "permalink": "https://www.instagram.com/reel/Df98X5MtgiR/",
+    "why": "The opening line promises something crazy, then the creator lists proof as a quick row of stat tiles (horsepower, torque, range). A paradox follows ('an EV that behaves like a V8'), and the dial turn lets you hear the claim being proved. Mixing a presenter shot with cinematic footage keeps every few",
+    "hook_pattern": "Guys, I have something crazy for you: [familiar thing] that behaves like [the opposite thing]",
+    "structure": [
+      "Teaser hook: 'something crazy' with an on-screen pointing emoji",
+      "Name the product and show stat tiles with big numbers",
+      "Paradox line: it is X but behaves like Y",
+      "Live demo: turn the dial through modes and let the viewer hear or see the change",
+      "Closing blend line: best of A, best of B, best of C"
+    ],
+    "visual": "A presenter walks around the product in a studio. Numbered stat tiles slide in over a purple wave divider, with road footage in the lower half.",
+    "speaking": "Fast and confident at about 2.5 words/s with short pauses. Excited, direct address ('guys'), and the key claim is repeated in a punchy triple at the end."
+  },
+  {
+    "at": "2026-11-21T11:50:18+00:00",
+    "permalink": "https://www.instagram.com/reel/DfzrMLzv8n6/",
+    "why": "A numbered list of five items sets up a clear promise. Each item is a self-contained pick with one reason, so viewers can follow the reel in any order and want to see all five. The list is tied to a seasonal moment (after Diwali), which adds relevance.",
+    "hook_pattern": "Top N [things] for [your situation right now]",
+    "structure": [
+      "Seasonal opener that sets the moment",
+      "Promise of N picks",
+      "Pick 1 with the problem it solves and a price or spec",
+      "Pick 2 with a buying tip",
+      "Closing advice to check before buying"
+    ],
+    "visual": "A presenter sits at a desk with product shots, inside a standard review-style layout.",
+    "speaking": "Even pace of about 2.2 words/s with long pauses of up to 6.5 s between points. Calm, advisory and conversational."
+  },
+  {
+    "at": "2026-11-21T11:50:18+00:00",
+    "permalink": "https://www.instagram.com/reel/Df4wKC6yti-/",
+    "why": "A numbered 'new features' list gives the reel a built-in reason to keep watching. Each feature is shown on screen as it is mentioned, so spoken claims are backed by visible proof. The narrator reacts with surprise ('so realistic'), which is contagious.",
+    "hook_pattern": "N new [things] about [hot topic] that nobody expected",
+    "structure": [
+      "Numbered promise in the caption and opening line",
+      "Feature shown on screen with a short comment",
+      "Close-up of a detail (clothes, animation) to prove realism",
+      "Reaction line summing up the feeling"
+    ],
+    "visual": "Footage of the game on a big TV, with the host in an orange hoodie reacting in a living room. A 'First Indian to Play GTA 6' text tag sits on the frame.",
+    "speaking": "Fast and excited at about 3.6 words/s with a few mid-length pauses. Gasps and exclamations, with surprise carried on key words."
+  },
+  {
+    "at": "2026-11-21T11:50:18+00:00",
+    "permalink": "https://www.instagram.com/reel/DfaLfXTvQfS/",
+    "why": "It begins with a price and a yes/no question (gadget, tracker or marketing?), and the answer is held back for 80 seconds. Each beat adds evidence from a named source (tweets, doctors), and the 'real twist' mid-way resets attention. Clean explainer cards with highlighted keywords keep long content re",
+    "hook_pattern": "₹[big price] for [thing]: [real thing] or just [marketing]?",
+    "structure": [
+      "Price shock and a three-way question",
+      "Who made it and why it is controversial",
+      "How it works, shown as a simple diagram",
+      "'But wait, the real twist' mid-point",
+      "Experts disagree and the maker responds",
+      "Final verdict question to the viewer"
+    ],
+    "visual": "Cream-coloured explainer cards with a yellow highlight on the key word, tweet screenshots, diagrams, a progress bar and a small presenter bubble.",
+    "speaking": "Brisk at about 3.4 words/s with almost no pauses. Investigative tone, with a rhetorical question before each reveal."
+  },
+  {
+    "at": "2026-11-21T11:50:18+00:00",
+    "permalink": "https://www.instagram.com/reel/Df7OrTEB_uz/",
+    "why": "A 15 s reel with no pauses makes it very easy to finish and rewatch. The title says it is a whole different world, which promises more than the screen shows. Mentioning 'one or two things I never thought of' makes the viewer curious about what they are.",
+    "hook_pattern": "[Topic] is a whole different world: I found [a couple of things] I never expected",
+    "structure": [
+      "Short claim hook",
+      "Two surprising details",
+      "One closing remark"
+    ],
+    "visual": "Short gameplay-on-TV footage with the host reacting.",
+    "speaking": "Very fast at about 4 words/s with no pauses. Breathless and casual."
+  },
+  {
+    "at": "2026-11-21T11:50:18+00:00",
+    "permalink": "https://www.instagram.com/reel/Df9qvehT-wo/",
+    "why": "It is a student-meme post that borrows a trending topic (GTA 6) and a relatable moment: procrastination. Its engagement is the lowest of the set, probably because there was no narration and no clear payoff. We should take the trend hook and keep a spoken story.",
+    "hook_pattern": "[Trending thing] vs [student reality]",
+    "structure": [
+      "Trending reference",
+      "Student procrastination scene",
+      "Teacher's reaction"
+    ],
+    "visual": "A classroom or student meme clip.",
+    "speaking": "No speech."
   }
 ]

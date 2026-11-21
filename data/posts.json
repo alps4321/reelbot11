@@ -359,7 +359,8 @@
       6,
       24,
       48,
-      72
+      72,
+      120
     ],
     "metrics": {
       "views": 1966,
@@ -368,8 +369,8 @@
       "comments": 4,
       "shares": 18,
       "saved": 24,
-      "avg_watch_s": 8.2,
-      "views_last_hour": 0
+      "total_interactions": 67,
+      "avg_watch_s": 8.2
     },
     "history": [
       {
@@ -410,6 +411,18 @@
       {
         "at": "2026-11-19T15:49:01+00:00",
         "hours": 72,
+        "views": 1966,
+        "reach": 1693,
+        "likes": 21,
+        "comments": 4,
+        "shares": 18,
+        "saved": 24,
+        "total_interactions": 67,
+        "avg_watch_s": 8.2
+      },
+      {
+        "at": "2026-11-21T19:18:28+00:00",
+        "hours": 120,
         "views": 1966,
         "reach": 1693,
         "likes": 21,

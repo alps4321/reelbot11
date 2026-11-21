@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-21T05:30:10+00:00
+Updated 2026-11-21T07:30:11+00:00
 
-Reels made: 26. Posted: 19. Measured: 17.
+Reels made: 27. Posted: 20. Measured: 17.
 
 ## english: results by topic
 
@@ -51,24 +51,25 @@ Reels made: 26. Posted: 19. Measured: 17.
 
 **Keep**
 
-- Hooks that tell the viewer what they get for free or on the site (the two top reels average 8-9s watched, versus 1.7-7s for the others). This is based on only two reels and is not proven.
-- Keep reels very short or simple. The top two had the longest average watch time (8.1s and 9.4s) even though they have no real hook style.
-- Use a hashtag or community-style opener (#ilovedocuments). It earned 18 shares from 198 reach, the most shares of any reel.
-- Point viewers to the website or to multiple tools. The 'check our website' reel had the highest reach (298) and the only like and save combination among the top reels.
-- Show a concrete problem a viewer might have (4 photos into one PDF). It held attention better (7.0s) than the cheat sheet (4.0s), though it got no engagement.
+- Lead with a concrete, relatable outcome in the hook. The best non-manual reel, 'Can one selfie become an ID photo?', got 446 views and 396 reach, and 9.4s average watch was the highest among all reels. This is a before/after on a single task, so it is the only structured format with any evidence behind it.
+- Use a single-task before/after demo on one tool. remove_background (same_task_before_after) was the top structured reel, with 446 views and 6.2s average watch. It is one reel, so this is a lead to test, not a proven rule.
+- Put a direct call to action to the website in the reel. The 'Please check our website too' reel had the highest watch time (9.4s) and 351 views. The result is mixed, because the same site-promo style ('Any PDF or photo job') had only 1.7s watch.
+- Make the reel shareable. The top-scoring reel, '#ilovedocuments', had 18 shares from 198 reach, far more than any other reel. It is a manual post, so it is unclear whether the cause is the content or the account's existing audience.
+- Use a story or question hook that holds attention. 'Why did Rohan miss his own interview?' held viewers for 8.2s, close to the best watch times, but it had few likes or saves. It is a retention signal only.
 
 **Avoid**
 
-- Broad promise hooks with emoji and no specific problem ('Any PDF or photo job – one free website 👇'). It had the lowest average watch time (1.7s) and almost no engagement.
-- Long reels (31-32s) with scripted formats (secret_answer, cheat_sheet). Both had low average watch (4-7s, a small fraction of the length) and zero likes or comments on the question reel.
-- Bold or negative claims about paying a cyber cafe. It got 146 views, 1 like and 2 saves, and viewers watched only 4s on average.
-- Anything that gets zero shares and zero comments. Three of the five reels had no shares and no comments, so none of the formats are producing conversation yet.
+- Generic, tool-list or 'any job' hooks. 'Any PDF or photo job – one free website' got only 1.7s average watch, the worst of all reels, and 133 views.
+- Cheat-sheet or bold-claim formats. 'Stop paying the cyber cafe for these 5 things' got 4.0s watch and 146 views. It did get 2 saves, the most of any reel, so it may suit saves more than reach.
+- Secret-answer how-to question hooks with no emotional stake. 'How do you send 4 photos as one PDF?' got 0 likes, 0 comments, 0 shares and 0 saves, and 7.0s watch did not turn into engagement.
+- Longer reels of about 30s or more without a payoff. All three of the weakest generated reels (30–32s) had 139–146 views, against 446 for the 21s reel. Length is mixed up with format here, so this is weak evidence.
+- Expecting comments. Only 1 comment appeared across all 7 reels, so no current hook is prompting conversation.
 
 **Next Tests**
 
-- Make the same 'How do you send 4 photos as one PDF?' question reel at about 10-15s instead of 31s, and compare average watch time with the 31s version (7.0s).
-- Re-post the 'check our website, multiple tools' message with a specific tool named in the first 2 seconds (for example merge PDF). Check whether reach stays near 300 and whether average watch stays above 8s.
-- Test a hashtag or community opener (like #ilovedocuments) on a specific-problem reel such as jpg_to_pdf. The goal is to see whether the shares (18) come from the opener or from the topic.
+- Repeat the same_task_before_after format on a different tool, such as jpg_to_pdf or word_to_pdf, with a concrete outcome hook like 'selfie to ID photo'. Keep it near 20s to check whether the result is the format or just the remove_background topic.
+- Run the Rohan-style story hook on the same topic at about 20s with an explicit save or share prompt at the end. This tests whether the story's retention (8.2s) can be turned into saves or shares.
+- Make a cheat-sheet reel with a save-focused call to action ('save this for later'), plus a tighter hook than 'Stop paying the cyber cafe'. The format got 2 saves despite weak reach, so this tests whether it works as a saves format.
 
 ## hinglish: results by topic
 
@@ -81,7 +82,7 @@ Reels made: 26. Posted: 19. Measured: 17.
 | resize_image_kb | 1 | 348.0 |
 | resize_photo_kb | 1 | 325.0 |
 | unlock_pdf | 1 | 202.0 |
-| pdf_to_jpg | 1 | 158.0 |
+| pdf_to_jpg | 1 | 157.0 |
 
 ## hinglish: results by hook style
 
@@ -92,7 +93,7 @@ Reels made: 26. Posted: 19. Measured: 17.
 | manual | 2 | 648.0 |
 | contrarian | 1 | 348.0 |
 | story_open | 1 | 202.0 |
-| bold_claim | 1 | 158.0 |
+| bold_claim | 1 | 157.0 |
 
 ## hinglish: results by format
 
@@ -103,13 +104,13 @@ Reels made: 26. Posted: 19. Measured: 17.
 | manual | 2 | 648.0 |
 | discovery | 1 | 348.0 |
 | did_you_know | 1 | 202.0 |
-| myth_buster | 1 | 158.0 |
+| myth_buster | 1 | 157.0 |
 
 ## hinglish: results by pace
 
 | pace | reels | avg score |
 |---|---|---|
-| brisk | 2 | 725.5 |
+| brisk | 2 | 725.0 |
 | natural | 2 | 719.5 |
 | calm | 1 | 348.0 |
 
@@ -118,7 +119,7 @@ Reels made: 26. Posted: 19. Measured: 17.
 | distance | reels | avg score |
 |---|---|---|
 | far | 2 | 275.0 |
-| near | 1 | 158.0 |
+| near | 1 | 157.0 |
 
 ## hinglish: what the bot has learned
 
@@ -148,12 +149,13 @@ Reels made: 26. Posted: 19. Measured: 17.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-11-21 | english | bank_statement_excel | story | Priya had 400 rows to type by tonight. |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/Df_moeXFFfy/) |
 | 2026-11-21 | hinglish | unlock_pdf | secret_answer | e-PAN PDF ka password kya hota hai? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/Df_Y1KHFdvj/) |
 | 2026-11-20 | hinglish | pdf_to_excel | secret_answer | PDF ka table Excel mein kaise layein? | 121 | 3.4 | 3 | 0 | 1 | 0 |  | [open](https://www.instagram.com/reel/Df9qx1VEh4p/) |
 | 2026-11-20 | hinglish | image_to_pdf | secret_answer | Photos ko ek PDF kaise banayein? | 115 | 3.6 | 0 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/Df9ImnMjua7/) |
 | 2026-11-19 | hinglish | unlock_pdf | did_you_know | Egypt ke tomb mein 3000 saal purana shahad mila. | 221 | 7.7 | 3 | 2 | 0 | 2 | 202 | [open](https://www.instagram.com/reel/Df7GVN1EsuW/) |
 | 2026-11-19 | english | word_to_pdf | story | Why did Rohan miss his own interview? | 143 | 8.2 | 2 | 1 | 0 | 0 | 116 | [open](https://www.instagram.com/reel/Df6etz3jcm7/) |
-| 2026-11-19 | hinglish | pdf_to_jpg | myth_buster | Most people think a PDF page can't become a photo. | 187 | 8.8 | 4 | 0 | 0 | 0 | 158 | [open](https://www.instagram.com/reel/Df6PCtYDKsH/) |
+| 2026-11-19 | hinglish | pdf_to_jpg | myth_buster | Most people think a PDF page can't become a photo. | 187 | 8.8 | 4 | 0 | 0 | 0 | 157 | [open](https://www.instagram.com/reel/Df6PCtYDKsH/) |
 | 2026-11-18 | hinglish | resize_image_kb | discovery | Charging 100% tak mat karo. | 433 | 6.7 | 8 | 0 | 1 | 2 | 348 | [open](https://www.instagram.com/reel/Df5Yvw8Eckp/) |
 | 2026-11-18 | english | resize_image_kb | discovery | Do you know your phone's secret number? |  |  |  |  |  |  |  | dry run |
 | 2026-11-18 | hinglish | resize_image_kb | discovery | Photo ka size 200 KB kaise hota hai? |  |  |  |  |  |  |  | dry run |

@@ -115,7 +115,8 @@
       6,
       24,
       48,
-      72
+      72,
+      120
     ],
     "metrics": {
       "views": 919,
@@ -124,8 +125,8 @@
       "comments": 1,
       "shares": 2,
       "saved": 4,
-      "avg_watch_s": 8.7,
-      "views_last_hour": 0
+      "total_interactions": 17,
+      "avg_watch_s": 8.7
     },
     "history": [
       {
@@ -161,6 +162,18 @@
         "comments": 1,
         "shares": 2,
         "saved": 4,
+        "avg_watch_s": 8.7
+      },
+      {
+        "at": "2026-11-21T06:28:29+00:00",
+        "hours": 120,
+        "views": 919,
+        "reach": 772,
+        "likes": 9,
+        "comments": 1,
+        "shares": 2,
+        "saved": 4,
+        "total_interactions": 17,
         "avg_watch_s": 8.7
       }
     ]
@@ -2135,7 +2148,8 @@
     "checked": [
       6,
       24,
-      48
+      48,
+      72
     ],
     "metrics": {
       "views": 1328,
@@ -2144,8 +2158,8 @@
       "comments": 2,
       "shares": 0,
       "saved": 12,
-      "avg_watch_s": 9.2,
-      "views_last_hour": 0
+      "total_interactions": 21,
+      "avg_watch_s": 9.2
     },
     "history": [
       {
@@ -2180,6 +2194,18 @@
         "comments": 2,
         "shares": 0,
         "saved": 12,
+        "avg_watch_s": 9.2
+      },
+      {
+        "at": "2026-11-21T06:28:30+00:00",
+        "hours": 72,
+        "views": 1328,
+        "reach": 1110,
+        "likes": 7,
+        "comments": 2,
+        "shares": 0,
+        "saved": 12,
+        "total_interactions": 21,
         "avg_watch_s": 9.2
       }
     ]
@@ -3937,7 +3963,8 @@
     "posted_at": "2026-11-19T05:30:12+00:00",
     "checked": [
       6,
-      24
+      24,
+      48
     ],
     "slot": "11:00",
     "metrics": {
@@ -3947,8 +3974,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "avg_watch_s": 8.8,
-      "views_last_hour": 0
+      "total_interactions": 4,
+      "avg_watch_s": 8.8
     },
     "history": [
       {
@@ -3972,6 +3999,18 @@
         "shares": 0,
         "saved": 0,
         "avg_watch_s": 9.0
+      },
+      {
+        "at": "2026-11-21T06:28:31+00:00",
+        "hours": 48,
+        "views": 187,
+        "reach": 141,
+        "likes": 4,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 4,
+        "avg_watch_s": 8.8
       }
     ]
   },
@@ -5012,5 +5051,251 @@
     "posted_at": "2026-11-21T05:30:09+00:00",
     "checked": [],
     "slot": "11:00"
+  },
+  {
+    "id": "20261121-062921-english",
+    "created_at": "2026-11-21T06:37:35+00:00",
+    "language": "english",
+    "topic": "bank_statement_excel",
+    "hook_style": "how_to",
+    "format": "story",
+    "pace": "brisk",
+    "distance": "near",
+    "answer": null,
+    "idea": "I did not believe a bank statement PDF could turn into Excel in one click.",
+    "plan_reason": "week 1: every tool gets a first try; hook style: best so far; format: best so far; pace: new test; distance: new test; idea from the niche scout",
+    "title": "Priya and the 400-row statement",
+    "hook": "Priya had 400 rows to type by tonight.",
+    "seconds": 24.4,
+    "script": {
+      "title": "Priya and the 400-row statement",
+      "scenes": [
+        {
+          "say": "Priya had 400 rows to type by tonight.",
+          "voice": "Priya had four hundred rows to type... by tonight.",
+          "accent": [
+            "400 rows"
+          ],
+          "tag": "story",
+          "meter": {
+            "label": "ROWS",
+            "value": "400"
+          },
+          "scene": {
+            "type": "person",
+            "name": "Priya",
+            "role": "Loan form",
+            "quote": "Typing all this?"
+          },
+          "kind": "hook",
+          "screen": "Priya had 400 rows to type by tonight.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Her bank statement was a PDF.",
+          "voice": "Her bank statement was a P D F.",
+          "accent": [
+            "PDF"
+          ],
+          "tag": "story",
+          "meter": null,
+          "scene": {
+            "type": "phone_upload",
+            "state": "error",
+            "file": "statement.pdf",
+            "size": "1.2 MB",
+            "text": "Cannot copy",
+            "title": "Locked table"
+          },
+          "kind": "point",
+          "screen": "Her bank statement was a PDF.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Copy and paste broke every column.",
+          "voice": "Copy and paste broke every column.",
+          "accent": [
+            "broke"
+          ],
+          "tag": "story",
+          "meter": null,
+          "scene": {
+            "type": "warning",
+            "text": "Columns all mixed up"
+          },
+          "kind": "point",
+          "screen": "Copy and paste broke every column.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Three hours gone. Still row 60.",
+          "voice": "Three hours gone... still row sixty.",
+          "accent": [
+            "row 60"
+          ],
+          "tag": "story",
+          "meter": {
+            "label": "DONE",
+            "value": "60/400"
+          },
+          "scene": {
+            "type": "counter",
+            "value": 60,
+            "label": "rows typed",
+            "badge": "SLOW"
+          },
+          "kind": "point",
+          "screen": "Three hours gone. Still row 60.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Her cousin said, \"Just convert it.\"",
+          "voice": "Her cousin said... just convert it.",
+          "accent": [
+            "convert"
+          ],
+          "tag": "turn",
+          "meter": null,
+          "scene": {
+            "type": "chat",
+            "name": "Cousin",
+            "messages": [
+              {
+                "from": "them",
+                "text": "Just convert it"
+              },
+              {
+                "from": "me",
+                "text": "To what?"
+              },
+              {
+                "from": "them",
+                "text": "Excel"
+              }
+            ]
+          },
+          "kind": "point",
+          "screen": "Her cousin said, \"Just convert it.\"",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "PDF in. One Excel sheet out.",
+          "voice": "P D F in... one Excel sheet out.",
+          "accent": [
+            "Excel"
+          ],
+          "tag": "turn",
+          "meter": null,
+          "scene": {
+            "type": "convert",
+            "from": "PDF",
+            "to": "EXCEL",
+            "text": "Every row, clean"
+          },
+          "kind": "point",
+          "screen": "PDF in. One Excel sheet out.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "All 400 rows. Zero typing.",
+          "voice": "All four hundred rows. Zero typing.",
+          "accent": [
+            "Zero typing"
+          ],
+          "tag": "lesson",
+          "meter": {
+            "label": "ROWS",
+            "value": "400"
+          },
+          "scene": {
+            "type": "checklist",
+            "title": "Sheet ready",
+            "items": [
+              "Date",
+              "Amount",
+              "Balance"
+            ]
+          },
+          "kind": "point",
+          "screen": "All 400 rows. Zero typing.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Lesson: never type what a tool can convert.",
+          "voice": "Lesson... never type what a tool can convert.",
+          "accent": [
+            "never type"
+          ],
+          "tag": "lesson",
+          "meter": null,
+          "scene": {
+            "type": "bulb",
+            "text": "Don't retype. Convert."
+          },
+          "kind": "point",
+          "screen": "Lesson: never type what a tool can convert.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Try Bank Statement Converter on ilovedocuments.ai. Free, no sign-up.",
+          "voice": "Try Bank Statement Converter on I love documents dot A I. Free, no sign up.",
+          "accent": [
+            "Bank Statement Converter"
+          ],
+          "tag": "tool",
+          "meter": null,
+          "scene": {
+            "type": "browser",
+            "url": "ilovedocuments.ai",
+            "button": "Bank Statement Converter"
+          },
+          "kind": "point",
+          "screen": "Try Bank Statement Converter on ilovedocuments.ai. Free, no ",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Save this for your next form.",
+          "voice": "Save this for your next form.",
+          "accent": [
+            "Save"
+          ],
+          "tag": "tool",
+          "meter": null,
+          "scene": {
+            "type": "cta",
+            "keyword": "SAVE",
+            "line": "// don't retype"
+          },
+          "kind": "cta",
+          "screen": "Save this for your next form.",
+          "emphasis": [],
+          "visual": null
+        }
+      ],
+      "caption": "Priya was typing 400 rows by hand. One convert later, she was done.\nHave you ever retyped a statement? Tell us below.\nilovedocuments.ai",
+      "hashtags": [
+        "#excel",
+        "#bankstatement",
+        "#pdf",
+        "#forms",
+        "#india"
+      ]
+    },
+    "caption": "Priya was typing 400 rows by hand. One convert later, she was done.\nHave you ever retyped a statement? Tell us below.\nilovedocuments.ai\n\n#excel #bankstatement #pdf #forms #india",
+    "video": "20261121-062921-english.mp4",
+    "media_id": "18104248742392368",
+    "permalink": "https://www.instagram.com/reel/Df_moeXFFfy/",
+    "posted_at": "2026-11-21T07:30:10+00:00",
+    "checked": [],
+    "slot": "13:00"
   }
 ]

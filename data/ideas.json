@@ -387,7 +387,7 @@
     "angle": "A job seeker has to re-type 80 rows by hand, then the narrator reveals the converter. Tricks stack up: rows, columns, dates all neat.",
     "from": "https://www.instagram.com/reel/Df6-BE8hk3q/",
     "added": "2026-11-19T12:13:46+00:00",
-    "used": 0
+    "used": 1
   },
   {
     "tool": "pdf_to_word",

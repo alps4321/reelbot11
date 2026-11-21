@@ -1,10 +1,10 @@
 # Live reel stats
 
-Updated 21 Nov 2026, 07:20 AM India time (refreshed about every 5 minutes)
+Updated 21 Nov 2026, 09:57 AM India time (refreshed about every 5 minutes)
 
 | posted | hook | views | views last hour | avg watch s | likes | comments | shares | saves | link |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-11-20 | PDF ka table copy karo toh sab bikhar jaata hai. A | 120 | +1 | 3.4 | 3 | 0 | 1 | 0 | [open](https://www.instagram.com/reel/Df9qx1VEh4p/) |
+| 2026-11-20 | PDF ka table copy karo toh sab bikhar jaata hai. A | 121 | +1 | 3.4 | 3 | 0 | 1 | 0 | [open](https://www.instagram.com/reel/Df9qx1VEh4p/) |
 | 2026-11-20 | 5 photos, form mein sirf 1 PDF ka option. Ab pata  | 115 | +0 | 3.6 | 0 | 0 | 0 | 1 | [open](https://www.instagram.com/reel/Df9ImnMjua7/) |
 | 2026-11-19 | Shahad 3000 saal baad bhi theek mil sakta hai, kyu | 221 | +0 | 7.7 | 3 | 2 | 0 | 2 | [open](https://www.instagram.com/reel/Df7GVN1EsuW/) |
 | 2026-11-19 | Rohan learned it the hard way: important mails can | 143 | +0 | 8.2 | 2 | 1 | 0 | 0 | [open](https://www.instagram.com/reel/Df6etz3jcm7/) |

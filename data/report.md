@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-21T07:30:11+00:00
+Updated 2026-11-21T13:30:09+00:00
 
-Reels made: 27. Posted: 20. Measured: 17.
+Reels made: 28. Posted: 21. Measured: 18.
 
 ## english: results by topic
 
@@ -11,7 +11,7 @@ Reels made: 27. Posted: 20. Measured: 17.
 | general | 2 | 381.5 |
 | remove_background | 1 | 359.0 |
 | merge_pdf | 1 | 145.0 |
-| word_to_pdf | 1 | 116.0 |
+| word_to_pdf | 1 | 114.0 |
 | jpg_to_pdf | 1 | 101.0 |
 | cheat_sheet_5_tools | 1 | 99.0 |
 
@@ -21,7 +21,7 @@ Reels made: 27. Posted: 20. Measured: 17.
 |---|---|---|
 | how_to | 1 | 359.0 |
 | manual | 3 | 302.7 |
-| question | 2 | 108.5 |
+| question | 2 | 107.5 |
 | bold_claim | 1 | 99.0 |
 
 ## english: results by format
@@ -30,7 +30,7 @@ Reels made: 27. Posted: 20. Measured: 17.
 |---|---|---|
 | same_task_before_after | 1 | 359.0 |
 | manual | 3 | 302.7 |
-| story | 1 | 116.0 |
+| story | 1 | 114.0 |
 | secret_answer | 1 | 101.0 |
 | cheat_sheet | 1 | 99.0 |
 
@@ -39,13 +39,13 @@ Reels made: 27. Posted: 20. Measured: 17.
 | pace | reels | avg score |
 |---|---|---|
 | natural | 1 | 359.0 |
-| calm | 1 | 116.0 |
+| calm | 1 | 114.0 |
 
 ## english: results by distance
 
 | distance | reels | avg score |
 |---|---|---|
-| far | 1 | 116.0 |
+| far | 1 | 114.0 |
 
 ## english: what the bot has learned
 
@@ -83,13 +83,14 @@ Reels made: 27. Posted: 20. Measured: 17.
 | resize_photo_kb | 1 | 325.0 |
 | unlock_pdf | 1 | 202.0 |
 | pdf_to_jpg | 1 | 157.0 |
+| image_to_pdf | 1 | 79.0 |
 
 ## hinglish: results by hook style
 
 | hook_style | reels | avg score |
 |---|---|---|
-| question | 2 | 1761.5 |
 | problem | 1 | 1293.0 |
+| question | 3 | 1200.7 |
 | manual | 2 | 648.0 |
 | contrarian | 1 | 348.0 |
 | story_open | 1 | 202.0 |
@@ -99,8 +100,8 @@ Reels made: 27. Posted: 20. Measured: 17.
 
 | format | reels | avg score |
 |---|---|---|
-| secret_answer | 2 | 1761.5 |
 | what_if | 1 | 1293.0 |
+| secret_answer | 3 | 1200.7 |
 | manual | 2 | 648.0 |
 | discovery | 1 | 348.0 |
 | did_you_know | 1 | 202.0 |
@@ -111,7 +112,7 @@ Reels made: 27. Posted: 20. Measured: 17.
 | pace | reels | avg score |
 |---|---|---|
 | brisk | 2 | 725.0 |
-| natural | 2 | 719.5 |
+| natural | 3 | 506.0 |
 | calm | 1 | 348.0 |
 
 ## hinglish: results by distance
@@ -119,42 +120,43 @@ Reels made: 27. Posted: 20. Measured: 17.
 | distance | reels | avg score |
 |---|---|---|
 | far | 2 | 275.0 |
-| near | 1 | 157.0 |
+| near | 2 | 118.0 |
 
 ## hinglish: what the bot has learned
 
 **Keep**
 
-- Lead with a concrete, relatable Indian-user pain or curiosity in Hinglish (Aadhaar PDF password, PDF edit, PDF too big). The top 3 reels all do this, and the #1 reel (2286) is a question about a specific document.
-- Use question or problem hooks tied to a task the viewer has actually tried. Question hooks scored 2286 and 1237, and the problem hook scored 1293. Together they hold the top 3 spots.
-- Keep the topic tied to PDF or document utility, such as unlock, compress or convert. The top 4 are all PDF or document tasks. The best reel also had the most saves (24) and shares (18), so the audience treats it as reference material.
-- Pick topics where the answer is a specific, saveable fact or step (a password rule, an edit method). Saves and shares drove the top scores: 24 saves and 18 shares on #1, and 12 saves on #3.
-- Keep the hook line short and direct, ending on the problem or question itself (e.g. 'PDF ko edit kaise karein?').
+- Lead with an Indian-specific, high-intent pain point or document the viewer already has (Aadhaar PDF password, PDF too big, edit a PDF). The top 4 reels are all practical PDF/document tasks, and the top one is Aadhaar.
+- Use a question or 'what if' hook in Hinglish that promises a concrete answer ("Aadhaar PDF ka password kya hota hai?", "PDF ko edit kaise karein?"). Two of the top three used the question/secret_answer format.
+- Keep the hook tied to a task the viewer can finish with the tool. The top reels got saves (24, 12) and shares (18) because the content is reference-worthy.
+- Keep the topic on a core PDF utility: unlock, compress or convert. Posts that said 'one website for all PDF/photo work' also did fine (919 views, avg watch 8.7s).
+- Aim for an average watch time of about 8s or more. The four best reels were all at 8.2–9.2s, and the weaker ones were at 3.5–7.7s.
 
 **Avoid**
 
-- Hooks that have nothing to do with the product, such as 'Charging 100% tak mat karo' (resize_image_kb) and the Egypt honey story (unlock_pdf). Both scored low (348 and 202) and the hook doesn't match the topic.
-- Generic English bold-claim or myth-buster hooks like 'Most people think a PDF page can't become a photo'. This was the lowest scorer (158) with 0 saves and 0 shares.
-- Vague umbrella promises such as 'ek hi website kaafi hai'. This got 971 with few saves (4) and shares (2), well below the specific-problem hooks.
-- Reels with a weak hook-to-content link (story_open, contrarian, bold_claim). All three scored under 350 and have 0–2 comments.
-- Hooks that rely on a generic complaint without a clear payoff, such as 'File too large' on resize_photo_kb (325). Views were low (243), though shares were fairly high (7).
+- Hooks that have nothing to do with the tool, such as 'Charging 100% tak mat karo' and the Egypt honey story. Both got low views (433 and 221) and low watch time (6.7s and 7.7s), and the topic link back to the product is unclear.
+- English-only or abstract claim hooks ('Most people think a PDF page can't become a photo'). This one got 187 views with 0 saves and 0 shares.
+- Generic 'how to make X' hooks on low-demand topics, such as 'Photos ko ek PDF kaise banayein?'. This one had the worst watch time (3.5s) and almost no engagement (116 views, 1 interaction).
+- Complaint-style hooks with no promised payoff ('Form ne phir bola File too large?'). The reach was small (243 views), though the 7 shares suggest the topic itself has some pull.
+- Reels that are not about a PDF task at all. All five weakest reels were off-topic, abstract, or about photos rather than PDFs.
 
 **Next Tests**
 
-- Repeat the winning pattern on a different document: a Hinglish question hook with a secret_answer format on a specific, familiar item (e.g. 'PAN card PDF ka password kya hota hai?' or 'Bank statement PDF ka password?'). This checks whether the Aadhaar result (2286) comes from the question format or from Aadhaar itself.
-- Rerun the compress_pdf_kb problem hook in Hinglish and with a concrete number, for example 'PDF 2MB se badi hai? 100KB mein kaise karein?'. The English what_if version scored 1293, so this isolates language and specificity.
-- Retest the weak topics with a task-specific question hook instead of the off-topic hooks: pdf_to_jpg as 'PDF ko photo kaise banayein?' and resize_image_kb as 'Photo ko 50KB mein kaise karein?'. Same topics as the 348 and 158 reels, with only the hook changed.
+- Same-topic A/B test on Aadhaar: post a second Aadhaar reel (for example masked Aadhaar or Aadhaar PDF too large) with a different hook style, such as a problem hook versus the question hook. This checks whether Aadhaar itself or the question hook drives the result.
+- Redo the weak topics with the winning pattern. For example, test image_to_pdf with a Hinglish problem hook tied to a form upload ('Form mein sirf PDF maang rahe? Photo ko PDF mein aise badlo'). This tests whether the topic or the hook was the problem.
+- Test the early seconds of the hook. Add on-screen text with the answer's payoff in the first 2s on compress_pdf_kb and pdf_to_word to see if average watch time goes above 9s. The sample is small (9 reels, one run each), so none of these patterns is proven yet.
 
 ## Reels
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-11-21 | hinglish | id_card_print | secret_answer | Masked Aadhaar kya hota hai? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgAPbEXpaEb/) |
 | 2026-11-21 | english | bank_statement_excel | story | Priya had 400 rows to type by tonight. |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/Df_moeXFFfy/) |
-| 2026-11-21 | hinglish | unlock_pdf | secret_answer | e-PAN PDF ka password kya hota hai? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/Df_Y1KHFdvj/) |
+| 2026-11-21 | hinglish | unlock_pdf | secret_answer | e-PAN PDF ka password kya hota hai? | 239 | 6.0 | 5 | 0 | 2 | 2 |  | [open](https://www.instagram.com/reel/Df_Y1KHFdvj/) |
 | 2026-11-20 | hinglish | pdf_to_excel | secret_answer | PDF ka table Excel mein kaise layein? | 121 | 3.4 | 3 | 0 | 1 | 0 |  | [open](https://www.instagram.com/reel/Df9qx1VEh4p/) |
-| 2026-11-20 | hinglish | image_to_pdf | secret_answer | Photos ko ek PDF kaise banayein? | 115 | 3.6 | 0 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/Df9ImnMjua7/) |
+| 2026-11-20 | hinglish | image_to_pdf | secret_answer | Photos ko ek PDF kaise banayein? | 116 | 3.5 | 0 | 0 | 0 | 1 | 79 | [open](https://www.instagram.com/reel/Df9ImnMjua7/) |
 | 2026-11-19 | hinglish | unlock_pdf | did_you_know | Egypt ke tomb mein 3000 saal purana shahad mila. | 221 | 7.7 | 3 | 2 | 0 | 2 | 202 | [open](https://www.instagram.com/reel/Df7GVN1EsuW/) |
-| 2026-11-19 | english | word_to_pdf | story | Why did Rohan miss his own interview? | 143 | 8.2 | 2 | 1 | 0 | 0 | 116 | [open](https://www.instagram.com/reel/Df6etz3jcm7/) |
+| 2026-11-19 | english | word_to_pdf | story | Why did Rohan miss his own interview? | 143 | 8.2 | 2 | 1 | 0 | 0 | 114 | [open](https://www.instagram.com/reel/Df6etz3jcm7/) |
 | 2026-11-19 | hinglish | pdf_to_jpg | myth_buster | Most people think a PDF page can't become a photo. | 187 | 8.8 | 4 | 0 | 0 | 0 | 157 | [open](https://www.instagram.com/reel/Df6PCtYDKsH/) |
 | 2026-11-18 | hinglish | resize_image_kb | discovery | Charging 100% tak mat karo. | 433 | 6.7 | 8 | 0 | 1 | 2 | 348 | [open](https://www.instagram.com/reel/Df5Yvw8Eckp/) |
 | 2026-11-18 | english | resize_image_kb | discovery | Do you know your phone's secret number? |  |  |  |  |  |  |  | dry run |

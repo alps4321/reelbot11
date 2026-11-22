@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-22T12:33:55+00:00
+Updated 2026-11-22T13:30:11+00:00
 
-Reels made: 30. Posted: 23. Measured: 21.
+Reels made: 31. Posted: 24. Measured: 21.
 
 ## english: results by topic
 
@@ -154,6 +154,7 @@ Reels made: 30. Posted: 23. Measured: 21.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-11-22 | hinglish | id_card_print | secret_answer | Kya Aadhaar ka print out original jitna valid hai? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgC130IEonh/) |
 | 2026-11-22 | english | resize_signature_kb | story | Ravi's signature was 2 MB. The form wanted 20 KB. |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgCLaSuk_Tm/) |
 | 2026-11-22 | hinglish | bank_statement_excel | secret_answer | HDFC bank statement PDF ka password kya hai? | 138 | 2.3 | 0 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgB9aV1j1GF/) |
 | 2026-11-21 | hinglish | id_card_print | secret_answer | Masked Aadhaar kya hota hai? | 176 | 4.2 | 1 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgAPbEXpaEb/) |

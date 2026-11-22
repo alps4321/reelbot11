@@ -6300,5 +6300,248 @@
     "posted_at": "2026-11-22T07:30:11+00:00",
     "checked": [],
     "slot": "13:00"
+  },
+  {
+    "id": "20261122-124014-hinglish",
+    "created_at": "2026-11-22T12:48:29+00:00",
+    "language": "hinglish",
+    "topic": "id_card_print",
+    "hook_style": "problem",
+    "format": "secret_answer",
+    "pace": "brisk",
+    "distance": "near",
+    "answer": "aadhaar_all_forms_valid",
+    "idea": "",
+    "plan_reason": "proven tool (top 5, rotating); proven formula slot; hook style: best so far; format: explore; pace: best so far; distance: best so far",
+    "title": "Aadhaar print out original jitna valid?",
+    "hook": "Kya Aadhaar ka print out original jitna valid hai?",
+    "seconds": 27.8,
+    "script": {
+      "title": "Aadhaar print out original jitna valid?",
+      "scenes": [
+        {
+          "say": "Kya Aadhaar ka print out original jitna valid hai?",
+          "voice": "क्या आधार का प्रिंट आउट ओरिजिनल जितना वैलिड है?",
+          "accent": [
+            "print out",
+            "valid"
+          ],
+          "tag": "aadhaar",
+          "meter": null,
+          "scene": {
+            "type": "search",
+            "query": "Aadhaar print out valid hai?",
+            "results": [
+              "e-Aadhaar print out",
+              "Aadhaar original card"
+            ]
+          },
+          "kind": "hook",
+          "screen": "Kya Aadhaar ka print out original jitna valid hai?",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Log yahi soch ke form rukwa dete hain.",
+          "voice": "लोग यही सोच के फॉर्म रुकवा देते हैं।",
+          "accent": [
+            "form"
+          ],
+          "tag": "confusion",
+          "meter": null,
+          "scene": {
+            "type": "warning",
+            "text": "Print out chalega ya nahi?"
+          },
+          "kind": "point",
+          "screen": "Log yahi soch ke form rukwa dete hain.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Cyber cafe wale se bhi poochte hain.",
+          "voice": "साइबर कैफे वाले से भी पूछते हैं।",
+          "accent": [
+            "Cyber cafe"
+          ],
+          "tag": "doubt",
+          "meter": null,
+          "scene": {
+            "type": "chat",
+            "name": "Rahul",
+            "messages": [
+              {
+                "from": "me",
+                "text": "Bhaiya, print out chalega?"
+              },
+              {
+                "from": "them",
+                "text": "Pata nahi yaar..."
+              }
+            ]
+          },
+          "kind": "point",
+          "screen": "Cyber cafe wale se bhi poochte hain.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Jawab end mein hai. Pehle ye dekho.",
+          "voice": "जवाब एंड में है... पहले ये देखो।",
+          "accent": [
+            "end mein"
+          ],
+          "tag": "wait",
+          "meter": null,
+          "scene": {
+            "type": "big_text",
+            "text": "JAWAB END MEIN",
+            "sub": "4 cheezein, 1 sach"
+          },
+          "kind": "point",
+          "screen": "Jawab end mein hai. Pehle ye dekho.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "UIDAI ke hisaab se 4 cheezein barabar valid hain.",
+          "voice": "यूआईडीएआई के हिसाब से 4 चीज़ें बराबर वैलिड हैं।",
+          "accent": [
+            "4",
+            "valid"
+          ],
+          "tag": "uidai",
+          "meter": {
+            "label": "EQUAL",
+            "value": "4 / 4"
+          },
+          "scene": {
+            "type": "checklist",
+            "title": "Sab valid",
+            "items": [
+              "Aadhaar letter",
+              "Aadhaar PVC card",
+              "e-Aadhaar"
+            ]
+          },
+          "kind": "point",
+          "screen": "UIDAI ke hisaab se 4 cheezein barabar valid hain.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Yes. e-Aadhaar utna hi valid aur acceptable hai.",
+          "voice": "यस... ई-आधार उतना ही वैलिड और एक्सेप्टेबल है।",
+          "accent": [
+            "Yes",
+            "e-Aadhaar"
+          ],
+          "tag": "answer",
+          "meter": null,
+          "scene": {
+            "type": "stamp",
+            "word": "VALID",
+            "on": "e-Aadhaar",
+            "label": "UIDAI"
+          },
+          "kind": "point",
+          "screen": "Yes. e-Aadhaar utna hi valid aur acceptable hai.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Matlab PVC card ke liye ruk mat jao.",
+          "voice": "मतलब PVC कार्ड के लिए रुक मत जाओ।",
+          "accent": [
+            "ruk mat jao"
+          ],
+          "tag": "lesson",
+          "meter": null,
+          "scene": {
+            "type": "versus",
+            "left": "PVC card",
+            "right": "e-Aadhaar",
+            "left_sub": "valid",
+            "right_sub": "valid",
+            "winner": "right"
+          },
+          "kind": "point",
+          "screen": "Matlab PVC card ke liye ruk mat jao.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Form mein ID card front-back ek A4 par chahiye?",
+          "voice": "फॉर्म में आईडी कार्ड फ्रंट-बैक एक A4 पर चाहिए?",
+          "accent": [
+            "A4"
+          ],
+          "tag": "next step",
+          "meter": null,
+          "scene": {
+            "type": "id_card",
+            "title": "FRONT + BACK",
+            "name": "Riya Sharma",
+            "sub": "One A4 page"
+          },
+          "kind": "point",
+          "screen": "Form mein ID card front-back ek A4 par chahiye?",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "ilovedocuments.ai ka ID Card Print free hai, browser mein chalta hai.",
+          "voice": "आई लव डॉक्यूमेंट्स डॉट ए आई का आईडी कार्ड प्रिंट फ्री है... ब्राउज़र में चलता है।",
+          "accent": [
+            "ID Card Print",
+            "free"
+          ],
+          "tag": "free tool",
+          "meter": null,
+          "scene": {
+            "type": "browser",
+            "url": "ilovedocuments.ai",
+            "button": "ID Card Print"
+          },
+          "kind": "point",
+          "screen": "ilovedocuments.ai ka ID Card Print free hai, browser mein ch",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Save kar lo, kaam aayega.",
+          "voice": "सेव कर लो, काम आएगा।",
+          "accent": [
+            "Save"
+          ],
+          "tag": "save",
+          "meter": null,
+          "scene": {
+            "type": "cta",
+            "keyword": "SAVE",
+            "line": "// jawab yaad rakho"
+          },
+          "kind": "cta",
+          "screen": "Save kar lo, kaam aayega.",
+          "emphasis": [],
+          "visual": null
+        }
+      ],
+      "caption": "Aadhaar letter, PVC card, e-Aadhaar aur mAadhaar: UIDAI ke hisaab se sab barabar valid hain.\nAb print out ke chakkar mein form mat rokna.\nAapko kis document par sabse zyada doubt hota hai?\nilovedocuments.ai par ID Card Print free hai, no sign-up, no watermark.",
+      "hashtags": [
+        "#Aadhaar",
+        "#eAadhaar",
+        "#UIDAI",
+        "#DocumentTips",
+        "#IndiaForms"
+      ]
+    },
+    "caption": "Aadhaar letter, PVC card, e-Aadhaar aur mAadhaar: UIDAI ke hisaab se sab barabar valid hain.\nAb print out ke chakkar mein form mat rokna.\nAapko kis document par sabse zyada doubt hota hai?\nilovedocuments.ai par ID Card Print free hai, no sign-up, no watermark.\n\n#Aadhaar #eAadhaar #UIDAI #DocumentTips #IndiaForms",
+    "video": "20261122-124014-hinglish.mp4",
+    "media_id": "18135401920689900",
+    "permalink": "https://www.instagram.com/reel/DgC130IEonh/",
+    "posted_at": "2026-11-22T13:30:10+00:00",
+    "checked": [],
+    "slot": "19:00"
   }
 ]

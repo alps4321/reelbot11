@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-21T19:18:28+00:00
+Updated 2026-11-22T05:30:13+00:00
 
-Reels made: 28. Posted: 21. Measured: 19.
+Reels made: 29. Posted: 22. Measured: 20.
 
 ## english: results by topic
 
@@ -127,31 +127,32 @@ Reels made: 28. Posted: 21. Measured: 19.
 
 **Keep**
 
-- Lead with an Indian-specific, high-intent pain point or document the viewer already has (Aadhaar PDF password, PDF too big, edit a PDF). The top 4 reels are all practical PDF/document tasks, and the top one is Aadhaar.
-- Use a question or 'what if' hook in Hinglish that promises a concrete answer ("Aadhaar PDF ka password kya hota hai?", "PDF ko edit kaise karein?"). Two of the top three used the question/secret_answer format.
-- Keep the hook tied to a task the viewer can finish with the tool. The top reels got saves (24, 12) and shares (18) because the content is reference-worthy.
-- Keep the topic on a core PDF utility: unlock, compress or convert. Posts that said 'one website for all PDF/photo work' also did fine (919 views, avg watch 8.7s).
-- Aim for an average watch time of about 8s or more. The four best reels were all at 8.2–9.2s, and the weaker ones were at 3.5–7.7s.
+- Hooks that name a concrete, specific Indian-user pain or object (Aadhaar PDF password, PDF too big, edit a PDF) lead the ranking. The top 3 reels use question, problem or what_if hooks, and the top one has 1966 views with 18 shares and 24 saves.
+- Use secret_answer or what_if framing on a high-intent utility topic. unlock_aadhaar, pdf_to_word and compress_pdf_kb averaged about 8-9s watch and 1300-2000 views. This is only 3 posts, and secret_answer also appears among the weakest reels.
+- Open in Hinglish with a direct question or problem about a task the viewer is stuck on. Aadhaar password, 'PDF ko edit kaise karein' and 'file too large' all drew saves or shares, which means people want to reuse them.
+- Keep the hook tied to the product's job (PDF or photo tasks). The best reels are on-topic, and the off-topic hooks (Egypt honey, phone charging) got 200-435 views.
+- Aim for avg watch of about 8s or more. Every reel at or above that reached over 900 views, except the two weak PDF-conversion reels (3-3.5s) and the low-reach story_open and bold_claim posts.
 
 **Avoid**
 
-- Hooks that have nothing to do with the tool, such as 'Charging 100% tak mat karo' and the Egypt honey story. Both got low views (433 and 221) and low watch time (6.7s and 7.7s), and the topic link back to the product is unclear.
-- English-only or abstract claim hooks ('Most people think a PDF page can't become a photo'). This one got 187 views with 0 saves and 0 shares.
-- Generic 'how to make X' hooks on low-demand topics, such as 'Photos ko ek PDF kaise banayein?'. This one had the worst watch time (3.5s) and almost no engagement (116 views, 1 interaction).
-- Complaint-style hooks with no promised payoff ('Form ne phir bola File too large?'). The reach was small (243 views), though the 7 shares suggest the topic itself has some pull.
-- Reels that are not about a PDF task at all. All five weakest reels were off-topic, abstract, or about photos rather than PDFs.
+- Hooks unrelated to the PDF/photo utility. The Egypt honey story_open, the charging 100% contrarian and the English myth-buster each got under 450 views and little action (0-2 shares, 0-2 saves).
+- Generic 'how to' hooks with no pain point or number (pdf_to_excel, image_to_pdf). Both got about 120 views and only 3.4-3.5s average watch, the lowest in the set.
+- A long gap before the payoff on weak reels. The four weakest are all 24-27s, while two of the top four are 0s. The sample is small, so duration is a hint and not proven.
+- English-only bold-claim hooks. pdf_to_jpg's 'Most people think...' had 187 views, no saves and no shares.
+- Assuming a topic is bad from one post. Each topic has a single reel, so topic and hook style are mixed together and nothing here is proven.
 
 **Next Tests**
 
-- Same-topic A/B test on Aadhaar: post a second Aadhaar reel (for example masked Aadhaar or Aadhaar PDF too large) with a different hook style, such as a problem hook versus the question hook. This checks whether Aadhaar itself or the question hook drives the result.
-- Redo the weak topics with the winning pattern. For example, test image_to_pdf with a Hinglish problem hook tied to a form upload ('Form mein sirf PDF maang rahe? Photo ko PDF mein aise badlo'). This tests whether the topic or the hook was the problem.
-- Test the early seconds of the hook. Add on-screen text with the answer's payoff in the first 2s on compress_pdf_kb and pdf_to_word to see if average watch time goes above 9s. The sample is small (9 reels, one run each), so none of these patterns is proven yet.
+- Rewrite the image_to_pdf and pdf_to_excel hooks in the winning pain-point style, such as 'Form mein 5 photos ek PDF chahiye? Ye karo'. Keep the topic and format the same so the hook is the only change. Compare views and avg watch against the 3.5s baseline.
+- Test the 0s versus 20-27s length on the same topic and hook style. For example, make a 0s and a 24s version of the compress_pdf_kb question hook, to see whether duration or topic is driving the gap.
+- Make 2-3 more reels on the Aadhaar and government-form theme (unlock_aadhaar, resize_photo_kb, passport_photo) with the secret_answer question hook, and check whether the 18 shares and 24 saves repeat. That is one post so far.
 
 ## Reels
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-21 | hinglish | general | manual | Masked Aadhaar mein sirf last 4 digits dikhte hain, baaki xx |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgAPbEXpaEb/) |
+| 2026-11-22 | hinglish | bank_statement_excel | secret_answer | HDFC bank statement PDF ka password kya hai? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgB9aV1j1GF/) |
+| 2026-11-21 | hinglish | general | manual | Masked Aadhaar mein sirf last 4 digits dikhte hain, baaki xx | 176 | 4.2 | 1 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgAPbEXpaEb/) |
 | 2026-11-21 | english | bank_statement_excel | story | Priya had 400 rows to type by tonight. | 84 | 4.9 | 3 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/Df_moeXFFfy/) |
 | 2026-11-21 | hinglish | unlock_pdf | secret_answer | e-PAN PDF ka password kya hota hai? | 240 | 6.0 | 5 | 0 | 2 | 2 |  | [open](https://www.instagram.com/reel/Df_Y1KHFdvj/) |
 | 2026-11-20 | hinglish | pdf_to_excel | secret_answer | PDF ka table Excel mein kaise layein? | 122 | 3.4 | 3 | 0 | 1 | 0 | 85 | [open](https://www.instagram.com/reel/Df9qx1VEh4p/) |
@@ -159,7 +160,7 @@ Reels made: 28. Posted: 21. Measured: 19.
 | 2026-11-19 | hinglish | unlock_pdf | did_you_know | Egypt ke tomb mein 3000 saal purana shahad mila. | 221 | 7.7 | 3 | 2 | 0 | 2 | 200 | [open](https://www.instagram.com/reel/Df7GVN1EsuW/) |
 | 2026-11-19 | english | word_to_pdf | story | Why did Rohan miss his own interview? | 143 | 8.2 | 2 | 1 | 0 | 0 | 114 | [open](https://www.instagram.com/reel/Df6etz3jcm7/) |
 | 2026-11-19 | hinglish | pdf_to_jpg | myth_buster | Most people think a PDF page can't become a photo. | 187 | 8.8 | 4 | 0 | 0 | 0 | 157 | [open](https://www.instagram.com/reel/Df6PCtYDKsH/) |
-| 2026-11-18 | hinglish | resize_image_kb | discovery | Charging 100% tak mat karo. | 433 | 6.7 | 8 | 0 | 1 | 2 | 348 | [open](https://www.instagram.com/reel/Df5Yvw8Eckp/) |
+| 2026-11-18 | hinglish | resize_image_kb | discovery | Charging 100% tak mat karo. | 435 | 6.8 | 8 | 0 | 1 | 2 | 348 | [open](https://www.instagram.com/reel/Df5Yvw8Eckp/) |
 | 2026-11-18 | english | resize_image_kb | discovery | Do you know your phone's secret number? |  |  |  |  |  |  |  | dry run |
 | 2026-11-18 | hinglish | resize_image_kb | discovery | Photo ka size 200 KB kaise hota hai? |  |  |  |  |  |  |  | dry run |
 | 2026-11-18 | hinglish | resize_image_kb | explainer | Form bola 100 KB. Photo hai 1.8 MB. |  |  |  |  |  |  |  | dry run |

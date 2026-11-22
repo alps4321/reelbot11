@@ -3766,17 +3766,18 @@
     "checked": [
       6,
       24,
-      48
+      48,
+      72
     ],
     "metrics": {
-      "views": 433,
-      "reach": 378,
+      "views": 435,
+      "reach": 379,
       "likes": 8,
       "comments": 0,
       "shares": 1,
       "saved": 2,
-      "avg_watch_s": 6.7,
-      "views_last_hour": 0
+      "total_interactions": 11,
+      "avg_watch_s": 6.8
     },
     "history": [
       {
@@ -3813,6 +3814,18 @@
         "shares": 1,
         "saved": 2,
         "avg_watch_s": 6.7
+      },
+      {
+        "at": "2026-11-22T04:28:48+00:00",
+        "hours": 72,
+        "views": 435,
+        "reach": 379,
+        "likes": 8,
+        "comments": 0,
+        "shares": 1,
+        "saved": 2,
+        "total_interactions": 11,
+        "avg_watch_s": 6.8
       }
     ]
   },
@@ -5481,6 +5494,257 @@
     "seconds": 0,
     "hook": "Masked Aadhaar mein sirf last 4 digits dikhte hain, baaki xx",
     "caption": "Masked Aadhaar mein sirf last 4 digits dikhte hain, baaki xxxx-xxxx. e-Aadhaar download karte time choose karo.\nAb se full number dene se pehle ek baar sochna.\nAapne kabhi masked Aadhaar use kiya hai?\nilovedocuments.ai\n\n#Aadhaar #MaskedAadhaar #eAadhaar #DocumentTips #India",
-    "checked": []
+    "checked": [
+      6
+    ],
+    "metrics": {
+      "views": 176,
+      "reach": 151,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 1,
+      "avg_watch_s": 4.2
+    },
+    "history": [
+      {
+        "at": "2026-11-22T04:28:49+00:00",
+        "hours": 6,
+        "views": 176,
+        "reach": 151,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 1,
+        "avg_watch_s": 4.2
+      }
+    ]
+  },
+  {
+    "id": "20261122-042913-hinglish",
+    "created_at": "2026-11-22T04:35:07+00:00",
+    "language": "hinglish",
+    "topic": "bank_statement_excel",
+    "hook_style": "question",
+    "format": "secret_answer",
+    "pace": "calm",
+    "distance": "near",
+    "answer": "hdfc_statement_password",
+    "idea": "",
+    "plan_reason": "proven tool (top 5, rotating); proven formula slot; hook style: explore; format: best so far; pace: explore; distance: best so far",
+    "title": "HDFC statement PDF password",
+    "hook": "HDFC bank statement PDF ka password kya hai?",
+    "seconds": 31.2,
+    "script": {
+      "title": "HDFC statement PDF password",
+      "scenes": [
+        {
+          "say": "HDFC bank statement PDF ka password kya hai?",
+          "voice": "एच डी एफ सी बैंक स्टेटमेंट पी डी एफ का पासवर्ड क्या है?",
+          "accent": [
+            "password"
+          ],
+          "tag": "hdfc pdf",
+          "meter": null,
+          "scene": {
+            "type": "search",
+            "query": "HDFC bank statement PDF ka password kya hai",
+            "results": [
+              "HDFC statement PDF locked",
+              "Password kahan milega?"
+            ]
+          },
+          "kind": "hook",
+          "screen": "HDFC bank statement PDF ka password kya hai?",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Answer end mein hai, pehle ye dekho.",
+          "voice": "आंसर एंड में है... पहले ये देखो।",
+          "accent": [
+            "end mein"
+          ],
+          "tag": "answer aage",
+          "meter": null,
+          "scene": {
+            "type": "bulb",
+            "text": "Answer end mein hai"
+          },
+          "kind": "point",
+          "screen": "Answer end mein hai, pehle ye dekho.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Birthday try kiya? Phone number? Fail.",
+          "voice": "बर्थडे ट्राई किया? फ़ोन नंबर? फ़ेल।",
+          "accent": [
+            "Fail"
+          ],
+          "tag": "galat try",
+          "meter": null,
+          "scene": {
+            "type": "phone_upload",
+            "state": "error",
+            "file": "statement.pdf",
+            "size": "310 KB",
+            "text": "Wrong password",
+            "title": "Locked"
+          },
+          "kind": "point",
+          "screen": "Birthday try kiya? Phone number? Fail.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Aur statement abhi chahiye, form ya loan ke liye.",
+          "voice": "और स्टेटमेंट अभी चाहिए, फॉर्म या लोन के लिए।",
+          "accent": [
+            "abhi"
+          ],
+          "tag": "zaroorat",
+          "meter": null,
+          "scene": {
+            "type": "deadline",
+            "time": "TODAY",
+            "text": "STATEMENT"
+          },
+          "kind": "point",
+          "screen": "Aur statement abhi chahiye, form ya loan ke liye.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "NetBanking ya app se download kiya statement?",
+          "voice": "नेट बैंकिंग या ऐप से डाउनलोड किया स्टेटमेंट?",
+          "accent": [
+            "NetBanking"
+          ],
+          "tag": "pehle check",
+          "meter": null,
+          "scene": {
+            "type": "checklist",
+            "title": "Kahan se download?",
+            "items": [
+              "HDFC NetBanking",
+              "HDFC Bank app"
+            ]
+          },
+          "kind": "point",
+          "screen": "NetBanking ya app se download kiya statement?",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Password hai aapki numeric Customer ID.",
+          "voice": "पासवर्ड है... आपकी न्यूमेरिक कस्टमर आई डी।",
+          "accent": [
+            "Customer ID"
+          ],
+          "tag": "answer",
+          "meter": null,
+          "scene": {
+            "type": "stamp",
+            "word": "ANSWER",
+            "on": "Customer ID",
+            "label": "NetBanking numeric User ID"
+          },
+          "kind": "point",
+          "screen": "Password hai aapki numeric Customer ID.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Wahi number jo NetBanking login mein daalte ho.",
+          "voice": "वही नंबर जो नेट बैंकिंग लॉगिन में डालते हो।",
+          "accent": [
+            "NetBanking login"
+          ],
+          "tag": "kaun sa number",
+          "meter": null,
+          "scene": {
+            "type": "id_card",
+            "title": "NetBanking",
+            "name": "Customer ID",
+            "sub": "numbers only"
+          },
+          "kind": "point",
+          "screen": "Wahi number jo NetBanking login mein daalte ho.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Credit card ya email wale statement ka format alag ho sakta hai.",
+          "voice": "क्रेडिट कार्ड या ईमेल वाले स्टेटमेंट का फॉर्मेट अलग हो सकता है।",
+          "accent": [
+            "alag"
+          ],
+          "tag": "dhyan rakho",
+          "meter": null,
+          "scene": {
+            "type": "warning",
+            "text": "Card / email statement: format alag"
+          },
+          "kind": "point",
+          "screen": "Credit card ya email wale statement ka format alag ho sakta ",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Ab ilovedocuments.ai pe Bank Statement Converter se ek Excel sheet banao.",
+          "voice": "अब आई लव डॉक्यूमेंट्स डॉट ए आई पे बैंक स्टेटमेंट कन्वर्टर से एक एक्सेल शीट बनाओ।",
+          "accent": [
+            "Excel sheet"
+          ],
+          "tag": "next step",
+          "meter": null,
+          "scene": {
+            "type": "browser",
+            "url": "ilovedocuments.ai",
+            "button": "Bank Statement Converter"
+          },
+          "kind": "point",
+          "screen": "Ab ilovedocuments.ai pe Bank Statement Converter se ek Excel",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Save kar lo.",
+          "voice": "सेव कर लो।",
+          "accent": [
+            "Save"
+          ],
+          "tag": "save",
+          "meter": null,
+          "scene": {
+            "type": "cta",
+            "keyword": "SAVE",
+            "line": "// HDFC password yaad rakho"
+          },
+          "kind": "cta",
+          "screen": "Save kar lo.",
+          "emphasis": [],
+          "visual": null
+        }
+      ],
+      "caption": "HDFC statement PDF khul nahi raha? NetBanking ya app se download kiya hai to password aapki numeric Customer ID hai. Card ya email statement ka format alag ho sakta hai.\nKisi dost ka statement lock hai? Unko bhej do. Aapko kaun sa password sabse zyada confuse karta hai?\nilovedocuments.ai",
+      "hashtags": [
+        "#HDFC",
+        "#BankStatement",
+        "#PDFPassword",
+        "#Excel",
+        "#ilovedocuments"
+      ]
+    },
+    "caption": "HDFC statement PDF khul nahi raha? NetBanking ya app se download kiya hai to password aapki numeric Customer ID hai. Card ya email statement ka format alag ho sakta hai.\nKisi dost ka statement lock hai? Unko bhej do. Aapko kaun sa password sabse zyada confuse karta hai?\nilovedocuments.ai\n\n#HDFC #BankStatement #PDFPassword #Excel #ilovedocuments",
+    "video": "20261122-042913-hinglish.mp4",
+    "media_id": "18111583118234607",
+    "permalink": "https://www.instagram.com/reel/DgB9aV1j1GF/",
+    "posted_at": "2026-11-22T05:30:13+00:00",
+    "checked": [],
+    "slot": "11:00"
   }
 ]

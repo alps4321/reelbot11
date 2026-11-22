@@ -104,22 +104,29 @@ class Instagram:
         """Upload, wait for Instagram to process it, then publish (at go_live_at, if that is still ahead)."""
         args = dict(media_type="REELS", upload_type="resumable", caption=caption,
                     share_to_feed="true" if share_to_feed else "false", thumb_offset=thumb_ms)
-        try:
-            box = self._call("POST", f"{self.uid}/media", **args,
-                             **({"is_ai_generated": "true"} if ai_label else {}))
-        except IGError:
-            if not ai_label:
-                raise
-            box = self._call("POST", f"{self.uid}/media", **args)
-        cid = box["id"]
-        uri = box.get("uri") or f"https://rupload.facebook.com/ig-api-upload/{self.version}/{cid}"
-
         size = os.path.getsize(video_path)
-        with open(video_path, "rb") as f:
-            up = requests.post(uri, data=f, timeout=600, headers={
-                "Authorization": f"OAuth {self.token}", "offset": "0", "file_size": str(size)})
-        if up.status_code != 200 or not up.json().get("success", True):
-            raise IGError(f"upload failed {up.status_code}: {up.text[:200]}")
+        # Instagram's upload server sometimes answers "ProcessingFailedError" for a good file;
+        # a fresh container a little later usually goes through, so try up to 3 times
+        for attempt in range(3):
+            try:
+                box = self._call("POST", f"{self.uid}/media", **args,
+                                 **({"is_ai_generated": "true"} if ai_label else {}))
+            except IGError:
+                if not ai_label:
+                    raise
+                box = self._call("POST", f"{self.uid}/media", **args)
+            cid = box["id"]
+            uri = box.get("uri") or f"https://rupload.facebook.com/ig-api-upload/{self.version}/{cid}"
+            with open(video_path, "rb") as f:
+                up = requests.post(uri, data=f, timeout=600, headers={
+                    "Authorization": f"OAuth {self.token}", "offset": "0", "file_size": str(size)})
+            if up.status_code == 200 and up.json().get("success", True):
+                break
+            err = f"upload failed {up.status_code}: {up.text[:200]}"
+            if attempt == 2:
+                raise IGError(err)
+            print(f"{err}; trying again with a new upload in {30 * (attempt + 1)} s")
+            time.sleep(30 * (attempt + 1))
 
         for _ in range(60):  # up to ~5 minutes of processing
             st = self._call("GET", cid, fields="status_code,status")

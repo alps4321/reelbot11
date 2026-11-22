@@ -1,35 +1,6 @@
 [
   {
     "at": "2026-11-17T15:19:02+00:00",
-    "permalink": "https://www.instagram.com/reel/De1WWNAR9Bf/",
-    "why": "It promises a 'secret' free tool for a boring everyday need (PDF and image editing) and gates the link behind a one-word comment. That turns viewers into commenters (44k comments), and each comment tells the algorithm the reel is worth pushing.",
-    "hook_pattern": "Secret [everyday task] app nobody tells you about, comment '[WORD]' and I'll DM the link",
-    "structure": [
-      "Bold 'secret app' claim with an emoji-style shock",
-      "Fast demo of the tool doing a painful task in seconds",
-      "Show before and after result",
-      "Comment-keyword CTA for the link",
-      "Follow reminder"
-    ],
-    "visual": "Screen recording of the app on a phone, with big title text and a comment-keyword overlay.",
-    "speaking": "Fast, excited, short sentences. The CTA is repeated and the keyword is stressed."
-  },
-  {
-    "at": "2026-11-17T15:19:02+00:00",
-    "permalink": "https://www.instagram.com/reel/DfUV1DCyH8x/",
-    "why": "It offers something people want free (ad-free music) and gives one very easy action, commenting a single word. The short claim is clear at once, and the huge comment count shows the keyword gate drives reach.",
-    "hook_pattern": "Free [thing that normally costs money or has ads], comment '[WORD]' for the link",
-    "structure": [
-      "Two-word promise of a free, ad-free thing",
-      "Quick proof of the app in use",
-      "Keyword CTA",
-      "Follow nudge"
-    ],
-    "visual": "App screen capture with a short bold title and a keyword prompt.",
-    "speaking": "Very short and punchy, with almost no pauses. The CTA is the loudest line."
-  },
-  {
-    "at": "2026-11-17T15:19:02+00:00",
     "permalink": "https://www.instagram.com/reel/DfKC673hkqS/",
     "why": "The headline puts a surprising constraint into one line (no ink, 300 pages, one charge). Then it shows the simple steps (open app, select document, tap print), which makes it feel real and easy.",
     "hook_pattern": "This [gadget or tool] does [impossible-sounding thing] without [usual requirement]",
@@ -866,5 +837,71 @@
     ],
     "visual": "A classroom or student meme clip.",
     "speaking": "No speech."
+  },
+  {
+    "at": "2026-11-22T04:33:40+00:00",
+    "permalink": "https://www.instagram.com/reel/Df9hfN2vV3k/",
+    "why": "It opens with a personal threat ('your password is already with hackers') and promises exactly 3 steps, with the scariest saved for last, so viewers stay to the end. Each step is a quick check the viewer can do on themselves, and the big on-screen panels make it easy to follow.",
+    "hook_pattern": "Your [personal thing] may already be [exposed/lost]. Open these N sites/tools, and the last one is the scariest.",
+    "structure": [
+      "Alarming claim about the viewer's own data or account",
+      "Promise of N checks, with the last one the scariest",
+      "Step 1: a panel shows the tool and what to enter",
+      "Step 2: a panel shows what the result reveals",
+      "Step 3: the shocking result, shown as a big number on screen",
+      "Stat or proof that it is common",
+      "Safe fix: two quick actions"
+    ],
+    "visual": "Presenter in sunglasses on the left in a warm orange room, with a cream-coloured panel area on the right. Numbered site cards with lock and skull icons, a screenshot of the real site, a mock input box",
+    "speaking": "Fast Hinglish at about 2.5 words/s, with short pauses before each reveal. Urgent, confiding tone, and the key word in each line is stressed."
+  },
+  {
+    "at": "2026-11-22T04:33:40+00:00",
+    "permalink": "https://www.instagram.com/reel/DgANOxJASRO/",
+    "why": "It states a strong claim in the first second, then proves it with a numbered list of three features, each with a concrete example. The close asks a simple 'A or B?' question that invites a reply.",
+    "hook_pattern": "This is the most [superlative] [thing] ever. It has 3 features, and here is proof of each.",
+    "structure": [
+      "Superlative claim",
+      "Promise of 3 features",
+      "Feature 1 with an example",
+      "Feature 2 with an example",
+      "Feature 3 with an example",
+      "Verdict",
+      "Share prompt plus an A-or-B question"
+    ],
+    "visual": "Real footage and photos used as proof, cut quickly between examples.",
+    "speaking": "Quick, about 3.2 words/s, confident and upbeat, with almost no pauses."
+  },
+  {
+    "at": "2026-11-22T04:33:40+00:00",
+    "permalink": "https://www.instagram.com/reel/Df19Smbv_6d/",
+    "why": "It builds stakes with a big, surprising event, then uses an everyday analogy (a water tank, a whole city) to make a technical idea easy to grasp. Then it asks 'what if it had been worse?' to keep viewers watching.",
+    "hook_pattern": "Even [a giant] was [hit/caught out] in one day, and nobody noticed. Here is how it happened and what you should do.",
+    "structure": [
+      "Big shocking event",
+      "Detail that nobody noticed",
+      "Promise of what to do at the end",
+      "Everyday analogy for how it happened",
+      "What-if escalation",
+      "Takeaway action"
+    ],
+    "visual": "Flat 2D cartoon characters on a cream background, with simple props such as a calendar and papers.",
+    "speaking": "Steady storytelling pace of about 3.2 words/s, with short pauses before the analogy and before each 'what if'."
+  },
+  {
+    "at": "2026-11-22T04:33:40+00:00",
+    "permalink": "https://www.instagram.com/reel/Df4jniBzAZz/",
+    "why": "A recognisable character scolds the viewer's own confusion in a funny way, and this is relatable for students. Rhetorical questions ('Do you think people are born knowing...?') turn the point into a laugh and then a kind reminder.",
+    "hook_pattern": "Oh, you look like you don't know [what students always worry about]. Everybody was once confused.",
+    "structure": [
+      "Character calls out the viewer's worry",
+      "Repeats the line for emphasis",
+      "Reassurance: everyone started confused",
+      "Two rhetorical questions that make it funny",
+      "A mild lesson",
+      "Short closing nudge to act"
+    ],
+    "visual": "Flat 2D animated characters in a cafe-style scene with warm colours, with the recurring character facing the viewer.",
+    "speaking": "Fast, about 4 words/s, with a dramatic repeat of the first line and a teasing tone."
   }
 ]

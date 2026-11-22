@@ -668,5 +668,65 @@
     "from": "https://www.instagram.com/reel/Df98X5MtgiR/",
     "added": "2026-11-21T11:50:18+00:00",
     "used": 0
+  },
+  {
+    "tool": "unlock_aadhaar",
+    "format": "scary_checklist_countdown",
+    "hook_en": "Your Aadhaar PDF is hiding something. Check these 3 things, and the last one will surprise you.",
+    "hook_hinglish": "Tumhara Aadhaar PDF kuch chhupa raha hai. Ye 3 cheezein check karo, aakhri wali chaunkaa degi.",
+    "angle": "A student can't open a downloaded Aadhaar PDF before a form deadline, and the narrator walks through 3 quick checks (password format, file name, file size) before the unlock tool fixes it.",
+    "from": "https://www.instagram.com/reel/Df9hfN2vV3k/",
+    "added": "2026-11-22T04:33:40+00:00",
+    "used": 0
+  },
+  {
+    "tool": "compress_pdf_kb",
+    "format": "claim_then_three_proofs",
+    "hook_en": "This is the only PDF compressor you need for form uploads, and here are 3 proofs.",
+    "hook_hinglish": "Form upload ke liye bas yehi PDF compressor chahiye, aur ye rahe 3 saboot.",
+    "angle": "A job seeker has three rejected uploads (4 MB, 2 MB, 900 KB) and each shrinks under the portal limit while staying readable.",
+    "from": "https://www.instagram.com/reel/DgANOxJASRO/",
+    "added": "2026-11-22T04:33:40+00:00",
+    "used": 0
+  },
+  {
+    "tool": "resize_photo_kb",
+    "format": "relatable_roast_reassure",
+    "hook_en": "Oh, your photo got rejected again? Everybody has been stuck on 20 KB at least once.",
+    "hook_hinglish": "Oh, tumhari photo phir reject ho gayi? 20 KB pe sab kabhi na kabhi atke hain.",
+    "angle": "A friend teases a classmate whose photo keeps failing the 20-50 KB rule, then shows the fix and the success panel.",
+    "from": "https://www.instagram.com/reel/Df4jniBzAZz/",
+    "added": "2026-11-22T04:33:40+00:00",
+    "used": 0
+  },
+  {
+    "tool": "merge_pdf",
+    "format": "everyday_analogy_explainer",
+    "hook_en": "Sending 6 separate PDFs is like sending 6 separate suitcases. Here is the one-bag fix.",
+    "hook_hinglish": "6 alag PDF bhejna matlab 6 alag suitcase bhejna. Ye hai ek bag wala fix.",
+    "angle": "An HR person only sees the first file out of six, so the applicant merges everything into one PDF in the right order.",
+    "from": "https://www.instagram.com/reel/Df19Smbv_6d/",
+    "added": "2026-11-22T04:33:40+00:00",
+    "used": 0
+  },
+  {
+    "tool": "bank_statement_excel",
+    "format": "scary_checklist_countdown",
+    "hook_en": "Your bank statement is stuck in a PDF. Do these 3 steps, and the last one saves hours.",
+    "hook_hinglish": "Tumhara bank statement PDF mein atka hai. Ye 3 steps karo, aakhri wala ghanton bachayega.",
+    "angle": "A student has to total months of spending by hand, tries copying and pasting, and then converts the whole statement to Excel in one go.",
+    "from": "https://www.instagram.com/reel/Df9hfN2vV3k/",
+    "added": "2026-11-22T04:33:40+00:00",
+    "used": 0
+  },
+  {
+    "tool": "signature_bg_remover",
+    "format": "claim_then_three_proofs",
+    "hook_en": "This is the cleanest signature fix ever. See it work on 3 messy scans.",
+    "hook_hinglish": "Ye ab tak ka sabse clean signature fix hai. 3 gande scan pe chalte dekho.",
+    "angle": "Three signatures on crumpled paper, phone shadow and blue-ink scans turn into clean transparent files ready for forms.",
+    "from": "https://www.instagram.com/reel/DgANOxJASRO/",
+    "added": "2026-11-22T04:33:40+00:00",
+    "used": 0
   }
 ]

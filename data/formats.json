@@ -1,29 +1,5 @@
 {
   "learned": {
-    "too_good_to_be_legal_reveal": {
-      "description": "Open with a narrator who says an ordinary-looking tool feels almost illegal. Have a 3D character try it, then stack 3 or 4 quick surprising abilities, each shown in its own panel with a file size or result.",
-      "from": "https://www.instagram.com/reel/Df6-BE8hk3q/",
-      "hook_pattern": "This [ordinary thing] should be illegal, they should not be selling this",
-      "added": "2026-11-19T12:13:46+00:00"
-    },
-    "live_disbelief_walkthrough": {
-      "description": "Start with a character who cannot believe something works, then walk through it step by step. The narrator points out small details a viewer would miss, shown on panels.",
-      "from": "https://www.instagram.com/reel/Df4dNNBSw3m/",
-      "hook_pattern": "[Hot topic] I just can't believe it, bhai!",
-      "added": "2026-11-19T12:13:46+00:00"
-    },
-    "playful_rivalry_roast": {
-      "description": "Narrate two tools or habits as friendly rivals, with a cheeky accusation at the start. The 3D characters tease each other and the better tool wins at the end.",
-      "from": "https://www.instagram.com/reel/Df2VxPsMPst/",
-      "hook_pattern": "[Brand A] is being naughty again",
-      "added": "2026-11-19T12:13:46+00:00"
-    },
-    "festive_refrain_moment": {
-      "description": "Tie one tool to a festive or seasonal deadline moment. The narrator repeats one short line as a refrain while the character finishes the task, then ends on a calm success panel.",
-      "from": "https://www.instagram.com/reel/DfeF-kOIwkr/",
-      "hook_pattern": "[Festival/emotion line repeated] with a feeling of arrival",
-      "added": "2026-11-19T12:13:46+00:00"
-    },
     "three_things_countdown": {
       "description": "Have the narrator promise exactly three things a tool does better than people expect. Show each as a big numbered caption on a 3D panel, with a before/after file or size change.",
       "from": "https://www.instagram.com/reel/De1vnYRzVxQ/",
@@ -59,6 +35,30 @@
       "from": "https://www.instagram.com/reel/Df9mir3heiW/",
       "hook_pattern": "The most useful [thing] you can actually buy for [moment of annoyance]",
       "added": "2026-11-21T04:32:28+00:00"
+    },
+    "scary_checklist_countdown": {
+      "description": "Narrate a short story where a character is told something quietly alarming about their files. They run N quick checks one by one, each shown on a panel, and the last check gives the biggest surprise before the fix.",
+      "from": "https://www.instagram.com/reel/Df9hfN2vV3k/",
+      "hook_pattern": "Your [personal thing] may already be [exposed/lost]. Open these N sites/tools, and the last one is the scariest.",
+      "added": "2026-11-22T04:33:40+00:00"
+    },
+    "claim_then_three_proofs": {
+      "description": "Have the narrator make one big claim about a tool, then let a character prove it with three quick, concrete results shown on panels, ending with a short verdict.",
+      "from": "https://www.instagram.com/reel/DgANOxJASRO/",
+      "hook_pattern": "This is the most [superlative] [thing] ever. It has 3 features, and here is proof of each.",
+      "added": "2026-11-22T04:33:40+00:00"
+    },
+    "everyday_analogy_explainer": {
+      "description": "Narrate a tiny story where a character's file problem is explained with one everyday comparison (such as a water tank or a suitcase). Then escalate with 'what if it had been worse?' before the fix.",
+      "from": "https://www.instagram.com/reel/Df19Smbv_6d/",
+      "hook_pattern": "Even [a giant] was [hit/caught out] in one day, and nobody noticed. Here is how it happened and what you should do.",
+      "added": "2026-11-22T04:33:40+00:00"
+    },
+    "relatable_roast_reassure": {
+      "description": "Have a recurring character tease a classmate for a small file panic, then reassure them that everyone has been stuck there and show the one-tap fix.",
+      "from": "https://www.instagram.com/reel/Df4jniBzAZz/",
+      "hook_pattern": "Oh, you look like you don't know [what students always worry about]. Everybody was once confused.",
+      "added": "2026-11-22T04:33:40+00:00"
     }
   }
 }

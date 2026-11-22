@@ -1,42 +1,6 @@
 {
   "samples": [
     {
-      "wps": 3.42,
-      "pause_s": 0.35,
-      "lang": "hi",
-      "per_k": 4.6
-    },
-    {
-      "wps": 4.26,
-      "pause_s": 0.0,
-      "lang": "en",
-      "per_k": 27.6
-    },
-    {
-      "wps": 3.99,
-      "pause_s": 0.3,
-      "lang": "en",
-      "per_k": 9.6
-    },
-    {
-      "wps": 3.07,
-      "pause_s": 0.31,
-      "lang": "en",
-      "per_k": 93.6
-    },
-    {
-      "wps": 2.62,
-      "pause_s": 0.52,
-      "lang": "hi",
-      "per_k": 65.6
-    },
-    {
-      "wps": 4.03,
-      "pause_s": 0.0,
-      "lang": "hi",
-      "per_k": 42.4
-    },
-    {
       "wps": 2.87,
       "pause_s": 0.32,
       "lang": "en",
@@ -239,10 +203,46 @@
       "pause_s": 0.32,
       "lang": "hi",
       "per_k": 3.6
+    },
+    {
+      "wps": 0.62,
+      "pause_s": 0.0,
+      "lang": "hi",
+      "per_k": 4.7
+    },
+    {
+      "wps": 2.53,
+      "pause_s": 2.04,
+      "lang": "hi",
+      "per_k": 3.4
+    },
+    {
+      "wps": 3.23,
+      "pause_s": 0.3,
+      "lang": "en",
+      "per_k": 3.0
+    },
+    {
+      "wps": 2.91,
+      "pause_s": 0.84,
+      "lang": "hi",
+      "per_k": 2.6
+    },
+    {
+      "wps": 3.23,
+      "pause_s": 0.32,
+      "lang": "hi",
+      "per_k": 2.5
+    },
+    {
+      "wps": 4.01,
+      "pause_s": 0.84,
+      "lang": "en",
+      "per_k": 0.6
     }
   ],
-  "notes": "The strongest speakers talk fast (2.5 to 3.6 words/s) and use short pauses only just before a reveal or a number. They stress the key number or contrast word and repeat it in a punchy triple at the end.",
-  "updated": "2026-11-21T11:50:18+00:00",
+  "notes": "The best speakers here start at the first word with no lead-in and keep a quick pace of about 3 words/s, slowing only just before a reveal or a big number. They repeat or stress one key word per line (a number, 'last one', 'scariest') and let the on-screen captions carry the rest.",
+  "updated": "2026-11-22T04:33:40+00:00",
   "words_per_second": 3.25,
-  "pause_s": 0.52
+  "pause_s": 0.45
 }

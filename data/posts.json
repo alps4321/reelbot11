@@ -4351,7 +4351,8 @@
     "checked": [
       6,
       24,
-      48
+      48,
+      72
     ],
     "slot": "13:00",
     "metrics": {
@@ -4391,6 +4392,18 @@
       {
         "at": "2026-11-21T13:32:38+00:00",
         "hours": 48,
+        "views": 143,
+        "reach": 105,
+        "likes": 2,
+        "comments": 1,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 3,
+        "avg_watch_s": 8.2
+      },
+      {
+        "at": "2026-11-22T12:28:22+00:00",
+        "hours": 72,
         "views": 143,
         "reach": 105,
         "likes": 2,
@@ -4893,7 +4906,8 @@
     "posted_at": "2026-11-20T07:37:18+00:00",
     "checked": [
       6,
-      24
+      24,
+      48
     ],
     "slot": null,
     "metrics": {
@@ -4922,6 +4936,18 @@
       {
         "at": "2026-11-21T13:32:40+00:00",
         "hours": 24,
+        "views": 116,
+        "reach": 105,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
+        "total_interactions": 1,
+        "avg_watch_s": 3.5
+      },
+      {
+        "at": "2026-11-22T12:28:23+00:00",
+        "hours": 48,
         "views": 116,
         "reach": 105,
         "likes": 0,
@@ -5491,18 +5517,19 @@
     "permalink": "https://www.instagram.com/reel/Df_moeXFFfy/",
     "posted_at": "2026-11-21T07:30:10+00:00",
     "checked": [
-      6
+      6,
+      24
     ],
     "slot": "13:00",
     "metrics": {
-      "views": 84,
-      "reach": 62,
+      "views": 112,
+      "reach": 83,
       "likes": 3,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 3,
-      "avg_watch_s": 4.9
+      "avg_watch_s": 4.8
     },
     "history": [
       {
@@ -5516,6 +5543,18 @@
         "saved": 0,
         "total_interactions": 3,
         "avg_watch_s": 4.9
+      },
+      {
+        "at": "2026-11-22T12:28:24+00:00",
+        "hours": 24,
+        "views": 112,
+        "reach": 83,
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 3,
+        "avg_watch_s": 4.8
       }
     ]
   },
@@ -5981,8 +6020,34 @@
     "media_id": "18111583118234607",
     "permalink": "https://www.instagram.com/reel/DgB9aV1j1GF/",
     "posted_at": "2026-11-22T05:30:13+00:00",
-    "checked": [],
-    "slot": "11:00"
+    "checked": [
+      6
+    ],
+    "slot": "11:00",
+    "metrics": {
+      "views": 138,
+      "reach": 121,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 0,
+      "avg_watch_s": 2.3
+    },
+    "history": [
+      {
+        "at": "2026-11-22T12:28:24+00:00",
+        "hours": 6,
+        "views": 138,
+        "reach": 121,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 0,
+        "avg_watch_s": 2.3
+      }
+    ]
   },
   {
     "id": "20261122-062849-english",

@@ -1,36 +1,6 @@
 {
   "samples": [
     {
-      "wps": 2.87,
-      "pause_s": 0.32,
-      "lang": "en",
-      "per_k": 41.0
-    },
-    {
-      "wps": 4.1,
-      "pause_s": 0.26,
-      "lang": "en",
-      "per_k": 60.5
-    },
-    {
-      "wps": 3.28,
-      "pause_s": 2.06,
-      "lang": "hi",
-      "per_k": 57.1
-    },
-    {
-      "wps": 4.28,
-      "pause_s": 0.0,
-      "lang": "en",
-      "per_k": 52.8
-    },
-    {
-      "wps": 1.38,
-      "pause_s": 5.34,
-      "lang": "hi",
-      "per_k": 46.9
-    },
-    {
       "wps": 3.28,
       "pause_s": 0.5,
       "lang": "hi",
@@ -239,10 +209,40 @@
       "pause_s": 0.84,
       "lang": "en",
       "per_k": 0.6
+    },
+    {
+      "wps": 2.7,
+      "pause_s": 0.36,
+      "lang": "en",
+      "per_k": 2.8
+    },
+    {
+      "wps": 3.72,
+      "pause_s": 0.6,
+      "lang": "ur",
+      "per_k": 1.9
+    },
+    {
+      "wps": 3.43,
+      "pause_s": 0.3,
+      "lang": "hi",
+      "per_k": 1.9
+    },
+    {
+      "wps": 2.99,
+      "pause_s": 0.0,
+      "lang": "hi",
+      "per_k": 1.4
+    },
+    {
+      "wps": 1.8,
+      "pause_s": 1.56,
+      "lang": "hi",
+      "per_k": 0.1
     }
   ],
-  "notes": "The best speakers here start at the first word with no lead-in and keep a quick pace of about 3 words/s, slowing only just before a reveal or a big number. They repeat or stress one key word per line (a number, 'last one', 'scariest') and let the on-screen captions carry the rest.",
-  "updated": "2026-11-22T04:33:40+00:00",
+  "notes": "The best speakers here run fast, about 2.7 to 3.4 words a second, and let the list rhythm carry the energy. They use short escalation words like 'Heck' and end on a clear verdict or tease. Our narrator should keep that pace, stress the numbers and file sizes, and pause briefly before each reveal.",
+  "updated": "2026-11-22T12:00:19+00:00",
   "words_per_second": 3.25,
-  "pause_s": 0.45
+  "pause_s": 0.4
 }

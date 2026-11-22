@@ -1,64 +1,5 @@
 [
   {
-    "at": "2026-11-17T15:19:02+00:00",
-    "permalink": "https://www.instagram.com/reel/DfKC673hkqS/",
-    "why": "The headline puts a surprising constraint into one line (no ink, 300 pages, one charge). Then it shows the simple steps (open app, select document, tap print), which makes it feel real and easy.",
-    "hook_pattern": "This [gadget or tool] does [impossible-sounding thing] without [usual requirement]",
-    "structure": [
-      "Shock headline with a number",
-      "Show the simple 3-step flow",
-      "Reveal the key spec",
-      "Why it matters"
-    ],
-    "visual": "Clean product close-ups with step-by-step text overlays.",
-    "speaking": "Calm and explanatory, with a rising tone on the surprising spec."
-  },
-  {
-    "at": "2026-11-17T15:19:02+00:00",
-    "permalink": "https://www.instagram.com/reel/DfMA961Plsh/",
-    "why": "A numbered promise ('5 new features') sets a clear length and makes people watch to the end. It also ties into a trending update, so it matches what they are already searching for.",
-    "hook_pattern": "N new [things] in [trending update] you need to know",
-    "structure": [
-      "Numbered headline",
-      "Feature 1 to 5, each with a one-line benefit",
-      "Wrap-up"
-    ],
-    "visual": "Phone UI captures with number captions.",
-    "speaking": "Steady, listy, one beat per item."
-  },
-  {
-    "at": "2026-11-17T15:24:16+00:00",
-    "permalink": "https://www.instagram.com/reel/De_UI6HRvno/",
-    "why": "It opens on a bold promise (free, unlimited, high speed) and then proves it right away with a before and after speed comparison. The big result number (379 Mbps) makes the payoff easy to see.",
-    "hook_pattern": "This one [free thing] gives you [big benefit], and I'll prove it with a before/after",
-    "structure": [
-      "Bold promise as an on-screen banner while the first word is already being spoken",
-      "Show the slow normal result (the pain)",
-      "Add the tool and run the same task again",
-      "Show the big number or result",
-      "Push it further with a bonus (a second phone makes it even faster)",
-      "Say who it works for, and that it's easy"
-    ],
-    "visual": "Vertical split of creator face and screen recording. A white banner with a red keyword stays up for the first seconds. Highlighted word-by-word captions in blue boxes. Close-ups of a speed dial and a ",
-    "speaking": "Fast and confident at about 3.3 words/s. The first word comes at 0.18 s. Short pauses, with stress on 'slow' versus 'now see'."
-  },
-  {
-    "at": "2026-11-17T15:24:16+00:00",
-    "permalink": "https://www.instagram.com/reel/DfuWR1hx5cb/",
-    "why": "It promises a count and a price in the first line ('3 gadgets, about Rs 1000'), so people stay to see all three. Each item turns into something unexpected (a mouse that holds earbuds), and the hands-on shots keep the pace moving.",
-    "hook_pattern": "For around Rs [small amount], I've got [N] super useful [things]",
-    "structure": [
-      "Hook states the count and the low price",
-      "Item 1: the surprise reveal (it's actually two things)",
-      "List its features quickly",
-      "Item 2 with another 'but open this and...' twist",
-      "Item 3 with a practical bonus",
-      "Close with a call to action"
-    ],
-    "visual": "Top-down desk shots with hands. A price banner at the start. Highlighted captions. A quick cut every 2 to 3 seconds. Colourful lit background.",
-    "speaking": "Steady at about 3 words/s, with a clear pause before each new item. Stress falls on 'not only... but', and the tone is upbeat."
-  },
-  {
     "at": "2026-11-17T15:24:16+00:00",
     "permalink": "https://www.instagram.com/reel/DezRZM5SXGo/",
     "why": "It uses curiosity about a new, hyped object ('features Apple didn't tell you'), then keeps up a steady flow of small surprising reveals. Every claim is shown on screen straight away.",
@@ -903,5 +844,61 @@
     ],
     "visual": "Flat 2D animated characters in a cafe-style scene with warm colours, with the recurring character facing the viewer.",
     "speaking": "Fast, about 4 words/s, with a dramatic repeat of the first line and a teasing tone."
+  },
+  {
+    "at": "2026-11-22T12:00:19+00:00",
+    "permalink": "https://www.instagram.com/reel/Df7Bhxgxd0y/",
+    "why": "It is a list of upcoming flagship phones, and the phones are the draw. The 'share with anyone buying a flagship' line gives people a reason to send it on. It drew 32.5 engagements per 1,000 followers, far more than any other reel here.",
+    "hook_pattern": "Upcoming [thing everyone wants]: the N names you should know about, share with someone who is about to buy",
+    "structure": [
+      "Big title naming the category and the hype",
+      "Quick succession of named items, each with a visual",
+      "Share-with-a-friend prompt in the caption"
+    ],
+    "visual": "The product shots and names are the content. Little or no speech was captured, so I'm inferring the rest from the caption.",
+    "speaking": "No speech was captured, so there is nothing to read here."
+  },
+  {
+    "at": "2026-11-22T12:00:19+00:00",
+    "permalink": "https://www.instagram.com/reel/DgCoF5NgQVI/",
+    "why": "It opens with a bold superlative claim backed by a first-person credential ('100 hours in'). Then it gives numbered, concrete proofs, each one more surprising than the last. It ends on a hook for a part 2.",
+    "hook_pattern": "After [big effort], here's why this is the [best ever]: the N details nobody noticed",
+    "structure": [
+      "Superlative claim plus credential",
+      "Proof 1, a surprising detail",
+      "Proof 2, stacked detail with 'Heck,' escalation",
+      "Proof 3 and 4, the peak surprises",
+      "Restate the claim and tease part 2"
+    ],
+    "visual": "A creator on a bright set holds up the product. Cuts between screen footage and the creator's face. Large bold captions with the key word highlighted in a blue box. Vertical LED lighting in the backgr",
+    "speaking": "Fast, about 2.7 words a second, with short pauses. Enthusiastic. 'Heck,' is used as an escalation marker."
+  },
+  {
+    "at": "2026-11-22T12:00:19+00:00",
+    "permalink": "https://www.instagram.com/reel/DfXRUwZPHdg/",
+    "why": "It is an 'honest review' that sets out the catch: three conditions have to be met, and it says who the offer suits and who it doesn't. The honest verdict ('smart add-on, not a game changer') builds trust.",
+    "hook_pattern": "[Hyped offer] honest review: what the headline hides",
+    "structure": [
+      "Headline offer that sounds too good",
+      "Catch: it is not what it seems",
+      "The three conditions you need",
+      "Who it is for and who it isn't",
+      "Verdict in one line"
+    ],
+    "visual": "I couldn't view these frames, so this is inferred from the caption and speech. Probably a talking creator with on-screen text.",
+    "speaking": "Fairly quick, about 3.4 words a second, with almost no pauses. Plain and sceptical, then a clear verdict."
+  },
+  {
+    "at": "2026-11-22T12:00:19+00:00",
+    "permalink": "https://www.instagram.com/reel/Df7NsrfPzI2/",
+    "why": "It promises hidden features and then lists them fast, so the viewer gets one surprise after another. Each item is a single concrete thing you can picture.",
+    "hook_pattern": "[Thing you use] has hidden features you didn't know about",
+    "structure": [
+      "Hidden features promise",
+      "Rapid-fire concrete examples",
+      "Closing 'and more' line"
+    ],
+    "visual": "I couldn't view these frames, so this is inferred from the caption and speech. Probably gameplay clips that match each feature as it is named.",
+    "speaking": "Continuous, about 3 words a second, with no pauses. Casual Hindi, with energy coming from the list rhythm."
   }
 ]

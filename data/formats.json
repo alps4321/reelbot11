@@ -1,23 +1,5 @@
 {
   "learned": {
-    "three_things_countdown": {
-      "description": "Have the narrator promise exactly three things a tool does better than people expect. Show each as a big numbered caption on a 3D panel, with a before/after file or size change.",
-      "from": "https://www.instagram.com/reel/De1vnYRzVxQ/",
-      "hook_pattern": "[Famous product] is here, and it has N things [rivals] need to copy",
-      "added": "2026-11-20T04:10:19+00:00"
-    },
-    "survives_the_torture_test": {
-      "description": "Show a 3D character throwing everything at a file or form (wrong size, locked, corrupted, too big), and the tool still works. The narrator names each trial while the panel shows the error turning into success.",
-      "from": "https://www.instagram.com/reel/DeyeECdR9Ks/",
-      "hook_pattern": "This [thing] can survive anything, so even if you do this, this, or this, nothing happens",
-      "added": "2026-11-20T04:10:19+00:00"
-    },
-    "one_thing_replaces_many": {
-      "description": "Show a character juggling several separate apps or sites for a job, and the narrator reveals a single site that does it all, with the extra apps vanishing from the 3D scene.",
-      "from": "https://www.instagram.com/reel/DfUbxtAgozz/",
-      "hook_pattern": "One tiny [thing] replaces N annoying [things]",
-      "added": "2026-11-20T04:10:19+00:00"
-    },
     "two_in_one_claim": {
       "description": "Open with the first word at 0 s, state that the tool does two jobs people think need two apps, and show both outcomes side by side in two 3D panels.",
       "from": "https://www.instagram.com/reel/Df7RgoAvbsr/",
@@ -59,6 +41,24 @@
       "from": "https://www.instagram.com/reel/Df4jniBzAZz/",
       "hook_pattern": "Oh, you look like you don't know [what students always worry about]. Everybody was once confused.",
       "added": "2026-11-22T04:33:40+00:00"
+    },
+    "upcoming_lineup_countdown": {
+      "description": "Have the narrator count down 3 to 4 named things (tool names or file types) in quick, punchy beats. Each beat gets its own panel showing the name and one outcome, and the last beat is the best one.",
+      "from": "https://www.instagram.com/reel/Df7Bhxgxd0y/",
+      "hook_pattern": "Upcoming [thing everyone wants]: the N names you should know about, share with someone who is about to buy",
+      "added": "2026-11-22T12:00:19+00:00"
+    },
+    "fine_print_reveal": {
+      "description": "Have the character get excited about a too-good claim. Then the narrator reveals the fine-print catch on a panel, and the story ends with an honest verdict on who it is really for.",
+      "from": "https://www.instagram.com/reel/DfXRUwZPHdg/",
+      "hook_pattern": "[Hyped offer] honest review: what the headline hides",
+      "added": "2026-11-22T12:00:19+00:00"
+    },
+    "hidden_features_rapid_list": {
+      "description": "Have the narrator reveal tiny hidden things one tool can do, each in a single quick beat on screen, with the character reacting with surprise each time.",
+      "from": "https://www.instagram.com/reel/Df7NsrfPzI2/",
+      "hook_pattern": "[Thing you use] has hidden features you didn't know about",
+      "added": "2026-11-22T12:00:19+00:00"
     }
   }
 }

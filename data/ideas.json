@@ -728,5 +728,65 @@
     "from": "https://www.instagram.com/reel/DgANOxJASRO/",
     "added": "2026-11-22T04:33:40+00:00",
     "used": 0
+  },
+  {
+    "tool": "compress_pdf_kb",
+    "format": "fine_print_reveal",
+    "hook_en": "The form said max 200 KB. Your PDF is 4 MB. Here's the catch nobody mentions.",
+    "hook_hinglish": "Form bola max 200 KB, aur tumhari PDF 4 MB ki hai. Ye catch koi nahi batata.",
+    "angle": "A student's upload is rejected at the last minute. The narrator reveals the catch (the limit is per file, not per form), then the PDF is shrunk and the upload succeeds.",
+    "from": "https://www.instagram.com/reel/DfXRUwZPHdg/",
+    "added": "2026-11-22T12:00:19+00:00",
+    "used": 0
+  },
+  {
+    "tool": "resize_signature_kb",
+    "format": "claim_then_three_proofs",
+    "hook_en": "Your signature photo gets rejected 3 times for 3 different reasons.",
+    "hook_hinglish": "Signature photo 3 baar reject hoti hai, 3 alag wajah se.",
+    "angle": "Three rejection panels: too big, a dark background, the wrong size. The tool fixes all three and the upload goes through on the fourth try.",
+    "from": "https://www.instagram.com/reel/DgCoF5NgQVI/",
+    "added": "2026-11-22T12:00:19+00:00",
+    "used": 0
+  },
+  {
+    "tool": "merge_pdf",
+    "format": "upcoming_lineup_countdown",
+    "hook_en": "4 documents every job form wants, and one file to hold them all.",
+    "hook_hinglish": "Job form ko chahiye 4 documents, aur ek hi file mein sab.",
+    "angle": "The narrator counts the documents (Aadhaar, marksheet, photo, resume) as each one slides into a single merged PDF.",
+    "from": "https://www.instagram.com/reel/Df7Bhxgxd0y/",
+    "added": "2026-11-22T12:00:19+00:00",
+    "used": 0
+  },
+  {
+    "tool": "passport_photo",
+    "format": "hidden_features_rapid_list",
+    "hook_en": "Your phone selfie can become a passport photo. Here are 3 hidden steps.",
+    "hook_hinglish": "Tumhari selfie passport photo ban sakti hai. Ye hain 3 hidden steps.",
+    "angle": "The character takes a selfie, the background is removed, the photo is cropped to size and sharpened, and a print-ready sheet appears.",
+    "from": "https://www.instagram.com/reel/Df7NsrfPzI2/",
+    "added": "2026-11-22T12:00:19+00:00",
+    "used": 0
+  },
+  {
+    "tool": "unlock_aadhaar",
+    "format": "fine_print_reveal",
+    "hook_en": "Aadhaar PDF won't open? The password is hiding in plain sight.",
+    "hook_hinglish": "Aadhaar PDF khul nahi rahi? Password tumhare saamne hi hai.",
+    "angle": "The character is stuck on the password prompt. The narrator reveals the pattern, and the unlocked PDF is ready to use.",
+    "from": "https://www.instagram.com/reel/DfXRUwZPHdg/",
+    "added": "2026-11-22T12:00:19+00:00",
+    "used": 0
+  },
+  {
+    "tool": "bank_statement_excel",
+    "format": "claim_then_three_proofs",
+    "hook_en": "After 100 pages of bank statement, this is the fastest way to sort it.",
+    "hook_hinglish": "100 page ka bank statement, ye sabse fast tareeka hai sort karne ka.",
+    "angle": "A job seeker needs a statement in Excel. Three quick wins: the pages convert, the columns line up, and the totals add up.",
+    "from": "https://www.instagram.com/reel/DgCoF5NgQVI/",
+    "added": "2026-11-22T12:00:19+00:00",
+    "used": 0
   }
 ]

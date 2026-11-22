@@ -1,12 +1,12 @@
 # Live reel stats
 
-Updated 22 Nov 2026, 03:21 AM India time (refreshed about every 5 minutes)
+Updated 22 Nov 2026, 07:14 AM India time (refreshed about every 5 minutes)
 
 | posted | hook | views | views last hour | avg watch s | likes | comments | shares | saves | link |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-11-21 | Masked Aadhaar mein sirf last 4 digits dikhte hain | 170 | +6 | 4.2 | 1 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgAPbEXpaEb/) |
-| 2026-11-21 | Priya was typing 400 rows by hand. One convert lat | 111 | +3 | 4.9 | 3 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/Df_moeXFFfy/) |
-| 2026-11-21 | e-PAN PDF ka password aapki date of birth hai, DDM | 255 | +12 | 6.2 | 6 | 0 | 5 | 2 | [open](https://www.instagram.com/reel/Df_Y1KHFdvj/) |
+| 2026-11-21 | Masked Aadhaar mein sirf last 4 digits dikhte hain | 171 | +1 | 4.2 | 1 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgAPbEXpaEb/) |
+| 2026-11-21 | Priya was typing 400 rows by hand. One convert lat | 111 | +0 | 4.9 | 3 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/Df_moeXFFfy/) |
+| 2026-11-21 | e-PAN PDF ka password aapki date of birth hai, DDM | 256 | +1 | 6.2 | 6 | 0 | 5 | 2 | [open](https://www.instagram.com/reel/Df_Y1KHFdvj/) |
 | 2026-11-20 | PDF ka table copy karo toh sab bikhar jaata hai. A | 123 | +0 | 3.4 | 3 | 0 | 1 | 0 | [open](https://www.instagram.com/reel/Df9qx1VEh4p/) |
 | 2026-11-20 | 5 photos, form mein sirf 1 PDF ka option. Ab pata  | 116 | +0 | 3.5 | 0 | 0 | 0 | 1 | [open](https://www.instagram.com/reel/Df9ImnMjua7/) |
 | 2026-11-19 | Shahad 3000 saal baad bhi theek mil sakta hai, kyu | 221 | +0 | 7.7 | 3 | 2 | 0 | 2 | [open](https://www.instagram.com/reel/Df7GVN1EsuW/) |

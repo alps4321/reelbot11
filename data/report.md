@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-22T13:32:35+00:00
+Updated 2026-11-22T14:39:36+00:00
 
-Reels made: 30. Posted: 23. Measured: 22.
+Reels made: 31. Posted: 24. Measured: 22.
 
 ## english: results by topic
 
@@ -156,6 +156,7 @@ Reels made: 30. Posted: 23. Measured: 22.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-11-22 | hinglish | id_card_print | secret_answer | Kya Aadhaar ka print out original jitna valid hai? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgC130IEonh/) |
 | 2026-11-22 | english | resize_signature_kb | story | Ravi's signature was 2 MB. The form wanted 20 KB. | 128 | 5.8 | 1 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgCLaSuk_Tm/) |
 | 2026-11-22 | hinglish | bank_statement_excel | secret_answer | HDFC bank statement PDF ka password kya hai? | 138 | 2.3 | 0 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgB9aV1j1GF/) |
 | 2026-11-21 | hinglish | id_card_print | secret_answer | Masked Aadhaar kya hota hai? | 199 | 4.6 | 2 | 0 | 0 | 0 | 143 | [open](https://www.instagram.com/reel/DgAPbEXpaEb/) |
@@ -174,7 +175,7 @@ Reels made: 30. Posted: 23. Measured: 22.
 | 2026-11-18 | english | remove_background | same_task_before_after | Can one selfie become an ID photo? | 446 | 6.2 | 3 | 0 | 0 | 1 | 359 | [open](https://www.instagram.com/reel/Df34jo3pcP6/) |
 | 2026-11-18 | hinglish | pdf_to_word | secret_answer | PDF ko edit kaise karein? | 1328 | 9.2 | 7 | 2 | 0 | 12 | 1237 | [open](https://www.instagram.com/reel/Df3sRygisaf/) |
 | 2026-11-17 | english | cheat_sheet_5_tools | cheat_sheet | Stop paying the cyber cafe for these 5 things | 146 | 4.0 | 1 | 0 | 0 | 2 | 99 | [open](https://www.instagram.com/reel/Df2KxDjjwSe/) |
-| 2026-11-17 | english | jpg_to_pdf | secret_answer | How do you send 4 photos as one PDF? | 139 | 7.0 | 0 | 0 | 0 | 0 | 101 | [open](https://www.instagram.com/reel/Df2IYAIAR7x/) |
+| 2026-11-17 | english | jpg_to_pdf | secret_answer | How do you send 4 photos as one PDF? | 140 | 7.0 | 0 | 0 | 0 | 0 | 101 | [open](https://www.instagram.com/reel/Df2IYAIAR7x/) |
 | 2026-11-17 | english | general | manual | #ilovedocuments | 254 | 8.1 | 3 | 0 | 18 | 0 | 400 | [open](https://www.instagram.com/reel/Df1OFyStuBw/) |
 | 2026-11-16 | hinglish | remove_background | two_friends | 2 dost. 1 photo. 50 KB. |  |  |  |  |  |  |  | dry run |
 | 2026-11-16 | english | jpg_to_pdf | two_friends | Form closes at 11:58 PM. Which friend wins? |  |  |  |  |  |  |  | dry run |
@@ -184,5 +185,5 @@ Reels made: 30. Posted: 23. Measured: 22.
 | 2026-11-16 | hinglish | resize_photo_kb | manual | Form ne phir bola "File too large"? 😤 | 243 | 6.3 | 2 | 0 | 7 | 4 | 325 | [open](https://www.instagram.com/reel/DfzYzyOtsrh/) |
 | 2026-11-16 | english | general | manual | Please check our website too there are multiple tools that c | 351 | 9.4 | 6 | 0 | 0 | 1 | 363 | [open](https://www.instagram.com/reel/DfyxHBOtS5a/) |
 | 2026-11-16 | hinglish | passport_photo | manual | PDF ya photo ka koi bhi kaam ho – ek hi website kaafi hai 👇 | 919 | 8.7 | 9 | 1 | 2 | 4 | 971 | [open](https://www.instagram.com/reel/DfynYQJtJcQ/) |
-| 2026-11-15 | english | merge_pdf | manual | Any PDF or photo job – one free website 👇 | 133 | 1.7 | 4 | 0 | 1 | 0 | 145 | [open](https://www.instagram.com/reel/Dfw9-X8tf7x/) |
+| 2026-11-15 | english | merge_pdf | manual | Any PDF or photo job – one free website 👇 | 134 | 1.7 | 4 | 0 | 1 | 0 | 145 | [open](https://www.instagram.com/reel/Dfw9-X8tf7x/) |
 | 2026-11-15 | hinglish | id_card_print | manual | Aadhaar print ke liye cyber cafe jaana band karo 🛑 |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/Dfv8mygMNbM/) |

@@ -86,10 +86,17 @@ jobs:
         run: |
           git config user.name "reelbot"
           git config user.email "reelbot@users.noreply.github.com"
-          git add -A data
-          if [ -d queue ]; then git add -A queue; fi
-          git diff --cached --quiet || git commit -m "ReelBot: update results"
-          for i in 1 2 3; do git pull -q --rebase -X theirs --autostash origin main && git push -q && break; git rebase --abort 2>/dev/null; sleep 5; done
+          # merge posts.json by reel first, so an overlapping run can never wipe a record
+          for i in 1 2 3; do
+            git fetch -q origin main
+            git show origin/main:data/posts.json > /tmp/remote_posts.json 2>/dev/null || true
+            python -m reelbot.mergeposts /tmp/remote_posts.json data/posts.json
+            git add -A data
+            if [ -d queue ]; then git add -A queue; fi
+            git diff --cached --quiet || git commit -q -m "ReelBot: update results"
+            git pull -q --rebase -X theirs --autostash origin main && git push -q && break
+            git rebase --abort 2>/dev/null; sleep 5
+          done
       - name: Keep the video for 7 days
         if: always()
         uses: actions/upload-artifact@v4

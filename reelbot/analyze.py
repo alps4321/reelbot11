@@ -1,4 +1,6 @@
 """Reads each posted reel's results at 24h, 72h and 7 days, and writes the report."""
+from datetime import datetime, timedelta
+
 from . import learn, store, watch
 from .config import DATA
 from .instagram import IGError
@@ -22,6 +24,10 @@ def import_existing(cfg, ig):
     added = 0
     for m in media:
         if m["id"] in known or m.get("media_product_type") != "REELS":
+            continue
+        # a reel under 30 minutes old may be the bot's own post from an overlapping run whose record
+        # has not landed yet; a reel really posted by hand gets picked up on a later run
+        if store.now() - datetime.strptime(m["timestamp"], "%Y-%m-%dT%H:%M:%S%z") < timedelta(minutes=30):
             continue
         cap = (m.get("caption") or "").lower()
         topic = next((t for a, b, t in GUESS if a in cap and b in cap), "general")

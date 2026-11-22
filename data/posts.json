@@ -1429,17 +1429,18 @@
       6,
       24,
       48,
-      72
+      72,
+      120
     ],
     "metrics": {
-      "views": 253,
-      "reach": 198,
+      "views": 254,
+      "reach": 199,
       "likes": 3,
       "comments": 0,
       "shares": 18,
       "saved": 0,
-      "avg_watch_s": 8.1,
-      "views_last_hour": 0
+      "total_interactions": 21,
+      "avg_watch_s": 8.1
     },
     "history": [
       {
@@ -1486,6 +1487,18 @@
         "comments": 0,
         "shares": 18,
         "saved": 0,
+        "avg_watch_s": 8.1
+      },
+      {
+        "at": "2026-11-22T06:28:37+00:00",
+        "hours": 120,
+        "views": 254,
+        "reach": 199,
+        "likes": 3,
+        "comments": 0,
+        "shares": 18,
+        "saved": 0,
+        "total_interactions": 21,
         "avg_watch_s": 8.1
       }
     ]
@@ -4042,7 +4055,8 @@
     "checked": [
       6,
       24,
-      48
+      48,
+      72
     ],
     "slot": "11:00",
     "metrics": {
@@ -4081,6 +4095,18 @@
       {
         "at": "2026-11-21T06:28:31+00:00",
         "hours": 48,
+        "views": 187,
+        "reach": 141,
+        "likes": 4,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 4,
+        "avg_watch_s": 8.8
+      },
+      {
+        "at": "2026-11-22T06:28:38+00:00",
+        "hours": 72,
         "views": 187,
         "reach": 141,
         "likes": 4,
@@ -5180,18 +5206,19 @@
     "permalink": "https://www.instagram.com/reel/Df_Y1KHFdvj/",
     "posted_at": "2026-11-21T05:30:09+00:00",
     "checked": [
-      6
+      6,
+      24
     ],
     "slot": "11:00",
     "metrics": {
-      "views": 240,
-      "reach": 206,
-      "likes": 5,
+      "views": 274,
+      "reach": 235,
+      "likes": 7,
       "comments": 0,
-      "shares": 2,
-      "saved": 2,
-      "total_interactions": 9,
-      "avg_watch_s": 6.0
+      "shares": 5,
+      "saved": 3,
+      "total_interactions": 15,
+      "avg_watch_s": 6.3
     },
     "history": [
       {
@@ -5205,6 +5232,18 @@
         "saved": 2,
         "total_interactions": 9,
         "avg_watch_s": 6.0
+      },
+      {
+        "at": "2026-11-22T06:28:39+00:00",
+        "hours": 24,
+        "views": 274,
+        "reach": 235,
+        "likes": 7,
+        "comments": 0,
+        "shares": 5,
+        "saved": 3,
+        "total_interactions": 15,
+        "avg_watch_s": 6.3
       }
     ]
   },
@@ -5944,5 +5983,257 @@
     "posted_at": "2026-11-22T05:30:13+00:00",
     "checked": [],
     "slot": "11:00"
+  },
+  {
+    "id": "20261122-062849-english",
+    "created_at": "2026-11-22T06:37:26+00:00",
+    "language": "english",
+    "topic": "resize_signature_kb",
+    "hook_style": "how_to",
+    "format": "story",
+    "pace": "natural",
+    "distance": "near",
+    "answer": null,
+    "idea": "My signature was 2 MB. The form wants 20 KB. Watch this.",
+    "plan_reason": "testing a less-tried tool; hook style: best so far; format: best so far; pace: best so far; distance: explore; idea from the niche scout",
+    "title": "The 2 MB signature that the form refused",
+    "hook": "Ravi's signature was 2 MB. The form wanted 20 KB.",
+    "seconds": 29.1,
+    "script": {
+      "title": "The 2 MB signature that the form refused",
+      "scenes": [
+        {
+          "say": "Ravi's signature was 2 MB. The form wanted 20 KB.",
+          "voice": "Ravi's signature was two M B... The form wanted twenty K B.",
+          "accent": [
+            "2 MB",
+            "20 KB"
+          ],
+          "tag": "ravi's story",
+          "meter": {
+            "label": "SIGNATURE",
+            "value": "2 MB"
+          },
+          "scene": {
+            "type": "phone_upload",
+            "state": "error",
+            "file": "signature.jpg",
+            "size": "2 MB",
+            "text": "Max size 20 KB",
+            "title": "Upload failed"
+          },
+          "kind": "hook",
+          "screen": "Ravi's signature was 2 MB. The form wanted 20 KB.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "He signed on paper and clicked a photo.",
+          "voice": "He signed on paper, and clicked a photo.",
+          "accent": [
+            "photo"
+          ],
+          "tag": "ravi's story",
+          "meter": null,
+          "scene": {
+            "type": "person",
+            "name": "Ravi",
+            "role": "Exam applicant",
+            "quote": "One photo. Easy."
+          },
+          "kind": "point",
+          "screen": "He signed on paper and clicked a photo.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "The phone camera made it huge.",
+          "voice": "The phone camera made it huge.",
+          "accent": [
+            "huge"
+          ],
+          "tag": "why",
+          "meter": {
+            "label": "SIZE",
+            "value": "2 MB"
+          },
+          "scene": {
+            "type": "chart",
+            "label": "Signature file size",
+            "direction": "up",
+            "value": "2 MB"
+          },
+          "kind": "point",
+          "screen": "The phone camera made it huge.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "He cropped it. Still 900 KB.",
+          "voice": "He cropped it... Still nine hundred K B.",
+          "accent": [
+            "900 KB"
+          ],
+          "tag": "try 1",
+          "meter": {
+            "label": "SIZE",
+            "value": "900 KB"
+          },
+          "scene": {
+            "type": "phone_upload",
+            "state": "error",
+            "file": "signature_crop.jpg",
+            "size": "900 KB",
+            "text": "Still too big",
+            "title": "Rejected"
+          },
+          "kind": "point",
+          "screen": "He cropped it. Still 900 KB.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Then he sent it on chat. It got worse.",
+          "voice": "Then he sent it on chat. It got worse.",
+          "accent": [
+            "worse"
+          ],
+          "tag": "the turn",
+          "meter": null,
+          "scene": {
+            "type": "chat",
+            "name": "Ravi",
+            "messages": [
+              {
+                "from": "me",
+                "text": "Please make this 20 KB"
+              },
+              {
+                "from": "them",
+                "text": "Bro, I don't know how"
+              },
+              {
+                "from": "them",
+                "text": "Photo looks blurry now"
+              }
+            ]
+          },
+          "kind": "point",
+          "screen": "Then he sent it on chat. It got worse.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Lesson: the size rule is about the file, not the paper.",
+          "voice": "Lesson... the size rule is about the file, not the paper.",
+          "accent": [
+            "file"
+          ],
+          "tag": "lesson",
+          "meter": null,
+          "scene": {
+            "type": "bulb",
+            "text": "Shrink the file, keep the sign readable"
+          },
+          "kind": "point",
+          "screen": "Lesson: the size rule is about the file, not the paper.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "So he shrank the file itself. 15 KB.",
+          "voice": "So he shrank the file itself... fifteen K B.",
+          "accent": [
+            "15 KB"
+          ],
+          "tag": "the fix",
+          "meter": {
+            "label": "SIZE",
+            "value": "15 KB"
+          },
+          "scene": {
+            "type": "file_shrink",
+            "file": "signature.jpg",
+            "from": "2 MB",
+            "to": "15 KB"
+          },
+          "kind": "point",
+          "screen": "So he shrank the file itself. 15 KB.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "The form said accepted.",
+          "voice": "The form said... accepted.",
+          "accent": [
+            "accepted"
+          ],
+          "tag": "done",
+          "meter": null,
+          "scene": {
+            "type": "before_after",
+            "before": "2 MB",
+            "after": "15 KB",
+            "before_label": "REJECTED",
+            "after_label": "ACCEPTED"
+          },
+          "kind": "point",
+          "screen": "The form said accepted.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "On ilovedocuments.ai, use Resize Signature to 10-20 KB. Free, no sign up.",
+          "voice": "On I love documents dot A I, use Resize Signature to ten to twenty K B. Free, no sign up.",
+          "accent": [
+            "Resize Signature to 10-20 KB"
+          ],
+          "tag": "try it",
+          "meter": null,
+          "scene": {
+            "type": "browser",
+            "url": "ilovedocuments.ai",
+            "button": "Resize Signature to 10-20 KB"
+          },
+          "kind": "point",
+          "screen": "On ilovedocuments.ai, use Resize Signature to 10-20 KB. Free",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Save this for your next exam form.",
+          "voice": "Save this for your next exam form.",
+          "accent": [
+            "Save"
+          ],
+          "tag": "save it",
+          "meter": null,
+          "scene": {
+            "type": "cta",
+            "keyword": "SAVE",
+            "line": "// for your next form"
+          },
+          "kind": "cta",
+          "screen": "Save this for your next exam form.",
+          "emphasis": [],
+          "visual": null
+        }
+      ],
+      "caption": "Ravi's signature was 2 MB and the form wanted 20 KB. He fixed it in a minute. Have you ever had a form reject your signature? Tell us how you fixed it. ilovedocuments.ai",
+      "hashtags": [
+        "#examform",
+        "#signature",
+        "#studentlife",
+        "#pdfandimagetools",
+        "#india"
+      ]
+    },
+    "caption": "Ravi's signature was 2 MB and the form wanted 20 KB. He fixed it in a minute. Have you ever had a form reject your signature? Tell us how you fixed it. ilovedocuments.ai\n\n#examform #signature #studentlife #pdfandimagetools #india",
+    "video": "20261122-062849-english.mp4",
+    "media_id": "18168162358491813",
+    "permalink": "https://www.instagram.com/reel/DgCLaSuk_Tm/",
+    "posted_at": "2026-11-22T07:30:11+00:00",
+    "checked": [],
+    "slot": "13:00"
   }
 ]

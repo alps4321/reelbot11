@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-22T05:30:13+00:00
+Updated 2026-11-22T07:30:12+00:00
 
-Reels made: 29. Posted: 22. Measured: 20.
+Reels made: 30. Posted: 23. Measured: 20.
 
 ## english: results by topic
 
@@ -81,7 +81,7 @@ Reels made: 29. Posted: 22. Measured: 20.
 | passport_photo | 1 | 971.0 |
 | resize_image_kb | 1 | 348.0 |
 | resize_photo_kb | 1 | 325.0 |
-| unlock_pdf | 1 | 200.0 |
+| unlock_pdf | 2 | 226.5 |
 | pdf_to_jpg | 1 | 157.0 |
 | pdf_to_excel | 1 | 85.0 |
 | image_to_pdf | 1 | 78.0 |
@@ -90,7 +90,7 @@ Reels made: 29. Posted: 22. Measured: 20.
 
 | hook_style | reels | avg score |
 |---|---|---|
-| question | 3 | 1200.3 |
+| question | 4 | 963.5 |
 | problem | 2 | 689.0 |
 | manual | 2 | 648.0 |
 | contrarian | 1 | 348.0 |
@@ -102,7 +102,7 @@ Reels made: 29. Posted: 22. Measured: 20.
 | format | reels | avg score |
 |---|---|---|
 | what_if | 1 | 1293.0 |
-| secret_answer | 4 | 921.5 |
+| secret_answer | 5 | 787.8 |
 | manual | 2 | 648.0 |
 | discovery | 1 | 348.0 |
 | did_you_know | 1 | 200.0 |
@@ -112,7 +112,7 @@ Reels made: 29. Posted: 22. Measured: 20.
 
 | pace | reels | avg score |
 |---|---|---|
-| brisk | 2 | 725.0 |
+| brisk | 3 | 567.7 |
 | natural | 4 | 400.0 |
 | calm | 1 | 348.0 |
 
@@ -121,7 +121,7 @@ Reels made: 29. Posted: 22. Measured: 20.
 | distance | reels | avg score |
 |---|---|---|
 | far | 2 | 274.0 |
-| near | 3 | 106.7 |
+| near | 4 | 143.2 |
 
 ## hinglish: what the bot has learned
 
@@ -151,10 +151,11 @@ Reels made: 29. Posted: 22. Measured: 20.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-11-22 | english | resize_signature_kb | story | Ravi's signature was 2 MB. The form wanted 20 KB. |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgCLaSuk_Tm/) |
 | 2026-11-22 | hinglish | bank_statement_excel | secret_answer | HDFC bank statement PDF ka password kya hai? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgB9aV1j1GF/) |
-| 2026-11-21 | hinglish | general | manual | Masked Aadhaar mein sirf last 4 digits dikhte hain, baaki xx | 176 | 4.2 | 1 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgAPbEXpaEb/) |
+| 2026-11-21 | hinglish | id_card_print | secret_answer | Masked Aadhaar kya hota hai? | 176 | 4.2 | 1 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgAPbEXpaEb/) |
 | 2026-11-21 | english | bank_statement_excel | story | Priya had 400 rows to type by tonight. | 84 | 4.9 | 3 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/Df_moeXFFfy/) |
-| 2026-11-21 | hinglish | unlock_pdf | secret_answer | e-PAN PDF ka password kya hota hai? | 240 | 6.0 | 5 | 0 | 2 | 2 |  | [open](https://www.instagram.com/reel/Df_Y1KHFdvj/) |
+| 2026-11-21 | hinglish | unlock_pdf | secret_answer | e-PAN PDF ka password kya hota hai? | 274 | 6.3 | 7 | 0 | 5 | 3 | 253 | [open](https://www.instagram.com/reel/Df_Y1KHFdvj/) |
 | 2026-11-20 | hinglish | pdf_to_excel | secret_answer | PDF ka table Excel mein kaise layein? | 122 | 3.4 | 3 | 0 | 1 | 0 | 85 | [open](https://www.instagram.com/reel/Df9qx1VEh4p/) |
 | 2026-11-20 | hinglish | image_to_pdf | secret_answer | Photos ko ek PDF kaise banayein? | 116 | 3.5 | 0 | 0 | 0 | 1 | 78 | [open](https://www.instagram.com/reel/Df9ImnMjua7/) |
 | 2026-11-19 | hinglish | unlock_pdf | did_you_know | Egypt ke tomb mein 3000 saal purana shahad mila. | 221 | 7.7 | 3 | 2 | 0 | 2 | 200 | [open](https://www.instagram.com/reel/Df7GVN1EsuW/) |
@@ -169,7 +170,7 @@ Reels made: 29. Posted: 22. Measured: 20.
 | 2026-11-18 | hinglish | pdf_to_word | secret_answer | PDF ko edit kaise karein? | 1328 | 9.2 | 7 | 2 | 0 | 12 | 1237 | [open](https://www.instagram.com/reel/Df3sRygisaf/) |
 | 2026-11-17 | english | cheat_sheet_5_tools | cheat_sheet | Stop paying the cyber cafe for these 5 things | 146 | 4.0 | 1 | 0 | 0 | 2 | 99 | [open](https://www.instagram.com/reel/Df2KxDjjwSe/) |
 | 2026-11-17 | english | jpg_to_pdf | secret_answer | How do you send 4 photos as one PDF? | 139 | 7.0 | 0 | 0 | 0 | 0 | 101 | [open](https://www.instagram.com/reel/Df2IYAIAR7x/) |
-| 2026-11-17 | english | general | manual | #ilovedocuments | 253 | 8.1 | 3 | 0 | 18 | 0 | 400 | [open](https://www.instagram.com/reel/Df1OFyStuBw/) |
+| 2026-11-17 | english | general | manual | #ilovedocuments | 254 | 8.1 | 3 | 0 | 18 | 0 | 400 | [open](https://www.instagram.com/reel/Df1OFyStuBw/) |
 | 2026-11-16 | hinglish | remove_background | two_friends | 2 dost. 1 photo. 50 KB. |  |  |  |  |  |  |  | dry run |
 | 2026-11-16 | english | jpg_to_pdf | two_friends | Form closes at 11:58 PM. Which friend wins? |  |  |  |  |  |  |  | dry run |
 | 2026-11-16 | hinglish | unlock_aadhaar | what_if | What if your form closed in 2 minutes? |  |  |  |  |  |  |  | dry run |

@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-22T13:30:11+00:00
+Updated 2026-11-22T13:32:35+00:00
 
-Reels made: 31. Posted: 24. Measured: 21.
+Reels made: 30. Posted: 23. Measured: 22.
 
 ## english: results by topic
 
@@ -86,6 +86,7 @@ Reels made: 31. Posted: 24. Measured: 21.
 | resize_photo_kb | 1 | 325.0 |
 | unlock_pdf | 2 | 226.5 |
 | pdf_to_jpg | 1 | 157.0 |
+| id_card_print | 1 | 143.0 |
 | pdf_to_excel | 1 | 85.0 |
 | image_to_pdf | 1 | 78.0 |
 
@@ -99,13 +100,14 @@ Reels made: 31. Posted: 24. Measured: 21.
 | contrarian | 1 | 348.0 |
 | story_open | 1 | 200.0 |
 | bold_claim | 1 | 157.0 |
+| number | 1 | 143.0 |
 
 ## hinglish: results by format
 
 | format | reels | avg score |
 |---|---|---|
 | what_if | 1 | 1293.0 |
-| secret_answer | 5 | 787.8 |
+| secret_answer | 6 | 680.3 |
 | manual | 2 | 648.0 |
 | discovery | 1 | 348.0 |
 | did_you_know | 1 | 200.0 |
@@ -115,7 +117,7 @@ Reels made: 31. Posted: 24. Measured: 21.
 
 | pace | reels | avg score |
 |---|---|---|
-| brisk | 3 | 567.7 |
+| brisk | 4 | 461.5 |
 | natural | 4 | 400.0 |
 | calm | 1 | 348.0 |
 
@@ -124,7 +126,7 @@ Reels made: 31. Posted: 24. Measured: 21.
 | distance | reels | avg score |
 |---|---|---|
 | far | 2 | 274.0 |
-| near | 4 | 143.2 |
+| near | 5 | 143.2 |
 
 ## hinglish: what the bot has learned
 
@@ -154,13 +156,12 @@ Reels made: 31. Posted: 24. Measured: 21.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-22 | hinglish | id_card_print | secret_answer | Kya Aadhaar ka print out original jitna valid hai? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgC130IEonh/) |
-| 2026-11-22 | english | resize_signature_kb | story | Ravi's signature was 2 MB. The form wanted 20 KB. |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgCLaSuk_Tm/) |
+| 2026-11-22 | english | resize_signature_kb | story | Ravi's signature was 2 MB. The form wanted 20 KB. | 128 | 5.8 | 1 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgCLaSuk_Tm/) |
 | 2026-11-22 | hinglish | bank_statement_excel | secret_answer | HDFC bank statement PDF ka password kya hai? | 138 | 2.3 | 0 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgB9aV1j1GF/) |
-| 2026-11-21 | hinglish | id_card_print | secret_answer | Masked Aadhaar kya hota hai? | 176 | 4.2 | 1 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgAPbEXpaEb/) |
+| 2026-11-21 | hinglish | id_card_print | secret_answer | Masked Aadhaar kya hota hai? | 199 | 4.6 | 2 | 0 | 0 | 0 | 143 | [open](https://www.instagram.com/reel/DgAPbEXpaEb/) |
 | 2026-11-21 | english | bank_statement_excel | story | Priya had 400 rows to type by tonight. | 112 | 4.8 | 3 | 0 | 0 | 0 | 81 | [open](https://www.instagram.com/reel/Df_moeXFFfy/) |
 | 2026-11-21 | hinglish | unlock_pdf | secret_answer | e-PAN PDF ka password kya hota hai? | 274 | 6.3 | 7 | 0 | 5 | 3 | 253 | [open](https://www.instagram.com/reel/Df_Y1KHFdvj/) |
-| 2026-11-20 | hinglish | pdf_to_excel | secret_answer | PDF ka table Excel mein kaise layein? | 122 | 3.4 | 3 | 0 | 1 | 0 | 85 | [open](https://www.instagram.com/reel/Df9qx1VEh4p/) |
+| 2026-11-20 | hinglish | pdf_to_excel | secret_answer | PDF ka table Excel mein kaise layein? | 123 | 3.4 | 3 | 0 | 1 | 0 | 85 | [open](https://www.instagram.com/reel/Df9qx1VEh4p/) |
 | 2026-11-20 | hinglish | image_to_pdf | secret_answer | Photos ko ek PDF kaise banayein? | 116 | 3.5 | 0 | 0 | 0 | 1 | 78 | [open](https://www.instagram.com/reel/Df9ImnMjua7/) |
 | 2026-11-19 | hinglish | unlock_pdf | did_you_know | Egypt ke tomb mein 3000 saal purana shahad mila. | 221 | 7.7 | 3 | 2 | 0 | 2 | 200 | [open](https://www.instagram.com/reel/Df7GVN1EsuW/) |
 | 2026-11-19 | english | word_to_pdf | story | Why did Rohan miss his own interview? | 143 | 8.2 | 2 | 1 | 0 | 0 | 114 | [open](https://www.instagram.com/reel/Df6etz3jcm7/) |

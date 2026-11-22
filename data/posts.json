@@ -5481,22 +5481,220 @@
     ]
   },
   {
-    "id": "manual-17960312274412024",
-    "created_at": "2026-11-21T13:30:02+0000",
-    "posted_at": "2026-11-21T13:30:02+0000",
+    "id": "20261121-123024-hinglish",
+    "created_at": "2026-11-21T12:34:01+00:00",
+    "language": "hinglish",
+    "topic": "id_card_print",
+    "hook_style": "number",
+    "format": "secret_answer",
+    "pace": "brisk",
+    "distance": "near",
+    "answer": "masked_aadhaar",
+    "idea": "",
+    "plan_reason": "week 1: every tool gets a first try; proven formula slot; hook style: new test; format: best so far; pace: best so far; distance: best so far",
+    "title": "Masked Aadhaar kya hota hai?",
+    "hook": "Masked Aadhaar kya hota hai?",
+    "seconds": 22.5,
+    "script": {
+      "title": "Masked Aadhaar kya hota hai?",
+      "scenes": [
+        {
+          "say": "Masked Aadhaar kya hota hai?",
+          "voice": "मास्क्ड आधार क्या होता है?",
+          "accent": [
+            "Masked Aadhaar"
+          ],
+          "tag": "aadhaar",
+          "meter": null,
+          "scene": {
+            "type": "search",
+            "query": "Masked Aadhaar kya hota hai?",
+            "results": [
+              "Masked Aadhaar meaning",
+              "e-Aadhaar download"
+            ]
+          },
+          "kind": "hook",
+          "screen": "Masked Aadhaar kya hota hai?",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Har jagah full number dena zaroori nahi.",
+          "voice": "हर जगह फुल नंबर देना ज़रूरी नहीं...",
+          "accent": [
+            "full number"
+          ],
+          "tag": "aadhaar",
+          "meter": null,
+          "scene": {
+            "type": "warning",
+            "text": "Full number kyun dena?"
+          },
+          "kind": "point",
+          "screen": "Har jagah full number dena zaroori nahi.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Answer end mein nahi, abhi hai.",
+          "voice": "आंसर एंड में नहीं, अभी है।",
+          "accent": [
+            "abhi"
+          ],
+          "tag": "answer",
+          "meter": null,
+          "scene": {
+            "type": "big_text",
+            "text": "SIRF 4 DIGITS",
+            "sub": "baaki sab chhupa"
+          },
+          "kind": "point",
+          "screen": "Answer end mein nahi, abhi hai.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Pehle 8 digits ban jaate hain xxxx-xxxx.",
+          "voice": "पहले 8 डिजिट्स बन जाते हैं x x x x - x x x x",
+          "accent": [
+            "8 digits"
+          ],
+          "tag": "masked",
+          "meter": {
+            "label": "HIDDEN",
+            "value": "8 DIGITS"
+          },
+          "scene": {
+            "type": "id_card",
+            "title": "Masked Aadhaar",
+            "name": "Rahul Sharma",
+            "sub": "xxxx-xxxx-1234"
+          },
+          "kind": "point",
+          "screen": "Pehle 8 digits ban jaate hain xxxx-xxxx.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Sirf last 4 digits dikhte hain.",
+          "voice": "सिर्फ़ लास्ट 4 डिजिट्स दिखते हैं।",
+          "accent": [
+            "last 4 digits"
+          ],
+          "tag": "masked",
+          "meter": {
+            "label": "VISIBLE",
+            "value": "4 DIGITS"
+          },
+          "scene": {
+            "type": "counter",
+            "value": 4,
+            "label": "digits dikhte hain",
+            "badge": "LAST"
+          },
+          "kind": "point",
+          "screen": "Sirf last 4 digits dikhte hain.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Ise e-Aadhaar download karte time choose karte hain.",
+          "voice": "इसे ई-आधार डाउनलोड करते टाइम चूज़ करते हैं।",
+          "accent": [
+            "download"
+          ],
+          "tag": "how",
+          "meter": null,
+          "scene": {
+            "type": "checklist",
+            "title": "e-Aadhaar download",
+            "items": [
+              "Download karo",
+              "Masked option chuno"
+            ]
+          },
+          "kind": "point",
+          "screen": "Ise e-Aadhaar download karte time choose karte hain.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Full number se safer hai share karna.",
+          "voice": "फुल नंबर से सेफर है शेयर करना।",
+          "accent": [
+            "safer"
+          ],
+          "tag": "safe",
+          "meter": null,
+          "scene": {
+            "type": "versus",
+            "left": "Full number",
+            "right": "Masked",
+            "left_sub": "sab dikhta hai",
+            "right_sub": "sirf last 4",
+            "winner": "right"
+          },
+          "kind": "point",
+          "screen": "Full number se safer hai share karna.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Ab ID front aur back, ek A4 page par print karo.",
+          "voice": "अब आईडी फ्रंट और बैक, एक A4 पेज पर प्रिंट करो।",
+          "accent": [
+            "A4 page"
+          ],
+          "tag": "print",
+          "meter": null,
+          "scene": {
+            "type": "tool_grid",
+            "highlight": "ID Card Print",
+            "count": 45
+          },
+          "kind": "point",
+          "screen": "Ab ID front aur back, ek A4 page par print karo.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "ilovedocuments.ai par ID Card Print, free hai. Save kar lo.",
+          "voice": "आई लव डॉक्यूमेंट्स डॉट ए आई पर आईडी कार्ड प्रिंट, फ्री है। सेव कर लो।",
+          "accent": [
+            "Save"
+          ],
+          "tag": "save",
+          "meter": null,
+          "scene": {
+            "type": "cta",
+            "keyword": "SAVE",
+            "line": "// masked Aadhaar yaad rakhna"
+          },
+          "kind": "cta",
+          "screen": "ilovedocuments.ai par ID Card Print, free hai. Save kar lo.",
+          "emphasis": [],
+          "visual": null
+        }
+      ],
+      "caption": "Masked Aadhaar mein sirf last 4 digits dikhte hain, baaki xxxx-xxxx. e-Aadhaar download karte time choose karo.\nAb se full number dene se pehle ek baar sochna.\nAapne kabhi masked Aadhaar use kiya hai?\nilovedocuments.ai",
+      "hashtags": [
+        "#Aadhaar",
+        "#MaskedAadhaar",
+        "#eAadhaar",
+        "#DocumentTips",
+        "#India"
+      ]
+    },
+    "caption": "Masked Aadhaar mein sirf last 4 digits dikhte hain, baaki xxxx-xxxx. e-Aadhaar download karte time choose karo.\nAb se full number dene se pehle ek baar sochna.\nAapne kabhi masked Aadhaar use kiya hai?\nilovedocuments.ai\n\n#Aadhaar #MaskedAadhaar #eAadhaar #DocumentTips #India",
+    "video": "20261121-123024-hinglish.mp4",
     "media_id": "17960312274412024",
     "permalink": "https://www.instagram.com/reel/DgAPbEXpaEb/",
-    "manual": true,
-    "language": "hinglish",
-    "topic": "general",
-    "hook_style": "manual",
-    "format": "manual",
-    "seconds": 0,
-    "hook": "Masked Aadhaar mein sirf last 4 digits dikhte hain, baaki xx",
-    "caption": "Masked Aadhaar mein sirf last 4 digits dikhte hain, baaki xxxx-xxxx. e-Aadhaar download karte time choose karo.\nAb se full number dene se pehle ek baar sochna.\nAapne kabhi masked Aadhaar use kiya hai?\nilovedocuments.ai\n\n#Aadhaar #MaskedAadhaar #eAadhaar #DocumentTips #India",
+    "posted_at": "2026-11-21T13:30:09+00:00",
     "checked": [
       6
     ],
+    "slot": "19:00",
     "metrics": {
       "views": 176,
       "reach": 151,

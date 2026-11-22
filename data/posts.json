@@ -1879,7 +1879,8 @@
       6,
       24,
       48,
-      72
+      72,
+      120
     ],
     "language": "english",
     "topic": "cheat_sheet_5_tools",
@@ -1890,14 +1891,14 @@
     "caption": "Stop paying the cyber cafe for these 5 things 👇\n\n1. PDF too big for the form → Compress PDF\n2. Photos, but the form wants one PDF → JPG to PDF\n3. Aadhaar PDF password → first 4 letters of your name in CAPITALS + your birth year\n4. Need to sign a form → Sign PDF, no printing\n5. Bank statement into Excel → Bank Statement Converter\n\nAll free. No sign-up. Your files never leave your phone.\n\n📌 Save this for your next form.\n💬 Which one didn't you know? Comment the number.\n\nilovedocuments.ai\n\n#onlineform #pdf #aadhaar #studenthacks #techtips",
     "queued": true,
     "metrics": {
-      "views": 146,
-      "reach": 120,
+      "views": 147,
+      "reach": 121,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 2,
-      "avg_watch_s": 4.0,
-      "views_last_hour": 0
+      "total_interactions": 3,
+      "avg_watch_s": 4.1
     },
     "history": [
       {
@@ -1946,6 +1947,18 @@
         "saved": 2,
         "total_interactions": 3,
         "avg_watch_s": 4.0
+      },
+      {
+        "at": "2026-11-22T19:43:03+00:00",
+        "hours": 120,
+        "views": 147,
+        "reach": 121,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 2,
+        "total_interactions": 3,
+        "avg_watch_s": 4.1
       }
     ]
   },
@@ -6631,7 +6644,33 @@
     "media_id": "18135401920689900",
     "permalink": "https://www.instagram.com/reel/DgC130IEonh/",
     "posted_at": "2026-11-22T13:30:10+00:00",
-    "checked": [],
-    "slot": "19:00"
+    "checked": [
+      6
+    ],
+    "slot": "19:00",
+    "metrics": {
+      "views": 227,
+      "reach": 182,
+      "likes": 4,
+      "comments": 0,
+      "shares": 0,
+      "saved": 1,
+      "total_interactions": 5,
+      "avg_watch_s": 7.4
+    },
+    "history": [
+      {
+        "at": "2026-11-22T19:43:04+00:00",
+        "hours": 6,
+        "views": 227,
+        "reach": 182,
+        "likes": 4,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
+        "total_interactions": 5,
+        "avg_watch_s": 7.4
+      }
+    ]
   }
 ]

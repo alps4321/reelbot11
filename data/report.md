@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-22T14:39:36+00:00
+Updated 2026-11-22T19:43:04+00:00
 
-Reels made: 31. Posted: 24. Measured: 22.
+Reels made: 31. Posted: 24. Measured: 23.
 
 ## english: results by topic
 
@@ -156,7 +156,7 @@ Reels made: 31. Posted: 24. Measured: 22.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-22 | hinglish | id_card_print | secret_answer | Kya Aadhaar ka print out original jitna valid hai? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgC130IEonh/) |
+| 2026-11-22 | hinglish | id_card_print | secret_answer | Kya Aadhaar ka print out original jitna valid hai? | 227 | 7.4 | 4 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/DgC130IEonh/) |
 | 2026-11-22 | english | resize_signature_kb | story | Ravi's signature was 2 MB. The form wanted 20 KB. | 128 | 5.8 | 1 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgCLaSuk_Tm/) |
 | 2026-11-22 | hinglish | bank_statement_excel | secret_answer | HDFC bank statement PDF ka password kya hai? | 138 | 2.3 | 0 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgB9aV1j1GF/) |
 | 2026-11-21 | hinglish | id_card_print | secret_answer | Masked Aadhaar kya hota hai? | 199 | 4.6 | 2 | 0 | 0 | 0 | 143 | [open](https://www.instagram.com/reel/DgAPbEXpaEb/) |
@@ -174,7 +174,7 @@ Reels made: 31. Posted: 24. Measured: 22.
 | 2026-11-18 | hinglish | compress_pdf_kb | what_if | What if your PDF is too big? | 1322 | 8.8 | 16 | 1 | 0 | 3 | 1293 | [open](https://www.instagram.com/reel/Df4hglbgBie/) |
 | 2026-11-18 | english | remove_background | same_task_before_after | Can one selfie become an ID photo? | 446 | 6.2 | 3 | 0 | 0 | 1 | 359 | [open](https://www.instagram.com/reel/Df34jo3pcP6/) |
 | 2026-11-18 | hinglish | pdf_to_word | secret_answer | PDF ko edit kaise karein? | 1328 | 9.2 | 7 | 2 | 0 | 12 | 1237 | [open](https://www.instagram.com/reel/Df3sRygisaf/) |
-| 2026-11-17 | english | cheat_sheet_5_tools | cheat_sheet | Stop paying the cyber cafe for these 5 things | 146 | 4.0 | 1 | 0 | 0 | 2 | 99 | [open](https://www.instagram.com/reel/Df2KxDjjwSe/) |
+| 2026-11-17 | english | cheat_sheet_5_tools | cheat_sheet | Stop paying the cyber cafe for these 5 things | 147 | 4.1 | 1 | 0 | 0 | 2 | 99 | [open](https://www.instagram.com/reel/Df2KxDjjwSe/) |
 | 2026-11-17 | english | jpg_to_pdf | secret_answer | How do you send 4 photos as one PDF? | 140 | 7.0 | 0 | 0 | 0 | 0 | 101 | [open](https://www.instagram.com/reel/Df2IYAIAR7x/) |
 | 2026-11-17 | english | general | manual | #ilovedocuments | 254 | 8.1 | 3 | 0 | 18 | 0 | 400 | [open](https://www.instagram.com/reel/Df1OFyStuBw/) |
 | 2026-11-16 | hinglish | remove_background | two_friends | 2 dost. 1 photo. 50 KB. |  |  |  |  |  |  |  | dry run |

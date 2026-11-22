@@ -1,15 +1,15 @@
 # Live reel stats
 
-Updated 22 Nov 2026, 10:21 PM India time (refreshed about every 5 minutes)
+Updated 23 Nov 2026, 03:43 AM India time (refreshed about every 5 minutes)
 
 | posted | hook | views | views last hour | avg watch s | likes | comments | shares | saves | link |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-11-22 | Aadhaar letter, PVC card, e-Aadhaar aur mAadhaar:  | 192 | +0 | 6.9 | 2 | 0 | 0 | 1 | [open](https://www.instagram.com/reel/DgC130IEonh/) |
-| 2026-11-22 | Ravi's signature was 2 MB and the form wanted 20 K | 129 | +5 | 5.8 | 1 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgCLaSuk_Tm/) |
-| 2026-11-22 | HDFC statement PDF khul nahi raha? NetBanking ya a | 140 | +3 | 2.2 | 0 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgB9aV1j1GF/) |
-| 2026-11-21 | Masked Aadhaar mein sirf last 4 digits dikhte hain | 203 | +17 | 4.6 | 2 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgAPbEXpaEb/) |
+| 2026-11-22 | Aadhaar letter, PVC card, e-Aadhaar aur mAadhaar:  | 252 | +60 | 7.5 | 4 | 0 | 0 | 2 | [open](https://www.instagram.com/reel/DgC130IEonh/) |
+| 2026-11-22 | Ravi's signature was 2 MB and the form wanted 20 K | 129 | +0 | 5.8 | 1 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgCLaSuk_Tm/) |
+| 2026-11-22 | HDFC statement PDF khul nahi raha? NetBanking ya a | 140 | +0 | 2.2 | 0 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgB9aV1j1GF/) |
+| 2026-11-21 | Masked Aadhaar mein sirf last 4 digits dikhte hain | 203 | +0 | 4.6 | 2 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgAPbEXpaEb/) |
 | 2026-11-21 | Priya was typing 400 rows by hand. One convert lat | 112 | +0 | 4.8 | 3 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/Df_moeXFFfy/) |
-| 2026-11-21 | e-PAN PDF ka password aapki date of birth hai, DDM | 290 | +8 | 6.3 | 7 | 0 | 5 | 3 | [open](https://www.instagram.com/reel/Df_Y1KHFdvj/) |
+| 2026-11-21 | e-PAN PDF ka password aapki date of birth hai, DDM | 290 | +0 | 6.3 | 7 | 0 | 5 | 3 | [open](https://www.instagram.com/reel/Df_Y1KHFdvj/) |
 | 2026-11-20 | PDF ka table copy karo toh sab bikhar jaata hai. A | 123 | +0 | 3.4 | 3 | 0 | 1 | 0 | [open](https://www.instagram.com/reel/Df9qx1VEh4p/) |
 | 2026-11-20 | 5 photos, form mein sirf 1 PDF ka option. Ab pata  | 116 | +0 | 3.5 | 0 | 0 | 0 | 1 | [open](https://www.instagram.com/reel/Df9ImnMjua7/) |
 | 2026-11-19 | Shahad 3000 saal baad bhi theek mil sakta hai, kyu | 221 | +0 | 7.7 | 3 | 2 | 0 | 2 | [open](https://www.instagram.com/reel/Df7GVN1EsuW/) |
@@ -22,7 +22,7 @@ Updated 22 Nov 2026, 10:21 PM India time (refreshed about every 5 minutes)
 | 2026-11-17 | Stop paying the cyber cafe for these 5 things 👇 | 147 | +0 | 4.1 | 1 | 0 | 0 | 2 | [open](https://www.instagram.com/reel/Df2KxDjjwSe/) |
 | 2026-11-17 | 4 photos. 1 PDF. Done in a minute. 📄 | 140 | +0 | 7.0 | 0 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/Df2IYAIAR7x/) |
 | 2026-11-17 | #ilovedocuments | 254 | +0 | 8.1 | 3 | 0 | 18 | 0 | [open](https://www.instagram.com/reel/Df1OFyStuBw/) |
-| 2026-11-16 | Aadhaar PDF ka password kya hota hai? 🔐 | 1968 | +0 | 8.2 | 21 | 4 | 18 | 24 | [open](https://www.instagram.com/reel/DfzobbpNmpf/) |
+| 2026-11-16 | Aadhaar PDF ka password kya hota hai? 🔐 | 1969 | +1 | 8.2 | 21 | 4 | 18 | 24 | [open](https://www.instagram.com/reel/DfzobbpNmpf/) |
 | 2026-11-16 | Form ne phir bola "File too large"? 😤 | 245 | +0 | 6.3 | 2 | 0 | 7 | 4 | [open](https://www.instagram.com/reel/DfzYzyOtsrh/) |
 | 2026-11-16 | Please check our website too there are multiple to | 352 | +0 | 9.3 | 6 | 0 | 0 | 1 | [open](https://www.instagram.com/reel/DfyxHBOtS5a/) |
 | 2026-11-16 | PDF ya photo ka koi bhi kaam ho – ek hi website ka | 920 | +0 | 8.7 | 9 | 1 | 2 | 4 | [open](https://www.instagram.com/reel/DfynYQJtJcQ/) |

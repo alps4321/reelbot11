@@ -1,16 +1,17 @@
 # Live reel stats
 
-Updated 23 Nov 2026, 04:55 PM India time (refreshed about every 5 minutes)
+Updated 24 Nov 2026, 04:21 AM India time (refreshed about every 5 minutes)
 
 | posted | hook | views | views last hour | avg watch s | likes | comments | shares | saves | link |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-11-23 | Meena tried 6 times to retake her signature photo. | 116 | +91 | 6.4 | 1 | 0 | 7 | 0 | [open](https://www.instagram.com/reel/DgEvxw4gtdv/) |
-| 2026-11-23 | Aadhaar PDF ka password simple hai: naam ke pehle  | 179 | +9 | 4.4 | 1 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgEiX6KAARc/) |
-| 2026-11-22 | Aadhaar letter, PVC card, e-Aadhaar aur mAadhaar:  | 401 | +43 | 7.2 | 5 | 0 | 2 | 4 | [open](https://www.instagram.com/reel/DgC130IEonh/) |
+| 2026-11-23 | e-PAN download kiya aur file lock mili? Password a | 154 | +0 | 4.9 | 2 | 0 | 0 | 2 | [open](https://www.instagram.com/reel/DgFYoYpiVuN/) |
+| 2026-11-23 | Meena tried 6 times to retake her signature photo. | 121 | +5 | 6.6 | 1 | 0 | 7 | 0 | [open](https://www.instagram.com/reel/DgEvxw4gtdv/) |
+| 2026-11-23 | Aadhaar PDF ka password simple hai: naam ke pehle  | 181 | +2 | 4.4 | 1 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgEiX6KAARc/) |
+| 2026-11-22 | Aadhaar letter, PVC card, e-Aadhaar aur mAadhaar:  | 461 | +60 | 7.1 | 5 | 0 | 2 | 4 | [open](https://www.instagram.com/reel/DgC130IEonh/) |
 | 2026-11-22 | Ravi's signature was 2 MB and the form wanted 20 K | 129 | +0 | 5.8 | 1 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgCLaSuk_Tm/) |
 | 2026-11-22 | HDFC statement PDF khul nahi raha? NetBanking ya a | 140 | +0 | 2.2 | 0 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgB9aV1j1GF/) |
 | 2026-11-21 | Masked Aadhaar mein sirf last 4 digits dikhte hain | 203 | +0 | 4.6 | 2 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgAPbEXpaEb/) |
-| 2026-11-21 | Priya was typing 400 rows by hand. One convert lat | 112 | +0 | 4.8 | 3 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/Df_moeXFFfy/) |
+| 2026-11-21 | Priya was typing 400 rows by hand. One convert lat | 113 | +1 | 4.8 | 3 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/Df_moeXFFfy/) |
 | 2026-11-21 | e-PAN PDF ka password aapki date of birth hai, DDM | 290 | +0 | 6.3 | 7 | 0 | 5 | 3 | [open](https://www.instagram.com/reel/Df_Y1KHFdvj/) |
 | 2026-11-20 | PDF ka table copy karo toh sab bikhar jaata hai. A | 123 | +0 | 3.4 | 3 | 0 | 1 | 0 | [open](https://www.instagram.com/reel/Df9qx1VEh4p/) |
 | 2026-11-20 | 5 photos, form mein sirf 1 PDF ka option. Ab pata  | 116 | +0 | 3.5 | 0 | 0 | 0 | 1 | [open](https://www.instagram.com/reel/Df9ImnMjua7/) |

@@ -1,12 +1,12 @@
 # Live reel stats
 
-Updated 23 Nov 2026, 01:31 PM India time (refreshed about every 5 minutes)
+Updated 23 Nov 2026, 04:55 PM India time (refreshed about every 5 minutes)
 
 | posted | hook | views | views last hour | avg watch s | likes | comments | shares | saves | link |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-11-23 | Meena tried 6 times to retake her signature photo. | 25 | +0 | 1.6 | 0 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgEvxw4gtdv/) |
-| 2026-11-23 | Aadhaar PDF ka password simple hai: naam ke pehle  | 170 | +0 | 4.3 | 0 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgEiX6KAARc/) |
-| 2026-11-22 | Aadhaar letter, PVC card, e-Aadhaar aur mAadhaar:  | 358 | +71 | 7.4 | 5 | 0 | 0 | 4 | [open](https://www.instagram.com/reel/DgC130IEonh/) |
+| 2026-11-23 | Meena tried 6 times to retake her signature photo. | 116 | +91 | 6.4 | 1 | 0 | 7 | 0 | [open](https://www.instagram.com/reel/DgEvxw4gtdv/) |
+| 2026-11-23 | Aadhaar PDF ka password simple hai: naam ke pehle  | 179 | +9 | 4.4 | 1 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgEiX6KAARc/) |
+| 2026-11-22 | Aadhaar letter, PVC card, e-Aadhaar aur mAadhaar:  | 401 | +43 | 7.2 | 5 | 0 | 2 | 4 | [open](https://www.instagram.com/reel/DgC130IEonh/) |
 | 2026-11-22 | Ravi's signature was 2 MB and the form wanted 20 K | 129 | +0 | 5.8 | 1 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgCLaSuk_Tm/) |
 | 2026-11-22 | HDFC statement PDF khul nahi raha? NetBanking ya a | 140 | +0 | 2.2 | 0 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgB9aV1j1GF/) |
 | 2026-11-21 | Masked Aadhaar mein sirf last 4 digits dikhte hain | 203 | +0 | 4.6 | 2 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgAPbEXpaEb/) |
@@ -24,7 +24,7 @@ Updated 23 Nov 2026, 01:31 PM India time (refreshed about every 5 minutes)
 | 2026-11-17 | Stop paying the cyber cafe for these 5 things 👇 | 147 | +0 | 4.1 | 1 | 0 | 0 | 2 | [open](https://www.instagram.com/reel/Df2KxDjjwSe/) |
 | 2026-11-17 | 4 photos. 1 PDF. Done in a minute. 📄 | 140 | +0 | 7.0 | 0 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/Df2IYAIAR7x/) |
 | 2026-11-17 | #ilovedocuments | 254 | +0 | 8.1 | 3 | 0 | 18 | 0 | [open](https://www.instagram.com/reel/Df1OFyStuBw/) |
-| 2026-11-16 | Aadhaar PDF ka password kya hota hai? 🔐 | 1969 | +0 | 8.2 | 21 | 4 | 18 | 24 | [open](https://www.instagram.com/reel/DfzobbpNmpf/) |
+| 2026-11-16 | Aadhaar PDF ka password kya hota hai? 🔐 | 1970 | +1 | 8.2 | 21 | 4 | 18 | 24 | [open](https://www.instagram.com/reel/DfzobbpNmpf/) |
 | 2026-11-16 | Form ne phir bola "File too large"? 😤 | 245 | +0 | 6.3 | 2 | 0 | 7 | 4 | [open](https://www.instagram.com/reel/DfzYzyOtsrh/) |
 | 2026-11-16 | Please check our website too there are multiple to | 352 | +0 | 9.3 | 6 | 0 | 0 | 1 | [open](https://www.instagram.com/reel/DfyxHBOtS5a/) |
 | 2026-11-16 | PDF ya photo ka koi bhi kaam ho – ek hi website ka | 920 | +0 | 8.7 | 9 | 1 | 2 | 4 | [open](https://www.instagram.com/reel/DfynYQJtJcQ/) |

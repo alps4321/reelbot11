@@ -6672,5 +6672,224 @@
         "avg_watch_s": 7.4
       }
     ]
+  },
+  {
+    "id": "20261123-042848-hinglish",
+    "created_at": "2026-11-23T04:36:33+00:00",
+    "language": "hinglish",
+    "topic": "unlock_aadhaar",
+    "hook_style": "question",
+    "format": "secret_answer",
+    "pace": "brisk",
+    "distance": "near",
+    "answer": "aadhaar_password",
+    "idea": "",
+    "plan_reason": "proven tool (top 5, rotating); proven formula slot; hook style: new test; format: new test; pace: explore; distance: best so far",
+    "title": "Aadhaar PDF ka password: SURE1990 jaisa",
+    "hook": "Aadhaar PDF ka password kya hota hai?",
+    "seconds": 21.3,
+    "script": {
+      "title": "Aadhaar PDF ka password: SURE1990 jaisa",
+      "scenes": [
+        {
+          "say": "Aadhaar PDF ka password kya hota hai?",
+          "voice": "आधार पीडीएफ का पासवर्ड क्या होता है?",
+          "accent": [
+            "password"
+          ],
+          "tag": "aadhaar",
+          "meter": null,
+          "scene": {
+            "type": "search",
+            "query": "Aadhaar PDF ka password kya hota hai",
+            "results": [
+              "e-Aadhaar PDF locked",
+              "Password maang raha hai"
+            ]
+          },
+          "kind": "hook",
+          "screen": "Aadhaar PDF ka password kya hota hai?",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Download kiya, khola, aur password maang raha hai.",
+          "voice": "डाउनलोड किया, खोला, और पासवर्ड माँग रहा है।",
+          "accent": [
+            "password"
+          ],
+          "tag": "locked",
+          "meter": null,
+          "scene": {
+            "type": "phone_upload",
+            "state": "error",
+            "file": "e-Aadhaar.pdf",
+            "size": "",
+            "text": "Enter password",
+            "title": "PDF locked"
+          },
+          "kind": "point",
+          "screen": "Download kiya, khola, aur password maang raha hai.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Answer abhi batata hoon, bas end tak ruko.",
+          "voice": "आंसर अभी बताता हूँ... बस एंड तक रुको।",
+          "accent": [
+            "Answer"
+          ],
+          "tag": "answer",
+          "meter": null,
+          "scene": {
+            "type": "chat",
+            "name": "Rahul",
+            "messages": [
+              {
+                "from": "them",
+                "text": "Password kya daalu?"
+              },
+              {
+                "from": "me",
+                "text": "Rule simple hai"
+              }
+            ]
+          },
+          "kind": "point",
+          "screen": "Answer abhi batata hoon, bas end tak ruko.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Naam ke pehle 4 letters, CAPITAL mein.",
+          "voice": "नाम के पहले 4 लेटर्स... कैपिटल में।",
+          "accent": [
+            "4 letters",
+            "CAPITAL"
+          ],
+          "tag": "step 1",
+          "meter": null,
+          "scene": {
+            "type": "big_text",
+            "text": "4 LETTERS",
+            "sub": "naam ke, CAPITAL mein"
+          },
+          "kind": "point",
+          "screen": "Naam ke pehle 4 letters, CAPITAL mein.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Phir janam ka saal, YYYY.",
+          "voice": "फिर जन्म का साल, वाई वाई वाई वाई।",
+          "accent": [
+            "YYYY"
+          ],
+          "tag": "step 2",
+          "meter": null,
+          "scene": {
+            "type": "id_card",
+            "title": "Aadhaar",
+            "name": "SURESH KUMAR",
+            "sub": "Born 1990"
+          },
+          "kind": "point",
+          "screen": "Phir janam ka saal, YYYY.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "SURESH KUMAR, 1990? Password: SURE1990.",
+          "voice": "सुरेश कुमार, 1990? पासवर्ड... SURE1990।",
+          "accent": [
+            "SURE1990"
+          ],
+          "tag": "example",
+          "meter": null,
+          "scene": {
+            "type": "stamp",
+            "word": "SURE1990",
+            "on": "SURESH KUMAR + 1990",
+            "label": "PASSWORD"
+          },
+          "kind": "point",
+          "screen": "SURESH KUMAR, 1990? Password: SURE1990.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Yaad rakhna, letters CAPITAL hi hone chahiye.",
+          "voice": "याद रखना, लेटर्स कैपिटल ही होने चाहिए।",
+          "accent": [
+            "CAPITAL"
+          ],
+          "tag": "dhyaan",
+          "meter": null,
+          "scene": {
+            "type": "versus",
+            "left": "Sure1990",
+            "right": "SURE1990",
+            "left_sub": "small letters",
+            "right_sub": "CAPITAL",
+            "winner": "right"
+          },
+          "kind": "point",
+          "screen": "Yaad rakhna, letters CAPITAL hi hone chahiye.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Ya ilovedocuments.ai pe Unlock Aadhaar PDF try karo, free hai.",
+          "voice": "या आई लव डॉक्यूमेंट्स डॉट ए आई पे अनलॉक आधार पीडीएफ ट्राई करो, फ्री है।",
+          "accent": [
+            "Unlock Aadhaar PDF"
+          ],
+          "tag": "free",
+          "meter": null,
+          "scene": {
+            "type": "browser",
+            "url": "ilovedocuments.ai",
+            "button": "Unlock Aadhaar PDF"
+          },
+          "kind": "point",
+          "screen": "Ya ilovedocuments.ai pe Unlock Aadhaar PDF try karo, free ha",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Save kar lo, kaam aayega.",
+          "voice": "सेव कर लो, काम आएगा।",
+          "accent": [
+            "Save"
+          ],
+          "tag": "save",
+          "meter": null,
+          "scene": {
+            "type": "cta",
+            "keyword": "SAVE",
+            "line": "// password yaad rakho"
+          },
+          "kind": "cta",
+          "screen": "Save kar lo, kaam aayega.",
+          "emphasis": [],
+          "visual": null
+        }
+      ],
+      "caption": "Aadhaar PDF ka password simple hai: naam ke pehle 4 CAPITAL letters + janam ka saal. Jaise SURESH KUMAR, 1990 -> SURE1990.\nKisi dost ka PDF bhi lock hai? Usse bhej do.\nAapka naam kitne letters ka hai, comment mein batao.\nilovedocuments.ai",
+      "hashtags": [
+        "#aadhaar",
+        "#pdf",
+        "#password",
+        "#india",
+        "#documents"
+      ]
+    },
+    "caption": "Aadhaar PDF ka password simple hai: naam ke pehle 4 CAPITAL letters + janam ka saal. Jaise SURESH KUMAR, 1990 -> SURE1990.\nKisi dost ka PDF bhi lock hai? Usse bhej do.\nAapka naam kitne letters ka hai, comment mein batao.\nilovedocuments.ai\n\n#aadhaar #pdf #password #india #documents",
+    "video": "20261123-042848-hinglish.mp4",
+    "media_id": "18457786927127911",
+    "permalink": "https://www.instagram.com/reel/DgEiX6KAARc/",
+    "posted_at": "2026-11-23T05:30:11+00:00",
+    "checked": [],
+    "slot": "11:00"
   }
 ]

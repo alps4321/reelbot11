@@ -1,65 +1,5 @@
 [
   {
-    "tool": "resize_photo_kb",
-    "format": "deadline_story",
-    "hook_en": "Your photo is 3 MB but the form wants 20-50 KB. Fix it in 10 seconds.",
-    "hook_hinglish": "Photo 3 MB ki hai aur form ko 20-50 KB chahiye. 10 second mein fix.",
-    "angle": "A job seeker has minutes before the application closes and the photo keeps getting rejected, then the resize turns the error red into a green success.",
-    "from": "https://www.instagram.com/reel/DfUV1DCyH8x/",
-    "added": "2026-11-17T15:19:02+00:00",
-    "used": 0
-  },
-  {
-    "tool": "unlock_aadhaar",
-    "format": "impossible_without_reveal",
-    "hook_en": "Open your Aadhaar PDF without remembering the password rule.",
-    "hook_hinglish": "Aadhaar PDF khol lo, bina password ka chakkar yaad kiye.",
-    "angle": "A character is locked out of the e-Aadhaar file and tries wrong passwords, then the tool opens it in three taps.",
-    "from": "https://www.instagram.com/reel/DfKC673hkqS/",
-    "added": "2026-11-17T15:19:02+00:00",
-    "used": 0
-  },
-  {
-    "tool": "merge_pdf",
-    "format": "numbered_list_explainer",
-    "hook_en": "5 PDF problems you can solve for free, starting with this one.",
-    "hook_hinglish": "5 PDF problems jo free mein solve ho jaati hain, pehli yeh wali.",
-    "angle": "A narrator and a counter run through five tiny scenes, with merging ten scanned pages into one file as scene one.",
-    "from": "https://www.instagram.com/reel/DfMA961Plsh/",
-    "added": "2026-11-17T15:19:02+00:00",
-    "used": 0
-  },
-  {
-    "tool": "bank_statement_excel",
-    "format": "secret_answer",
-    "hook_en": "Your bank statement PDF can turn into Excel in one tap. Nobody tells you this.",
-    "hook_hinglish": "Bank statement PDF ek tap mein Excel ban jaata hai. Koi batata nahi.",
-    "angle": "An intern is retyping a long statement by hand while a colleague quietly shows the converter, and the rows fill in a table at once.",
-    "from": "https://www.instagram.com/reel/De1WWNAR9Bf/",
-    "added": "2026-11-17T15:19:02+00:00",
-    "used": 0
-  },
-  {
-    "tool": "resize_signature_kb",
-    "format": "boss_junior",
-    "hook_en": "Signature must be 10-20 KB? Stop re-clicking photos of your signature.",
-    "hook_hinglish": "Signature 10-20 KB chahiye? Baar baar signature ki photo khichna band karo.",
-    "angle": "A junior keeps getting a rejected upload from the boss's portal, and the boss shows the signature resizer that gets a green tick.",
-    "from": "https://www.instagram.com/reel/DfKC673hkqS/",
-    "added": "2026-11-17T15:19:02+00:00",
-    "used": 0
-  },
-  {
-    "tool": "compress_pdf_kb",
-    "format": "same_task_before_after",
-    "hook_en": "Same PDF, same form. First try: 'file too large'. Second try: uploaded in 3 seconds.",
-    "hook_hinglish": "Same PDF, same form. Pehli baar: 'file too large'. Doosri baar: 3 second mein upload.",
-    "angle": "A student's 6 MB PDF gets rejected by the portal. He runs it through Compress PDF, the panel shows 6 MB to 190 KB, and the form goes through.",
-    "from": "https://www.instagram.com/reel/De_UI6HRvno/",
-    "added": "2026-11-17T15:24:16+00:00",
-    "used": 0
-  },
-  {
     "tool": "resize_signature_kb",
     "format": "numbered_list_explainer",
     "hook_en": "3 form photo problems that take 10 seconds to fix, and all of them are free.",
@@ -787,6 +727,76 @@
     "angle": "A job seeker needs a statement in Excel. Three quick wins: the pages convert, the columns line up, and the totals add up.",
     "from": "https://www.instagram.com/reel/DgCoF5NgQVI/",
     "added": "2026-11-22T12:00:19+00:00",
+    "used": 0
+  },
+  {
+    "tool": "compress_pdf_kb",
+    "format": "bad_news_share_alert",
+    "hook_en": "Bad news for everyone filling a govt form: your PDF is 2 MB and the limit is 200 KB.",
+    "hook_hinglish": "Bad news un sabke liye jo govt form bhar rahe hain: PDF 2 MB ki hai aur limit sirf 200 KB.",
+    "angle": "A student sees 'file too large' on the portal, panics, then compresses the PDF to under 200 KB and submits. The narrator tells viewers to save it for their next form.",
+    "from": "https://www.instagram.com/reel/DfzP76ayo_c/",
+    "added": "2026-11-23T04:28:33+00:00",
+    "used": 0
+  },
+  {
+    "tool": "resize_photo_kb",
+    "format": "if_then_chain",
+    "hook_en": "If your photo is 3 MB, the form rejects it. If you resize it wrong, it rejects it again.",
+    "hook_hinglish": "Agar photo 3 MB ki hai to form reject karega. Galat resize kiya to phir reject.",
+    "angle": "A character is rejected three times for different reasons (size, blur, wrong dimensions), then fixes it at 20-50 KB.",
+    "from": "https://www.instagram.com/reel/Df6e3okxgav/",
+    "added": "2026-11-23T04:28:33+00:00",
+    "used": 0
+  },
+  {
+    "tool": "merge_pdf",
+    "format": "deadline_story",
+    "hook_en": "Two hours. Nine PDFs. One upload slot.",
+    "hook_hinglish": "Do ghante. Nau PDFs. Sirf ek upload slot.",
+    "angle": "A job seeker has marksheets, ID and resume as separate files and the portal accepts only one. They merge them in order and upload with time to spare.",
+    "from": "https://www.instagram.com/reel/Df2iMUWlffy/",
+    "added": "2026-11-23T04:28:33+00:00",
+    "used": 0
+  },
+  {
+    "tool": "unlock_aadhaar",
+    "format": "old_vs_new_surprise",
+    "hook_en": "Ye kya lagadia? Your Aadhaar PDF asks for a password you never knew.",
+    "hook_hinglish": "Ye kya lagadia? Aadhaar PDF password maang rahi hai aur tumhe pata hi nahi.",
+    "angle": "The old way: guessing passwords on a 3D screen. The new way: enter the right format and unlock it in one step.",
+    "from": "https://www.instagram.com/reel/Df6f9VNvE_7/",
+    "added": "2026-11-23T04:28:33+00:00",
+    "used": 0
+  },
+  {
+    "tool": "signature_bg_remover",
+    "format": "upcoming_lineup_countdown",
+    "hook_en": "5 forms coming up this month that will ask for your signature on a white background.",
+    "hook_hinglish": "Is mahine ke 5 forms jo white background pe signature maangenge.",
+    "angle": "The narrator counts down five forms and shows the same signature cleaned up once, ready for all of them.",
+    "from": "https://www.instagram.com/reel/De_yDEMxumA/",
+    "added": "2026-11-23T04:28:33+00:00",
+    "used": 0
+  },
+  {
+    "tool": "bank_statement_excel",
+    "format": "old_vs_new_surprise",
+    "hook_en": "Old way: retype 200 bank rows. New way: one upload.",
+    "hook_hinglish": "Purana tareeka: 200 rows haath se type karo. Naya: ek upload.",
+    "angle": "A character types rows by hand while the clock runs, then the statement converts to Excel in seconds.",
+    "from": "https://www.instagram.com/reel/Df6f9VNvE_7/",
+    "added": "2026-11-23T04:28:33+00:00",
+    "used": 0
+  },
+  {
+    "tool": "jpg_to_pdf",
+    "format": "bad_news_share_alert",
+    "hook_en": "Bad news: the portal does not accept JPG. Share this with a friend filling a form tonight.",
+    "hook_hinglish": "Bad news: portal JPG nahi leta. Aaj raat form bhar rahe dost ko bhej do.",
+    "angle": "A student's scanned photos are rejected, so they convert them to one PDF and get a success panel.",
+    "from": "https://www.instagram.com/reel/DfzP76ayo_c/",
+    "added": "2026-11-23T04:28:33+00:00",
     "used": 0
   }
 ]

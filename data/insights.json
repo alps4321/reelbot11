@@ -1,95 +1,5 @@
 [
   {
-    "at": "2026-11-17T15:24:16+00:00",
-    "permalink": "https://www.instagram.com/reel/DezRZM5SXGo/",
-    "why": "It uses curiosity about a new, hyped object ('features Apple didn't tell you'), then keeps up a steady flow of small surprising reveals. Every claim is shown on screen straight away.",
-    "hook_pattern": "[Big new thing] features [authority] didn't tell you",
-    "structure": [
-      "Superlative claim about the object",
-      "Rapid sequence of hidden features",
-      "Each feature has a quick visual demo",
-      "Save the favourite feature for last"
-    ],
-    "visual": "Close-ups of the product. Detailed demo shots in short cuts. Captions are minimal.",
-    "speaking": "Fast at about 4 words/s, with energy that climbs. It starts with a long 7 s pre-roll, so the opening is carried by the visuals."
-  },
-  {
-    "at": "2026-11-17T15:24:16+00:00",
-    "permalink": "https://www.instagram.com/reel/Dfj47owytz3/",
-    "why": "It is a single-purpose story with no waiting: the problem, the solution and the payoff all fit in 28 seconds. The step-by-step action ('place it, connect it, press') is easy to follow, and the safety detail adds trust.",
-    "hook_pattern": "This is the most useful [thing] you will ever have",
-    "structure": [
-      "Superlative hook with the object already in shot",
-      "Three-step 'just do this' action",
-      "Automatic result happens on its own",
-      "Safety or reliability detail",
-      "Specs in one line",
-      "Share-this closer"
-    ],
-    "visual": "Outdoor real-world demo with a clear before and after of the car going up. Captions with a purple highlight on each word. The first image is the object itself.",
-    "speaking": "Very quick at 4.4 words/s with no pauses. It's flat and direct, with emphasis on 'automatically' and 'on its own'."
-  },
-  {
-    "at": "2026-11-17T15:24:16+00:00",
-    "permalink": "https://www.instagram.com/reel/DfUXHLftcCo/",
-    "why": "It leads with a big question about connecting separate things, which holds an informed audience. It is low on the engagement rate, though, because it is long and corporate with no personal payoff.",
-    "hook_pattern": "What happens when [separate tools] stop working alone and start connecting?",
-    "structure": [
-      "Question hook",
-      "Announcement and the partners involved",
-      "Concrete applications",
-      "Caveat about human control",
-      "Advice for young people"
-    ],
-    "visual": "Event footage with a presenter on location.",
-    "speaking": "Slow and measured at 2.35 words/s, in a presenter tone. It works for news, but it is too slow for us."
-  },
-  {
-    "at": "2026-11-17T15:24:16+00:00",
-    "permalink": "https://www.instagram.com/reel/DezXZcqxE3V/",
-    "why": "It uses a witty, playful caption tied to a pop-culture moment, and a visual that explains itself without any speech. It's a visual-first reel.",
-    "hook_pattern": "When the [thing] matches the [fantasy/mood] ...",
-    "structure": [
-      "Single strong visual idea",
-      "Witty caption carries the message",
-      "Tag or reference to a known brand"
-    ],
-    "visual": "Polished designed visuals, strong colour and a themed look.",
-    "speaking": "No speech. The caption does the work."
-  },
-  {
-    "at": "2026-11-18T03:53:02+00:00",
-    "permalink": "https://www.instagram.com/reel/DfUqT2FzWU4/",
-    "why": "It opens on a festival pain point (Diwali cleaning) and shows one object doing many jobs, so each new use feels like fresh value. The price anchor at the end (10,000 and up vs under 4,000) turns the demo into a deal.",
-    "hook_pattern": "This one [small thing] is perfect for [seasonal chore]",
-    "structure": [
-      "Seasonal hook with a bold on-screen label that stays up",
-      "Show the object in hand and press the button",
-      "Run through the uses fast, one real surface per beat",
-      "Add 'bonus' extras: a second attachment, then a new place to use it",
-      "Price anchor: others cost X, this costs under Y",
-      "Call to action"
-    ],
-    "visual": "Close handheld shots of the product working on real mess (confetti, dust, window tracks). A white-on-black label with one red word stays on screen the whole time.",
-    "speaking": "Fast and steady at about 2.9 words/s, with short pauses between uses. Upbeat and demo-led, and the 'Bonus' and 'Plus' words keep stacking value."
-  },
-  {
-    "at": "2026-11-18T03:53:02+00:00",
-    "permalink": "https://www.instagram.com/reel/DfmZpjDy8P0/",
-    "why": "It opens with big news that affects the viewer directly, then confirms the headline with a close-up of the number on a screen. The 'no limit' claim is tested in plain examples (movies, calls, games).",
-    "hook_pattern": "Big news for [group]: [specific number] and no [annoying limit]",
-    "structure": [
-      "Breaking-news hook aimed at a named group",
-      "Show the key number on screen",
-      "Remove the usual limit or objection",
-      "Test it with relatable uses (movies, calls, games)",
-      "Add a bonus offer with a condition",
-      "Share this with someone who [relatable habit]"
-    ],
-    "visual": "Host holding a phone with a big headline label. Then zoomed-in screen details and word-by-word highlighted captions.",
-    "speaking": "Quick, 3.9 words/s with almost no pauses. Excited, and key words are punched."
-  },
-  {
     "at": "2026-11-18T03:53:02+00:00",
     "permalink": "https://www.instagram.com/reel/DetQBp8y6Vf/",
     "why": "It sells one gadget as a safety fix for a danger the viewer already knows from Indian roads. A top-down view shows the danger zone, so the claim is easy to believe.",
@@ -900,5 +810,88 @@
     ],
     "visual": "I couldn't view these frames, so this is inferred from the caption and speech. Probably gameplay clips that match each feature as it is named.",
     "speaking": "Continuous, about 3 words a second, with no pauses. Casual Hindi, with energy coming from the list rhythm."
+  },
+  {
+    "at": "2026-11-23T04:28:33+00:00",
+    "permalink": "https://www.instagram.com/reel/Df6f9VNvE_7/",
+    "why": "A talking-head creator reacts to a new GTA 6 detail and compares it to the old game, with gameplay cut in. The fast, excited delivery makes the comparison feel like insider news. Views were modest relative to followers, so the topic helps more than the format.",
+    "hook_pattern": "A short on-screen reaction caption ('Ye Kya Lagadia') over a surprised face, followed by 'this new thing is different from the old one'.",
+    "structure": [
+      "Shocked on-screen caption over a face and a controller",
+      "Gameplay clip of the new detail",
+      "Compare it with the old game",
+      "Explain what changes for the player",
+      "Warn about a problem or catch"
+    ],
+    "visual": "A creator in an orange tee sits in front of a TV showing the game. Cut-ins of gameplay fill the top of the frame, with a small caption chip.",
+    "speaking": "Fast at about 3.2 words per second, with big hand gestures and a surprised tone. Pauses are few and sentences run together."
+  },
+  {
+    "at": "2026-11-23T04:28:33+00:00",
+    "permalink": "https://www.instagram.com/reel/Df6e3okxgav/",
+    "why": "It opens with a bold claim ('crazy for animals') and then runs a chain of vivid mini-scenarios. Each scenario shows a different consequence, so there is always something new to see.",
+    "hook_pattern": "'[Thing] has crazy [detail]' followed by a chain of 'if you do X, then Y happens' consequences.",
+    "structure": [
+      "Bold claim in the title chip",
+      "If you do X, Y happens",
+      "Escalating examples, each with a gameplay clip",
+      "Surprising last consequence"
+    ],
+    "visual": "The creator in the same room, with a title chip and a new gameplay clip about every 3 seconds.",
+    "speaking": "Quick at about 3.8 words per second, with no pauses. Storytelling tone, with named characters and 'if you do this, then this' logic."
+  },
+  {
+    "at": "2026-11-23T04:28:33+00:00",
+    "permalink": "https://www.instagram.com/reel/DfzP76ayo_c/",
+    "why": "It is a bad-news hook that affects a huge audience (every Jio user), plus a direct request to share it with family and friends. People send it on because it protects the people they care about. It got 5.9M views, far above the other reels.",
+    "hook_pattern": "'[Brand] bad news' + 'Share this with everyone who has [thing]'",
+    "structure": [
+      "Bad-news hook with an emoji",
+      "Plan or price changes, listed",
+      "What you lose and what you keep",
+      "Share with everyone who is affected"
+    ],
+    "visual": "A text-heavy news-style card with a list of plans and prices and a keyword list in the caption.",
+    "speaking": "No speech is available. The tone is concerned and the pace is quick."
+  },
+  {
+    "at": "2026-11-23T04:28:33+00:00",
+    "permalink": "https://www.instagram.com/reel/De_yDEMxumA/",
+    "why": "A dated list with specific names makes the reel feel like a useful reference. The caption asks which item the viewer prefers, which draws comments.",
+    "hook_pattern": "'Upcoming [things] in [month]' + 'Which one are you most excited for?'",
+    "structure": [
+      "Title with the month",
+      "One item at a time with specs",
+      "Ask the viewer to pick a favorite"
+    ],
+    "visual": "Product shots one after another with a large title.",
+    "speaking": "No speech is available. Items come in rapid succession."
+  },
+  {
+    "at": "2026-11-23T04:28:33+00:00",
+    "permalink": "https://www.instagram.com/reel/Df2iMUWlffy/",
+    "why": "The caption sets up a relatable student countdown: seven days, one impossible final, no study partner. The tool is the answer to that emotion. It got many views but few likes, so the story hooks people more than the product does.",
+    "hook_pattern": "'[Short time]. [Big problem]. [Missing help].' as three short pain points, then the tool.",
+    "structure": [
+      "Three short pain lines",
+      "Show the pain",
+      "Introduce the tool as relief",
+      "Show the result"
+    ],
+    "visual": "A student scene on screen with pain captions and an app screen as the solution.",
+    "speaking": "No speech is available. The tone is dramatic first and calm once the tool appears."
+  },
+  {
+    "at": "2026-11-23T04:28:33+00:00",
+    "permalink": "https://www.instagram.com/reel/DftXLfuBVRI/",
+    "why": "A sale announcement for government-exam students, with urgency from the live sale and a code. It works because the audience is clearly targeted, but it is a promotion, so it is not a good model for us.",
+    "hook_pattern": "'Sale is live' + urgency + discount.",
+    "structure": [
+      "Urgent alert",
+      "Offer details",
+      "Code"
+    ],
+    "visual": "Promotional graphics with price text.",
+    "speaking": "No speech is available. The tone is urgent."
   }
 ]

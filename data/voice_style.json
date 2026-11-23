@@ -1,18 +1,6 @@
 {
   "samples": [
     {
-      "wps": 3.28,
-      "pause_s": 0.5,
-      "lang": "hi",
-      "per_k": 46.3
-    },
-    {
-      "wps": 3.18,
-      "pause_s": 0.4,
-      "lang": "en",
-      "per_k": 32.4
-    },
-    {
       "wps": 4.33,
       "pause_s": 0.0,
       "lang": "en",
@@ -239,10 +227,22 @@
       "pause_s": 1.56,
       "lang": "hi",
       "per_k": 0.1
+    },
+    {
+      "wps": 3.18,
+      "pause_s": 11.92,
+      "lang": "hi",
+      "per_k": 1.4
+    },
+    {
+      "wps": 3.76,
+      "pause_s": 0.0,
+      "lang": "hi",
+      "per_k": 0.9
     }
   ],
-  "notes": "The best speakers here run fast, about 2.7 to 3.4 words a second, and let the list rhythm carry the energy. They use short escalation words like 'Heck' and end on a clear verdict or tease. Our narrator should keep that pace, stress the numbers and file sizes, and pause briefly before each reveal.",
-  "updated": "2026-11-22T12:00:19+00:00",
-  "words_per_second": 3.25,
-  "pause_s": 0.4
+  "notes": "The best speakers keep a quick pace of about 3 to 4 words per second with almost no pauses, and use hand gestures and a rise in pitch to mark the surprising word. For us, keep the same pace, but add one short pause before the fix so the problem lands.",
+  "updated": "2026-11-23T04:28:33+00:00",
+  "words_per_second": 3.16,
+  "pause_s": 0.35
 }

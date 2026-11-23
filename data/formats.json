@@ -1,29 +1,5 @@
 {
   "learned": {
-    "two_in_one_claim": {
-      "description": "Open with the first word at 0 s, state that the tool does two jobs people think need two apps, and show both outcomes side by side in two 3D panels.",
-      "from": "https://www.instagram.com/reel/Df7RgoAvbsr/",
-      "hook_pattern": "This [device] can work like a [A] and a [B]",
-      "added": "2026-11-20T04:10:19+00:00"
-    },
-    "before_after_gap": {
-      "description": "Show the same file handled the old painful way and then with our tool, in two matching panels. The narrator names the gap in one line and keeps it short.",
-      "from": "https://www.instagram.com/reel/Df4bTYBxbfY/",
-      "hook_pattern": "[Thing] in [old year] vs [Thing] in [new year]",
-      "added": "2026-11-20T12:09:07+00:00"
-    },
-    "one_gesture_fix": {
-      "description": "Open on a character stuck in a small, painful form problem, then have them fix it with one single action in the tool. End on the proof panel (size or success) and one useful number.",
-      "from": "https://www.instagram.com/reel/Df9mir3heiW/",
-      "hook_pattern": "The most useful [thing] you can actually buy for [moment of annoyance]",
-      "added": "2026-11-21T04:32:28+00:00"
-    },
-    "scary_checklist_countdown": {
-      "description": "Narrate a short story where a character is told something quietly alarming about their files. They run N quick checks one by one, each shown on a panel, and the last check gives the biggest surprise before the fix.",
-      "from": "https://www.instagram.com/reel/Df9hfN2vV3k/",
-      "hook_pattern": "Your [personal thing] may already be [exposed/lost]. Open these N sites/tools, and the last one is the scariest.",
-      "added": "2026-11-22T04:33:40+00:00"
-    },
     "claim_then_three_proofs": {
       "description": "Have the narrator make one big claim about a tool, then let a character prove it with three quick, concrete results shown on panels, ending with a short verdict.",
       "from": "https://www.instagram.com/reel/DgANOxJASRO/",
@@ -59,6 +35,30 @@
       "from": "https://www.instagram.com/reel/Df7NsrfPzI2/",
       "hook_pattern": "[Thing you use] has hidden features you didn't know about",
       "added": "2026-11-22T12:00:19+00:00"
+    },
+    "old_vs_new_surprise": {
+      "description": "Have the narrator compare the old, painful way of doing a task with the new easy way. Show the old way as a clumsy 3D scene and the new way as a clean one, with a short reaction caption at the start.",
+      "from": "https://www.instagram.com/reel/Df6f9VNvE_7/",
+      "hook_pattern": "A short on-screen reaction caption ('Ye Kya Lagadia') over a surprised face, followed by 'this new thing is different from the old one'.",
+      "added": "2026-11-23T04:28:33+00:00"
+    },
+    "if_then_chain": {
+      "description": "Narrate a chain of 'if this happens, then that' consequences, with a 3D character acting out each step. Each step is more surprising than the last and ends on the tool as the fix.",
+      "from": "https://www.instagram.com/reel/Df6e3okxgav/",
+      "hook_pattern": "'[Thing] has crazy [detail]' followed by a chain of 'if you do X, then Y happens' consequences.",
+      "added": "2026-11-23T04:28:33+00:00"
+    },
+    "bad_news_share_alert": {
+      "description": "The narrator opens with bad news that affects many people, such as a rule change or a rejection. Then show the 3D character losing something and fixing it fast, and end with 'save this' because the problem repeats.",
+      "from": "https://www.instagram.com/reel/DfzP76ayo_c/",
+      "hook_pattern": "'[Brand] bad news' + 'Share this with everyone who has [thing]'",
+      "added": "2026-11-23T04:28:33+00:00"
+    },
+    "live_alert_urgency": {
+      "description": "Open with an urgent 'this is happening now' alert, show a 3D character rushing, and resolve it with the free tool and a calm 'save this'.",
+      "from": "https://www.instagram.com/reel/DftXLfuBVRI/",
+      "hook_pattern": "'Sale is live' + urgency + discount.",
+      "added": "2026-11-23T04:28:33+00:00"
     }
   }
 }

@@ -290,7 +290,7 @@ def stages(job_rows, run_rows, posts, cfg):
     rows = []
     t1, s1 = st("Study competitor reels")
     rows.append({"order": 1, "stage": "Scout", "what": "Studies competitor reels", "last": t1, "state": s1,
-                 "detail": f"{len(sc.get('seen', []))} reels studied from {len(sc.get('accounts', {}))} accounts"})
+                 "detail": f"{len(sc.get('seen', []))} reels seen from {len(sc.get('accounts', {}))} accounts"})
     t2, s2 = st("Make and post a reel")
     rows.append({"order": 2, "stage": "Create", "what": "Writes the script, voices and renders the reel", "last": t2, "state": s2,
                  "detail": by.get("Make and post a reel", {}).get("note", "")})

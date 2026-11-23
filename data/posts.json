@@ -408,7 +408,8 @@
       24,
       48,
       72,
-      120
+      120,
+      168
     ],
     "metrics": {
       "views": 1970,
@@ -478,6 +479,17 @@
         "shares": 18,
         "saved": 24,
         "total_interactions": 67,
+        "avg_watch_s": 8.2
+      },
+      {
+        "at": "2026-11-23T11:25:53+00:00",
+        "hours": 168,
+        "views": 1970,
+        "reach": 1695,
+        "likes": 21,
+        "comments": 4,
+        "shares": 18,
+        "saved": 24,
         "avg_watch_s": 8.2
       }
     ],

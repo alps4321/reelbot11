@@ -1,65 +1,5 @@
 [
   {
-    "tool": "resize_signature_kb",
-    "format": "numbered_list_explainer",
-    "hook_en": "3 form photo problems that take 10 seconds to fix, and all of them are free.",
-    "hook_hinglish": "Form ke 3 photo problems jo 10 second mein fix ho jaate hain, aur sab free.",
-    "angle": "A job seeker hits three rejections in a row (signature too big, photo too big, wrong format). Each gets fixed in turn with a size panel, and we finish with 'save this for your next form'.",
-    "from": "https://www.instagram.com/reel/DfuWR1hx5cb/",
-    "added": "2026-11-17T15:24:16+00:00",
-    "used": 0
-  },
-  {
-    "tool": "unlock_aadhaar",
-    "format": "hidden_features_reveal",
-    "hook_en": "Your Aadhaar PDF is locked, and nobody tells you the password is already hiding in plain sight.",
-    "hook_hinglish": "Aapka Aadhaar PDF locked hai, aur kisi ne nahi bataya ki password toh pehle se aapke paas hai.",
-    "angle": "A character is stuck on the password prompt. The reveal: the password follows a known pattern. The tool opens it in one step and the unlocked PDF shows up on screen.",
-    "from": "https://www.instagram.com/reel/DezRZM5SXGo/",
-    "added": "2026-11-17T15:24:16+00:00",
-    "used": 0
-  },
-  {
-    "tool": "passport_photo",
-    "format": "three_step_just_do_this",
-    "hook_en": "The easiest way to make a passport photo at home: upload, tap, done.",
-    "hook_hinglish": "Ghar par passport photo banane ka sabse easy tareeka: upload, tap, done.",
-    "angle": "A character skips the photo studio queue. Three steps (upload selfie, auto-crop to size, download) with the result panel showing the correct dimensions and size.",
-    "from": "https://www.instagram.com/reel/Dfj47owytz3/",
-    "added": "2026-11-17T15:24:16+00:00",
-    "used": 0
-  },
-  {
-    "tool": "merge_pdf",
-    "format": "same_task_before_after",
-    "hook_en": "Uploading 5 PDFs one by one vs uploading 1. Watch the difference.",
-    "hook_hinglish": "5 PDF ek-ek karke upload karna vs 1 PDF upload karna. Difference dekho.",
-    "angle": "A job seeker wastes minutes attaching five documents to an application. Replay it: Merge PDF combines them into one file and the form accepts it first time.",
-    "from": "https://www.instagram.com/reel/De_UI6HRvno/",
-    "added": "2026-11-17T15:24:16+00:00",
-    "used": 0
-  },
-  {
-    "tool": "remove_background",
-    "format": "numbered_list_explainer",
-    "hook_en": "3 things you can do with one photo and no editing skills.",
-    "hook_hinglish": "Ek photo se 3 cheezein jo bina editing seekhe ho jaati hain.",
-    "angle": "One selfie turns into a clean white-background ID photo, a profile picture and a sticker, each shown as a panel with a success tick.",
-    "from": "https://www.instagram.com/reel/DfuWR1hx5cb/",
-    "added": "2026-11-17T15:24:16+00:00",
-    "used": 1
-  },
-  {
-    "tool": "bank_statement_excel",
-    "format": "what_if",
-    "hook_en": "What happens when your bank statement PDF turns into Excel in one click?",
-    "hook_hinglish": "Kya hoga jab aapka bank statement PDF ek click mein Excel ban jaaye?",
-    "angle": "A character is typing numbers from a PDF by hand at midnight. What if the tool did it? The table appears in Excel, sorted and ready.",
-    "from": "https://www.instagram.com/reel/DfUXHLftcCo/",
-    "added": "2026-11-17T15:24:16+00:00",
-    "used": 0
-  },
-  {
     "tool": "compress_pdf_kb",
     "format": "big_news_number",
     "hook_en": "Big news for students: your 5 MB PDF can be under 200 KB and still readable.",
@@ -797,6 +737,66 @@
     "angle": "A student's scanned photos are rejected, so they convert them to one PDF and get a success panel.",
     "from": "https://www.instagram.com/reel/DfzP76ayo_c/",
     "added": "2026-11-23T04:28:33+00:00",
+    "used": 0
+  },
+  {
+    "tool": "unlock_aadhaar",
+    "format": "disguise_reveal_then_objections",
+    "hook_en": "This normal-looking file hides your Aadhaar details, and nobody can open it without the key.",
+    "hook_hinglish": "Ye normal file lagti hai, par isme aapka Aadhaar chhupa hai, aur bina key ke koi khol nahi sakta.",
+    "angle": "A character gets an Aadhaar PDF that won't open. The narrator reveals the password pattern, answers 'what if I type it wrong?', then shows it unlocked.",
+    "from": "https://www.instagram.com/reel/DgFT6_whi4Z/",
+    "added": "2026-11-23T13:42:19+00:00",
+    "used": 0
+  },
+  {
+    "tool": "protect_pdf",
+    "format": "disguise_reveal_then_objections",
+    "hook_en": "This plain PDF is secretly a locked safe, and nobody can peek inside.",
+    "hook_hinglish": "Ye simple PDF asal mein ek locked tijori hai, andar koi jhaank nahi sakta.",
+    "angle": "A character shares a resume PDF with personal details. Narration adds a password and answers 'what if someone forwards it?' and 'what if I forget the password?'.",
+    "from": "https://www.instagram.com/reel/DgFT6_whi4Z/",
+    "added": "2026-11-23T13:42:19+00:00",
+    "used": 0
+  },
+  {
+    "tool": "redact_pdf",
+    "format": "fine_print_reveal",
+    "hook_en": "Your bank statement is hiding your private details in plain sight. Hide them before you share it.",
+    "hook_hinglish": "Aapke bank statement mein private details saaf dikh rahi hain. Share karne se pehle chhupa lo.",
+    "angle": "A character sends a statement to a landlord. A panel zooms in on the account number and balance, then blacks them out.",
+    "from": "https://www.instagram.com/reel/DgFT6_whi4Z/",
+    "added": "2026-11-23T13:42:19+00:00",
+    "used": 0
+  },
+  {
+    "tool": "compress_pdf_kb",
+    "format": "live_alert_urgency",
+    "hook_en": "Big update for form fillers: your PDF doesn't have to be rejected for size anymore.",
+    "hook_hinglish": "Form bharne walon ke liye badi update: ab PDF size ki wajah se reject nahi hogi.",
+    "angle": "A character's 4 MB PDF gets 'file too large' an hour before the deadline. A panel shows it shrinking under the limit and the upload succeeding.",
+    "from": "https://www.instagram.com/reel/DfjzYxouc_v/",
+    "added": "2026-11-23T13:42:19+00:00",
+    "used": 0
+  },
+  {
+    "tool": "resize_photo_kb",
+    "format": "relatable_roast_reassure",
+    "hook_en": "A photo upload that won't reject you on the last day of the form? Rare.",
+    "hook_hinglish": "Last date par photo upload reject na ho? Bohot rare hai.",
+    "angle": "Two characters joke about a portal that always says 'photo must be 20-50 KB'. Then the photo gets resized and accepted.",
+    "from": "https://www.instagram.com/reel/Df3EISelhJ6/",
+    "added": "2026-11-23T13:42:19+00:00",
+    "used": 0
+  },
+  {
+    "tool": "merge_pdf",
+    "format": "hidden_features_rapid_list",
+    "hook_en": "One file, five documents: this free trick puts all your certificates into a single PDF.",
+    "hook_hinglish": "Ek file, paanch documents: ye free trick saare certificates ek hi PDF mein daal deti hai.",
+    "angle": "A character holds a pile of scattered marksheets, ID and photo. Panels show them joining into one tidy PDF, with a quick rundown of what goes in.",
+    "from": "https://www.instagram.com/reel/DgFT6_whi4Z/",
+    "added": "2026-11-23T13:42:19+00:00",
     "used": 0
   }
 ]

@@ -1,11 +1,5 @@
 {
   "learned": {
-    "claim_then_three_proofs": {
-      "description": "Have the narrator make one big claim about a tool, then let a character prove it with three quick, concrete results shown on panels, ending with a short verdict.",
-      "from": "https://www.instagram.com/reel/DgANOxJASRO/",
-      "hook_pattern": "This is the most [superlative] [thing] ever. It has 3 features, and here is proof of each.",
-      "added": "2026-11-22T04:33:40+00:00"
-    },
     "everyday_analogy_explainer": {
       "description": "Narrate a tiny story where a character's file problem is explained with one everyday comparison (such as a water tank or a suitcase). Then escalate with 'what if it had been worse?' before the fix.",
       "from": "https://www.instagram.com/reel/Df19Smbv_6d/",
@@ -59,6 +53,12 @@
       "from": "https://www.instagram.com/reel/DftXLfuBVRI/",
       "hook_pattern": "'Sale is live' + urgency + discount.",
       "added": "2026-11-23T04:28:33+00:00"
+    },
+    "disguise_reveal_then_objection": {
+      "description": "Start with a mundane-looking file or situation, reveal the hidden problem or power underneath, then have the narrator answer each worried 'but what if' in turn, ending with a verdict line.",
+      "from": "https://www.instagram.com/reel/DgFT6_whi4Z/",
+      "hook_pattern": "This [ordinary-looking thing] hides [something valuable] and nobody can get in",
+      "added": "2026-11-23T13:42:19+00:00"
     }
   }
 }

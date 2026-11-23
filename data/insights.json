@@ -1,54 +1,6 @@
 [
   {
     "at": "2026-11-18T03:53:02+00:00",
-    "permalink": "https://www.instagram.com/reel/DetQBp8y6Vf/",
-    "why": "It sells one gadget as a safety fix for a danger the viewer already knows from Indian roads. A top-down view shows the danger zone, so the claim is easy to believe.",
-    "hook_pattern": "The most useful [thing] ever, because [danger or loss it prevents]",
-    "structure": [
-      "'Most useful X ever' label",
-      "Say how simple setup is in three steps",
-      "Show the warning in action from above",
-      "Explain the two signals (orange vs red)",
-      "Say what mirrors can't do",
-      "India-specific closer and share prompt"
-    ],
-    "visual": "Presenter on the bike, close-ups of the parts, and a drone view of the car in the blind spot. Captions highlight one word at a time.",
-    "speaking": "Fast at 4.4 words/s with no pauses, confident, and one clear benefit per sentence."
-  },
-  {
-    "at": "2026-11-18T03:53:02+00:00",
-    "permalink": "https://www.instagram.com/reel/Dfq8C5WxXUd/",
-    "why": "The 'twist number one, twist number two' structure promises a payoff and delivers escalating surprises. It also names a daily annoyance (the microwave queue) and ends with a price check.",
-    "hook_pattern": "Throw away your boring [object], this one has [N] twists",
-    "structure": [
-      "Challenge the boring version",
-      "Show that it looks ordinary",
-      "Twist one: the first surprise, shown working",
-      "Twist two: a bigger surprise",
-      "Extra uses for different people (diet, cheat day)",
-      "Price justification",
-      "Call to action"
-    ],
-    "visual": "Clean tabletop product shots, a thermometer gun for proof, and word-by-word highlighted captions.",
-    "speaking": "Medium pace of 3.2 words/s, with a pause before each twist. Conversational and gently excited."
-  },
-  {
-    "at": "2026-11-18T03:53:02+00:00",
-    "permalink": "https://www.instagram.com/reel/DfKfvaTP0Ka/",
-    "why": "It's a real, unscripted, emotional street conversation. Line-by-line Hinglish captions let viewers follow a regret story, and the caption 'Please Study' gives it a simple moral. Engagement far above the rest of the group.",
-    "hook_pattern": "A stranger's regret in one sentence, with big plain captions",
-    "structure": [
-      "Two people sit and talk face to face",
-      "One confesses a regret, one short line at a time",
-      "Caption each line in large plain text",
-      "Emotional turn",
-      "Moral in the caption"
-    ],
-    "visual": "One fixed shot at ground level, two people talking, and plain white captions at the bottom, one line per beat.",
-    "speaking": "Slow and low, with long pauses (3.8 s total). Quiet, human, no music hype."
-  },
-  {
-    "at": "2026-11-18T03:53:02+00:00",
     "permalink": "https://www.instagram.com/reel/DfcGb42tV3r/",
     "why": "It's sponsored, long and mostly talk, so it has weak reach for the following. It does show a clear 'three at once' claim, but it only works with a very visible screen.",
     "hook_pattern": "Everyone does [two things], but you can do [three] at once",
@@ -893,5 +845,48 @@
     ],
     "visual": "Promotional graphics with price text.",
     "speaking": "No speech is available. The tone is urgent."
+  },
+  {
+    "at": "2026-11-23T13:42:19+00:00",
+    "permalink": "https://www.instagram.com/reel/DgFT6_whi4Z/",
+    "why": "It opens with a curiosity claim ('hides your deep dark secret, nobody can break in'). It then shows an ordinary-looking object that turns out to be something else, and each feature answers a doubt the viewer would have (what if someone walks off with it, what if they force it open). The close is a s",
+    "hook_pattern": "This [ordinary-looking thing] hides [something valuable] and nobody can get in",
+    "structure": [
+      "Bold claim about a hidden secret, with an on-screen title",
+      "Show it looking completely normal (clock, charger)",
+      "Reveal: 'press here and the plot thickens', it is actually a safe",
+      "List the unlock methods and the instant lock on a wrong try",
+      "Answer the objections one by one: the cable, the steel, the impact test",
+      "Quick note on power options",
+      "Verdict line, then share it with a specific friend"
+    ],
+    "visual": "Presenter in a bold-colored studio alternating with close-up product shots. Large white word-by-word captions with a highlighted word, and a short title overlay on top.",
+    "speaking": "Fast (about 3.9 words/s) with almost no pauses. Confident, playful tone, with a personal proof line ('Trust me, I tried') and a punchy verdict."
+  },
+  {
+    "at": "2026-11-23T13:42:19+00:00",
+    "permalink": "https://www.instagram.com/reel/DfjzYxouc_v/",
+    "why": "A 'big updates' headline promises several new things at once, and the caption asks viewers to share it in DMs and groups. That gives it a strong share motive and a news-alert urgency, which explains the 1.6M views.",
+    "hook_pattern": "Big [platform] updates just dropped: here's what changed for you",
+    "structure": [
+      "Urgent headline about new updates",
+      "Rapid run through the changes",
+      "Prompt to share with friends and groups"
+    ],
+    "visual": "Not visible (no video or speech). Likely screen recordings of the app with headline text.",
+    "speaking": "Not available; the caption points to a fast, energetic news tone."
+  },
+  {
+    "at": "2026-11-23T13:42:19+00:00",
+    "permalink": "https://www.instagram.com/reel/Df3EISelhJ6/",
+    "why": "It personifies the tool as a study partner that won't ghost you, which is relatable and funny. It names a deadline pressure point (finals) and makes a clear 'free' promise.",
+    "hook_pattern": "A [helper] that won't ghost you during [stressful period]? Rare.",
+    "structure": [
+      "Relatable quip about unreliable study partners",
+      "Name the tool as the fix",
+      "Say it's free"
+    ],
+    "visual": "Not visible (no video or speech). Likely app screen recordings.",
+    "speaking": "Not available; the caption is dry and witty."
   }
 ]

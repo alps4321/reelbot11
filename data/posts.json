@@ -128,17 +128,18 @@
       24,
       48,
       72,
-      120
+      120,
+      168
     ],
     "metrics": {
-      "views": 919,
-      "reach": 772,
+      "views": 920,
+      "reach": 773,
       "likes": 9,
       "comments": 1,
       "shares": 2,
       "saved": 4,
-      "total_interactions": 17,
-      "avg_watch_s": 8.7
+      "avg_watch_s": 8.7,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -186,6 +187,17 @@
         "shares": 2,
         "saved": 4,
         "total_interactions": 17,
+        "avg_watch_s": 8.7
+      },
+      {
+        "at": "2026-11-23T02:51:03+00:00",
+        "hours": 168,
+        "views": 920,
+        "reach": 773,
+        "likes": 9,
+        "comments": 1,
+        "shares": 2,
+        "saved": 4,
         "avg_watch_s": 8.7
       }
     ]
@@ -2239,16 +2251,17 @@
       6,
       24,
       48,
-      72
+      72,
+      120
     ],
     "metrics": {
-      "views": 1328,
-      "reach": 1110,
+      "views": 1331,
+      "reach": 1112,
       "likes": 7,
       "comments": 2,
       "shares": 0,
-      "saved": 12,
-      "total_interactions": 21,
+      "saved": 13,
+      "total_interactions": 22,
       "avg_watch_s": 9.2
     },
     "history": [
@@ -2296,6 +2309,18 @@
         "shares": 0,
         "saved": 12,
         "total_interactions": 21,
+        "avg_watch_s": 9.2
+      },
+      {
+        "at": "2026-11-23T06:29:25+00:00",
+        "hours": 120,
+        "views": 1331,
+        "reach": 1112,
+        "likes": 7,
+        "comments": 2,
+        "shares": 0,
+        "saved": 13,
+        "total_interactions": 22,
         "avg_watch_s": 9.2
       }
     ]
@@ -5297,12 +5322,13 @@
     "posted_at": "2026-11-21T05:30:09+00:00",
     "checked": [
       6,
-      24
+      24,
+      48
     ],
     "slot": "11:00",
     "metrics": {
-      "views": 274,
-      "reach": 235,
+      "views": 290,
+      "reach": 252,
       "likes": 7,
       "comments": 0,
       "shares": 5,
@@ -5328,6 +5354,18 @@
         "hours": 24,
         "views": 274,
         "reach": 235,
+        "likes": 7,
+        "comments": 0,
+        "shares": 5,
+        "saved": 3,
+        "total_interactions": 15,
+        "avg_watch_s": 6.3
+      },
+      {
+        "at": "2026-11-23T06:29:26+00:00",
+        "hours": 48,
+        "views": 290,
+        "reach": 252,
         "likes": 7,
         "comments": 0,
         "shares": 5,
@@ -6098,18 +6136,19 @@
     "permalink": "https://www.instagram.com/reel/DgB9aV1j1GF/",
     "posted_at": "2026-11-22T05:30:13+00:00",
     "checked": [
-      6
+      6,
+      24
     ],
     "slot": "11:00",
     "metrics": {
-      "views": 138,
-      "reach": 121,
+      "views": 140,
+      "reach": 123,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 0,
-      "avg_watch_s": 2.3
+      "avg_watch_s": 2.2
     },
     "history": [
       {
@@ -6123,6 +6162,18 @@
         "saved": 0,
         "total_interactions": 0,
         "avg_watch_s": 2.3
+      },
+      {
+        "at": "2026-11-23T06:29:27+00:00",
+        "hours": 24,
+        "views": 140,
+        "reach": 123,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 0,
+        "avg_watch_s": 2.2
       }
     ]
   },
@@ -6891,5 +6942,240 @@
     "posted_at": "2026-11-23T05:30:11+00:00",
     "checked": [],
     "slot": "11:00"
+  },
+  {
+    "id": "20261123-062959-english",
+    "created_at": "2026-11-23T06:33:41+00:00",
+    "language": "english",
+    "topic": "signature_bg_remover",
+    "hook_style": "story_open",
+    "format": "story",
+    "pace": "natural",
+    "distance": "near",
+    "answer": null,
+    "idea": "5 forms coming up this month that will ask for your signature on a white background.",
+    "plan_reason": "testing a less-tried tool; hook style: new test; format: best so far; pace: best so far; distance: best so far; idea from the niche scout",
+    "title": "Meena's signature had a grey shadow",
+    "hook": "Meena signed on paper at 10 PM.",
+    "seconds": 24.5,
+    "script": {
+      "title": "Meena's signature had a grey shadow",
+      "scenes": [
+        {
+          "say": "Meena signed on paper at 10 PM.",
+          "voice": "Meena signed on paper at 10 P M.",
+          "accent": [
+            "10 PM"
+          ],
+          "tag": "story",
+          "meter": null,
+          "scene": {
+            "type": "person",
+            "name": "Meena",
+            "role": "Form filler",
+            "quote": "One signature. Done."
+          },
+          "kind": "hook",
+          "screen": "Meena signed on paper at 10 PM.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "She clicked a photo with her phone.",
+          "voice": "She clicked a photo with her phone.",
+          "accent": [
+            "photo"
+          ],
+          "tag": "story",
+          "meter": null,
+          "scene": {
+            "type": "phone_upload",
+            "state": "error",
+            "file": "sign.jpg",
+            "size": "1.6 MB",
+            "text": "Photo of signature",
+            "title": "Uploading"
+          },
+          "kind": "point",
+          "screen": "She clicked a photo with her phone.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "The form said: white background only.",
+          "voice": "The form said... white background only.",
+          "accent": [
+            "white background"
+          ],
+          "tag": "the catch",
+          "meter": null,
+          "scene": {
+            "type": "warning",
+            "text": "White background only"
+          },
+          "kind": "point",
+          "screen": "The form said: white background only.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Her photo had a grey shadow.",
+          "voice": "Her photo had a grey shadow.",
+          "accent": [
+            "grey shadow"
+          ],
+          "tag": "the catch",
+          "meter": null,
+          "scene": {
+            "type": "before_after",
+            "before": "Grey shadow",
+            "after": "White",
+            "before_label": "HER PHOTO",
+            "after_label": "NEEDED"
+          },
+          "kind": "point",
+          "screen": "Her photo had a grey shadow.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Her cousin said, just retake it.",
+          "voice": "Her cousin said, just retake it.",
+          "accent": [
+            "retake"
+          ],
+          "tag": "turn",
+          "meter": null,
+          "scene": {
+            "type": "chat",
+            "name": "Cousin",
+            "messages": [
+              {
+                "from": "them",
+                "text": "Just retake it"
+              },
+              {
+                "from": "me",
+                "text": "Tried 6 times"
+              }
+            ]
+          },
+          "kind": "point",
+          "screen": "Her cousin said, just retake it.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Shadows come from room light, not from your pen.",
+          "voice": "Shadows come from room light... not from your pen.",
+          "accent": [
+            "room light"
+          ],
+          "tag": "lesson",
+          "meter": null,
+          "scene": {
+            "type": "bulb",
+            "text": "Shadow = light, not pen"
+          },
+          "kind": "point",
+          "screen": "Shadows come from room light, not from your pen.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "So the fix is not a better photo.",
+          "voice": "So the fix is not a better photo.",
+          "accent": [
+            "not a better photo"
+          ],
+          "tag": "lesson",
+          "meter": null,
+          "scene": {
+            "type": "versus",
+            "left": "Retake again",
+            "right": "Clean the photo",
+            "left_sub": "Same shadow",
+            "right_sub": "White background",
+            "winner": "right"
+          },
+          "kind": "point",
+          "screen": "So the fix is not a better photo.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Meena cleaned the same photo in 1 minute.",
+          "voice": "Meena cleaned the same photo in 1 minute.",
+          "accent": [
+            "1 minute"
+          ],
+          "tag": "fix",
+          "meter": null,
+          "scene": {
+            "type": "phone_upload",
+            "state": "success",
+            "file": "sign.png",
+            "size": "Clean",
+            "text": "White background",
+            "title": "Accepted"
+          },
+          "kind": "point",
+          "screen": "Meena cleaned the same photo in 1 minute.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Use Signature Background Remover on ilovedocuments.ai. It's free.",
+          "voice": "Use Signature Background Remover on I love documents dot A I. It's free.",
+          "accent": [
+            "ilovedocuments.ai"
+          ],
+          "tag": "the tool",
+          "meter": null,
+          "scene": {
+            "type": "browser",
+            "url": "ilovedocuments.ai",
+            "button": "Signature Background Remover"
+          },
+          "kind": "point",
+          "screen": "Use Signature Background Remover on ilovedocuments.ai. It's ",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Save this for your next form.",
+          "voice": "Save this for your next form.",
+          "accent": [
+            "Save"
+          ],
+          "tag": "save",
+          "meter": null,
+          "scene": {
+            "type": "cta",
+            "keyword": "SAVE",
+            "line": "// for your next form"
+          },
+          "kind": "cta",
+          "screen": "Save this for your next form.",
+          "emphasis": [],
+          "visual": null
+        }
+      ],
+      "caption": "Meena tried 6 times to retake her signature photo. The shadow stayed because it came from the room light. Cleaning the photo worked in 1 minute. Has a shadow ever ruined your upload? Tell us below. ilovedocuments.ai",
+      "hashtags": [
+        "#forms",
+        "#signature",
+        "#onlineform",
+        "#examform",
+        "#india"
+      ]
+    },
+    "caption": "Meena tried 6 times to retake her signature photo. The shadow stayed because it came from the room light. Cleaning the photo worked in 1 minute. Has a shadow ever ruined your upload? Tell us below. ilovedocuments.ai\n\n#forms #signature #onlineform #examform #india",
+    "video": "20261123-062959-english.mp4",
+    "media_id": "18655057930006158",
+    "permalink": "https://www.instagram.com/reel/DgEvxw4gtdv/",
+    "posted_at": "2026-11-23T07:30:11+00:00",
+    "checked": [],
+    "slot": "13:00"
   }
 ]

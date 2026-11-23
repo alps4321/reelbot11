@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-23T18:14:43+00:00
+Updated 2026-11-23T23:56:42+00:00
 
-Reels made: 34. Posted: 27. Measured: 25.
+Reels made: 34. Posted: 27. Measured: 26.
 
 ## english: results by topic
 
@@ -158,14 +158,14 @@ Reels made: 34. Posted: 27. Measured: 25.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-23 | hinglish | unlock_pdf | secret_answer | PAN card PDF ka password kya hai? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgFYoYpiVuN/) |
-| 2026-11-23 | english | signature_bg_remover | story | Meena signed on paper at 10 PM. | 117 | 6.4 | 1 | 0 | 7 | 0 |  | [open](https://www.instagram.com/reel/DgEvxw4gtdv/) |
-| 2026-11-23 | hinglish | unlock_aadhaar | secret_answer | Aadhaar PDF ka password kya hota hai? | 179 | 4.4 | 1 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgEiX6KAARc/) |
-| 2026-11-22 | hinglish | id_card_print | secret_answer | Kya Aadhaar ka print out original jitna valid hai? | 431 | 7.3 | 5 | 0 | 2 | 4 | 366 | [open](https://www.instagram.com/reel/DgC130IEonh/) |
+| 2026-11-23 | hinglish | unlock_pdf | secret_answer | PAN card PDF ka password kya hai? | 154 | 4.9 | 2 | 0 | 0 | 2 |  | [open](https://www.instagram.com/reel/DgFYoYpiVuN/) |
+| 2026-11-23 | english | signature_bg_remover | story | Meena signed on paper at 10 PM. | 121 | 6.6 | 1 | 0 | 7 | 0 |  | [open](https://www.instagram.com/reel/DgEvxw4gtdv/) |
+| 2026-11-23 | hinglish | unlock_aadhaar | secret_answer | Aadhaar PDF ka password kya hota hai? | 181 | 4.4 | 1 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgEiX6KAARc/) |
+| 2026-11-22 | hinglish | id_card_print | secret_answer | Kya Aadhaar ka print out original jitna valid hai? | 461 | 7.1 | 5 | 0 | 2 | 4 | 366 | [open](https://www.instagram.com/reel/DgC130IEonh/) |
 | 2026-11-22 | english | resize_signature_kb | story | Ravi's signature was 2 MB. The form wanted 20 KB. | 129 | 5.8 | 1 | 0 | 0 | 0 | 92 | [open](https://www.instagram.com/reel/DgCLaSuk_Tm/) |
 | 2026-11-22 | hinglish | bank_statement_excel | secret_answer | HDFC bank statement PDF ka password kya hai? | 140 | 2.2 | 0 | 0 | 0 | 0 | 81 | [open](https://www.instagram.com/reel/DgB9aV1j1GF/) |
 | 2026-11-21 | hinglish | id_card_print | secret_answer | Masked Aadhaar kya hota hai? | 203 | 4.6 | 2 | 0 | 0 | 0 | 144 | [open](https://www.instagram.com/reel/DgAPbEXpaEb/) |
-| 2026-11-21 | english | bank_statement_excel | story | Priya had 400 rows to type by tonight. | 112 | 4.8 | 3 | 0 | 0 | 0 | 80 | [open](https://www.instagram.com/reel/Df_moeXFFfy/) |
+| 2026-11-21 | english | bank_statement_excel | story | Priya had 400 rows to type by tonight. | 113 | 4.8 | 3 | 0 | 0 | 0 | 80 | [open](https://www.instagram.com/reel/Df_moeXFFfy/) |
 | 2026-11-21 | hinglish | unlock_pdf | secret_answer | e-PAN PDF ka password kya hota hai? | 290 | 6.3 | 7 | 0 | 5 | 3 | 263 | [open](https://www.instagram.com/reel/Df_Y1KHFdvj/) |
 | 2026-11-20 | hinglish | pdf_to_excel | secret_answer | PDF ka table Excel mein kaise layein? | 123 | 3.4 | 3 | 0 | 1 | 0 | 85 | [open](https://www.instagram.com/reel/Df9qx1VEh4p/) |
 | 2026-11-20 | hinglish | image_to_pdf | secret_answer | Photos ko ek PDF kaise banayein? | 116 | 3.5 | 0 | 0 | 0 | 1 | 78 | [open](https://www.instagram.com/reel/Df9ImnMjua7/) |

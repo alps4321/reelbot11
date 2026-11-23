@@ -45,7 +45,7 @@
       "shares": 1,
       "saved": 0,
       "avg_watch_s": 1.7,
-      "views_last_hour": 1
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -221,17 +221,18 @@
       24,
       48,
       72,
-      120
+      120,
+      168
     ],
     "metrics": {
-      "views": 351,
-      "reach": 298,
+      "views": 352,
+      "reach": 299,
       "likes": 6,
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "total_interactions": 8,
-      "avg_watch_s": 9.4
+      "avg_watch_s": 9.3,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -280,6 +281,17 @@
         "saved": 1,
         "total_interactions": 8,
         "avg_watch_s": 9.4
+      },
+      {
+        "at": "2026-11-23T02:51:02+00:00",
+        "hours": 168,
+        "views": 352,
+        "reach": 299,
+        "likes": 6,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
+        "avg_watch_s": 9.3
       }
     ]
   },
@@ -305,14 +317,14 @@
       120
     ],
     "metrics": {
-      "views": 243,
-      "reach": 200,
+      "views": 245,
+      "reach": 201,
       "likes": 2,
       "comments": 0,
       "shares": 7,
       "saved": 4,
-      "total_interactions": 13,
-      "avg_watch_s": 6.3
+      "avg_watch_s": 6.3,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -387,14 +399,14 @@
       120
     ],
     "metrics": {
-      "views": 1966,
-      "reach": 1693,
+      "views": 1970,
+      "reach": 1695,
       "likes": 21,
       "comments": 4,
       "shares": 18,
       "saved": 24,
-      "total_interactions": 67,
-      "avg_watch_s": 8.2
+      "avg_watch_s": 8.2,
+      "views_last_hour": 1
     },
     "history": [
       {
@@ -1463,8 +1475,8 @@
       "comments": 0,
       "shares": 18,
       "saved": 0,
-      "total_interactions": 21,
-      "avg_watch_s": 8.1
+      "avg_watch_s": 8.1,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -1816,8 +1828,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "total_interactions": 0,
-      "avg_watch_s": 7.0
+      "avg_watch_s": 7.0,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -1909,8 +1921,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 2,
-      "total_interactions": 3,
-      "avg_watch_s": 4.1
+      "avg_watch_s": 4.1,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -2261,8 +2273,8 @@
       "comments": 2,
       "shares": 0,
       "saved": 13,
-      "total_interactions": 22,
-      "avg_watch_s": 9.2
+      "avg_watch_s": 9.2,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -2559,17 +2571,18 @@
       6,
       24,
       48,
-      72
+      72,
+      120
     ],
     "metrics": {
-      "views": 446,
-      "reach": 396,
+      "views": 449,
+      "reach": 397,
       "likes": 3,
       "comments": 0,
       "shares": 0,
-      "saved": 1,
-      "total_interactions": 4,
-      "avg_watch_s": 6.2
+      "saved": 2,
+      "avg_watch_s": 6.2,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -2616,6 +2629,17 @@
         "shares": 0,
         "saved": 1,
         "total_interactions": 4,
+        "avg_watch_s": 6.2
+      },
+      {
+        "at": "2026-11-23T08:00:51+00:00",
+        "hours": 120,
+        "views": 449,
+        "reach": 397,
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "saved": 2,
         "avg_watch_s": 6.2
       }
     ]
@@ -2899,14 +2923,14 @@
       72
     ],
     "metrics": {
-      "views": 1322,
-      "reach": 1056,
+      "views": 1323,
+      "reach": 1057,
       "likes": 16,
       "comments": 1,
       "shares": 0,
-      "saved": 3,
-      "total_interactions": 20,
-      "avg_watch_s": 8.8
+      "saved": 4,
+      "avg_watch_s": 8.8,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -3852,8 +3876,8 @@
       "comments": 0,
       "shares": 1,
       "saved": 2,
-      "total_interactions": 11,
-      "avg_watch_s": 6.8
+      "avg_watch_s": 6.8,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -4129,8 +4153,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "total_interactions": 4,
-      "avg_watch_s": 8.8
+      "avg_watch_s": 8.8,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -4425,8 +4449,8 @@
       "comments": 1,
       "shares": 0,
       "saved": 0,
-      "total_interactions": 3,
-      "avg_watch_s": 8.2
+      "avg_watch_s": 8.2,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -4699,8 +4723,8 @@
       "comments": 2,
       "shares": 0,
       "saved": 2,
-      "total_interactions": 7,
-      "avg_watch_s": 7.7
+      "avg_watch_s": 7.7,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -4983,7 +5007,8 @@
     "checked": [
       6,
       24,
-      48
+      48,
+      72
     ],
     "slot": null,
     "metrics": {
@@ -4993,8 +5018,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "total_interactions": 1,
-      "avg_watch_s": 3.5
+      "avg_watch_s": 3.5,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -5032,6 +5057,17 @@
         "saved": 1,
         "total_interactions": 1,
         "avg_watch_s": 3.5
+      },
+      {
+        "at": "2026-11-23T08:00:46+00:00",
+        "hours": 72,
+        "views": 116,
+        "reach": 105,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
+        "avg_watch_s": 3.5
       }
     ]
   },
@@ -5061,8 +5097,8 @@
       "comments": 0,
       "shares": 1,
       "saved": 0,
-      "total_interactions": 4,
-      "avg_watch_s": 3.4
+      "avg_watch_s": 3.4,
+      "views_last_hour": 0
     },
     "slot": "19:00",
     "pace": "natural",
@@ -5333,8 +5369,8 @@
       "comments": 0,
       "shares": 5,
       "saved": 3,
-      "total_interactions": 15,
-      "avg_watch_s": 6.3
+      "avg_watch_s": 6.3,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -5620,7 +5656,8 @@
     "posted_at": "2026-11-21T07:30:10+00:00",
     "checked": [
       6,
-      24
+      24,
+      48
     ],
     "slot": "13:00",
     "metrics": {
@@ -5630,8 +5667,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "total_interactions": 3,
-      "avg_watch_s": 4.8
+      "avg_watch_s": 4.8,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -5656,6 +5693,17 @@
         "shares": 0,
         "saved": 0,
         "total_interactions": 3,
+        "avg_watch_s": 4.8
+      },
+      {
+        "at": "2026-11-23T08:00:42+00:00",
+        "hours": 48,
+        "views": 112,
+        "reach": 83,
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
         "avg_watch_s": 4.8
       }
     ]
@@ -5877,14 +5925,14 @@
     ],
     "slot": "19:00",
     "metrics": {
-      "views": 199,
-      "reach": 167,
+      "views": 203,
+      "reach": 170,
       "likes": 2,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "total_interactions": 2,
-      "avg_watch_s": 4.6
+      "avg_watch_s": 4.6,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -6147,8 +6195,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "total_interactions": 0,
-      "avg_watch_s": 2.2
+      "avg_watch_s": 2.2,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -6427,18 +6475,19 @@
     "permalink": "https://www.instagram.com/reel/DgCLaSuk_Tm/",
     "posted_at": "2026-11-22T07:30:11+00:00",
     "checked": [
-      6
+      6,
+      24
     ],
     "slot": "13:00",
     "metrics": {
-      "views": 128,
-      "reach": 104,
+      "views": 129,
+      "reach": 105,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "total_interactions": 1,
-      "avg_watch_s": 5.8
+      "avg_watch_s": 5.8,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -6451,6 +6500,17 @@
         "shares": 0,
         "saved": 0,
         "total_interactions": 1,
+        "avg_watch_s": 5.8
+      },
+      {
+        "at": "2026-11-23T08:00:40+00:00",
+        "hours": 24,
+        "views": 129,
+        "reach": 105,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
         "avg_watch_s": 5.8
       }
     ]
@@ -6700,14 +6760,14 @@
     ],
     "slot": "19:00",
     "metrics": {
-      "views": 227,
-      "reach": 182,
-      "likes": 4,
+      "views": 401,
+      "reach": 329,
+      "likes": 5,
       "comments": 0,
-      "shares": 0,
-      "saved": 1,
-      "total_interactions": 5,
-      "avg_watch_s": 7.4
+      "shares": 2,
+      "saved": 4,
+      "avg_watch_s": 7.2,
+      "views_last_hour": 43
     },
     "history": [
       {
@@ -6940,8 +7000,33 @@
     "media_id": "18457786927127911",
     "permalink": "https://www.instagram.com/reel/DgEiX6KAARc/",
     "posted_at": "2026-11-23T05:30:11+00:00",
-    "checked": [],
-    "slot": "11:00"
+    "checked": [
+      6
+    ],
+    "slot": "11:00",
+    "metrics": {
+      "views": 179,
+      "reach": 159,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "avg_watch_s": 4.4,
+      "views_last_hour": 9
+    },
+    "history": [
+      {
+        "at": "2026-11-23T11:25:41+00:00",
+        "hours": 6,
+        "views": 179,
+        "reach": 159,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "avg_watch_s": 4.4
+      }
+    ]
   },
   {
     "id": "20261123-062959-english",
@@ -7176,6 +7261,259 @@
     "permalink": "https://www.instagram.com/reel/DgEvxw4gtdv/",
     "posted_at": "2026-11-23T07:30:11+00:00",
     "checked": [],
-    "slot": "13:00"
+    "slot": "13:00",
+    "metrics": {
+      "views": 116,
+      "reach": 94,
+      "likes": 1,
+      "comments": 0,
+      "shares": 7,
+      "saved": 0,
+      "avg_watch_s": 6.4,
+      "views_last_hour": 91
+    }
+  },
+  {
+    "id": "20261123-122314-hinglish",
+    "created_at": "2026-11-23T12:30:41+00:00",
+    "language": "hinglish",
+    "topic": "unlock_pdf",
+    "hook_style": "problem",
+    "format": "secret_answer",
+    "pace": "brisk",
+    "distance": "near",
+    "answer": "epan_password",
+    "idea": "",
+    "plan_reason": "testing a less-tried tool; proven formula slot; hook style: best so far; format: new test; pace: explore; distance: best so far",
+    "title": "PAN card PDF ka password kya hai?",
+    "hook": "PAN card PDF ka password kya hai?",
+    "seconds": 25.5,
+    "script": {
+      "title": "PAN card PDF ka password kya hai?",
+      "scenes": [
+        {
+          "say": "PAN card PDF ka password kya hai?",
+          "voice": "पैन कार्ड पी डी एफ का पासवर्ड क्या है?",
+          "accent": [
+            "password"
+          ],
+          "tag": "e-pan",
+          "meter": null,
+          "scene": {
+            "type": "search",
+            "query": "e-PAN PDF ka password kya hai",
+            "results": [
+              "PDF open nahi ho raha",
+              "Enter password"
+            ]
+          },
+          "kind": "hook",
+          "screen": "PAN card PDF ka password kya hai?",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Download kiya, aur file khulti hi nahi.",
+          "voice": "डाउनलोड किया, और फाइल खुलती ही नहीं।",
+          "accent": [
+            "khulti hi nahi"
+          ],
+          "tag": "problem",
+          "meter": null,
+          "scene": {
+            "type": "phone_upload",
+            "state": "error",
+            "file": "e-PAN.pdf",
+            "size": "Locked",
+            "text": "Password daalo",
+            "title": "File locked"
+          },
+          "kind": "point",
+          "screen": "Download kiya, aur file khulti hi nahi.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Log apna naam ya PAN number try karte hain.",
+          "voice": "लोग अपना नाम या पैन नंबर ट्राई करते हैं।",
+          "accent": [
+            "naam",
+            "PAN number"
+          ],
+          "tag": "galat",
+          "meter": null,
+          "scene": {
+            "type": "chat",
+            "name": "Aman",
+            "messages": [
+              {
+                "from": "me",
+                "text": "Naam daala, nahi chala"
+              },
+              {
+                "from": "me",
+                "text": "PAN number bhi nahi"
+              },
+              {
+                "from": "them",
+                "text": "Wrong password"
+              }
+            ]
+          },
+          "kind": "point",
+          "screen": "Log apna naam ya PAN number try karte hain.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Sahi answer ek line mein, abhi batata hoon.",
+          "voice": "सही आंसर एक लाइन में... अभी बताता हूं।",
+          "accent": [
+            "Sahi answer"
+          ],
+          "tag": "answer",
+          "meter": null,
+          "scene": {
+            "type": "warning",
+            "text": "Naam ya PAN nahi"
+          },
+          "kind": "point",
+          "screen": "Sahi answer ek line mein, abhi batata hoon.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Password hai aapki date of birth, DDMMYYYY.",
+          "voice": "पासवर्ड है आपकी डेट ऑफ बर्थ, डी डी एम एम वाई वाई वाई वाई।",
+          "accent": [
+            "date of birth",
+            "DDMMYYYY"
+          ],
+          "tag": "password",
+          "meter": null,
+          "scene": {
+            "type": "big_text",
+            "text": "DDMMYYYY",
+            "sub": "Date of birth, no spaces"
+          },
+          "kind": "point",
+          "screen": "Password hai aapki date of birth, DDMMYYYY.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Jaise 15 August 1990 ho, to 15081990.",
+          "voice": "जैसे 15 अगस्त 1990 हो, तो 15081990।",
+          "accent": [
+            "15081990"
+          ],
+          "tag": "example",
+          "meter": null,
+          "scene": {
+            "type": "id_card",
+            "title": "e-PAN password",
+            "name": "Born 15 August 1990",
+            "sub": "15081990"
+          },
+          "kind": "point",
+          "screen": "Jaise 15 August 1990 ho, to 15081990.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Bina space, bas 8 digits.",
+          "voice": "बिना स्पेस, बस 8 डिजिट्स।",
+          "accent": [
+            "8 digits"
+          ],
+          "tag": "yaad rakho",
+          "meter": {
+            "label": "DIGITS",
+            "value": "8"
+          },
+          "scene": {
+            "type": "checklist",
+            "title": "Password rules",
+            "items": [
+              "Date of birth",
+              "DDMMYYYY",
+              "No spaces"
+            ]
+          },
+          "kind": "point",
+          "screen": "Bina space, bas 8 digits.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Khul gayi, par har baar password nahi chahiye?",
+          "voice": "खुल गई, पर हर बार पासवर्ड नहीं चाहिए?",
+          "accent": [
+            "har baar"
+          ],
+          "tag": "next",
+          "meter": null,
+          "scene": {
+            "type": "bulb",
+            "text": "Password hatao, ek baar"
+          },
+          "kind": "point",
+          "screen": "Khul gayi, par har baar password nahi chahiye?",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "ilovedocuments.ai ka Unlock PDF, free aur no sign up.",
+          "voice": "आई लव डॉक्यूमेंट्स डॉट ए आई का अनलॉक पी डी एफ, फ्री और नो साइन अप।",
+          "accent": [
+            "Unlock PDF"
+          ],
+          "tag": "tool",
+          "meter": null,
+          "scene": {
+            "type": "browser",
+            "url": "ilovedocuments.ai",
+            "button": "Unlock PDF"
+          },
+          "kind": "point",
+          "screen": "ilovedocuments.ai ka Unlock PDF, free aur no sign up.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Save kar lo, kaam aayega.",
+          "voice": "सेव कर लो, काम आएगा।",
+          "accent": [
+            "Save"
+          ],
+          "tag": "save",
+          "meter": null,
+          "scene": {
+            "type": "cta",
+            "keyword": "SAVE",
+            "line": "// e-PAN password yaad rakho"
+          },
+          "kind": "cta",
+          "screen": "Save kar lo, kaam aayega.",
+          "emphasis": [],
+          "visual": null
+        }
+      ],
+      "caption": "e-PAN download kiya aur file lock mili? Password aapki date of birth hai, DDMMYYYY format mein. Jaise 15081990.\nAapko aur kaunsa PDF password confusing lagta hai? Comment mein batao.\nilovedocuments.ai",
+      "hashtags": [
+        "#epan",
+        "#pancard",
+        "#pdfpassword",
+        "#indiaforms",
+        "#savethis"
+      ]
+    },
+    "caption": "e-PAN download kiya aur file lock mili? Password aapki date of birth hai, DDMMYYYY format mein. Jaise 15081990.\nAapko aur kaunsa PDF password confusing lagta hai? Comment mein batao.\nilovedocuments.ai\n\n#epan #pancard #pdfpassword #indiaforms #savethis",
+    "video": "20261123-122314-hinglish.mp4",
+    "media_id": "17897001612434557",
+    "permalink": "https://www.instagram.com/reel/DgFYoYpiVuN/",
+    "posted_at": "2026-11-23T13:30:10+00:00",
+    "checked": [],
+    "slot": "19:00"
   }
 ]

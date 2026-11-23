@@ -1,34 +1,212 @@
 {
   "_about": "Hand-written rows for the ReelBot dashboard: what the bot may do, decisions waiting on the owner, and Claude's plan. Edited by Claude when these change.",
   "permissions": [
-    {"id": "post", "area": "Posting", "what": "Make and post 3 reels a day (11:00, 13:00, 19:00 IST) straight to Instagram", "mode": "On its own", "detail": "You approved fully automatic posting. A run that starts more than 2 hours late posts nothing."},
-    {"id": "choose", "area": "Content", "what": "Pick the tool, hook, format and pace of each reel from past results", "mode": "On its own", "detail": "No format or hook style twice in one day."},
-    {"id": "answers", "area": "Content", "what": "Use only checked answers in the 11:00 and 19:00 reels", "mode": "On its own", "detail": "Each answer is checked against an official source before it goes in the answer bank."},
-    {"id": "new_answers", "area": "Content", "what": "Add a new checked answer to the bank", "mode": "Claude checks first", "detail": "Claude verifies the official source; the bot never invents an answer."},
-    {"id": "stats", "area": "Analytics", "what": "Read every reel's numbers from Instagram", "mode": "On its own", "detail": "Under 2 days old: every check. 2-7 days: hourly. 7-30 days: daily. Then it stops."},
-    {"id": "learn", "area": "Analytics", "what": "Learn from reels once they have 24 hours of data", "mode": "You decide which", "detail": "Switch any reel off on this page and it stops counting towards what the bot learns."},
-    {"id": "scout", "area": "Competitors", "what": "Study competitor reels daily and save their formats, hooks and ideas", "mode": "On its own", "detail": "What it learns becomes ideas and formats to test; it never copies a reel."},
-    {"id": "playbook", "area": "Analytics", "what": "Rewrite its keep / avoid rules from results", "mode": "On its own", "detail": "Updated when a new reel gets measured."},
-    {"id": "telegram", "area": "Updates", "what": "Send you a Telegram summary every 3 hours, and an alert if a run fails", "mode": "On its own", "detail": "Quiet from 11 pm to 8 am."},
-    {"id": "style", "area": "Strategy", "what": "Change the visual style, a slot's language, posting times or reels per day", "mode": "Asks you first", "detail": "See the decisions waiting below."},
-    {"id": "delete", "area": "Safety", "what": "Delete or edit a reel that is already posted", "mode": "Never", "detail": "Only you do this."},
-    {"id": "dm", "area": "Safety", "what": "Send DMs, or promise 'comment X and I'll DM the link'", "mode": "Never", "detail": "The account can't send DMs, so reels never promise one."},
-    {"id": "keys", "area": "Safety", "what": "Show or move your keys and tokens", "mode": "Never", "detail": "They stay in GitHub secrets and are hidden in every log."}
+    {
+      "id": "post",
+      "area": "Posting",
+      "what": "Make and post 3 reels a day (11:00, 13:00, 19:00 IST) straight to Instagram",
+      "mode": "On its own",
+      "detail": "You approved fully automatic posting. A run that starts more than 2 hours late posts nothing."
+    },
+    {
+      "id": "choose",
+      "area": "Content",
+      "what": "Pick the tool, hook, format and pace of each reel from past results",
+      "mode": "On its own",
+      "detail": "No format or hook style twice in one day."
+    },
+    {
+      "id": "answers",
+      "area": "Content",
+      "what": "Use only checked answers in the 11:00 and 19:00 reels",
+      "mode": "On its own",
+      "detail": "Each answer is checked against an official source before it goes in the answer bank."
+    },
+    {
+      "id": "new_answers",
+      "area": "Content",
+      "what": "Add a new checked answer to the bank",
+      "mode": "Claude checks first",
+      "detail": "Claude verifies the official source; the bot never invents an answer."
+    },
+    {
+      "id": "stats",
+      "area": "Analytics",
+      "what": "Read every reel's numbers from Instagram",
+      "mode": "On its own",
+      "detail": "Under 2 days old: every check. 2-7 days: hourly. 7-30 days: daily. Then it stops."
+    },
+    {
+      "id": "learn",
+      "area": "Analytics",
+      "what": "Learn from reels once they have 24 hours of data",
+      "mode": "You decide which",
+      "detail": "Switch any reel off on this page and it stops counting towards what the bot learns."
+    },
+    {
+      "id": "scout",
+      "area": "Competitors",
+      "what": "Study competitor reels daily and save their formats, hooks and ideas",
+      "mode": "On its own",
+      "detail": "What it learns becomes ideas and formats to test; it never copies a reel."
+    },
+    {
+      "id": "playbook",
+      "area": "Analytics",
+      "what": "Rewrite its keep / avoid rules from results",
+      "mode": "On its own",
+      "detail": "Updated when a new reel gets measured."
+    },
+    {
+      "id": "telegram",
+      "area": "Updates",
+      "what": "Send you a Telegram summary every 3 hours, and an alert if a run fails",
+      "mode": "On its own",
+      "detail": "Quiet from 11 pm to 8 am."
+    },
+    {
+      "id": "style",
+      "area": "Strategy",
+      "what": "Change the visual style, a slot's language, posting times or reels per day",
+      "mode": "Asks you first",
+      "detail": "See the decisions waiting below."
+    },
+    {
+      "id": "delete",
+      "area": "Safety",
+      "what": "Delete or edit a reel that is already posted",
+      "mode": "Never",
+      "detail": "Only you do this."
+    },
+    {
+      "id": "dm",
+      "area": "Safety",
+      "what": "Send DMs, or promise 'comment X and I'll DM the link'",
+      "mode": "Never",
+      "detail": "The account can't send DMs, so reels never promise one."
+    },
+    {
+      "id": "keys",
+      "area": "Safety",
+      "what": "Show or move your keys and tokens",
+      "mode": "Never",
+      "detail": "They stay in GitHub secrets and are hidden in every log."
+    }
   ],
   "decisions": [
-    {"id": "three_d_test", "order": 1, "question": "Make the 7 pm reel in the 3D story style, still built on a checked answer?", "why": "Both 3D story reels passed 1,300 views. No flat explainer has passed 360.", "recommend": "Yes", "effect": "Only the 19:00 reel changes; 11:00 and 13:00 stay as they are, so the two styles can be compared."},
-    {"id": "one_pm_hinglish", "order": 2, "question": "Switch the 1 pm reel from English to Hinglish?", "why": "The 1 pm English reel came last every day (112-143 views). Every top reel is Hinglish.", "recommend": "Yes", "effect": "All 3 daily reels become Hinglish."},
-    {"id": "answer_by_results", "order": 3, "question": "Pick checked answers by results instead of strict rotation?", "why": "Strict rotation brings back the HDFC answer next (140 views, 2.2 s watched) while the Aadhaar answers lead.", "recommend": "Yes", "effect": "Answers with more views, saves and watch time come up more often; weak ones rest."},
-    {"id": "external_timer", "order": 4, "question": "Set up a free outside timer so every job runs on time?", "why": "GitHub's own timer started the stats read 5 times in the last day instead of 288. Reels only go out on time because Claude's checks start them.", "recommend": "Yes", "effect": "Needs you for 5 minutes: a free cron-job.org account and a GitHub token with Actions access."},
-    {"id": "voice_licence", "order": 5, "question": "Keep the current OmniVoice voice, or move to a voice licensed for business use?", "why": "OmniVoice's licence is non-commercial (CC-BY-NC); the page promotes a business.", "recommend": "Switch", "effect": "Claude would test a commercial-safe voice and show you samples before anything changes."}
+    {
+      "id": "niche_watchlist",
+      "order": 0,
+      "question": "Replace the scout's watch list with creators in our own niche?",
+      "why": "The scout watches giant brands (Physics Wallah, Technical Guruji). None of the 25 most-viewed reels it has seen is about documents, PDFs or forms, and Instagram won't let the app search hashtags without Meta's review.",
+      "recommend": "Yes",
+      "effect": "Send Claude 10-20 Instagram handles of document / form / PDF-tips creators you see going viral (Claude can suggest some too). The scout then studies their best reels daily."
+    },
+    {
+      "id": "scout_in_main",
+      "order": 0.5,
+      "question": "Use the scout's best ideas in the Hinglish reels, not only the 1 pm English one?",
+      "why": "Our two best bot reels (1,281 and 1,004 views in 24h, 18 Nov) were scout ideas made as Hinglish 3D stories. Since 19 Nov scout ideas only go into the 1 pm English reel (112-129 views).",
+      "recommend": "Yes",
+      "effect": "The 7 pm reel alternates: a checked answer one day, the scout's top niche idea the next."
+    },
+    {
+      "id": "three_d_test",
+      "order": 1,
+      "question": "Make the 7 pm reel in the 3D story style, still built on a checked answer?",
+      "why": "Both 3D story reels passed 1,300 views. No flat explainer has passed 360.",
+      "recommend": "Yes",
+      "effect": "Only the 19:00 reel changes; 11:00 and 13:00 stay as they are, so the two styles can be compared."
+    },
+    {
+      "id": "one_pm_hinglish",
+      "order": 2,
+      "question": "Switch the 1 pm reel from English to Hinglish?",
+      "why": "The 1 pm English reel came last every day (112-143 views). Every top reel is Hinglish.",
+      "recommend": "Yes",
+      "effect": "All 3 daily reels become Hinglish."
+    },
+    {
+      "id": "answer_by_results",
+      "order": 3,
+      "question": "Pick checked answers by results instead of strict rotation?",
+      "why": "Strict rotation brings back the HDFC answer next (140 views, 2.2 s watched) while the Aadhaar answers lead.",
+      "recommend": "Yes",
+      "effect": "Answers with more views, saves and watch time come up more often; weak ones rest."
+    },
+    {
+      "id": "external_timer",
+      "order": 4,
+      "question": "Set up a free outside timer so every job runs on time?",
+      "why": "GitHub's own timer started the stats read 5 times in the last day instead of 288. Reels only go out on time because Claude's checks start them.",
+      "recommend": "Yes",
+      "effect": "Needs you for 5 minutes: a free cron-job.org account and a GitHub token with Actions access."
+    },
+    {
+      "id": "voice_licence",
+      "order": 5,
+      "question": "Keep the current OmniVoice voice, or move to a voice licensed for business use?",
+      "why": "OmniVoice's licence is non-commercial (CC-BY-NC); the page promotes a business.",
+      "recommend": "Switch",
+      "effect": "Claude would test a commercial-safe voice and show you samples before anything changes."
+    }
   ],
   "strategy": [
-    {"id": "s1", "order": 1, "move": "Keep the 11 am and 7 pm reels on real document questions with checked answers", "why": "Aadhaar and PAN questions with an answer get the shares and saves; reels without a real answer got about 3.5 s watched.", "status": "Running"},
-    {"id": "s2", "order": 2, "move": "Test the 3D story look at 7 pm against the flat explainer", "why": "3D story reels: 1,004-1,281 views in 24h. Flat explainers: 111-358.", "status": "Waiting for you"},
-    {"id": "s3", "order": 3, "move": "Move the 1 pm reel to Hinglish", "why": "English 1 pm reels came last every day.", "status": "Waiting for you"},
-    {"id": "s4", "order": 4, "move": "Favour the answers that perform, rest the weak ones", "why": "e-Aadhaar validity (358 views, 7.4 s) and Aadhaar password lead; HDFC trails.", "status": "Waiting for you"},
-    {"id": "s5", "order": 5, "move": "Grow the answer bank from 5 to about 15 checked answers", "why": "5 answers repeat within 2-3 days. Candidates: DigiLocker document validity, exam-form photo and signature size limits, PAN-Aadhaar link check. Each checked against an official source first.", "status": "Proposed"},
-    {"id": "s6", "order": 6, "move": "Try the competitors' newest formats in the 1 pm test slot", "why": "This week the scout picked up 'bad news, share this' alerts and 'one claim, three proofs' from the best niche reels it studied.", "status": "Running"},
-    {"id": "s7", "order": 7, "move": "Fix the timer so stats are read every 5 minutes", "why": "Right now rising reels are spotted hours late.", "status": "Waiting for you"}
+    {
+      "id": "s0",
+      "order": 0,
+      "move": "Point the scout at real niche competitors",
+      "why": "It has studied 78 reels, but from accounts whose views come from celebrity audiences, not from document tips we can learn from.",
+      "status": "Waiting for you"
+    },
+    {
+      "id": "s1",
+      "order": 1,
+      "move": "Keep the 11 am and 7 pm reels on real document questions with checked answers",
+      "why": "Aadhaar and PAN questions with an answer get the shares and saves; reels without a real answer got about 3.5 s watched.",
+      "status": "Running"
+    },
+    {
+      "id": "s2",
+      "order": 2,
+      "move": "Test the 3D story look at 7 pm against the flat explainer",
+      "why": "3D story reels: 1,004-1,281 views in 24h. Flat explainers: 111-358.",
+      "status": "Waiting for you"
+    },
+    {
+      "id": "s3",
+      "order": 3,
+      "move": "Move the 1 pm reel to Hinglish",
+      "why": "English 1 pm reels came last every day.",
+      "status": "Waiting for you"
+    },
+    {
+      "id": "s4",
+      "order": 4,
+      "move": "Favour the answers that perform, rest the weak ones",
+      "why": "e-Aadhaar validity (358 views, 7.4 s) and Aadhaar password lead; HDFC trails.",
+      "status": "Waiting for you"
+    },
+    {
+      "id": "s5",
+      "order": 5,
+      "move": "Grow the answer bank from 5 to about 15 checked answers",
+      "why": "5 answers repeat within 2-3 days. Candidates: DigiLocker document validity, exam-form photo and signature size limits, PAN-Aadhaar link check. Each checked against an official source first.",
+      "status": "Proposed"
+    },
+    {
+      "id": "s6",
+      "order": 6,
+      "move": "Try the competitors' newest formats in the 1 pm test slot",
+      "why": "This week the scout picked up 'bad news, share this' alerts and 'one claim, three proofs' from the best niche reels it studied.",
+      "status": "Running"
+    },
+    {
+      "id": "s7",
+      "order": 7,
+      "move": "Fix the timer so stats are read every 5 minutes",
+      "why": "Right now rising reels are spotted hours late.",
+      "status": "Waiting for you"
+    }
   ]
 }

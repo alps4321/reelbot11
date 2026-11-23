@@ -99,6 +99,8 @@ def reels(stats_dir, now, excluded):
             "age_h": round(age_h, 1), "tracking": tracking(age_h, last["t"], now),
             "last_read": ist(t(last["t"])), "in_learning": learning, "score": sc,
             "link": p.get("permalink") or d.get("permalink") or "",
+            "scout_idea": ((p.get("idea") or {}).get("hook_en", "") if isinstance(p.get("idea"), dict)
+                           else (p.get("idea") or ""))[:120],
         })
     rows.sort(key=lambda r: r["posted_at"], reverse=True)
     return rows
@@ -192,13 +194,13 @@ def schedule(cfg, now):
             done = next((p for p in posts if p.get("slot") == hhmm and store.local_date(p["posted_at"]) == day), None)
             if done:
                 a = done.get("answer")
-                rows.append({"when": ist(when), "slot": hhmm, "language": lang.capitalize(),
+                rows.append({"when": ist(when), "when_at": when.isoformat(), "slot": hhmm, "language": lang.capitalize(),
                              "plan": pretty(done.get("format")), "answer": (a.get("id") if isinstance(a, dict) else a) or "",
                              "tool": done.get("topic", ""), "status": "Posted", "link": done.get("permalink", "")})
                 continue
             plan = ("Question + checked answer" if hhmm in proven else "Rotating format test")
             ans = rotate(day) if hhmm in proven and when > now else None
-            rows.append({"when": ist(when), "slot": hhmm, "language": lang.capitalize(), "plan": plan,
+            rows.append({"when": ist(when), "when_at": when.isoformat(), "slot": hhmm, "language": lang.capitalize(), "plan": plan,
                          "answer": ans["id"] if ans else "",
                          "tool": ans["tool"] if ans else "", "status": "Next" if when > now and not any(
                              r["status"] == "Next" for r in rows) else ("Waiting" if when > now else "Missed"),
@@ -249,6 +251,63 @@ def competitors():
     return rows, formats, accts, ideas, voice
 
 
+NICHE = __import__("re").compile(r"pdf|document|form|aadhaa?r|pan card|resume|passport|photo|signature|exam|govt|sarkari")
+
+
+def scout_views():
+    """What the scout sees: competitor reels with their real view counts, and what it did each day."""
+    r = store.read("research", {})
+    seen = sorted(r.get("items", []), key=lambda x: -x.get("views", 0))
+    top = [{"account": x["source"], "views": x.get("views", 0), "likes": x.get("likes", 0),
+            "caption": (x.get("caption") or "").split("\n")[0][:90], "link": x["permalink"],
+            "our_niche": "Yes" if NICHE.search((x.get("caption") or "").lower()) else "No"} for x in seen]
+    days = {}
+    for i in store.read("insights", []):
+        days.setdefault(i["at"][:10], {}).setdefault("studied", 0)
+        days[i["at"][:10]]["studied"] += 1
+    for i in store.read("ideas", []):
+        if i.get("added"):
+            days.setdefault(i["added"][:10], {}).setdefault("ideas", 0)
+            days[i["added"][:10]]["ideas"] += 1
+    for v in store.read("formats", {}).get("learned", {}).values():
+        if v.get("added"):
+            days.setdefault(v["added"][:10], {}).setdefault("formats", 0)
+            days[v["added"][:10]]["formats"] += 1
+    log = [{"day": datetime.strptime(d, "%Y-%m-%d").strftime("%d %b"), "date": d, "studied": v.get("studied", 0),
+            "ideas": v.get("ideas", 0), "formats": v.get("formats", 0)} for d, v in sorted(days.items())]
+    return top, log
+
+
+def stages(job_rows, run_rows, posts, cfg):
+    by = {r["job"]: r for r in job_rows}
+    pb = store.read("playbook", {})
+    upd = max((b.get("updated", "") for b in pb.values()), default="")
+    last_post = max((p for p in posts if p.get("media_id")), key=lambda p: p["posted_at"], default=None)
+    sc = store.read("scout", {})
+    def st(job):
+        r = by.get(job, {})
+        return r.get("last_run", ""), ("ok" if r.get("last_result") == "Done" else "bad" if r.get("last_result") == "Failed" else "warn")
+    rows = []
+    t1, s1 = st("Study competitor reels")
+    rows.append({"order": 1, "stage": "Scout", "what": "Studies competitor reels", "last": t1, "state": s1,
+                 "detail": f"{len(sc.get('seen', []))} reels studied from {len(sc.get('accounts', {}))} accounts"})
+    t2, s2 = st("Make and post a reel")
+    rows.append({"order": 2, "stage": "Create", "what": "Writes the script, voices and renders the reel", "last": t2, "state": s2,
+                 "detail": by.get("Make and post a reel", {}).get("note", "")})
+    rows.append({"order": 3, "stage": "Post", "what": "Publishes to @ilovedocumentss", "last": ist(t(last_post["posted_at"])) if last_post else "",
+                 "state": "ok" if last_post else "warn", "detail": (last_post or {}).get("permalink", "")})
+    t4, s4 = st("Read Instagram stats")
+    rows.append({"order": 4, "stage": "Watch", "what": "Reads every reel's numbers", "last": t4,
+                 "state": "warn" if by.get("Read Instagram stats", {}).get("ran_24h", 0) < 48 else s4,
+                 "detail": by.get("Read Instagram stats", {}).get("note", "")})
+    rows.append({"order": 5, "stage": "Learn", "what": "Rewrites its rules from results", "last": ist(t(upd)) if upd else "",
+                 "state": "ok" if upd else "warn", "detail": f"{max((b.get('measured', 0) for b in pb.values()), default=0)} reels measured"})
+    t6, s6 = st("Telegram summary")
+    rows.append({"order": 6, "stage": "Report", "what": "Sends you a Telegram summary", "last": t6, "state": s6,
+                 "detail": by.get("Telegram summary", {}).get("note", "")})
+    return rows
+
+
 def playbook():
     rows = []
     for lang, b in store.read("playbook", {}).items():
@@ -268,9 +327,11 @@ def main(stats_dir, runs_json, out_dir):
     reel_rows = reels(stats_dir, now, excluded)
     run_rows = runs(runs_json, now, store.posts())
     ins, fmts, accts, ideas, voice = competitors()
-    files = {"reels": reel_rows, "runs": run_rows, "jobs": jobs(run_rows, now), "schedule": schedule(cfg, now),
+    seen_top, scout_log = scout_views()
+    files = {"reels": reel_rows, "runs": run_rows, "jobs": (job_rows := jobs(run_rows, now)), "schedule": schedule(cfg, now),
              "answers": answers(cfg, reel_rows), "insights": ins[:30], "formats": fmts, "accounts": accts,
              "ideas": ideas[:60], "voice": voice, "playbook": playbook(),
+             "seen": seen_top, "scoutlog": scout_log, "stages": stages(job_rows, run_rows, store.posts(), cfg),
              "snapshot": [{"built": ist(now), "built_at": now.isoformat(), "reels": len(reel_rows)}]}
     notes = json.load(open(ROOT / "tools" / "dashboard_notes.json"))
     files.update({k: v for k, v in notes.items() if not k.startswith("_")})

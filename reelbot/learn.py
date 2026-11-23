@@ -35,6 +35,8 @@ def growth_ratio():
 def score(post):
     """Comparable score: the 48-hour reading, or the 24-hour one scaled by our usual growth. Younger reels
     have no score yet, so a reel that is 3 hours old is never compared with one that is 2 days old."""
+    if post.get("media_id") and post["media_id"] in set(store.read("exclude", [])):
+        return None     # the owner left this reel out of learning (dashboard: Analytics & access)
     m, scale = _reading(post, 48), 1.0
     if not m:
         m, scale = _reading(post, 24), growth_ratio()

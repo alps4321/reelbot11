@@ -419,7 +419,7 @@
       "shares": 18,
       "saved": 24,
       "avg_watch_s": 8.2,
-      "views_last_hour": 1
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -2310,7 +2310,7 @@
       "shares": 0,
       "saved": 13,
       "avg_watch_s": 9.2,
-      "views_last_hour": 1
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -4215,8 +4215,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "total_interactions": 4,
-      "avg_watch_s": 8.8
+      "avg_watch_s": 8.8,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -4513,7 +4513,8 @@
       6,
       24,
       48,
-      72
+      72,
+      120
     ],
     "slot": "13:00",
     "metrics": {
@@ -4572,6 +4573,17 @@
         "shares": 0,
         "saved": 0,
         "total_interactions": 3,
+        "avg_watch_s": 8.2
+      },
+      {
+        "at": "2026-11-24T12:26:19+00:00",
+        "hours": 120,
+        "views": 143,
+        "reach": 105,
+        "likes": 2,
+        "comments": 1,
+        "shares": 0,
+        "saved": 0,
         "avg_watch_s": 8.2
       }
     ]
@@ -5457,8 +5469,8 @@
       "comments": 0,
       "shares": 5,
       "saved": 3,
-      "total_interactions": 15,
-      "avg_watch_s": 6.3
+      "avg_watch_s": 6.3,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -5757,7 +5769,8 @@
     "checked": [
       6,
       24,
-      48
+      48,
+      72
     ],
     "slot": "13:00",
     "metrics": {
@@ -5799,6 +5812,17 @@
         "at": "2026-11-23T08:00:42+00:00",
         "hours": 48,
         "views": 112,
+        "reach": 83,
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "avg_watch_s": 4.8
+      },
+      {
+        "at": "2026-11-24T12:26:14+00:00",
+        "hours": 72,
+        "views": 113,
         "reach": 83,
         "likes": 3,
         "comments": 0,
@@ -6309,8 +6333,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "total_interactions": 0,
-      "avg_watch_s": 2.2
+      "avg_watch_s": 2.2,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -6602,7 +6626,8 @@
     "posted_at": "2026-11-22T07:30:11+00:00",
     "checked": [
       6,
-      24
+      24,
+      48
     ],
     "slot": "13:00",
     "metrics": {
@@ -6631,6 +6656,17 @@
       {
         "at": "2026-11-23T08:00:40+00:00",
         "hours": 24,
+        "views": 129,
+        "reach": 105,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "avg_watch_s": 5.8
+      },
+      {
+        "at": "2026-11-24T12:26:10+00:00",
+        "hours": 48,
         "views": 129,
         "reach": 105,
         "likes": 1,
@@ -6888,13 +6924,13 @@
     "slot": "19:00",
     "metrics": {
       "views": 463,
-      "reach": 382,
+      "reach": 383,
       "likes": 6,
       "comments": 0,
       "shares": 2,
       "saved": 4,
       "avg_watch_s": 7.1,
-      "views_last_hour": 2
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -7151,8 +7187,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "total_interactions": 1,
-      "avg_watch_s": 4.4
+      "avg_watch_s": 4.4,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -7413,18 +7449,19 @@
     "permalink": "https://www.instagram.com/reel/DgEvxw4gtdv/",
     "posted_at": "2026-11-23T07:30:11+00:00",
     "checked": [
-      6
+      6,
+      24
     ],
     "slot": "13:00",
     "metrics": {
-      "views": 122,
-      "reach": 99,
+      "views": 125,
+      "reach": 102,
       "likes": 2,
       "comments": 0,
       "shares": 7,
       "saved": 0,
-      "avg_watch_s": 6.8,
-      "views_last_hour": 1
+      "avg_watch_s": 6.7,
+      "views_last_hour": 3
     },
     "history": [
       {
@@ -7438,6 +7475,17 @@
         "saved": 0,
         "total_interactions": 8,
         "avg_watch_s": 6.4
+      },
+      {
+        "at": "2026-11-24T12:26:07+00:00",
+        "hours": 24,
+        "views": 125,
+        "reach": 102,
+        "likes": 2,
+        "comments": 0,
+        "shares": 7,
+        "saved": 0,
+        "avg_watch_s": 6.7
       }
     ]
   },
@@ -7686,14 +7734,14 @@
     ],
     "slot": "19:00",
     "metrics": {
-      "views": 158,
-      "reach": 138,
-      "likes": 2,
+      "views": 176,
+      "reach": 151,
+      "likes": 3,
       "comments": 0,
       "shares": 0,
-      "saved": 3,
-      "avg_watch_s": 4.8,
-      "views_last_hour": 4
+      "saved": 5,
+      "avg_watch_s": 5.2,
+      "views_last_hour": 12
     },
     "history": [
       {
@@ -7946,8 +7994,33 @@
     "media_id": "18038935424665315",
     "permalink": "https://www.instagram.com/reel/DgHJjTRjdJo/",
     "posted_at": "2026-11-24T05:30:10+00:00",
-    "checked": [],
-    "slot": "11:00"
+    "checked": [
+      6
+    ],
+    "slot": "11:00",
+    "metrics": {
+      "views": 148,
+      "reach": 131,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 1,
+      "avg_watch_s": 4.5,
+      "views_last_hour": 12
+    },
+    "history": [
+      {
+        "at": "2026-11-24T12:26:04+00:00",
+        "hours": 6,
+        "views": 148,
+        "reach": 131,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
+        "avg_watch_s": 4.5
+      }
+    ]
   },
   {
     "id": "20261124-062845-english",
@@ -8186,6 +8259,226 @@
     "permalink": "https://www.instagram.com/reel/DgHUoOsjNcV/",
     "posted_at": "2026-11-24T07:30:08+00:00",
     "checked": [],
-    "slot": "13:00"
+    "slot": "13:00",
+    "metrics": {
+      "views": 70,
+      "reach": 55,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "avg_watch_s": 3.4,
+      "views_last_hour": 0
+    }
+  },
+  {
+    "id": "20261124-122942-hinglish",
+    "created_at": "2026-11-24T12:36:49+00:00",
+    "language": "hinglish",
+    "topic": "id_card_print",
+    "hook_style": "how_to",
+    "format": "secret_answer",
+    "pace": "natural",
+    "distance": "near",
+    "answer": "masked_aadhaar",
+    "idea": "Big update for form fillers: your PDF doesn't have to be rejected for size anymore.",
+    "plan_reason": "winner day: compress_pdf_kb has the best average score; proven formula slot; hook style: new test; format: explore; pace: explore; distance: best so far; idea from the niche scout",
+    "title": "Masked Aadhaar download kaise karein?",
+    "hook": "Masked Aadhaar download kaise karte hain?",
+    "seconds": 24.0,
+    "script": {
+      "title": "Masked Aadhaar download kaise karein?",
+      "scenes": [
+        {
+          "say": "Masked Aadhaar download kaise karte hain?",
+          "voice": "मास्क्ड आधार डाउनलोड कैसे करते हैं?",
+          "accent": [
+            "Masked Aadhaar"
+          ],
+          "tag": "aadhaar",
+          "meter": null,
+          "scene": {
+            "type": "search",
+            "query": "masked aadhaar download kaise karein",
+            "results": [
+              "Masked Aadhaar kya hota hai",
+              "e-Aadhaar download"
+            ]
+          },
+          "kind": "hook",
+          "screen": "Masked Aadhaar download kaise karte hain?",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Poora number sabko dena safe nahi hota.",
+          "voice": "पूरा नंबर सबको देना सेफ नहीं होता.",
+          "accent": [
+            "safe nahi"
+          ],
+          "tag": "risk",
+          "meter": null,
+          "scene": {
+            "type": "warning",
+            "text": "Poora Aadhaar number share?"
+          },
+          "kind": "point",
+          "screen": "Poora number sabko dena safe nahi hota.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Jawab end mein hai, ruko.",
+          "voice": "जवाब एंड में है... रुको.",
+          "accent": [
+            "end mein"
+          ],
+          "tag": "ruko",
+          "meter": null,
+          "scene": {
+            "type": "big_text",
+            "text": "JAWAB AAGE",
+            "sub": "10 second aur"
+          },
+          "kind": "point",
+          "screen": "Jawab end mein hai, ruko.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Masked Aadhaar mein pehle 8 digits xxxx-xxxx ho jaate hain.",
+          "voice": "मास्क्ड आधार में पहले 8 डिजिट xxxx-xxxx हो जाते हैं.",
+          "accent": [
+            "8 digits"
+          ],
+          "tag": "answer",
+          "meter": null,
+          "scene": {
+            "type": "id_card",
+            "title": "MASKED AADHAAR",
+            "name": "Riya Sharma",
+            "sub": "xxxx-xxxx-4821"
+          },
+          "kind": "point",
+          "screen": "Masked Aadhaar mein pehle 8 digits xxxx-xxxx ho jaate hain.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Sirf last 4 digits dikhte hain.",
+          "voice": "सिर्फ़ लास्ट 4 डिजिट दिखते हैं.",
+          "accent": [
+            "last 4"
+          ],
+          "tag": "answer",
+          "meter": {
+            "label": "VISIBLE",
+            "value": "4 digits"
+          },
+          "scene": {
+            "type": "big_text",
+            "text": "LAST 4 DIGITS",
+            "sub": "baaki sab chhupa"
+          },
+          "kind": "point",
+          "screen": "Sirf last 4 digits dikhte hain.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "e-Aadhaar download karte time ye option chuno.",
+          "voice": "ई-आधार डाउनलोड करते टाइम ये ऑप्शन चुनो.",
+          "accent": [
+            "download"
+          ],
+          "tag": "kaise",
+          "meter": null,
+          "scene": {
+            "type": "steps",
+            "items": [
+              "e-Aadhaar",
+              "Masked",
+              "Download"
+            ]
+          },
+          "kind": "point",
+          "screen": "e-Aadhaar download karte time ye option chuno.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Full number se masked share karna safer hai.",
+          "voice": "फुल नंबर से मास्क्ड शेयर करना सेफर है.",
+          "accent": [
+            "safer"
+          ],
+          "tag": "safer",
+          "meter": null,
+          "scene": {
+            "type": "versus",
+            "left": "Full number",
+            "right": "Masked",
+            "left_sub": "sab digits dikhte",
+            "right_sub": "sirf last 4",
+            "winner": "right"
+          },
+          "kind": "point",
+          "screen": "Full number se masked share karna safer hai.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Front-back ek A4 page pe print karna hai? ilovedocuments.ai ka ID Card Print.",
+          "voice": "फ्रंट-बैक एक A4 पेज पे प्रिंट करना है? आई लव डॉक्यूमेंट्स डॉट ए आई का आईडी कार्ड प्रिंट.",
+          "accent": [
+            "ID Card Print"
+          ],
+          "tag": "print",
+          "meter": null,
+          "scene": {
+            "type": "browser",
+            "url": "ilovedocuments.ai",
+            "button": "ID Card Print"
+          },
+          "kind": "point",
+          "screen": "Front-back ek A4 page pe print karna hai? ilovedocuments.ai ",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Reel save kar lo.",
+          "voice": "रील सेव कर लो.",
+          "accent": [
+            "save"
+          ],
+          "tag": "save",
+          "meter": null,
+          "scene": {
+            "type": "cta",
+            "keyword": "SAVE",
+            "line": "// masked Aadhaar yaad rakho"
+          },
+          "kind": "cta",
+          "screen": "Reel save kar lo.",
+          "emphasis": [],
+          "visual": null
+        }
+      ],
+      "caption": "Masked Aadhaar mein pehle 8 digits xxxx-xxxx ho jaate hain, sirf last 4 dikhte hain. e-Aadhaar download karte time ye choose karo, full number se safer hai. Aap Aadhaar ki copy dete time full number dete ho ya masked? Comment me batao. Front-back ek A4 pe print karna ho toh ilovedocuments.ai pe ID Card Print: free, no sign-up, no watermark.",
+      "hashtags": [
+        "#aadhaar",
+        "#maskedaadhaar",
+        "#eaadhaar",
+        "#documents",
+        "#ilovedocuments"
+      ]
+    },
+    "caption": "Masked Aadhaar mein pehle 8 digits xxxx-xxxx ho jaate hain, sirf last 4 dikhte hain. e-Aadhaar download karte time ye choose karo, full number se safer hai. Aap Aadhaar ki copy dete time full number dete ho ya masked? Comment me batao. Front-back ek A4 pe print karna ho toh ilovedocuments.ai pe ID Card Print: free, no sign-up, no watermark.\n\n#aadhaar #maskedaadhaar #eaadhaar #documents #ilovedocuments",
+    "video": "20261124-122942-hinglish.mp4",
+    "media_id": "17920672998463698",
+    "permalink": "https://www.instagram.com/reel/DgH-IJBEvo4/",
+    "posted_at": "2026-11-24T13:30:12+00:00",
+    "checked": [],
+    "slot": "19:00"
   }
 ]

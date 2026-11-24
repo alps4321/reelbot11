@@ -707,7 +707,7 @@
     "angle": "A character's 4 MB PDF gets 'file too large' an hour before the deadline. A panel shows it shrinking under the limit and the upload succeeding.",
     "from": "https://www.instagram.com/reel/DfjzYxouc_v/",
     "added": "2026-11-23T13:42:19+00:00",
-    "used": 0
+    "used": 1
   },
   {
     "tool": "resize_photo_kb",

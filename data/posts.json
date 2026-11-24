@@ -8570,7 +8570,33 @@
     "media_id": "17920672998463698",
     "permalink": "https://www.instagram.com/reel/DgH-IJBEvo4/",
     "posted_at": "2026-11-24T13:30:12+00:00",
-    "checked": [],
-    "slot": "19:00"
+    "checked": [
+      6
+    ],
+    "slot": "19:00",
+    "metrics": {
+      "views": 239,
+      "reach": 196,
+      "likes": 3,
+      "comments": 0,
+      "shares": 1,
+      "saved": 0,
+      "total_interactions": 4,
+      "avg_watch_s": 3.9
+    },
+    "history": [
+      {
+        "at": "2026-11-24T22:29:43+00:00",
+        "hours": 6,
+        "views": 239,
+        "reach": 196,
+        "likes": 3,
+        "comments": 0,
+        "shares": 1,
+        "saved": 0,
+        "total_interactions": 4,
+        "avg_watch_s": 3.9
+      }
+    ]
   }
 ]

@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-24T17:50:07+00:00
+Updated 2026-11-24T22:29:43+00:00
 
-Reels made: 37. Posted: 30. Measured: 28.
+Reels made: 37. Posted: 30. Measured: 29.
 
 ## english: results by topic
 
@@ -160,7 +160,7 @@ Reels made: 37. Posted: 30. Measured: 28.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-24 | hinglish | id_card_print | secret_answer | Masked Aadhaar download kaise karte hain? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgH-IJBEvo4/) |
+| 2026-11-24 | hinglish | id_card_print | secret_answer | Masked Aadhaar download kaise karte hain? | 239 | 3.9 | 3 | 0 | 1 | 0 |  | [open](https://www.instagram.com/reel/DgH-IJBEvo4/) |
 | 2026-11-24 | english | compress_pdf_kb | discovery | Your PDF is 5 MB. The form says 200 KB. | 85 | 3.7 | 0 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgHUoOsjNcV/) |
 | 2026-11-24 | hinglish | bank_statement_excel | secret_answer | HDFC statement PDF ka password kya hota hai? | 148 | 4.5 | 0 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/DgHJjTRjdJo/) |
 | 2026-11-23 | hinglish | unlock_pdf | secret_answer | PAN card PDF ka password kya hai? | 177 | 5.2 | 3 | 0 | 0 | 5 | 149 | [open](https://www.instagram.com/reel/DgFYoYpiVuN/) |

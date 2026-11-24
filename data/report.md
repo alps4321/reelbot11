@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-24T05:30:11+00:00
+Updated 2026-11-24T07:30:09+00:00
 
-Reels made: 35. Posted: 28. Measured: 26.
+Reels made: 36. Posted: 29. Measured: 26.
 
 ## english: results by topic
 
@@ -55,33 +55,33 @@ Reels made: 35. Posted: 28. Measured: 26.
 
 **Keep**
 
-- Lead with a concrete, relatable scenario or question tied to a real task, e.g. 'Can one selfie become an ID photo?'. This is the only non-manual reel in the top three, at 446 views and 396 reach.
-- Show a before/after on one task (selfie to ID photo). It had the highest reach and views of any reel, but only 6.2s average watch and 1 save, so it earns attention without holding it.
-- Point to the website or tool directly. The two top-scoring reels (#ilovedocuments and 'check our website too') got shares (18 and 0) and saves (0 and 1). Treat that as a weak signal: they are manual posts with tiny samples, and one reel drives most of the shares.
-- Keep the hook short and plain. The best reels have simple hooks, and watch time tops out around 8–9s, so put the payoff in the first ~8s.
-- Only the selfie and ID-photo reel is a clean, repeatable template. The others are manual or one-offs, so don't generalise further from 8 posts.
+- Pair a concrete, relatable promise with a single clear task. The best generated reel, 'Can one selfie become an ID photo?', paired a visual before/after with a how-to hook. It had the highest views (449) and reach (397) of any reel and 2 saves.
+- Keep the hook specific to one outcome rather than a list of tools. Single-task hooks (selfie to ID photo, 4 photos as one PDF, Rohan missing his interview) held watch time of 7 to 8s, against 4.1s for the 5-tool cheat sheet.
+- Use a story or question with a named character when the topic is a document pain point. Rohan's story had 8.2s average watch and the only comment. Ravi's and Priya's story reels were weaker, so the format is not proven yet.
+- Keep a direct call to share or visit the site. The two manual reels, '#ilovedocuments' and 'Please check our website', had the highest shares (18) and saves (1) and 8 to 9s watch. This is based on very few posts, and the manual posts may have been seeded or promoted differently.
+- Hold reels to about 20 to 30s. Every generated reel in that range got at least 113 views, but length alone did not separate winners from losers.
 
 **Avoid**
 
-- Story-led hooks with a named character ('Why did Rohan miss his own interview?', 'Priya had 400 rows to type by tonight.'). They scored 114 and 81 with 0–1 comments and no saves or shares. Rohan held viewers (8.2s) but Priya did not (4.8s), so the format is not proven bad, only unproven.
-- Generic cheat-sheet or listicle hooks ('Stop paying the cyber cafe for these 5 things'). It had the lowest watch time of the group (4.1s) and no shares, though it did get 2 saves. That is a weak sign the content is useful but the hook does not hold people.
-- Plain how-to questions with no emotional stakes ('How do you send 4 photos as one PDF?'). They got 0 interactions across 140 views, even though viewers watched 7.0s.
-- Vague 'any job, one website' promises ('Any PDF or photo job – one free website'). It had 1.7s average watch, so viewers dropped almost immediately. It was also very new (1 view in the last hour), so the number may still change.
-- Long 24–32s scripted reels that don't convert. All the scripted reels except the selfie one scored under 120 with almost no shares. Length is confounded with hook and topic, so test it before cutting.
+- Generic 'all tools' or catch-all hooks. 'Any PDF or photo job – one free website' got only 1.7s average watch, the worst of all reels, and the cheat sheet got 4.1s.
+- Cheat-sheet or listicle formats with bold claims like 'Stop paying the cyber cafe'. They got 147 views, 0 likes, and the second-lowest watch time (4.1s).
+- Story hooks that open on a number or a situation without a clear payoff. Ravi's 2 MB vs 20 KB hook (5.8s) and Priya's 400 rows hook (4.8s) were below the 7s watch of the question and secret-answer hooks.
+- Reels with zero engagement signals. The jpg_to_pdf secret-answer reel had 0 likes, comments, shares and saves, despite 7.0s watch, so a decent watch time alone did not prompt any action.
+- Drawing conclusions about topic from these results. Each topic has one reel, views are 113 to 449, and nearly every reel has 0 comments, so differences are within noise.
 
 **Next Tests**
 
-- Rerun the before/after format on a different task (e.g. compress a photo to 50KB or merge PDFs) with an outcome-first question hook. Compare views, reach and watch time against the selfie reel's 446 views and 6.2s.
-- Same selfie/ID-photo topic and hook, but cut to about 10–12s, to see whether a shorter reel lifts average watch above 6.2s and brings saves or shares.
-- Add an explicit save or share prompt ('send this to someone who needs it') to the reel that works best. Shares were 18 on one manual post and 0 on almost every scripted one, so see whether a prompt moves that.
+- Rerun the selfie-to-ID-photo idea as a close variant, such as 'Can one selfie become a passport photo?', to check whether the before/after how-to is repeatable, or whether 449 views was a one-off.
+- Test the same topic (for example resize_signature_kb) with a question hook versus the story hook, to separate hook style from format. Right now the two are confounded.
+- Add an explicit share or save prompt, such as 'send this to someone filling a form', to a generated reel and compare shares and saves against the 0 on every generated reel so far.
 
 ## hinglish: results by topic
 
 | topic | reels | avg score |
 |---|---|---|
-| unlock_aadhaar | 1 | 2286.0 |
 | compress_pdf_kb | 1 | 1293.0 |
 | pdf_to_word | 1 | 1237.0 |
+| unlock_aadhaar | 2 | 1209.0 |
 | passport_photo | 1 | 971.0 |
 | resize_image_kb | 1 | 348.0 |
 | resize_photo_kb | 1 | 325.0 |
@@ -89,14 +89,14 @@ Reels made: 35. Posted: 28. Measured: 26.
 | unlock_pdf | 2 | 231.5 |
 | pdf_to_jpg | 1 | 157.0 |
 | pdf_to_excel | 1 | 85.0 |
-| bank_statement_excel | 1 | 81.0 |
+| bank_statement_excel | 1 | 80.0 |
 | image_to_pdf | 1 | 78.0 |
 
 ## hinglish: results by hook style
 
 | hook_style | reels | avg score |
 |---|---|---|
-| question | 5 | 789.0 |
+| question | 6 | 679.3 |
 | manual | 2 | 648.0 |
 | problem | 3 | 581.3 |
 | contrarian | 1 | 348.0 |
@@ -110,7 +110,7 @@ Reels made: 35. Posted: 28. Measured: 26.
 |---|---|---|
 | what_if | 1 | 1293.0 |
 | manual | 2 | 648.0 |
-| secret_answer | 8 | 567.5 |
+| secret_answer | 9 | 519.0 |
 | discovery | 1 | 348.0 |
 | did_you_know | 1 | 200.0 |
 | myth_buster | 1 | 157.0 |
@@ -119,16 +119,16 @@ Reels made: 35. Posted: 28. Measured: 26.
 
 | pace | reels | avg score |
 |---|---|---|
-| brisk | 5 | 444.6 |
 | natural | 4 | 400.0 |
-| calm | 2 | 214.5 |
+| brisk | 6 | 392.5 |
+| calm | 2 | 214.0 |
 
 ## hinglish: results by distance
 
 | distance | reels | avg score |
 |---|---|---|
 | far | 2 | 274.0 |
-| near | 7 | 167.7 |
+| near | 8 | 163.1 |
 
 ## hinglish: what the bot has learned
 
@@ -158,13 +158,14 @@ Reels made: 35. Posted: 28. Measured: 26.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-11-24 | english | compress_pdf_kb | discovery | Your PDF is 5 MB. The form says 200 KB. |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgHUoOsjNcV/) |
 | 2026-11-24 | hinglish | bank_statement_excel | secret_answer | HDFC statement PDF ka password kya hota hai? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgHJjTRjdJo/) |
 | 2026-11-23 | hinglish | unlock_pdf | secret_answer | PAN card PDF ka password kya hai? | 158 | 4.8 | 2 | 0 | 0 | 3 |  | [open](https://www.instagram.com/reel/DgFYoYpiVuN/) |
 | 2026-11-23 | english | signature_bg_remover | story | Meena signed on paper at 10 PM. | 122 | 6.8 | 2 | 0 | 7 | 0 |  | [open](https://www.instagram.com/reel/DgEvxw4gtdv/) |
-| 2026-11-23 | hinglish | unlock_aadhaar | secret_answer | Aadhaar PDF ka password kya hota hai? | 184 | 4.4 | 1 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgEiX6KAARc/) |
+| 2026-11-23 | hinglish | unlock_aadhaar | secret_answer | Aadhaar PDF ka password kya hota hai? | 184 | 4.4 | 1 | 0 | 0 | 0 | 132 | [open](https://www.instagram.com/reel/DgEiX6KAARc/) |
 | 2026-11-22 | hinglish | id_card_print | secret_answer | Kya Aadhaar ka print out original jitna valid hai? | 463 | 7.1 | 6 | 0 | 2 | 4 | 366 | [open](https://www.instagram.com/reel/DgC130IEonh/) |
 | 2026-11-22 | english | resize_signature_kb | story | Ravi's signature was 2 MB. The form wanted 20 KB. | 129 | 5.8 | 1 | 0 | 0 | 0 | 92 | [open](https://www.instagram.com/reel/DgCLaSuk_Tm/) |
-| 2026-11-22 | hinglish | bank_statement_excel | secret_answer | HDFC bank statement PDF ka password kya hai? | 140 | 2.2 | 0 | 0 | 0 | 0 | 81 | [open](https://www.instagram.com/reel/DgB9aV1j1GF/) |
+| 2026-11-22 | hinglish | bank_statement_excel | secret_answer | HDFC bank statement PDF ka password kya hai? | 140 | 2.2 | 0 | 0 | 0 | 0 | 80 | [open](https://www.instagram.com/reel/DgB9aV1j1GF/) |
 | 2026-11-21 | hinglish | id_card_print | secret_answer | Masked Aadhaar kya hota hai? | 203 | 4.6 | 2 | 0 | 0 | 0 | 144 | [open](https://www.instagram.com/reel/DgAPbEXpaEb/) |
 | 2026-11-21 | english | bank_statement_excel | story | Priya had 400 rows to type by tonight. | 113 | 4.8 | 3 | 0 | 0 | 0 | 80 | [open](https://www.instagram.com/reel/Df_moeXFFfy/) |
 | 2026-11-21 | hinglish | unlock_pdf | secret_answer | e-PAN PDF ka password kya hota hai? | 290 | 6.3 | 7 | 0 | 5 | 3 | 263 | [open](https://www.instagram.com/reel/Df_Y1KHFdvj/) |

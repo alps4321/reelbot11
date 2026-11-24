@@ -23,26 +23,26 @@
     ]
   },
   "english": {
-    "measured": 8,
-    "updated": "2026-11-23T06:29:38+00:00",
+    "measured": 9,
+    "updated": "2026-11-24T06:28:17+00:00",
     "keep": [
-      "Lead with a concrete, relatable scenario or question tied to a real task, e.g. 'Can one selfie become an ID photo?'. This is the only non-manual reel in the top three, at 446 views and 396 reach.",
-      "Show a before/after on one task (selfie to ID photo). It had the highest reach and views of any reel, but only 6.2s average watch and 1 save, so it earns attention without holding it.",
-      "Point to the website or tool directly. The two top-scoring reels (#ilovedocuments and 'check our website too') got shares (18 and 0) and saves (0 and 1). Treat that as a weak signal: they are manual posts with tiny samples, and one reel drives most of the shares.",
-      "Keep the hook short and plain. The best reels have simple hooks, and watch time tops out around 8–9s, so put the payoff in the first ~8s.",
-      "Only the selfie and ID-photo reel is a clean, repeatable template. The others are manual or one-offs, so don't generalise further from 8 posts."
+      "Pair a concrete, relatable promise with a single clear task. The best generated reel, 'Can one selfie become an ID photo?', paired a visual before/after with a how-to hook. It had the highest views (449) and reach (397) of any reel and 2 saves.",
+      "Keep the hook specific to one outcome rather than a list of tools. Single-task hooks (selfie to ID photo, 4 photos as one PDF, Rohan missing his interview) held watch time of 7 to 8s, against 4.1s for the 5-tool cheat sheet.",
+      "Use a story or question with a named character when the topic is a document pain point. Rohan's story had 8.2s average watch and the only comment. Ravi's and Priya's story reels were weaker, so the format is not proven yet.",
+      "Keep a direct call to share or visit the site. The two manual reels, '#ilovedocuments' and 'Please check our website', had the highest shares (18) and saves (1) and 8 to 9s watch. This is based on very few posts, and the manual posts may have been seeded or promoted differently.",
+      "Hold reels to about 20 to 30s. Every generated reel in that range got at least 113 views, but length alone did not separate winners from losers."
     ],
     "avoid": [
-      "Story-led hooks with a named character ('Why did Rohan miss his own interview?', 'Priya had 400 rows to type by tonight.'). They scored 114 and 81 with 0–1 comments and no saves or shares. Rohan held viewers (8.2s) but Priya did not (4.8s), so the format is not proven bad, only unproven.",
-      "Generic cheat-sheet or listicle hooks ('Stop paying the cyber cafe for these 5 things'). It had the lowest watch time of the group (4.1s) and no shares, though it did get 2 saves. That is a weak sign the content is useful but the hook does not hold people.",
-      "Plain how-to questions with no emotional stakes ('How do you send 4 photos as one PDF?'). They got 0 interactions across 140 views, even though viewers watched 7.0s.",
-      "Vague 'any job, one website' promises ('Any PDF or photo job – one free website'). It had 1.7s average watch, so viewers dropped almost immediately. It was also very new (1 view in the last hour), so the number may still change.",
-      "Long 24–32s scripted reels that don't convert. All the scripted reels except the selfie one scored under 120 with almost no shares. Length is confounded with hook and topic, so test it before cutting."
+      "Generic 'all tools' or catch-all hooks. 'Any PDF or photo job – one free website' got only 1.7s average watch, the worst of all reels, and the cheat sheet got 4.1s.",
+      "Cheat-sheet or listicle formats with bold claims like 'Stop paying the cyber cafe'. They got 147 views, 0 likes, and the second-lowest watch time (4.1s).",
+      "Story hooks that open on a number or a situation without a clear payoff. Ravi's 2 MB vs 20 KB hook (5.8s) and Priya's 400 rows hook (4.8s) were below the 7s watch of the question and secret-answer hooks.",
+      "Reels with zero engagement signals. The jpg_to_pdf secret-answer reel had 0 likes, comments, shares and saves, despite 7.0s watch, so a decent watch time alone did not prompt any action.",
+      "Drawing conclusions about topic from these results. Each topic has one reel, views are 113 to 449, and nearly every reel has 0 comments, so differences are within noise."
     ],
     "next_tests": [
-      "Rerun the before/after format on a different task (e.g. compress a photo to 50KB or merge PDFs) with an outcome-first question hook. Compare views, reach and watch time against the selfie reel's 446 views and 6.2s.",
-      "Same selfie/ID-photo topic and hook, but cut to about 10–12s, to see whether a shorter reel lifts average watch above 6.2s and brings saves or shares.",
-      "Add an explicit save or share prompt ('send this to someone who needs it') to the reel that works best. Shares were 18 on one manual post and 0 on almost every scripted one, so see whether a prompt moves that."
+      "Rerun the selfie-to-ID-photo idea as a close variant, such as 'Can one selfie become a passport photo?', to check whether the before/after how-to is repeatable, or whether 449 views was a one-off.",
+      "Test the same topic (for example resize_signature_kb) with a question hook versus the story hook, to separate hook style from format. Right now the two are confounded.",
+      "Add an explicit share or save prompt, such as 'send this to someone filling a form', to a generated reel and compare shares and saves against the 0 on every generated reel so far."
     ]
   }
 }

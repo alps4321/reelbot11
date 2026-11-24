@@ -677,7 +677,7 @@
     "angle": "A character gets an Aadhaar PDF that won't open. The narrator reveals the password pattern, answers 'what if I type it wrong?', then shows it unlocked.",
     "from": "https://www.instagram.com/reel/DgFT6_whi4Z/",
     "added": "2026-11-23T13:42:19+00:00",
-    "used": 0
+    "used": 1
   },
   {
     "tool": "protect_pdf",

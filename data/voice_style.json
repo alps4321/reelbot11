@@ -1,30 +1,6 @@
 {
   "samples": [
     {
-      "wps": 4.22,
-      "pause_s": 0.0,
-      "lang": "en",
-      "per_k": 46.9
-    },
-    {
-      "wps": 2.0,
-      "pause_s": 25.76,
-      "lang": "hi",
-      "per_k": 44.0
-    },
-    {
-      "wps": 2.08,
-      "pause_s": 3.56,
-      "lang": "en",
-      "per_k": 28.4
-    },
-    {
-      "wps": 3.05,
-      "pause_s": 0.33,
-      "lang": "en",
-      "per_k": 23.0
-    },
-    {
       "wps": 2.77,
       "pause_s": 15.59,
       "lang": "hi",
@@ -239,10 +215,34 @@
       "pause_s": 0.36,
       "lang": "hi",
       "per_k": 0.6
+    },
+    {
+      "wps": 3.51,
+      "pause_s": 0.38,
+      "lang": "en",
+      "per_k": 2.2
+    },
+    {
+      "wps": 3.38,
+      "pause_s": 0.34,
+      "lang": "en",
+      "per_k": 4.8
+    },
+    {
+      "wps": 1.68,
+      "pause_s": 0.0,
+      "lang": "hi",
+      "per_k": 0.6
+    },
+    {
+      "wps": 3.79,
+      "pause_s": 0.61,
+      "lang": "hi",
+      "per_k": 0.6
     }
   ],
-  "notes": "The strongest speakers open on the first word with no lead-in and keep a quick, excited pace of around 3.4 words per second, then slow down to about 2.2 words per second on the cause-and-effect lines. They stress the key number or result and talk in a casual 'bhai' tone.",
-  "updated": "2026-11-24T04:29:50+00:00",
-  "words_per_second": 3.24,
-  "pause_s": 0.33
+  "notes": "The best speakers keep a fast pace of around 3.5 words per second with very short pauses, and put the emphasis on the surprise words ('never', 'even', 'instantly'). They state the payoff early and use short sentences to keep the energy up.",
+  "updated": "2026-11-24T14:18:49+00:00",
+  "words_per_second": 3.38,
+  "pause_s": 0.32
 }

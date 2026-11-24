@@ -1,50 +1,5 @@
 [
   {
-    "at": "2026-11-18T12:17:18+00:00",
-    "permalink": "https://www.instagram.com/reel/DfeSBk9NUzA/",
-    "why": "A one-of-a-kind custom object is unboxed with personal pride and detail. It gets millions of views from a huge following, but the format depends on the creator's face and on having a rare physical item, so it is hard to reuse.",
-    "hook_pattern": "This video is extra special because I have my own custom [thing]",
-    "structure": [
-      "Special announcement",
-      "Who made it",
-      "Close-up walkthrough",
-      "Emotional meaning"
-    ],
-    "visual": "Long close-up unboxing.",
-    "speaking": "Slow, 2.6 words per second, warm and proud, mixing Hindi and English."
-  },
-  {
-    "at": "2026-11-19T04:36:05+00:00",
-    "permalink": "https://www.instagram.com/reel/De4TOynyEiV/",
-    "why": "It promises a big, specific payoff ('10x faster, forever') in the first line. Then it shows each step on screen, so the viewer feels they could do it themselves. The 'older than God' line and the 'share with someone whose TV is slow' ending give it personality and a reason to share.",
-    "hook_pattern": "Here's how you can hack your [everyday annoying thing] and make it [10x better] forever",
-    "structure": [
-      "Bold claim with a big number",
-      "Setup step shown on screen (settings toggle)",
-      "One action (copy, paste, enter)",
-      "The tool does the work automatically",
-      "Before and after reveal: clean and smooth",
-      "Bonus trick: customize it further",
-      "Share with someone who suffers from this problem"
-    ],
-    "visual": "Real footage of the TV and laptop, with a big white caption card as the title. Word-by-word highlighted subtitles in a purple box. Close-ups of hands and screens.",
-    "speaking": "Fast (about 4 words per second), almost no pauses, upbeat and confident with a joke or two. First word at 0.0 s."
-  },
-  {
-    "at": "2026-11-19T04:36:05+00:00",
-    "permalink": "https://www.instagram.com/reel/Df4m7XLSRXo/",
-    "why": "The title carries a huge ambition and a time span ('13 saal main Real Life GTA'), so it creates curiosity about whether it was really done. The spoken audio is garbled, so the pull most likely comes from the visual spectacle and the title.",
-    "hook_pattern": "[Long time span] ke baad maine [famous thing] real life mein bana diya",
-    "structure": [
-      "Impossible-sounding claim in the title",
-      "Show the finished result straight away",
-      "Show the effort behind it",
-      "Reaction and payoff"
-    ],
-    "visual": "Cinematic real-life recreation of a famous game, with emoji-heavy titles and hashtags.",
-    "speaking": "Slow, with long pauses (about 2 s) and dramatic gaps, in Hindi. The transcript is unreliable, so treat this as low confidence."
-  },
-  {
     "at": "2026-11-19T04:36:05+00:00",
     "permalink": "https://www.instagram.com/reel/DfcRcwUS5m2/",
     "why": "One tiny object solves one clear problem, and the video shows the problem being solved in a single shot. It is short (23 s) with no pauses, so it is easy to watch to the end and replay.",
@@ -877,5 +832,49 @@
     ],
     "visual": "Emotional real-life stills and footage",
     "speaking": "Soft, serious"
+  },
+  {
+    "at": "2026-11-24T14:18:49+00:00",
+    "permalink": "https://www.instagram.com/reel/DgHbYIwRC3K/",
+    "why": "It promises a numbered set of free, useful tools in the first second and opens with the most surprising one, an AI that takes over the mouse. Close-up screen demos make every claim visible, and the creator promises that all the names are in the video, so viewers rewatch.",
+    "hook_pattern": "If you use [device/thing], these N free [tools] will make your life easier",
+    "structure": [
+      "Hook: promise N free tools for a specific audience",
+      "Tool 1 is the most surprising one, shown live",
+      "Tool 2 solves a privacy or pain moment with a vivid before/after ('look away, it hides')",
+      "Tool 3 is a multi-purpose tool with a quick list of what it does",
+      "Close by telling viewers the names are in the video so they rewatch"
+    ],
+    "visual": "Close-up laptop screen demos, big bold captions with one highlighted word at a time, a '3 useful apps' label and a small number badge showing which item you are on.",
+    "speaking": "Fast, almost 3.5 words per second, with short pauses and a friendly, excited tone. 'Heck, it can even...' adds a bonus beat."
+  },
+  {
+    "at": "2026-11-24T14:18:49+00:00",
+    "permalink": "https://www.instagram.com/reel/DgHbKDZR8O3/",
+    "why": "It is the same content as the first reel with a different order. It opens with a live command to the computer, which is a curiosity hook, then lists the apps. The presenter's face and reactions add trust, and the number-badge captions keep the pace.",
+    "hook_pattern": "Watch this: [instant demo], then N free tools to make your life easier",
+    "structure": [
+      "Cold-open demo of something working instantly",
+      "Promise N free tools",
+      "Tool 1: a multi-tool launcher with a list of what it can do",
+      "Tool 2: the privacy trick",
+      "Tool 3: the AI that takes over the mouse",
+      "Re-watch line at the end"
+    ],
+    "visual": "The presenter's face and laptop in a wood-panelled room, then close-up screen recordings with bold captions and a yellow circle that highlights the key spot.",
+    "speaking": "Quick and conversational, with almost no dead air, and a rising 'Heck, it can even' line for the bonus."
+  },
+  {
+    "at": "2026-11-24T14:18:49+00:00",
+    "permalink": "https://www.instagram.com/reel/Dfwxhe3BSQp/",
+    "why": "A sale push with a deadline ('last chance', 'last day') and a lowest-price promise, which gets high views from the urgency. There is no speech, so it relied on visuals and text.",
+    "hook_pattern": "Last chance: [offer] ends today",
+    "structure": [
+      "Urgency headline",
+      "Offer shown on screen",
+      "Deadline repeated in the caption"
+    ],
+    "visual": "Promotional graphics with text and no narration.",
+    "speaking": "No speech. For us, use a firm, urgent narrator."
   }
 ]

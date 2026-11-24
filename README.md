@@ -1,13 +1,14 @@
 # Live reel stats
 
-Updated 24 Nov 2026, 09:57 AM India time (refreshed about every 5 minutes)
+Updated 24 Nov 2026, 12:04 PM India time (refreshed about every 5 minutes)
 
 | posted | hook | views | views last hour | avg watch s | likes | comments | shares | saves | link |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-11-23 | e-PAN download kiya aur file lock mili? Password a | 158 | +4 | 4.8 | 2 | 0 | 0 | 3 | [open](https://www.instagram.com/reel/DgFYoYpiVuN/) |
-| 2026-11-23 | Meena tried 6 times to retake her signature photo. | 122 | +1 | 6.8 | 2 | 0 | 7 | 0 | [open](https://www.instagram.com/reel/DgEvxw4gtdv/) |
-| 2026-11-23 | Aadhaar PDF ka password simple hai: naam ke pehle  | 184 | +3 | 4.4 | 1 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgEiX6KAARc/) |
-| 2026-11-22 | Aadhaar letter, PVC card, e-Aadhaar aur mAadhaar:  | 463 | +2 | 7.1 | 6 | 0 | 2 | 4 | [open](https://www.instagram.com/reel/DgC130IEonh/) |
+| 2026-11-24 | HDFC NetBanking ya app se statement download kiya  | 136 | +0 | 4.5 | 0 | 0 | 0 | 1 | [open](https://www.instagram.com/reel/DgHJjTRjdJo/) |
+| 2026-11-23 | e-PAN download kiya aur file lock mili? Password a | 164 | +6 | 5.0 | 3 | 0 | 0 | 4 | [open](https://www.instagram.com/reel/DgFYoYpiVuN/) |
+| 2026-11-23 | Meena tried 6 times to retake her signature photo. | 122 | +0 | 6.7 | 2 | 0 | 7 | 0 | [open](https://www.instagram.com/reel/DgEvxw4gtdv/) |
+| 2026-11-23 | Aadhaar PDF ka password simple hai: naam ke pehle  | 184 | +0 | 4.4 | 1 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgEiX6KAARc/) |
+| 2026-11-22 | Aadhaar letter, PVC card, e-Aadhaar aur mAadhaar:  | 463 | +0 | 7.1 | 6 | 0 | 2 | 4 | [open](https://www.instagram.com/reel/DgC130IEonh/) |
 | 2026-11-22 | Ravi's signature was 2 MB and the form wanted 20 K | 129 | +0 | 5.8 | 1 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgCLaSuk_Tm/) |
 | 2026-11-22 | HDFC statement PDF khul nahi raha? NetBanking ya a | 140 | +0 | 2.2 | 0 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgB9aV1j1GF/) |
 | 2026-11-21 | Masked Aadhaar mein sirf last 4 digits dikhte hain | 203 | +0 | 4.6 | 2 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgAPbEXpaEb/) |
@@ -21,7 +22,7 @@ Updated 24 Nov 2026, 09:57 AM India time (refreshed about every 5 minutes)
 | 2026-11-19 | Phone ki battery ko 100% tak charge karna zaroori  | 435 | +0 | 6.8 | 8 | 0 | 1 | 2 | [open](https://www.instagram.com/reel/Df5Yvw8Eckp/) |
 | 2026-11-18 | Rohan ki 6 MB PDF 180 KB ban gayi, aur form time p | 1323 | +0 | 8.8 | 16 | 1 | 0 | 4 | [open](https://www.instagram.com/reel/Df4hglbgBie/) |
 | 2026-11-18 | One hour of erasing vs 10 seconds. Same selfie, cl | 449 | +0 | 6.2 | 3 | 0 | 0 | 2 | [open](https://www.instagram.com/reel/Df34jo3pcP6/) |
-| 2026-11-18 | PDF mein ek line badalni thi, aur Rohan resume dob | 1332 | +1 | 9.2 | 7 | 2 | 0 | 13 | [open](https://www.instagram.com/reel/Df3sRygisaf/) |
+| 2026-11-18 | PDF mein ek line badalni thi, aur Rohan resume dob | 1332 | +0 | 9.2 | 7 | 2 | 0 | 13 | [open](https://www.instagram.com/reel/Df3sRygisaf/) |
 | 2026-11-17 | Stop paying the cyber cafe for these 5 things 👇 | 147 | +0 | 4.1 | 1 | 0 | 0 | 2 | [open](https://www.instagram.com/reel/Df2KxDjjwSe/) |
 | 2026-11-17 | 4 photos. 1 PDF. Done in a minute. 📄 | 140 | +0 | 7.0 | 0 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/Df2IYAIAR7x/) |
 | 2026-11-17 | #ilovedocuments | 254 | +0 | 8.1 | 3 | 0 | 18 | 0 | [open](https://www.instagram.com/reel/Df1OFyStuBw/) |

@@ -1855,7 +1855,8 @@
       24,
       48,
       72,
-      120
+      120,
+      168
     ],
     "metrics": {
       "views": 140,
@@ -1926,6 +1927,17 @@
         "saved": 0,
         "total_interactions": 0,
         "avg_watch_s": 7.0
+      },
+      {
+        "at": "2026-11-24T12:26:29+00:00",
+        "hours": 168,
+        "views": 140,
+        "reach": 119,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "avg_watch_s": 7.0
       }
     ]
   },
@@ -1940,7 +1952,8 @@
       24,
       48,
       72,
-      120
+      120,
+      168
     ],
     "language": "english",
     "topic": "cheat_sheet_5_tools",
@@ -2018,6 +2031,17 @@
         "shares": 0,
         "saved": 2,
         "total_interactions": 3,
+        "avg_watch_s": 4.1
+      },
+      {
+        "at": "2026-11-24T12:26:28+00:00",
+        "hours": 168,
+        "views": 147,
+        "reach": 121,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 2,
         "avg_watch_s": 4.1
       }
     ]
@@ -4799,7 +4823,8 @@
       6,
       24,
       48,
-      72
+      72,
+      120
     ],
     "slot": "19:00",
     "metrics": {
@@ -4809,8 +4834,8 @@
       "comments": 2,
       "shares": 0,
       "saved": 2,
-      "avg_watch_s": 7.7,
-      "views_last_hour": 0
+      "total_interactions": 7,
+      "avg_watch_s": 7.7
     },
     "history": [
       {
@@ -4851,6 +4876,18 @@
       {
         "at": "2026-11-22T13:32:32+00:00",
         "hours": 72,
+        "views": 221,
+        "reach": 167,
+        "likes": 3,
+        "comments": 2,
+        "shares": 0,
+        "saved": 2,
+        "total_interactions": 7,
+        "avg_watch_s": 7.7
+      },
+      {
+        "at": "2026-11-24T15:00:17+00:00",
+        "hours": 120,
         "views": 221,
         "reach": 167,
         "likes": 3,
@@ -6046,7 +6083,8 @@
     "checked": [
       6,
       24,
-      48
+      48,
+      72
     ],
     "slot": "19:00",
     "metrics": {
@@ -6056,8 +6094,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "avg_watch_s": 4.6,
-      "views_last_hour": 0
+      "total_interactions": 2,
+      "avg_watch_s": 4.6
     },
     "history": [
       {
@@ -6087,6 +6125,18 @@
       {
         "at": "2026-11-23T14:54:44+00:00",
         "hours": 48,
+        "views": 203,
+        "reach": 170,
+        "likes": 2,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 2,
+        "avg_watch_s": 4.6
+      },
+      {
+        "at": "2026-11-24T15:00:17+00:00",
+        "hours": 72,
         "views": 203,
         "reach": 170,
         "likes": 2,
@@ -6919,7 +6969,8 @@
     "posted_at": "2026-11-22T13:30:10+00:00",
     "checked": [
       6,
-      24
+      24,
+      48
     ],
     "slot": "19:00",
     "metrics": {
@@ -6929,8 +6980,8 @@
       "comments": 0,
       "shares": 2,
       "saved": 4,
-      "avg_watch_s": 7.1,
-      "views_last_hour": 0
+      "total_interactions": 12,
+      "avg_watch_s": 7.1
     },
     "history": [
       {
@@ -6956,6 +7007,18 @@
         "saved": 4,
         "total_interactions": 11,
         "avg_watch_s": 7.3
+      },
+      {
+        "at": "2026-11-24T15:00:18+00:00",
+        "hours": 48,
+        "views": 463,
+        "reach": 383,
+        "likes": 6,
+        "comments": 0,
+        "shares": 2,
+        "saved": 4,
+        "total_interactions": 12,
+        "avg_watch_s": 7.1
       }
     ]
   },
@@ -7730,18 +7793,19 @@
     "permalink": "https://www.instagram.com/reel/DgFYoYpiVuN/",
     "posted_at": "2026-11-23T13:30:10+00:00",
     "checked": [
-      6
+      6,
+      24
     ],
     "slot": "19:00",
     "metrics": {
-      "views": 176,
-      "reach": 151,
+      "views": 177,
+      "reach": 152,
       "likes": 3,
       "comments": 0,
       "shares": 0,
       "saved": 5,
-      "avg_watch_s": 5.2,
-      "views_last_hour": 12
+      "total_interactions": 8,
+      "avg_watch_s": 5.2
     },
     "history": [
       {
@@ -7754,6 +7818,18 @@
         "shares": 0,
         "saved": 2,
         "avg_watch_s": 4.9
+      },
+      {
+        "at": "2026-11-24T15:00:19+00:00",
+        "hours": 24,
+        "views": 177,
+        "reach": 152,
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "saved": 5,
+        "total_interactions": 8,
+        "avg_watch_s": 5.2
       }
     ]
   },
@@ -8258,18 +8334,34 @@
     "media_id": "17878176084637861",
     "permalink": "https://www.instagram.com/reel/DgHUoOsjNcV/",
     "posted_at": "2026-11-24T07:30:08+00:00",
-    "checked": [],
+    "checked": [
+      6
+    ],
     "slot": "13:00",
     "metrics": {
-      "views": 70,
-      "reach": 55,
+      "views": 85,
+      "reach": 67,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "avg_watch_s": 3.4,
-      "views_last_hour": 0
-    }
+      "total_interactions": 0,
+      "avg_watch_s": 3.7
+    },
+    "history": [
+      {
+        "at": "2026-11-24T15:00:20+00:00",
+        "hours": 6,
+        "views": 85,
+        "reach": 67,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 0,
+        "avg_watch_s": 3.7
+      }
+    ]
   },
   {
     "id": "20261124-122942-hinglish",

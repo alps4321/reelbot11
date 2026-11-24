@@ -1,6 +1,6 @@
 # ReelBot report
 
-Updated 2026-11-24T13:30:13+00:00
+Updated 2026-11-24T15:00:20+00:00
 
 Reels made: 37. Posted: 30. Measured: 28.
 
@@ -87,8 +87,8 @@ Reels made: 37. Posted: 30. Measured: 28.
 | passport_photo | 1 | 971.0 |
 | resize_image_kb | 1 | 348.0 |
 | resize_photo_kb | 1 | 325.0 |
-| id_card_print | 2 | 255.0 |
-| unlock_pdf | 2 | 231.5 |
+| id_card_print | 2 | 264.0 |
+| unlock_pdf | 3 | 204.0 |
 | pdf_to_jpg | 1 | 157.0 |
 | pdf_to_excel | 1 | 85.0 |
 | bank_statement_excel | 1 | 80.0 |
@@ -100,7 +100,7 @@ Reels made: 37. Posted: 30. Measured: 28.
 |---|---|---|
 | question | 6 | 679.3 |
 | manual | 2 | 648.0 |
-| problem | 3 | 581.3 |
+| problem | 4 | 477.8 |
 | contrarian | 1 | 348.0 |
 | story_open | 1 | 200.0 |
 | bold_claim | 1 | 157.0 |
@@ -112,7 +112,7 @@ Reels made: 37. Posted: 30. Measured: 28.
 |---|---|---|
 | what_if | 1 | 1293.0 |
 | manual | 2 | 648.0 |
-| secret_answer | 9 | 519.0 |
+| secret_answer | 10 | 483.8 |
 | discovery | 1 | 348.0 |
 | did_you_know | 1 | 200.0 |
 | myth_buster | 1 | 157.0 |
@@ -122,7 +122,7 @@ Reels made: 37. Posted: 30. Measured: 28.
 | pace | reels | avg score |
 |---|---|---|
 | natural | 4 | 400.0 |
-| brisk | 6 | 392.5 |
+| brisk | 7 | 360.3 |
 | calm | 2 | 214.0 |
 
 ## hinglish: results by distance
@@ -130,7 +130,7 @@ Reels made: 37. Posted: 30. Measured: 28.
 | distance | reels | avg score |
 |---|---|---|
 | far | 2 | 274.0 |
-| near | 8 | 163.1 |
+| near | 9 | 163.6 |
 
 ## hinglish: what the bot has learned
 
@@ -161,12 +161,12 @@ Reels made: 37. Posted: 30. Measured: 28.
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-11-24 | hinglish | id_card_print | secret_answer | Masked Aadhaar download kaise karte hain? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgH-IJBEvo4/) |
-| 2026-11-24 | english | compress_pdf_kb | discovery | Your PDF is 5 MB. The form says 200 KB. | 70 | 3.4 | 0 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgHUoOsjNcV/) |
+| 2026-11-24 | english | compress_pdf_kb | discovery | Your PDF is 5 MB. The form says 200 KB. | 85 | 3.7 | 0 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgHUoOsjNcV/) |
 | 2026-11-24 | hinglish | bank_statement_excel | secret_answer | HDFC statement PDF ka password kya hota hai? | 148 | 4.5 | 0 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/DgHJjTRjdJo/) |
-| 2026-11-23 | hinglish | unlock_pdf | secret_answer | PAN card PDF ka password kya hai? | 176 | 5.2 | 3 | 0 | 0 | 5 |  | [open](https://www.instagram.com/reel/DgFYoYpiVuN/) |
+| 2026-11-23 | hinglish | unlock_pdf | secret_answer | PAN card PDF ka password kya hai? | 177 | 5.2 | 3 | 0 | 0 | 5 | 149 | [open](https://www.instagram.com/reel/DgFYoYpiVuN/) |
 | 2026-11-23 | english | signature_bg_remover | story | Meena signed on paper at 10 PM. | 125 | 6.7 | 2 | 0 | 7 | 0 | 143 | [open](https://www.instagram.com/reel/DgEvxw4gtdv/) |
 | 2026-11-23 | hinglish | unlock_aadhaar | secret_answer | Aadhaar PDF ka password kya hota hai? | 184 | 4.4 | 1 | 0 | 0 | 0 | 132 | [open](https://www.instagram.com/reel/DgEiX6KAARc/) |
-| 2026-11-22 | hinglish | id_card_print | secret_answer | Kya Aadhaar ka print out original jitna valid hai? | 463 | 7.1 | 6 | 0 | 2 | 4 | 366 | [open](https://www.instagram.com/reel/DgC130IEonh/) |
+| 2026-11-22 | hinglish | id_card_print | secret_answer | Kya Aadhaar ka print out original jitna valid hai? | 463 | 7.1 | 6 | 0 | 2 | 4 | 384 | [open](https://www.instagram.com/reel/DgC130IEonh/) |
 | 2026-11-22 | english | resize_signature_kb | story | Ravi's signature was 2 MB. The form wanted 20 KB. | 129 | 5.8 | 1 | 0 | 0 | 0 | 91 | [open](https://www.instagram.com/reel/DgCLaSuk_Tm/) |
 | 2026-11-22 | hinglish | bank_statement_excel | secret_answer | HDFC bank statement PDF ka password kya hai? | 140 | 2.2 | 0 | 0 | 0 | 0 | 80 | [open](https://www.instagram.com/reel/DgB9aV1j1GF/) |
 | 2026-11-21 | hinglish | id_card_print | secret_answer | Masked Aadhaar kya hota hai? | 203 | 4.6 | 2 | 0 | 0 | 0 | 144 | [open](https://www.instagram.com/reel/DgAPbEXpaEb/) |

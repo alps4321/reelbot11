@@ -1,35 +1,5 @@
 {
   "learned": {
-    "everyday_analogy_explainer": {
-      "description": "Narrate a tiny story where a character's file problem is explained with one everyday comparison (such as a water tank or a suitcase). Then escalate with 'what if it had been worse?' before the fix.",
-      "from": "https://www.instagram.com/reel/Df19Smbv_6d/",
-      "hook_pattern": "Even [a giant] was [hit/caught out] in one day, and nobody noticed. Here is how it happened and what you should do.",
-      "added": "2026-11-22T04:33:40+00:00"
-    },
-    "relatable_roast_reassure": {
-      "description": "Have a recurring character tease a classmate for a small file panic, then reassure them that everyone has been stuck there and show the one-tap fix.",
-      "from": "https://www.instagram.com/reel/Df4jniBzAZz/",
-      "hook_pattern": "Oh, you look like you don't know [what students always worry about]. Everybody was once confused.",
-      "added": "2026-11-22T04:33:40+00:00"
-    },
-    "upcoming_lineup_countdown": {
-      "description": "Have the narrator count down 3 to 4 named things (tool names or file types) in quick, punchy beats. Each beat gets its own panel showing the name and one outcome, and the last beat is the best one.",
-      "from": "https://www.instagram.com/reel/Df7Bhxgxd0y/",
-      "hook_pattern": "Upcoming [thing everyone wants]: the N names you should know about, share with someone who is about to buy",
-      "added": "2026-11-22T12:00:19+00:00"
-    },
-    "fine_print_reveal": {
-      "description": "Have the character get excited about a too-good claim. Then the narrator reveals the fine-print catch on a panel, and the story ends with an honest verdict on who it is really for.",
-      "from": "https://www.instagram.com/reel/DfXRUwZPHdg/",
-      "hook_pattern": "[Hyped offer] honest review: what the headline hides",
-      "added": "2026-11-22T12:00:19+00:00"
-    },
-    "hidden_features_rapid_list": {
-      "description": "Have the narrator reveal tiny hidden things one tool can do, each in a single quick beat on screen, with the character reacting with surprise each time.",
-      "from": "https://www.instagram.com/reel/Df7NsrfPzI2/",
-      "hook_pattern": "[Thing you use] has hidden features you didn't know about",
-      "added": "2026-11-22T12:00:19+00:00"
-    },
     "old_vs_new_surprise": {
       "description": "Have the narrator compare the old, painful way of doing a task with the new easy way. Show the old way as a clumsy 3D scene and the new way as a clean one, with a short reaction caption at the start.",
       "from": "https://www.instagram.com/reel/Df6f9VNvE_7/",
@@ -59,6 +29,36 @@
       "from": "https://www.instagram.com/reel/DgFT6_whi4Z/",
       "hook_pattern": "This [ordinary-looking thing] hides [something valuable] and nobody can get in",
       "added": "2026-11-23T13:42:19+00:00"
+    },
+    "proof_shots_showcase": {
+      "description": "Open by promising what the tool can do, then have the narrator walk through two or three before/after result panels (file size drops, a clean output) while the low-poly character reacts to each one.",
+      "from": "https://www.instagram.com/reel/DgFtl6tMhGQ/",
+      "hook_pattern": "Watch what [product] can capture, then the proof shots roll",
+      "added": "2026-11-24T04:29:50+00:00"
+    },
+    "hot_take_problem_callout": {
+      "description": "Have the narrator name one annoying, familiar form problem as a mini complaint, show the error panel on screen, then let the character fix it in one step.",
+      "from": "https://www.instagram.com/reel/Df7PMbfvefK/",
+      "hook_pattern": "[Famous thing] needs fixing, here is the problem",
+      "added": "2026-11-24T04:29:50+00:00"
+    },
+    "choices_change_stats": {
+      "description": "Show a stats panel (file size, quality, pages) and have the narrator explain how each small choice by the character changes the numbers, with cause and effect in two steps.",
+      "from": "https://www.instagram.com/reel/Df7PCokPZUL/",
+      "hook_pattern": "What you do here changes everything, look at the stats",
+      "added": "2026-11-24T04:29:50+00:00"
+    },
+    "aspirant_pride_moment": {
+      "description": "Tell a tiny emotional story of an aspirant who is close to their dream and is stopped by a small file problem, then solved by the tool, with the narrator keeping a warm, steady tone.",
+      "from": "https://www.instagram.com/reel/DfzAdLTMCCD/",
+      "hook_pattern": "[Identity line] is in our blood",
+      "added": "2026-11-24T04:29:50+00:00"
+    },
+    "struggle_to_win_story": {
+      "description": "Narrate a short two-struggle story where the character is under pressure from a deadline and a problem, and the tool is the quiet turning point that lets them submit the form.",
+      "from": "https://www.instagram.com/reel/Df36hwyBVcp/",
+      "hook_pattern": "While [hardship A] was happening, [person] was fighting [hardship B]",
+      "added": "2026-11-24T04:29:50+00:00"
     }
   }
 }

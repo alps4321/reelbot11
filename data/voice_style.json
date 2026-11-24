@@ -1,24 +1,6 @@
 {
   "samples": [
     {
-      "wps": 3.88,
-      "pause_s": 15.74,
-      "lang": "hi",
-      "per_k": 36.4
-    },
-    {
-      "wps": 3.22,
-      "pause_s": 0.32,
-      "lang": "en",
-      "per_k": 27.9
-    },
-    {
-      "wps": 1.01,
-      "pause_s": 0.78,
-      "lang": "hi",
-      "per_k": 27.4
-    },
-    {
       "wps": 4.22,
       "pause_s": 0.0,
       "lang": "en",
@@ -239,10 +221,28 @@
       "pause_s": 9.58,
       "lang": "hi",
       "per_k": 0.7
+    },
+    {
+      "wps": 3.38,
+      "pause_s": 0.0,
+      "lang": "hi",
+      "per_k": 15.8
+    },
+    {
+      "wps": 3.4,
+      "pause_s": 0.0,
+      "lang": "hi",
+      "per_k": 0.6
+    },
+    {
+      "wps": 2.19,
+      "pause_s": 0.36,
+      "lang": "hi",
+      "per_k": 0.6
     }
   ],
-  "notes": "The best speaker here moves fast at about 3.9 words/s with almost no pauses, using one-line proof statements ('Trust me, I tried') and a punchy verdict to stay engaging. Keep the energy up and put emphasis on the reveal word, so that the key line lands before the next beat begins.",
-  "updated": "2026-11-23T13:42:19+00:00",
-  "words_per_second": 3.16,
-  "pause_s": 0.45
+  "notes": "The strongest speakers open on the first word with no lead-in and keep a quick, excited pace of around 3.4 words per second, then slow down to about 2.2 words per second on the cause-and-effect lines. They stress the key number or result and talk in a casual 'bhai' tone.",
+  "updated": "2026-11-24T04:29:50+00:00",
+  "words_per_second": 3.24,
+  "pause_s": 0.33
 }

@@ -1,76 +1,6 @@
 [
   {
     "tool": "compress_pdf_kb",
-    "format": "big_news_number",
-    "hook_en": "Big news for students: your 5 MB PDF can be under 200 KB and still readable.",
-    "hook_hinglish": "Students ke liye badi khabar: aapka 5 MB ka PDF 200 KB se kam ho sakta hai, aur padhne mein bilkul clear.",
-    "angle": "A character is stuck at a portal showing 'file too large, max 200 KB', then the tool shrinks the file and the success panel turns green.",
-    "from": "https://www.instagram.com/reel/DfmZpjDy8P0/",
-    "added": "2026-11-18T03:53:02+00:00",
-    "used": 0
-  },
-  {
-    "tool": "resize_signature_kb",
-    "format": "twist_one_twist_two",
-    "hook_en": "Your signature photo keeps getting rejected? This tool has two twists.",
-    "hook_hinglish": "Signature ka photo baar baar reject ho raha hai? Is tool mein do twist hain.",
-    "angle": "Twist one: it cuts the signature down to 10-20 KB. Twist two: it takes away the paper background so the form accepts it.",
-    "from": "https://www.instagram.com/reel/Dfq8C5WxXUd/",
-    "added": "2026-11-18T03:53:02+00:00",
-    "used": 0
-  },
-  {
-    "tool": "passport_photo",
-    "format": "one_tool_many_jobs",
-    "hook_en": "One photo from your phone is enough for your exam form, your ID and your job application.",
-    "hook_hinglish": "Phone ka ek hi photo exam form, ID aur job application, teeno ke liye kaafi hai.",
-    "angle": "A job seeker makes one passport photo and fits it to three forms with different sizes, one 'plus' at a time, ending on a success panel.",
-    "from": "https://www.instagram.com/reel/DfUqT2FzWU4/",
-    "added": "2026-11-18T03:53:02+00:00",
-    "used": 0
-  },
-  {
-    "tool": "merge_pdf",
-    "format": "regret_conversation",
-    "hook_en": "I uploaded 7 separate files, and the form only took one.",
-    "hook_hinglish": "Maine 7 alag files upload ki thi, aur form sirf ek file leta tha.",
-    "angle": "Two friends talk on a bench. One admits he sent files one by one and missed the deadline, then merges them into one PDF in seconds.",
-    "from": "https://www.instagram.com/reel/DfKfvaTP0Ka/",
-    "added": "2026-11-18T03:53:02+00:00",
-    "used": 0
-  },
-  {
-    "tool": "unlock_aadhaar",
-    "format": "danger_zone_demo",
-    "hook_en": "Your Aadhaar PDF won't open, and these 2 signals tell you why.",
-    "hook_hinglish": "Aapka Aadhaar PDF nahi khul raha, aur ye 2 signal bata dete hain kyun.",
-    "angle": "A character sees a password prompt (signal one) and a wrong-password error (signal two), then follows the tool to unlock the PDF.",
-    "from": "https://www.instagram.com/reel/DetQBp8y6Vf/",
-    "added": "2026-11-18T03:53:02+00:00",
-    "used": 0
-  },
-  {
-    "tool": "pdf_to_word",
-    "format": "two_vs_three_upgrade",
-    "hook_en": "Everyone retypes a PDF in 2 hours. Here's how it takes 2 minutes.",
-    "hook_hinglish": "Sab PDF ko 2 ghante mein dobara type karte hain. Yahan 2 minute mein hota hai.",
-    "angle": "A junior is typing a resume off a PDF. A friend shows the conversion, and a clock panel compares the time saved.",
-    "from": "https://www.instagram.com/reel/DfcGb42tV3r/",
-    "added": "2026-11-18T03:53:02+00:00",
-    "used": 1
-  },
-  {
-    "tool": "resize_photo_kb",
-    "format": "deadline_story",
-    "hook_en": "The form closes tonight and the photo must be 20-50 KB. Here's what I did.",
-    "hook_hinglish": "Aaj raat form band ho raha hai aur photo 20-50 KB ka chahiye. Maine ye kiya.",
-    "angle": "A student races a ticking clock with a 2 MB photo, then resizes it to 38 KB and submits just in time. Save this for your next form.",
-    "from": "https://www.instagram.com/reel/DfmZpjDy8P0/",
-    "added": "2026-11-18T03:53:02+00:00",
-    "used": 0
-  },
-  {
-    "tool": "compress_pdf_kb",
     "format": "smallest_in_the_world_proof",
     "hook_en": "This is the smallest your PDF can get, and it still reads perfectly.",
     "hook_hinglish": "Aapki PDF itni choti ho sakti hai, aur phir bhi ekdum saaf padhi jaati hai.",
@@ -797,6 +727,76 @@
     "angle": "A character holds a pile of scattered marksheets, ID and photo. Panels show them joining into one tidy PDF, with a quick rundown of what goes in.",
     "from": "https://www.instagram.com/reel/DgFT6_whi4Z/",
     "added": "2026-11-23T13:42:19+00:00",
+    "used": 0
+  },
+  {
+    "tool": "resize_photo_kb",
+    "format": "proof_shots_showcase",
+    "hook_en": "This photo was 3 MB. The form wanted 50 KB. Watch.",
+    "hook_hinglish": "Photo 3 MB ki thi, form ko chahiye sirf 50 KB. Dekho kya hua.",
+    "angle": "A character's photo keeps getting rejected by the exam portal; the tool brings it to 20-50 KB and the green success panel shows the size.",
+    "from": "https://www.instagram.com/reel/DgFtl6tMhGQ/",
+    "added": "2026-11-24T04:29:50+00:00",
+    "used": 0
+  },
+  {
+    "tool": "resize_signature_kb",
+    "format": "hot_take_problem_callout",
+    "hook_en": "Why does every form reject your signature? It is not you, it is the size.",
+    "hook_hinglish": "Har form signature reject kyun karta hai? Galti tumhari nahi, size ki hai.",
+    "angle": "A job seeker gets the 'signature too large' error three times; the narrator calls it out and the character fixes it to 10-20 KB.",
+    "from": "https://www.instagram.com/reel/Df7PMbfvefK/",
+    "added": "2026-11-24T04:29:50+00:00",
+    "used": 0
+  },
+  {
+    "tool": "compress_pdf_kb",
+    "format": "choices_change_stats",
+    "hook_en": "One small choice, and your PDF drops from 5 MB to 200 KB.",
+    "hook_hinglish": "Ek chhota sa choice, aur tumhari PDF 5 MB se 200 KB ho jaati hai.",
+    "angle": "A stats panel shows size and quality; the character picks a compress level and the numbers change, so the upload finally goes through.",
+    "from": "https://www.instagram.com/reel/Df7PCokPZUL/",
+    "added": "2026-11-24T04:29:50+00:00",
+    "used": 0
+  },
+  {
+    "tool": "merge_pdf",
+    "format": "hidden_features_rapid_list",
+    "hook_en": "3 things about Merge PDF nobody tells you.",
+    "hook_hinglish": "Merge PDF ki 3 baatein jo koi nahi batata.",
+    "angle": "The character merges marksheets and ID into one file, and the narrator lists three quick tricks: reorder, delete a page and check the size.",
+    "from": "https://www.instagram.com/reel/DgFVjsYxVhi/",
+    "added": "2026-11-24T04:29:50+00:00",
+    "used": 0
+  },
+  {
+    "tool": "unlock_aadhaar",
+    "format": "aspirant_pride_moment",
+    "hook_en": "Her dream was one form away, and the Aadhaar PDF would not open.",
+    "hook_hinglish": "Sapna bas ek form door tha, aur Aadhaar PDF khul hi nahi rahi thi.",
+    "angle": "An aspirant on the last day of an exam form cannot open the password-locked Aadhaar PDF; the tool unlocks it and she submits in time.",
+    "from": "https://www.instagram.com/reel/DfzAdLTMCCD/",
+    "added": "2026-11-24T04:29:50+00:00",
+    "used": 0
+  },
+  {
+    "tool": "passport_photo",
+    "format": "struggle_to_win_story",
+    "hook_en": "Shop wanted 100 rupees for a passport photo. She made it free in a minute.",
+    "hook_hinglish": "Shop wale ne passport photo ke 100 rupaye maange. Usne ek minute mein free bana li.",
+    "angle": "A student is short on money and time before an interview, and makes a correctly sized passport photo on the site.",
+    "from": "https://www.instagram.com/reel/Df36hwyBVcp/",
+    "added": "2026-11-24T04:29:50+00:00",
+    "used": 0
+  },
+  {
+    "tool": "pdf_to_word",
+    "format": "proof_shots_showcase",
+    "hook_en": "A locked-looking PDF, turned into an editable Word file in seconds. Look at the result.",
+    "hook_hinglish": "PDF jaisi lock dikhne wali file, seconds mein editable Word ban gayi. Result dekho.",
+    "angle": "The character needs to fix a typo in a PDF résumé, converts it, and the panels show the before and after.",
+    "from": "https://www.instagram.com/reel/DgFtl6tMhGQ/",
+    "added": "2026-11-24T04:29:50+00:00",
     "used": 0
   }
 ]

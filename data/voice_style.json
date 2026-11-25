@@ -1,18 +1,6 @@
 {
   "samples": [
     {
-      "wps": 2.77,
-      "pause_s": 15.59,
-      "lang": "hi",
-      "per_k": 2.3
-    },
-    {
-      "wps": 3.05,
-      "pause_s": 0.31,
-      "lang": "en",
-      "per_k": 17.9
-    },
-    {
       "wps": 4.01,
       "pause_s": 0.0,
       "lang": "en",
@@ -239,10 +227,22 @@
       "pause_s": 0.61,
       "lang": "hi",
       "per_k": 0.6
+    },
+    {
+      "wps": 2.39,
+      "pause_s": 4.82,
+      "lang": "hi",
+      "per_k": 0.5
+    },
+    {
+      "wps": 4.06,
+      "pause_s": 0.0,
+      "lang": "hi",
+      "per_k": 0.3
     }
   ],
-  "notes": "The best speakers keep a fast pace of around 3.5 words per second with very short pauses, and put the emphasis on the surprise words ('never', 'even', 'instantly'). They state the payoff early and use short sentences to keep the energy up.",
-  "updated": "2026-11-24T14:18:49+00:00",
+  "notes": "The fastest speaker here keeps a continuous pace of about 4 words per second with no pauses, and the slower one uses long pauses before bursts of excitement. For our narration, I'd use a brisk pace and stress the number, deadline or size limit on each beat. I'd also leave a short pause before the fix.",
+  "updated": "2026-11-25T04:31:55+00:00",
   "words_per_second": 3.38,
   "pause_s": 0.32
 }

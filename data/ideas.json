@@ -1,76 +1,6 @@
 [
   {
     "tool": "compress_pdf_kb",
-    "format": "one_tool_many_jobs",
-    "hook_en": "Here's how one free tool shrinks your PDF for every form, forever.",
-    "hook_hinglish": "Ek free tool, aur aapka PDF har form ke liye chhota ho jayega, hamesha.",
-    "angle": "A 3D student gets 'file too large' errors on three different exam portals. Each time the same Compress PDF tool fixes it, and the panel shows the size going from 4 MB to 180 KB.",
-    "from": "https://www.instagram.com/reel/De4TOynyEiV/",
-    "added": "2026-11-19T04:36:05+00:00",
-    "used": 0
-  },
-  {
-    "tool": "resize_signature_kb",
-    "format": "smallest_in_the_world_proof",
-    "hook_en": "This tiny signature file is the only one you'll ever need for forms.",
-    "hook_hinglish": "Yeh chhoti si signature file hi aapko har form mein chahiye hogi.",
-    "angle": "A 3D job seeker's signature is rejected for being too big. It is resized to 15 KB in one shot, and the panel shows the size and a green accepted tick.",
-    "from": "https://www.instagram.com/reel/DfcRcwUS5m2/",
-    "added": "2026-11-19T04:36:05+00:00",
-    "used": 0
-  },
-  {
-    "tool": "resize_photo_kb",
-    "format": "deadline_story",
-    "hook_en": "Form closes in 10 minutes and your photo is 3 MB. Watch this.",
-    "hook_hinglish": "Form 10 minute mein band hoga aur photo 3 MB ki hai. Ab dekho.",
-    "angle": "A 3D character races a countdown clock, gets a 'photo must be 20-50 KB' error, resizes it, and submits with seconds left.",
-    "from": "https://www.instagram.com/reel/Df40tzltyb6/",
-    "added": "2026-11-19T04:36:05+00:00",
-    "used": 0
-  },
-  {
-    "tool": "unlock_aadhaar",
-    "format": "twist_one_twist_two",
-    "hook_en": "Your Aadhaar PDF opens only with a password, and most people don't know what it is.",
-    "hook_hinglish": "Aadhaar PDF sirf password se khulta hai, aur zyada log yeh password jaante hi nahi.",
-    "angle": "A 3D character is stuck at a locked Aadhaar PDF. Twist one: the password is simple. Twist two: Unlock Aadhaar PDF removes it for good.",
-    "from": "https://www.instagram.com/reel/DfJPwjExay4/",
-    "added": "2026-11-19T04:36:05+00:00",
-    "used": 0
-  },
-  {
-    "tool": "merge_pdf",
-    "format": "big_news_number",
-    "hook_en": "7 documents, 1 upload slot. Here's how to fit them all.",
-    "hook_hinglish": "7 documents aur sirf 1 upload slot. Sab kaise fit karein, dekho.",
-    "angle": "A 3D character has seven separate certificates but the portal accepts one file. Merge PDF combines them, and the panel shows 7 files becoming 1.",
-    "from": "https://www.instagram.com/reel/De4TOynyEiV/",
-    "added": "2026-11-19T04:36:05+00:00",
-    "used": 0
-  },
-  {
-    "tool": "passport_photo",
-    "format": "i_tested_n_so_you_dont_have_to",
-    "hook_en": "I tried making a passport photo at home so you don't have to pay the studio.",
-    "hook_hinglish": "Maine ghar pe passport photo banayi taaki aapko studio ke paise na dene padein.",
-    "angle": "A 3D character tests a selfie in the Passport Photo Maker. The panel shows the size and white-background check, ending in a pass.",
-    "from": "https://www.instagram.com/reel/Df4cJbESTA1/",
-    "added": "2026-11-19T04:36:05+00:00",
-    "used": 0
-  },
-  {
-    "tool": "bank_statement_excel",
-    "format": "explainer",
-    "hook_en": "Your bank statement is a PDF, but you need it in Excel. Here's the quick way.",
-    "hook_hinglish": "Bank statement PDF mein hai, par Excel chahiye. Yeh raha aasaan tareeka.",
-    "angle": "A 3D character struggles to copy rows from a PDF statement, then the Bank Statement Converter turns it into a clean sheet in one step.",
-    "from": "https://www.instagram.com/reel/DfJPwjExay4/",
-    "added": "2026-11-19T04:36:05+00:00",
-    "used": 0
-  },
-  {
-    "tool": "compress_pdf_kb",
     "format": "too_good_to_be_legal_reveal",
     "hook_en": "This free site should not exist. Watch a 4 MB PDF drop under 200 KB.",
     "hook_hinglish": "Ye free site toh exist hi nahi karni chahiye. 4 MB ka PDF 200 KB se neeche aa gaya.",
@@ -797,6 +727,76 @@
     "angle": "The narrator calls out retyping as wasted time while a character types for hours. The PDF becomes a table in seconds.",
     "from": "https://www.instagram.com/reel/DgHbYIwRC3K/",
     "added": "2026-11-24T14:18:49+00:00",
+    "used": 0
+  },
+  {
+    "tool": "resize_photo_kb",
+    "format": "deadline_story",
+    "hook_en": "The form closes tonight. Your photo is 2 MB and the limit is 50 KB.",
+    "hook_hinglish": "Form aaj raat band hoga, photo 2 MB ki hai aur limit 50 KB hai.",
+    "angle": "A student's upload keeps failing on the last night. The tool shrinks the photo to 20-50 KB and the form goes through.",
+    "from": "https://www.instagram.com/reel/DfwalieuXd3/",
+    "added": "2026-11-25T04:31:55+00:00",
+    "used": 0
+  },
+  {
+    "tool": "compress_pdf_kb",
+    "format": "live_alert_urgency",
+    "hook_en": "Upload failed: file too large. Fix it before the window closes.",
+    "hook_hinglish": "Upload fail: file bahut badi hai. Window band hone se pehle fix karo.",
+    "angle": "A red error panel counts down. The PDF is compressed to under the KB limit and the success panel appears.",
+    "from": "https://www.instagram.com/reel/DfOqoiwRWEi/",
+    "added": "2026-11-25T04:31:55+00:00",
+    "used": 0
+  },
+  {
+    "tool": "unlock_aadhaar",
+    "format": "aspirant_pride_moment",
+    "hook_en": "Mom stood in line for your Aadhaar. Don't get stuck on its password.",
+    "hook_hinglish": "Maa ne line mein lagke Aadhaar banwaya, ab password pe mat atko.",
+    "angle": "A student can't open the locked Aadhaar PDF and the mother looks worried. The tool unlocks it, the form is submitted, and the family is proud.",
+    "from": "https://www.instagram.com/reel/DgEweR8AUql/",
+    "added": "2026-11-25T04:31:55+00:00",
+    "used": 0
+  },
+  {
+    "tool": "merge_pdf",
+    "format": "numbered_free_tools_showcase",
+    "hook_en": "3 documents every form asks for, and one tool to join them.",
+    "hook_hinglish": "Har form mein 3 documents lagte hain, aur unhe jodne ka ek hi tool hai.",
+    "angle": "The narrator counts the marksheet, ID and photo. Each one drops into the Merge PDF panel and becomes a single file.",
+    "from": "https://www.instagram.com/reel/Df9eEpjPHJM/",
+    "added": "2026-11-25T04:31:55+00:00",
+    "used": 0
+  },
+  {
+    "tool": "resize_signature_kb",
+    "format": "hot_take_problem_callout",
+    "hook_en": "Your signature is the reason your form got rejected.",
+    "hook_hinglish": "Aapke signature ki wajah se form reject hota hai.",
+    "angle": "The character's form is rejected for a signature that is too big. The tool resizes it to 10-20 KB and the form is accepted.",
+    "from": "https://www.instagram.com/reel/DfSDY7XPB70/",
+    "added": "2026-11-25T04:31:55+00:00",
+    "used": 0
+  },
+  {
+    "tool": "bank_statement_excel",
+    "format": "what_if",
+    "hook_en": "What if your bank statement PDF turned into Excel in one click?",
+    "hook_hinglish": "Agar aapka bank statement PDF ek click mein Excel ban jaye toh?",
+    "angle": "A student copies rows by hand for hours. Then the tool shows the same statement as a clean sheet in seconds.",
+    "from": "https://www.instagram.com/reel/Df7OT-FPOkc/",
+    "added": "2026-11-25T04:31:55+00:00",
+    "used": 0
+  },
+  {
+    "tool": "passport_photo",
+    "format": "instant_demo_cold_open",
+    "hook_en": "Passport photo, ready in 10 seconds. No studio.",
+    "hook_hinglish": "Passport photo 10 second mein ready, studio ki zaroorat nahi.",
+    "angle": "The reel opens on the finished photo, then rewinds to show the messy selfie that became it.",
+    "from": "https://www.instagram.com/reel/Df9eEpjPHJM/",
+    "added": "2026-11-25T04:31:55+00:00",
     "used": 0
   }
 ]

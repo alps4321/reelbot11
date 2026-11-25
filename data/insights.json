@@ -1,97 +1,5 @@
 [
   {
-    "at": "2026-11-19T04:36:05+00:00",
-    "permalink": "https://www.instagram.com/reel/DfcRcwUS5m2/",
-    "why": "One tiny object solves one clear problem, and the video shows the problem being solved in a single shot. It is short (23 s) with no pauses, so it is easy to watch to the end and replay.",
-    "hook_pattern": "This little [thing] is the only [category] you will ever need",
-    "structure": [
-      "Claim: the only one you need",
-      "Show the problem in use (smoke, red eyes)",
-      "Show the product fixing it",
-      "Small practical detail (battery, off switch)",
-      "Share with someone who has this habit"
-    ],
-    "visual": "Bright teal product close-ups, a creator sitting casually on a bed, and the same subtitle style with highlighted words.",
-    "speaking": "Quick (4.3 words per second), no pauses, relaxed and chatty, with casual slang."
-  },
-  {
-    "at": "2026-11-19T04:36:05+00:00",
-    "permalink": "https://www.instagram.com/reel/Df4cJbESTA1/",
-    "why": "'First Indian to...' sets up exclusivity and national pride around a hot topic (GTA 6). The reel starts with a 4.5 s silent gap, which makes viewers wait for what comes next.",
-    "hook_pattern": "First [nationality or person] to [try the hot new thing]",
-    "structure": [
-      "Exclusivity claim in the title",
-      "Visual evidence of the thing",
-      "Slow reaction",
-      "Payoff"
-    ],
-    "visual": "Real footage of the person with the game, a cheering crowd, and emoji titles.",
-    "speaking": "Slow (1.4 words per second) with a long silent start. The transcript is unreliable, so treat this as low confidence."
-  },
-  {
-    "at": "2026-11-19T04:36:05+00:00",
-    "permalink": "https://www.instagram.com/reel/Df40tzltyb6/",
-    "why": "It ties into an event everyone is talking about and shows a live progress number (58%, 200 GB, under 29 minutes). The progress bar creates a built-in 'will it finish?' tension.",
-    "hook_pattern": "Let me show you something very exciting happening right now: [live progress number]",
-    "structure": [
-      "Tease something exciting",
-      "Show the live progress and the numbers",
-      "Explain what the numbers mean",
-      "Warn about a common mistake, with a personal habit",
-      "Nostalgia or a community sign-off"
-    ],
-    "visual": "A home-cinema setting with the presenter in the shot and a download screen with big numbers.",
-    "speaking": "Conversational Hinglish at about 3.3 words per second, with a slightly breathless, excited tone."
-  },
-  {
-    "at": "2026-11-19T04:36:05+00:00",
-    "permalink": "https://www.instagram.com/reel/DfJPwjExay4/",
-    "why": "It promises exactly one killer feature up front, then holds back that feature while listing smaller perks, so viewers stay for the reveal. The unplug demo is a simple proof that is easy to remember.",
-    "hook_pattern": "The ONLY [product] with 1 unique feature",
-    "structure": [
-      "Promise one killer feature",
-      "List attractive smaller perks to build anticipation",
-      "Reveal the killer feature with a demo (unplug test)",
-      "Explain why it matters in real life",
-      "Price or value comparison",
-      "Call to action"
-    ],
-    "visual": "Moody, warm product shots, a presenter's reaction, and the same highlighted bottom subtitles.",
-    "speaking": "Measured (about 3.2 words per second), with a clear 'but here's the killer feature' turn in the middle."
-  },
-  {
-    "at": "2026-11-19T12:13:46+00:00",
-    "permalink": "https://www.instagram.com/reel/Df6-BE8hk3q/",
-    "why": "The first line is a bold 'this should be illegal' claim that creates curiosity. Each following sentence then reveals one more surprising ability (answers, offline translation, camera, handwritten calculator) in a fast, steady run. The viewer keeps waiting for the next trick.",
-    "hook_pattern": "This [ordinary thing] should be illegal, they should not be selling this",
-    "structure": [
-      "Forbidden-feeling claim about an ordinary-looking object",
-      "Show the disguise: it looks like a normal pen",
-      "Trick 1: the core action gives an instant answer",
-      "Trick 2: works offline and translates",
-      "Trick 3: camera and gallery",
-      "Trick 4: the final surprise, a handwritten calculator"
-    ],
-    "visual": "A close-up demo of the gadget in hand, with the screen result shown right after each action.",
-    "speaking": "Fast, almost 4.3 words per second, with no pauses. Excited and conspiratorial, with a 'crazy part is' escalation mid-way."
-  },
-  {
-    "at": "2026-11-19T12:13:46+00:00",
-    "permalink": "https://www.instagram.com/reel/DfAGcfCS0mv/",
-    "why": "A head-to-head comparison where each round has one clear winner and a concrete number (grams, rupees, repair cost). The price gap lands last, and the viewer has the whole video to anticipate it. Humour ('righties, lefties, swifties') keeps the 80 seconds light.",
-    "hook_pattern": "Time for [A] versus [B]. Let's go. First, the [metric].",
-    "structure": [
-      "Announce the matchup",
-      "Round 1: weight",
-      "Round 2: multitasking",
-      "Round 3: app compatibility, with a joke",
-      "Round 4: inclusivity",
-      "Final round: price gap, then the surprise repair cost"
-    ],
-    "visual": "Side-by-side shots of both products with a number overlay for each round.",
-    "speaking": "Brisk, around 3.6 words per second, with short pauses before the numbers. Playful, and the biggest number comes last."
-  },
-  {
     "at": "2026-11-19T12:13:46+00:00",
     "permalink": "https://www.instagram.com/reel/DfPZAo5TDed/",
     "why": "It opens with 'good news' and names the audience groups. It gives a concrete saving (40%) and prices up front, then two relatable reasons (dual SIM, grandparents). A share-with-family CTA closes it.",
@@ -876,5 +784,89 @@
     ],
     "visual": "Promotional graphics with text and no narration.",
     "speaking": "No speech. For us, use a firm, urgent narrator."
+  },
+  {
+    "at": "2026-11-25T04:31:55+00:00",
+    "permalink": "https://www.instagram.com/reel/DfOqoiwRWEi/",
+    "why": "It pairs a hot product with a concrete price payoff ('lowest price') and a timely reason to act (Diwali). The caption also asks viewers to share it with people who are about to buy. Speech and frames weren't available, so this is read from the caption alone.",
+    "hook_pattern": "[Hot thing] at its lowest price ever, and the reason to act is a deadline everyone shares",
+    "structure": [
+      "Name the desirable thing with a bold price claim",
+      "Show the price or deal proof on screen",
+      "Give the seasonal reason to act now",
+      "Ask viewers to share it with the person who needs it"
+    ],
+    "visual": "Not visible. The caption suggests a product hero shot with large price text.",
+    "speaking": "Not available. Likely fast and excited, with the price stressed."
+  },
+  {
+    "at": "2026-11-25T04:31:55+00:00",
+    "permalink": "https://www.instagram.com/reel/DgEweR8AUql/",
+    "why": "It leads with an emotional sentence about a mother's sacrifice for her child's dream, aimed at aspirants. It sets up identification and pride before any promotion. Speech wasn't available, so this is based on the caption.",
+    "hook_pattern": "A parent gives up [something] but can't watch your dream break",
+    "structure": [
+      "Open on the sacrifice line",
+      "Show the aspirant's struggle moment",
+      "Show the small win the sacrifice made possible",
+      "Point to the full story elsewhere"
+    ],
+    "visual": "Not visible. The caption suggests a documentary or emotional scene with a text overlay.",
+    "speaking": "Not available. Likely slow, warm and soft."
+  },
+  {
+    "at": "2026-11-25T04:31:55+00:00",
+    "permalink": "https://www.instagram.com/reel/DfwalieuXd3/",
+    "why": "It uses a hard deadline ('last day') and a concrete incentive, which makes people act now. It is a plain sale reel, and it got average views.",
+    "hook_pattern": "Last day to get [benefit]. Don't miss it",
+    "structure": [
+      "Say it's the last day",
+      "State the benefit",
+      "Show how to claim it",
+      "Repeat the urgency"
+    ],
+    "visual": "Not visible. Probably bold sale text and a promo graphic.",
+    "speaking": "Not available. Likely quick and urgent."
+  },
+  {
+    "at": "2026-11-25T04:31:55+00:00",
+    "permalink": "https://www.instagram.com/reel/Df9eEpjPHJM/",
+    "why": "It gives a quick rule or tip in a few steps and hooks on the word 'crazy'. The speech is fast, about 4 words per second, with no pauses, so it feels dense and useful. The transcript is garbled, so this is a partial read.",
+    "hook_pattern": "[Thing] is crazy: keep 2-3 things in [place] for safety",
+    "structure": [
+      "Hook with a 'crazy' claim",
+      "Give the rule of 2-3 items",
+      "Explain each with a reason",
+      "Close on what it protects you from"
+    ],
+    "visual": "Not visible. Likely gameplay footage with a caption.",
+    "speaking": "Fast, continuous, no pauses, casual Hindi."
+  },
+  {
+    "at": "2026-11-25T04:31:55+00:00",
+    "permalink": "https://www.instagram.com/reel/Df7OT-FPOkc/",
+    "why": "It lists 'insane things' as a stream of surprising details, so every few seconds gives a new reason to keep watching. The transcript is garbled and the engagement was low.",
+    "hook_pattern": "[Popular thing]: insane things you didn't know",
+    "structure": [
+      "Tease insane things",
+      "Show detail after detail",
+      "Give a reaction to each",
+      "End on a last surprise"
+    ],
+    "visual": "Not visible. Likely fast cuts of gameplay.",
+    "speaking": "Slow, with long pauses of about 5 seconds, then bursts of excitement."
+  },
+  {
+    "at": "2026-11-25T04:31:55+00:00",
+    "permalink": "https://www.instagram.com/reel/DfSDY7XPB70/",
+    "why": "It uses a 'line lagne wali hai' (queue about to form) hook and promises a short list of 5 things to watch. It has low reach because the account is small. The list format and the keyword-rich caption still help.",
+    "hook_pattern": "[Month] means [big thing] is coming. Here are 5 to watch before you [decide]",
+    "structure": [
+      "Hook on the coming rush",
+      "List 5 items",
+      "Say why each matters",
+      "Tell viewers to wait before buying"
+    ],
+    "visual": "Not visible. Likely a product list with graphics.",
+    "speaking": "Not available. Likely brisk and list-driven."
   }
 ]

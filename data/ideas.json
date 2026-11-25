@@ -547,7 +547,7 @@
     "angle": "A character shares a resume PDF with personal details. Narration adds a password and answers 'what if someone forwards it?' and 'what if I forget the password?'.",
     "from": "https://www.instagram.com/reel/DgFT6_whi4Z/",
     "added": "2026-11-23T13:42:19+00:00",
-    "used": 0
+    "used": 1
   },
   {
     "tool": "redact_pdf",

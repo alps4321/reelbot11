@@ -2324,7 +2324,8 @@
       24,
       48,
       72,
-      120
+      120,
+      168
     ],
     "metrics": {
       "views": 1332,
@@ -2393,6 +2394,17 @@
         "shares": 0,
         "saved": 13,
         "total_interactions": 22,
+        "avg_watch_s": 9.2
+      },
+      {
+        "at": "2026-11-25T04:27:01+00:00",
+        "hours": 168,
+        "views": 1332,
+        "reach": 1114,
+        "likes": 7,
+        "comments": 2,
+        "shares": 0,
+        "saved": 13,
         "avg_watch_s": 9.2
       }
     ]
@@ -6373,7 +6385,8 @@
     "checked": [
       6,
       24,
-      48
+      48,
+      72
     ],
     "slot": "11:00",
     "metrics": {
@@ -6383,8 +6396,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "avg_watch_s": 2.2,
-      "views_last_hour": 0
+      "total_interactions": 0,
+      "avg_watch_s": 2.2
     },
     "history": [
       {
@@ -6414,6 +6427,18 @@
       {
         "at": "2026-11-24T06:28:07+00:00",
         "hours": 48,
+        "views": 140,
+        "reach": 123,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 0,
+        "avg_watch_s": 2.2
+      },
+      {
+        "at": "2026-11-25T06:29:07+00:00",
+        "hours": 72,
         "views": 140,
         "reach": 123,
         "likes": 0,
@@ -7240,7 +7265,8 @@
     "posted_at": "2026-11-23T05:30:11+00:00",
     "checked": [
       6,
-      24
+      24,
+      48
     ],
     "slot": "11:00",
     "metrics": {
@@ -7250,8 +7276,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "avg_watch_s": 4.4,
-      "views_last_hour": 0
+      "total_interactions": 1,
+      "avg_watch_s": 4.4
     },
     "history": [
       {
@@ -7268,6 +7294,18 @@
       {
         "at": "2026-11-24T06:28:07+00:00",
         "hours": 24,
+        "views": 184,
+        "reach": 162,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 1,
+        "avg_watch_s": 4.4
+      },
+      {
+        "at": "2026-11-25T06:29:08+00:00",
+        "hours": 48,
         "views": 184,
         "reach": 162,
         "likes": 1,
@@ -8071,18 +8109,19 @@
     "permalink": "https://www.instagram.com/reel/DgHJjTRjdJo/",
     "posted_at": "2026-11-24T05:30:10+00:00",
     "checked": [
-      6
+      6,
+      24
     ],
     "slot": "11:00",
     "metrics": {
-      "views": 184,
-      "reach": 160,
+      "views": 192,
+      "reach": 168,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "avg_watch_s": 4.7,
-      "views_last_hour": 1
+      "total_interactions": 2,
+      "avg_watch_s": 4.8
     },
     "history": [
       {
@@ -8095,6 +8134,18 @@
         "shares": 0,
         "saved": 1,
         "avg_watch_s": 4.5
+      },
+      {
+        "at": "2026-11-25T06:29:09+00:00",
+        "hours": 24,
+        "views": 192,
+        "reach": 168,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
+        "total_interactions": 2,
+        "avg_watch_s": 4.8
       }
     ]
   },
@@ -8819,5 +8870,251 @@
     "posted_at": "2026-11-25T05:30:13+00:00",
     "checked": [],
     "slot": "11:00"
+  },
+  {
+    "id": "20261125-062936-english",
+    "created_at": "2026-11-25T06:33:29+00:00",
+    "language": "english",
+    "topic": "protect_pdf",
+    "hook_style": "number",
+    "format": "myth_buster",
+    "pace": "brisk",
+    "distance": "near",
+    "answer": null,
+    "idea": "This plain PDF is secretly a locked safe, and nobody can peek inside.",
+    "plan_reason": "testing a less-tried tool; hook style: new test; format: new test; pace: explore; distance: best so far; idea from the niche scout",
+    "title": "1 forward is all it takes",
+    "hook": "1 forward is all it takes.",
+    "seconds": 24.7,
+    "script": {
+      "title": "1 forward is all it takes",
+      "scenes": [
+        {
+          "say": "1 forward is all it takes.",
+          "voice": "One forward... is all it takes.",
+          "accent": [
+            "1 forward"
+          ],
+          "tag": "myth",
+          "meter": null,
+          "scene": {
+            "type": "big_text",
+            "text": "1 FORWARD",
+            "sub": "is all it takes"
+          },
+          "kind": "hook",
+          "screen": "1 forward is all it takes.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "You send your resume PDF to 1 person.",
+          "voice": "You send your resume P D F to one person.",
+          "accent": [
+            "resume PDF"
+          ],
+          "tag": "myth",
+          "meter": null,
+          "scene": {
+            "type": "chat",
+            "name": "HR Neha",
+            "messages": [
+              {
+                "from": "them",
+                "text": "Please send your resume"
+              },
+              {
+                "from": "me",
+                "text": "resume.pdf sent"
+              }
+            ]
+          },
+          "kind": "point",
+          "screen": "You send your resume PDF to 1 person.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Most people think it stays with them.",
+          "voice": "Most people think it stays with them.",
+          "accent": [
+            "stays with them"
+          ],
+          "tag": "myth",
+          "meter": null,
+          "scene": {
+            "type": "versus",
+            "left": "What we think",
+            "right": "What happens",
+            "left_sub": "Only they see it",
+            "right_sub": "Anyone can open it",
+            "winner": "right"
+          },
+          "kind": "point",
+          "screen": "Most people think it stays with them.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "But a plain PDF has no lock.",
+          "voice": "But a plain P D F has no lock.",
+          "accent": [
+            "no lock"
+          ],
+          "tag": "truth",
+          "meter": null,
+          "scene": {
+            "type": "warning",
+            "text": "Plain PDF = no lock"
+          },
+          "kind": "point",
+          "screen": "But a plain PDF has no lock.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "They can forward it to 10 more.",
+          "voice": "They can forward it to ten more.",
+          "accent": [
+            "10 more"
+          ],
+          "tag": "truth",
+          "meter": {
+            "label": "FORWARDS",
+            "value": "10"
+          },
+          "scene": {
+            "type": "counter",
+            "value": 10,
+            "label": "people can get your file",
+            "badge": "FORWARDED"
+          },
+          "kind": "point",
+          "screen": "They can forward it to 10 more.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Your phone number and address go along.",
+          "voice": "Your phone number and address... go along.",
+          "accent": [
+            "phone number",
+            "address"
+          ],
+          "tag": "risk",
+          "meter": null,
+          "scene": {
+            "type": "id_card",
+            "title": "RESUME",
+            "name": "Riya Sharma",
+            "sub": "Phone, email, address"
+          },
+          "kind": "point",
+          "screen": "Your phone number and address go along.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Right way: add a password first.",
+          "voice": "Right way... add a password first.",
+          "accent": [
+            "password"
+          ],
+          "tag": "fix",
+          "meter": null,
+          "scene": {
+            "type": "steps",
+            "items": [
+              "Open",
+              "Lock",
+              "Send"
+            ]
+          },
+          "kind": "point",
+          "screen": "Right way: add a password first.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Then send the password in a separate message.",
+          "voice": "Then send the password in a separate message.",
+          "accent": [
+            "separate message"
+          ],
+          "tag": "fix",
+          "meter": null,
+          "scene": {
+            "type": "chat",
+            "name": "HR Neha",
+            "messages": [
+              {
+                "from": "me",
+                "text": "File sent"
+              },
+              {
+                "from": "me",
+                "text": "Password in next message"
+              }
+            ]
+          },
+          "kind": "point",
+          "screen": "Then send the password in a separate message.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "On ilovedocuments.ai, Protect PDF is free and runs in your browser.",
+          "voice": "On I love documents dot A I, Protect P D F is free, and runs in your browser.",
+          "accent": [
+            "Protect PDF",
+            "free"
+          ],
+          "tag": "free tool",
+          "meter": null,
+          "scene": {
+            "type": "browser",
+            "url": "ilovedocuments.ai",
+            "button": "Protect PDF"
+          },
+          "kind": "point",
+          "screen": "On ilovedocuments.ai, Protect PDF is free and runs in your b",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Save this reel for your next resume.",
+          "voice": "Save this reel for your next resume.",
+          "accent": [
+            "Save"
+          ],
+          "tag": "save",
+          "meter": null,
+          "scene": {
+            "type": "cta",
+            "keyword": "SAVE",
+            "line": "// lock it before you send it"
+          },
+          "kind": "cta",
+          "screen": "Save this reel for your next resume.",
+          "emphasis": [],
+          "visual": null
+        }
+      ],
+      "caption": "A plain PDF can be forwarded by anyone who gets it. Add a password before you send your resume, and share the password in a separate message.\nHave you ever sent a resume without a password?\nProtect PDF is free at ilovedocuments.ai. No sign up, no watermark, and files stay on your device.",
+      "hashtags": [
+        "#resume",
+        "#pdf",
+        "#jobsearch",
+        "#privacy",
+        "#india"
+      ]
+    },
+    "caption": "A plain PDF can be forwarded by anyone who gets it. Add a password before you send your resume, and share the password in a separate message.\nHave you ever sent a resume without a password?\nProtect PDF is free at ilovedocuments.ai. No sign up, no watermark, and files stay on your device.\n\n#resume #pdf #jobsearch #privacy #india",
+    "video": "20261125-062936-english.mp4",
+    "media_id": "17922361947531263",
+    "permalink": "https://www.instagram.com/reel/DgJ5V8oK93k/",
+    "posted_at": "2026-11-25T07:30:10+00:00",
+    "checked": [],
+    "slot": "13:00"
   }
 ]

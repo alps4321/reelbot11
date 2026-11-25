@@ -2,76 +2,6 @@
   {
     "tool": "compress_pdf_kb",
     "format": "too_good_to_be_legal_reveal",
-    "hook_en": "This free site should not exist. Watch a 4 MB PDF drop under 200 KB.",
-    "hook_hinglish": "Ye free site toh exist hi nahi karni chahiye. 4 MB ka PDF 200 KB se neeche aa gaya.",
-    "angle": "A student fails the upload at the portal's 200 KB limit. The narrator reveals a tool that compresses it and shows the size panel, then adds that the quality still looks sharp.",
-    "from": "https://www.instagram.com/reel/Df6-BE8hk3q/",
-    "added": "2026-11-19T12:13:46+00:00",
-    "used": 0
-  },
-  {
-    "tool": "resize_photo_kb",
-    "format": "two_vs_three_upgrade",
-    "hook_en": "Photo upload: your phone's 3 MB photo versus a 30 KB one. Which gets accepted?",
-    "hook_hinglish": "Photo upload: phone ki 3 MB photo vs 30 KB wali. Kaunsi accept hogi?",
-    "angle": "Round 1 is size, round 2 is the error message, round 3 is the portal's acceptance. The resized 20-50 KB photo wins every round.",
-    "from": "https://www.instagram.com/reel/DfAGcfCS0mv/",
-    "added": "2026-11-19T12:13:46+00:00",
-    "used": 0
-  },
-  {
-    "tool": "unlock_aadhaar",
-    "format": "big_news_number",
-    "hook_en": "Good news for everyone stuck at the Aadhaar password: it takes 10 seconds.",
-    "hook_hinglish": "Aadhaar PDF ke password se pareshaan logon ke liye good news: sirf 10 second lagte hain.",
-    "angle": "A character is locked out of the Aadhaar PDF before a form deadline. The narrator gives the 10-second number, shows the unlocked file, and says to save it for the next form.",
-    "from": "https://www.instagram.com/reel/DfPZAo5TDed/",
-    "added": "2026-11-19T12:13:46+00:00",
-    "used": 0
-  },
-  {
-    "tool": "merge_pdf",
-    "format": "playful_rivalry_roast",
-    "hook_en": "Sending 7 separate PDFs is basically a crime. Merge them into one.",
-    "hook_hinglish": "7 alag PDF bhejna toh crime hai yaar. Ek mein merge karo.",
-    "angle": "An HR character scolds a candidate for sending 7 scattered files. The candidate merges them in the right order and the HR character smiles.",
-    "from": "https://www.instagram.com/reel/Df2VxPsMPst/",
-    "added": "2026-11-19T12:13:46+00:00",
-    "used": 0
-  },
-  {
-    "tool": "signature_bg_remover",
-    "format": "live_disbelief_walkthrough",
-    "hook_en": "I can't believe a signature photo can become this clean in seconds.",
-    "hook_hinglish": "Yakeen nahi hota, signature ki photo seconds mein itni clean ho gayi.",
-    "angle": "A character shows a signature photo with a shadowed paper background. The narrator walks through the removal and points out the details that matter for forms.",
-    "from": "https://www.instagram.com/reel/Df4dNNBSw3m/",
-    "added": "2026-11-19T12:13:46+00:00",
-    "used": 0
-  },
-  {
-    "tool": "bank_statement_excel",
-    "format": "too_good_to_be_legal_reveal",
-    "hook_en": "This should be illegal: your bank statement PDF becomes an Excel sheet.",
-    "hook_hinglish": "Ye illegal hona chahiye: bank statement PDF seedha Excel sheet ban jaati hai.",
-    "angle": "A job seeker has to re-type 80 rows by hand, then the narrator reveals the converter. Tricks stack up: rows, columns, dates all neat.",
-    "from": "https://www.instagram.com/reel/Df6-BE8hk3q/",
-    "added": "2026-11-19T12:13:46+00:00",
-    "used": 1
-  },
-  {
-    "tool": "pdf_to_word",
-    "format": "festive_refrain_moment",
-    "hook_en": "Before the form deadline tonight, one edit and you're done.",
-    "hook_hinglish": "Aaj raat deadline se pehle, bas ek edit aur kaam khatam.",
-    "angle": "A character races the clock, converts the PDF to Word, fixes a typo, and the narrator repeats a calm refrain as the success panel shows.",
-    "from": "https://www.instagram.com/reel/DfeF-kOIwkr/",
-    "added": "2026-11-19T12:13:46+00:00",
-    "used": 0
-  },
-  {
-    "tool": "compress_pdf_kb",
-    "format": "too_good_to_be_legal_reveal",
     "hook_en": "This free tool shrinks a 5 MB PDF to under 100 KB, and it's not even a trick.",
     "hook_hinglish": "Ye free tool 5 MB ki PDF ko 100 KB se bhi kam kar deta hai, aur koi trick nahi hai.",
     "angle": "A student's PDF gets rejected for being too big, and the narrator reveals the shrink with the size dropping on screen.",
@@ -797,6 +727,76 @@
     "angle": "The reel opens on the finished photo, then rewinds to show the messy selfie that became it.",
     "from": "https://www.instagram.com/reel/Df9eEpjPHJM/",
     "added": "2026-11-25T04:31:55+00:00",
+    "used": 0
+  },
+  {
+    "tool": "resize_signature_kb",
+    "format": "deadline_story",
+    "hook_en": "One day left, and the form says the signature must be 10-20 KB. Hers is 400.",
+    "hook_hinglish": "Form ka last din hai, signature 10-20 KB chahiye aur uska 400 KB ka hai.",
+    "angle": "A student's exam form is rejected with a size error. The signature shrinks to 18 KB, the form goes through, and the deadline is met.",
+    "from": "https://www.instagram.com/reel/DgGXHhimbts/",
+    "added": "2026-11-25T13:29:35+00:00",
+    "used": 0
+  },
+  {
+    "tool": "compress_pdf_kb",
+    "format": "instant_demo_cold_open",
+    "hook_en": "Stop re-scanning your documents. The portal only wants 200 KB.",
+    "hook_hinglish": "Document dobara scan karna band karo, portal ko sirf 200 KB chahiye.",
+    "angle": "Open on the red upload error, then show the compress panel go from 3 MB to 190 KB and the upload succeeds.",
+    "from": "https://www.instagram.com/reel/DgKl2PCx0a2/",
+    "added": "2026-11-25T13:29:35+00:00",
+    "used": 0
+  },
+  {
+    "tool": "passport_photo",
+    "format": "proof_shots_showcase",
+    "hook_en": "A perfect passport photo for free. No studio, no Rs. 100.",
+    "hook_hinglish": "Passport photo bilkul free, studio nahi, Rs. 100 nahi.",
+    "angle": "A selfie goes in, and a correctly sized white-background photo comes out. Price tags of studio vs free are shown side by side.",
+    "from": "https://www.instagram.com/reel/DfW7U0lxQ1u/",
+    "added": "2026-11-25T13:29:35+00:00",
+    "used": 0
+  },
+  {
+    "tool": "pdf_to_word",
+    "format": "numbered_free_tools_showcase",
+    "hook_en": "3 free ways to edit a PDF resume on your phone, best for job seekers.",
+    "hook_hinglish": "PDF resume phone par edit karne ke 3 free tareeke, job seekers ke liye best.",
+    "angle": "A job seeker has only a PDF resume and needs to change one line. Three numbered cards show the fix, ending with the Word file.",
+    "from": "https://www.instagram.com/reel/DgE2O_vh0x3/",
+    "added": "2026-11-25T13:29:35+00:00",
+    "used": 0
+  },
+  {
+    "tool": "unlock_aadhaar",
+    "format": "struggle_to_win_story",
+    "hook_en": "He was locked out of his own Aadhaar PDF for two days. Then one step fixed it.",
+    "hook_hinglish": "Apna hi Aadhaar PDF do din tak nahi khula, phir ek step mein kaam ho gaya.",
+    "angle": "A character is stuck on a password prompt before a form deadline. They try wrong passwords, then unlock the file and finish the form.",
+    "from": "https://www.instagram.com/reel/Df1WHJWB9ua/",
+    "added": "2026-11-25T13:29:35+00:00",
+    "used": 0
+  },
+  {
+    "tool": "merge_pdf",
+    "format": "aspirant_pride_moment",
+    "hook_en": "Rank 5 and Rank 284 both started by putting their documents in one clean file.",
+    "hook_hinglish": "Rank 5 aur Rank 284 dono ne pehle apne documents ek clean file mein rakhe.",
+    "angle": "An aspirant merges certificates, photo and ID into one PDF before the application. The portal accepts it first time, and the character looks proud.",
+    "from": "https://www.instagram.com/reel/DgHWygXtFnw/",
+    "added": "2026-11-25T13:29:35+00:00",
+    "used": 0
+  },
+  {
+    "tool": "remove_background",
+    "format": "hot_take_problem_callout",
+    "hook_en": "Uninstall that paid editor. You only wanted the background gone.",
+    "hook_hinglish": "Paid editor uninstall kar do, tumhe sirf background hatana tha.",
+    "angle": "A character pays for editing software just to cut out one photo. A cutout panel appears in seconds and the photo is ready for the form.",
+    "from": "https://www.instagram.com/reel/DgKl2PCx0a2/",
+    "added": "2026-11-25T13:29:35+00:00",
     "used": 0
   }
 ]

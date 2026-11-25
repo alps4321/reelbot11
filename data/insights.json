@@ -1,94 +1,5 @@
 [
   {
-    "at": "2026-11-19T12:13:46+00:00",
-    "permalink": "https://www.instagram.com/reel/DfPZAo5TDed/",
-    "why": "It opens with 'good news' and names the audience groups. It gives a concrete saving (40%) and prices up front, then two relatable reasons (dual SIM, grandparents). A share-with-family CTA closes it.",
-    "hook_pattern": "Good news for [group A, B, C] users, you can now save [X%] on [thing]",
-    "structure": [
-      "Good news aimed at named groups",
-      "Headline saving figure",
-      "Concrete prices for each option",
-      "Reason 1: a personal use case",
-      "Reason 2: family or relatable use",
-      "CTA: share it"
-    ],
-    "visual": "A talking presenter with price figures overlaid.",
-    "speaking": "Clear and steady, about 3.2 words per second, with frequent short pauses and a friendly news-anchor tone."
-  },
-  {
-    "at": "2026-11-19T12:13:46+00:00",
-    "permalink": "https://www.instagram.com/reel/Df4dNNBSw3m/",
-    "why": "It rests on disbelief about a long-awaited thing ('I can't believe it'). Real-time reactions while noticing details make the viewer feel they are there.",
-    "hook_pattern": "[Hot topic] I just can't believe it, bhai!",
-    "structure": [
-      "Disbelief headline",
-      "Live demonstration while narrating details",
-      "Pointing out small things the viewer would miss",
-      "Closing prediction"
-    ],
-    "visual": "First-person footage with the creator reacting on the spot.",
-    "speaking": "A conversational, slower pace of about 2.4 words per second, with spoken asides and exclamations."
-  },
-  {
-    "at": "2026-11-19T12:13:46+00:00",
-    "permalink": "https://www.instagram.com/reel/Df2VxPsMPst/",
-    "why": "Teasing one brand at another, with the title 'Samsung is naughty', gives the viewer a side to take. The casual, opinionated commentary feels like a friend talking.",
-    "hook_pattern": "[Brand A] is being naughty again",
-    "structure": [
-      "Playful accusation",
-      "What they copied or changed",
-      "Personal experience with it",
-      "Opinion and a wink"
-    ],
-    "visual": "A talking-head creator with the product in hand.",
-    "speaking": "A relaxed, chatty pace of about 3.9 words per second, with a long pause before the opinion and a teasing tone."
-  },
-  {
-    "at": "2026-11-19T12:13:46+00:00",
-    "permalink": "https://www.instagram.com/reel/DfeF-kOIwkr/",
-    "why": "A short, repeated emotional line tied to a festival, so the viewer feels the mood and replays it. It spreads through shares during the festival season.",
-    "hook_pattern": "[Festival/emotion line repeated] with a feeling of arrival",
-    "structure": [
-      "Emotional line",
-      "Repetition of the refrain",
-      "Closing chant"
-    ],
-    "visual": "A devotional, festive visual with a music-led feel.",
-    "speaking": "A slow, melodic pace of about 1 word per second, almost sung."
-  },
-  {
-    "at": "2026-11-20T04:10:19+00:00",
-    "permalink": "https://www.instagram.com/reel/DfUbxtAgozz/",
-    "why": "It opens with a huge, concrete payoff (8TB added) and then stacks one surprising feature after another at a fast pace. Every sentence is a new proof, and the 'crazy part' lands last, so people stay to the end.",
-    "hook_pattern": "This tiny thing will add [big number] to your [everyday device], and it has features you've never seen",
-    "structure": [
-      "Big-number promise over a tiny object",
-      "Plain 'just connect it and you're done' simplicity",
-      "Rapid feature stack: ports, slots, display, buttons",
-      "'But the crazy part is...' final reveal",
-      "Share-with-someone CTA and a 'see you tomorrow' sign-off"
-    ],
-    "visual": "Presenter holds the gadget, then tight close-ups of ports and a hand plugging things in. Bold white captions with the current word highlighted in purple, plus an on-screen '8TB' text overlay.",
-    "speaking": "Very fast (4.2 words/s) with almost no pauses. Excited, upbeat, and one claim per breath."
-  },
-  {
-    "at": "2026-11-20T04:10:19+00:00",
-    "permalink": "https://www.instagram.com/reel/De1vnYRzVxQ/",
-    "why": "The number in the promise ('three awesome things') sets a clear frame, so viewers wait for all three. Each point gets a big caption and a visual demo, and the close asks a personal question about money.",
-    "hook_pattern": "[Famous product] is here, and it has N things [rivals] need to copy",
-    "structure": [
-      "Reveal of the product with an 'it did it again' caption",
-      "Announce the count: 3 awesome things",
-      "Thing 1 with a demo",
-      "Thing 2 with a demo",
-      "Thing 3 with a demo",
-      "Quick bonus specs",
-      "Share-and-answer question CTA"
-    ],
-    "visual": "Presenter holding the device, then hands-on close-ups. A neon '3 Awesome Things' title, and bold captions with key words highlighted in blue.",
-    "speaking": "Steady, enthusiastic, about 3 words/s with tiny pauses. Stresses adjectives like 'awesome' and 'super smooth'."
-  },
-  {
     "at": "2026-11-20T04:10:19+00:00",
     "permalink": "https://www.instagram.com/reel/DeyeECdR9Ks/",
     "why": "The 'survives anything' claim is proven by physical stress tests (drops, water) that anyone can follow with no sound. Chunky captions highlight each word as it is spoken.",
@@ -868,5 +779,89 @@
     ],
     "visual": "Not visible. Likely a product list with graphics.",
     "speaking": "Not available. Likely brisk and list-driven."
+  },
+  {
+    "at": "2026-11-25T13:29:35+00:00",
+    "permalink": "https://www.instagram.com/reel/DgKl2PCx0a2/",
+    "why": "It opens with a blunt command about paying for software, which hits anyone who has paid for a tool. The creator then cuts to a screen demo of the result, and the caption jokes with the same 'stop paying' line. This reel got only 375 views, so treat the pattern as weakly proven. The hook idea is soun",
+    "hook_pattern": "Stop paying for X, a free tool does the same job. Here is the proof.",
+    "structure": [
+      "Talking head states the money problem: 'if you are paying for X'",
+      "Red caption bar with a blunt command: 'Uninstall Photoshop'",
+      "Cut to screen recording of the real software and the result",
+      "Back to the presenter for a reveal and a verdict on the free alternative"
+    ],
+    "visual": "Presenter in a bright blue tee against a clean pale background, with a bold red rounded caption bar in the lower third. Cuts to a screen capture of the Photoshop canvas, then back to the presenter.",
+    "speaking": "Fast, around 5 words per second, with almost no pauses. Casual and confident, in a Hindi-English mix, with a joking tone."
+  },
+  {
+    "at": "2026-11-25T13:29:35+00:00",
+    "permalink": "https://www.instagram.com/reel/DgHWygXtFnw/",
+    "why": "The caption puts two exam ranks (AIR 5 and AIR 284) in the headline and promises the person's real strategy. Aspirants see a result they want and a method they can copy. The reel itself has no speech, so the proof comes from the caption.",
+    "hook_pattern": "[Specific impressive result] and [second result]: what was [Name]'s strategy?",
+    "structure": [
+      "Name the two ranks as the hook",
+      "Introduce the person and where they started",
+      "Show the preparation strategy",
+      "Point to the full story"
+    ],
+    "visual": "Not visible in the data. Most likely a candid interview or story card, which is a guess.",
+    "speaking": "No speech available."
+  },
+  {
+    "at": "2026-11-25T13:29:35+00:00",
+    "permalink": "https://www.instagram.com/reel/Df1WHJWB9ua/",
+    "why": "The caption opens with a life-or-death stake: two months on a ventilator. The person's name and a promise of 'what he went through and how life changed' give the viewer a reason to watch to the end. The reel itself has no speech.",
+    "hook_pattern": "[Name] spent [extreme time] at [lowest point]. Here is how it turned around.",
+    "structure": [
+      "Open on the lowest point with a precise duration",
+      "Show the hardship in a few beats",
+      "Turn: what changed",
+      "End with the win and a hopeful message"
+    ],
+    "visual": "Not visible in the data. Probably a story-style interview, which is a guess.",
+    "speaking": "No speech available. The caption suggests a sincere, emotional tone."
+  },
+  {
+    "at": "2026-11-25T13:29:35+00:00",
+    "permalink": "https://www.instagram.com/reel/DgGXHhimbts/",
+    "why": "The caption puts the time pressure first: one day before finals. A named student already knows the material, which makes the outcome feel safe. Its call to action is a comment-for-link promise, which we cannot copy.",
+    "hook_pattern": "T-minus [short time] before [high-stakes event] and [Name] is already ready, thanks to [tool].",
+    "structure": [
+      "Countdown to a high-stakes moment",
+      "A named student is calm because of the tool",
+      "Show the tool's study features",
+      "Ending with the result"
+    ],
+    "visual": "Not visible in the data. Probably a product demo, which is a guess.",
+    "speaking": "No speech available."
+  },
+  {
+    "at": "2026-11-25T13:29:35+00:00",
+    "permalink": "https://www.instagram.com/reel/DfW7U0lxQ1u/",
+    "why": "The headline shows a concrete number and a plan name, 'Rs. 15 plan', with the surprise word 'Unlimited 5G'. A cheap price paired with a big benefit makes people share it with friends. The reel got 2.77M views, 111.7 engagement per 1,000 followers.",
+    "hook_pattern": "[Famous brand] [surprising big benefit] for just [tiny price].",
+    "structure": [
+      "Shock claim with a small price",
+      "Quick proof of the plan details",
+      "Who should use it and how",
+      "Share with friends who save on recharges"
+    ],
+    "visual": "Not visible in the data. Likely a text-heavy phone or plan screen, which is a guess.",
+    "speaking": "No speech available."
+  },
+  {
+    "at": "2026-11-25T13:29:35+00:00",
+    "permalink": "https://www.instagram.com/reel/DgE2O_vh0x3/",
+    "why": "A ranked 'best phones under a set budget' title promises a short answer to a purchase question. The budget number sets the audience, and the caption is plain. It got 3.18M views.",
+    "hook_pattern": "Best [thing] under [budget/limit]",
+    "structure": [
+      "Title gives the limit and the category",
+      "Show several picks in a row",
+      "Quick verdict per pick",
+      "Closing recommendation"
+    ],
+    "visual": "Not visible in the data. Likely product shots with price cards, which is a guess.",
+    "speaking": "No speech available."
   }
 ]

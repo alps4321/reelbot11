@@ -1,12 +1,6 @@
 {
   "samples": [
     {
-      "wps": 4.01,
-      "pause_s": 0.0,
-      "lang": "en",
-      "per_k": 23.3
-    },
-    {
       "wps": 3.7,
       "pause_s": 0.0,
       "lang": "hi",
@@ -239,10 +233,16 @@
       "pause_s": 0.0,
       "lang": "hi",
       "per_k": 0.3
+    },
+    {
+      "wps": 5.11,
+      "pause_s": 0.0,
+      "lang": "hi",
+      "per_k": 0.0
     }
   ],
-  "notes": "The fastest speaker here keeps a continuous pace of about 4 words per second with no pauses, and the slower one uses long pauses before bursts of excitement. For our narration, I'd use a brisk pace and stress the number, deadline or size limit on each beat. I'd also leave a short pause before the fix.",
-  "updated": "2026-11-25T04:31:55+00:00",
+  "notes": "The one reel with speech here uses fast, around 5 words per second delivery with almost no pauses and a joking tone, so keep our narration quick and confident, but add a short beat before the reveal. The other reels have no speech, so there is no further evidence on pacing.",
+  "updated": "2026-11-25T13:29:35+00:00",
   "words_per_second": 3.38,
-  "pause_s": 0.32
+  "pause_s": 0.33
 }

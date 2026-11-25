@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-25T17:17:38+00:00
+Updated 2026-11-25T21:44:53+00:00
 
-Reels made: 40. Posted: 33. Measured: 31.
+Reels made: 40. Posted: 33. Measured: 32.
 
 ## english: results by topic
 
@@ -164,12 +164,12 @@ Reels made: 40. Posted: 33. Measured: 31.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-25 | hinglish | unlock_aadhaar | secret_answer | Aadhaar PDF ka password kya hota hai? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgKizPitu-w/) |
-| 2026-11-25 | english | protect_pdf | myth_buster | 1 forward is all it takes. | 35 | 3.8 | 0 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/DgJ5V8oK93k/) |
-| 2026-11-25 | hinglish | id_card_print | secret_answer | Kya Aadhaar ka print out valid hai? | 270 | 6.5 | 1 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/DgJrs6eF2Qp/) |
+| 2026-11-25 | hinglish | unlock_aadhaar | secret_answer | Aadhaar PDF ka password kya hota hai? | 139 | 3.8 | 0 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/DgKizPitu-w/) |
+| 2026-11-25 | english | protect_pdf | myth_buster | 1 forward is all it takes. | 55 | 4.3 | 0 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/DgJ5V8oK93k/) |
+| 2026-11-25 | hinglish | id_card_print | secret_answer | Kya Aadhaar ka print out valid hai? | 323 | 6.3 | 2 | 0 | 0 | 2 |  | [open](https://www.instagram.com/reel/DgJrs6eF2Qp/) |
 | 2026-11-24 | hinglish | id_card_print | secret_answer | Masked Aadhaar download kaise karte hain? | 244 | 3.9 | 4 | 0 | 1 | 0 | 171 | [open](https://www.instagram.com/reel/DgH-IJBEvo4/) |
 | 2026-11-24 | english | compress_pdf_kb | discovery | Your PDF is 5 MB. The form says 200 KB. | 136 | 4.1 | 0 | 0 | 0 | 0 | 93 | [open](https://www.instagram.com/reel/DgHUoOsjNcV/) |
-| 2026-11-24 | hinglish | bank_statement_excel | secret_answer | HDFC statement PDF ka password kya hota hai? | 194 | 4.7 | 1 | 0 | 0 | 1 | 139 | [open](https://www.instagram.com/reel/DgHJjTRjdJo/) |
+| 2026-11-24 | hinglish | bank_statement_excel | secret_answer | HDFC statement PDF ka password kya hota hai? | 196 | 4.7 | 1 | 0 | 0 | 1 | 139 | [open](https://www.instagram.com/reel/DgHJjTRjdJo/) |
 | 2026-11-23 | hinglish | unlock_pdf | secret_answer | PAN card PDF ka password kya hai? | 186 | 5.1 | 4 | 0 | 0 | 6 | 158 | [open](https://www.instagram.com/reel/DgFYoYpiVuN/) |
 | 2026-11-23 | english | signature_bg_remover | story | Meena signed on paper at 10 PM. | 127 | 6.7 | 2 | 0 | 7 | 0 | 143 | [open](https://www.instagram.com/reel/DgEvxw4gtdv/) |
 | 2026-11-23 | hinglish | unlock_aadhaar | secret_answer | Aadhaar PDF ka password kya hota hai? | 184 | 4.4 | 1 | 0 | 0 | 0 | 131 | [open](https://www.instagram.com/reel/DgEiX6KAARc/) |
@@ -181,10 +181,10 @@ Reels made: 40. Posted: 33. Measured: 31.
 | 2026-11-21 | hinglish | unlock_pdf | secret_answer | e-PAN PDF ka password kya hota hai? | 290 | 6.3 | 7 | 0 | 5 | 3 | 263 | [open](https://www.instagram.com/reel/Df_Y1KHFdvj/) |
 | 2026-11-20 | hinglish | pdf_to_excel | secret_answer | PDF ka table Excel mein kaise layein? | 123 | 3.4 | 3 | 0 | 1 | 0 | 85 | [open](https://www.instagram.com/reel/Df9qx1VEh4p/) |
 | 2026-11-20 | hinglish | image_to_pdf | secret_answer | Photos ko ek PDF kaise banayein? | 116 | 3.5 | 0 | 0 | 0 | 1 | 78 | [open](https://www.instagram.com/reel/Df9ImnMjua7/) |
-| 2026-11-19 | hinglish | unlock_pdf | did_you_know | Egypt ke tomb mein 3000 saal purana shahad mila. | 221 | 7.7 | 3 | 2 | 0 | 2 | 200 | [open](https://www.instagram.com/reel/Df7GVN1EsuW/) |
+| 2026-11-19 | hinglish | unlock_pdf | did_you_know | Egypt ke tomb mein 3000 saal purana shahad mila. | 222 | 7.6 | 3 | 2 | 0 | 2 | 200 | [open](https://www.instagram.com/reel/Df7GVN1EsuW/) |
 | 2026-11-19 | english | word_to_pdf | story | Why did Rohan miss his own interview? | 143 | 8.2 | 2 | 1 | 0 | 0 | 114 | [open](https://www.instagram.com/reel/Df6etz3jcm7/) |
 | 2026-11-19 | hinglish | pdf_to_jpg | myth_buster | Most people think a PDF page can't become a photo. | 187 | 8.8 | 4 | 0 | 0 | 0 | 157 | [open](https://www.instagram.com/reel/Df6PCtYDKsH/) |
-| 2026-11-18 | hinglish | resize_image_kb | discovery | Charging 100% tak mat karo. | 435 | 6.8 | 8 | 0 | 1 | 2 | 348 | [open](https://www.instagram.com/reel/Df5Yvw8Eckp/) |
+| 2026-11-18 | hinglish | resize_image_kb | discovery | Charging 100% tak mat karo. | 436 | 6.8 | 8 | 0 | 1 | 2 | 348 | [open](https://www.instagram.com/reel/Df5Yvw8Eckp/) |
 | 2026-11-18 | english | resize_image_kb | discovery | Do you know your phone's secret number? |  |  |  |  |  |  |  | dry run |
 | 2026-11-18 | hinglish | resize_image_kb | discovery | Photo ka size 200 KB kaise hota hai? |  |  |  |  |  |  |  | dry run |
 | 2026-11-18 | hinglish | resize_image_kb | explainer | Form bola 100 KB. Photo hai 1.8 MB. |  |  |  |  |  |  |  | dry run |

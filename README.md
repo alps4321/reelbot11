@@ -1,11 +1,11 @@
 # Live reel stats
 
-Updated 25 Nov 2026, 05:12 PM India time (refreshed about every 5 minutes)
+Updated 25 Nov 2026, 05:56 PM India time (refreshed about every 5 minutes)
 
 | posted | hook | views | views last hour | avg watch s | likes | comments | shares | saves | link |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-11-25 | A plain PDF can be forwarded by anyone who gets it | 24 | +0 | 2.5 | 0 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgJ5V8oK93k/) |
-| 2026-11-25 | e-Aadhaar ka print out bhi original jitna valid ha | 261 | +0 | 6.4 | 1 | 0 | 0 | 1 | [open](https://www.instagram.com/reel/DgJrs6eF2Qp/) |
+| 2026-11-25 | A plain PDF can be forwarded by anyone who gets it | 28 | +4 | 2.3 | 0 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgJ5V8oK93k/) |
+| 2026-11-25 | e-Aadhaar ka print out bhi original jitna valid ha | 270 | +9 | 6.5 | 1 | 0 | 0 | 1 | [open](https://www.instagram.com/reel/DgJrs6eF2Qp/) |
 | 2026-11-24 | Masked Aadhaar mein pehle 8 digits xxxx-xxxx ho ja | 242 | +2 | 3.9 | 4 | 0 | 1 | 0 | [open](https://www.instagram.com/reel/DgH-IJBEvo4/) |
 | 2026-11-24 | A 5 MB scan can fit a 200 KB limit. Check the text | 136 | +0 | 4.1 | 0 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgHUoOsjNcV/) |
 | 2026-11-24 | HDFC NetBanking ya app se statement download kiya  | 194 | +10 | 4.7 | 1 | 0 | 0 | 1 | [open](https://www.instagram.com/reel/DgHJjTRjdJo/) |

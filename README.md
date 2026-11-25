@@ -1,14 +1,14 @@
 # Live reel stats
 
-Updated 24 Nov 2026, 11:45 PM India time (refreshed about every 5 minutes)
+Updated 25 Nov 2026, 08:05 AM India time (refreshed about every 5 minutes)
 
 | posted | hook | views | views last hour | avg watch s | likes | comments | shares | saves | link |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-11-24 | Masked Aadhaar mein pehle 8 digits xxxx-xxxx ho ja | 237 | +0 | 3.9 | 3 | 0 | 1 | 0 | [open](https://www.instagram.com/reel/DgH-IJBEvo4/) |
-| 2026-11-24 | A 5 MB scan can fit a 200 KB limit. Check the text | 109 | +39 | 4.2 | 0 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgHUoOsjNcV/) |
-| 2026-11-24 | HDFC NetBanking ya app se statement download kiya  | 164 | +16 | 4.4 | 1 | 0 | 0 | 1 | [open](https://www.instagram.com/reel/DgHJjTRjdJo/) |
-| 2026-11-23 | e-PAN download kiya aur file lock mili? Password a | 181 | +5 | 5.2 | 3 | 0 | 0 | 6 | [open](https://www.instagram.com/reel/DgFYoYpiVuN/) |
-| 2026-11-23 | Meena tried 6 times to retake her signature photo. | 127 | +2 | 6.7 | 2 | 0 | 7 | 0 | [open](https://www.instagram.com/reel/DgEvxw4gtdv/) |
+| 2026-11-24 | Masked Aadhaar mein pehle 8 digits xxxx-xxxx ho ja | 240 | +3 | 3.9 | 3 | 0 | 1 | 0 | [open](https://www.instagram.com/reel/DgH-IJBEvo4/) |
+| 2026-11-24 | A 5 MB scan can fit a 200 KB limit. Check the text | 136 | +27 | 4.1 | 0 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgHUoOsjNcV/) |
+| 2026-11-24 | HDFC NetBanking ya app se statement download kiya  | 183 | +19 | 4.8 | 1 | 0 | 0 | 1 | [open](https://www.instagram.com/reel/DgHJjTRjdJo/) |
+| 2026-11-23 | e-PAN download kiya aur file lock mili? Password a | 184 | +3 | 5.2 | 4 | 0 | 0 | 6 | [open](https://www.instagram.com/reel/DgFYoYpiVuN/) |
+| 2026-11-23 | Meena tried 6 times to retake her signature photo. | 127 | +0 | 6.7 | 2 | 0 | 7 | 0 | [open](https://www.instagram.com/reel/DgEvxw4gtdv/) |
 | 2026-11-23 | Aadhaar PDF ka password simple hai: naam ke pehle  | 184 | +0 | 4.4 | 1 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgEiX6KAARc/) |
 | 2026-11-22 | Aadhaar letter, PVC card, e-Aadhaar aur mAadhaar:  | 463 | +0 | 7.1 | 6 | 0 | 2 | 4 | [open](https://www.instagram.com/reel/DgC130IEonh/) |
 | 2026-11-22 | Ravi's signature was 2 MB and the form wanted 20 K | 129 | +0 | 5.8 | 1 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgCLaSuk_Tm/) |

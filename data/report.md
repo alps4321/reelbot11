@@ -1,6 +1,6 @@
 # ReelBot report
 
-Updated 2026-11-25T13:30:13+00:00
+Updated 2026-11-25T14:35:33+00:00
 
 Reels made: 40. Posted: 33. Measured: 31.
 
@@ -15,7 +15,7 @@ Reels made: 40. Posted: 33. Measured: 31.
 | word_to_pdf | 1 | 114.0 |
 | jpg_to_pdf | 1 | 101.0 |
 | cheat_sheet_5_tools | 1 | 99.0 |
-| compress_pdf_kb | 1 | 92.0 |
+| compress_pdf_kb | 1 | 93.0 |
 | resize_signature_kb | 1 | 91.0 |
 | bank_statement_excel | 1 | 80.0 |
 
@@ -28,7 +28,7 @@ Reels made: 40. Posted: 33. Measured: 31.
 | story_open | 1 | 143.0 |
 | question | 2 | 107.5 |
 | bold_claim | 1 | 99.0 |
-| contrarian | 1 | 92.0 |
+| contrarian | 1 | 93.0 |
 
 ## english: results by format
 
@@ -39,7 +39,7 @@ Reels made: 40. Posted: 33. Measured: 31.
 | story | 4 | 107.0 |
 | secret_answer | 1 | 101.0 |
 | cheat_sheet | 1 | 99.0 |
-| discovery | 1 | 92.0 |
+| discovery | 1 | 93.0 |
 
 ## english: results by pace
 
@@ -47,14 +47,14 @@ Reels made: 40. Posted: 33. Measured: 31.
 |---|---|---|
 | natural | 3 | 197.7 |
 | calm | 1 | 114.0 |
-| brisk | 2 | 86.0 |
+| brisk | 2 | 86.5 |
 
 ## english: results by distance
 
 | distance | reels | avg score |
 |---|---|---|
 | far | 1 | 114.0 |
-| near | 4 | 101.5 |
+| near | 4 | 101.8 |
 
 ## english: what the bot has learned
 
@@ -90,8 +90,8 @@ Reels made: 40. Posted: 33. Measured: 31.
 | passport_photo | 1 | 971.0 |
 | resize_image_kb | 1 | 348.0 |
 | resize_photo_kb | 1 | 325.0 |
-| id_card_print | 2 | 264.0 |
-| unlock_pdf | 3 | 204.0 |
+| id_card_print | 3 | 233.0 |
+| unlock_pdf | 3 | 207.0 |
 | pdf_to_jpg | 1 | 157.0 |
 | bank_statement_excel | 2 | 109.5 |
 | pdf_to_excel | 1 | 85.0 |
@@ -103,9 +103,10 @@ Reels made: 40. Posted: 33. Measured: 31.
 |---|---|---|
 | manual | 2 | 648.0 |
 | question | 7 | 602.0 |
-| problem | 4 | 477.8 |
+| problem | 4 | 480.0 |
 | contrarian | 1 | 348.0 |
 | story_open | 1 | 200.0 |
+| how_to | 1 | 171.0 |
 | bold_claim | 1 | 157.0 |
 | number | 1 | 144.0 |
 
@@ -115,7 +116,7 @@ Reels made: 40. Posted: 33. Measured: 31.
 |---|---|---|
 | what_if | 1 | 1293.0 |
 | manual | 2 | 648.0 |
-| secret_answer | 11 | 452.4 |
+| secret_answer | 12 | 429.7 |
 | discovery | 1 | 348.0 |
 | did_you_know | 1 | 200.0 |
 | myth_buster | 1 | 157.0 |
@@ -124,8 +125,8 @@ Reels made: 40. Posted: 33. Measured: 31.
 
 | pace | reels | avg score |
 |---|---|---|
-| natural | 4 | 400.0 |
-| brisk | 8 | 332.5 |
+| natural | 5 | 354.2 |
+| brisk | 8 | 333.6 |
 | calm | 2 | 214.0 |
 
 ## hinglish: results by distance
@@ -133,7 +134,7 @@ Reels made: 40. Posted: 33. Measured: 31.
 | distance | reels | avg score |
 |---|---|---|
 | far | 2 | 274.0 |
-| near | 10 | 161.0 |
+| near | 11 | 162.7 |
 
 ## hinglish: what the bot has learned
 
@@ -164,12 +165,12 @@ Reels made: 40. Posted: 33. Measured: 31.
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-11-25 | hinglish | unlock_aadhaar | secret_answer | Aadhaar PDF ka password kya hota hai? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgKizPitu-w/) |
-| 2026-11-25 | english | protect_pdf | myth_buster | 1 forward is all it takes. | 28 | 2.3 | 0 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgJ5V8oK93k/) |
+| 2026-11-25 | english | protect_pdf | myth_buster | 1 forward is all it takes. | 35 | 3.8 | 0 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/DgJ5V8oK93k/) |
 | 2026-11-25 | hinglish | id_card_print | secret_answer | Kya Aadhaar ka print out valid hai? | 270 | 6.5 | 1 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/DgJrs6eF2Qp/) |
-| 2026-11-24 | hinglish | id_card_print | secret_answer | Masked Aadhaar download kaise karte hain? | 242 | 3.9 | 4 | 0 | 1 | 0 |  | [open](https://www.instagram.com/reel/DgH-IJBEvo4/) |
-| 2026-11-24 | english | compress_pdf_kb | discovery | Your PDF is 5 MB. The form says 200 KB. | 136 | 4.1 | 0 | 0 | 0 | 0 | 92 | [open](https://www.instagram.com/reel/DgHUoOsjNcV/) |
+| 2026-11-24 | hinglish | id_card_print | secret_answer | Masked Aadhaar download kaise karte hain? | 244 | 3.9 | 4 | 0 | 1 | 0 | 171 | [open](https://www.instagram.com/reel/DgH-IJBEvo4/) |
+| 2026-11-24 | english | compress_pdf_kb | discovery | Your PDF is 5 MB. The form says 200 KB. | 136 | 4.1 | 0 | 0 | 0 | 0 | 93 | [open](https://www.instagram.com/reel/DgHUoOsjNcV/) |
 | 2026-11-24 | hinglish | bank_statement_excel | secret_answer | HDFC statement PDF ka password kya hota hai? | 194 | 4.7 | 1 | 0 | 0 | 1 | 139 | [open](https://www.instagram.com/reel/DgHJjTRjdJo/) |
-| 2026-11-23 | hinglish | unlock_pdf | secret_answer | PAN card PDF ka password kya hai? | 186 | 5.1 | 4 | 0 | 0 | 6 | 149 | [open](https://www.instagram.com/reel/DgFYoYpiVuN/) |
+| 2026-11-23 | hinglish | unlock_pdf | secret_answer | PAN card PDF ka password kya hai? | 186 | 5.1 | 4 | 0 | 0 | 6 | 158 | [open](https://www.instagram.com/reel/DgFYoYpiVuN/) |
 | 2026-11-23 | english | signature_bg_remover | story | Meena signed on paper at 10 PM. | 127 | 6.7 | 2 | 0 | 7 | 0 | 143 | [open](https://www.instagram.com/reel/DgEvxw4gtdv/) |
 | 2026-11-23 | hinglish | unlock_aadhaar | secret_answer | Aadhaar PDF ka password kya hota hai? | 184 | 4.4 | 1 | 0 | 0 | 0 | 131 | [open](https://www.instagram.com/reel/DgEiX6KAARc/) |
 | 2026-11-22 | hinglish | id_card_print | secret_answer | Kya Aadhaar ka print out original jitna valid hai? | 463 | 7.1 | 6 | 0 | 2 | 4 | 384 | [open](https://www.instagram.com/reel/DgC130IEonh/) |

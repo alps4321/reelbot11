@@ -4277,7 +4277,8 @@
       24,
       48,
       72,
-      120
+      120,
+      168
     ],
     "slot": "11:00",
     "metrics": {
@@ -4347,6 +4348,17 @@
         "shares": 0,
         "saved": 0,
         "total_interactions": 4,
+        "avg_watch_s": 8.8
+      },
+      {
+        "at": "2026-11-26T04:26:37+00:00",
+        "hours": 168,
+        "views": 187,
+        "reach": 142,
+        "likes": 4,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
         "avg_watch_s": 8.8
       }
     ]
@@ -5569,7 +5581,8 @@
       6,
       24,
       48,
-      72
+      72,
+      120
     ],
     "slot": "11:00",
     "metrics": {
@@ -5579,8 +5592,8 @@
       "comments": 0,
       "shares": 5,
       "saved": 3,
-      "avg_watch_s": 6.3,
-      "views_last_hour": 0
+      "total_interactions": 15,
+      "avg_watch_s": 6.3
     },
     "history": [
       {
@@ -5622,6 +5635,18 @@
       {
         "at": "2026-11-24T06:28:06+00:00",
         "hours": 72,
+        "views": 290,
+        "reach": 252,
+        "likes": 7,
+        "comments": 0,
+        "shares": 5,
+        "saved": 3,
+        "total_interactions": 15,
+        "avg_watch_s": 6.3
+      },
+      {
+        "at": "2026-11-26T06:28:21+00:00",
+        "hours": 120,
         "views": 290,
         "reach": 252,
         "likes": 7,
@@ -7352,7 +7377,8 @@
     "checked": [
       6,
       24,
-      48
+      48,
+      72
     ],
     "slot": "11:00",
     "metrics": {
@@ -7362,8 +7388,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "avg_watch_s": 4.4,
-      "views_last_hour": 0
+      "total_interactions": 1,
+      "avg_watch_s": 4.4
     },
     "history": [
       {
@@ -7392,6 +7418,18 @@
       {
         "at": "2026-11-25T06:29:08+00:00",
         "hours": 48,
+        "views": 184,
+        "reach": 162,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 1,
+        "avg_watch_s": 4.4
+      },
+      {
+        "at": "2026-11-26T06:28:21+00:00",
+        "hours": 72,
         "views": 184,
         "reach": 162,
         "likes": 1,
@@ -8221,7 +8259,8 @@
     "posted_at": "2026-11-24T05:30:10+00:00",
     "checked": [
       6,
-      24
+      24,
+      48
     ],
     "slot": "11:00",
     "metrics": {
@@ -8231,8 +8270,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "avg_watch_s": 4.7,
-      "views_last_hour": 0
+      "total_interactions": 2,
+      "avg_watch_s": 4.7
     },
     "history": [
       {
@@ -8257,6 +8296,18 @@
         "saved": 1,
         "total_interactions": 2,
         "avg_watch_s": 4.8
+      },
+      {
+        "at": "2026-11-26T06:28:22+00:00",
+        "hours": 48,
+        "views": 196,
+        "reach": 172,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
+        "total_interactions": 2,
+        "avg_watch_s": 4.7
       }
     ]
   },
@@ -9005,18 +9056,19 @@
     "permalink": "https://www.instagram.com/reel/DgJrs6eF2Qp/",
     "posted_at": "2026-11-25T05:30:13+00:00",
     "checked": [
-      6
+      6,
+      24
     ],
     "slot": "11:00",
     "metrics": {
-      "views": 358,
-      "reach": 304,
+      "views": 364,
+      "reach": 310,
       "likes": 3,
       "comments": 0,
       "shares": 0,
       "saved": 3,
-      "avg_watch_s": 6.4,
-      "views_last_hour": 9
+      "total_interactions": 6,
+      "avg_watch_s": 6.4
     },
     "history": [
       {
@@ -9028,6 +9080,18 @@
         "comments": 0,
         "shares": 0,
         "saved": 1,
+        "avg_watch_s": 6.4
+      },
+      {
+        "at": "2026-11-26T06:28:23+00:00",
+        "hours": 24,
+        "views": 364,
+        "reach": 310,
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "saved": 3,
+        "total_interactions": 6,
         "avg_watch_s": 6.4
       }
     ]
@@ -9775,5 +9839,233 @@
     "posted_at": "2026-11-26T05:30:13+00:00",
     "checked": [],
     "slot": "11:00"
+  },
+  {
+    "id": "20261126-062844-english",
+    "created_at": "2026-11-26T06:35:37+00:00",
+    "language": "english",
+    "topic": "compress_image",
+    "hook_style": "contrarian",
+    "format": "story",
+    "pace": "natural",
+    "distance": "near",
+    "answer": null,
+    "idea": "",
+    "plan_reason": "testing a less-tried tool; hook style: explore; format: best so far; pace: best so far; distance: best so far",
+    "title": "Meera's 40 KB photo problem",
+    "hook": "Meera did everything right. Except one thing.",
+    "seconds": 25.7,
+    "script": {
+      "title": "Meera's 40 KB photo problem",
+      "scenes": [
+        {
+          "say": "Meera did everything right. Except one thing.",
+          "voice": "Meera did everything right... except one thing.",
+          "accent": [
+            "one thing"
+          ],
+          "tag": "story",
+          "meter": null,
+          "scene": {
+            "type": "big_text",
+            "text": "EVERYTHING RIGHT",
+            "sub": "except one thing"
+          },
+          "kind": "hook",
+          "screen": "Meera did everything right. Except one thing.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "She filled the whole exam form carefully.",
+          "voice": "She filled the whole exam form carefully.",
+          "accent": [
+            "carefully"
+          ],
+          "tag": "story",
+          "meter": null,
+          "scene": {
+            "type": "checklist",
+            "title": "Exam form",
+            "items": [
+              "Name",
+              "Date of birth",
+              "Address"
+            ]
+          },
+          "kind": "point",
+          "screen": "She filled the whole exam form carefully.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Then the photo upload said: file too large.",
+          "voice": "Then the photo upload said... file too large.",
+          "accent": [
+            "too large"
+          ],
+          "tag": "the turn",
+          "meter": {
+            "label": "SIZE",
+            "value": "2.1 MB"
+          },
+          "scene": {
+            "type": "phone_upload",
+            "state": "error",
+            "file": "photo.jpg",
+            "size": "2.1 MB",
+            "text": "File too large",
+            "title": "Upload photo"
+          },
+          "kind": "point",
+          "screen": "Then the photo upload said: file too large.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "So she cropped it. Then cropped it again.",
+          "voice": "So she cropped it. Then cropped it again.",
+          "accent": [
+            "cropped"
+          ],
+          "tag": "the turn",
+          "meter": null,
+          "scene": {
+            "type": "chat",
+            "name": "Meera",
+            "messages": [
+              {
+                "from": "me",
+                "text": "Still too big!"
+              },
+              {
+                "from": "them",
+                "text": "Just cut more"
+              },
+              {
+                "from": "me",
+                "text": "Now my face is gone"
+              }
+            ]
+          },
+          "kind": "point",
+          "screen": "So she cropped it. Then cropped it again.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Her face got smaller. The file did not.",
+          "voice": "Her face got smaller. The file did not.",
+          "accent": [
+            "file did not"
+          ],
+          "tag": "the turn",
+          "meter": null,
+          "scene": {
+            "type": "warning",
+            "text": "Cropping is not shrinking"
+          },
+          "kind": "point",
+          "screen": "Her face got smaller. The file did not.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Cutting the picture is the wrong fix.",
+          "voice": "Cutting the picture is the wrong fix.",
+          "accent": [
+            "wrong fix"
+          ],
+          "tag": "lesson",
+          "meter": null,
+          "scene": {
+            "type": "versus",
+            "left": "Crop it",
+            "right": "Compress it",
+            "left_sub": "Loses your face",
+            "right_sub": "Keeps the photo",
+            "winner": "right"
+          },
+          "kind": "point",
+          "screen": "Cutting the picture is the wrong fix.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Compressing keeps the whole photo. It only lowers the file size.",
+          "voice": "Compressing keeps the whole photo... it only lowers the file size.",
+          "accent": [
+            "file size"
+          ],
+          "tag": "lesson",
+          "meter": {
+            "label": "SIZE",
+            "value": "40 KB"
+          },
+          "scene": {
+            "type": "before_after",
+            "before": "2.1 MB",
+            "after": "40 KB",
+            "before_label": "TOO BIG",
+            "after_label": "FITS"
+          },
+          "kind": "point",
+          "screen": "Compressing keeps the whole photo. It only lowers the file s",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "On ilovedocuments.ai, Compress Image does this free.",
+          "voice": "On I love documents dot A I... Compress Image does this free, with no sign up and no water mark.",
+          "accent": [
+            "Compress Image"
+          ],
+          "tag": "free tool",
+          "meter": null,
+          "scene": {
+            "type": "browser",
+            "url": "ilovedocuments.ai",
+            "button": "Compress Image"
+          },
+          "kind": "point",
+          "screen": "On ilovedocuments.ai, Compress Image does this free.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Save this for your next form.",
+          "voice": "Save this for your next form.",
+          "accent": [
+            "Save"
+          ],
+          "tag": "save it",
+          "meter": null,
+          "scene": {
+            "type": "cta",
+            "keyword": "SAVE",
+            "line": "// for your next form"
+          },
+          "kind": "cta",
+          "screen": "Save this for your next form.",
+          "emphasis": [],
+          "visual": null
+        }
+      ],
+      "caption": "Meera cropped her photo three times before she learned the real fix: shrink the file, not the picture. Compress Image on ilovedocuments.ai works free, with no sign-up and no watermark, and your files stay on your device. Which form gave you the most trouble with photo size? ilovedocuments.ai",
+      "hashtags": [
+        "#examform",
+        "#onlineform",
+        "#compressimage",
+        "#india",
+        "#documents"
+      ]
+    },
+    "caption": "Meera cropped her photo three times before she learned the real fix: shrink the file, not the picture. Compress Image on ilovedocuments.ai works free, with no sign-up and no watermark, and your files stay on your device. Which form gave you the most trouble with photo size? ilovedocuments.ai\n\n#examform #onlineform #compressimage #india #documents",
+    "video": "20261126-062844-english.mp4",
+    "media_id": "17946591078390207",
+    "permalink": "https://www.instagram.com/reel/DgMeYcXzcfb/",
+    "posted_at": "2026-11-26T07:30:11+00:00",
+    "checked": [],
+    "slot": "13:00"
   }
 ]

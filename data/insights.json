@@ -1,92 +1,5 @@
 [
   {
-    "at": "2026-11-20T04:10:19+00:00",
-    "permalink": "https://www.instagram.com/reel/Df5X2HhyD9f/",
-    "why": "It rides one huge cultural moment with a single-line, high-energy hook. Fans share the moment, and little else is needed.",
-    "hook_pattern": "Tonight belongs to [big event]",
-    "structure": [
-      "Big event line",
-      "Dark atmospheric screen",
-      "Slow reveal"
-    ],
-    "visual": "Dark home theatre with a giant screen and the creator laughing on a couch.",
-    "speaking": "Few words, long silent stretches, anticipation-driven."
-  },
-  {
-    "at": "2026-11-20T12:09:07+00:00",
-    "permalink": "https://www.instagram.com/reel/DfzQuPIR1-Y/",
-    "why": "It opens on an alarming rule change that affects millions of people, so viewers feel they have to watch. It then proves the change with a real message on screen and ends on a plain instruction to share. The speaker starts talking at 0.0 s and never stops, so there is no moment to scroll away.",
-    "hook_pattern": "Scary news for [huge group]: [thing they rely on] is about to stop working",
-    "structure": [
-      "Alarm headline in the first second, with a big caption badge",
-      "State the new rule in one plain sentence",
-      "Show proof: the real SMS or app screen with the key words highlighted",
-      "Contrast: 'until now it was fine, but that's ending'",
-      "Say what the viewer must do now",
-      "Share line and sign-off"
-    ],
-    "visual": "Presenter in a red-backed studio, cut with close-ups of a phone showing the real message and app. Bold word-by-word captions with the key words highlighted, and a red 'WORST NEWS' badge.",
-    "speaking": "Fast, around 4 words per second, with no pauses. Worried, urgent tone, with the stress on the scary verbs such as 'disconnect' and 'expired'."
-  },
-  {
-    "at": "2026-11-20T12:09:07+00:00",
-    "permalink": "https://www.instagram.com/reel/Df7PW_avgh0/",
-    "why": "It turns a game detail into a small surprise that viewers can test themselves, and the hook is a verdict ('bawaal') rather than a topic. The gameplay clip does the proving, so the talking can stay loose.",
-    "hook_pattern": "[Famous thing] just did something nobody expected: here is the detail",
-    "structure": [
-      "Reaction hook in the caption and the first line",
-      "Show the exact scenario in clip form",
-      "Explain the hidden rule step by step",
-      "Close with the consequence: you get away or you don't"
-    ],
-    "visual": "Top half is gameplay footage with a bold caption bar ('GTA 6 Police is Crazy'). Bottom half is the presenter in an orange tee gesturing to camera.",
-    "speaking": "Casual Hindi, conversational and quick, like a friend explaining a find. Hand gestures and a rising tone on the surprising part."
-  },
-  {
-    "at": "2026-11-20T12:09:07+00:00",
-    "permalink": "https://www.instagram.com/reel/Df4bTYBxbfY/",
-    "why": "A then-versus-now comparison needs no explanation and makes viewers measure the gap themselves. The title is short and the visuals do the work.",
-    "hook_pattern": "[Thing] in [old year] vs [Thing] in [new year]",
-    "structure": [
-      "Title with the two years",
-      "Old version",
-      "New version",
-      "Let the gap speak"
-    ],
-    "visual": "Side-by-side or stacked game footage with a single black caption bar and a small logo.",
-    "speaking": "Little or no speech. The comparison carries it."
-  },
-  {
-    "at": "2026-11-20T12:09:07+00:00",
-    "permalink": "https://www.instagram.com/reel/DfFGo0jynBz/",
-    "why": "The opening is a superlative claim ('most beautiful phone in the world') followed at once by proof shots. Each feature is stacked as a new surprise ('the craziness doesn't end here'), so viewers keep waiting for the next one.",
-    "hook_pattern": "This is the world's most [adjective] [thing], and you've never seen anything like it",
-    "structure": [
-      "Superlative claim over a hero shot",
-      "Name the thing",
-      "Reveal 1: look and feel",
-      "Reveal 2: 'the craziness doesn't end here'",
-      "Reveal 3: specs and numbers",
-      "Callback to the opening claim",
-      "Share line"
-    ],
-    "visual": "Glossy product close-ups with a strong red palette, quick cuts between angles, and word-by-word highlighted captions.",
-    "speaking": "Fast, about 4 words per second, with an excited, slightly cheeky tone and stress on the adjectives."
-  },
-  {
-    "at": "2026-11-20T12:09:07+00:00",
-    "permalink": "https://www.instagram.com/reel/DfZQuPIR1-Y/",
-    "why": "The creator is not given any distinct rationale here, so this entry mirrors the Jio reel's pattern.",
-    "hook_pattern": "Scary news for [group]",
-    "structure": [
-      "Alarm",
-      "Proof",
-      "Action"
-    ],
-    "visual": "Presenter with phone close-ups.",
-    "speaking": "Fast and urgent."
-  },
-  {
     "at": "2026-11-21T04:32:28+00:00",
     "permalink": "https://www.instagram.com/reel/Df9mir3heiW/",
     "why": "It opens by naming the pain (the controller dies mid-game) and shows a funny awkward posture. The fix is one attach-and-press action, so it can be understood in seconds. Short, fast and dense, it ends with a clean 'share with someone who has X' line.",
@@ -861,5 +774,90 @@
     ],
     "visual": "Emotional story shots.",
     "speaking": "Not available."
+  },
+  {
+    "at": "2026-11-26T13:08:34+00:00",
+    "permalink": "https://www.instagram.com/reel/DgNFvwJSONX/",
+    "why": "It opens on a bold claim ('most useful', 'install anywhere') and then shows a three-step setup (peel, insert, turn on) that feels easy. After that it lists one benefit per sentence at a fast, steady pace, so there is no dead air and every few seconds adds a new reason to stay.",
+    "hook_pattern": "This is the most useful [thing] and it works [anywhere/with no effort]",
+    "structure": [
+      "Bold superlative claim in the first second",
+      "Three effortless setup steps shown on screen",
+      "Rapid-fire benefit list, one feature per sentence",
+      "Closing line with a follow CTA and a promise of more tomorrow"
+    ],
+    "visual": "Clean close-up product demo with hands doing the steps, then cutaways of the app and footage quality.",
+    "speaking": "Fast (about 4 words per second), few pauses, upbeat and confident, with every sentence a new fact."
+  },
+  {
+    "at": "2026-11-26T13:08:34+00:00",
+    "permalink": "https://www.instagram.com/reel/DgMe-Gdz6k1/",
+    "why": "'World's first' creates instant curiosity. The reel then answers a familiar pain (wrinkled clothes, monsoon damp) with a simple 'put it in, set it, done' flow and a concrete payoff ('ready in under 10 minutes'). It added a surprise bonus use (drying shoes) late.",
+    "hook_pattern": "If you hate [chore], you need this [thing that does two jobs in one]",
+    "structure": [
+      "Pain-point hook ('if you hate X')",
+      "Two-in-one claim",
+      "Simple steps: connect, load, set",
+      "Concrete time payoff",
+      "Surprise bonus use",
+      "Seasonal relevance",
+      "Follow CTA"
+    ],
+    "visual": "Product demo with clothes going in and coming out, plus a close-up of the attachment for shoes.",
+    "speaking": "Moderate pace (about 3 words per second), friendly and explanatory, with small pauses before each new benefit."
+  },
+  {
+    "at": "2026-11-26T13:08:34+00:00",
+    "permalink": "https://www.instagram.com/reel/DgMfuJIx1JL/",
+    "why": "This is the same script as reel 2 with a shorter hook, and it got far less reach (0 likes, 8.9k views). That suggests the repost or duplicate got little distribution, and that a bare claim with no pain-point opener is weaker.",
+    "hook_pattern": "This is the world's first gadget that can [do two things]",
+    "structure": [
+      "Claim",
+      "Steps",
+      "Payoff",
+      "Bonus use",
+      "CTA"
+    ],
+    "visual": "Same product demo as the stronger version.",
+    "speaking": "Even and explanatory, with a slightly flatter opener."
+  },
+  {
+    "at": "2026-11-26T13:08:34+00:00",
+    "permalink": "https://www.instagram.com/reel/DgNEfhrRusn/",
+    "why": "A dated 'upcoming' list with a comment question gets saves and opinions. It is a numbered list of things people already want, so it is easy to scan and gives a reason to come back.",
+    "hook_pattern": "[N] [things] coming in [month]: which one do you want?",
+    "structure": [
+      "Dated list title",
+      "One item per card",
+      "Question to the audience in the caption"
+    ],
+    "visual": "Fast phone-spec cards, one per item, with big text.",
+    "speaking": "No usable speech. Visual-led, with likely text overlays and quick cuts."
+  },
+  {
+    "at": "2026-11-26T13:08:34+00:00",
+    "permalink": "https://www.instagram.com/reel/DgM7W9Bv48E/",
+    "why": "Weak reach for the account's size (19 comments, 0.8 engagement per 1,000 followers). It is a plain sale announcement with a muddled Hindi transcript and no story or demo, so it is mainly a counter-example.",
+    "hook_pattern": "Special offer on [product] right now",
+    "structure": [
+      "Offer announcement",
+      "Product mention",
+      "Shop link"
+    ],
+    "visual": "Product shots with a promo overlay.",
+    "speaking": "Slow (under 2 words per second), casual Hindi, no tension."
+  },
+  {
+    "at": "2026-11-26T13:08:34+00:00",
+    "permalink": "https://www.instagram.com/reel/DgM-WOcvXRC/",
+    "why": "It is a price-drop pitch with nothing to watch and almost no engagement (20 likes, 2.9k views). The only lesson is that a bare price claim with no demo or story does not hold attention.",
+    "hook_pattern": "Biggest price drop on [product]",
+    "structure": [
+      "Price claim",
+      "Sale mention",
+      "Shop link"
+    ],
+    "visual": "Static promo shots.",
+    "speaking": "Fast, flat Hindi with no pauses, so nothing lands."
   }
 ]

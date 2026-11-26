@@ -1,11 +1,5 @@
 {
   "learned": {
-    "bad_news_share_alert": {
-      "description": "The narrator opens with bad news that affects many people, such as a rule change or a rejection. Then show the 3D character losing something and fixing it fast, and end with 'save this' because the problem repeats.",
-      "from": "https://www.instagram.com/reel/DfzP76ayo_c/",
-      "hook_pattern": "'[Brand] bad news' + 'Share this with everyone who has [thing]'",
-      "added": "2026-11-23T04:28:33+00:00"
-    },
     "live_alert_urgency": {
       "description": "Open with an urgent 'this is happening now' alert, show a 3D character rushing, and resolve it with the free tool and a calm 'save this'.",
       "from": "https://www.instagram.com/reel/DftXLfuBVRI/",
@@ -59,6 +53,12 @@
       "from": "https://www.instagram.com/reel/DgHbKDZR8O3/",
       "hook_pattern": "Watch this: [instant demo], then N free tools to make your life easier",
       "added": "2026-11-24T14:18:49+00:00"
+    },
+    "two_jobs_one_tool_explainer": {
+      "description": "Open on a chore the narrator hates, then have the 3D character use one tool to do two jobs in one go. Show a time or size payoff on a panel, then reveal one bonus use near the end.",
+      "from": "https://www.instagram.com/reel/DgMe-Gdz6k1/",
+      "hook_pattern": "If you hate [chore], you need this [thing that does two jobs in one]",
+      "added": "2026-11-26T13:08:34+00:00"
     }
   }
 }

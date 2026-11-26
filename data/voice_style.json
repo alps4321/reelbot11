@@ -1,36 +1,6 @@
 {
   "samples": [
     {
-      "wps": 2.85,
-      "pause_s": 0.45,
-      "lang": "en",
-      "per_k": 11.9
-    },
-    {
-      "wps": 3.96,
-      "pause_s": 0.28,
-      "lang": "en",
-      "per_k": 16.5
-    },
-    {
-      "wps": 3.58,
-      "pause_s": 0.27,
-      "lang": "en",
-      "per_k": 13.5
-    },
-    {
-      "wps": 3.37,
-      "pause_s": 0.83,
-      "lang": "hi",
-      "per_k": 9.7
-    },
-    {
-      "wps": 2.77,
-      "pause_s": 0.3,
-      "lang": "hi",
-      "per_k": 6.4
-    },
-    {
       "wps": 3.1,
       "pause_s": 0.32,
       "lang": "hi",
@@ -239,10 +209,40 @@
       "pause_s": 0.45,
       "lang": "hi",
       "per_k": 5.6
+    },
+    {
+      "wps": 4.03,
+      "pause_s": 0.35,
+      "lang": "en",
+      "per_k": 3.5
+    },
+    {
+      "wps": 3.08,
+      "pause_s": 0.32,
+      "lang": "en",
+      "per_k": 2.0
+    },
+    {
+      "wps": 1.85,
+      "pause_s": 0.44,
+      "lang": "hi",
+      "per_k": 0.8
+    },
+    {
+      "wps": 3.12,
+      "pause_s": 0.34,
+      "lang": "en",
+      "per_k": 0.4
+    },
+    {
+      "wps": 3.6,
+      "pause_s": 0.0,
+      "lang": "hi",
+      "per_k": 0.0
     }
   ],
-  "notes": "The strongest speaker (Beebom) keeps a fast pace of about 4 words per second with almost no pauses and puts the stress on action words like 'type' and 'hold'. Aim for a similar quick, friendly rhythm, with a short pause just before the key reveal and a warm line to close.",
-  "updated": "2026-11-26T04:29:10+00:00",
-  "words_per_second": 3.3,
-  "pause_s": 0.34
+  "notes": "The strongest speaker (beebomco) talks fast at about 4 words per second, with almost no pauses, and gives every sentence one new fact. The slower explainers (techwiser) use short pauses and a steady friendly tone before each new benefit, and the weakest Hindi reels were flat and had nothing to emphasise.",
+  "updated": "2026-11-26T13:08:34+00:00",
+  "words_per_second": 3.23,
+  "pause_s": 0.35
 }

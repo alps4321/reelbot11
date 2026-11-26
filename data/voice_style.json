@@ -1,18 +1,6 @@
 {
   "samples": [
     {
-      "wps": 3.7,
-      "pause_s": 0.0,
-      "lang": "hi",
-      "per_k": 16.1
-    },
-    {
-      "wps": 4.05,
-      "pause_s": 0.26,
-      "lang": "en",
-      "per_k": 13.9
-    },
-    {
       "wps": 2.85,
       "pause_s": 0.45,
       "lang": "en",
@@ -239,10 +227,22 @@
       "pause_s": 0.0,
       "lang": "hi",
       "per_k": 0.0
+    },
+    {
+      "wps": 4.19,
+      "pause_s": 0.28,
+      "lang": "en",
+      "per_k": 10.6
+    },
+    {
+      "wps": 2.26,
+      "pause_s": 0.45,
+      "lang": "hi",
+      "per_k": 5.6
     }
   ],
-  "notes": "The one reel with speech here uses fast, around 5 words per second delivery with almost no pauses and a joking tone, so keep our narration quick and confident, but add a short beat before the reveal. The other reels have no speech, so there is no further evidence on pacing.",
-  "updated": "2026-11-25T13:29:35+00:00",
-  "words_per_second": 3.38,
-  "pause_s": 0.33
+  "notes": "The strongest speaker (Beebom) keeps a fast pace of about 4 words per second with almost no pauses and puts the stress on action words like 'type' and 'hold'. Aim for a similar quick, friendly rhythm, with a short pause just before the key reveal and a warm line to close.",
+  "updated": "2026-11-26T04:29:10+00:00",
+  "words_per_second": 3.3,
+  "pause_s": 0.34
 }

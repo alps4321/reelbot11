@@ -1,65 +1,6 @@
 [
   {
     "at": "2026-11-20T04:10:19+00:00",
-    "permalink": "https://www.instagram.com/reel/DeyeECdR9Ks/",
-    "why": "The 'survives anything' claim is proven by physical stress tests (drops, water) that anyone can follow with no sound. Chunky captions highlight each word as it is spoken.",
-    "hook_pattern": "This [thing] can survive anything, so even if you do this, this, or this, nothing happens",
-    "structure": [
-      "Bold durability claim",
-      "Torture tests: drop, splash, dunk",
-      "Feature the audience cares about most (selfie)",
-      "Smaller useful tricks",
-      "Spec dump",
-      "Reminder to engage"
-    ],
-    "visual": "Fast cuts of drops, water and shaking, with bold captions highlighting the current word. A water-submerged shot gives a strong visual spike.",
-    "speaking": "Brisk, 3 words/s, no dead air. Stresses 'anything' and 'tank', and the examples are spoken as 'this, this, or even this' over the cuts."
-  },
-  {
-    "at": "2026-11-20T04:10:19+00:00",
-    "permalink": "https://www.instagram.com/reel/DfryEj1yRv7/",
-    "why": "The unboxing builds curiosity with a physical reveal sequence: wrapper, case, then poster. The creator's playful, excited reactions carry it with almost no explanation, and the topic is very hyped.",
-    "hook_pattern": "Unboxing [hyped thing]! with a laugh",
-    "structure": [
-      "Excited reaction to the box",
-      "Peel the wrapper",
-      "Open the case",
-      "Reveal the bonus item",
-      "Playful sign-off"
-    ],
-    "visual": "Neon purple and blue studio, hands doing a slow unwrapping, with a simple 'Unboxing GTA 6' label.",
-    "speaking": "Playful, giggling, short exclamations with pauses between them. Little information, mostly emotion."
-  },
-  {
-    "at": "2026-11-20T04:10:19+00:00",
-    "permalink": "https://www.instagram.com/reel/DfUbxtAgozz/",
-    "why": "A long tool list is easy to scan when it is turned into one 'you only need this' device. Hinglish-to-English style asks like 'for you and for someone else' make sharing natural.",
-    "hook_pattern": "One tiny [thing] replaces N annoying [things]",
-    "structure": [
-      "Name the pile of annoying separate things",
-      "Reveal the one thing that replaces them",
-      "Show each replaced thing disappear",
-      "Final extra"
-    ],
-    "visual": "Close-ups of connections and a hand plugging things in, with highlighted captions.",
-    "speaking": "Quick and confident, no filler words."
-  },
-  {
-    "at": "2026-11-20T04:10:19+00:00",
-    "permalink": "https://www.instagram.com/reel/Df7RgoAvbsr/",
-    "why": "The 'crazy price' label and the PC-or-tablet duality give two reasons to watch. It is weaker here: a slow start (9 s before speaking) and a long spec list lost engagement.",
-    "hook_pattern": "This [device] can work like a [A] and a [B]",
-    "structure": [
-      "Price label",
-      "Duality claim",
-      "Spec rundown",
-      "Casual use demo"
-    ],
-    "visual": "Presenter to camera in a room, with confetti and a keyboard-attached tablet.",
-    "speaking": "Slow, 2.8 words/s with long pauses. A cautionary example: the delayed start cost views."
-  },
-  {
-    "at": "2026-11-20T04:10:19+00:00",
     "permalink": "https://www.instagram.com/reel/Df5X2HhyD9f/",
     "why": "It rides one huge cultural moment with a single-line, high-energy hook. Fans share the moment, and little else is needed.",
     "hook_pattern": "Tonight belongs to [big event]",
@@ -863,5 +804,62 @@
     ],
     "visual": "Not visible in the data. Likely product shots with price cards, which is a guess.",
     "speaking": "No speech available."
+  },
+  {
+    "at": "2026-11-26T04:29:10+00:00",
+    "permalink": "https://www.instagram.com/reel/DgKzWQkh0vq/",
+    "why": "It opens on a new feature people have been asking for and shows the exact tap path on screen. Each step is quick and easy to copy, and the closing line gives a specific person to share it with.",
+    "hook_pattern": "[Popular app] finally got the feature everyone asked for, here is the one gesture that unlocks it",
+    "structure": [
+      "Hook: the long-awaited feature has arrived, with an on-screen title",
+      "Show the exact gesture (type, then press and hold)",
+      "State the limit or benefit (up to 14 days ahead)",
+      "Give 2 or 3 relatable use cases with a light joke",
+      "Add a bonus (works for photos and videos, and when the phone is off)",
+      "Share line aimed at a specific kind of person"
+    ],
+    "visual": "Close-up of a hand using the phone. A bold title card at the start, then big word-by-word captions with the key word highlighted. Hard cuts between steps.",
+    "speaking": "Fast at about 4 words per second, with almost no pauses. Friendly and a little cheeky. Stress falls on the action words."
+  },
+  {
+    "at": "2026-11-26T04:29:10+00:00",
+    "permalink": "https://www.instagram.com/reel/DgKq9leMVIk/",
+    "why": "It shows a new product from a trusted face, and the viewer gets a real look at it. Mixing Hindi and English signals both familiarity and aspiration.",
+    "hook_pattern": "My new [desirable thing] is here and I'm loving it",
+    "structure": [
+      "Reveal of the product",
+      "Walk through the buying or unboxing steps",
+      "Praise the performance",
+      "Point out the standout feature",
+      "Close with a personal verdict"
+    ],
+    "visual": "Presenter and product, with the screen and logo shown in close-up.",
+    "speaking": "Slow and conversational, a mix of Hindi and English, with emphasis on the superlatives."
+  },
+  {
+    "at": "2026-11-26T04:29:10+00:00",
+    "permalink": "https://www.instagram.com/reel/DgKsyBxxlzo/",
+    "why": "It is a gaming reel built on a bold claim about a specific popular name, which makes people argue and share. The caption asks viewers to share it with their friend group.",
+    "hook_pattern": "[Popular thing] can't run on [common device], and you know someone who lags",
+    "structure": [
+      "Bold claim in the title",
+      "Show the evidence",
+      "Tag-a-friend share line"
+    ],
+    "visual": "Gaming clips with punchy text.",
+    "speaking": "Not available, since the reel has no narration. A loud, confident tone is likely."
+  },
+  {
+    "at": "2026-11-26T04:29:10+00:00",
+    "permalink": "https://www.instagram.com/reel/Df6gLK-hg6N/",
+    "why": "It names a character and promises a turn in the story, which creates curiosity. Its low reach suggests the story relies on a click-through that we can't offer.",
+    "hook_pattern": "[Name] failed again, but this time something changed everything",
+    "structure": [
+      "Character and setback",
+      "Hint at a turn",
+      "Send viewers elsewhere for the answer"
+    ],
+    "visual": "Emotional story shots.",
+    "speaking": "Not available."
   }
 ]

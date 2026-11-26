@@ -1,10 +1,10 @@
 # Live reel stats
 
-Updated 26 Nov 2026, 05:57 PM India time (refreshed about every 5 minutes)
+Updated 26 Nov 2026, 06:02 PM India time (refreshed about every 5 minutes)
 
 | posted | hook | views | views last hour | avg watch s | likes | comments | shares | saves | link |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-11-26 | Meera cropped her photo three times before she lea | 48 | +0 | 8.7 | 1 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgMeYcXzcfb/) |
+| 2026-11-26 | Meera cropped her photo three times before she lea | 49 | +1 | 8.7 | 1 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgMeYcXzcfb/) |
 | 2026-11-26 | e-PAN ka password aapki date of birth hai, DDMMYYY | 211 | +0 | 4.1 | 3 | 0 | 0 | 1 | [open](https://www.instagram.com/reel/DgMQ4HUB-s5/) |
 | 2026-11-25 | Aadhaar PDF ka password: naam ke pehle 4 letters C | 144 | +2 | 4.0 | 1 | 0 | 0 | 1 | [open](https://www.instagram.com/reel/DgKizPitu-w/) |
 | 2026-11-25 | A plain PDF can be forwarded by anyone who gets it | 81 | +3 | 3.3 | 0 | 0 | 0 | 1 | [open](https://www.instagram.com/reel/DgJ5V8oK93k/) |

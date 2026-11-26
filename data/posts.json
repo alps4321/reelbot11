@@ -4896,7 +4896,8 @@
       24,
       48,
       72,
-      120
+      120,
+      168
     ],
     "slot": "19:00",
     "metrics": {
@@ -4968,6 +4969,17 @@
         "saved": 2,
         "total_interactions": 7,
         "avg_watch_s": 7.7
+      },
+      {
+        "at": "2026-11-26T12:27:15+00:00",
+        "hours": 168,
+        "views": 222,
+        "reach": 168,
+        "likes": 3,
+        "comments": 2,
+        "shares": 0,
+        "saved": 2,
+        "avg_watch_s": 7.6
       }
     ]
   },
@@ -6206,7 +6218,8 @@
       6,
       24,
       48,
-      72
+      72,
+      120
     ],
     "slot": "19:00",
     "metrics": {
@@ -6216,8 +6229,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "avg_watch_s": 4.6,
-      "views_last_hour": 0
+      "total_interactions": 2,
+      "avg_watch_s": 4.6
     },
     "history": [
       {
@@ -6259,6 +6272,18 @@
       {
         "at": "2026-11-24T15:00:17+00:00",
         "hours": 72,
+        "views": 203,
+        "reach": 170,
+        "likes": 2,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 2,
+        "avg_watch_s": 4.6
+      },
+      {
+        "at": "2026-11-26T14:01:42+00:00",
+        "hours": 120,
         "views": 203,
         "reach": 170,
         "likes": 2,
@@ -8005,7 +8030,8 @@
     "checked": [
       6,
       24,
-      48
+      48,
+      72
     ],
     "slot": "19:00",
     "metrics": {
@@ -8015,8 +8041,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 6,
-      "avg_watch_s": 5.1,
-      "views_last_hour": 0
+      "total_interactions": 10,
+      "avg_watch_s": 5.1
     },
     "history": [
       {
@@ -8045,6 +8071,18 @@
       {
         "at": "2026-11-25T14:35:31+00:00",
         "hours": 48,
+        "views": 186,
+        "reach": 159,
+        "likes": 4,
+        "comments": 0,
+        "shares": 0,
+        "saved": 6,
+        "total_interactions": 10,
+        "avg_watch_s": 5.1
+      },
+      {
+        "at": "2026-11-26T14:01:43+00:00",
+        "hours": 72,
         "views": 186,
         "reach": 159,
         "likes": 4,
@@ -8845,7 +8883,8 @@
     "posted_at": "2026-11-24T13:30:12+00:00",
     "checked": [
       6,
-      24
+      24,
+      48
     ],
     "slot": "19:00",
     "metrics": {
@@ -8855,8 +8894,8 @@
       "comments": 0,
       "shares": 1,
       "saved": 0,
-      "avg_watch_s": 3.9,
-      "views_last_hour": 0
+      "total_interactions": 5,
+      "avg_watch_s": 3.9
     },
     "history": [
       {
@@ -8874,6 +8913,18 @@
       {
         "at": "2026-11-25T14:35:32+00:00",
         "hours": 24,
+        "views": 244,
+        "reach": 203,
+        "likes": 4,
+        "comments": 0,
+        "shares": 1,
+        "saved": 0,
+        "total_interactions": 5,
+        "avg_watch_s": 3.9
+      },
+      {
+        "at": "2026-11-26T14:01:44+00:00",
+        "hours": 48,
         "views": 244,
         "reach": 203,
         "likes": 4,
@@ -9657,18 +9708,19 @@
     "permalink": "https://www.instagram.com/reel/DgKizPitu-w/",
     "posted_at": "2026-11-25T13:30:12+00:00",
     "checked": [
-      6
+      6,
+      24
     ],
     "slot": "19:00",
     "metrics": {
-      "views": 144,
-      "reach": 121,
+      "views": 145,
+      "reach": 122,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "avg_watch_s": 4.0,
-      "views_last_hour": 2
+      "total_interactions": 2,
+      "avg_watch_s": 4.0
     },
     "history": [
       {
@@ -9681,6 +9733,18 @@
         "shares": 0,
         "saved": 1,
         "avg_watch_s": 3.8
+      },
+      {
+        "at": "2026-11-26T14:01:44+00:00",
+        "hours": 24,
+        "views": 145,
+        "reach": 122,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
+        "total_interactions": 2,
+        "avg_watch_s": 4.0
       }
     ]
   },
@@ -10150,18 +10214,33 @@
     "media_id": "17946591078390207",
     "permalink": "https://www.instagram.com/reel/DgMeYcXzcfb/",
     "posted_at": "2026-11-26T07:30:11+00:00",
-    "checked": [],
+    "checked": [
+      6
+    ],
     "slot": "13:00",
     "metrics": {
-      "views": 48,
+      "views": 49,
       "reach": 38,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "avg_watch_s": 8.7,
-      "views_last_hour": 0
-    }
+      "views_last_hour": 1
+    },
+    "history": [
+      {
+        "at": "2026-11-26T12:31:48+00:00",
+        "hours": 6,
+        "views": 49,
+        "reach": 38,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "avg_watch_s": 8.7
+      }
+    ]
   },
   {
     "id": "20261126-122924-hinglish",

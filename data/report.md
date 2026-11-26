@@ -1,6 +1,6 @@
 # ReelBot report
 
-Updated 2026-11-26T13:30:14+00:00
+Updated 2026-11-26T14:01:44+00:00
 
 Reels made: 43. Posted: 36. Measured: 34.
 
@@ -89,11 +89,11 @@ Reels made: 43. Posted: 36. Measured: 34.
 |---|---|---|
 | compress_pdf_kb | 1 | 1293.0 |
 | pdf_to_word | 1 | 1237.0 |
-| unlock_aadhaar | 2 | 1208.5 |
 | passport_photo | 1 | 971.0 |
+| unlock_aadhaar | 3 | 839.0 |
 | resize_image_kb | 1 | 348.0 |
 | resize_photo_kb | 1 | 325.0 |
-| id_card_print | 4 | 250.8 |
+| id_card_print | 4 | 250.2 |
 | unlock_pdf | 3 | 207.0 |
 | pdf_to_jpg | 1 | 157.0 |
 | bank_statement_excel | 2 | 110.0 |
@@ -105,11 +105,11 @@ Reels made: 43. Posted: 36. Measured: 34.
 | hook_style | reels | avg score |
 |---|---|---|
 | manual | 2 | 648.0 |
-| question | 8 | 564.9 |
-| problem | 4 | 480.0 |
+| question | 8 | 564.8 |
+| problem | 5 | 404.0 |
 | contrarian | 1 | 348.0 |
 | story_open | 1 | 200.0 |
-| how_to | 1 | 171.0 |
+| how_to | 1 | 170.0 |
 | bold_claim | 1 | 157.0 |
 | number | 1 | 144.0 |
 
@@ -119,7 +119,7 @@ Reels made: 43. Posted: 36. Measured: 34.
 |---|---|---|
 | what_if | 1 | 1293.0 |
 | manual | 2 | 648.0 |
-| secret_answer | 13 | 420.1 |
+| secret_answer | 14 | 397.1 |
 | discovery | 1 | 348.0 |
 | did_you_know | 1 | 200.0 |
 | myth_buster | 1 | 157.0 |
@@ -128,8 +128,8 @@ Reels made: 43. Posted: 36. Measured: 34.
 
 | pace | reels | avg score |
 |---|---|---|
-| natural | 6 | 345.8 |
 | brisk | 8 | 333.8 |
+| natural | 7 | 310.4 |
 | calm | 2 | 214.0 |
 
 ## hinglish: results by distance
@@ -137,7 +137,7 @@ Reels made: 43. Posted: 36. Measured: 34.
 | distance | reels | avg score |
 |---|---|---|
 | far | 2 | 274.0 |
-| near | 12 | 174.6 |
+| near | 13 | 168.7 |
 
 ## hinglish: what the bot has learned
 
@@ -168,12 +168,12 @@ Reels made: 43. Posted: 36. Measured: 34.
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-11-26 | hinglish | bank_statement_excel | secret_answer | HDFC bank statement PDF ka password kya hai? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgNHnVtxwdX/) |
-| 2026-11-26 | english | compress_image | story | Meera did everything right. Except one thing. | 48 | 8.7 | 1 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgMeYcXzcfb/) |
+| 2026-11-26 | english | compress_image | story | Meera did everything right. Except one thing. | 49 | 8.7 | 1 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgMeYcXzcfb/) |
 | 2026-11-26 | hinglish | unlock_pdf | secret_answer | PAN card PDF ka password kya hai? | 211 | 4.1 | 3 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/DgMQ4HUB-s5/) |
-| 2026-11-25 | hinglish | unlock_aadhaar | secret_answer | Aadhaar PDF ka password kya hota hai? | 144 | 4.0 | 1 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/DgKizPitu-w/) |
+| 2026-11-25 | hinglish | unlock_aadhaar | secret_answer | Aadhaar PDF ka password kya hota hai? | 145 | 4.0 | 1 | 0 | 0 | 1 | 100 | [open](https://www.instagram.com/reel/DgKizPitu-w/) |
 | 2026-11-25 | english | protect_pdf | myth_buster | 1 forward is all it takes. | 81 | 3.3 | 0 | 0 | 0 | 1 | 56 | [open](https://www.instagram.com/reel/DgJ5V8oK93k/) |
-| 2026-11-25 | hinglish | id_card_print | secret_answer | Kya Aadhaar ka print out valid hai? | 367 | 6.4 | 3 | 0 | 0 | 3 | 304 | [open](https://www.instagram.com/reel/DgJrs6eF2Qp/) |
-| 2026-11-24 | hinglish | id_card_print | secret_answer | Masked Aadhaar download kaise karte hain? | 244 | 3.9 | 4 | 0 | 1 | 0 | 171 | [open](https://www.instagram.com/reel/DgH-IJBEvo4/) |
+| 2026-11-25 | hinglish | id_card_print | secret_answer | Kya Aadhaar ka print out valid hai? | 367 | 6.4 | 3 | 0 | 0 | 3 | 303 | [open](https://www.instagram.com/reel/DgJrs6eF2Qp/) |
+| 2026-11-24 | hinglish | id_card_print | secret_answer | Masked Aadhaar download kaise karte hain? | 244 | 3.9 | 4 | 0 | 1 | 0 | 170 | [open](https://www.instagram.com/reel/DgH-IJBEvo4/) |
 | 2026-11-24 | english | compress_pdf_kb | discovery | Your PDF is 5 MB. The form says 200 KB. | 136 | 4.1 | 0 | 0 | 0 | 0 | 92 | [open](https://www.instagram.com/reel/DgHUoOsjNcV/) |
 | 2026-11-24 | hinglish | bank_statement_excel | secret_answer | HDFC statement PDF ka password kya hota hai? | 196 | 4.7 | 1 | 0 | 0 | 1 | 140 | [open](https://www.instagram.com/reel/DgHJjTRjdJo/) |
 | 2026-11-23 | hinglish | unlock_pdf | secret_answer | PAN card PDF ka password kya hai? | 186 | 5.1 | 4 | 0 | 0 | 6 | 158 | [open](https://www.instagram.com/reel/DgFYoYpiVuN/) |

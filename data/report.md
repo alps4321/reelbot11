@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-26T16:58:09+00:00
+Updated 2026-11-26T21:34:51+00:00
 
-Reels made: 43. Posted: 36. Measured: 34.
+Reels made: 43. Posted: 36. Measured: 35.
 
 ## english: results by topic
 
@@ -167,7 +167,7 @@ Reels made: 43. Posted: 36. Measured: 34.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-26 | hinglish | bank_statement_excel | secret_answer | HDFC bank statement PDF ka password kya hai? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgNHnVtxwdX/) |
+| 2026-11-26 | hinglish | bank_statement_excel | secret_answer | HDFC bank statement PDF ka password kya hai? | 120 | 5.2 | 1 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/DgNHnVtxwdX/) |
 | 2026-11-26 | english | compress_image | story | Meera did everything right. Except one thing. | 49 | 8.7 | 1 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgMeYcXzcfb/) |
 | 2026-11-26 | hinglish | unlock_pdf | secret_answer | PAN card PDF ka password kya hai? | 211 | 4.1 | 3 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/DgMQ4HUB-s5/) |
 | 2026-11-25 | hinglish | unlock_aadhaar | secret_answer | Aadhaar PDF ka password kya hota hai? | 145 | 4.0 | 1 | 0 | 0 | 1 | 100 | [open](https://www.instagram.com/reel/DgKizPitu-w/) |

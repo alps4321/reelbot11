@@ -419,7 +419,7 @@
       "shares": 18,
       "saved": 24,
       "avg_watch_s": 8.2,
-      "views_last_hour": 1
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -4598,7 +4598,8 @@
       24,
       48,
       72,
-      120
+      120,
+      168
     ],
     "slot": "13:00",
     "metrics": {
@@ -4664,6 +4665,17 @@
         "hours": 120,
         "views": 143,
         "reach": 105,
+        "likes": 2,
+        "comments": 1,
+        "shares": 0,
+        "saved": 0,
+        "avg_watch_s": 8.2
+      },
+      {
+        "at": "2026-11-26T04:26:36+00:00",
+        "hours": 168,
+        "views": 143,
+        "reach": 106,
         "likes": 2,
         "comments": 1,
         "shares": 0,
@@ -5592,8 +5604,8 @@
       "comments": 0,
       "shares": 5,
       "saved": 3,
-      "total_interactions": 15,
-      "avg_watch_s": 6.3
+      "avg_watch_s": 6.3,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -5905,7 +5917,8 @@
       6,
       24,
       48,
-      72
+      72,
+      120
     ],
     "slot": "13:00",
     "metrics": {
@@ -5957,6 +5970,17 @@
       {
         "at": "2026-11-24T12:26:14+00:00",
         "hours": 72,
+        "views": 113,
+        "reach": 83,
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "avg_watch_s": 4.8
+      },
+      {
+        "at": "2026-11-26T12:27:10+00:00",
+        "hours": 120,
         "views": 113,
         "reach": 83,
         "likes": 3,
@@ -7388,8 +7412,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "total_interactions": 1,
-      "avg_watch_s": 4.4
+      "avg_watch_s": 4.4,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -7676,7 +7700,8 @@
     "checked": [
       6,
       24,
-      48
+      48,
+      72
     ],
     "slot": "13:00",
     "metrics": {
@@ -7716,6 +7741,17 @@
       {
         "at": "2026-11-25T11:42:00+00:00",
         "hours": 48,
+        "views": 127,
+        "reach": 104,
+        "likes": 2,
+        "comments": 0,
+        "shares": 7,
+        "saved": 0,
+        "avg_watch_s": 6.7
+      },
+      {
+        "at": "2026-11-26T12:27:01+00:00",
+        "hours": 72,
         "views": 127,
         "reach": 104,
         "likes": 2,
@@ -8270,8 +8306,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "total_interactions": 2,
-      "avg_watch_s": 4.7
+      "avg_watch_s": 4.7,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -8549,7 +8585,8 @@
     "posted_at": "2026-11-24T07:30:08+00:00",
     "checked": [
       6,
-      24
+      24,
+      48
     ],
     "slot": "13:00",
     "metrics": {
@@ -8578,6 +8615,17 @@
       {
         "at": "2026-11-25T11:41:57+00:00",
         "hours": 24,
+        "views": 136,
+        "reach": 105,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "avg_watch_s": 4.1
+      },
+      {
+        "at": "2026-11-26T12:26:57+00:00",
+        "hours": 48,
         "views": 136,
         "reach": 105,
         "likes": 0,
@@ -9061,14 +9109,14 @@
     ],
     "slot": "11:00",
     "metrics": {
-      "views": 364,
-      "reach": 310,
+      "views": 367,
+      "reach": 313,
       "likes": 3,
       "comments": 0,
       "shares": 0,
       "saved": 3,
-      "total_interactions": 6,
-      "avg_watch_s": 6.4
+      "avg_watch_s": 6.4,
+      "views_last_hour": 9
     },
     "history": [
       {
@@ -9340,18 +9388,19 @@
     "permalink": "https://www.instagram.com/reel/DgJ5V8oK93k/",
     "posted_at": "2026-11-25T07:30:10+00:00",
     "checked": [
-      6
+      6,
+      24
     ],
     "slot": "13:00",
     "metrics": {
-      "views": 78,
-      "reach": 68,
+      "views": 81,
+      "reach": 71,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "avg_watch_s": 3.4,
-      "views_last_hour": 6
+      "avg_watch_s": 3.3,
+      "views_last_hour": 3
     },
     "history": [
       {
@@ -9365,6 +9414,17 @@
         "saved": 1,
         "total_interactions": 1,
         "avg_watch_s": 3.8
+      },
+      {
+        "at": "2026-11-26T12:26:55+00:00",
+        "hours": 24,
+        "views": 81,
+        "reach": 71,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
+        "avg_watch_s": 3.3
       }
     ]
   },
@@ -9601,14 +9661,14 @@
     ],
     "slot": "19:00",
     "metrics": {
-      "views": 142,
-      "reach": 119,
+      "views": 144,
+      "reach": 121,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 1,
       "avg_watch_s": 4.0,
-      "views_last_hour": 3
+      "views_last_hour": 2
     },
     "history": [
       {
@@ -9837,8 +9897,33 @@
     "media_id": "18099029642662117",
     "permalink": "https://www.instagram.com/reel/DgMQ4HUB-s5/",
     "posted_at": "2026-11-26T05:30:13+00:00",
-    "checked": [],
-    "slot": "11:00"
+    "checked": [
+      6
+    ],
+    "slot": "11:00",
+    "metrics": {
+      "views": 211,
+      "reach": 180,
+      "likes": 3,
+      "comments": 0,
+      "shares": 0,
+      "saved": 1,
+      "avg_watch_s": 4.1,
+      "views_last_hour": 0
+    },
+    "history": [
+      {
+        "at": "2026-11-26T12:26:53+00:00",
+        "hours": 6,
+        "views": 211,
+        "reach": 180,
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
+        "avg_watch_s": 4.1
+      }
+    ]
   },
   {
     "id": "20261126-062844-english",
@@ -10066,6 +10151,246 @@
     "permalink": "https://www.instagram.com/reel/DgMeYcXzcfb/",
     "posted_at": "2026-11-26T07:30:11+00:00",
     "checked": [],
-    "slot": "13:00"
+    "slot": "13:00",
+    "metrics": {
+      "views": 48,
+      "reach": 38,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "avg_watch_s": 8.7,
+      "views_last_hour": 0
+    }
+  },
+  {
+    "id": "20261126-122924-hinglish",
+    "created_at": "2026-11-26T12:35:55+00:00",
+    "language": "hinglish",
+    "topic": "bank_statement_excel",
+    "hook_style": "problem",
+    "format": "secret_answer",
+    "pace": "natural",
+    "distance": "near",
+    "answer": "hdfc_statement_password",
+    "idea": "",
+    "plan_reason": "proven tool (top 5, rotating); proven formula slot; hook style: best so far; format: best so far; pace: best so far; distance: explore",
+    "title": "HDFC statement PDF ka password",
+    "hook": "HDFC bank statement PDF ka password kya hai?",
+    "seconds": 28.8,
+    "script": {
+      "title": "HDFC statement PDF ka password",
+      "scenes": [
+        {
+          "say": "HDFC bank statement PDF ka password kya hai?",
+          "voice": "एच डी एफ सी बैंक स्टेटमेंट पी डी एफ का पासवर्ड क्या है?",
+          "accent": [
+            "password"
+          ],
+          "tag": "hdfc pdf",
+          "meter": null,
+          "scene": {
+            "type": "search",
+            "query": "HDFC statement PDF password kya hai",
+            "results": [
+              "Statement PDF locked",
+              "Password dalo..."
+            ]
+          },
+          "kind": "hook",
+          "screen": "HDFC bank statement PDF ka password kya hai?",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Naam try kiya? Birthday try kiya? Phir bhi error.",
+          "voice": "नाम ट्राय किया? बर्थडे ट्राय किया? फिर भी एरर।",
+          "accent": [
+            "error"
+          ],
+          "tag": "try kiya",
+          "meter": null,
+          "scene": {
+            "type": "phone_upload",
+            "state": "error",
+            "file": "statement.pdf",
+            "size": "310 KB",
+            "text": "Wrong password",
+            "title": "Locked"
+          },
+          "kind": "point",
+          "screen": "Naam try kiya? Birthday try kiya? Phir bhi error.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Loan ya visa form mein statement chahiye hota hai.",
+          "voice": "लोन या वीज़ा फॉर्म में स्टेटमेंट चाहिए होता है।",
+          "accent": [
+            "statement"
+          ],
+          "tag": "zaroori",
+          "meter": null,
+          "scene": {
+            "type": "checklist",
+            "title": "Form ke saath",
+            "items": [
+              "ID proof",
+              "Address proof",
+              "Bank statement"
+            ]
+          },
+          "kind": "point",
+          "screen": "Loan ya visa form mein statement chahiye hota hai.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Answer end mein hai. Pehle ek zaroori baat.",
+          "voice": "आंसर एंड में है... पहले एक ज़रूरी बात।",
+          "accent": [
+            "end mein"
+          ],
+          "tag": "ruko",
+          "meter": null,
+          "scene": {
+            "type": "warning",
+            "text": "NetBanking ya app wala statement"
+          },
+          "kind": "point",
+          "screen": "Answer end mein hai. Pehle ek zaroori baat.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Password hai aapki numeric Customer ID.",
+          "voice": "पासवर्ड है... आपकी न्यूमेरिक कस्टमर आई डी।",
+          "accent": [
+            "Customer ID"
+          ],
+          "tag": "answer",
+          "meter": null,
+          "scene": {
+            "type": "big_text",
+            "text": "CUSTOMER ID",
+            "sub": "Sirf numbers, NetBanking User ID"
+          },
+          "kind": "point",
+          "screen": "Password hai aapki numeric Customer ID.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Yaani wahi number jo NetBanking login mein daalte ho.",
+          "voice": "यानी वही नंबर जो नेट बैंकिंग लॉगिन में डालते हो।",
+          "accent": [
+            "NetBanking"
+          ],
+          "tag": "kaun sa",
+          "meter": null,
+          "scene": {
+            "type": "id_card",
+            "title": "NetBanking login",
+            "name": "User ID: numeric",
+            "sub": "Yahi PDF password"
+          },
+          "kind": "point",
+          "screen": "Yaani wahi number jo NetBanking login mein daalte ho.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Dhyan rahe, ye NetBanking ya app se download statement ke liye hai.",
+          "voice": "ध्यान रहे, ये नेट बैंकिंग या ऐप से डाउनलोड स्टेटमेंट के लिए है।",
+          "accent": [
+            "download"
+          ],
+          "tag": "dhyan",
+          "meter": null,
+          "scene": {
+            "type": "versus",
+            "left": "NetBanking / app",
+            "right": "Credit card, email",
+            "left_sub": "Customer ID",
+            "right_sub": "Format alag ho sakta hai",
+            "winner": "left"
+          },
+          "kind": "point",
+          "screen": "Dhyan rahe, ye NetBanking ya app se download statement ke li",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Ab PDF khul gaya, to Excel sheet bana lo.",
+          "voice": "अब पी डी एफ खुल गया, तो एक्सेल शीट बना लो।",
+          "accent": [
+            "Excel"
+          ],
+          "tag": "next step",
+          "meter": null,
+          "scene": {
+            "type": "convert",
+            "from": "PDF",
+            "to": "EXCEL",
+            "text": "Bank statement"
+          },
+          "kind": "point",
+          "screen": "Ab PDF khul gaya, to Excel sheet bana lo.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "ilovedocuments.ai pe Bank Statement Converter, free hai.",
+          "voice": "आई लव डॉक्यूमेंट्स डॉट ए आई पे बैंक स्टेटमेंट कन्वर्टर, फ्री है।",
+          "accent": [
+            "free"
+          ],
+          "tag": "tool",
+          "meter": null,
+          "scene": {
+            "type": "browser",
+            "url": "ilovedocuments.ai",
+            "button": "Bank Statement Converter"
+          },
+          "kind": "point",
+          "screen": "ilovedocuments.ai pe Bank Statement Converter, free hai.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Save kar lo, kaam aayega.",
+          "voice": "सेव कर लो, काम आएगा।",
+          "accent": [
+            "Save"
+          ],
+          "tag": "save",
+          "meter": null,
+          "scene": {
+            "type": "cta",
+            "keyword": "SAVE",
+            "line": "// HDFC password yaad rakho"
+          },
+          "kind": "cta",
+          "screen": "Save kar lo, kaam aayega.",
+          "emphasis": [],
+          "visual": null
+        }
+      ],
+      "caption": "HDFC statement PDF khul nahi raha? NetBanking ya app se download kiya hai to password aapki numeric Customer ID hai. Credit card ya email wale statement ka format alag ho sakta hai.\nAapko kaunsa bank PDF sabse zyada tang karta hai? Comment karo.\nilovedocuments.ai",
+      "hashtags": [
+        "#HDFC",
+        "#BankStatement",
+        "#PDFPassword",
+        "#NetBanking",
+        "#ilovedocuments"
+      ]
+    },
+    "caption": "HDFC statement PDF khul nahi raha? NetBanking ya app se download kiya hai to password aapki numeric Customer ID hai. Credit card ya email wale statement ka format alag ho sakta hai.\nAapko kaunsa bank PDF sabse zyada tang karta hai? Comment karo.\nilovedocuments.ai\n\n#HDFC #BankStatement #PDFPassword #NetBanking #ilovedocuments",
+    "video": "20261126-122924-hinglish.mp4",
+    "media_id": "18157772203527288",
+    "permalink": "https://www.instagram.com/reel/DgNHnVtxwdX/",
+    "posted_at": "2026-11-26T13:30:13+00:00",
+    "checked": [],
+    "slot": "19:00"
   }
 ]

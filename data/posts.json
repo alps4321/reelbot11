@@ -4883,7 +4883,7 @@
       "shares": 0,
       "saved": 2,
       "avg_watch_s": 7.6,
-      "views_last_hour": 1
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -8232,7 +8232,7 @@
       "shares": 0,
       "saved": 1,
       "avg_watch_s": 4.7,
-      "views_last_hour": 2
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -8757,7 +8757,7 @@
       "shares": 1,
       "saved": 0,
       "avg_watch_s": 3.9,
-      "views_last_hour": 2
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -9009,14 +9009,14 @@
     ],
     "slot": "11:00",
     "metrics": {
-      "views": 323,
-      "reach": 272,
-      "likes": 2,
+      "views": 358,
+      "reach": 304,
+      "likes": 3,
       "comments": 0,
       "shares": 0,
-      "saved": 2,
-      "avg_watch_s": 6.3,
-      "views_last_hour": 53
+      "saved": 3,
+      "avg_watch_s": 6.4,
+      "views_last_hour": 9
     },
     "history": [
       {
@@ -9280,14 +9280,14 @@
     ],
     "slot": "13:00",
     "metrics": {
-      "views": 55,
-      "reach": 46,
+      "views": 78,
+      "reach": 68,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "avg_watch_s": 4.3,
-      "views_last_hour": 27
+      "avg_watch_s": 3.4,
+      "views_last_hour": 6
     },
     "history": [
       {
@@ -9537,14 +9537,14 @@
     ],
     "slot": "19:00",
     "metrics": {
-      "views": 139,
-      "reach": 118,
-      "likes": 0,
+      "views": 142,
+      "reach": 119,
+      "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "avg_watch_s": 3.8,
-      "views_last_hour": 0
+      "avg_watch_s": 4.0,
+      "views_last_hour": 3
     },
     "history": [
       {
@@ -9559,5 +9559,221 @@
         "avg_watch_s": 3.8
       }
     ]
+  },
+  {
+    "id": "20261126-042854-hinglish",
+    "created_at": "2026-11-26T04:36:33+00:00",
+    "language": "hinglish",
+    "topic": "unlock_pdf",
+    "hook_style": "question",
+    "format": "secret_answer",
+    "pace": "natural",
+    "distance": "near",
+    "answer": "epan_password",
+    "idea": "",
+    "plan_reason": "proven tool (top 5, rotating); proven formula slot; hook style: explore; format: new test; pace: explore; distance: explore",
+    "title": "PAN card PDF ka password kya hai?",
+    "hook": "PAN card PDF ka password kya hai?",
+    "seconds": 24.5,
+    "script": {
+      "title": "PAN card PDF ka password kya hai?",
+      "scenes": [
+        {
+          "say": "PAN card PDF ka password kya hai?",
+          "voice": "पैन कार्ड पीडीएफ का पासवर्ड क्या है?",
+          "accent": [
+            "password"
+          ],
+          "tag": "e-pan",
+          "meter": null,
+          "scene": {
+            "type": "search",
+            "query": "e-PAN PDF password kya hai",
+            "results": [
+              "PDF open nahi ho raha",
+              "Password dalo"
+            ]
+          },
+          "kind": "hook",
+          "screen": "PAN card PDF ka password kya hai?",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Download kiya, khola, aur password maang raha hai.",
+          "voice": "डाउनलोड किया, खोला, और पासवर्ड मांग रहा है।",
+          "accent": [
+            "password"
+          ],
+          "tag": "e-pan",
+          "meter": null,
+          "scene": {
+            "type": "phone_upload",
+            "state": "error",
+            "file": "e-PAN.pdf",
+            "size": "",
+            "text": "Enter password",
+            "title": "Locked"
+          },
+          "kind": "point",
+          "screen": "Download kiya, khola, aur password maang raha hai.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "PAN number daala? Naam daala? Sab fail.",
+          "voice": "पैन नंबर डाला? नाम डाला? सब फेल।",
+          "accent": [
+            "fail"
+          ],
+          "tag": "e-pan",
+          "meter": null,
+          "scene": {
+            "type": "warning",
+            "text": "Wrong password"
+          },
+          "kind": "point",
+          "screen": "PAN number daala? Naam daala? Sab fail.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Answer end mein hai. Bas ek second.",
+          "voice": "आंसर एंड में है... बस एक सेकंड।",
+          "accent": [
+            "end mein"
+          ],
+          "tag": "e-pan",
+          "meter": null,
+          "scene": {
+            "type": "big_text",
+            "text": "ANSWER NEXT",
+            "sub": "ek second ruko"
+          },
+          "kind": "point",
+          "screen": "Answer end mein hai. Bas ek second.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Password hai aapki date of birth.",
+          "voice": "पासवर्ड है आपकी डेट ऑफ बर्थ।",
+          "accent": [
+            "date of birth"
+          ],
+          "tag": "answer",
+          "meter": null,
+          "scene": {
+            "type": "id_card",
+            "title": "e-PAN",
+            "name": "Rahul",
+            "sub": "DOB: 15 August 1990"
+          },
+          "kind": "point",
+          "screen": "Password hai aapki date of birth.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Format DDMMYYYY. Bina space ke.",
+          "voice": "फॉर्मेट डीडीएमएमवाईवाईवाईवाई। बिना स्पेस के।",
+          "accent": [
+            "DDMMYYYY"
+          ],
+          "tag": "answer",
+          "meter": {
+            "label": "FORMAT",
+            "value": "DDMMYYYY"
+          },
+          "scene": {
+            "type": "steps",
+            "items": [
+              "DD",
+              "MM",
+              "YYYY"
+            ]
+          },
+          "kind": "point",
+          "screen": "Format DDMMYYYY. Bina space ke.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "15 August 1990 matlab 15081990.",
+          "voice": "15 अगस्त 1990 मतलब 15081990।",
+          "accent": [
+            "15081990"
+          ],
+          "tag": "example",
+          "meter": {
+            "label": "PASSWORD",
+            "value": "15081990"
+          },
+          "scene": {
+            "type": "versus",
+            "left": "15 Aug 1990",
+            "right": "15081990",
+            "left_sub": "date of birth",
+            "right_sub": "password",
+            "winner": "right"
+          },
+          "kind": "point",
+          "screen": "15 August 1990 matlab 15081990.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Ab password hatana hai? ilovedocuments.ai pe Unlock PDF.",
+          "voice": "अब पासवर्ड हटाना है? आई लव डॉक्यूमेंट्स डॉट ए आई पे अनलॉक पीडीएफ।",
+          "accent": [
+            "Unlock PDF"
+          ],
+          "tag": "unlock",
+          "meter": null,
+          "scene": {
+            "type": "browser",
+            "url": "ilovedocuments.ai",
+            "button": "Unlock PDF"
+          },
+          "kind": "point",
+          "screen": "Ab password hatana hai? ilovedocuments.ai pe Unlock PDF.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Free hai, no sign up. Save kar lo.",
+          "voice": "फ्री है, नो साइन अप। सेव कर लो।",
+          "accent": [
+            "save"
+          ],
+          "tag": "save",
+          "meter": null,
+          "scene": {
+            "type": "cta",
+            "keyword": "SAVE",
+            "line": "// e-PAN password yaad rakho"
+          },
+          "kind": "cta",
+          "screen": "Free hai, no sign up. Save kar lo.",
+          "emphasis": [],
+          "visual": null
+        }
+      ],
+      "caption": "e-PAN ka password aapki date of birth hai, DDMMYYYY format mein. Example: 15081990.\nPassword pata hone ke baad bhi har baar daalna boring hai.\nAapko pehli baar yeh kahan atka tha? Comment karo.\nilovedocuments.ai",
+      "hashtags": [
+        "#epan",
+        "#pancard",
+        "#pdfpassword",
+        "#india",
+        "#documents"
+      ]
+    },
+    "caption": "e-PAN ka password aapki date of birth hai, DDMMYYYY format mein. Example: 15081990.\nPassword pata hone ke baad bhi har baar daalna boring hai.\nAapko pehli baar yeh kahan atka tha? Comment karo.\nilovedocuments.ai\n\n#epan #pancard #pdfpassword #india #documents",
+    "video": "20261126-042854-hinglish.mp4",
+    "media_id": "18099029642662117",
+    "permalink": "https://www.instagram.com/reel/DgMQ4HUB-s5/",
+    "posted_at": "2026-11-26T05:30:13+00:00",
+    "checked": [],
+    "slot": "11:00"
   }
 ]

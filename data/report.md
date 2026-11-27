@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-27T05:30:12+00:00
+Updated 2026-11-27T07:30:10+00:00
 
-Reels made: 44. Posted: 37. Measured: 35.
+Reels made: 45. Posted: 38. Measured: 35.
 
 ## english: results by topic
 
@@ -63,25 +63,25 @@ Reels made: 44. Posted: 37. Measured: 35.
 
 **Keep**
 
-- Lead with a concrete, relatable outcome or person-in-a-situation hook (e.g. 'Can one selfie become an ID photo?', 'Why did Rohan miss his own interview?') — these hold 6–8s average watch time versus 1.7s for the generic 'Any PDF or photo job' hook.
-- Show a visible before/after of a single task: the selfie-to-ID-photo reel is the best non-manual reel (score 359, 449 views, 397 reach, 2 saves).
-- Keep stories short and specific to one tool: signature (6.7s watch, 7 shares), Word-to-PDF (8.2s watch) and Ravi's signature (5.8s watch) all held attention better than the multi-tool formats.
-- Keep the topic tied to a real form or deadline problem (ID photo, signature, interview, KB limits). Saves and shares came from these relatable tasks, but the counts are tiny (1–2 saves, 7 shares at most).
-- Keep the very short, community-style posts on the list as a separate bucket: the manual hashtag and website posts got the most shares (18) and the second-highest views (352). They are manual posts, so don't treat them as a template for the generated reels.
+- Hooks that name a concrete, relatable job or pain point (selfie to ID photo, 5 MB vs 200 KB form limit) and pair it with a visible before/after result. The ID-photo reel got the most reach (397) of any non-manual reel.
+- Aim for an average watch time of 6s or more. Reels with a person-in-a-situation hook (Meena at 10 PM, Rohan's interview) held viewers for 6.7 to 8.2s, against 3.3 to 4.8s for the abstract or claim-style hooks.
+- Keep reels short and focused on one task with one clear outcome. The same-task before/after format is the strongest of the structured formats.
+- Include a direct pointer to the free website or tools. The top two reels did this, and the second one's saves and shares suggest it is useful, but both are manual posts with little structure, so this is unproven.
+- Use a story opening with a named person and a time or number (Meena at 10 PM, Priya's 400 rows). Watch time is decent, but reach is only 83 to 106, so this is unproven for growth.
 
 **Avoid**
 
-- Generic umbrella hooks that name no task or person ('Any PDF or photo job – one free website 👇'): 1.7s average watch, the lowest in the set.
-- Multi-tool cheat-sheet and 'stop paying the cyber cafe' framing: 4.1s watch, 0 shares, and only 147 views despite being 32s long.
-- Technical-spec openers such as 'Your PDF is 5 MB. The form says 200 KB.' and 'Ravi's signature was 2 MB…': they scored 91–93 with 0 shares and 0 saves.
-- Question hooks in the secret_answer format (jpg_to_pdf): 0 likes, 0 comments, 0 shares, 0 saves — the question gave no reason to engage.
-- Reels near or over 30s about spreadsheet or data-entry tasks (bank_statement_excel: 4.8s watch, 113 views, the lowest reach). The format and topic are confounded here, so this is only a weak signal.
+- Abstract or claim-style hooks with no person or scene, such as 'Stop paying the cyber cafe...', 'Your PDF is 5 MB...' and '1 forward is all it takes.' They average 3.3 to 4.1s of watch time and got 0 to 2 saves, and none got shares.
+- Long reels of 29 to 32s that don't pay off early. The 4-photo PDF and cheat-sheet reels ran 31 to 32s and got 0 likes, 0 comments, and 0 shares.
+- Myth-buster and number-only hooks for protect_pdf. This reel had the lowest views (81), reach (71), and watch time (3.3s).
+- Generic 'any job' hooks like 'Any PDF or photo job – one free website'. Average watch time was 1.7s, the worst of all posts, even though some shares came through.
+- Reels that end with no engagement trigger. Most structured reels got 0 comments and 0 shares, so they give the viewer no reason to act.
 
 **Next Tests**
 
-- Re-run the selfie-to-ID-photo before/after format on a second topic (e.g. compress a PDF or resize a signature) with an outcome-led hook and a length under 20s, to see whether before/after drives reach or whether the ID-photo topic did.
-- Test the same story (e.g. Rohan/Word-to-PDF) with a question hook against a statement hook on an identical body, so the hook effect is isolated from the topic.
-- Add an explicit end CTA ('Save this for your next form' or 'Send this to a friend filling forms') to the story reels. Saves and shares are near zero everywhere except the manual posts, so this checks whether a prompt changes behaviour.
+- Re-run the ID-photo before/after format on a different task, such as compress_pdf_kb or resize_signature_kb. Keep the length near 20s and open on the result. This checks whether the format or the topic drove the reach.
+- Run two versions of one topic, such as word_to_pdf. Version A opens with a named-person story, as Rohan did. Version B opens with a bare before/after, with no story. Keep length and CTA the same, so you can see whether the story adds watch time or only costs reach.
+- Add one explicit CTA to a structured reel, such as 'Send this to someone filling a form today' or 'Save for your next form'. Compare shares and saves against the same format with no CTA. Top manual posts got shares or saves, but the structured reels got almost none.
 
 ## hinglish: results by topic
 
@@ -93,8 +93,8 @@ Reels made: 44. Posted: 37. Measured: 35.
 | unlock_aadhaar | 3 | 839.0 |
 | resize_image_kb | 1 | 348.0 |
 | resize_photo_kb | 1 | 325.0 |
-| id_card_print | 4 | 250.2 |
-| unlock_pdf | 3 | 207.0 |
+| id_card_print | 4 | 250.5 |
+| unlock_pdf | 4 | 192.2 |
 | pdf_to_jpg | 1 | 157.0 |
 | bank_statement_excel | 2 | 110.0 |
 | pdf_to_excel | 1 | 85.0 |
@@ -105,7 +105,7 @@ Reels made: 44. Posted: 37. Measured: 35.
 | hook_style | reels | avg score |
 |---|---|---|
 | manual | 2 | 648.0 |
-| question | 8 | 564.8 |
+| question | 9 | 518.6 |
 | problem | 5 | 404.0 |
 | contrarian | 1 | 348.0 |
 | story_open | 1 | 200.0 |
@@ -119,7 +119,7 @@ Reels made: 44. Posted: 37. Measured: 35.
 |---|---|---|
 | what_if | 1 | 1293.0 |
 | manual | 2 | 648.0 |
-| secret_answer | 14 | 397.1 |
+| secret_answer | 15 | 380.5 |
 | discovery | 1 | 348.0 |
 | did_you_know | 1 | 200.0 |
 | myth_buster | 1 | 157.0 |
@@ -129,7 +129,7 @@ Reels made: 44. Posted: 37. Measured: 35.
 | pace | reels | avg score |
 |---|---|---|
 | brisk | 8 | 333.8 |
-| natural | 7 | 310.4 |
+| natural | 8 | 290.2 |
 | calm | 2 | 214.0 |
 
 ## hinglish: results by distance
@@ -137,7 +137,7 @@ Reels made: 44. Posted: 37. Measured: 35.
 | distance | reels | avg score |
 |---|---|---|
 | far | 2 | 274.0 |
-| near | 13 | 168.7 |
+| near | 14 | 167.3 |
 
 ## hinglish: what the bot has learned
 
@@ -167,13 +167,14 @@ Reels made: 44. Posted: 37. Measured: 35.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-11-27 | english | pdf_to_word | story | Priya's interview call came at 6 PM. |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgPDPs1MmXt/) |
 | 2026-11-27 | hinglish | id_card_print | secret_answer | Masked Aadhaar kya hota hai? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgO1I2mudzS/) |
 | 2026-11-26 | hinglish | bank_statement_excel | secret_answer | HDFC bank statement PDF ka password kya hai? | 126 | 5.1 | 1 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/DgNHnVtxwdX/) |
 | 2026-11-26 | english | compress_image | story | Meera did everything right. Except one thing. | 115 | 8.0 | 1 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgMeYcXzcfb/) |
-| 2026-11-26 | hinglish | unlock_pdf | secret_answer | PAN card PDF ka password kya hai? | 211 | 4.1 | 3 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/DgMQ4HUB-s5/) |
+| 2026-11-26 | hinglish | unlock_pdf | secret_answer | PAN card PDF ka password kya hai? | 211 | 4.1 | 3 | 0 | 0 | 1 | 148 | [open](https://www.instagram.com/reel/DgMQ4HUB-s5/) |
 | 2026-11-25 | hinglish | unlock_aadhaar | secret_answer | Aadhaar PDF ka password kya hota hai? | 145 | 4.0 | 1 | 0 | 0 | 1 | 100 | [open](https://www.instagram.com/reel/DgKizPitu-w/) |
 | 2026-11-25 | english | protect_pdf | myth_buster | 1 forward is all it takes. | 81 | 3.3 | 0 | 0 | 0 | 1 | 56 | [open](https://www.instagram.com/reel/DgJ5V8oK93k/) |
-| 2026-11-25 | hinglish | id_card_print | secret_answer | Kya Aadhaar ka print out valid hai? | 368 | 6.4 | 3 | 0 | 0 | 3 | 303 | [open](https://www.instagram.com/reel/DgJrs6eF2Qp/) |
+| 2026-11-25 | hinglish | id_card_print | secret_answer | Kya Aadhaar ka print out valid hai? | 368 | 6.4 | 3 | 0 | 0 | 3 | 304 | [open](https://www.instagram.com/reel/DgJrs6eF2Qp/) |
 | 2026-11-24 | hinglish | id_card_print | secret_answer | Masked Aadhaar download kaise karte hain? | 244 | 3.9 | 4 | 0 | 1 | 0 | 170 | [open](https://www.instagram.com/reel/DgH-IJBEvo4/) |
 | 2026-11-24 | english | compress_pdf_kb | discovery | Your PDF is 5 MB. The form says 200 KB. | 136 | 4.1 | 0 | 0 | 0 | 0 | 92 | [open](https://www.instagram.com/reel/DgHUoOsjNcV/) |
 | 2026-11-24 | hinglish | bank_statement_excel | secret_answer | HDFC statement PDF ka password kya hota hai? | 196 | 4.7 | 1 | 0 | 0 | 1 | 140 | [open](https://www.instagram.com/reel/DgHJjTRjdJo/) |

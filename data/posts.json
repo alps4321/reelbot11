@@ -6521,7 +6521,8 @@
       6,
       24,
       48,
-      72
+      72,
+      120
     ],
     "slot": "11:00",
     "metrics": {
@@ -6531,8 +6532,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "avg_watch_s": 2.2,
-      "views_last_hour": 0
+      "total_interactions": 0,
+      "avg_watch_s": 2.2
     },
     "history": [
       {
@@ -6574,6 +6575,18 @@
       {
         "at": "2026-11-25T06:29:07+00:00",
         "hours": 72,
+        "views": 140,
+        "reach": 123,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 0,
+        "avg_watch_s": 2.2
+      },
+      {
+        "at": "2026-11-27T06:28:43+00:00",
+        "hours": 120,
         "views": 140,
         "reach": 123,
         "likes": 0,
@@ -8334,7 +8347,8 @@
     "checked": [
       6,
       24,
-      48
+      48,
+      72
     ],
     "slot": "11:00",
     "metrics": {
@@ -8344,8 +8358,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "avg_watch_s": 4.7,
-      "views_last_hour": 0
+      "total_interactions": 2,
+      "avg_watch_s": 4.7
     },
     "history": [
       {
@@ -8374,6 +8388,18 @@
       {
         "at": "2026-11-26T06:28:22+00:00",
         "hours": 48,
+        "views": 196,
+        "reach": 172,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
+        "total_interactions": 2,
+        "avg_watch_s": 4.7
+      },
+      {
+        "at": "2026-11-27T06:28:45+00:00",
+        "hours": 72,
         "views": 196,
         "reach": 172,
         "likes": 1,
@@ -9156,7 +9182,8 @@
     "posted_at": "2026-11-25T05:30:13+00:00",
     "checked": [
       6,
-      24
+      24,
+      48
     ],
     "slot": "11:00",
     "metrics": {
@@ -9166,8 +9193,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 3,
-      "avg_watch_s": 6.4,
-      "views_last_hour": 0
+      "total_interactions": 6,
+      "avg_watch_s": 6.4
     },
     "history": [
       {
@@ -9186,6 +9213,18 @@
         "hours": 24,
         "views": 364,
         "reach": 310,
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "saved": 3,
+        "total_interactions": 6,
+        "avg_watch_s": 6.4
+      },
+      {
+        "at": "2026-11-27T06:28:46+00:00",
+        "hours": 48,
+        "views": 368,
+        "reach": 314,
         "likes": 3,
         "comments": 0,
         "shares": 0,
@@ -9962,7 +10001,8 @@
     "permalink": "https://www.instagram.com/reel/DgMQ4HUB-s5/",
     "posted_at": "2026-11-26T05:30:13+00:00",
     "checked": [
-      6
+      6,
+      24
     ],
     "slot": "11:00",
     "metrics": {
@@ -9972,8 +10012,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "avg_watch_s": 4.1,
-      "views_last_hour": 0
+      "total_interactions": 4,
+      "avg_watch_s": 4.1
     },
     "history": [
       {
@@ -9985,6 +10025,18 @@
         "comments": 0,
         "shares": 0,
         "saved": 1,
+        "avg_watch_s": 4.1
+      },
+      {
+        "at": "2026-11-27T06:28:47+00:00",
+        "hours": 24,
+        "views": 211,
+        "reach": 180,
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
+        "total_interactions": 4,
         "avg_watch_s": 4.1
       }
     ]
@@ -10730,5 +10782,238 @@
     "posted_at": "2026-11-27T05:30:12+00:00",
     "checked": [],
     "slot": "11:00"
+  },
+  {
+    "id": "20261127-062905-english",
+    "created_at": "2026-11-27T06:36:14+00:00",
+    "language": "english",
+    "topic": "pdf_to_word",
+    "hook_style": "problem",
+    "format": "story",
+    "pace": "natural",
+    "distance": "near",
+    "answer": null,
+    "idea": "3 free ways to edit a PDF resume on your phone, best for job seekers.",
+    "plan_reason": "winner day: pdf_to_word has the best average score; hook style: new test; format: best so far; pace: explore; distance: best so far; idea from the niche scout",
+    "title": "Priya's resume had one wrong line",
+    "hook": "Priya's interview call came at 6 PM.",
+    "seconds": 25.9,
+    "script": {
+      "title": "Priya's resume had one wrong line",
+      "scenes": [
+        {
+          "say": "Priya's interview call came at 6 PM.",
+          "voice": "Priya's interview call came at 6 P M.",
+          "accent": [
+            "6 PM"
+          ],
+          "tag": "story",
+          "meter": {
+            "label": "TIME",
+            "value": "6 PM"
+          },
+          "scene": {
+            "type": "notification",
+            "time": "18:00",
+            "day": "Today",
+            "app": "Phone",
+            "title": "Interview tomorrow",
+            "text": "Please send your resume"
+          },
+          "kind": "hook",
+          "screen": "Priya's interview call came at 6 PM.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Her resume was only a PDF.",
+          "voice": "Her resume was only a P D F.",
+          "accent": [
+            "PDF"
+          ],
+          "tag": "story",
+          "meter": null,
+          "scene": {
+            "type": "phone_upload",
+            "state": "success",
+            "file": "resume.pdf",
+            "size": "220 KB",
+            "text": "Only PDF saved",
+            "title": "My files"
+          },
+          "kind": "point",
+          "screen": "Her resume was only a PDF.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "One line was wrong. Old phone number.",
+          "voice": "One line was wrong... Old phone number.",
+          "accent": [
+            "wrong"
+          ],
+          "tag": "problem",
+          "meter": null,
+          "scene": {
+            "type": "warning",
+            "text": "Old number on resume"
+          },
+          "kind": "point",
+          "screen": "One line was wrong. Old phone number.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "She tried to type on it. Nothing happened.",
+          "voice": "She tried to type on it... Nothing happened.",
+          "accent": [
+            "Nothing"
+          ],
+          "tag": "problem",
+          "meter": null,
+          "scene": {
+            "type": "big_text",
+            "text": "CAN'T EDIT",
+            "sub": "PDF is locked in place"
+          },
+          "kind": "point",
+          "screen": "She tried to type on it. Nothing happened.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Her cousin asked, why not search once?",
+          "voice": "Her cousin asked... why not search once?",
+          "accent": [
+            "search"
+          ],
+          "tag": "turn",
+          "meter": null,
+          "scene": {
+            "type": "search",
+            "query": "edit PDF resume on phone",
+            "results": [
+              "Convert PDF to Word",
+              "Make PDF editable"
+            ]
+          },
+          "kind": "point",
+          "screen": "Her cousin asked, why not search once?",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Turns out, a PDF can become a Word file.",
+          "voice": "Turns out... a P D F can become a Word file.",
+          "accent": [
+            "Word file"
+          ],
+          "tag": "turn",
+          "meter": null,
+          "scene": {
+            "type": "convert",
+            "from": "PDF",
+            "to": "WORD",
+            "text": "Now you can type"
+          },
+          "kind": "point",
+          "screen": "Turns out, a PDF can become a Word file.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "She fixed the number in 2 minutes.",
+          "voice": "She fixed the number in 2 minutes.",
+          "accent": [
+            "2 minutes"
+          ],
+          "tag": "result",
+          "meter": null,
+          "scene": {
+            "type": "before_after",
+            "before": "Old number",
+            "after": "New number",
+            "before_label": "WRONG",
+            "after_label": "FIXED"
+          },
+          "kind": "point",
+          "screen": "She fixed the number in 2 minutes.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Lesson: keep an editable copy of your resume.",
+          "voice": "Lesson... keep an editable copy of your resume.",
+          "accent": [
+            "editable copy"
+          ],
+          "tag": "lesson",
+          "meter": null,
+          "scene": {
+            "type": "checklist",
+            "title": "Keep these",
+            "items": [
+              "PDF to send",
+              "Word to edit"
+            ]
+          },
+          "kind": "point",
+          "screen": "Lesson: keep an editable copy of your resume.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "On ilovedocuments.ai, use PDF to Word. Free, no sign up.",
+          "voice": "On I love documents dot A I, use P D F to Word. Free, no sign up.",
+          "accent": [
+            "PDF to Word"
+          ],
+          "tag": "tool",
+          "meter": null,
+          "scene": {
+            "type": "browser",
+            "url": "ilovedocuments.ai",
+            "button": "PDF to Word"
+          },
+          "kind": "point",
+          "screen": "On ilovedocuments.ai, use PDF to Word. Free, no sign up.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Save this for your next resume fix.",
+          "voice": "Save this for your next resume fix.",
+          "accent": [
+            "Save"
+          ],
+          "tag": "save",
+          "meter": null,
+          "scene": {
+            "type": "cta",
+            "keyword": "SAVE",
+            "line": "// fix it before the interview"
+          },
+          "kind": "cta",
+          "screen": "Save this for your next resume fix.",
+          "emphasis": [],
+          "visual": null
+        }
+      ],
+      "caption": "Priya had a PDF resume, one wrong phone number and an interview the next day. A Word copy fixed it in minutes.\nDo you keep an editable copy of your resume? Tell us below.\nilovedocuments.ai",
+      "hashtags": [
+        "#resume",
+        "#jobseekers",
+        "#pdftoword",
+        "#interviewtips",
+        "#india"
+      ]
+    },
+    "caption": "Priya had a PDF resume, one wrong phone number and an interview the next day. A Word copy fixed it in minutes.\nDo you keep an editable copy of your resume? Tell us below.\nilovedocuments.ai\n\n#resume #jobseekers #pdftoword #interviewtips #india",
+    "video": "20261127-062905-english.mp4",
+    "media_id": "18107239805654040",
+    "permalink": "https://www.instagram.com/reel/DgPDPs1MmXt/",
+    "posted_at": "2026-11-27T07:30:09+00:00",
+    "checked": [],
+    "slot": "13:00"
   }
 ]

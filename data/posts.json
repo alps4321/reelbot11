@@ -3988,7 +3988,7 @@
       "shares": 1,
       "saved": 2,
       "avg_watch_s": 6.8,
-      "views_last_hour": 1
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -6229,8 +6229,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "total_interactions": 2,
-      "avg_watch_s": 4.6
+      "avg_watch_s": 4.6,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -8041,8 +8041,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 6,
-      "total_interactions": 10,
-      "avg_watch_s": 5.1
+      "avg_watch_s": 5.1,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -8894,8 +8894,8 @@
       "comments": 0,
       "shares": 1,
       "saved": 0,
-      "total_interactions": 5,
-      "avg_watch_s": 3.9
+      "avg_watch_s": 3.9,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -9160,14 +9160,14 @@
     ],
     "slot": "11:00",
     "metrics": {
-      "views": 367,
-      "reach": 313,
+      "views": 368,
+      "reach": 314,
       "likes": 3,
       "comments": 0,
       "shares": 0,
       "saved": 3,
       "avg_watch_s": 6.4,
-      "views_last_hour": 9
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -9451,7 +9451,7 @@
       "shares": 0,
       "saved": 1,
       "avg_watch_s": 3.3,
-      "views_last_hour": 3
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -9719,8 +9719,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "total_interactions": 2,
-      "avg_watch_s": 4.0
+      "avg_watch_s": 4.0,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -10219,14 +10219,14 @@
     ],
     "slot": "13:00",
     "metrics": {
-      "views": 49,
-      "reach": 38,
+      "views": 115,
+      "reach": 89,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "avg_watch_s": 8.7,
-      "views_last_hour": 1
+      "avg_watch_s": 8.0,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -10474,14 +10474,14 @@
     ],
     "slot": "19:00",
     "metrics": {
-      "views": 120,
-      "reach": 101,
+      "views": 126,
+      "reach": 107,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "total_interactions": 2,
-      "avg_watch_s": 5.2
+      "avg_watch_s": 5.1,
+      "views_last_hour": 6
     },
     "history": [
       {
@@ -10497,5 +10497,238 @@
         "avg_watch_s": 5.2
       }
     ]
+  },
+  {
+    "id": "20261127-042848-hinglish",
+    "created_at": "2026-11-27T04:32:57+00:00",
+    "language": "hinglish",
+    "topic": "id_card_print",
+    "hook_style": "question",
+    "format": "secret_answer",
+    "pace": "brisk",
+    "distance": "near",
+    "answer": "masked_aadhaar",
+    "idea": "Edit a locked-looking PDF, and sort out your resume at the same time.",
+    "plan_reason": "winner day: pdf_to_word has the best average score; proven formula slot; hook style: best so far; format: new test; pace: best so far; distance: best so far; idea from the niche scout",
+    "title": "Masked Aadhaar kya hota hai? Ek chhota sa secret",
+    "hook": "Masked Aadhaar kya hota hai?",
+    "seconds": 24.6,
+    "script": {
+      "title": "Masked Aadhaar kya hota hai? Ek chhota sa secret",
+      "scenes": [
+        {
+          "say": "Masked Aadhaar kya hota hai?",
+          "voice": "मास्क्ड आधार क्या होता है?",
+          "accent": [
+            "Masked Aadhaar"
+          ],
+          "tag": "aadhaar",
+          "meter": null,
+          "scene": {
+            "type": "search",
+            "query": "masked aadhaar kya hota hai",
+            "results": [
+              "Aadhaar number chhupa sakte hain?",
+              "Safe share kaise karein?"
+            ]
+          },
+          "kind": "hook",
+          "screen": "Masked Aadhaar kya hota hai?",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Har jagah full number dena theek nahi.",
+          "voice": "हर जगह फुल नंबर देना ठीक नहीं.",
+          "accent": [
+            "full number"
+          ],
+          "tag": "aadhaar",
+          "meter": null,
+          "scene": {
+            "type": "warning",
+            "text": "12 digit sabko mat do"
+          },
+          "kind": "point",
+          "screen": "Har jagah full number dena theek nahi.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Hotel, college, form sab photocopy maangte hain.",
+          "voice": "होटल, कॉलेज, फॉर्म... सब फोटोकॉपी माँगते हैं.",
+          "accent": [
+            "photocopy"
+          ],
+          "tag": "problem",
+          "meter": null,
+          "scene": {
+            "type": "chat",
+            "name": "Front desk",
+            "messages": [
+              {
+                "from": "them",
+                "text": "Aadhaar copy dena"
+              },
+              {
+                "from": "me",
+                "text": "Poora number?"
+              }
+            ]
+          },
+          "kind": "point",
+          "screen": "Hotel, college, form  sab photocopy maangte hain.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Answer end mein hai, bas ruko.",
+          "voice": "आंसर एंड में है... बस रुको.",
+          "accent": [
+            "end mein"
+          ],
+          "tag": "ruko",
+          "meter": null,
+          "scene": {
+            "type": "big_text",
+            "text": "ANSWER END MEIN",
+            "sub": "bas 10 second"
+          },
+          "kind": "point",
+          "screen": "Answer end mein hai, bas ruko.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Masked Aadhaar mein pehle 8 digit chhup jaate hain.",
+          "voice": "मास्क्ड आधार में पहले 8 डिजिट छुप जाते हैं.",
+          "accent": [
+            "8 digit"
+          ],
+          "tag": "answer",
+          "meter": null,
+          "scene": {
+            "type": "id_card",
+            "title": "MASKED AADHAAR",
+            "name": "xxxx-xxxx-1234",
+            "sub": "sirf last 4 digit dikhte hain"
+          },
+          "kind": "point",
+          "screen": "Masked Aadhaar mein pehle 8 digit chhup jaate hain.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Sirf last 4 digit dikhte hain.",
+          "voice": "सिर्फ़ लास्ट 4 डिजिट दिखते हैं.",
+          "accent": [
+            "last 4"
+          ],
+          "tag": "answer",
+          "meter": null,
+          "scene": {
+            "type": "versus",
+            "left": "Full number",
+            "right": "Masked",
+            "left_sub": "12 digit",
+            "right_sub": "xxxx-xxxx + 4",
+            "winner": "right"
+          },
+          "kind": "point",
+          "screen": "Sirf last 4 digit dikhte hain.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "e-Aadhaar download karte time ye option chuno.",
+          "voice": "ई-आधार डाउनलोड करते टाइम ये ऑप्शन चुनो.",
+          "accent": [
+            "download"
+          ],
+          "tag": "kaise",
+          "meter": null,
+          "scene": {
+            "type": "steps",
+            "items": [
+              "Download",
+              "Masked",
+              "Done"
+            ]
+          },
+          "kind": "point",
+          "screen": "e-Aadhaar download karte time ye option chuno.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Full number se ye share karna safer hai.",
+          "voice": "फुल नंबर से ये शेयर करना सेफ़र है.",
+          "accent": [
+            "safer"
+          ],
+          "tag": "safe",
+          "meter": null,
+          "scene": {
+            "type": "privacy",
+            "text": "Safer to share"
+          },
+          "kind": "point",
+          "screen": "Full number se ye share karna safer hai.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Front back ek A4 par chahiye? ilovedocuments.ai ka ID Card Print.",
+          "voice": "फ्रंट बैक एक A4 पर चाहिए? आई लव डॉक्यूमेंट्स डॉट ए आई का आईडी कार्ड प्रिंट.",
+          "accent": [
+            "ID Card Print"
+          ],
+          "tag": "tool",
+          "meter": null,
+          "scene": {
+            "type": "browser",
+            "url": "ilovedocuments.ai",
+            "button": "ID Card Print"
+          },
+          "kind": "point",
+          "screen": "Front back ek A4 par chahiye? ilovedocuments.ai ka ID Card P",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Save kar lo, kaam aayega.",
+          "voice": "सेव कर लो, काम आएगा.",
+          "accent": [
+            "Save"
+          ],
+          "tag": "save",
+          "meter": null,
+          "scene": {
+            "type": "cta",
+            "keyword": "SAVE",
+            "line": "// masked Aadhaar yaad rakhna"
+          },
+          "kind": "cta",
+          "screen": "Save kar lo, kaam aayega.",
+          "emphasis": [],
+          "visual": null
+        }
+      ],
+      "caption": "Masked Aadhaar mein sirf last 4 digit dikhte hain, baaki xxxx-xxxx. e-Aadhaar download karte time chuno, aur share karna safer hai.\nAap Aadhaar copy dete time kya karte ho? Comment mein batao.\nilovedocuments.ai",
+      "hashtags": [
+        "#Aadhaar",
+        "#MaskedAadhaar",
+        "#eAadhaar",
+        "#DocumentTips",
+        "#India"
+      ]
+    },
+    "caption": "Masked Aadhaar mein sirf last 4 digit dikhte hain, baaki xxxx-xxxx. e-Aadhaar download karte time chuno, aur share karna safer hai.\nAap Aadhaar copy dete time kya karte ho? Comment mein batao.\nilovedocuments.ai\n\n#Aadhaar #MaskedAadhaar #eAadhaar #DocumentTips #India",
+    "video": "20261127-042848-hinglish.mp4",
+    "media_id": "18583475530077117",
+    "permalink": "https://www.instagram.com/reel/DgO1I2mudzS/",
+    "posted_at": "2026-11-27T05:30:12+00:00",
+    "checked": [],
+    "slot": "11:00"
   }
 ]

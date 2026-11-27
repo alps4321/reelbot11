@@ -787,7 +787,7 @@
     "angle": "One character uses a single tool for two jobs, a resume fix and a form fix, so the viewer sees how many problems one tool solves.",
     "from": "https://www.instagram.com/reel/DgNTe9VPkTj/",
     "added": "2026-11-27T03:56:38+00:00",
-    "used": 0
+    "used": 1
   },
   {
     "tool": "bank_statement_excel",

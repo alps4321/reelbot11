@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-27T16:44:28+00:00
+Updated 2026-11-27T21:19:55+00:00
 
-Reels made: 46. Posted: 39. Measured: 37.
+Reels made: 46. Posted: 39. Measured: 38.
 
 ## english: results by topic
 
@@ -168,7 +168,7 @@ Reels made: 46. Posted: 39. Measured: 37.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-27 | hinglish | unlock_aadhaar | secret_answer | Aadhaar PDF ka password, Aadhaar number nahi hota. |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgPsFnATBVV/) |
+| 2026-11-27 | hinglish | unlock_aadhaar | secret_answer | Aadhaar PDF ka password, Aadhaar number nahi hota. | 462 | 7.4 | 5 | 0 | 2 | 6 |  | [open](https://www.instagram.com/reel/DgPsFnATBVV/) |
 | 2026-11-27 | english | pdf_to_word | story | Priya's interview call came at 6 PM. | 50 | 7.9 | 1 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgPDPs1MmXt/) |
 | 2026-11-27 | hinglish | id_card_print | secret_answer | Masked Aadhaar kya hota hai? | 141 | 2.7 | 0 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgO1I2mudzS/) |
 | 2026-11-26 | hinglish | bank_statement_excel | secret_answer | HDFC bank statement PDF ka password kya hai? | 137 | 5.0 | 1 | 0 | 0 | 1 | 98 | [open](https://www.instagram.com/reel/DgNHnVtxwdX/) |

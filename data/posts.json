@@ -11400,7 +11400,33 @@
     "media_id": "18116111723353996",
     "permalink": "https://www.instagram.com/reel/DgPsFnATBVV/",
     "posted_at": "2026-11-27T13:30:10+00:00",
-    "checked": [],
-    "slot": "19:00"
+    "checked": [
+      6
+    ],
+    "slot": "19:00",
+    "metrics": {
+      "views": 462,
+      "reach": 390,
+      "likes": 5,
+      "comments": 0,
+      "shares": 2,
+      "saved": 6,
+      "total_interactions": 13,
+      "avg_watch_s": 7.4
+    },
+    "history": [
+      {
+        "at": "2026-11-27T21:19:55+00:00",
+        "hours": 6,
+        "views": 462,
+        "reach": 390,
+        "likes": 5,
+        "comments": 0,
+        "shares": 2,
+        "saved": 6,
+        "total_interactions": 13,
+        "avg_watch_s": 7.4
+      }
+    ]
   }
 ]

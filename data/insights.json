@@ -1,97 +1,5 @@
 [
   {
-    "at": "2026-11-21T04:32:28+00:00",
-    "permalink": "https://www.instagram.com/reel/Df9mir3heiW/",
-    "why": "It opens by naming the pain (the controller dies mid-game) and shows a funny awkward posture. The fix is one attach-and-press action, so it can be understood in seconds. Short, fast and dense, it ends with a clean 'share with someone who has X' line.",
-    "hook_pattern": "The most useful [thing] you can actually buy for [moment of annoyance]",
-    "structure": [
-      "Bold title card with the superlative claim",
-      "Show the painful moment (the dying controller, the awkward workaround)",
-      "One-gesture fix: attach it and press the button",
-      "Visible proof (battery icon charging)",
-      "One spec that matters (double play time, light weight)",
-      "Share-with-someone CTA"
-    ],
-    "visual": "Tight handheld close-ups of the object in use, neon-lit room, a funny physical-comedy shot, a presenter reveal at the end, and a bold two-colour title with word-highlight captions.",
-    "speaking": "Fast (about 4 words/s) with almost no pauses. Confident and upbeat, with the claim on the first word and short punchy sentences."
-  },
-  {
-    "at": "2026-11-21T04:32:28+00:00",
-    "permalink": "https://www.instagram.com/reel/DfOqu-dhx02/",
-    "why": "A deadline cue ('last chance', 'best time to buy') creates urgency, and the festive set adds context. Each item gets a price and spec proof point, then a plain call to act now.",
-    "hook_pattern": "Last chance: the best [offers] on [two things] right now, but only [in this window]",
-    "structure": [
-      "Urgency title card (Last Chance)",
-      "Two named items with product reveals",
-      "Three key specs for each",
-      "Lowest-price or offer number as the payoff",
-      "Time-limited festive close and a go-act line"
-    ],
-    "visual": "A presenter in festive decor with product boxes, then clean product close-ups with highlighted captions, ending on a festive 'Best Time To Buy Now' graphic.",
-    "speaking": "Measured, about 3.6 words/s. Numbers are stressed and sentences are complete, with a salesy but friendly tone."
-  },
-  {
-    "at": "2026-11-21T04:32:28+00:00",
-    "permalink": "https://www.instagram.com/reel/Df6fVtUvgR2/",
-    "why": "A big-name topic (GTA 6) pulls the viewer in, and the presenter's strong facial reactions plus cutaways of real gameplay make each detail feel like a surprise. The relatable comparison 'like in real life' keeps it grounded.",
-    "hook_pattern": "[Famous thing] has [surprising new detail] and it's more realistic than you think",
-    "structure": [
-      "Topic title card with a hand wave",
-      "Gameplay cutaway showing the detail",
-      "Presenter reacts with exaggerated surprise",
-      "A real-life comparison",
-      "Another detail, with the feel and sound described"
-    ],
-    "visual": "A split screen with gameplay on top and the reacting presenter below, in a bright room, with a minimal title tag.",
-    "speaking": "Conversational Hindi at about 3.4 words/s, with expressive tone shifts and rhetorical questions."
-  },
-  {
-    "at": "2026-11-21T04:32:28+00:00",
-    "permalink": "https://www.instagram.com/reel/Dfg8oy3PHtG/",
-    "why": "It sets a tempting offer against a catch, then does the maths out loud. The 'honest review' framing and a final surprise feel like inside knowledge, and a viewer who wants to avoid being cheated stays to the end.",
-    "hook_pattern": "[Company] wants [big amount] from you for [big promise]. Is it really worth it?",
-    "structure": [
-      "Offer stated with the big numbers",
-      "'Looks great, but let's calculate'",
-      "Real savings versus claimed savings",
-      "The catch",
-      "Verdict: who should take it and who should skip",
-      "Final surprise plus a question to the audience"
-    ],
-    "visual": "Talking-head or explainer visuals with price and number overlays.",
-    "speaking": "Slow and deliberate (about 2.8 words/s) with pauses before the numbers and a sceptical tone."
-  },
-  {
-    "at": "2026-11-21T04:32:28+00:00",
-    "permalink": "https://www.instagram.com/reel/DfkM0eWvLDi/",
-    "why": "The leak framing ('big compromises') promises bad news, then good news. Specs and prices are given as a list the viewer can compare, and the cost-increase maths gives a clear takeaway.",
-    "hook_pattern": "[Next product] has [N] big compromises, and one good surprise",
-    "structure": [
-      "Teaser of upcoming change",
-      "What stays the same (old specs)",
-      "What gets removed",
-      "Good news (battery)",
-      "Price rise reason and the final price estimate"
-    ],
-    "visual": "Presenter with spec overlays.",
-    "speaking": "Long, dense and fast (about 3.1 words/s), with a news-reporter tone and little pause."
-  },
-  {
-    "at": "2026-11-21T04:32:28+00:00",
-    "permalink": "https://www.instagram.com/reel/DfthcWPz_X-/",
-    "why": "Emotional nostalgia: it speaks directly to the viewer's younger self and fits Children's Day. It earns saves and shares through feeling rather than information, and its engagement is still the lowest here because there is no practical payoff.",
-    "hook_pattern": "Dear little you, remember what you wanted to be?",
-    "structure": [
-      "Address the younger self",
-      "Remember childhood dreams",
-      "The reality of effort and exams",
-      "Reaffirm the dream",
-      "Dedicate it to every child"
-    ],
-    "visual": "Soft, warm, emotional imagery with a motivational tone.",
-    "speaking": "Slow (about 2.7 words/s), gentle, with longer pauses and a soft voice."
-  },
-  {
     "at": "2026-11-21T11:50:18+00:00",
     "permalink": "https://www.instagram.com/reel/Df98X5MtgiR/",
     "why": "The opening line promises something crazy, then the creator lists proof as a quick row of stat tiles (horsepower, torque, range). A paradox follows ('an EV that behaves like a V8'), and the dial turn lets you hear the claim being proved. Mixing a presenter shot with cinematic footage keeps every few",
@@ -859,5 +767,91 @@
     ],
     "visual": "Static promo shots.",
     "speaking": "Fast, flat Hindi with no pauses, so nothing lands."
+  },
+  {
+    "at": "2026-11-27T03:56:38+00:00",
+    "permalink": "https://www.instagram.com/reel/DgNTe9VPkTj/",
+    "why": "It sets one person against a whole studio, so the viewer wants to know how. The spoken answer arrives as a short tool list (four tools), which makes it feel doable. The AI-plus-Ramayana topic is also novel and emotional.",
+    "hook_pattern": "One person did X that a whole team needs Y years for, using only N tools",
+    "structure": [
+      "Shock claim: one person made something huge",
+      "Contrast with how long a studio needs",
+      "Quick tour of what it does",
+      "Pause: 'but the real question is how'",
+      "Reveal the N simple tools",
+      "Big-picture line about the tool's power",
+      "Offer to share"
+    ],
+    "visual": "Screen-recorded gameplay clips with dramatic fantasy visuals and bold Hindi captions; the creator is not on screen.",
+    "speaking": "Fast, about 3.2 words per second, with short pauses and an excited tone. A deliberate stop before the reveal. Ends with a direct ask."
+  },
+  {
+    "at": "2026-11-27T03:56:38+00:00",
+    "permalink": "https://www.instagram.com/reel/Df9BowyBAAM/",
+    "why": "It's an emotional tribute to a father's sacrifice, which aspirants share with family. It sells nothing, so it earns saves and shares on feeling alone.",
+    "hook_pattern": "Behind every [struggling person] are countless sacrifices nobody saw",
+    "structure": [
+      "Quiet image of the parent working",
+      "Small sacrifice moments",
+      "Child's resolve",
+      "Warm closing line"
+    ],
+    "visual": "Emotional, cinematic family scenes with a short Hindi caption and no tool shown.",
+    "speaking": "Slow, soft, minimal words. This reel has no speech, so use a gentle narrator voice with long pauses."
+  },
+  {
+    "at": "2026-11-27T03:56:38+00:00",
+    "permalink": "https://www.instagram.com/reel/DgMe0OdzSci/",
+    "why": "It names a painful, widely shared feeling (repeated failure erodes confidence) and promises a way back. Aspirants see themselves in it.",
+    "hook_pattern": "When [repeated setback] happens, how do you trust yourself again?",
+    "structure": [
+      "Name the painful feeling",
+      "Show the low point",
+      "Turn toward a way forward",
+      "Point to the full story"
+    ],
+    "visual": "A talking-head or interview style with a bold Hindi question as the caption.",
+    "speaking": "Empathetic, steady and slow, with a reflective tone."
+  },
+  {
+    "at": "2026-11-27T03:56:38+00:00",
+    "permalink": "https://www.instagram.com/reel/DfRHs64Isx0/",
+    "why": "'Good News' is a news-alert hook that touches millions of people (every Jio user). The caption asks viewers to share it with family groups, which pushes reach. It got 2.8M views.",
+    "hook_pattern": "Good news for everyone who has [common thing]: share with your family group",
+    "structure": [
+      "Alert-style headline",
+      "The change in plain words",
+      "Who it affects",
+      "Share prompt"
+    ],
+    "visual": "News-style graphics with bold headline text and logos.",
+    "speaking": "Quick, crisp, authoritative anchor tone with no filler. This reel has no speech, so use brisk narration."
+  },
+  {
+    "at": "2026-11-27T03:56:38+00:00",
+    "permalink": "https://www.instagram.com/reel/DfPGB5IPRH1/",
+    "why": "It leads with a price and a stack of concrete specs, so a buyer can judge value at a glance. Its low engagement suggests it works only for people already shopping.",
+    "hook_pattern": "[Product] at an effective [price]: here is what you get",
+    "structure": [
+      "Price headline",
+      "Spec list with emojis",
+      "Verdict"
+    ],
+    "visual": "Product shots with a spec list overlay.",
+    "speaking": "Flat and informational (no speech in this reel)."
+  },
+  {
+    "at": "2026-11-27T03:56:38+00:00",
+    "permalink": "https://www.instagram.com/reel/Df10r2dSkSe/",
+    "why": "A price-hike warning hits everyone's wallet, so it gets many views (1.7M) and shares. The 'again' adds a feeling of annoyance people want to vent about.",
+    "hook_pattern": "[Annoying thing] is happening again: share so everyone knows",
+    "structure": [
+      "Headline with the annoyed emoji",
+      "Numbers or examples",
+      "Why it's happening",
+      "Share prompt"
+    ],
+    "visual": "News-style slides with price numbers and brand logos.",
+    "speaking": "Serious, quick and matter-of-fact (no speech in this reel)."
   }
 ]

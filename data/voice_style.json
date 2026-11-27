@@ -1,12 +1,6 @@
 {
   "samples": [
     {
-      "wps": 3.1,
-      "pause_s": 0.32,
-      "lang": "hi",
-      "per_k": 6.1
-    },
-    {
       "wps": 2.72,
       "pause_s": 0.68,
       "lang": "hi",
@@ -239,10 +233,16 @@
       "pause_s": 0.0,
       "lang": "hi",
       "per_k": 0.0
+    },
+    {
+      "wps": 3.22,
+      "pause_s": 0.28,
+      "lang": "hi",
+      "per_k": 7.4
     }
   ],
-  "notes": "The strongest speaker (beebomco) talks fast at about 4 words per second, with almost no pauses, and gives every sentence one new fact. The slower explainers (techwiser) use short pauses and a steady friendly tone before each new benefit, and the weakest Hindi reels were flat and had nothing to emphasise.",
-  "updated": "2026-11-26T13:08:34+00:00",
+  "notes": "The best speaker here (reel 1) keeps a fast pace of about 3.2 words per second, then stops for a beat right before the key reveal ('but wait, the real question is...'). Short punchy sentences, a loud emphasis on the big numbers, and a calm, warm tone for emotional lines work better than a flat read.",
+  "updated": "2026-11-27T03:56:38+00:00",
   "words_per_second": 3.23,
   "pause_s": 0.35
 }

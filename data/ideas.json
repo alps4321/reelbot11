@@ -1,75 +1,5 @@
 [
   {
-    "tool": "compress_pdf_kb",
-    "format": "deadline_story",
-    "hook_en": "Last date tonight and your PDF is still too big? Do this one thing.",
-    "hook_hinglish": "Aaj last date hai aur PDF abhi bhi bhaari hai? Bas ye ek kaam karo.",
-    "angle": "A job seeker has an hour left, the upload fails at 4 MB, and the compressed 190 KB PDF goes through just in time.",
-    "from": "https://www.instagram.com/reel/DfOqu-dhx02/",
-    "added": "2026-11-21T04:32:28+00:00",
-    "used": 0
-  },
-  {
-    "tool": "bank_statement_excel",
-    "format": "live_disbelief_walkthrough",
-    "hook_en": "I did not believe a bank statement PDF could turn into Excel in one click.",
-    "hook_hinglish": "Mujhe yakeen nahi tha ki bank statement PDF ek click mein Excel ban jayegi.",
-    "angle": "A character expects hours of typing, gets a clean sheet with every row, and reacts with shock at each step.",
-    "from": "https://www.instagram.com/reel/Df6fVtUvgR2/",
-    "added": "2026-11-21T04:32:28+00:00",
-    "used": 1
-  },
-  {
-    "tool": "unlock_aadhaar",
-    "format": "too_good_to_be_legal_reveal",
-    "hook_en": "A locked Aadhaar PDF that opens for free, and nobody told you why it is so easy.",
-    "hook_hinglish": "Locked Aadhaar PDF free mein khul jaati hai, aur kisi ne aasaan tareeka bataya hi nahi.",
-    "angle": "A friend is about to pay a cyber cafe to open it, then the narrator shows the free tool and the cafe bill vanishes.",
-    "from": "https://www.instagram.com/reel/Dfg8oy3PHtG/",
-    "added": "2026-11-21T04:32:28+00:00",
-    "used": 0
-  },
-  {
-    "tool": "merge_pdf",
-    "format": "three_things_countdown",
-    "hook_en": "3 ways you waste time on documents, and one tool that fixes all of them.",
-    "hook_hinglish": "Documents mein time waste karne ke 3 tareeke, aur ek tool jo sab theek kar de.",
-    "angle": "Three scattered files (Aadhaar, marksheet, resume) cause three mishaps, then one merged PDF is uploaded in one go.",
-    "from": "https://www.instagram.com/reel/DfkM0eWvLDi/",
-    "added": "2026-11-21T04:32:28+00:00",
-    "used": 0
-  },
-  {
-    "tool": "resize_signature_kb",
-    "format": "one_gesture_fix",
-    "hook_en": "Your signature must be 10 to 20 KB, and one tap does it.",
-    "hook_hinglish": "Signature 10 se 20 KB chahiye, aur ek tap mein ho jaata hai.",
-    "angle": "A student photographs a signature, the form rejects it, and one resize turns it to 14 KB and the form accepts it.",
-    "from": "https://www.instagram.com/reel/Df9mir3heiW/",
-    "added": "2026-11-21T04:32:28+00:00",
-    "used": 0
-  },
-  {
-    "tool": "passport_photo",
-    "format": "before_after_gap",
-    "hook_en": "Same selfie, one tool, and now it is a proper passport photo.",
-    "hook_hinglish": "Wahi selfie, ek tool, aur ab ek proper passport photo.",
-    "angle": "A rejected, shadowy selfie sits beside the cleaned-up photo with a white background and the right size, and the form is accepted.",
-    "from": "https://www.instagram.com/reel/DfOqu-dhx02/",
-    "added": "2026-11-21T04:32:28+00:00",
-    "used": 0
-  },
-  {
-    "tool": "compress_pdf_kb",
-    "format": "too_good_to_be_legal_reveal",
-    "hook_en": "Guys, something crazy: a 4 MB PDF that goes down to 90 KB and still looks sharp.",
-    "hook_hinglish": "Guys, kuch crazy hai: 4 MB ka PDF 90 KB ho gaya aur quality bhi same hai.",
-    "angle": "A student's scholarship form is rejected for size, and the narrator turns the size dial down mode by mode as the stat tiles update.",
-    "from": "https://www.instagram.com/reel/Df98X5MtgiR/",
-    "added": "2026-11-21T11:50:18+00:00",
-    "used": 0
-  },
-  {
     "tool": "passport_photo",
     "format": "three_things_countdown",
     "hook_en": "Three photo mistakes that get your form rejected, and the fix for each.",
@@ -797,6 +727,76 @@
     "angle": "One friend struggles with a messy photo edit while the other uses the background remover. The cleaner photo gets accepted on the form.",
     "from": "https://www.instagram.com/reel/DgNFvwJSONX/",
     "added": "2026-11-26T13:08:34+00:00",
+    "used": 0
+  },
+  {
+    "tool": "compress_pdf_kb",
+    "format": "live_alert_urgency",
+    "hook_en": "Good news for every student who got 'file too large' on a form.",
+    "hook_hinglish": "Good news un sabke liye jinhe form pe 'file too large' mila.",
+    "angle": "A character is blocked at the last minute by a 2 MB limit. The tool brings the PDF to 150 KB, the form submits, and the narrator tells viewers to save this for their next form.",
+    "from": "https://www.instagram.com/reel/DfRHs64Isx0/",
+    "added": "2026-11-27T03:56:38+00:00",
+    "used": 0
+  },
+  {
+    "tool": "resize_photo_kb",
+    "format": "one_person_vs_studio",
+    "hook_en": "One photo, no studio, and it fits the 20-50 KB limit in seconds.",
+    "hook_hinglish": "Ek photo, koi studio nahi, aur 20-50 KB mein fit, bas kuch seconds mein.",
+    "angle": "A crowd of workers is stuck editing a photo by hand, while one character does it alone in seconds with the free tool.",
+    "from": "https://www.instagram.com/reel/DgNTe9VPkTj/",
+    "added": "2026-11-27T03:56:38+00:00",
+    "used": 0
+  },
+  {
+    "tool": "unlock_aadhaar",
+    "format": "hot_take_problem_callout",
+    "hook_en": "Your Aadhaar PDF won't open, and it happens every single time.",
+    "hook_hinglish": "Aapka Aadhaar PDF khul hi nahi raha, aur har baar yahi hota hai.",
+    "angle": "A character is stuck on the password prompt again and again. They learn the password pattern and unlock the file with our tool.",
+    "from": "https://www.instagram.com/reel/Df10r2dSkSe/",
+    "added": "2026-11-27T03:56:38+00:00",
+    "used": 0
+  },
+  {
+    "tool": "merge_pdf",
+    "format": "struggle_to_win_story",
+    "hook_en": "After the third rejection, he stopped blaming himself and fixed his file.",
+    "hook_hinglish": "Teesri rejection ke baad usne khud ko blame karna band kiya aur apni file theek ki.",
+    "angle": "A job seeker is rejected for sending 6 separate PDFs. He merges them into one clean file and finally gets the interview call.",
+    "from": "https://www.instagram.com/reel/DgMe0OdzSci/",
+    "added": "2026-11-27T03:56:38+00:00",
+    "used": 0
+  },
+  {
+    "tool": "passport_photo",
+    "format": "parent_sacrifice_tribute",
+    "hook_en": "Papa waited an hour in a queue just for one passport photo.",
+    "hook_hinglish": "Papa ek ghanta line mein khade rahe sirf ek passport photo ke liye.",
+    "angle": "A father spends his day and money on photo shops. His child makes a perfect photo at home for free and thanks him. Save it for your next form.",
+    "from": "https://www.instagram.com/reel/Df9BowyBAAM/",
+    "added": "2026-11-27T03:56:38+00:00",
+    "used": 0
+  },
+  {
+    "tool": "pdf_to_word",
+    "format": "two_jobs_one_tool_explainer",
+    "hook_en": "Edit a locked-looking PDF, and sort out your resume at the same time.",
+    "hook_hinglish": "Locked jaisi dikhne wali PDF edit karo, aur resume bhi saath mein theek karo.",
+    "angle": "One character uses a single tool for two jobs, a resume fix and a form fix, so the viewer sees how many problems one tool solves.",
+    "from": "https://www.instagram.com/reel/DgNTe9VPkTj/",
+    "added": "2026-11-27T03:56:38+00:00",
+    "used": 0
+  },
+  {
+    "tool": "bank_statement_excel",
+    "format": "numbered_free_tools_showcase",
+    "hook_en": "3 things your bank statement PDF becomes in Excel, free.",
+    "hook_hinglish": "Bank statement PDF Excel mein ban jaye to 3 cheezein free mein ho jaati hain.",
+    "angle": "Three numbered panels show a messy PDF turning into clean rows, then totals, then a loan-ready sheet.",
+    "from": "https://www.instagram.com/reel/DfPGB5IPRH1/",
+    "added": "2026-11-27T03:56:38+00:00",
     "used": 0
   }
 ]

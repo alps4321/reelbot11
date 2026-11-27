@@ -1,17 +1,5 @@
 {
   "learned": {
-    "live_alert_urgency": {
-      "description": "Open with an urgent 'this is happening now' alert, show a 3D character rushing, and resolve it with the free tool and a calm 'save this'.",
-      "from": "https://www.instagram.com/reel/DftXLfuBVRI/",
-      "hook_pattern": "'Sale is live' + urgency + discount.",
-      "added": "2026-11-23T04:28:33+00:00"
-    },
-    "disguise_reveal_then_objection": {
-      "description": "Start with a mundane-looking file or situation, reveal the hidden problem or power underneath, then have the narrator answer each worried 'but what if' in turn, ending with a verdict line.",
-      "from": "https://www.instagram.com/reel/DgFT6_whi4Z/",
-      "hook_pattern": "This [ordinary-looking thing] hides [something valuable] and nobody can get in",
-      "added": "2026-11-23T13:42:19+00:00"
-    },
     "proof_shots_showcase": {
       "description": "Open by promising what the tool can do, then have the narrator walk through two or three before/after result panels (file size drops, a clean output) while the low-poly character reacts to each one.",
       "from": "https://www.instagram.com/reel/DgFtl6tMhGQ/",
@@ -59,6 +47,18 @@
       "from": "https://www.instagram.com/reel/DgMe-Gdz6k1/",
       "hook_pattern": "If you hate [chore], you need this [thing that does two jobs in one]",
       "added": "2026-11-26T13:08:34+00:00"
+    },
+    "one_person_vs_studio": {
+      "description": "Tell a story where one small character does with one free tool what a big crowd of workers takes days to do. Show the crowd struggling, then the solo hero finishing in seconds, and name the single tool as the reveal.",
+      "from": "https://www.instagram.com/reel/DgNTe9VPkTj/",
+      "hook_pattern": "One person did X that a whole team needs Y years for, using only N tools",
+      "added": "2026-11-27T03:56:38+00:00"
+    },
+    "parent_sacrifice_tribute": {
+      "description": "Show a parent quietly sacrificing for a child's form or exam in 3D scenes. Let a small document problem be the last hurdle, solved with our tool, and end on gratitude.",
+      "from": "https://www.instagram.com/reel/Df9BowyBAAM/",
+      "hook_pattern": "Behind every [struggling person] are countless sacrifices nobody saw",
+      "added": "2026-11-27T03:56:38+00:00"
     }
   }
 }

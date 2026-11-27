@@ -5216,7 +5216,8 @@
       24,
       48,
       72,
-      120
+      120,
+      168
     ],
     "slot": null,
     "metrics": {
@@ -5280,6 +5281,17 @@
       {
         "at": "2026-11-25T11:42:12+00:00",
         "hours": 120,
+        "views": 116,
+        "reach": 105,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
+        "avg_watch_s": 3.5
+      },
+      {
+        "at": "2026-11-27T03:54:05+00:00",
+        "hours": 168,
         "views": 116,
         "reach": 105,
         "likes": 0,
@@ -6532,8 +6544,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "total_interactions": 0,
-      "avg_watch_s": 2.2
+      "avg_watch_s": 2.2,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -6851,7 +6863,8 @@
       6,
       24,
       48,
-      72
+      72,
+      120
     ],
     "slot": "13:00",
     "metrics": {
@@ -6902,6 +6915,17 @@
       {
         "at": "2026-11-25T11:42:04+00:00",
         "hours": 72,
+        "views": 129,
+        "reach": 105,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "avg_watch_s": 5.8
+      },
+      {
+        "at": "2026-11-27T12:26:28+00:00",
+        "hours": 120,
         "views": 129,
         "reach": 105,
         "likes": 1,
@@ -8358,8 +8382,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "total_interactions": 2,
-      "avg_watch_s": 4.7
+      "avg_watch_s": 4.7,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -8650,7 +8674,8 @@
     "checked": [
       6,
       24,
-      48
+      48,
+      72
     ],
     "slot": "13:00",
     "metrics": {
@@ -8690,6 +8715,17 @@
       {
         "at": "2026-11-26T12:26:57+00:00",
         "hours": 48,
+        "views": 136,
+        "reach": 105,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "avg_watch_s": 4.1
+      },
+      {
+        "at": "2026-11-27T12:26:24+00:00",
+        "hours": 72,
         "views": 136,
         "reach": 105,
         "likes": 0,
@@ -9193,8 +9229,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 3,
-      "total_interactions": 6,
-      "avg_watch_s": 6.4
+      "avg_watch_s": 6.4,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -9479,7 +9515,8 @@
     "posted_at": "2026-11-25T07:30:10+00:00",
     "checked": [
       6,
-      24
+      24,
+      48
     ],
     "slot": "13:00",
     "metrics": {
@@ -9508,6 +9545,17 @@
       {
         "at": "2026-11-26T12:26:55+00:00",
         "hours": 24,
+        "views": 81,
+        "reach": 71,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
+        "avg_watch_s": 3.3
+      },
+      {
+        "at": "2026-11-27T12:26:22+00:00",
+        "hours": 48,
         "views": 81,
         "reach": 71,
         "likes": 0,
@@ -10012,8 +10060,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "total_interactions": 4,
-      "avg_watch_s": 4.1
+      "avg_watch_s": 4.1,
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -10267,12 +10315,13 @@
     "permalink": "https://www.instagram.com/reel/DgMeYcXzcfb/",
     "posted_at": "2026-11-26T07:30:11+00:00",
     "checked": [
-      6
+      6,
+      24
     ],
     "slot": "13:00",
     "metrics": {
       "views": 115,
-      "reach": 89,
+      "reach": 90,
       "likes": 1,
       "comments": 0,
       "shares": 0,
@@ -10291,6 +10340,17 @@
         "shares": 0,
         "saved": 0,
         "avg_watch_s": 8.7
+      },
+      {
+        "at": "2026-11-27T12:26:20+00:00",
+        "hours": 24,
+        "views": 115,
+        "reach": 90,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "avg_watch_s": 8.0
       }
     ]
   },
@@ -10526,14 +10586,14 @@
     ],
     "slot": "19:00",
     "metrics": {
-      "views": 126,
-      "reach": 107,
+      "views": 136,
+      "reach": 117,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 1,
       "avg_watch_s": 5.1,
-      "views_last_hour": 6
+      "views_last_hour": 10
     },
     "history": [
       {
@@ -10780,8 +10840,33 @@
     "media_id": "18583475530077117",
     "permalink": "https://www.instagram.com/reel/DgO1I2mudzS/",
     "posted_at": "2026-11-27T05:30:12+00:00",
-    "checked": [],
-    "slot": "11:00"
+    "checked": [
+      6
+    ],
+    "slot": "11:00",
+    "metrics": {
+      "views": 141,
+      "reach": 128,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "avg_watch_s": 2.7,
+      "views_last_hour": 0
+    },
+    "history": [
+      {
+        "at": "2026-11-27T12:26:18+00:00",
+        "hours": 6,
+        "views": 141,
+        "reach": 128,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "avg_watch_s": 2.7
+      }
+    ]
   },
   {
     "id": "20261127-062905-english",
@@ -11014,6 +11099,233 @@
     "permalink": "https://www.instagram.com/reel/DgPDPs1MmXt/",
     "posted_at": "2026-11-27T07:30:09+00:00",
     "checked": [],
-    "slot": "13:00"
+    "slot": "13:00",
+    "metrics": {
+      "views": 47,
+      "reach": 36,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "avg_watch_s": 8.5,
+      "views_last_hour": 0
+    }
+  },
+  {
+    "id": "20261127-122852-hinglish",
+    "created_at": "2026-11-27T12:33:06+00:00",
+    "language": "hinglish",
+    "topic": "unlock_aadhaar",
+    "hook_style": "contrarian",
+    "format": "secret_answer",
+    "pace": "natural",
+    "distance": "near",
+    "answer": "aadhaar_password",
+    "idea": "A locked-looking PDF, turned into an editable Word file in seconds. Look at the result.",
+    "plan_reason": "winner day: pdf_to_word has the best average score; proven formula slot; hook style: best so far; format: explore; pace: explore; distance: best so far; idea from the niche scout",
+    "title": "Aadhaar PDF password: number nahi, ye hota hai",
+    "hook": "Aadhaar PDF ka password, Aadhaar number nahi hota.",
+    "seconds": 25.0,
+    "script": {
+      "title": "Aadhaar PDF password: number nahi, ye hota hai",
+      "scenes": [
+        {
+          "say": "Aadhaar PDF ka password, Aadhaar number nahi hota.",
+          "voice": "आधार पीडीएफ का पासवर्ड, आधार नंबर नहीं होता।",
+          "accent": [
+            "nahi"
+          ],
+          "tag": "aadhaar pdf",
+          "meter": null,
+          "scene": {
+            "type": "chat",
+            "name": "Rahul",
+            "messages": [
+              {
+                "from": "them",
+                "text": "PDF khul nahi rahi"
+              },
+              {
+                "from": "me",
+                "text": "Aadhaar number daala"
+              },
+              {
+                "from": "them",
+                "text": "Phir bhi nahi khuli"
+              }
+            ]
+          },
+          "kind": "hook",
+          "screen": "Aadhaar PDF ka password, Aadhaar number nahi hota.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Phone number bhi nahi. Answer end mein hai.",
+          "voice": "फोन नंबर भी नहीं... आंसर एंड में है।",
+          "accent": [
+            "end mein"
+          ],
+          "tag": "aadhaar pdf",
+          "meter": null,
+          "scene": {
+            "type": "spotlight",
+            "title": "PASSWORD"
+          },
+          "kind": "point",
+          "screen": "Phone number bhi nahi. Answer end mein hai.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Log baar baar try karte hain, phir atak jaate hain.",
+          "voice": "लोग बार बार ट्राई करते हैं, फिर अटक जाते हैं।",
+          "accent": [
+            "atak"
+          ],
+          "tag": "galat try",
+          "meter": null,
+          "scene": {
+            "type": "counter",
+            "value": 4,
+            "label": "galat try",
+            "badge": "STUCK"
+          },
+          "kind": "point",
+          "screen": "Log baar baar try karte hain, phir atak jaate hain.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Ab suno. Naam ke pehle 4 letters, CAPITAL mein.",
+          "voice": "अब सुनो... नाम के पहले 4 लेटर्स, कैपिटल में।",
+          "accent": [
+            "CAPITAL"
+          ],
+          "tag": "step 1",
+          "meter": null,
+          "scene": {
+            "type": "id_card",
+            "title": "e-Aadhaar",
+            "name": "SURESH KUMAR",
+            "sub": "pehle 4 letters: SURE"
+          },
+          "kind": "point",
+          "screen": "Ab suno. Naam ke pehle 4 letters, CAPITAL mein.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Uske baad janam ka saal, YYYY mein.",
+          "voice": "उसके बाद जन्म का साल, वाई वाई वाई वाई में।",
+          "accent": [
+            "saal"
+          ],
+          "tag": "step 2",
+          "meter": null,
+          "scene": {
+            "type": "big_text",
+            "text": "SURE + 1990",
+            "sub": "naam + janam ka saal"
+          },
+          "kind": "point",
+          "screen": "Uske baad janam ka saal, YYYY mein.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "SURESH KUMAR, 1990? Password hai SURE1990.",
+          "voice": "सुरेश कुमार, 1990? पासवर्ड है SURE1990।",
+          "accent": [
+            "SURE1990"
+          ],
+          "tag": "answer",
+          "meter": null,
+          "scene": {
+            "type": "stamp",
+            "word": "SURE1990",
+            "on": "SURESH KUMAR, 1990",
+            "label": "PASSWORD"
+          },
+          "kind": "point",
+          "screen": "SURESH KUMAR, 1990? Password hai SURE1990.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Yaad rakhna, letters CAPITAL mein hi daalna.",
+          "voice": "याद रखना, लेटर्स कैपिटल में ही डालना।",
+          "accent": [
+            "CAPITAL"
+          ],
+          "tag": "yaad rakho",
+          "meter": null,
+          "scene": {
+            "type": "checklist",
+            "title": "Password rules",
+            "items": [
+              "Naam ke 4 letters",
+              "CAPITAL mein",
+              "Saal YYYY"
+            ]
+          },
+          "kind": "point",
+          "screen": "Yaad rakhna, letters CAPITAL mein hi daalna.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Password hatana hai? ilovedocuments.ai pe Unlock Aadhaar PDF, free.",
+          "voice": "पासवर्ड हटाना है? आई लव डॉक्यूमेंट्स डॉट ए आई पे अनलॉक आधार पीडीएफ, फ्री।",
+          "accent": [
+            "Unlock Aadhaar PDF"
+          ],
+          "tag": "easy way",
+          "meter": null,
+          "scene": {
+            "type": "browser",
+            "url": "ilovedocuments.ai",
+            "button": "Unlock Aadhaar PDF"
+          },
+          "kind": "point",
+          "screen": "Password hatana hai? ilovedocuments.ai pe Unlock Aadhaar PDF",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Save kar lo.",
+          "voice": "सेव कर लो।",
+          "accent": [
+            "Save"
+          ],
+          "tag": "save",
+          "meter": null,
+          "scene": {
+            "type": "cta",
+            "keyword": "SAVE",
+            "line": "// password yaad rahega"
+          },
+          "kind": "cta",
+          "screen": "Save kar lo.",
+          "emphasis": [],
+          "visual": null
+        }
+      ],
+      "caption": "Aadhaar PDF ka password number nahi, naam ke 4 CAPITAL letters + janam ka saal hota hai. Jaise SURESH KUMAR, 1990 -> SURE1990. Aapko pehli baar mein khuli ya nahi? Comment mein batao. Password hatane ke liye: ilovedocuments.ai",
+      "hashtags": [
+        "#aadhaar",
+        "#epassword",
+        "#pdf",
+        "#documents",
+        "#india"
+      ]
+    },
+    "caption": "Aadhaar PDF ka password number nahi, naam ke 4 CAPITAL letters + janam ka saal hota hai. Jaise SURESH KUMAR, 1990 -> SURE1990. Aapko pehli baar mein khuli ya nahi? Comment mein batao. Password hatane ke liye: ilovedocuments.ai\n\n#aadhaar #epassword #pdf #documents #india",
+    "video": "20261127-122852-hinglish.mp4",
+    "media_id": "18116111723353996",
+    "permalink": "https://www.instagram.com/reel/DgPsFnATBVV/",
+    "posted_at": "2026-11-27T13:30:10+00:00",
+    "checked": [],
+    "slot": "19:00"
   }
 ]

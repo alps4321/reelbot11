@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-27T07:30:10+00:00
+Updated 2026-11-27T13:30:11+00:00
 
-Reels made: 45. Posted: 38. Measured: 35.
+Reels made: 46. Posted: 39. Measured: 37.
 
 ## english: results by topic
 
@@ -15,10 +15,11 @@ Reels made: 45. Posted: 38. Measured: 35.
 | word_to_pdf | 1 | 114.0 |
 | jpg_to_pdf | 1 | 101.0 |
 | cheat_sheet_5_tools | 1 | 99.0 |
+| compress_image | 1 | 95.0 |
 | compress_pdf_kb | 1 | 92.0 |
 | resize_signature_kb | 1 | 91.0 |
 | bank_statement_excel | 1 | 80.0 |
-| protect_pdf | 1 | 56.0 |
+| protect_pdf | 1 | 55.0 |
 
 ## english: results by hook style
 
@@ -29,8 +30,8 @@ Reels made: 45. Posted: 38. Measured: 35.
 | story_open | 1 | 143.0 |
 | question | 2 | 107.5 |
 | bold_claim | 1 | 99.0 |
-| contrarian | 1 | 92.0 |
-| number | 1 | 56.0 |
+| contrarian | 2 | 93.5 |
+| number | 1 | 55.0 |
 
 ## english: results by format
 
@@ -38,26 +39,26 @@ Reels made: 45. Posted: 38. Measured: 35.
 |---|---|---|
 | same_task_before_after | 1 | 359.0 |
 | manual | 3 | 302.7 |
-| story | 4 | 107.0 |
+| story | 5 | 104.6 |
 | secret_answer | 1 | 101.0 |
 | cheat_sheet | 1 | 99.0 |
 | discovery | 1 | 92.0 |
-| myth_buster | 1 | 56.0 |
+| myth_buster | 1 | 55.0 |
 
 ## english: results by pace
 
 | pace | reels | avg score |
 |---|---|---|
-| natural | 3 | 197.7 |
+| natural | 4 | 172.0 |
 | calm | 1 | 114.0 |
-| brisk | 3 | 76.0 |
+| brisk | 3 | 75.7 |
 
 ## english: results by distance
 
 | distance | reels | avg score |
 |---|---|---|
 | far | 1 | 114.0 |
-| near | 5 | 92.4 |
+| near | 6 | 92.7 |
 
 ## english: what the bot has learned
 
@@ -143,37 +144,38 @@ Reels made: 45. Posted: 38. Measured: 35.
 
 **Keep**
 
-- Lead with a password/secret question hook in the 'secret_answer' format for document-specific queries. The top reel, 'Aadhaar PDF ka password kya hota hai?', got 1971 views, 18 shares and 24 saves. The Aadhaar, e-PAN and PAN password hooks follow the same pattern.
-- Pick a high-intent pain point that people search for: Aadhaar password, PDF too big, PDF to Word edit. The top 3 reels all solve a specific stuck-moment task, and they got 1237-2286 views against about 100-300 for the rest.
-- Make the first seconds pay off fast. The top reels average 8.2-9.2s watched, and the bottom ones average 2.2-3.5s. The 8.8s on the pdf_to_jpg myth-buster shows a curiosity hook can hold attention even with low views.
-- Write the hook in plain, short Hinglish that names the exact task ('PDF ko edit kaise karein?', 'What if your PDF is too big?'). This is the clearest shared trait of the top 3 reels.
-- Keep the 'one site does it all' manual style (0s duration, 971 views) as a secondary option. It beat most of the 20-30s reels, but it is a single post.
+- Lead with a concrete, high-intent Indian document problem in the hook: Aadhaar PDF password (top score 2286, 1971 views, 18 shares, 24 saves), PDF edit, PDF too big. These topics hold 8-9s average watch, while the weakest reels sit at 2-4s.
+- Use the question or secret_answer pattern with a specific document name in the hook. The top reel and the #3 reel both use it, and shares and saves cluster there.
+- Use short hooks in natural Hinglish, about 6-10 words ("Aadhaar PDF ka password kya hota hai? 🔐", "PDF ko edit kaise karein?"). The best hooks are conversational.
+- Use a payoff that matches the hook. The best watch times (8.2-9.2s) come from reels where the topic is clear from the first line, including the 'What if your PDF is too big?' reel (8.8s).
+- Use a broad promise that covers several tasks ("ek hi website kaafi hai") or a relatable pain point. The passport_photo reel (920 views, 8.7s) and the "File too large" reel both got shares or saves from it.
 
 **Avoid**
 
-- Avoid generic how-to hooks on lower-demand topics: 'Photos ko ek PDF kaise banayein?' (116 views, 3.5s watched) and 'PDF ka table Excel mein kaise layein?' (123 views, 3.4s watched). These are the two weakest reels.
-- Avoid bank-specific password hooks like HDFC. Both got under 200 views and the lowest watch times (2.2s and 4.7s). The 31s duration may also be a factor.
-- Avoid trivia or off-topic story hooks such as the Egypt honey one. It got 222 views and no shares, and it doesn't connect to the PDF task.
-- Avoid weak, definitional hooks such as 'Masked Aadhaar kya hota hai?' (4.6s watched, 0 shares) and 'Masked Aadhaar download kaise karte hain?' (3.9s watched, 0 saves).
-- Avoid reposting the same Aadhaar password hook with minor changes. The same wording got 1971 views at 0s, 184 views at 21s and 145 views at 26s, so a repeat splits the audience and mostly underperforms.
+- Avoid repeating near-identical hooks. Aadhaar password went 1971 views, then 184, then 145, and PAN password was posted twice at 186 and 211. The repeats lost reach, so the first post may have benefited from novelty or timing.
+- Avoid bank statement and HDFC password hooks. They got 140-196 views, 0-1 interactions and 2.2-4.7s watch.
+- Avoid niche or off-topic hooks that don't tell the viewer the benefit. Examples are the Egypt honey story, the charging 100% hook and the "Masked Aadhaar kya hota hai?" definition. All had low views and 3.9-4.6s watch, except the Egypt reel at 7.6s, and none of them led to saves or shares.
+- Avoid generic how-to utility hooks with no stakes ("Photos ko ek PDF kaise banayein?", "PDF ka table Excel mein kaise layein?"). They had the lowest watch times (3.4-3.5s) and almost no engagement.
+- Avoid 28-31s runtimes with weak hooks. The two longest reels were among the lowest on watch time (2.2s and 7.1s). Length alone is not proven to be the cause, because the 0s top reel and 20s runs did best.
 
 **Next Tests**
 
-- Re-run the winning Aadhaar password hook with the winning format and 0s duration. Change only the hook wording or the visual, to find out whether the 1971 views came from the topic, the duration or luck. Right now it is one post against two weaker repeats.
-- Test more 'stuck moment' topics in the same question + secret_answer format: 'PDF ko edit kaise karein?' and 'What if your PDF is too big?' variants, such as compress to 100KB for forms, and Word to PDF. Compare against the pdf_to_word and compress_pdf_kb results (1237-1323 views).
-- Test the myth_buster / bold_claim style on a high-demand topic such as Aadhaar or PDF edit. The pdf_to_jpg myth-buster held attention (8.8s) but got only 187 views, so a stronger topic could show whether this style can bring views as well as retention.
+- Test whether the top reel was a one-off. Re-post the Aadhaar PDF password with a new angle, for example "Aadhaar PDF khul nahi raha?" or a different opening visual. Keep the topic the same and change only the hook. If views stay under about 300, the first post owed its result to novelty or timing.
+- Run a controlled format test on one topic, compress_pdf_kb or pdf_to_word. Post the same script as a 'what_if' hook, a question hook and a problem-statement hook, all at similar length, to separate hook style from topic. With 20 posts, style and topic are mixed together.
+- Test run length on the proven topics (Aadhaar, PDF edit, compress). Post one version at about 15s and one at about 25s with the same hook, and compare avg_watch_s and completion. Current evidence mixes length with topic.
 
 ## Reels
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-27 | english | pdf_to_word | story | Priya's interview call came at 6 PM. |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgPDPs1MmXt/) |
-| 2026-11-27 | hinglish | id_card_print | secret_answer | Masked Aadhaar kya hota hai? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgO1I2mudzS/) |
-| 2026-11-26 | hinglish | bank_statement_excel | secret_answer | HDFC bank statement PDF ka password kya hai? | 126 | 5.1 | 1 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/DgNHnVtxwdX/) |
-| 2026-11-26 | english | compress_image | story | Meera did everything right. Except one thing. | 115 | 8.0 | 1 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgMeYcXzcfb/) |
+| 2026-11-27 | hinglish | unlock_aadhaar | secret_answer | Aadhaar PDF ka password, Aadhaar number nahi hota. |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgPsFnATBVV/) |
+| 2026-11-27 | english | pdf_to_word | story | Priya's interview call came at 6 PM. | 47 | 8.5 | 1 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgPDPs1MmXt/) |
+| 2026-11-27 | hinglish | id_card_print | secret_answer | Masked Aadhaar kya hota hai? | 141 | 2.7 | 0 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgO1I2mudzS/) |
+| 2026-11-26 | hinglish | bank_statement_excel | secret_answer | HDFC bank statement PDF ka password kya hai? | 136 | 5.1 | 1 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/DgNHnVtxwdX/) |
+| 2026-11-26 | english | compress_image | story | Meera did everything right. Except one thing. | 115 | 8.0 | 1 | 0 | 0 | 0 | 95 | [open](https://www.instagram.com/reel/DgMeYcXzcfb/) |
 | 2026-11-26 | hinglish | unlock_pdf | secret_answer | PAN card PDF ka password kya hai? | 211 | 4.1 | 3 | 0 | 0 | 1 | 148 | [open](https://www.instagram.com/reel/DgMQ4HUB-s5/) |
 | 2026-11-25 | hinglish | unlock_aadhaar | secret_answer | Aadhaar PDF ka password kya hota hai? | 145 | 4.0 | 1 | 0 | 0 | 1 | 100 | [open](https://www.instagram.com/reel/DgKizPitu-w/) |
-| 2026-11-25 | english | protect_pdf | myth_buster | 1 forward is all it takes. | 81 | 3.3 | 0 | 0 | 0 | 1 | 56 | [open](https://www.instagram.com/reel/DgJ5V8oK93k/) |
+| 2026-11-25 | english | protect_pdf | myth_buster | 1 forward is all it takes. | 81 | 3.3 | 0 | 0 | 0 | 1 | 55 | [open](https://www.instagram.com/reel/DgJ5V8oK93k/) |
 | 2026-11-25 | hinglish | id_card_print | secret_answer | Kya Aadhaar ka print out valid hai? | 368 | 6.4 | 3 | 0 | 0 | 3 | 304 | [open](https://www.instagram.com/reel/DgJrs6eF2Qp/) |
 | 2026-11-24 | hinglish | id_card_print | secret_answer | Masked Aadhaar download kaise karte hain? | 244 | 3.9 | 4 | 0 | 1 | 0 | 170 | [open](https://www.instagram.com/reel/DgH-IJBEvo4/) |
 | 2026-11-24 | english | compress_pdf_kb | discovery | Your PDF is 5 MB. The form says 200 KB. | 136 | 4.1 | 0 | 0 | 0 | 0 | 92 | [open](https://www.instagram.com/reel/DgHUoOsjNcV/) |

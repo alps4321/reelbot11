@@ -1,25 +1,25 @@
 {
   "hinglish": {
-    "measured": 20,
-    "updated": "2026-11-27T04:28:36+00:00",
+    "measured": 21,
+    "updated": "2026-11-27T12:28:31+00:00",
     "keep": [
-      "Lead with a password/secret question hook in the 'secret_answer' format for document-specific queries. The top reel, 'Aadhaar PDF ka password kya hota hai?', got 1971 views, 18 shares and 24 saves. The Aadhaar, e-PAN and PAN password hooks follow the same pattern.",
-      "Pick a high-intent pain point that people search for: Aadhaar password, PDF too big, PDF to Word edit. The top 3 reels all solve a specific stuck-moment task, and they got 1237-2286 views against about 100-300 for the rest.",
-      "Make the first seconds pay off fast. The top reels average 8.2-9.2s watched, and the bottom ones average 2.2-3.5s. The 8.8s on the pdf_to_jpg myth-buster shows a curiosity hook can hold attention even with low views.",
-      "Write the hook in plain, short Hinglish that names the exact task ('PDF ko edit kaise karein?', 'What if your PDF is too big?'). This is the clearest shared trait of the top 3 reels.",
-      "Keep the 'one site does it all' manual style (0s duration, 971 views) as a secondary option. It beat most of the 20-30s reels, but it is a single post."
+      "Lead with a concrete, high-intent Indian document problem in the hook: Aadhaar PDF password (top score 2286, 1971 views, 18 shares, 24 saves), PDF edit, PDF too big. These topics hold 8-9s average watch, while the weakest reels sit at 2-4s.",
+      "Use the question or secret_answer pattern with a specific document name in the hook. The top reel and the #3 reel both use it, and shares and saves cluster there.",
+      "Use short hooks in natural Hinglish, about 6-10 words (\"Aadhaar PDF ka password kya hota hai? 🔐\", \"PDF ko edit kaise karein?\"). The best hooks are conversational.",
+      "Use a payoff that matches the hook. The best watch times (8.2-9.2s) come from reels where the topic is clear from the first line, including the 'What if your PDF is too big?' reel (8.8s).",
+      "Use a broad promise that covers several tasks (\"ek hi website kaafi hai\") or a relatable pain point. The passport_photo reel (920 views, 8.7s) and the \"File too large\" reel both got shares or saves from it."
     ],
     "avoid": [
-      "Avoid generic how-to hooks on lower-demand topics: 'Photos ko ek PDF kaise banayein?' (116 views, 3.5s watched) and 'PDF ka table Excel mein kaise layein?' (123 views, 3.4s watched). These are the two weakest reels.",
-      "Avoid bank-specific password hooks like HDFC. Both got under 200 views and the lowest watch times (2.2s and 4.7s). The 31s duration may also be a factor.",
-      "Avoid trivia or off-topic story hooks such as the Egypt honey one. It got 222 views and no shares, and it doesn't connect to the PDF task.",
-      "Avoid weak, definitional hooks such as 'Masked Aadhaar kya hota hai?' (4.6s watched, 0 shares) and 'Masked Aadhaar download kaise karte hain?' (3.9s watched, 0 saves).",
-      "Avoid reposting the same Aadhaar password hook with minor changes. The same wording got 1971 views at 0s, 184 views at 21s and 145 views at 26s, so a repeat splits the audience and mostly underperforms."
+      "Avoid repeating near-identical hooks. Aadhaar password went 1971 views, then 184, then 145, and PAN password was posted twice at 186 and 211. The repeats lost reach, so the first post may have benefited from novelty or timing.",
+      "Avoid bank statement and HDFC password hooks. They got 140-196 views, 0-1 interactions and 2.2-4.7s watch.",
+      "Avoid niche or off-topic hooks that don't tell the viewer the benefit. Examples are the Egypt honey story, the charging 100% hook and the \"Masked Aadhaar kya hota hai?\" definition. All had low views and 3.9-4.6s watch, except the Egypt reel at 7.6s, and none of them led to saves or shares.",
+      "Avoid generic how-to utility hooks with no stakes (\"Photos ko ek PDF kaise banayein?\", \"PDF ka table Excel mein kaise layein?\"). They had the lowest watch times (3.4-3.5s) and almost no engagement.",
+      "Avoid 28-31s runtimes with weak hooks. The two longest reels were among the lowest on watch time (2.2s and 7.1s). Length alone is not proven to be the cause, because the 0s top reel and 20s runs did best."
     ],
     "next_tests": [
-      "Re-run the winning Aadhaar password hook with the winning format and 0s duration. Change only the hook wording or the visual, to find out whether the 1971 views came from the topic, the duration or luck. Right now it is one post against two weaker repeats.",
-      "Test more 'stuck moment' topics in the same question + secret_answer format: 'PDF ko edit kaise karein?' and 'What if your PDF is too big?' variants, such as compress to 100KB for forms, and Word to PDF. Compare against the pdf_to_word and compress_pdf_kb results (1237-1323 views).",
-      "Test the myth_buster / bold_claim style on a high-demand topic such as Aadhaar or PDF edit. The pdf_to_jpg myth-buster held attention (8.8s) but got only 187 views, so a stronger topic could show whether this style can bring views as well as retention."
+      "Test whether the top reel was a one-off. Re-post the Aadhaar PDF password with a new angle, for example \"Aadhaar PDF khul nahi raha?\" or a different opening visual. Keep the topic the same and change only the hook. If views stay under about 300, the first post owed its result to novelty or timing.",
+      "Run a controlled format test on one topic, compress_pdf_kb or pdf_to_word. Post the same script as a 'what_if' hook, a question hook and a problem-statement hook, all at similar length, to separate hook style from topic. With 20 posts, style and topic are mixed together.",
+      "Test run length on the proven topics (Aadhaar, PDF edit, compress). Post one version at about 15s and one at about 25s with the same hook, and compare avg_watch_s and completion. Current evidence mixes length with topic."
     ]
   },
   "english": {

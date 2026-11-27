@@ -1,23 +1,5 @@
 {
   "learned": {
-    "proof_shots_showcase": {
-      "description": "Open by promising what the tool can do, then have the narrator walk through two or three before/after result panels (file size drops, a clean output) while the low-poly character reacts to each one.",
-      "from": "https://www.instagram.com/reel/DgFtl6tMhGQ/",
-      "hook_pattern": "Watch what [product] can capture, then the proof shots roll",
-      "added": "2026-11-24T04:29:50+00:00"
-    },
-    "hot_take_problem_callout": {
-      "description": "Have the narrator name one annoying, familiar form problem as a mini complaint, show the error panel on screen, then let the character fix it in one step.",
-      "from": "https://www.instagram.com/reel/Df7PMbfvefK/",
-      "hook_pattern": "[Famous thing] needs fixing, here is the problem",
-      "added": "2026-11-24T04:29:50+00:00"
-    },
-    "choices_change_stats": {
-      "description": "Show a stats panel (file size, quality, pages) and have the narrator explain how each small choice by the character changes the numbers, with cause and effect in two steps.",
-      "from": "https://www.instagram.com/reel/Df7PCokPZUL/",
-      "hook_pattern": "What you do here changes everything, look at the stats",
-      "added": "2026-11-24T04:29:50+00:00"
-    },
     "aspirant_pride_moment": {
       "description": "Tell a tiny emotional story of an aspirant who is close to their dream and is stopped by a small file problem, then solved by the tool, with the narrator keeping a warm, steady tone.",
       "from": "https://www.instagram.com/reel/DfzAdLTMCCD/",
@@ -59,6 +41,24 @@
       "from": "https://www.instagram.com/reel/Df9BowyBAAM/",
       "hook_pattern": "Behind every [struggling person] are countless sacrifices nobody saw",
       "added": "2026-11-27T03:56:38+00:00"
+    },
+    "guess_the_number_reveal": {
+      "description": "Have the narrator ask the viewer to guess a number (file size, KB limit, pages), then have the characters reveal the real one on a panel. Close by telling the viewer to save the reel for their next form.",
+      "from": "https://www.instagram.com/reel/DfG3tGiNiII/",
+      "hook_pattern": "Look at this [surprising object]. What would you guess it costs?",
+      "added": "2026-11-27T13:03:47+00:00"
+    },
+    "best_under_limit_picks": {
+      "description": "Pick a limit that forms enforce (such as 50 KB) and have the narrator show a character who gets under it with one of our tools. Show the size dropping on a panel.",
+      "from": "https://www.instagram.com/reel/DfE1LG4txJj/",
+      "hook_pattern": "Best [thing] under [limit]",
+      "added": "2026-11-27T13:03:47+00:00"
+    },
+    "easy_way_vs_fun_way": {
+      "description": "Have a character try the long, silly way to get a task done, then have the narrator show the one-click tool. Keep the tone playful.",
+      "from": "https://www.instagram.com/reel/Df6fppGjy6i/",
+      "hook_pattern": "Pro tip: there's an easy way, but here's the fun way",
+      "added": "2026-11-27T13:03:47+00:00"
     }
   }
 }

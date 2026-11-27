@@ -1,91 +1,5 @@
 [
   {
-    "at": "2026-11-21T11:50:18+00:00",
-    "permalink": "https://www.instagram.com/reel/Df98X5MtgiR/",
-    "why": "The opening line promises something crazy, then the creator lists proof as a quick row of stat tiles (horsepower, torque, range). A paradox follows ('an EV that behaves like a V8'), and the dial turn lets you hear the claim being proved. Mixing a presenter shot with cinematic footage keeps every few",
-    "hook_pattern": "Guys, I have something crazy for you: [familiar thing] that behaves like [the opposite thing]",
-    "structure": [
-      "Teaser hook: 'something crazy' with an on-screen pointing emoji",
-      "Name the product and show stat tiles with big numbers",
-      "Paradox line: it is X but behaves like Y",
-      "Live demo: turn the dial through modes and let the viewer hear or see the change",
-      "Closing blend line: best of A, best of B, best of C"
-    ],
-    "visual": "A presenter walks around the product in a studio. Numbered stat tiles slide in over a purple wave divider, with road footage in the lower half.",
-    "speaking": "Fast and confident at about 2.5 words/s with short pauses. Excited, direct address ('guys'), and the key claim is repeated in a punchy triple at the end."
-  },
-  {
-    "at": "2026-11-21T11:50:18+00:00",
-    "permalink": "https://www.instagram.com/reel/DfzrMLzv8n6/",
-    "why": "A numbered list of five items sets up a clear promise. Each item is a self-contained pick with one reason, so viewers can follow the reel in any order and want to see all five. The list is tied to a seasonal moment (after Diwali), which adds relevance.",
-    "hook_pattern": "Top N [things] for [your situation right now]",
-    "structure": [
-      "Seasonal opener that sets the moment",
-      "Promise of N picks",
-      "Pick 1 with the problem it solves and a price or spec",
-      "Pick 2 with a buying tip",
-      "Closing advice to check before buying"
-    ],
-    "visual": "A presenter sits at a desk with product shots, inside a standard review-style layout.",
-    "speaking": "Even pace of about 2.2 words/s with long pauses of up to 6.5 s between points. Calm, advisory and conversational."
-  },
-  {
-    "at": "2026-11-21T11:50:18+00:00",
-    "permalink": "https://www.instagram.com/reel/Df4wKC6yti-/",
-    "why": "A numbered 'new features' list gives the reel a built-in reason to keep watching. Each feature is shown on screen as it is mentioned, so spoken claims are backed by visible proof. The narrator reacts with surprise ('so realistic'), which is contagious.",
-    "hook_pattern": "N new [things] about [hot topic] that nobody expected",
-    "structure": [
-      "Numbered promise in the caption and opening line",
-      "Feature shown on screen with a short comment",
-      "Close-up of a detail (clothes, animation) to prove realism",
-      "Reaction line summing up the feeling"
-    ],
-    "visual": "Footage of the game on a big TV, with the host in an orange hoodie reacting in a living room. A 'First Indian to Play GTA 6' text tag sits on the frame.",
-    "speaking": "Fast and excited at about 3.6 words/s with a few mid-length pauses. Gasps and exclamations, with surprise carried on key words."
-  },
-  {
-    "at": "2026-11-21T11:50:18+00:00",
-    "permalink": "https://www.instagram.com/reel/DfaLfXTvQfS/",
-    "why": "It begins with a price and a yes/no question (gadget, tracker or marketing?), and the answer is held back for 80 seconds. Each beat adds evidence from a named source (tweets, doctors), and the 'real twist' mid-way resets attention. Clean explainer cards with highlighted keywords keep long content re",
-    "hook_pattern": "₹[big price] for [thing]: [real thing] or just [marketing]?",
-    "structure": [
-      "Price shock and a three-way question",
-      "Who made it and why it is controversial",
-      "How it works, shown as a simple diagram",
-      "'But wait, the real twist' mid-point",
-      "Experts disagree and the maker responds",
-      "Final verdict question to the viewer"
-    ],
-    "visual": "Cream-coloured explainer cards with a yellow highlight on the key word, tweet screenshots, diagrams, a progress bar and a small presenter bubble.",
-    "speaking": "Brisk at about 3.4 words/s with almost no pauses. Investigative tone, with a rhetorical question before each reveal."
-  },
-  {
-    "at": "2026-11-21T11:50:18+00:00",
-    "permalink": "https://www.instagram.com/reel/Df7OrTEB_uz/",
-    "why": "A 15 s reel with no pauses makes it very easy to finish and rewatch. The title says it is a whole different world, which promises more than the screen shows. Mentioning 'one or two things I never thought of' makes the viewer curious about what they are.",
-    "hook_pattern": "[Topic] is a whole different world: I found [a couple of things] I never expected",
-    "structure": [
-      "Short claim hook",
-      "Two surprising details",
-      "One closing remark"
-    ],
-    "visual": "Short gameplay-on-TV footage with the host reacting.",
-    "speaking": "Very fast at about 4 words/s with no pauses. Breathless and casual."
-  },
-  {
-    "at": "2026-11-21T11:50:18+00:00",
-    "permalink": "https://www.instagram.com/reel/Df9qvehT-wo/",
-    "why": "It is a student-meme post that borrows a trending topic (GTA 6) and a relatable moment: procrastination. Its engagement is the lowest of the set, probably because there was no narration and no clear payoff. We should take the trend hook and keep a spoken story.",
-    "hook_pattern": "[Trending thing] vs [student reality]",
-    "structure": [
-      "Trending reference",
-      "Student procrastination scene",
-      "Teacher's reaction"
-    ],
-    "visual": "A classroom or student meme clip.",
-    "speaking": "No speech."
-  },
-  {
     "at": "2026-11-22T04:33:40+00:00",
     "permalink": "https://www.instagram.com/reel/Df9hfN2vV3k/",
     "why": "It opens with a personal threat ('your password is already with hackers') and promises exactly 3 steps, with the scariest saved for last, so viewers stay to the end. Each step is a quick check the viewer can do on themselves, and the big on-screen panels make it easy to follow.",
@@ -853,5 +767,87 @@
     ],
     "visual": "News-style slides with price numbers and brand logos.",
     "speaking": "Serious, quick and matter-of-fact (no speech in this reel)."
+  },
+  {
+    "at": "2026-11-27T13:03:47+00:00",
+    "permalink": "https://www.instagram.com/reel/DgPWyxjREio/",
+    "why": "It opens with a bold 'world's first' claim, then shows the product doing the job right away. It removes a chore (ironing), puts a number on the payoff ('under 10 minutes') and lists the uses (shirts, pants, shoes) so many viewers can picture themselves using it. The seasonal line about monsoon and w",
+    "hook_pattern": "Throw away your [old tool] because this [new thing] does [job A] and even [job B] in one go",
+    "structure": [
+      "Bold claim: put the old way away, here is the first thing that does two jobs",
+      "Show the product with all its parts laid out",
+      "Simple steps: connect, load, set, walk away",
+      "Payoff with a number: ready in under 10 minutes",
+      "Range of uses, ending on a surprising bonus (shoes)",
+      "Seasonal reason to care (monsoon, winter)",
+      "Follow and link call to action"
+    ],
+    "visual": "Presenter in a bold coloured studio opens on camera. Cuts to clean product shots with warm lighting. Short, bold captions with one highlighted word (MOST USEFUL HOME GADGET, CLOTHES HERE). Then the pr",
+    "speaking": "Fast, about 3 words per second, with short pauses and an energetic, confident tone. Stress falls on the key claim and the 'best part' line. The reel is one continuous flow with no dead air."
+  },
+  {
+    "at": "2026-11-27T13:03:47+00:00",
+    "permalink": "https://www.instagram.com/reel/DfG3tGiNiII/",
+    "why": "A striking visual (a transparent phone) catches the eye with no explanation needed. The caption then asks viewers to guess the price, which sparks comments, and asks them to share with fans.",
+    "hook_pattern": "Look at this [surprising object]. What would you guess it costs?",
+    "structure": [
+      "Eye-catching visual reveal",
+      "Question that asks for a guess",
+      "Reveal or tease the answer"
+    ],
+    "visual": "Close-up showcase of one striking object, with an emoji-heavy caption and a question.",
+    "speaking": "No speech is available, so the pace is unknown. Presumably short, punchy and curious."
+  },
+  {
+    "at": "2026-11-27T13:03:47+00:00",
+    "permalink": "https://www.instagram.com/reel/DftePfnxnX1/",
+    "why": "A warning ('Don't buy X before watching this') creates fear of a costly mistake. Comparing options also gives viewers something to send to friends and family.",
+    "hook_pattern": "Don't [do common thing] before you watch this",
+    "structure": [
+      "Warning hook",
+      "Compare the common options",
+      "Verdict",
+      "Tell viewers to share it with someone who needs it"
+    ],
+    "visual": "Side-by-side comparison of options, with a bold headline.",
+    "speaking": "No speech is available, so the pace is unknown. Likely urgent and direct."
+  },
+  {
+    "at": "2026-11-27T13:03:47+00:00",
+    "permalink": "https://www.instagram.com/reel/DfO_biphqjZ/",
+    "why": "A list of upcoming items ('new upcoming launches') gives a reason to follow and save. The topic is high-interest, so people watch it to stay informed.",
+    "hook_pattern": "New [category] coming soon: here is what to know",
+    "structure": [
+      "Headline promise",
+      "Quick list of items",
+      "Close"
+    ],
+    "visual": "Fast montage of items, with titles and hashtags naming each one.",
+    "speaking": "No speech is available, so the pace is unknown. Likely rapid-fire."
+  },
+  {
+    "at": "2026-11-27T13:03:47+00:00",
+    "permalink": "https://www.instagram.com/reel/DfE1LG4txJj/",
+    "why": "'Best X under a budget' answers a question people are already searching for. A clear limit (40K) narrows the choice and makes it feel personal.",
+    "hook_pattern": "Best [thing] under [limit]",
+    "structure": [
+      "Name the constraint",
+      "Show the best picks",
+      "Tell viewers to follow or save"
+    ],
+    "visual": "Product shots with a limit shown in big text.",
+    "speaking": "No speech is available, so the pace is unknown. Likely confident and brisk."
+  },
+  {
+    "at": "2026-11-27T13:03:47+00:00",
+    "permalink": "https://www.instagram.com/reel/Df6fppGjy6i/",
+    "why": "A playful tip that teases a shortcut ('where's the fun in that?') made it a light, funny post. It got far lower engagement than the others, so the humour alone probably didn't carry it.",
+    "hook_pattern": "Pro tip: there's an easy way, but here's the fun way",
+    "structure": [
+      "Wink at the easy option",
+      "Do the fun thing instead"
+    ],
+    "visual": "Brand-style playful graphics.",
+    "speaking": "No speech is available, so the pace is unknown. Likely light and tongue-in-cheek."
   }
 ]

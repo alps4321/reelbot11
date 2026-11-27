@@ -1,6 +1,6 @@
 # Live reel stats
 
-Updated 27 Nov 2026, 09:24 AM India time (refreshed about every 5 minutes)
+Updated 27 Nov 2026, 09:56 AM India time (refreshed about every 5 minutes)
 
 | posted | hook | views | views last hour | avg watch s | likes | comments | shares | saves | link |
 |---|---|---|---|---|---|---|---|---|---|

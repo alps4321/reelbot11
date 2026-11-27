@@ -1,12 +1,12 @@
 # Live reel stats
 
-Updated 27 Nov 2026, 05:56 PM India time (refreshed about every 5 minutes)
+Updated 27 Nov 2026, 06:57 PM India time (refreshed about every 5 minutes)
 
 | posted | hook | views | views last hour | avg watch s | likes | comments | shares | saves | link |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-11-27 | Priya had a PDF resume, one wrong phone number and | 47 | +0 | 8.5 | 1 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgPDPs1MmXt/) |
+| 2026-11-27 | Priya had a PDF resume, one wrong phone number and | 50 | +3 | 7.9 | 1 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgPDPs1MmXt/) |
 | 2026-11-27 | Masked Aadhaar mein sirf last 4 digit dikhte hain, | 141 | +0 | 2.7 | 0 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgO1I2mudzS/) |
-| 2026-11-26 | HDFC statement PDF khul nahi raha? NetBanking ya a | 136 | +10 | 5.1 | 1 | 0 | 0 | 1 | [open](https://www.instagram.com/reel/DgNHnVtxwdX/) |
+| 2026-11-26 | HDFC statement PDF khul nahi raha? NetBanking ya a | 137 | +1 | 5.0 | 1 | 0 | 0 | 1 | [open](https://www.instagram.com/reel/DgNHnVtxwdX/) |
 | 2026-11-26 | Meera cropped her photo three times before she lea | 115 | +0 | 8.0 | 1 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgMeYcXzcfb/) |
 | 2026-11-26 | e-PAN ka password aapki date of birth hai, DDMMYYY | 211 | +0 | 4.1 | 3 | 0 | 0 | 1 | [open](https://www.instagram.com/reel/DgMQ4HUB-s5/) |
 | 2026-11-25 | Aadhaar PDF ka password: naam ke pehle 4 letters C | 145 | +0 | 4.0 | 1 | 0 | 0 | 1 | [open](https://www.instagram.com/reel/DgKizPitu-w/) |

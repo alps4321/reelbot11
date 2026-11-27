@@ -1,6 +1,6 @@
 # ReelBot report
 
-Updated 2026-11-27T13:30:11+00:00
+Updated 2026-11-27T14:01:25+00:00
 
 Reels made: 46. Posted: 39. Measured: 37.
 
@@ -91,13 +91,13 @@ Reels made: 46. Posted: 39. Measured: 37.
 | compress_pdf_kb | 1 | 1293.0 |
 | pdf_to_word | 1 | 1237.0 |
 | passport_photo | 1 | 971.0 |
-| unlock_aadhaar | 3 | 839.0 |
+| unlock_aadhaar | 3 | 838.7 |
 | resize_image_kb | 1 | 348.0 |
 | resize_photo_kb | 1 | 325.0 |
 | id_card_print | 4 | 250.5 |
 | unlock_pdf | 4 | 192.2 |
 | pdf_to_jpg | 1 | 157.0 |
-| bank_statement_excel | 2 | 110.0 |
+| bank_statement_excel | 3 | 106.0 |
 | pdf_to_excel | 1 | 85.0 |
 | image_to_pdf | 1 | 78.0 |
 
@@ -107,7 +107,7 @@ Reels made: 46. Posted: 39. Measured: 37.
 |---|---|---|
 | manual | 2 | 648.0 |
 | question | 9 | 518.6 |
-| problem | 5 | 404.0 |
+| problem | 6 | 352.8 |
 | contrarian | 1 | 348.0 |
 | story_open | 1 | 200.0 |
 | how_to | 1 | 170.0 |
@@ -120,7 +120,7 @@ Reels made: 46. Posted: 39. Measured: 37.
 |---|---|---|
 | what_if | 1 | 1293.0 |
 | manual | 2 | 648.0 |
-| secret_answer | 15 | 380.5 |
+| secret_answer | 16 | 362.8 |
 | discovery | 1 | 348.0 |
 | did_you_know | 1 | 200.0 |
 | myth_buster | 1 | 157.0 |
@@ -130,7 +130,7 @@ Reels made: 46. Posted: 39. Measured: 37.
 | pace | reels | avg score |
 |---|---|---|
 | brisk | 8 | 333.8 |
-| natural | 8 | 290.2 |
+| natural | 9 | 268.8 |
 | calm | 2 | 214.0 |
 
 ## hinglish: results by distance
@@ -138,7 +138,7 @@ Reels made: 46. Posted: 39. Measured: 37.
 | distance | reels | avg score |
 |---|---|---|
 | far | 2 | 274.0 |
-| near | 14 | 167.3 |
+| near | 15 | 162.6 |
 
 ## hinglish: what the bot has learned
 
@@ -169,12 +169,12 @@ Reels made: 46. Posted: 39. Measured: 37.
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-11-27 | hinglish | unlock_aadhaar | secret_answer | Aadhaar PDF ka password, Aadhaar number nahi hota. |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgPsFnATBVV/) |
-| 2026-11-27 | english | pdf_to_word | story | Priya's interview call came at 6 PM. | 47 | 8.5 | 1 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgPDPs1MmXt/) |
+| 2026-11-27 | english | pdf_to_word | story | Priya's interview call came at 6 PM. | 50 | 7.9 | 1 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgPDPs1MmXt/) |
 | 2026-11-27 | hinglish | id_card_print | secret_answer | Masked Aadhaar kya hota hai? | 141 | 2.7 | 0 | 0 | 0 | 0 |  | [open](https://www.instagram.com/reel/DgO1I2mudzS/) |
-| 2026-11-26 | hinglish | bank_statement_excel | secret_answer | HDFC bank statement PDF ka password kya hai? | 136 | 5.1 | 1 | 0 | 0 | 1 |  | [open](https://www.instagram.com/reel/DgNHnVtxwdX/) |
+| 2026-11-26 | hinglish | bank_statement_excel | secret_answer | HDFC bank statement PDF ka password kya hai? | 137 | 5.0 | 1 | 0 | 0 | 1 | 98 | [open](https://www.instagram.com/reel/DgNHnVtxwdX/) |
 | 2026-11-26 | english | compress_image | story | Meera did everything right. Except one thing. | 115 | 8.0 | 1 | 0 | 0 | 0 | 95 | [open](https://www.instagram.com/reel/DgMeYcXzcfb/) |
 | 2026-11-26 | hinglish | unlock_pdf | secret_answer | PAN card PDF ka password kya hai? | 211 | 4.1 | 3 | 0 | 0 | 1 | 148 | [open](https://www.instagram.com/reel/DgMQ4HUB-s5/) |
-| 2026-11-25 | hinglish | unlock_aadhaar | secret_answer | Aadhaar PDF ka password kya hota hai? | 145 | 4.0 | 1 | 0 | 0 | 1 | 100 | [open](https://www.instagram.com/reel/DgKizPitu-w/) |
+| 2026-11-25 | hinglish | unlock_aadhaar | secret_answer | Aadhaar PDF ka password kya hota hai? | 145 | 4.0 | 1 | 0 | 0 | 1 | 99 | [open](https://www.instagram.com/reel/DgKizPitu-w/) |
 | 2026-11-25 | english | protect_pdf | myth_buster | 1 forward is all it takes. | 81 | 3.3 | 0 | 0 | 0 | 1 | 55 | [open](https://www.instagram.com/reel/DgJ5V8oK93k/) |
 | 2026-11-25 | hinglish | id_card_print | secret_answer | Kya Aadhaar ka print out valid hai? | 368 | 6.4 | 3 | 0 | 0 | 3 | 304 | [open](https://www.instagram.com/reel/DgJrs6eF2Qp/) |
 | 2026-11-24 | hinglish | id_card_print | secret_answer | Masked Aadhaar download kaise karte hain? | 244 | 3.9 | 4 | 0 | 1 | 0 | 170 | [open](https://www.instagram.com/reel/DgH-IJBEvo4/) |

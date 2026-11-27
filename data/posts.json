@@ -5321,7 +5321,8 @@
       24,
       48,
       72,
-      120
+      120,
+      168
     ],
     "metrics": {
       "views": 123,
@@ -5396,6 +5397,17 @@
         "shares": 1,
         "saved": 0,
         "total_interactions": 4,
+        "avg_watch_s": 3.4
+      },
+      {
+        "at": "2026-11-27T13:27:05+00:00",
+        "hours": 168,
+        "views": 123,
+        "reach": 105,
+        "likes": 3,
+        "comments": 0,
+        "shares": 1,
+        "saved": 0,
         "avg_watch_s": 3.4
       }
     ]
@@ -7180,7 +7192,8 @@
       6,
       24,
       48,
-      72
+      72,
+      120
     ],
     "slot": "19:00",
     "metrics": {
@@ -7240,6 +7253,17 @@
         "shares": 2,
         "saved": 4,
         "total_interactions": 12,
+        "avg_watch_s": 7.1
+      },
+      {
+        "at": "2026-11-27T13:26:58+00:00",
+        "hours": 120,
+        "views": 463,
+        "reach": 384,
+        "likes": 6,
+        "comments": 0,
+        "shares": 2,
+        "saved": 4,
         "avg_watch_s": 7.1
       }
     ]
@@ -8946,7 +8970,8 @@
     "checked": [
       6,
       24,
-      48
+      48,
+      72
     ],
     "slot": "19:00",
     "metrics": {
@@ -8994,6 +9019,17 @@
         "shares": 1,
         "saved": 0,
         "total_interactions": 5,
+        "avg_watch_s": 3.9
+      },
+      {
+        "at": "2026-11-27T13:26:49+00:00",
+        "hours": 72,
+        "views": 244,
+        "reach": 203,
+        "likes": 4,
+        "comments": 0,
+        "shares": 1,
+        "saved": 0,
         "avg_watch_s": 3.9
       }
     ]
@@ -9796,7 +9832,8 @@
     "posted_at": "2026-11-25T13:30:12+00:00",
     "checked": [
       6,
-      24
+      24,
+      48
     ],
     "slot": "19:00",
     "metrics": {
@@ -9831,6 +9868,17 @@
         "shares": 0,
         "saved": 1,
         "total_interactions": 2,
+        "avg_watch_s": 4.0
+      },
+      {
+        "at": "2026-11-27T13:26:45+00:00",
+        "hours": 48,
+        "views": 145,
+        "reach": 122,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
         "avg_watch_s": 4.0
       }
     ]
@@ -10582,18 +10630,19 @@
     "permalink": "https://www.instagram.com/reel/DgNHnVtxwdX/",
     "posted_at": "2026-11-26T13:30:13+00:00",
     "checked": [
-      6
+      6,
+      24
     ],
     "slot": "19:00",
     "metrics": {
-      "views": 136,
-      "reach": 117,
+      "views": 137,
+      "reach": 118,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "avg_watch_s": 5.1,
-      "views_last_hour": 10
+      "avg_watch_s": 5.0,
+      "views_last_hour": 1
     },
     "history": [
       {
@@ -10607,6 +10656,17 @@
         "saved": 1,
         "total_interactions": 2,
         "avg_watch_s": 5.2
+      },
+      {
+        "at": "2026-11-27T13:26:42+00:00",
+        "hours": 24,
+        "views": 137,
+        "reach": 118,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
+        "avg_watch_s": 5.0
       }
     ]
   },
@@ -11098,18 +11158,33 @@
     "media_id": "18107239805654040",
     "permalink": "https://www.instagram.com/reel/DgPDPs1MmXt/",
     "posted_at": "2026-11-27T07:30:09+00:00",
-    "checked": [],
+    "checked": [
+      6
+    ],
     "slot": "13:00",
     "metrics": {
-      "views": 47,
-      "reach": 36,
+      "views": 50,
+      "reach": 40,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "avg_watch_s": 8.5,
-      "views_last_hour": 0
-    }
+      "avg_watch_s": 7.9,
+      "views_last_hour": 3
+    },
+    "history": [
+      {
+        "at": "2026-11-27T13:26:40+00:00",
+        "hours": 6,
+        "views": 50,
+        "reach": 40,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "avg_watch_s": 7.9
+      }
+    ]
   },
   {
     "id": "20261127-122852-hinglish",

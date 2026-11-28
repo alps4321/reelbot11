@@ -280,14 +280,18 @@ def _panel(sc):
 WHOOSHES = ("whoosh", "whoosh_2", "whoosh_deep")
 
 
+def reveal_shot(scenes):
+    """The shot where the answer appears: the first text or size-drop panel after the opening, else the first success."""
+    i = next((i for i, sc in enumerate(scenes) if i >= 2 and _panel(sc) in ("text", "size_drop")), None)
+    return i if i is not None else next((i for i, sc in enumerate(scenes) if i >= 2 and _panel(sc) == "success"), None)
+
+
 def story_sfx(scenes, starts, speech):
     """Sound cues for a 3D cartoon story: (sound, seconds, gain). A whoosh on each cut, a pop as the hook lands,
     a vine boom on the funny fail (at most twice), a riser into the answer and a magic reveal on it, a bubbly pop
     on success, a click on clocks and time labels, a camera shutter on 'save this'."""
     ev, booms = [], 0
-    reveal = next((i for i, sc in enumerate(scenes) if i >= 2 and _panel(sc) in ("text", "size_drop")), None)
-    if reveal is None:
-        reveal = next((i for i, sc in enumerate(scenes) if i >= 2 and _panel(sc) == "success"), None)
+    reveal = reveal_shot(scenes)
     for i, sc in enumerate(scenes):
         t0, panel = starts[i], _panel(sc)
         poses = {a.get("pose") for a in sc.get("actors") or []}
@@ -308,6 +312,7 @@ def story_sfx(scenes, starts, speech):
         if any(p.get("type") == "clock" for p in sc.get("props") or []) or sc.get("label"):
             ev.append(("click", t0 + 0.15, 0.6))
         if sc.get("kind") == "cta":
+            ev.append(("pop_deep", t0 + 0.08, 0.55))           # Docu pops in
             ev.append(("shutter", t0 + 0.1 + speech[i] * 0.6, 0.6))
     return ev
 

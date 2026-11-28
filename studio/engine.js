@@ -7,6 +7,9 @@ const canvas = document.getElementById('c');
 const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, preserveDrawingBuffer: true });
 renderer.shadowMap.enabled = true;
 renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.15;
+renderer.outputColorSpace = THREE.SRGBColorSpace;
 
 const SHIRTS = { orange: 0xf2622e, blue: 0x2f6fe4, green: 0x1fa56b, red: 0xd93a4a, purple: 0x7a4be0,
                  yellow: 0xf2b824, teal: 0x16a3a3, pink: 0xe56aa0, grey: 0x8a93a6 };
@@ -96,52 +99,200 @@ function label3d(text, color = '#ffffff', size = 1) {
 }
 
 // ---------- characters ----------
+// Chibi cartoon cast: big heads, toon shading, black outlines, faces that change with the pose.
+const TOON = (() => { const d = new Uint8Array([90, 170, 255]); const t = new THREE.DataTexture(d, 3, 1, THREE.RedFormat);
+  t.minFilter = t.magFilter = THREE.NearestFilter; t.needsUpdate = true; return t; })();
+const toon = (color, extra = {}) => new THREE.MeshToonMaterial({ color, gradientMap: TOON, ...extra });
+const INK = new THREE.MeshBasicMaterial({ color: 0x1b1222, side: THREE.BackSide });
+function inked(geo, material, x = 0, y = 0, z = 0, w = 0.035) {   // mesh plus a black outline shell
+  const g = new THREE.Group(); g.position.set(x, y, z);
+  const m = new THREE.Mesh(geo, material); m.castShadow = true; m.receiveShadow = true; g.add(m);
+  if (!w) return g;                 // open shapes (hair caps, arcs) get no shell: its inside would show
+  geo.computeBoundingSphere();
+  const r = geo.boundingSphere.radius || 1, o = new THREE.Mesh(geo, INK); o.scale.setScalar(1 + w / r); g.add(o);
+  return g;
+}
+const plain = (geo, color, x = 0, y = 0, z = 0) => { const m = new THREE.Mesh(geo, new THREE.MeshBasicMaterial({ color })); m.position.set(x, y, z); return m; };
+
+function makeFace(head, R, look) {
+  const f = {};
+  f.eyes = [-1, 1].map((s) => {
+    const e = new THREE.Group(); e.position.set(0.15 * s, 0.05, R * 0.9);
+    const white = plain(new THREE.SphereGeometry(1, 20, 14), 0xffffff); white.scale.set(0.1, 0.125, 0.05); e.add(white);
+    const pupil = plain(new THREE.SphereGeometry(1, 16, 12), 0x16121c, 0.005, -0.01, 0.04); pupil.scale.set(0.058, 0.07, 0.03); e.add(pupil);
+    const shine = plain(new THREE.SphereGeometry(1, 10, 8), 0xffffff, 0.025, 0.03, 0.065); shine.scale.setScalar(0.02); e.add(shine);
+    e.userData.pupil = pupil; head.add(e); return e;
+  });
+  f.brows = [-1, 1].map((s) => { const b = plain(new THREE.BoxGeometry(0.13, 0.03, 0.02), 0x23181a, 0.15 * s, 0.22, R * 0.93); head.add(b); return b; });
+  const lip = 0x7a2430;
+  f.smile = plain(new THREE.TorusGeometry(0.075, 0.016, 8, 20, Math.PI), lip, 0, -0.12, R * 0.95); f.smile.rotation.z = Math.PI;
+  f.frown = plain(new THREE.TorusGeometry(0.07, 0.016, 8, 20, Math.PI), lip, 0, -0.17, R * 0.95);
+  f.open = new THREE.Group(); f.open.position.set(0, -0.14, R * 0.93);
+  const hole = plain(new THREE.SphereGeometry(1, 18, 12), 0x5a1020); hole.scale.set(0.085, 0.07, 0.03); f.open.add(hole);
+  const tongue = plain(new THREE.SphereGeometry(1, 12, 8), 0xff6f7d, 0, -0.03, 0.012); tongue.scale.set(0.05, 0.025, 0.02); f.open.add(tongue);
+  [f.smile, f.frown, f.open].forEach((m) => head.add(m));
+  [-1, 1].forEach((s) => { const c = new THREE.Mesh(new THREE.CircleGeometry(0.06, 16), new THREE.MeshBasicMaterial({ color: 0xff7a8a, transparent: true, opacity: 0.45 }));
+    c.position.set(0.25 * s, -0.06, R * 0.86); c.rotation.y = 0.35 * s; head.add(c); });
+  return f;
+}
+
+function hairFor(head, R, who, color) {
+  const hair = toon(color);
+  if (who === 'uncle') {          // grey sides, shiny top, big moustache, round specs
+    const ring = inked(new THREE.TorusGeometry(R * 0.82, 0.11, 10, 24, Math.PI * 1.3), toon(0x9aa0a8), 0, 0.02, -0.04, 0);
+    ring.rotation.set(Math.PI / 2, 0, Math.PI * 0.85); head.add(ring);
+    const mo = inked(new THREE.CapsuleGeometry(0.05, 0.2, 6, 12), toon(0x5d5a5a), 0, -0.07, R * 0.95, 0.015); mo.rotation.z = Math.PI / 2; head.add(mo);
+    [-1, 1].forEach((s) => { const g = plain(new THREE.TorusGeometry(0.09, 0.014, 8, 24), 0x22222a, 0.15 * s, 0.05, R * 0.98); head.add(g); });
+    head.add(plain(new THREE.BoxGeometry(0.1, 0.014, 0.014), 0x22222a, 0, 0.07, R * 0.99));
+    return;
+  }
+  const cap = inked(new THREE.SphereGeometry(R * 1.04, 24, 16, 0, Math.PI * 2, 0, Math.PI * 0.5), hair, 0, 0.04, -0.03, 0);
+  cap.rotation.x = -0.25; head.add(cap);
+  if (who === 'pappu') {          // a cheeky spiky tuft
+    [[-0.1, 0.3], [0.05, 0.45], [0.18, 0.28]].forEach(([x, rz], i) => {
+      const t = inked(new THREE.ConeGeometry(0.09, 0.28, 8), hair, x, R * 0.98, 0.05 + i * 0.03, 0.015); t.rotation.z = -rz + 0.3; head.add(t);
+    });
+  } else if (who === 'girl') {    // two buns and a fringe
+    [-1, 1].forEach((s) => head.add(inked(new THREE.SphereGeometry(0.17, 16, 12), hair, 0.3 * s, R * 0.82, -0.05, 0.02)));
+    const fringe = inked(new THREE.CapsuleGeometry(0.07, 0.34, 6, 12), hair, 0.02, R * 0.62, R * 0.62, 0.015); fringe.rotation.z = Math.PI / 2 + 0.15; head.add(fringe);
+  }
+}
+
 function makeActor(spec, index) {
+  if (spec.mascot) return makeMascot(spec);
   const g = new THREE.Group();
-  const shirt = mat(SHIRTS[spec.color] || Object.values(SHIRTS)[index % 9]);
-  const skin = mat(SKINS[(spec.skin ?? index) % SKINS.length]);
-  const jeans = mat(0x2b3a67), shoe = mat(0xf2f2f2);
+  const who = spec.tie ? 'uncle' : spec.color === 'purple' ? 'girl' : spec.color === 'orange' ? 'pappu' : 'other';
+  const shirt = toon(SHIRTS[spec.color] || Object.values(SHIRTS)[index % 9]);
+  const skin = toon(SKINS[(spec.skin ?? (who === 'uncle' ? 1 : index)) % SKINS.length]);
+  const pants = toon(who === 'uncle' ? 0x3b3f4a : 0x2b3a67), shoe = toon(who === 'girl' ? 0xff6fa5 : 0xf2f2f2);
   const body = new THREE.Group(); g.add(body);
   const legs = [-1, 1].map((s) => {
-    const p = new THREE.Group(); p.position.set(0.16 * s, 0.86, 0);
-    p.add(mesh(new THREE.CylinderGeometry(0.115, 0.1, 0.8, 7), jeans, 0, -0.4, 0));
-    p.add(mesh(new THREE.BoxGeometry(0.2, 0.12, 0.34), shoe, 0, -0.82, 0.06));
+    const p = new THREE.Group(); p.position.set(0.15 * s, 0.7, 0);
+    p.add(inked(new THREE.CapsuleGeometry(0.1, 0.42, 6, 12), pants, 0, -0.33, 0, 0.02));
+    p.add(inked(new THREE.SphereGeometry(0.14, 16, 10), shoe, 0, -0.66, 0.06, 0.02));
+    p.children[1].scale.set(1, 0.6, 1.4);
     body.add(p); return p;
   });
-  const torso = new THREE.Group(); torso.position.y = 0.86; body.add(torso);
-  torso.add(mesh(new THREE.CylinderGeometry(0.3, 0.27, 0.76, 8), shirt, 0, 0.38, 0));
+  const torso = new THREE.Group(); torso.position.y = 0.7; body.add(torso);
+  const belly = inked(new THREE.CapsuleGeometry(0.3, 0.3, 8, 16), shirt, 0, 0.32, 0, 0.025);
+  belly.scale.set(who === 'uncle' ? 1.15 : 1, 1, who === 'uncle' ? 1.1 : 0.9); torso.add(belly);
   const arms = [-1, 1].map((s) => {
-    const p = new THREE.Group(); p.position.set(0.38 * s, 0.68, 0);
-    p.add(mesh(new THREE.CylinderGeometry(0.085, 0.075, 0.62, 6), shirt, 0, -0.31, 0));
-    p.add(mesh(new THREE.IcosahedronGeometry(0.09, 0), skin, 0, -0.66, 0));
+    const p = new THREE.Group(); p.position.set(0.37 * s, 0.58, 0);
+    p.add(inked(new THREE.CapsuleGeometry(0.08, 0.36, 6, 10), shirt, 0, -0.25, 0, 0.02));
+    p.add(inked(new THREE.SphereGeometry(0.1, 14, 10), skin, 0, -0.55, 0, 0.015));
     torso.add(p); return p;
   });
-  const head = new THREE.Group(); head.position.y = 1.04; torso.add(head);
-  head.add(mesh(new THREE.IcosahedronGeometry(0.28, 1), skin));
-  const hair = mesh(new THREE.SphereGeometry(0.295, 8, 5, 0, Math.PI * 2, 0, Math.PI * 0.52), mat(HAIR[index % HAIR.length]), 0, 0.03, -0.02);
-  head.add(hair);
-  [-1, 1].forEach((s) => head.add(mesh(new THREE.SphereGeometry(0.035, 6, 6), mat(0x111111), 0.1 * s, 0.03, 0.26)));
-  head.add(mesh(new THREE.BoxGeometry(0.12, 0.025, 0.02), mat(0x5a2a22), 0, -0.1, 0.265));
-  if (spec.tie) { torso.add(mesh(new THREE.BoxGeometry(0.1, 0.5, 0.03), mat(0xc0392b), 0, 0.42, 0.3)); torso.add(mesh(new THREE.BoxGeometry(0.34, 0.1, 0.05), mat(0xffffff), 0, 0.72, 0.27)); g.scale.setScalar(1.1); }
+  const R = 0.42;
+  const head = new THREE.Group(); head.position.y = 1.1; torso.add(head);
+  head.add(inked(new THREE.SphereGeometry(R, 32, 24), skin, 0, 0, 0, 0.03));
+  [-1, 1].forEach((s) => head.add(inked(new THREE.SphereGeometry(0.08, 12, 8), skin, (R + 0.01) * s, -0.02, 0, 0.015)));   // ears
+  hairFor(head, R, who, HAIR[index % HAIR.length]);
+  const face = makeFace(head, R);
+  if (spec.tie) { torso.add(inked(new THREE.ConeGeometry(0.08, 0.42, 4), toon(0xc0392b), 0, 0.4, 0.28, 0.012)); torso.children.at(-1).rotation.x = Math.PI; }
   let phone = null;
   if (spec.pose === 'phone') {
-    phone = box(0.16, 0.3, 0.03, 0x111111, 0, -0.74, 0.06, { emissive: 0x9fd0ff, emissiveIntensity: 0.9 });
+    phone = box(0.16, 0.3, 0.03, 0x111111, 0, -0.62, 0.08, { emissive: 0x9fd0ff, emissiveIntensity: 0.9 });
     arms[1].add(phone);
   }
   if (spec.float) { const f = label3d(spec.float.text, spec.float.color || '#ffffff', 0.8); f.position.y = 2.75; g.add(f); g.userData.float = f; }
-  const face = { left: -1.1, right: 1.1, camera: 0, away: Math.PI }[spec.look || 'camera'] ?? 0;
+  const turn = { left: -0.9, right: 0.9, camera: 0, away: Math.PI }[spec.look || 'camera'] ?? 0;
   g.position.set(spec.x ?? 0, 0, spec.z ?? 0);
-  g.rotation.y = face;
-  g.userData = { ...g.userData, spec, body, torso, legs, arms, head, x0: spec.x ?? 0 };
+  g.rotation.y = turn;
+  if (who === 'uncle') g.scale.setScalar(1.08);
+  g.userData = { ...g.userData, spec, body, torso, legs, arms, head, face, x0: spec.x ?? 0 };
   return g;
 }
 
+// Docu: the ilovedocuments.ai mascot, a cheerful PDF page with a red heart. It pops in to save the day.
+function heartShape(s) {
+  const h = new THREE.Shape(); h.moveTo(0, -0.9 * s);
+  h.bezierCurveTo(-1.2 * s, -0.1 * s, -0.9 * s, 0.85 * s, 0, 0.35 * s);
+  h.bezierCurveTo(0.9 * s, 0.85 * s, 1.2 * s, -0.1 * s, 0, -0.9 * s); return h;
+}
+function makeMascot(spec) {
+  const g = new THREE.Group();
+  const body = new THREE.Group(); g.add(body);
+  const w = 1.0, h = 1.3, r = 0.14, ear = 0.3;
+  const page = new THREE.Shape();
+  page.moveTo(-w / 2 + r, -h / 2); page.lineTo(w / 2 - r, -h / 2); page.quadraticCurveTo(w / 2, -h / 2, w / 2, -h / 2 + r);
+  page.lineTo(w / 2, h / 2 - ear); page.lineTo(w / 2 - ear, h / 2); page.lineTo(-w / 2 + r, h / 2);
+  page.quadraticCurveTo(-w / 2, h / 2, -w / 2, h / 2 - r); page.lineTo(-w / 2, -h / 2 + r); page.quadraticCurveTo(-w / 2, -h / 2, -w / 2 + r, -h / 2);
+  const geo = new THREE.ExtrudeGeometry(page, { depth: 0.14, bevelEnabled: true, bevelThickness: 0.04, bevelSize: 0.04, bevelSegments: 3 });
+  geo.translate(0, 0, -0.07);
+  const sheet = inked(geo, toon(0xffffff), 0, 1.25, 0, 0.04); body.add(sheet);
+  const fold = new THREE.Shape(); fold.moveTo(w / 2 - ear, h / 2); fold.lineTo(w / 2 - ear, h / 2 - ear); fold.lineTo(w / 2, h / 2 - ear);
+  const foldM = new THREE.Mesh(new THREE.ShapeGeometry(fold), new THREE.MeshBasicMaterial({ color: 0xd6dbe6, side: THREE.DoubleSide }));
+  foldM.position.set(0, 1.25, 0.13); body.add(foldM);
+  const heart = new THREE.Mesh(new THREE.ExtrudeGeometry(heartShape(0.2), { depth: 0.06, bevelEnabled: true, bevelThickness: 0.02, bevelSize: 0.02, bevelSegments: 2 }),
+                               toon(0xe8344a, { emissive: 0x5a0010, emissiveIntensity: 0.25 }));
+  heart.position.set(0, 0.8, 0.12); heart.scale.setScalar(0.8); body.add(heart);
+  const brand = textTexture((g2, w2, h2) => {        // the site's name printed on Docu's page
+    g2.textAlign = 'center'; g2.textBaseline = 'middle'; g2.font = '700 74px Poppins';
+    g2.fillStyle = '#e8344a'; g2.fillText('ilove', w2 / 2, h2 * 0.3);
+    g2.fillStyle = '#1b2a4a'; g2.font = '700 64px Poppins'; g2.fillText('documents.ai', w2 / 2, h2 * 0.74, w2 - 20);
+  }, 512, 256);
+  const label = new THREE.Mesh(new THREE.PlaneGeometry(0.78, 0.39), new THREE.MeshBasicMaterial({ map: brand, transparent: true }));
+  label.position.set(-0.02, 1.13, 0.125); body.add(label);
+  const head = new THREE.Group(); head.position.set(0, 1.5, -0.33); body.add(head);
+  const face = makeFace(head, 0.5);
+  const arms = [-1, 1].map((s) => {
+    const p = new THREE.Group(); p.position.set(0.55 * s, 1.15, 0);
+    p.add(inked(new THREE.CapsuleGeometry(0.06, 0.3, 6, 10), toon(0xffffff), 0, -0.2, 0, 0.02));
+    p.add(inked(new THREE.SphereGeometry(0.09, 12, 10), toon(0xffffff), 0, -0.44, 0, 0.02));
+    body.add(p); return p;
+  });
+  const legs = [-1, 1].map((s) => {
+    const p = new THREE.Group(); p.position.set(0.2 * s, 0.6, 0);
+    p.add(inked(new THREE.CapsuleGeometry(0.06, 0.22, 6, 10), toon(0xffffff), 0, -0.18, 0, 0.02));
+    const sh = inked(new THREE.SphereGeometry(0.12, 14, 10), toon(0xe8344a), 0, -0.4, 0.05, 0.02); sh.scale.set(1, 0.6, 1.4); p.add(sh);
+    body.add(p); return p;
+  });
+  const sparks = [];
+  for (let i = 0; i < 6; i++) {
+    const st = plain(new THREE.OctahedronGeometry(0.06, 0), 0xffd23a); body.add(st); sparks.push(st);
+  }
+  g.position.set(spec.x ?? 1.2, 0, spec.z ?? 0.5);
+  g.rotation.y = { left: -0.5, right: 0.5, camera: 0 }[spec.look || 'left'] ?? -0.5;
+  g.userData = { spec: { ...spec, pose: spec.pose || 'wave' }, body, torso: body, legs, arms, head, face, sparks, mascot: true, x0: spec.x ?? 1.2 };
+  return g;
+}
+
+const MOOD = { panic: 'scared', yell: 'angry', sad: 'sad', cheer: 'happy', talk: 'talk', wave: 'happy', point: 'smile',
+               stand: 'smile', walk: 'smile', sit: 'smile', type: 'smile', phone: 'smile' };
+function setFace(f, mood, lt) {
+  if (!f) return;
+  const blink = (lt % 2.7) > 2.58 ? 0.15 : 1;
+  f.eyes.forEach((e) => { e.scale.y = blink * (mood === 'scared' ? 1.2 : mood === 'angry' ? 0.8 : 1); const k = mood === 'scared' ? 0.75 : 1; e.userData.pupil.scale.set(0.058 * k, 0.07 * k, 0.03); });
+  const brow = { angry: [-0.45, 0.02], scared: [0.4, 0.05], sad: [0.35, 0], happy: [-0.12, 0.05], talk: [-0.08, 0.03], smile: [0, 0] }[mood] || [0, 0];
+  f.brows.forEach((b, i) => { b.rotation.z = (i ? -1 : 1) * brow[0]; b.position.y = 0.22 + brow[1]; });
+  const talking = mood === 'talk' && Math.sin(lt * 14) > 0;
+  const open = mood === 'scared' || mood === 'angry' || mood === 'happy' || talking;
+  f.open.visible = open; f.smile.visible = !open && mood !== 'sad'; f.frown.visible = !open && mood === 'sad';
+  f.open.scale.setScalar(mood === 'angry' ? 1.35 : mood === 'scared' ? 1.15 + Math.sin(lt * 20) * 0.08 : 1);
+}
+
+function poseMascot(a, lt) {
+  const { body, arms, legs, sparks, face } = a.userData;
+  const pop = lt < 0.45 ? Math.min(1, lt / 0.3) * (1 + 0.25 * Math.sin(Math.min(1, lt / 0.45) * Math.PI)) : 1;
+  a.scale.setScalar(Math.max(0.01, pop));
+  body.position.y = 0.12 + Math.sin(lt * 3.2) * 0.08;
+  body.rotation.z = Math.sin(lt * 2.4) * 0.06;
+  arms[0].rotation.z = -0.4 + Math.sin(lt * 3) * 0.1;
+  arms[1].rotation.z = 2.3 + Math.sin(lt * 9) * 0.4;
+  legs.forEach((l, i) => { l.rotation.x = Math.sin(lt * 6 + i * Math.PI) * 0.25; });
+  sparks.forEach((s, i) => { const ang = lt * 1.6 + i * Math.PI / 3; s.position.set(Math.cos(ang) * 0.85, 1.3 + Math.sin(ang * 1.3) * 0.6, Math.sin(ang) * 0.3);
+    s.rotation.set(lt * 3, lt * 2, 0); s.scale.setScalar(0.6 + 0.4 * Math.abs(Math.sin(lt * 4 + i))); });
+  setFace(face, 'talk', lt);
+}
+
 function poseActor(a, lt) {
-  const { spec, body, torso, legs, arms, head, x0 } = a.userData;
+  if (a.userData.mascot) return poseMascot(a, lt);
+  const { spec, body, torso, legs, arms, head, x0, face } = a.userData;
   const breathe = Math.sin(lt * 2.2) * 0.012;
-  body.position.y = breathe; torso.rotation.set(0, 0, 0); head.rotation.set(0, Math.sin(lt * 0.9) * 0.08, 0);
+  body.position.y = breathe; torso.rotation.set(0, 0, 0); head.rotation.set(0, Math.sin(lt * 0.9) * 0.08, Math.sin(lt * 1.3) * 0.04);
   legs.forEach((l) => l.rotation.set(0, 0, 0));
-  arms.forEach((p, i) => p.rotation.set(0, 0, (i ? 1 : -1) * 0.1));
+  arms.forEach((p, i) => p.rotation.set(0, 0, (i ? 1 : -1) * 0.12));
+  setFace(face, MOOD[spec.pose] || 'smile', lt);
   switch (spec.pose) {
     case 'walk': {
       const s = Math.sin(lt * 7), dir = spec.look === 'left' ? -1 : 1;
@@ -151,26 +302,27 @@ function poseActor(a, lt) {
       a.position.x = x0 + dir * lt * 0.55; break;
     }
     case 'sit': case 'type':
-      body.position.y = -0.38 + breathe; legs.forEach((l) => { l.rotation.x = -1.5; });
+      body.position.y = -0.32 + breathe; legs.forEach((l) => { l.rotation.x = -1.5; });
       if (spec.pose === 'type') arms.forEach((p, i) => { p.rotation.x = -1.15 + Math.sin(lt * 14 + i * 2) * 0.06; });
       else arms.forEach((p) => { p.rotation.x = -0.5; });
       break;
     case 'sad':
-      torso.rotation.x = 0.22; head.rotation.x = 0.55; head.rotation.y = 0;
+      torso.rotation.x = 0.18; head.rotation.x = 0.4; head.rotation.y = 0;
       arms.forEach((p, i) => { p.rotation.z = (i ? 1 : -1) * 0.04; }); break;
     case 'cheer':
-      body.position.y = Math.abs(Math.sin(lt * 7)) * 0.22;
+      body.position.y = Math.abs(Math.sin(lt * 7)) * 0.25;
       arms.forEach((p, i) => { p.rotation.z = (i ? 1 : -1) * (2.6 + Math.sin(lt * 9) * 0.15); });
-      head.rotation.x = -0.2; break;
+      head.rotation.x = -0.15; break;
     case 'phone':
-      arms[1].rotation.x = -1.15; arms[1].rotation.z = -0.25; head.rotation.x = 0.32; head.rotation.y = 0.1; break;
+      arms[1].rotation.x = -1.15; arms[1].rotation.z = -0.25; head.rotation.x = 0.28; head.rotation.y = 0.1; break;
     case 'point':
       arms[1].rotation.x = -1.45 + Math.sin(lt * 5) * 0.05; arms[1].rotation.z = 0.5; break;
     case 'panic':
-      arms.forEach((p, i) => { p.rotation.z = (i ? 1 : -1) * 2.3; p.rotation.x = Math.sin(lt * 18 + i) * 0.25; });
-      head.rotation.y = Math.sin(lt * 10) * 0.25; body.position.y = Math.abs(Math.sin(lt * 10)) * 0.05; break;
+      arms.forEach((p, i) => { p.rotation.z = (i ? 1 : -1) * 2.5; p.rotation.x = Math.sin(lt * 18 + i) * 0.3; });
+      head.rotation.y = Math.sin(lt * 10) * 0.25; head.rotation.z = Math.sin(lt * 13) * 0.1;
+      body.position.y = Math.abs(Math.sin(lt * 10)) * 0.08; break;
     case 'yell':
-      torso.rotation.x = 0.28; head.rotation.x = -0.25 + Math.sin(lt * 22) * 0.06;
+      torso.rotation.x = 0.22; head.rotation.x = -0.2 + Math.sin(lt * 22) * 0.06;
       arms.forEach((p, i) => { p.rotation.x = -1.3 + Math.sin(lt * 20 + i * 2) * 0.35; p.rotation.z = (i ? 1 : -1) * 0.5; });
       body.position.y = Math.abs(Math.sin(lt * 14)) * 0.05; a.position.x = x0 + Math.sin(lt * 30) * 0.02; break;
     case 'talk':
@@ -218,6 +370,7 @@ function buildSet(scene, name) {
   sun.position.set(4, 8, 6); sun.castShadow = true; sun.shadow.mapSize.set(1024, 1024);
   Object.assign(sun.shadow.camera, { left: -7, right: 7, top: 9, bottom: -3, near: 1, far: 30 });
   scene.add(sun);
+  const rim = new THREE.DirectionalLight(0x9fd8ff, 1.4); rim.position.set(-5, 6, -6); scene.add(rim);
   const ground = mesh(new THREE.PlaneGeometry(80, 80), mat(S.ground)); ground.rotation.x = -Math.PI / 2; ground.castShadow = false;
   scene.add(ground);
   if (name === 'park' || name === 'sunset') {
@@ -326,15 +479,16 @@ window.load = (storyboard) => {
   shots = storyboard.map((shot) => {
     const scene = new THREE.Scene(), updaters = [];
     buildSet(scene, shot.set);
+    const panel = (shot.props || []).some((p) => p.type === 'panel');
     const actors = (shot.actors || []).map((spec, i) => {
-      const a = makeActor(spec, i); scene.add(a);
+      const a = makeActor(panel && spec.float ? { ...spec, float: null } : spec, i); scene.add(a);   // the panel already says it
       if (spec.pose === 'sit') addProp(a, { type: 'bench', x: 0 }, updaters);
       if (spec.pose === 'type') { addProp(a, { type: 'desk', x: 0, state: spec.screen }, updaters); if (!spec.look) a.rotation.y = 0.75; }
       return a;
     });
     (shot.props || []).forEach((p) => addProp(scene, p, updaters));
     const xs = actors.filter((a) => a.userData.spec.pose !== 'walk').map((a) => a.position.x);
-    const focus = xs.length ? xs.reduce((s, v) => s + v, 0) / xs.length : 0;
+    const focus = xs.length ? (Math.min(...xs) + Math.max(...xs)) / 2 : 0;     // frame everyone, Docu included
     return { scene, actors, updaters, camera: cameraFor(shot, focus) };
   });
   return shots.length;

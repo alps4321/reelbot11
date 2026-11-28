@@ -87,7 +87,10 @@ Hook style: {hook_style}
 MAKE IT FUNNY. These are cartoon reels; people share the ones that make them laugh. Use our own recurring cast
 (our original characters, never characters from any TV show or film):
 {cast}
-Pick 1-3 of them, keep each one's colour in every shot. Humour comes from a relatable desi moment taken one step
+Our mascot DOCU (a cheerful white PDF page with big eyes, a red heart and "ilovedocuments.ai" printed on it) pops in
+by itself on the answer shot and the last shot; do not put Docu in "actors". You may have a character call for it
+once ("Docu, help!" / "Docu ne kar diya!") so people remember the page's character.
+Pick 1-3 of the cast, keep each one's colour in every shot. Humour comes from a relatable desi moment taken one step
 too far: Pappu's confident wrong fix, an over-the-top panic, Sharma Uncle's outburst, a deadpan one-liner from
 Chinki, a punchline twist at the end. Keep jokes clean and kind (no insults about looks, caste, religion or gender).
 The facts must still be exactly right: the joke is in the people, never in the answer.

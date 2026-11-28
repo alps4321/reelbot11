@@ -45,6 +45,23 @@ def _title(d, text, emphasis, accent, top=250, size=74, max_w=960):
     return top + len(lines[:4]) * int(size * 1.2)
 
 
+def add_mascot(scenes, storyboard):
+    """Docu, the ilovedocuments.ai mascot, pops in on the answer shot and the closing shot of every reel,
+    on whichever side the cast leaves free, so the page's own character is what people remember."""
+    from .voice import reveal_shot
+    for i in {reveal_shot(scenes), len(scenes) - 1} - {None}:
+        shot = storyboard[i]
+        cast = [a for a in shot.get("actors") or [] if not a.get("mascot")]
+        mean = sum(a.get("x", 0) for a in cast) / len(cast) if cast else -1
+        side = -1 if mean >= 0 else 1
+        cast = sorted(cast[:2], key=lambda a: a.get("x", 0) * -side)     # nearest to Docu first
+        for a, x in zip(cast, (-0.2, -1.05) if len(cast) == 2 else (-0.35,)):
+            a["x"] = x * side                # make room: the cast moves to the other side
+        shot["actors"] = cast + [{"mascot": True, "x": 0.85 * side, "z": 1.0, "look": "right" if side < 0 else "left"}]
+        if len(cast) == 2 and shot.get("camera") not in ("wide", "orbit"):
+            shot["camera"] = "wide"            # three on screen: pull back so nobody is cut off
+
+
 def render(cfg, script, audio, speech, starts, total, out_path):
     from playwright.sync_api import sync_playwright
 
@@ -58,6 +75,7 @@ def render(cfg, script, audio, speech, starts, total, out_path):
                        "words": words, "times": scene_word_times(sc, words, starts[i], speech[i]),
                        "chunks": caption_chunks(words, max_words=3, max_chars=18)})
     storyboard = [{k: sc.get(k) for k in ("set", "actors", "props", "camera", "shake")} for sc in script["scenes"]]
+    add_mascot(script["scenes"], storyboard)
 
     out_path = Path(out_path)
     cmd = ["ffmpeg", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),

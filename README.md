@@ -1,12 +1,12 @@
 # Live reel stats
 
-Updated 28 Nov 2026, 03:45 AM India time (refreshed about every 5 minutes)
+Updated 28 Nov 2026, 09:29 AM India time (refreshed about every 5 minutes)
 
 | posted | hook | views | views last hour | avg watch s | likes | comments | shares | saves | link |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-11-27 | Aadhaar PDF ka password number nahi, naam ke 4 CAP | 467 | +0 | 7.3 | 5 | 0 | 2 | 6 | [open](https://www.instagram.com/reel/DgPsFnATBVV/) |
-| 2026-11-27 | Priya had a PDF resume, one wrong phone number and | 109 | +59 | 7.3 | 1 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgPDPs1MmXt/) |
-| 2026-11-27 | Masked Aadhaar mein sirf last 4 digit dikhte hain, | 141 | +0 | 2.7 | 0 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgO1I2mudzS/) |
+| 2026-11-27 | Aadhaar PDF ka password number nahi, naam ke 4 CAP | 586 | +119 | 7.3 | 10 | 0 | 4 | 12 | [open](https://www.instagram.com/reel/DgPsFnATBVV/) |
+| 2026-11-27 | Priya had a PDF resume, one wrong phone number and | 120 | +11 | 7.2 | 1 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgPDPs1MmXt/) |
+| 2026-11-27 | Masked Aadhaar mein sirf last 4 digit dikhte hain, | 145 | +4 | 3.0 | 1 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgO1I2mudzS/) |
 | 2026-11-26 | HDFC statement PDF khul nahi raha? NetBanking ya a | 137 | +0 | 5.0 | 1 | 0 | 0 | 1 | [open](https://www.instagram.com/reel/DgNHnVtxwdX/) |
 | 2026-11-26 | Meera cropped her photo three times before she lea | 115 | +0 | 8.0 | 1 | 0 | 0 | 0 | [open](https://www.instagram.com/reel/DgMeYcXzcfb/) |
 | 2026-11-26 | e-PAN ka password aapki date of birth hai, DDMMYYY | 211 | +0 | 4.1 | 3 | 0 | 0 | 1 | [open](https://www.instagram.com/reel/DgMQ4HUB-s5/) |

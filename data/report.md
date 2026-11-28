@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-28T08:20:45+00:00
+Updated 2026-11-28T08:51:05+00:00
 
-Reels made: 49. Posted: 41. Measured: 38.
+Reels made: 50. Posted: 41. Measured: 38.
 
 ## english: results by topic
 
@@ -170,6 +170,7 @@ Reels made: 49. Posted: 41. Measured: 38.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-11-28 | hinglish | unlock_pdf | secret_answer | e-PAN password PAN number nahi hota |  |  |  |  |  |  |  | dry run |
 | 2026-11-28 | hinglish | unlock_pdf | secret_answer | e-PAN ka password PAN number nahi hai |  |  |  |  |  |  |  | dry run |
 | 2026-11-28 | english | convert_image | did_you_know | Your iPhone photo is secretly not a JPG. |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgRoCPAgezW/) |
 | 2026-11-28 | hinglish | id_card_print | secret_answer | Aadhaar ka print out original jitna valid hai? |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgRaeCMhwbc/) |

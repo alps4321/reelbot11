@@ -12254,5 +12254,269 @@
     "caption": "e-PAN PDF ka password PAN number nahi, aapki date of birth hai: DDMMYYYY, bina space ke. Save kar lo next form ke liye. Aapka password kis format mein tha? Comment karo.\nilovedocuments.ai\n\n#ePAN #PANCard #PDFPassword #IndianForms #SaveKarLo",
     "video": "20261128-080907-hinglish.mp4",
     "dry_run": true
+  },
+  {
+    "id": "20261128-084000-hinglish",
+    "created_at": "2026-11-28T08:51:05+00:00",
+    "language": "hinglish",
+    "topic": "unlock_pdf",
+    "hook_style": "contrarian",
+    "format": "secret_answer",
+    "pace": "brisk",
+    "distance": "near",
+    "answer": "epan_password",
+    "idea": "",
+    "plan_reason": "proven tool (top 5, rotating); proven formula slot; hook style: explore; format: best so far; pace: best so far",
+    "title": "e-PAN password: PAN number nahi, DOB",
+    "hook": "e-PAN password PAN number nahi hota",
+    "seconds": 20.9,
+    "script": {
+      "title": "e-PAN password: PAN number nahi, DOB",
+      "scenes": [
+        {
+          "kind": "hook",
+          "screen": "e-PAN password PAN number nahi hota",
+          "emphasis": [
+            "PAN number",
+            "nahi"
+          ],
+          "voice": "ई-पैन का पासवर्ड, पैन नंबर नहीं होता।",
+          "say": "e-PAN ka password, PAN number nahi hota.",
+          "label": "11:40 PM",
+          "set": "bedroom",
+          "camera": "push_in",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "type",
+              "x": 0.0,
+              "look": "camera"
+            }
+          ],
+          "props": [],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "ABCDE1234F? Wrong",
+          "emphasis": [
+            "Wrong"
+          ],
+          "voice": "पप्पू ने वही डाला... और फिर वही डाला।",
+          "say": "Pappu ne wahi daala aur phir wahi daala.",
+          "label": null,
+          "set": "bedroom",
+          "camera": "close",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "panic",
+              "x": -0.6,
+              "look": "camera",
+              "float": {
+                "text": "ABCDE1234F",
+                "color": "#ff5a66"
+              }
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "error",
+              "file": "e-PAN.pdf",
+              "size": "120 KB",
+              "message": "Incorrect password"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Jawab end mein hai",
+          "emphasis": [
+            "end mein"
+          ],
+          "voice": "फॉर्म की लास्ट डेट कल है। जवाब एंड में है।",
+          "say": "Form ki last date kal hai. Jawab end mein hai.",
+          "label": "DEADLINE: KAL",
+          "set": "bedroom",
+          "camera": "wide",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "sad",
+              "x": -0.7,
+              "look": "right"
+            },
+            {
+              "color": "purple",
+              "pose": "stand",
+              "x": 0.7,
+              "look": "left"
+            }
+          ],
+          "props": [
+            {
+              "type": "clock",
+              "text": "11:55 PM"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Chinki: \"DOB hai, bhaiya.\"",
+          "emphasis": [
+            "DOB"
+          ],
+          "voice": "चिंकी बोली, भैया... ये आपकी बर्थडेट है।",
+          "say": "Chinki boli, bhaiya ye aapki birthdate hai.",
+          "label": null,
+          "set": "bedroom",
+          "camera": "orbit",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "panic",
+              "x": -0.7,
+              "look": "right"
+            },
+            {
+              "color": "purple",
+              "pose": "point",
+              "x": 0.7,
+              "look": "left"
+            }
+          ],
+          "props": [],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "DDMMYYYY",
+          "emphasis": [
+            "DDMMYYYY"
+          ],
+          "voice": "डी डी एम एम वाई वाई वाई वाई। बिना स्पेस के।",
+          "say": "DDMMYYYY. Bina space ke.",
+          "label": null,
+          "set": "bedroom",
+          "camera": "close",
+          "actors": [
+            {
+              "color": "purple",
+              "pose": "talk",
+              "x": 0.6,
+              "look": "camera"
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "text",
+              "text": "15 Aug 1990 → 15081990"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Unlock hua!",
+          "emphasis": [
+            "Unlock"
+          ],
+          "voice": "पप्पू ने डाला, और फाइल खुल गई!",
+          "say": "Pappu ne daala, aur file khul gayi!",
+          "label": null,
+          "set": "bedroom",
+          "camera": "low",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "cheer",
+              "x": -0.5,
+              "look": "camera"
+            },
+            {
+              "color": "purple",
+              "pose": "stand",
+              "x": 0.7,
+              "look": "left"
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "success",
+              "file": "e-PAN.pdf",
+              "size": "120 KB",
+              "message": "Opened"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Password hatana hai? Unlock PDF",
+          "emphasis": [
+            "Unlock PDF"
+          ],
+          "voice": "पासवर्ड हटाना है? आई लव डॉक्यूमेंट्स डॉट ए आई पर अनलॉक पीडीएफ।",
+          "say": "Password hatana hai? ilovedocuments.ai par Unlock PDF.",
+          "label": null,
+          "set": "bedroom",
+          "camera": "high",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "phone",
+              "x": 0.0,
+              "look": "camera"
+            }
+          ],
+          "props": [],
+          "visual": null
+        },
+        {
+          "kind": "cta",
+          "screen": "Free. No sign-up. No watermark.",
+          "emphasis": [
+            "Free"
+          ],
+          "voice": "अगले फॉर्म के लिए... सेव कर लो।",
+          "say": "Agle form ke liye save kar lo.",
+          "label": null,
+          "set": "bedroom",
+          "camera": "wide",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "cheer",
+              "x": -0.6,
+              "look": "camera"
+            },
+            {
+              "color": "purple",
+              "pose": "wave",
+              "x": 0.6,
+              "look": "camera"
+            }
+          ],
+          "props": [],
+          "visual": null
+        }
+      ],
+      "caption": "e-PAN ka password = DOB in DDMMYYYY. 15 August 1990 -> 15081990.\nSave kar lo, agle form mein kaam aayega.\nPappu ki tarah kitni baar PAN number daala? Comment karo!\nilovedocuments.ai",
+      "hashtags": [
+        "#ePAN",
+        "#PDFPassword",
+        "#UnlockPDF",
+        "#PANCard",
+        "#IndiaForms"
+      ]
+    },
+    "caption": "e-PAN ka password = DOB in DDMMYYYY. 15 August 1990 -> 15081990.\nSave kar lo, agle form mein kaam aayega.\nPappu ki tarah kitni baar PAN number daala? Comment karo!\nilovedocuments.ai\n\n#ePAN #PDFPassword #UnlockPDF #PANCard #IndiaForms",
+    "video": "20261128-084000-hinglish.mp4",
+    "dry_run": true
   }
 ]

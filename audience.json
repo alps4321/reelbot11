@@ -1,0 +1,18 @@
+{
+ "at": "2026-11-28T10:07:38Z",
+ "followers": 19,
+ "media": 42,
+ "views_by_follow_type": {
+  "UNKNOWN": 2,
+  "FOLLOWER": 188,
+  "NON_FOLLOWER": 13273
+ },
+ "reach_by_follow_type": {
+  "FOLLOWER": 11,
+  "NON_FOLLOWER": 10748
+ },
+ "views_by_media_product_type": {
+  "POST": 8,
+  "REEL": 13455
+ }
+}

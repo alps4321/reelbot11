@@ -1,25 +1,25 @@
 {
   "hinglish": {
-    "measured": 22,
-    "updated": "2026-11-28T04:28:39+00:00",
+    "measured": 23,
+    "updated": "2026-11-28T08:08:55+00:00",
     "keep": [
-      "Lead with a direct 'password kya hota hai?' question on a specific, high-intent document. The 'Aadhaar PDF ka password kya hota hai? 🔐' reel got the top score (2286 views 1971, 24 saves, 18 shares), but the same hook scored 131 and 99 in two other posts, so the hook alone doesn't explain it.",
-      "Pick utility topics that people save: unlock_aadhaar, pdf_to_word and compress_pdf_kb take the top 3 slots. Saves are high on these (24, 13, 4), which shows people treat them as reference material.",
-      "Use a hook that promises a concrete answer or fixes a frustration: 'PDF ko edit kaise karein?', 'What if your PDF is too big?', and 'Form ne phir bola File too large?'. The three of them have avg_watch of 8.8s, 9.2s and 6.3s.",
-      "The best posts hold viewers about 8-9s on average (8.2, 8.8, 9.2, 8.7). Keep the payoff or reveal inside the first ~8s.",
-      "Include a universal 'one website for everything' message, as in the passport_photo reel (971 views, avg_watch 8.7s). One post is not proof, but it did well without a niche document."
+      "Use a direct 'password kya hota hai?' question about the Aadhaar PDF. The top reel (unlock_aadhaar, score 2286) used the hook 'Aadhaar PDF ka password kya hota hai? 🔐' and got 8.2s average watch, 18 shares and 24 saves. Treat the emoji and the posting context as possible factors too, because the same topic did far worse in other versions.",
+      "Pick hooks about a document the viewer is likely holding and stuck on, such as an Aadhaar PDF, a PDF that needs editing, or a PDF that is too big. The top 3 are all unlock_aadhaar, compress_pdf_kb and pdf_to_word. Each has a clear pain point and 8.2–9.2s average watch.",
+      "Keep hooks short and in plain Hinglish ('PDF ko edit kaise karein?', 'What if your PDF is too big?'). Each is under about 8 words and names the outcome.",
+      "Aim for average watch of 8s or more. The 4 best reels all got 8.2–9.2s, while most reels scoring under 150 got 2–5s. Hook strength seems to matter more than format here.",
+      "Use hooks that make people share or save. The top reel got 18 shares and 24 saves, and the 'Form ne phir bola File too large' hook got 7 shares on only 245 views. Practical, relatable hooks seem to get saved and forwarded."
     ],
     "avoid": [
-      "Repeating the same hook and topic across several posts. unlock_aadhaar went from 1971 views to 184 and 145 views with near-identical hooks, and HDFC and PAN password reels repeat the same pattern at 137-211 views.",
-      "Narrow bank or ID password topics (HDFC statement, PAN/e-PAN, masked Aadhaar). All score under 270, with avg_watch of 2.2-5.1s and few saves or shares.",
-      "Hooks about general explanation or low-urgency tasks: 'Photos ko ek PDF kaise banayein?', 'PDF ka table Excel mein kaise layein?', 'Masked Aadhaar kya hota hai?'. All have avg_watch under 4.7s and 0-3 likes.",
-      "Off-topic curiosity hooks that don't connect to the PDF utility, such as 'Egypt ke tomb mein shahad' and 'Charging 100% tak mat karo'. They got 222 and 436 views, and one has a decent 7.6s watch time but no shares or saves worth noting.",
-      "Long reels (28-31s) with a slow reveal. The three longest reels had avg_watch of 2.2-7.1s, though duration is mixed with topic here."
+      "Repeating the same 'X PDF ka password kya hai?' line for different banks and cards. HDFC, PAN and e-PAN versions scored 80–263 with 2.2–6.3s watch. HDFC statement reels averaged 2.2–5.0s, which suggests the angle is saturated or too narrow.",
+      "Hooks that sound like a definition or a formal Q&A, such as 'Masked Aadhaar kya hota hai?' and 'Kya Aadhaar ka print out valid hai?'. These got 3.0–6.4s watch and almost no comments or saves.",
+      "Basic how-to hooks like 'Photos ko ek PDF kaise banayein?' and 'PDF ka table Excel mein kaise layein?'. They had the lowest scores (78–85) and 3.4–3.5s watch.",
+      "Off-topic or odd hooks, such as the Egypt honey story and 'Charging 100% tak mat karo' on a PDF or image account. The Egypt reel had decent watch (7.6s) but few shares. The charging reel had 6.8s watch, but only 436 views and 3 shares and saves.",
+      "Judging a topic from one reel. unlock_aadhaar scored 2286, 131 and 99 with nearly identical hooks. The gap probably comes from something other than topic and hook wording, so treat the best result with caution."
     ],
     "next_tests": [
-      "Hold the topic fixed and vary only the hook, using 3 versions: 'Aadhaar PDF ka password kya hota hai? 🔐' again as a control, a 'password = ...' reveal in the first 3s, and a problem-first version ('PDF khul nahi raha?'). The 1971 vs 184 gap needs an explanation before more Aadhaar reels are made.",
-      "Test the 'What if your PDF is too big?' / compress_pdf_kb angle in Hinglish and with a before/after file size shown in the first 2s. The what_if format has only one post, so a second post would show if it repeats.",
-      "Test a pdf_to_word 'PDF ko edit kaise karein?' reel at under 15s against the same one at 25s+ to see if shorter length lifts avg_watch above 9s. Duration is confounded with topic in the current data."
+      "Re-post the exact winning Aadhaar hook 'Aadhaar PDF ka password kya hota hai? 🔐' with the same format, and change one variable at a time (posting time, first-frame visual, caption). This shows whether the 2286 result repeats. The two weaker versions of this hook (131 and 99) show it may not.",
+      "Test the 'What if your PDF is too big?' hook (compress_pdf_kb) and the 'PDF ko edit kaise karein?' hook (pdf_to_word) again with a new opening visual. Both reached 8.8–9.2s watch but got almost no shares or comments. Add a clear call to action to see if saves and shares go up.",
+      "Test a 'problem' hook for form-upload errors ('Form ne phir bola File too large?') in the secret_answer format instead of the manual format. This keeps the share-friendly hook (7 shares on 245 views) and tests a format that did better elsewhere. Run 3 or more reels per variant before drawing any conclusion."
     ]
   },
   "english": {

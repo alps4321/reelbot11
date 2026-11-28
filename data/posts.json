@@ -5966,7 +5966,8 @@
       24,
       48,
       72,
-      120
+      120,
+      168
     ],
     "slot": "13:00",
     "metrics": {
@@ -6029,6 +6030,17 @@
       {
         "at": "2026-11-26T12:27:10+00:00",
         "hours": 120,
+        "views": 113,
+        "reach": 83,
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "avg_watch_s": 4.8
+      },
+      {
+        "at": "2026-11-28T03:59:24+00:00",
+        "hours": 168,
         "views": 113,
         "reach": 83,
         "likes": 3,
@@ -7812,7 +7824,8 @@
       6,
       24,
       48,
-      72
+      72,
+      120
     ],
     "slot": "13:00",
     "metrics": {
@@ -7822,8 +7835,8 @@
       "comments": 0,
       "shares": 7,
       "saved": 0,
-      "avg_watch_s": 6.7,
-      "views_last_hour": 0
+      "total_interactions": 9,
+      "avg_watch_s": 6.7
     },
     "history": [
       {
@@ -7869,6 +7882,18 @@
         "comments": 0,
         "shares": 7,
         "saved": 0,
+        "avg_watch_s": 6.7
+      },
+      {
+        "at": "2026-11-28T08:08:40+00:00",
+        "hours": 120,
+        "views": 127,
+        "reach": 104,
+        "likes": 2,
+        "comments": 0,
+        "shares": 7,
+        "saved": 0,
+        "total_interactions": 9,
         "avg_watch_s": 6.7
       }
     ]
@@ -9590,7 +9615,8 @@
     "checked": [
       6,
       24,
-      48
+      48,
+      72
     ],
     "slot": "13:00",
     "metrics": {
@@ -9600,8 +9626,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "avg_watch_s": 3.3,
-      "views_last_hour": 0
+      "total_interactions": 1,
+      "avg_watch_s": 3.3
     },
     "history": [
       {
@@ -9636,6 +9662,18 @@
         "comments": 0,
         "shares": 0,
         "saved": 1,
+        "avg_watch_s": 3.3
+      },
+      {
+        "at": "2026-11-28T08:08:41+00:00",
+        "hours": 72,
+        "views": 81,
+        "reach": 71,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
+        "total_interactions": 1,
         "avg_watch_s": 3.3
       }
     ]
@@ -10415,7 +10453,8 @@
     "posted_at": "2026-11-26T07:30:11+00:00",
     "checked": [
       6,
-      24
+      24,
+      48
     ],
     "slot": "13:00",
     "metrics": {
@@ -10425,8 +10464,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "avg_watch_s": 8.0,
-      "views_last_hour": 0
+      "total_interactions": 1,
+      "avg_watch_s": 8.0
     },
     "history": [
       {
@@ -10449,6 +10488,18 @@
         "comments": 0,
         "shares": 0,
         "saved": 0,
+        "avg_watch_s": 8.0
+      },
+      {
+        "at": "2026-11-28T08:08:42+00:00",
+        "hours": 48,
+        "views": 115,
+        "reach": 90,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 1,
         "avg_watch_s": 8.0
       }
     ]
@@ -11223,7 +11274,8 @@
     "permalink": "https://www.instagram.com/reel/DgPDPs1MmXt/",
     "posted_at": "2026-11-27T07:30:09+00:00",
     "checked": [
-      6
+      6,
+      24
     ],
     "slot": "13:00",
     "metrics": {
@@ -11233,8 +11285,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "avg_watch_s": 7.1,
-      "views_last_hour": 11
+      "total_interactions": 1,
+      "avg_watch_s": 7.1
     },
     "history": [
       {
@@ -11247,6 +11299,18 @@
         "shares": 0,
         "saved": 0,
         "avg_watch_s": 7.9
+      },
+      {
+        "at": "2026-11-28T08:08:43+00:00",
+        "hours": 24,
+        "views": 120,
+        "reach": 95,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 1,
+        "avg_watch_s": 7.1
       }
     ]
   },
@@ -11942,5 +12006,253 @@
     "posted_at": "2026-11-28T07:30:09+00:00",
     "checked": [],
     "slot": "13:00"
+  },
+  {
+    "id": "20261128-080907-hinglish",
+    "created_at": "2026-11-28T08:20:45+00:00",
+    "language": "hinglish",
+    "topic": "unlock_pdf",
+    "hook_style": "contrarian",
+    "format": "secret_answer",
+    "pace": "brisk",
+    "distance": "near",
+    "answer": "epan_password",
+    "idea": "",
+    "plan_reason": "proven tool (top 5, rotating); proven formula slot; hook style: best so far; format: new test; pace: best so far",
+    "title": "e-PAN password: Pappu vs Chinki",
+    "hook": "e-PAN ka password PAN number nahi hai",
+    "seconds": 21.0,
+    "script": {
+      "title": "e-PAN password: Pappu vs Chinki",
+      "scenes": [
+        {
+          "kind": "hook",
+          "screen": "e-PAN ka password PAN number nahi hai",
+          "emphasis": [
+            "PAN number",
+            "nahi"
+          ],
+          "voice": "ई-पैन का पासवर्ड... पैन नंबर नहीं होता।",
+          "say": "e-PAN ka password PAN number nahi hota.",
+          "label": "9:40 PM",
+          "set": "bedroom",
+          "camera": "push_in",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "type",
+              "x": 0.0,
+              "look": "camera"
+            }
+          ],
+          "props": [],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Pappu ne 10 baar try kiya",
+          "emphasis": [
+            "10 baar"
+          ],
+          "voice": "पप्पू ने दस बार ट्राई किया। सब गलत।",
+          "say": "Pappu ne 10 baar try kiya. Sab galat.",
+          "label": null,
+          "set": "bedroom",
+          "camera": "close",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "panic",
+              "x": 0.0,
+              "look": "camera",
+              "float": {
+                "text": "Wrong pass",
+                "color": "#ff5a66"
+              }
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "error",
+              "file": "e-PAN.pdf",
+              "size": "120 KB",
+              "message": "Wrong password"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Answer end mein hai",
+          "emphasis": [
+            "end mein"
+          ],
+          "voice": "फॉर्म की लास्ट डेट कल है। जवाब एंड में है।",
+          "say": "Form ki last date kal hai. Answer end mein hai.",
+          "label": "LAST DATE: KAL",
+          "set": "office",
+          "camera": "wide",
+          "actors": [
+            {
+              "color": "grey",
+              "pose": "yell",
+              "x": -0.8,
+              "look": "right",
+              "tie": true
+            },
+            {
+              "color": "orange",
+              "pose": "sad",
+              "x": 0.8,
+              "look": "left"
+            }
+          ],
+          "props": [
+            {
+              "type": "clock",
+              "text": "LAST DATE"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Chinki: \"Birthday daalo.\"",
+          "emphasis": [
+            "Birthday"
+          ],
+          "voice": "चिंकी बोली... अपना बर्थडे डालो।",
+          "say": "Chinki boli apna birthday daalo.",
+          "label": null,
+          "set": "bedroom",
+          "camera": "low",
+          "actors": [
+            {
+              "color": "purple",
+              "pose": "point",
+              "x": -0.6,
+              "look": "right"
+            },
+            {
+              "color": "orange",
+              "pose": "stand",
+              "x": 0.8,
+              "look": "left"
+            }
+          ],
+          "props": [],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "DDMMYYYY, no spaces",
+          "emphasis": [
+            "DDMMYYYY"
+          ],
+          "voice": "डेट ऑफ बर्थ, DDMMYYYY। बिना स्पेस के।",
+          "say": "Date of birth, DDMMYYYY. Bina space ke.",
+          "label": null,
+          "set": "bedroom",
+          "camera": "push_in",
+          "actors": [
+            {
+              "color": "purple",
+              "pose": "talk",
+              "x": 0.0,
+              "look": "camera"
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "text",
+              "text": "15 Aug 1990 → 15081990"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Unlocked!",
+          "emphasis": [
+            "Unlocked"
+          ],
+          "voice": "पंद्रह अगस्त नाइनटीन नाइनटी, यानी 15081990। खुल गया!",
+          "say": "15 August 1990 yaani 15081990. Khul gaya!",
+          "label": null,
+          "set": "bedroom",
+          "camera": "orbit",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "cheer",
+              "x": 0.6,
+              "look": "camera"
+            },
+            {
+              "color": "grey",
+              "pose": "stand",
+              "x": -0.8,
+              "look": "right",
+              "tie": true,
+              "float": {
+                "text": "Kaise kiya",
+                "color": "#ffd24a"
+              }
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "success",
+              "file": "e-PAN.pdf",
+              "size": "120 KB",
+              "message": "Unlocked"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "cta",
+          "screen": "Free. No sign-up. No watermark.",
+          "emphasis": [
+            "Free"
+          ],
+          "voice": "सेव कर लो। पासवर्ड हटाना हो तो आई लव डॉक्यूमेंट्स डॉट ए आई।",
+          "say": "Save kar lo. Password hatana ho toh ilovedocuments.ai.",
+          "label": null,
+          "set": "bedroom",
+          "camera": "wide",
+          "actors": [
+            {
+              "color": "purple",
+              "pose": "wave",
+              "x": -0.7,
+              "look": "camera"
+            },
+            {
+              "color": "orange",
+              "pose": "cheer",
+              "x": 0.7,
+              "look": "camera"
+            }
+          ],
+          "props": [],
+          "visual": null
+        }
+      ],
+      "caption": "e-PAN PDF ka password PAN number nahi, aapki date of birth hai: DDMMYYYY, bina space ke. Save kar lo next form ke liye. Aapka password kis format mein tha? Comment karo.\nilovedocuments.ai",
+      "hashtags": [
+        "#ePAN",
+        "#PANCard",
+        "#PDFPassword",
+        "#IndianForms",
+        "#SaveKarLo"
+      ]
+    },
+    "caption": "e-PAN PDF ka password PAN number nahi, aapki date of birth hai: DDMMYYYY, bina space ke. Save kar lo next form ke liye. Aapka password kis format mein tha? Comment karo.\nilovedocuments.ai\n\n#ePAN #PANCard #PDFPassword #IndianForms #SaveKarLo",
+    "video": "20261128-080907-hinglish.mp4",
+    "dry_run": true
   }
 ]

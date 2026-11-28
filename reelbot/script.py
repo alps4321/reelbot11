@@ -82,7 +82,17 @@ simple 3D characters act out a tiny story while a narrator tells it, with big ca
 Topic: {topic}
 Story format: {format} - {format_help}
 Hook style: {hook_style}
-{idea}Spoken length: {lo}-{hi} seconds, about {wlo}-{whi} spoken words in total.
+{answer_text}{idea}Spoken length: {lo}-{hi} seconds, about {wlo}-{whi} spoken words in total.
+
+MAKE IT FUNNY. These are cartoon reels; people share the ones that make them laugh. Use our own recurring cast
+(our original characters, never characters from any TV show or film):
+{cast}
+Pick 1-3 of them, keep each one's colour in every shot. Humour comes from a relatable desi moment taken one step
+too far: Pappu's confident wrong fix, an over-the-top panic, Sharma Uncle's outburst, a deadpan one-liner from
+Chinki, a punchline twist at the end. Keep jokes clean and kind (no insults about looks, caste, religion or gender).
+The facts must still be exactly right: the joke is in the people, never in the answer.
+If a hook style is "contrarian", open by knocking down the wrong guess almost everyone makes
+("X nahi hota" / "it's not X") - that hook got 3-4x the views of the same answer asked as a question.
 
 What is working for other creators in this niche right now (studied by our scout; learn the pattern,
 never copy their words):
@@ -121,7 +131,8 @@ Each shot has:
 - "label": optional short time/place tag shown at the top, like "11:58 PM", "DAY 3", "NEXT MORNING".
 - "set": one of park, sunset, night, bedroom, office, exam.
 - "camera": one of wide, close, push_in, orbit, low, high. Vary it from shot to shot.
-- "actors": 1 to 3 of {{"color": orange|blue|green|red|purple|yellow|teal|pink|grey, "pose": stand|walk|sit|type|sad|cheer|phone|point|panic|wave,
+- "actors": 1 to 3 of {{"color": orange|blue|green|red|purple|yellow|teal|pink|grey, "pose": stand|walk|sit|type|sad|cheer|phone|point|panic|wave|yell|talk,
+   "tie": true (only for Sharma Uncle),
    "x": -1.3 to 1.3, "look": left|right|camera, "float": {{"text": "2.4 MB", "color": "#ff5a66"}} (optional text floating over the head)}}.
    Keep the same colour for the same character in every shot.
 - "props": 0 or 1 of
@@ -551,6 +562,8 @@ def write(cfg, plan, playbook):
         tests=playbook.get("next_tests") or "none",
         recent=[p["hook"] for p in store.posts()[-10:]] or "none",
         voice_rule=voice_rule, say_field=say_field, cta=c["cta"], max_tags=c["max_hashtags"],
+        cast="\n".join(f'  - {m["name"]} ({m["color"]} shirt{", tie" if m.get("tie") else ""}): {m["role"]}'
+                       for m in c.get("cast", [])) or "  (any Indian first names)",
     )
     last = None
     for _ in range(3):  # retry when a draft fails the checks

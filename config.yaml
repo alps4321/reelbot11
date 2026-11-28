@@ -10,7 +10,11 @@ brand:
   text: "#FFFFFF"
 
 content:
-  style: explainer           # explainer (flat hand-drawn explainer, from 19 Nov 2026) | story3d | cards
+  cast:                      # our own recurring cartoon characters (original, not borrowed from any show)
+    - {name: Pappu, color: orange, role: "the lovable over-confident guy who always tries the wrong fix first and panics"}
+    - {name: Sharma Uncle, color: grey, tie: true, role: "the strict uncle / office boss who loses his temper and then quietly asks how it was done"}
+    - {name: Chinki, color: purple, role: "Pappu's sharp younger cousin who knows the trick and says it in one line"}
+  style: story3d             # story3d (low-poly 3D cartoon stories; back on 28 Nov 2026 at the owner's request) | explainer | cards
   # One reel per language per day. Each language learns from its own results.
   languages:
     - id: english

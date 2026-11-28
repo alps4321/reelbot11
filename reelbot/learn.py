@@ -140,10 +140,11 @@ def next_plan(cfg, lang, slot=0, today=None):
         why.append(f"{key.replace('_', ' ')}: {w}")
     idea = pick_idea(topic)
     times = cfg["posting"].get("times", [])
-    if c.get("style") == "explainer" and slot < len(times) and times[slot] in cfg["posting"].get("proven_slots", []):
-        # the formula of our best reels: an exact searched question, the answer at the end, near the tool
-        picks.update(format="secret_answer", distance="near",
-                     hook_style="question" if "question" not in used_today("hook_style") else picks["hook_style"])
+    if c.get("style") in ("explainer", "story3d") and slot < len(times) and times[slot] in cfg["posting"].get("proven_slots", []):
+        # the formula of our best reels: an exact searched question with a checked answer, near the tool.
+        # Hook: knock down the wrong guess first (27 Nov: 601 views vs 145-184 for the same answer as a question)
+        hook = next((h for h in ("contrarian", "question") if h not in used_today("hook_style")), picks["hook_style"])
+        picks.update(format="secret_answer", distance="near", hook_style=hook)
         answer = pick_answer(cfg)
         if answer:          # the reel is built around a verified secret; its tool is the plug
             topic, picks["answer"] = answer["tool"], answer

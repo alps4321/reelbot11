@@ -111,14 +111,6 @@
       "effect": "The 7 pm reel alternates: a checked answer one day, the scout's top niche idea the next."
     },
     {
-      "id": "three_d_test",
-      "order": 1,
-      "question": "Make the 7 pm reel in the 3D story style, still built on a checked answer?",
-      "why": "Both 3D story reels passed 1,300 views. No flat explainer has passed 360.",
-      "recommend": "Yes",
-      "effect": "Only the 19:00 reel changes; 11:00 and 13:00 stay as they are, so the two styles can be compared."
-    },
-    {
       "id": "one_pm_hinglish",
       "order": 2,
       "question": "Switch the 1 pm reel from English to Hinglish?",
@@ -160,6 +152,13 @@
       "status": "Waiting for you"
     },
     {
+      "id": "s1b",
+      "order": 0.5,
+      "move": "Open the checked-answer reels by knocking down the wrong guess",
+      "why": "Same Aadhaar answer: 601 views with 'Aadhaar number nahi hota', 145-184 as a question.",
+      "status": "Running"
+    },
+    {
       "id": "s1",
       "order": 1,
       "move": "Keep the 11 am and 7 pm reels on real document questions with checked answers",
@@ -169,9 +168,9 @@
     {
       "id": "s2",
       "order": 2,
-      "move": "Test the 3D story look at 7 pm against the flat explainer",
-      "why": "3D story reels: 1,004-1,281 views in 24h. Flat explainers: 111-358.",
-      "status": "Waiting for you"
+      "move": "Make every reel a funny 3D cartoon story with our own cast (Pappu, Sharma Uncle, Chinki)",
+      "why": "Your call on 28 Nov. 3D stories averaged 910 views in 24h; flat explainers 186. The checked answers stay in the 11:00 and 19:00 reels.",
+      "status": "Running"
     },
     {
       "id": "s3",

@@ -1,0 +1,40 @@
+name: Audience check
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 3 * * 1"    # Mondays: refresh when followers are online and who watches
+
+permissions:
+  contents: write
+
+jobs:
+  audience:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -q requests pyyaml
+      - name: Open the stats branch
+        run: |
+          git fetch -q --depth 1 origin stats
+          git worktree add -q -B stats stats-data FETCH_HEAD
+      - name: Read Instagram's audience numbers
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID || '17841416319314274' }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          PYTHONUNBUFFERED: "1"
+        run: python -m reelbot audience
+      - name: Save
+        working-directory: stats-data
+        run: |
+          git config user.name "reelbot"
+          git config user.email "reelbot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Audience $(date -u +%F)"
+          for i in 1 2 3; do git pull -q --rebase origin stats && git push -q origin stats && break; sleep 5; done

@@ -1,4 +1,4 @@
-"""Command line:  python -m reelbot <run|make|check|watch|scout|digest|alert|research|analyze|report>"""
+"""Command line:  python -m reelbot <run|make|check|watch|scout|audience|digest|alert|research|analyze|report>"""
 import os
 import sys
 
@@ -10,7 +10,7 @@ def main():
     cmd = sys.argv[1] if len(sys.argv) > 1 else "run"
     cfg = config.load()
     ig = Instagram(cfg)
-    if cmd in ("watch", "scout", "digest", "alert"):  # light jobs: they do not load the video tools
+    if cmd in ("watch", "scout", "digest", "alert", "audience"):  # light jobs: they do not load the video tools
         if cmd == "watch":
             from . import due, watch
             try:
@@ -21,6 +21,9 @@ def main():
         elif cmd == "scout":
             from . import scout
             scout.run(cfg, ig, probe="--probe" in sys.argv)
+        elif cmd == "audience":     # when followers are online, who watches (for posting times)
+            from . import audience
+            audience.run(cfg, ig)
         elif cmd == "digest":       # every 3 hours: Telegram summary
             from . import notify
             notify.digest(cfg)

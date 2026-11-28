@@ -79,6 +79,9 @@ def label(cfg, post):
 def posted(cfg, post):
     if not cfg.get("notify", {}).get("on_post", True):
         return
+    from . import store
+    if not 8 <= store.now().astimezone(store.IST).hour < 23:     # night reels of the timing test: no ping
+        return
     send(cfg, f"✅ <b>New reel is live</b>\n{e(label(cfg, post))} · {e(post.get('language', '').title())}\n"
               f"Hook: {e(post.get('hook', ''))}\n{e(post.get('permalink', ''))}")
 

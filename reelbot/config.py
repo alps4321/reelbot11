@@ -55,6 +55,35 @@ def load():
         _MASKED.append(True)
     if os.environ.get("DRY_RUN", "").lower() in ("1", "true", "yes"):
         cfg["posting"]["dry_run"] = True
+    apply_rotation(cfg)
     DATA.mkdir(exist_ok=True)
     OUT.mkdir(exist_ok=True)
+    return cfg
+
+
+def day_plan(cfg, day):
+    """[(time, language)] for an India date: the round-the-clock test's plan on its days, else the usual slots."""
+    import datetime as dt
+    r = cfg["posting"].get("rotation") or {}
+    if r.get("start") and r.get("days"):
+        start = r["start"] if isinstance(r["start"], dt.date) else dt.date.fromisoformat(str(r["start"]))
+        i = (day - start).days
+        if 0 <= i < len(r["days"]):
+            return [(t, lang) for t, lang in sorted(r["days"][i])]
+    return list(zip(cfg["posting"]["times"], cfg["posting"]["slots"]))
+
+
+def apply_rotation(cfg, day=None):
+    """On a test day, swap in that day's posting times, languages and checked-answer slots (the Hinglish ones)."""
+    import datetime as dt
+    day = day or dt.datetime.now(dt.timezone(dt.timedelta(hours=5, minutes=30))).date()
+    cfg["posting"].setdefault("base", {k: list(cfg["posting"][k]) for k in ("times", "slots", "proven_slots")})
+    b = cfg["posting"]["base"]
+    base = list(zip(b["times"], b["slots"]))
+    plan = day_plan({"posting": {**cfg["posting"], "times": b["times"], "slots": b["slots"]}}, day)
+    cfg["posting"]["testing_hours"] = plan != base
+    if plan != base:
+        cfg["posting"]["times"] = [t for t, _ in plan]
+        cfg["posting"]["slots"] = [lang for _, lang in plan]
+        cfg["posting"]["proven_slots"] = [t for t, lang in plan if lang == "hinglish"]
     return cfg

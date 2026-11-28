@@ -6,7 +6,7 @@
       "area": "Posting",
       "what": "Make and post 3 reels a day (11:00, 13:00, 19:00 IST) straight to Instagram",
       "mode": "On its own",
-      "detail": "You approved fully automatic posting. A run that starts more than 2 hours late posts nothing."
+      "detail": "You approved fully automatic posting. 29 Nov - 6 Dec: rotating hours for the timing test; no Telegram ping for night posts. A run that starts more than 2 hours late posts nothing."
     },
     {
       "id": "choose",
@@ -144,6 +144,13 @@
     }
   ],
   "strategy": [
+    {
+      "id": "s_hours",
+      "order": -1,
+      "move": "Round-the-clock timing test, 29 Nov - 6 Dec",
+      "why": "Your call on 28 Nov. Still 3 reels a day, but at rotating hours (1:30, 4:30, 7:30, 10:30 am, 1:30, 4:30, 7:30, 10:30 pm IST): each hour gets 3 reels (2 Hinglish, 1 English). On 7 Dec we compare first-24h views, watch time, shares and saves per hour and keep the best 3.",
+      "status": "Running"
+    },
     {
       "id": "s0",
       "order": 0,

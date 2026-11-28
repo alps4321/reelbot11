@@ -165,8 +165,7 @@ def jobs(run_rows, now):
 
 
 def schedule(cfg, now):
-    times, langs = cfg["posting"]["times"], cfg["posting"]["slots"]
-    proven = cfg["posting"].get("proven_slots", [])
+    base = cfg["posting"]["base"]
     posts = [p for p in store.posts() if p.get("media_id")]
     rows, today = [], now.astimezone(IST).date()
     answers_cfg = cfg["content"].get("answers") or []
@@ -189,7 +188,9 @@ def schedule(cfg, now):
         day_tools.setdefault(day, set()).add(a["tool"])
         return a
     for day in (today, today + timedelta(days=1)):
-        for i, (hhmm, lang) in enumerate(zip(times, langs)):
+        plan = config.day_plan({"posting": {**cfg["posting"], "times": base["times"], "slots": base["slots"]}}, day)
+        proven = [t for t, l in plan if l == "hinglish"] if plan != list(zip(base["times"], base["slots"])) else base["proven_slots"]
+        for i, (hhmm, lang) in enumerate(plan):
             when = datetime.combine(day, datetime.strptime(hhmm, "%H:%M").time(), IST)
             done = next((p for p in posts if p.get("slot") == hhmm and store.local_date(p["posted_at"]) == day), None)
             if done:

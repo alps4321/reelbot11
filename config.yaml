@@ -172,6 +172,17 @@ posting:
   slots: [hinglish, english, hinglish]   # three reels a day, in this order
   times: ["11:00", "13:00", "19:00"]
   proven_slots: ["11:00", "19:00"]   # these use the proven formula; the other slot keeps testing new ideas     # India time each reel goes live; the reel is made earlier and held until then
+  rotation:                  # round-the-clock test at the owner's request (28 Nov): which hour gets the most engagement.
+    start: 2026-11-29        # 3 reels a day as usual; over 8 days every 3-hour window is tried 3 times.
+    days:                    # each day: [time (IST), language]; every window gets 1 English + 2 Hinglish reels
+      - [["01:30", "english"], ["10:30", "hinglish"], ["19:30", "hinglish"]]
+      - [["04:30", "english"], ["13:30", "hinglish"], ["22:30", "hinglish"]]
+      - [["01:30", "hinglish"], ["07:30", "english"], ["16:30", "hinglish"]]
+      - [["04:30", "hinglish"], ["10:30", "english"], ["19:30", "hinglish"]]
+      - [["07:30", "hinglish"], ["13:30", "english"], ["22:30", "hinglish"]]
+      - [["01:30", "hinglish"], ["10:30", "hinglish"], ["16:30", "english"]]
+      - [["04:30", "hinglish"], ["13:30", "hinglish"], ["19:30", "english"]]
+      - [["07:30", "hinglish"], ["16:30", "hinglish"], ["22:30", "english"]]
   winner_days: [1, 4]        # from week 2: Tuesday and Friday go to the best-scoring tool (Monday = 0)
   share_to_feed: true
   label_ai_generated: true

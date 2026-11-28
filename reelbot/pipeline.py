@@ -134,6 +134,8 @@ def run(cfg):
             why = f"the {at} reel is already live"
         elif not at and times and all(t in taken for t in times):
             why = f"all {len(times)} reels for today are posted"
+        elif not at and cfg["posting"].get("testing_hours"):
+            why = "no test slot in the next 90 minutes (round-the-clock test: reels go out only at the planned hours)"
         elif done >= len(slots) + 1:
             why = f"{done} reels are already live today, the daily maximum"
         if why:

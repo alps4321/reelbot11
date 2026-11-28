@@ -4,6 +4,8 @@ Checks: week 1 tests a different tool every post; from week 2 the winner days go
 other days mix proven and new tools; results are read and the report is written. No network, no keys.
 Run:  python tests/simulate.py
 """
+import os
+os.environ["REELBOT_NO_ROTATION"] = "1"     # the timing test must not change the 3-slot simulation
 import random
 import sys
 import tempfile

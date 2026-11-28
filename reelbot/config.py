@@ -65,6 +65,8 @@ def day_plan(cfg, day):
     """[(time, language)] for an India date: the round-the-clock test's plan on its days, else the usual slots."""
     import datetime as dt
     r = cfg["posting"].get("rotation") or {}
+    if cfg["posting"].get("base"):                # plans are built from the configured slots, not a swapped-in day
+        cfg = {"posting": {**cfg["posting"], "times": cfg["posting"]["base"]["times"], "slots": cfg["posting"]["base"]["slots"]}}
     if r.get("start") and r.get("days"):
         start = r["start"] if isinstance(r["start"], dt.date) else dt.date.fromisoformat(str(r["start"]))
         i = (day - start).days
@@ -76,6 +78,8 @@ def day_plan(cfg, day):
 def apply_rotation(cfg, day=None):
     """On a test day, swap in that day's posting times, languages and checked-answer slots (the Hinglish ones)."""
     import datetime as dt
+    if os.environ.get("REELBOT_NO_ROTATION"):      # tests and simulations run on the usual three slots
+        return cfg
     day = day or dt.datetime.now(dt.timezone(dt.timedelta(hours=5, minutes=30))).date()
     cfg["posting"].setdefault("base", {k: list(cfg["posting"][k]) for k in ("times", "slots", "proven_slots")})
     b = cfg["posting"]["base"]

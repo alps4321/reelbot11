@@ -10642,7 +10642,7 @@
       "shares": 0,
       "saved": 1,
       "avg_watch_s": 5.0,
-      "views_last_hour": 1
+      "views_last_hour": 0
     },
     "history": [
       {
@@ -10905,14 +10905,14 @@
     ],
     "slot": "11:00",
     "metrics": {
-      "views": 141,
-      "reach": 128,
-      "likes": 0,
+      "views": 145,
+      "reach": 129,
+      "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "avg_watch_s": 2.7,
-      "views_last_hour": 0
+      "avg_watch_s": 3.0,
+      "views_last_hour": 4
     },
     "history": [
       {
@@ -11163,14 +11163,14 @@
     ],
     "slot": "13:00",
     "metrics": {
-      "views": 50,
-      "reach": 40,
+      "views": 120,
+      "reach": 95,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "avg_watch_s": 7.9,
-      "views_last_hour": 3
+      "avg_watch_s": 7.1,
+      "views_last_hour": 11
     },
     "history": [
       {
@@ -11405,14 +11405,14 @@
     ],
     "slot": "19:00",
     "metrics": {
-      "views": 462,
-      "reach": 390,
-      "likes": 5,
+      "views": 601,
+      "reach": 494,
+      "likes": 10,
       "comments": 0,
-      "shares": 2,
-      "saved": 6,
-      "total_interactions": 13,
-      "avg_watch_s": 7.4
+      "shares": 4,
+      "saved": 12,
+      "avg_watch_s": 7.4,
+      "views_last_hour": 134
     },
     "history": [
       {
@@ -11428,5 +11428,243 @@
         "avg_watch_s": 7.4
       }
     ]
+  },
+  {
+    "id": "20261128-042851-hinglish",
+    "created_at": "2026-11-28T04:37:38+00:00",
+    "language": "hinglish",
+    "topic": "id_card_print",
+    "hook_style": "question",
+    "format": "secret_answer",
+    "pace": "brisk",
+    "distance": "near",
+    "answer": "aadhaar_all_forms_valid",
+    "idea": "",
+    "plan_reason": "proven tool (top 5, rotating); proven formula slot; hook style: best so far; format: new test; pace: explore; distance: best so far",
+    "title": "Aadhaar print out original jitna valid?",
+    "hook": "Aadhaar ka print out original jitna valid hai?",
+    "seconds": 26.1,
+    "script": {
+      "title": "Aadhaar print out original jitna valid?",
+      "scenes": [
+        {
+          "say": "Aadhaar ka print out original jitna valid hai?",
+          "voice": "आधार का प्रिंट आउट... ओरिजिनल जितना वैलिड है?",
+          "accent": [
+            "print out",
+            "valid"
+          ],
+          "tag": "aadhaar",
+          "meter": null,
+          "scene": {
+            "type": "search",
+            "query": "Aadhaar print out valid hai?",
+            "results": [
+              "e-Aadhaar print",
+              "Aadhaar PVC card"
+            ]
+          },
+          "kind": "hook",
+          "screen": "Aadhaar ka print out original jitna valid hai?",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Jawab end mein hai. Pehle ye suno.",
+          "voice": "जवाब एंड में है. पहले ये सुनो.",
+          "accent": [
+            "end mein"
+          ],
+          "tag": "suspense",
+          "meter": null,
+          "scene": {
+            "type": "big_text",
+            "text": "JAWAB END MEIN",
+            "sub": "pehle ye suno"
+          },
+          "kind": "point",
+          "screen": "Jawab end mein hai. Pehle ye suno.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Log e-Aadhaar print karte hain, phir doubt rehta hai.",
+          "voice": "लोग ई-आधार प्रिंट करते हैं, फिर डाउट रहता है.",
+          "accent": [
+            "doubt"
+          ],
+          "tag": "doubt",
+          "meter": null,
+          "scene": {
+            "type": "chat",
+            "name": "Rahul",
+            "messages": [
+              {
+                "from": "them",
+                "text": "Ye print chalega kya?"
+              },
+              {
+                "from": "me",
+                "text": "Pata nahi yaar"
+              }
+            ]
+          },
+          "kind": "point",
+          "screen": "Log e-Aadhaar print karte hain, phir doubt rehta hai.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Form bharte time ye darr sabko lagta hai.",
+          "voice": "फॉर्म भरते टाइम ये डर सबको लगता है.",
+          "accent": [
+            "darr"
+          ],
+          "tag": "form",
+          "meter": null,
+          "scene": {
+            "type": "warning",
+            "text": "Print chalega ya nahi?"
+          },
+          "kind": "point",
+          "screen": "Form bharte time ye darr sabko lagta hai.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Jawab: Yes. UIDAI ke hisaab se barabar valid hai.",
+          "voice": "जवाब... यस. यूआईडीएआई के हिसाब से बराबर वैलिड है.",
+          "accent": [
+            "Yes",
+            "valid"
+          ],
+          "tag": "answer",
+          "meter": null,
+          "scene": {
+            "type": "stamp",
+            "word": "VALID",
+            "on": "e-Aadhaar print",
+            "label": "UIDAI"
+          },
+          "kind": "point",
+          "screen": "Jawab: Yes. UIDAI ke hisaab se barabar valid hai.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Aadhaar letter, PVC card, e-Aadhaar, mAadhaar.",
+          "voice": "आधार लेटर, पीवीसी कार्ड, ई-आधार, एम-आधार.",
+          "accent": [
+            "e-Aadhaar"
+          ],
+          "tag": "4 types",
+          "meter": null,
+          "scene": {
+            "type": "checklist",
+            "title": "Sab equally valid",
+            "items": [
+              "Aadhaar letter",
+              "PVC card",
+              "e-Aadhaar"
+            ]
+          },
+          "kind": "point",
+          "screen": "Aadhaar letter, PVC card, e-Aadhaar, mAadhaar.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Chaaron equally valid aur acceptable hain.",
+          "voice": "चारों इक्वली वैलिड और एक्सेप्टेबल हैं.",
+          "accent": [
+            "equally valid"
+          ],
+          "tag": "verified",
+          "meter": null,
+          "scene": {
+            "type": "versus",
+            "left": "Original card",
+            "right": "e-Aadhaar print",
+            "left_sub": "valid",
+            "right_sub": "valid",
+            "winner": "right"
+          },
+          "kind": "point",
+          "screen": "Chaaron equally valid aur acceptable hain.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Front aur back ek A4 page par print karna hai?",
+          "voice": "फ्रंट और बैक एक A4 पेज पर प्रिंट करना है?",
+          "accent": [
+            "A4"
+          ],
+          "tag": "print",
+          "meter": null,
+          "scene": {
+            "type": "id_card",
+            "title": "Front + Back",
+            "name": "Riya Sharma",
+            "sub": "one A4 page"
+          },
+          "kind": "point",
+          "screen": "Front aur back ek A4 page par print karna hai?",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "ilovedocuments.ai par ID Card Print try karo. Free hai.",
+          "voice": "आई लव डॉक्यूमेंट्स डॉट ए आई पर आईडी कार्ड प्रिंट ट्राई करो. फ्री है.",
+          "accent": [
+            "ID Card Print"
+          ],
+          "tag": "free",
+          "meter": null,
+          "scene": {
+            "type": "browser",
+            "url": "ilovedocuments.ai",
+            "button": "ID Card Print"
+          },
+          "kind": "point",
+          "screen": "ilovedocuments.ai par ID Card Print try karo. Free hai.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Save kar lo, kaam aayega.",
+          "voice": "सेव कर लो, काम आएगा.",
+          "accent": [
+            "Save"
+          ],
+          "tag": "save",
+          "meter": null,
+          "scene": {
+            "type": "cta",
+            "keyword": "SAVE",
+            "line": "// Aadhaar print valid hai"
+          },
+          "kind": "cta",
+          "screen": "Save kar lo, kaam aayega.",
+          "emphasis": [],
+          "visual": null
+        }
+      ],
+      "caption": "Aadhaar ka print out lene se pehle doubt tha? UIDAI ke hisaab se Aadhaar letter, PVC card, e-Aadhaar aur mAadhaar sab equally valid hain.\nAapne kabhi print par form mein dikkat dekhi hai? Comment karo.\nilovedocuments.ai",
+      "hashtags": [
+        "#Aadhaar",
+        "#eAadhaar",
+        "#UIDAI",
+        "#IndiaForms",
+        "#PDFTools"
+      ]
+    },
+    "caption": "Aadhaar ka print out lene se pehle doubt tha? UIDAI ke hisaab se Aadhaar letter, PVC card, e-Aadhaar aur mAadhaar sab equally valid hain.\nAapne kabhi print par form mein dikkat dekhi hai? Comment karo.\nilovedocuments.ai\n\n#Aadhaar #eAadhaar #UIDAI #IndiaForms #PDFTools",
+    "video": "20261128-042851-hinglish.mp4",
+    "media_id": "18096037121202031",
+    "permalink": "https://www.instagram.com/reel/DgRaeCMhwbc/",
+    "posted_at": "2026-11-28T05:30:14+00:00",
+    "checked": [],
+    "slot": "11:00"
   }
 ]

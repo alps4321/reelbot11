@@ -41,6 +41,28 @@ def make(cfg, plan, playbook=None):
     }
 
 
+def make_from_script(cfg, path):
+    """Build a hand-written script (scripts/<name>.json) into out/<name>.mp4, plus out/<name>.json, the queue
+    item that posts it once both are moved into queue/. Nothing is posted here."""
+    import json
+    from pathlib import Path
+    path = Path(path)
+    s = json.loads(path.read_text())
+    lang = next(l for l in cfg["content"]["languages"] if l["id"] == s.get("language", "hinglish"))
+    work = OUT / f"{path.stem}-work"
+    work.mkdir(parents=True, exist_ok=True)
+    audio, speech, starts, total = voice.synthesize(cfg, lang, s["scenes"], work, pace=s.get("pace", "natural"))
+    video = render3d.render(cfg, s, audio, speech, starts, total, OUT / f"{path.stem}.mp4")
+    shutil.rmtree(work, ignore_errors=True)
+    item = {"video": f"queue/{video.name}", "language": lang["id"], "topic": s.get("topic", "general"),
+            "hook_style": s.get("hook_style", "manual"), "format": s.get("format", "manual"),
+            "hook": s["scenes"][0].get("screen", ""), "seconds": round(total, 1), "title": s.get("title", ""),
+            "caption": s["caption"].strip() + "\n\n" + " ".join(s.get("hashtags", []))}
+    (OUT / f"{path.stem}.json").write_text(json.dumps(item, ensure_ascii=False, indent=1))
+    print(f"out/{video.name}  {total:.1f}s  (move it and out/{path.stem}.json into queue/ to post it)")
+    return video
+
+
 def go_live_time(cfg, started):
     """The posting time this run is for: the first one in posting.times after the run started, if it is
     within 90 minutes (runs start about 70 minutes early so the reel is ready in time). A run started at any

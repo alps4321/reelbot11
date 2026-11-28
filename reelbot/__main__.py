@@ -1,4 +1,4 @@
-"""Command line:  python -m reelbot <run|make|check|watch|scout|audience|digest|alert|research|analyze|report>"""
+"""Command line:  python -m reelbot <run|make|script|check|watch|scout|audience|digest|alert|research|analyze|report>"""
 import os
 import sys
 
@@ -41,6 +41,11 @@ def main():
         for lang in wanted:
             post = pipeline.make(cfg, learn.next_plan(cfg, lang, 0))
             print(f"out/{post['video']}  {post['seconds']}s  hook: {post['hook']}")
+    elif cmd == "script":       # build a hand-written script into out/ without posting
+        path = sys.argv[2] if len(sys.argv) > 2 else os.environ.get("REELBOT_SCRIPT", "")
+        if not path:
+            raise SystemExit("usage: python -m reelbot script scripts/<name>.json")
+        pipeline.make_from_script(cfg, path)
     elif cmd == "check":        # confirm the Instagram and Claude keys work
         from . import claude
         sec = cfg["secrets"]

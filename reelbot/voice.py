@@ -281,7 +281,11 @@ WHOOSHES = ("whoosh", "whoosh_2", "whoosh_deep")
 
 
 def reveal_shot(scenes):
-    """The shot where the answer appears: the first text or size-drop panel after the opening, else the first success."""
+    """The shot where the answer appears: one marked "reveal" in a hand-written script, else the first text or
+    size-drop panel after the opening, else the first success."""
+    marked = next((i for i, sc in enumerate(scenes) if sc.get("reveal")), None)
+    if marked is not None:
+        return marked
     i = next((i for i, sc in enumerate(scenes) if i >= 2 and _panel(sc) in ("text", "size_drop")), None)
     return i if i is not None else next((i for i, sc in enumerate(scenes) if i >= 2 and _panel(sc) == "success"), None)
 

@@ -21,6 +21,10 @@ on:  # schedules run because the repo is public (free plans do not run them in p
         description: "Which reel this run is for, e.g. 11:00 (skips it if already live). Empty = next reel, now"
         type: string
         default: ""
+      script:
+        description: "Build this hand-written script (e.g. scripts/docu_magic_trick.json) as a preview video; never posts"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -76,11 +80,12 @@ jobs:
           TG_CHAT_FILE: .tgchat/tg_chat
           REELBOT_SCHEDULE: ${{ github.event.schedule }}
           REELBOT_SLOT: ${{ inputs.slot }}
+          REELBOT_SCRIPT: ${{ inputs.script }}
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           PYTHONUNBUFFERED: "1"
           # Posts only when the Instagram token is set and dry_run is not ticked
           DRY_RUN: ${{ inputs.dry_run || secrets.IG_ACCESS_TOKEN == '' }}
-        run: python -m reelbot ${{ inputs.check_only && 'check' || 'run' }}
+        run: python -m reelbot ${{ inputs.check_only && 'check' || inputs.script && 'script' || 'run' }}
       - name: Save results and report
         if: always()
         run: |
@@ -102,7 +107,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: reel-${{ github.run_id }}
-          path: out/*.mp4
+          path: |
+            out/*.mp4
+            out/*.json
           retention-days: 7
           if-no-files-found: ignore
       - name: Tell me on Telegram if it failed

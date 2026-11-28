@@ -1,0 +1,423 @@
+{
+ "language": "hinglish",
+ "topic": "general",
+ "format": "magic_trick",
+ "hook_style": "challenge",
+ "pace": "natural",
+ "title": "Docu ka magic trick: battery % aur exact umar",
+ "note": "Own version of the calculator trick format (owner's request, 28 Nov). (b*2+5)*50 = 100b+250; +1776 - birth year = 100b + age when the 2026 birthday has passed. Works in 2026 only.",
+ "scenes": [
+  {
+   "kind": "hook",
+   "screen": "Phone dekhe bina battery % aur exact umar?",
+   "emphasis": [
+    "umar?"
+   ],
+   "label": null,
+   "say": "Docu bolta hai: phone dekhe bina, tumhari battery aur exact umar bata dega!",
+   "voice": "डॉक्यू बोलता है: फ़ोन देखे बिना, तुम्हारी बैटरी और एग्ज़ैक्ट उमर बता देगा!",
+   "set": "bedroom",
+   "camera": "push_in",
+   "shake": null,
+   "actors": [
+    {
+     "mascot": true,
+     "pose": "talk",
+     "x": -0.65,
+     "z": 0.6,
+     "look": "right"
+    },
+    {
+     "color": "orange",
+     "pose": "panic",
+     "x": 0.7,
+     "look": "left"
+    }
+   ],
+   "props": [],
+   "visual": null
+  },
+  {
+   "kind": "point",
+   "screen": "",
+   "emphasis": [],
+   "label": null,
+   "say": "Pappu bola: jhooth! Aisa koi jaadu nahi hota.",
+   "voice": "पप्पू बोला: झूठ! ऐसा कोई जादू नहीं होता।",
+   "set": "bedroom",
+   "camera": "close",
+   "shake": null,
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "yell",
+     "x": 0,
+     "look": "camera"
+    }
+   ],
+   "props": [
+    {
+     "type": "panel",
+     "show": "text",
+     "text": "JHOOTH!"
+    }
+   ],
+   "visual": null
+  },
+  {
+   "kind": "point",
+   "screen": "",
+   "emphasis": [],
+   "label": "5 EASY STEPS",
+   "say": "Docu: calculator kholo, bas 5 steps.",
+   "voice": "डॉक्यू: कैलकुलेटर खोलो, बस पाँच स्टेप्स।",
+   "set": "bedroom",
+   "camera": "push_in",
+   "shake": null,
+   "actors": [
+    {
+     "mascot": true,
+     "pose": "wave",
+     "x": -0.7,
+     "z": 0.6,
+     "look": "right"
+    },
+    {
+     "color": "orange",
+     "pose": "phone",
+     "x": 0.6,
+     "look": "left"
+    }
+   ],
+   "props": [],
+   "visual": null
+  },
+  {
+   "kind": "point",
+   "screen": "",
+   "emphasis": [],
+   "label": "STEP 1 OF 5",
+   "say": "Step 1: battery percentage ko 2 se guna karo.",
+   "voice": "स्टेप वन: बैटरी परसेंटेज को दो से गुणा करो।",
+   "set": "bedroom",
+   "camera": "push_in",
+   "shake": null,
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "phone",
+     "x": 0,
+     "look": "camera"
+    }
+   ],
+   "props": [
+    {
+     "type": "panel",
+     "show": "text",
+     "text": "BATTERY % × 2\n60 × 2 = 120"
+    }
+   ],
+   "visual": null
+  },
+  {
+   "kind": "point",
+   "screen": "",
+   "emphasis": [],
+   "label": "STEP 2 OF 5",
+   "say": "Step 2: jawab mein 5 jodo.",
+   "voice": "स्टेप टू: जवाब में पाँच जोड़ो।",
+   "set": "office",
+   "camera": "push_in",
+   "shake": null,
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "phone",
+     "x": 0,
+     "look": "camera"
+    }
+   ],
+   "props": [
+    {
+     "type": "panel",
+     "show": "text",
+     "text": "+ 5\n120 + 5 = 125"
+    }
+   ],
+   "visual": null
+  },
+  {
+   "kind": "point",
+   "screen": "",
+   "emphasis": [],
+   "label": "STEP 3 OF 5",
+   "say": "Step 3: ab 50 se guna karo.",
+   "voice": "स्टेप थ्री: अब पचास से गुणा करो।",
+   "set": "office",
+   "camera": "push_in",
+   "shake": null,
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "phone",
+     "x": 0,
+     "look": "camera"
+    }
+   ],
+   "props": [
+    {
+     "type": "panel",
+     "show": "text",
+     "text": "× 50\n125 × 50 = 6250"
+    }
+   ],
+   "visual": null
+  },
+  {
+   "kind": "point",
+   "screen": "",
+   "emphasis": [],
+   "label": "STEP 4 OF 5",
+   "say": "Step 4: is saal birthday ho gaya, to 1776 jodo. Abhi baaki hai, to 1775.",
+   "voice": "स्टेप फ़ोर: इस साल बर्थडे हो गया, तो सत्रह सौ छिहत्तर जोड़ो। अभी बाकी है, तो सत्रह सौ पचहत्तर।",
+   "set": "park",
+   "camera": "push_in",
+   "shake": null,
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "phone",
+     "x": 0,
+     "look": "camera"
+    }
+   ],
+   "props": [
+    {
+     "type": "panel",
+     "show": "text",
+     "text": "Ho gaya: + 1776\nBaaki: + 1775"
+    }
+   ],
+   "visual": null
+  },
+  {
+   "kind": "point",
+   "screen": "",
+   "emphasis": [],
+   "label": "STEP 5 OF 5",
+   "say": "Step 5: isme se apna janam ka saal ghatao.",
+   "voice": "स्टेप फ़ाइव: इसमें से अपना जन्म का साल घटाओ।",
+   "set": "park",
+   "camera": "push_in",
+   "shake": null,
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "phone",
+     "x": 0,
+     "look": "camera"
+    }
+   ],
+   "props": [
+    {
+     "type": "panel",
+     "show": "text",
+     "text": "− BIRTH YEAR\n8026 − 2000 = 6026"
+    }
+   ],
+   "visual": null
+  },
+  {
+   "kind": "point",
+   "screen": "",
+   "emphasis": [],
+   "label": "NO CHEATING",
+   "say": "Sharma Uncle ka aaya 39. Uncle, birth year sahi daalo!",
+   "voice": "शर्मा अंकल का आया उनतालीस। अंकल, बर्थ ईयर सही डालो!",
+   "set": "office",
+   "camera": "wide",
+   "shake": true,
+   "actors": [
+    {
+     "color": "grey",
+     "tie": true,
+     "pose": "panic",
+     "x": -0.7,
+     "look": "right"
+    },
+    {
+     "color": "purple",
+     "pose": "point",
+     "x": 0.7,
+     "look": "left"
+    }
+   ],
+   "props": [
+    {
+     "type": "panel",
+     "show": "text",
+     "text": "UNCLE: 39 ?!"
+    }
+   ],
+   "visual": null
+  },
+  {
+   "kind": "point",
+   "screen": "",
+   "emphasis": [],
+   "label": "JALDI KARO!",
+   "say": "Jaldi! Teen, do, ek!",
+   "voice": "जल्दी! तीन... दो... एक!",
+   "set": "office",
+   "camera": "push_in",
+   "shake": null,
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "panic",
+     "x": 0,
+     "look": "camera"
+    }
+   ],
+   "props": [
+    {
+     "type": "clock",
+     "text": "3 · 2 · 1"
+    }
+   ],
+   "visual": null
+  },
+  {
+   "kind": "point",
+   "screen": "",
+   "emphasis": [],
+   "label": "COMMENT KARO",
+   "say": "Jo number aaya, comment mein likho.",
+   "voice": "जो नंबर आया, कमेंट में लिखो।",
+   "set": "bedroom",
+   "camera": "push_in",
+   "shake": null,
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "phone",
+     "x": 0.6,
+     "look": "camera"
+    },
+    {
+     "color": "purple",
+     "pose": "point",
+     "x": -0.6,
+     "look": "right"
+    }
+   ],
+   "props": [
+    {
+     "type": "panel",
+     "show": "text",
+     "text": "COMMENT:\n6026"
+    }
+   ],
+   "visual": null
+  },
+  {
+   "kind": "point",
+   "screen": "",
+   "emphasis": [],
+   "label": "ASLI JAADU!",
+   "say": "Ab jaadu: pehle wale digits, tumhari battery percentage.",
+   "voice": "अब जादू... पहले वाले डिजिट्स, तुम्हारी बैटरी परसेंटेज।",
+   "set": "night",
+   "camera": "push_in",
+   "shake": null,
+   "actors": [
+    {
+     "color": "orange",
+     "pose": "panic",
+     "x": 0,
+     "look": "camera"
+    }
+   ],
+   "props": [
+    {
+     "type": "panel",
+     "show": "text",
+     "text": "60 | 26\nBATTERY %"
+    }
+   ],
+   "visual": null,
+   "reveal": true
+  },
+  {
+   "kind": "point",
+   "screen": "",
+   "emphasis": [],
+   "label": "ASLI JAADU!",
+   "say": "Aur aakhri do digits, tumhari exact umar!",
+   "voice": "और आखिरी दो डिजिट्स, तुम्हारी एग्ज़ैक्ट उमर!",
+   "set": "night",
+   "camera": "orbit",
+   "shake": true,
+   "actors": [
+    {
+     "color": "purple",
+     "pose": "cheer",
+     "x": -0.6,
+     "look": "camera"
+    },
+    {
+     "color": "orange",
+     "pose": "cheer",
+     "x": 0.6,
+     "look": "camera"
+    }
+   ],
+   "props": [
+    {
+     "type": "panel",
+     "show": "text",
+     "text": "60 | 26\nEXACT UMAR"
+    }
+   ],
+   "visual": null
+  },
+  {
+   "kind": "cta",
+   "screen": "Free. No sign-up. No watermark.",
+   "emphasis": [
+    "Free."
+   ],
+   "label": null,
+   "say": "Yahi trick dost pe chalao. Aur PDF ka koi bhi kaam ho, Docu hai na: ilovedocuments.ai.",
+   "voice": "यही ट्रिक दोस्त पे चलाओ। और पीडीएफ़ का कोई भी काम हो, डॉक्यू है ना: आई लव डॉक्यूमेंट्स डॉट ए आई।",
+   "set": "bedroom",
+   "camera": "wide",
+   "shake": null,
+   "actors": [
+    {
+     "color": "grey",
+     "tie": true,
+     "pose": "cheer",
+     "x": -0.6,
+     "look": "camera"
+    },
+    {
+     "color": "orange",
+     "pose": "cheer",
+     "x": 0.6,
+     "look": "camera"
+    }
+   ],
+   "props": [],
+   "visual": null
+  }
+ ],
+ "caption": "Docu ka magic trick 🎩✨\nPhone dekhe bina battery % aur exact umar! Calculator kholo, 5 steps karo aur apna number comment mein likho 👇\nYahi trick dost pe try karo 😄 (ye trick sirf 2026 mein chalti hai 😉)\n\nPDF aur photo ke free tools: ilovedocuments.ai",
+ "hashtags": [
+  "#magictrick",
+  "#mathtrick",
+  "#calculatortrick",
+  "#mindblown",
+  "#ilovedocuments"
+ ]
+}

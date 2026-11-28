@@ -1,65 +1,5 @@
 [
   {
-    "tool": "unlock_aadhaar",
-    "format": "scary_checklist_countdown",
-    "hook_en": "Your Aadhaar PDF is hiding something. Check these 3 things, and the last one will surprise you.",
-    "hook_hinglish": "Tumhara Aadhaar PDF kuch chhupa raha hai. Ye 3 cheezein check karo, aakhri wali chaunkaa degi.",
-    "angle": "A student can't open a downloaded Aadhaar PDF before a form deadline, and the narrator walks through 3 quick checks (password format, file name, file size) before the unlock tool fixes it.",
-    "from": "https://www.instagram.com/reel/Df9hfN2vV3k/",
-    "added": "2026-11-22T04:33:40+00:00",
-    "used": 0
-  },
-  {
-    "tool": "compress_pdf_kb",
-    "format": "claim_then_three_proofs",
-    "hook_en": "This is the only PDF compressor you need for form uploads, and here are 3 proofs.",
-    "hook_hinglish": "Form upload ke liye bas yehi PDF compressor chahiye, aur ye rahe 3 saboot.",
-    "angle": "A job seeker has three rejected uploads (4 MB, 2 MB, 900 KB) and each shrinks under the portal limit while staying readable.",
-    "from": "https://www.instagram.com/reel/DgANOxJASRO/",
-    "added": "2026-11-22T04:33:40+00:00",
-    "used": 0
-  },
-  {
-    "tool": "resize_photo_kb",
-    "format": "relatable_roast_reassure",
-    "hook_en": "Oh, your photo got rejected again? Everybody has been stuck on 20 KB at least once.",
-    "hook_hinglish": "Oh, tumhari photo phir reject ho gayi? 20 KB pe sab kabhi na kabhi atke hain.",
-    "angle": "A friend teases a classmate whose photo keeps failing the 20-50 KB rule, then shows the fix and the success panel.",
-    "from": "https://www.instagram.com/reel/Df4jniBzAZz/",
-    "added": "2026-11-22T04:33:40+00:00",
-    "used": 0
-  },
-  {
-    "tool": "merge_pdf",
-    "format": "everyday_analogy_explainer",
-    "hook_en": "Sending 6 separate PDFs is like sending 6 separate suitcases. Here is the one-bag fix.",
-    "hook_hinglish": "6 alag PDF bhejna matlab 6 alag suitcase bhejna. Ye hai ek bag wala fix.",
-    "angle": "An HR person only sees the first file out of six, so the applicant merges everything into one PDF in the right order.",
-    "from": "https://www.instagram.com/reel/Df19Smbv_6d/",
-    "added": "2026-11-22T04:33:40+00:00",
-    "used": 0
-  },
-  {
-    "tool": "bank_statement_excel",
-    "format": "scary_checklist_countdown",
-    "hook_en": "Your bank statement is stuck in a PDF. Do these 3 steps, and the last one saves hours.",
-    "hook_hinglish": "Tumhara bank statement PDF mein atka hai. Ye 3 steps karo, aakhri wala ghanton bachayega.",
-    "angle": "A student has to total months of spending by hand, tries copying and pasting, and then converts the whole statement to Excel in one go.",
-    "from": "https://www.instagram.com/reel/Df9hfN2vV3k/",
-    "added": "2026-11-22T04:33:40+00:00",
-    "used": 0
-  },
-  {
-    "tool": "signature_bg_remover",
-    "format": "claim_then_three_proofs",
-    "hook_en": "This is the cleanest signature fix ever. See it work on 3 messy scans.",
-    "hook_hinglish": "Ye ab tak ka sabse clean signature fix hai. 3 gande scan pe chalte dekho.",
-    "angle": "Three signatures on crumpled paper, phone shadow and blue-ink scans turn into clean transparent files ready for forms.",
-    "from": "https://www.instagram.com/reel/DgANOxJASRO/",
-    "added": "2026-11-22T04:33:40+00:00",
-    "used": 0
-  },
-  {
     "tool": "compress_pdf_kb",
     "format": "fine_print_reveal",
     "hook_en": "The form said max 200 KB. Your PDF is 4 MB. Here's the catch nobody mentions.",
@@ -797,6 +737,66 @@
     "angle": "A character tries five apps, each with watermarks and ads, before the 3D narrator shows JPG to PDF finishing in one tap.",
     "from": "https://www.instagram.com/reel/Df6fppGjy6i/",
     "added": "2026-11-27T13:03:47+00:00",
+    "used": 0
+  },
+  {
+    "tool": "resize_photo_kb",
+    "format": "best_under_limit_picks",
+    "hook_en": "Your photo is 3 MB. The form wants 20 to 50 KB. Here are 3 ways it goes.",
+    "hook_hinglish": "Photo 3 MB ki hai, form ko 20 se 50 KB chahiye. Teen raaste, ek hi sahi.",
+    "angle": "A student tries three fixes on a photo that is too big for an exam form. Two fail and the third, the site, works on the first go.",
+    "from": "https://www.instagram.com/reel/DgKvydVBPLq/",
+    "added": "2026-11-28T04:01:07+00:00",
+    "used": 0
+  },
+  {
+    "tool": "compress_pdf_kb",
+    "format": "deadline_story",
+    "hook_en": "The form portal changed its file limit overnight. This is what to do.",
+    "hook_hinglish": "Portal ne raat bhar mein file limit badal di. Ab kya karein?",
+    "angle": "A job seeker finds the new 200 KB limit just before the deadline. He compresses his PDF in a few seconds and submits it.",
+    "from": "https://www.instagram.com/reel/Df_fJqTo023/",
+    "added": "2026-11-28T04:01:07+00:00",
+    "used": 0
+  },
+  {
+    "tool": "unlock_aadhaar",
+    "format": "instant_demo_cold_open",
+    "hook_en": "Your Aadhaar PDF won't open. Watch this.",
+    "hook_hinglish": "Aadhaar PDF khul nahi rahi? Bas ye dekho.",
+    "angle": "The reel opens on the locked file and the error. In seconds the narrator unlocks it and the success panel appears.",
+    "from": "https://www.instagram.com/reel/Dfq4kcgSro_/",
+    "added": "2026-11-28T04:01:07+00:00",
+    "used": 0
+  },
+  {
+    "tool": "resize_signature_kb",
+    "format": "explainer",
+    "hook_en": "A signature with one odd problem: it is too sharp for the form.",
+    "hook_hinglish": "Signature mein ek ajeeb problem: form ko 10 se 20 KB chahiye.",
+    "angle": "A narrator explains why a scanned signature is too big, then shrinks it to 10 to 20 KB and shows that it still looks clean.",
+    "from": "https://www.instagram.com/reel/DfrdlF0PB3V/",
+    "added": "2026-11-28T04:01:07+00:00",
+    "used": 0
+  },
+  {
+    "tool": "merge_pdf",
+    "format": "numbered_free_tools_showcase",
+    "hook_en": "Merge your Aadhaar, marksheet and photo into one PDF. Wait, not like that.",
+    "hook_hinglish": "Aadhaar, marksheet aur photo ek PDF mein joddo. Ruko, aise nahi.",
+    "angle": "A character joins files badly, in the wrong order. A 'Ruko' beat stops the story and the tool puts them right in one pass.",
+    "from": "https://www.instagram.com/reel/DgP2UVwv0a0/",
+    "added": "2026-11-28T04:01:07+00:00",
+    "used": 0
+  },
+  {
+    "tool": "remove_background",
+    "format": "what_if",
+    "hook_en": "What if your passport photo had a clean white background in 5 seconds?",
+    "hook_hinglish": "Agar passport photo ka background 5 second mein saaf white ho jaye toh?",
+    "angle": "A character is rejected at a photo studio queue because of a messy background. The 3D story then shows the fix running free in the browser.",
+    "from": "https://www.instagram.com/reel/Dfq4kcgSro_/",
+    "added": "2026-11-28T04:01:07+00:00",
     "used": 0
   }
 ]

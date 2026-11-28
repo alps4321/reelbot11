@@ -1,12 +1,6 @@
 {
   "samples": [
     {
-      "wps": 2.47,
-      "pause_s": 0.51,
-      "lang": "en",
-      "per_k": 6.0
-    },
-    {
       "wps": 2.2,
       "pause_s": 6.5,
       "lang": "hi",
@@ -239,10 +233,16 @@
       "pause_s": 0.31,
       "lang": "en",
       "per_k": 20.1
+    },
+    {
+      "wps": 3.34,
+      "pause_s": 0.29,
+      "lang": "hi",
+      "per_k": 15.3
     }
   ],
-  "notes": "The best speaker here keeps a fast pace of about 3 words per second with short pauses, and opens within half a second of the first frame. Stress falls on the bold claim and the 'best part' line, and a number such as 'under 10 minutes' lands the payoff.",
-  "updated": "2026-11-27T13:03:47+00:00",
-  "words_per_second": 3.23,
-  "pause_s": 0.35
+  "notes": "The best speakers start on the first word at 0 s and keep a quick pace of about 3 words a second. Pauses are short, about 0.3 s, with a lifted tone on the key words and a clear stop on beats like 'Ruko!'.",
+  "updated": "2026-11-28T04:01:07+00:00",
+  "words_per_second": 3.29,
+  "pause_s": 0.34
 }

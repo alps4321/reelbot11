@@ -5630,7 +5630,8 @@
       24,
       48,
       72,
-      120
+      120,
+      168
     ],
     "slot": "11:00",
     "metrics": {
@@ -5702,6 +5703,17 @@
         "shares": 5,
         "saved": 3,
         "total_interactions": 15,
+        "avg_watch_s": 6.3
+      },
+      {
+        "at": "2026-11-28T03:59:24+00:00",
+        "hours": 168,
+        "views": 290,
+        "reach": 252,
+        "likes": 7,
+        "comments": 0,
+        "shares": 5,
+        "saved": 3,
         "avg_watch_s": 6.3
       }
     ]
@@ -7488,18 +7500,19 @@
       6,
       24,
       48,
-      72
+      72,
+      120
     ],
     "slot": "11:00",
     "metrics": {
       "views": 184,
-      "reach": 162,
+      "reach": 163,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "avg_watch_s": 4.4,
-      "views_last_hour": 0
+      "total_interactions": 1,
+      "avg_watch_s": 4.4
     },
     "history": [
       {
@@ -7542,6 +7555,18 @@
         "hours": 72,
         "views": 184,
         "reach": 162,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 1,
+        "avg_watch_s": 4.4
+      },
+      {
+        "at": "2026-11-28T06:29:28+00:00",
+        "hours": 120,
+        "views": 184,
+        "reach": 163,
         "likes": 1,
         "comments": 0,
         "shares": 0,
@@ -9255,7 +9280,8 @@
     "checked": [
       6,
       24,
-      48
+      48,
+      72
     ],
     "slot": "11:00",
     "metrics": {
@@ -9265,8 +9291,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 3,
-      "avg_watch_s": 6.4,
-      "views_last_hour": 0
+      "total_interactions": 6,
+      "avg_watch_s": 6.4
     },
     "history": [
       {
@@ -9295,6 +9321,18 @@
       {
         "at": "2026-11-27T06:28:46+00:00",
         "hours": 48,
+        "views": 368,
+        "reach": 314,
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "saved": 3,
+        "total_interactions": 6,
+        "avg_watch_s": 6.4
+      },
+      {
+        "at": "2026-11-28T06:29:29+00:00",
+        "hours": 72,
         "views": 368,
         "reach": 314,
         "likes": 3,
@@ -10098,7 +10136,8 @@
     "posted_at": "2026-11-26T05:30:13+00:00",
     "checked": [
       6,
-      24
+      24,
+      48
     ],
     "slot": "11:00",
     "metrics": {
@@ -10108,8 +10147,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "avg_watch_s": 4.1,
-      "views_last_hour": 0
+      "total_interactions": 4,
+      "avg_watch_s": 4.1
     },
     "history": [
       {
@@ -10126,6 +10165,18 @@
       {
         "at": "2026-11-27T06:28:47+00:00",
         "hours": 24,
+        "views": 211,
+        "reach": 180,
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
+        "total_interactions": 4,
+        "avg_watch_s": 4.1
+      },
+      {
+        "at": "2026-11-28T06:29:30+00:00",
+        "hours": 48,
         "views": 211,
         "reach": 180,
         "likes": 3,
@@ -10901,7 +10952,8 @@
     "permalink": "https://www.instagram.com/reel/DgO1I2mudzS/",
     "posted_at": "2026-11-27T05:30:12+00:00",
     "checked": [
-      6
+      6,
+      24
     ],
     "slot": "11:00",
     "metrics": {
@@ -10911,8 +10963,8 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "avg_watch_s": 3.0,
-      "views_last_hour": 4
+      "total_interactions": 1,
+      "avg_watch_s": 3.0
     },
     "history": [
       {
@@ -10925,6 +10977,18 @@
         "shares": 0,
         "saved": 0,
         "avg_watch_s": 2.7
+      },
+      {
+        "at": "2026-11-28T06:29:30+00:00",
+        "hours": 24,
+        "views": 145,
+        "reach": 129,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 1,
+        "avg_watch_s": 3.0
       }
     ]
   },
@@ -11666,5 +11730,217 @@
     "posted_at": "2026-11-28T05:30:14+00:00",
     "checked": [],
     "slot": "11:00"
+  },
+  {
+    "id": "20261128-062948-english",
+    "created_at": "2026-11-28T06:36:10+00:00",
+    "language": "english",
+    "topic": "convert_image",
+    "hook_style": "bold_claim",
+    "format": "did_you_know",
+    "pace": "natural",
+    "distance": "near",
+    "answer": null,
+    "idea": "",
+    "plan_reason": "testing a less-tried tool; hook style: explore; format: new test; pace: best so far; distance: explore",
+    "title": "Your iPhone photo is not a normal JPG",
+    "hook": "Your iPhone photo is secretly not a JPG.",
+    "seconds": 26.6,
+    "script": {
+      "title": "Your iPhone photo is not a normal JPG",
+      "scenes": [
+        {
+          "say": "Your iPhone photo is secretly not a JPG.",
+          "voice": "Your iPhone photo is secretly... not a J P G.",
+          "accent": [
+            "not a JPG"
+          ],
+          "tag": "did you know",
+          "meter": null,
+          "scene": {
+            "type": "big_text",
+            "text": "NOT A JPG",
+            "sub": "iPhone photo"
+          },
+          "kind": "hook",
+          "screen": "Your iPhone photo is secretly not a JPG.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "By default, many iPhones save photos as HEIC.",
+          "voice": "By default, many iPhones save photos as H E I C.",
+          "accent": [
+            "HEIC"
+          ],
+          "tag": "the fact",
+          "meter": {
+            "label": "FORMAT",
+            "value": "HEIC"
+          },
+          "scene": {
+            "type": "phone_upload",
+            "state": "error",
+            "file": "IMG_2041.HEIC",
+            "size": "1.6 MB",
+            "text": "Format not supported",
+            "title": "Upload failed"
+          },
+          "kind": "point",
+          "screen": "By default, many iPhones save photos as HEIC.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "It looks the same, but the extension is different.",
+          "voice": "It looks the same... but the extension is different.",
+          "accent": [
+            "extension"
+          ],
+          "tag": "the fact",
+          "meter": null,
+          "scene": {
+            "type": "versus",
+            "left": ".JPG",
+            "right": ".HEIC",
+            "left_sub": "Forms accept",
+            "right_sub": "Many forms reject",
+            "winner": "left"
+          },
+          "kind": "point",
+          "screen": "It looks the same, but the extension is different.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Many exam and job portals only accept JPG or JPEG.",
+          "voice": "Many exam and job portals only accept J P G or J PEG.",
+          "accent": [
+            "JPG or JPEG"
+          ],
+          "tag": "why it matters",
+          "meter": null,
+          "scene": {
+            "type": "checklist",
+            "title": "Photo upload rules",
+            "items": [
+              "Format: JPG",
+              "Format: JPEG",
+              "Format: PNG"
+            ]
+          },
+          "kind": "point",
+          "screen": "Many exam and job portals only accept JPG or JPEG.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "So the photo opens fine, but the upload fails.",
+          "voice": "So the photo opens fine... but the upload fails.",
+          "accent": [
+            "upload fails"
+          ],
+          "tag": "why it matters",
+          "meter": null,
+          "scene": {
+            "type": "warning",
+            "text": "Opens fine. Upload fails."
+          },
+          "kind": "point",
+          "screen": "So the photo opens fine, but the upload fails.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Renaming the file to .jpg does not fix it.",
+          "voice": "Renaming the file to dot J P G does not fix it.",
+          "accent": [
+            "does not fix it"
+          ],
+          "tag": "common mistake",
+          "meter": null,
+          "scene": {
+            "type": "stamp",
+            "word": "NO",
+            "on": "photo.heic → photo.jpg",
+            "label": "Rename only"
+          },
+          "kind": "point",
+          "screen": "Renaming the file to .jpg does not fix it.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "You need to actually convert the file.",
+          "voice": "You need to actually convert the file.",
+          "accent": [
+            "convert"
+          ],
+          "tag": "the fix",
+          "meter": null,
+          "scene": {
+            "type": "convert",
+            "from": "HEIC",
+            "to": "JPG",
+            "text": "Real conversion"
+          },
+          "kind": "point",
+          "screen": "You need to actually convert the file.",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "On ilovedocuments.ai, Convert Image does many photos at once.",
+          "voice": "On I love documents dot A I, Convert Image does many photos at once.",
+          "accent": [
+            "Convert Image"
+          ],
+          "tag": "free tool",
+          "meter": null,
+          "scene": {
+            "type": "browser",
+            "url": "ilovedocuments.ai",
+            "button": "Convert Image"
+          },
+          "kind": "point",
+          "screen": "On ilovedocuments.ai, Convert Image does many photos at once",
+          "emphasis": [],
+          "visual": null
+        },
+        {
+          "say": "Free, no sign up. Save this reel for later.",
+          "voice": "Free, no sign up. Save this reel for later.",
+          "accent": [
+            "Save"
+          ],
+          "tag": "save it",
+          "meter": null,
+          "scene": {
+            "type": "cta",
+            "keyword": "SAVE",
+            "line": "// HEIC to JPG, free"
+          },
+          "kind": "cta",
+          "screen": "Free, no sign up. Save this reel for later.",
+          "emphasis": [],
+          "visual": null
+        }
+      ],
+      "caption": "Your iPhone photo opens fine, but the form says wrong format. Now you know why.\nHEIC and JPG look the same but are not the same file.\nHave you faced this error on a form? Tell us below.\nilovedocuments.ai",
+      "hashtags": [
+        "#iPhone",
+        "#HEIC",
+        "#JPG",
+        "#OnlineForms",
+        "#ilovedocuments"
+      ]
+    },
+    "caption": "Your iPhone photo opens fine, but the form says wrong format. Now you know why.\nHEIC and JPG look the same but are not the same file.\nHave you faced this error on a form? Tell us below.\nilovedocuments.ai\n\n#iPhone #HEIC #JPG #OnlineForms #ilovedocuments",
+    "video": "20261128-062948-english.mp4",
+    "media_id": "17920074366502032",
+    "permalink": "https://www.instagram.com/reel/DgRoCPAgezW/",
+    "posted_at": "2026-11-28T07:30:09+00:00",
+    "checked": [],
+    "slot": "13:00"
   }
 ]

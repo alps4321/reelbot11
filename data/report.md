@@ -1,8 +1,8 @@
 # ReelBot report
 
-Updated 2026-11-28T09:17:32+00:00
+Updated 2026-11-28T11:00:11+00:00
 
-Reels made: 51. Posted: 41. Measured: 38.
+Reels made: 52. Posted: 42. Measured: 38.
 
 ## english: results by topic
 
@@ -170,6 +170,7 @@ Reels made: 51. Posted: 41. Measured: 38.
 
 | date | lang | topic | format | hook | views | watch s | likes | comments | shares | saves | score | link |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-11-28 | hinglish | unlock_pdf | secret_answer | e-PAN password PAN number nahi! |  |  |  |  |  |  |  | [open](https://www.instagram.com/reel/DgSCW0BvYwF/) |
 | 2026-11-28 | hinglish | unlock_pdf | secret_answer | e-PAN password PAN number nahi hai? |  |  |  |  |  |  |  | dry run |
 | 2026-11-28 | hinglish | unlock_pdf | secret_answer | e-PAN password PAN number nahi hota |  |  |  |  |  |  |  | dry run |
 | 2026-11-28 | hinglish | unlock_pdf | secret_answer | e-PAN ka password PAN number nahi hai |  |  |  |  |  |  |  | dry run |

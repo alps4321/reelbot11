@@ -12752,5 +12752,245 @@
     "caption": "e-PAN ka password = DOB, DDMMYYYY. PAN number nahi!\nSave kar lo, next form ke time kaam aayega.\nComment mein batao: kisne PAN number daala tha? 😄\nilovedocuments.ai\n\n#ePAN #PDFPassword #Hinglish #PANCard #ilovedocuments",
     "video": "20261128-090445-hinglish.mp4",
     "dry_run": true
+  },
+  {
+    "id": "20261128-101641-hinglish",
+    "created_at": "2026-11-28T10:26:10+00:00",
+    "language": "hinglish",
+    "topic": "unlock_pdf",
+    "hook_style": "contrarian",
+    "format": "secret_answer",
+    "pace": "natural",
+    "distance": "near",
+    "answer": "epan_password",
+    "idea": "",
+    "plan_reason": "proven tool (top 5, rotating); proven formula slot; hook style: best so far; format: best so far; pace: explore",
+    "title": "e-PAN password: PAN number nahi, ye hai",
+    "hook": "e-PAN password PAN number nahi!",
+    "seconds": 18.6,
+    "script": {
+      "title": "e-PAN password: PAN number nahi, ye hai",
+      "scenes": [
+        {
+          "kind": "hook",
+          "screen": "e-PAN password PAN number nahi!",
+          "emphasis": [
+            "nahi"
+          ],
+          "voice": "पप्पू ने PAN नंबर डाला... पासवर्ड गलत बोला!",
+          "say": "Pappu ne PAN number dala password galat bola!",
+          "label": "11:40 PM",
+          "set": "bedroom",
+          "camera": "push_in",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "panic",
+              "x": 0.0,
+              "look": "camera"
+            }
+          ],
+          "props": [],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Wrong password",
+          "emphasis": [
+            "Wrong"
+          ],
+          "voice": "फिर नाम डाला। फिर मोबाइल नंबर।",
+          "say": "Phir naam dala. Phir mobile number.",
+          "label": null,
+          "set": "bedroom",
+          "camera": "close",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "type",
+              "x": -0.6,
+              "look": "right",
+              "float": {
+                "text": "???",
+                "color": "#ff5a66"
+              }
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "error",
+              "file": "e-PAN.pdf",
+              "size": "120 KB",
+              "message": "Wrong password"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Jawab end mein hai",
+          "emphasis": [
+            "end"
+          ],
+          "voice": "जवाब end में है। पप्पू रो पड़ा!",
+          "say": "Jawab end mein hai. Pappu ro pada!",
+          "label": null,
+          "set": "bedroom",
+          "camera": "low",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "sad",
+              "x": -0.5,
+              "look": "camera"
+            },
+            {
+              "color": "purple",
+              "pose": "stand",
+              "x": 0.7,
+              "look": "left"
+            }
+          ],
+          "props": [],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Chinki: Birthday daal!",
+          "emphasis": [
+            "Birthday"
+          ],
+          "voice": "चिंकी बोली, भैया... बर्थडे डालो।",
+          "say": "Chinki boli, bhaiya birthday dalo.",
+          "label": null,
+          "set": "bedroom",
+          "camera": "wide",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "panic",
+              "x": -0.7,
+              "look": "right"
+            },
+            {
+              "color": "purple",
+              "pose": "point",
+              "x": 0.7,
+              "look": "left"
+            }
+          ],
+          "props": [],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "DDMMYYYY",
+          "emphasis": [
+            "DDMMYYYY"
+          ],
+          "voice": "पासवर्ड है DDMMYYYY, बिना space के।",
+          "say": "Password hai DDMMYYYY, bina space ke.",
+          "label": null,
+          "set": "bedroom",
+          "camera": "push_in",
+          "actors": [
+            {
+              "color": "purple",
+              "pose": "talk",
+              "x": 0.35,
+              "look": "left"
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "text",
+              "text": "15 Aug 1990 -> 15081990"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "point",
+          "screen": "Pappu: Docu, help!",
+          "emphasis": [
+            "Docu"
+          ],
+          "voice": "पप्पू ने 15081990 डाला... खुल गया!",
+          "say": "Pappu ne 15081990 dala khul gaya!",
+          "label": null,
+          "set": "bedroom",
+          "camera": "orbit",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "cheer",
+              "x": -0.6,
+              "look": "camera"
+            },
+            {
+              "color": "purple",
+              "pose": "wave",
+              "x": 0.7,
+              "look": "camera"
+            }
+          ],
+          "props": [
+            {
+              "type": "panel",
+              "show": "success",
+              "file": "e-PAN.pdf",
+              "size": "120 KB",
+              "message": "Opened"
+            }
+          ],
+          "visual": null
+        },
+        {
+          "kind": "cta",
+          "screen": "Free. No sign-up. No watermark.",
+          "emphasis": [
+            "Free"
+          ],
+          "voice": "सेव कर लो। आई लव डॉक्यूमेंट्स डॉट ए आई!",
+          "say": "Save kar lo. ilovedocuments.ai!",
+          "label": null,
+          "set": "bedroom",
+          "camera": "high",
+          "actors": [
+            {
+              "color": "orange",
+              "pose": "cheer",
+              "x": 0.2,
+              "look": "camera"
+            },
+            {
+              "color": "purple",
+              "pose": "cheer",
+              "x": 1.05,
+              "look": "camera"
+            }
+          ],
+          "props": [],
+          "visual": null
+        }
+      ],
+      "caption": "e-PAN ka password PAN number nahi hota. Birthday DDMMYYYY dalo, bas. 15 Aug 1990 = 15081990. Aapka kaunsa try hua pehle? Comment karo! Save kar lo. ilovedocuments.ai",
+      "hashtags": [
+        "#ePAN",
+        "#PANcard",
+        "#PDFpassword",
+        "#Hinglish",
+        "#ilovedocuments"
+      ]
+    },
+    "caption": "e-PAN ka password PAN number nahi hota. Birthday DDMMYYYY dalo, bas. 15 Aug 1990 = 15081990. Aapka kaunsa try hua pehle? Comment karo! Save kar lo. ilovedocuments.ai\n\n#ePAN #PANcard #PDFpassword #Hinglish #ilovedocuments",
+    "video": "20261128-101641-hinglish.mp4",
+    "media_id": "18119280749111681",
+    "permalink": "https://www.instagram.com/reel/DgSCW0BvYwF/",
+    "posted_at": "2026-11-28T11:00:11+00:00",
+    "checked": [],
+    "slot": "16:30"
   }
 ]

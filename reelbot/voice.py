@@ -10,7 +10,7 @@ from pathlib import Path
 
 import requests
 
-from .config import ROOT
+from .config import ASSETS, ROOT
 
 RATE = 44100
 VOICES = ROOT / "voices"
@@ -260,6 +260,58 @@ def _sfx(name):
     return out
 
 
+SFX_DIR = ASSETS / "sfx"
+_SFX_FILES = {}
+
+
+def _sfx_clip(name):
+    """A sound from assets/sfx (mono 44.1 kHz WAV, trimmed and levelled), else the synthesised one, else None."""
+    if name not in _SFX_FILES:
+        path = SFX_DIR / f"{name}.wav"
+        _SFX_FILES[name] = _read(path) if path.exists() else (
+            _sfx(name) if name in ("whoosh", "pop", "ding", "buzz", "thud") else None)
+    return _SFX_FILES[name]
+
+
+def _panel(sc):
+    return next((p.get("show") for p in sc.get("props") or [] if p.get("type") == "panel"), None)
+
+
+WHOOSHES = ("whoosh", "whoosh_2", "whoosh_deep")
+
+
+def story_sfx(scenes, starts, speech):
+    """Sound cues for a 3D cartoon story: (sound, seconds, gain). A whoosh on each cut, a pop as the hook lands,
+    a vine boom on the funny fail (at most twice), a riser into the answer and a magic reveal on it, a bubbly pop
+    on success, a click on clocks and time labels, a camera shutter on 'save this'."""
+    ev, booms = [], 0
+    reveal = next((i for i, sc in enumerate(scenes) if i >= 2 and _panel(sc) in ("text", "size_drop")), None)
+    if reveal is None:
+        reveal = next((i for i, sc in enumerate(scenes) if i >= 2 and _panel(sc) == "success"), None)
+    for i, sc in enumerate(scenes):
+        t0, panel = starts[i], _panel(sc)
+        poses = {a.get("pose") for a in sc.get("actors") or []}
+        if i == 0:
+            ev.append(("pop", t0 + 0.05, 0.6))
+        elif i == reveal:
+            ev.append(("riser_2", max(starts[i - 1], t0 - 2.3), 0.35))
+            ev.append(("magic_reveal", t0 + 0.05, 0.7))
+        elif sc.get("kind") == "cta":
+            ev.append(("whoosh_cinematic", t0 - 0.2, 0.4))
+        else:
+            ev.append((WHOOSHES[i % len(WHOOSHES)], t0 - 0.15, 0.45))
+        if (panel == "error" or poses & {"panic", "yell", "sad"}) and booms < 2 and i != reveal:
+            ev.append(("vine_boom", t0 + min(0.6, speech[i] * 0.5), 0.5))
+            booms += 1
+        if panel == "success" and i != reveal:
+            ev.append(("pop_bubbly", t0 + 0.3, 0.5))
+        if any(p.get("type") == "clock" for p in sc.get("props") or []) or sc.get("label"):
+            ev.append(("click", t0 + 0.15, 0.6))
+        if sc.get("kind") == "cta":
+            ev.append(("shutter", t0 + 0.1 + speech[i] * 0.6, 0.6))
+    return ev
+
+
 # Explainer reels: sounds placed on the animation's own beats (seconds after the shot starts; studio/explainer.js).
 def explainer_sfx(scene, dur=9.0):
     p, kind = scene or {}, (scene or {}).get("type")
@@ -285,13 +337,13 @@ def explainer_sfx(scene, dur=9.0):
     return table.get(kind, [])
 
 
-def _mix(track, clip, at):
+def _mix(track, clip, at, gain=1.0):
     start = max(0, int(at * RATE))
     for i, v in enumerate(clip):
         j = start + i
         if j >= len(track):
             break
-        track[j] = max(-32768, min(32767, track[j] + v))
+        track[j] = max(-32768, min(32767, track[j] + int(v * gain)))
 
 
 def synthesize(cfg, lang, scenes, workdir, gap=None, tail=1.0, pace="calm"):
@@ -347,7 +399,12 @@ def synthesize(cfg, lang, scenes, workdir, gap=None, tail=1.0, pace="calm"):
         track.extend(array("h", bytes(2 * int(RATE * pad))))
         t += dur + pad
 
-    if cfg["voice"].get("sound_effects"):
+    events = []                       # 3D stories: cues mixed after any speed-up, so the sounds keep their length
+    story = cfg["voice"].get("sound_effects") and not any(sc.get("scene") for sc in scenes) and any(
+        sc.get("actors") for sc in scenes)
+    if story:
+        events = story_sfx(scenes, starts, speech)
+    elif cfg["voice"].get("sound_effects"):
         bank = {n: _sfx(n) for n in ("whoosh", "pop", "ding", "buzz", "thud")}
         for i, sc in enumerate(scenes):
             if i:
@@ -385,6 +442,19 @@ def synthesize(cfg, lang, scenes, workdir, gap=None, tail=1.0, pace="calm"):
             if sc.get("_phrases"):
                 sc["_phrases"] = [(o / tempo, l / tempo) for o, l in sc["_phrases"]]
         full = fast
+    if events:
+        mixed = _read(full)
+        used = 0
+        for name, at, gain in events:
+            clip = _sfx_clip(name)
+            if clip:
+                _mix(mixed, clip, at / (tempo if tempo > 1.01 else 1.0), gain)
+                used += 1
+        full = workdir / "voice_sfx.wav"
+        with wave.open(str(full), "wb") as out:
+            out.setnchannels(1), out.setsampwidth(2), out.setframerate(RATE)
+            out.writeframes(mixed.tobytes())
+        print(f"sound effects: {used} cues ({', '.join(sorted({e[0] for e in events}))})")
     print(f"voice: pace {pace}, tempo {tempo:.2f}, {total:.1f} s")
     return full, speech, starts, total
 
